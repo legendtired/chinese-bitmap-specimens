@@ -1,0 +1,57 @@
+/* Optional real-browser interaction suite. Do not run where browser launch is denied. */
+const {chromium} = require('playwright');
+const assert = require('node:assert/strict');
+const path = require('node:path');
+const {pathToFileURL} = require('node:url');
+(async () => {
+  const browser = await chromium.launch({headless:true});
+  try {
+    const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
+    page.on('pageerror',error=>errors.push(error.message));
+    await page.addInitScript(()=>{ try {localStorage.removeItem('chinese-bitmap:favorites:v1')} catch {} });
+    await page.goto(pathToFileURL(path.resolve(__dirname,'../index.html')).href);
+    const total=await page.locator('.specimen').count();
+    await page.locator('.favorite-toggle').nth(0).click();await page.locator('.favorite-toggle').nth(1).click();
+    assert.equal(await page.locator('#favorites-count').innerText(),'2');
+    assert.equal(await page.locator('.favorite-toggle[aria-pressed=true]').count(),2);
+    for(let i=0;i<4;i++) await page.locator('.compare-toggle').nth(i).click();
+    await page.locator('.compare-toggle').nth(4).click();
+    assert.equal(await page.locator('#compare-items button').count(),4);
+    assert((await page.locator('#action-notice').innerText()).includes('最多'));
+    await page.locator('#filter-groups input[type=radio]').nth(1).check();
+    await page.locator('#favorites-open').click();
+    assert.equal(await page.locator('.specimen').count(),2,'Favorites ignore prior height filter');
+    await page.locator('#sort').selectOption('name');
+    assert.equal(await page.locator('#compare-items button').count(),4);
+    await page.locator('#favorites-clear').click();await page.locator('#favorites-cancel-clear').click();
+    assert.equal(await page.locator('#favorites-count').innerText(),'2');
+    await page.locator('#compare-open').click();
+    assert.equal(await page.locator('#compare-dialog').evaluate(e=>e.open),true);
+    assert.equal(await page.locator('.comparison-row').count(),4);
+    await page.locator('#compare-zoom').selectOption('2');
+    const first=page.locator('#compare-content img').first();await first.evaluate(e=>e.decode());
+    assert.equal(await first.evaluate(e=>e.width),2*await first.evaluate(e=>e.naturalWidth));
+    await page.locator('.comparison-row .quiet-button').first().click();
+    assert.equal(await page.locator('.comparison-row').count(),3);
+    await page.keyboard.press('Escape');
+    assert.equal(await page.locator('#compare-dialog').evaluate(e=>e.open),false);
+    assert.equal(await page.locator('#compare-open').evaluate(e=>e===document.activeElement),true);
+    await page.locator('#favorites-clear').click();await page.locator('#favorites-confirm-clear').click();
+    assert.equal(await page.locator('#favorites-count').innerText(),'0');assert(await page.locator('#empty').isVisible());
+    assert.equal(await page.locator('#compare-items button').count(),3,'Clearing favorites does not clear comparison');
+    await page.locator('#favorites-back').click();await page.locator('#reset-filters').click();
+    assert.equal(await page.locator('.specimen').count(),total);
+    await page.setViewportSize({width:390,height:844});
+    await page.locator('#filters-open').click();assert.equal(await page.locator('#compare-tray').evaluate(e=>e.inert),true);
+    await page.keyboard.press('Escape');assert.equal(await page.locator('#compare-tray').evaluate(e=>e.inert),false);
+    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+    await page.locator('#compare-clear').click();assert.equal(await page.locator('#compare-tray').isVisible(),false);
+    assert.deepEqual(errors,[]);
+    const blocked=await browser.newPage();
+    await blocked.addInitScript(()=>Object.defineProperty(window,'localStorage',{get(){throw new DOMException('blocked','SecurityError')}}));
+    await blocked.goto(pathToFileURL(path.resolve(__dirname,'../index.html')).href);
+    await blocked.locator('.favorite-toggle').first().click();assert.equal(await blocked.locator('#favorites-count').innerText(),'1');
+    assert(await blocked.locator('#storage-notice').isVisible());
+    console.log('Browser state acceptance passed: favorites, independent views, clear confirmation, comparison limit/zoom/removal, mobile inert, storage denial.');
+  } finally {await browser.close()}
+})().catch(error=>{console.error(error);process.exitCode=1});

@@ -1,0 +1,26 @@
+const assert = require('node:assert/strict');
+const {FAVORITES_KEY,cleanIds,toggleId,addComparison,createFavoriteStore,visibleCatalog} = require('../app.js');
+const valid = new Set(['a','b','c','d','e']);
+assert.deepEqual(cleanIds(['a','a','unknown',1,null,'b'],valid),['a','b']);
+assert.deepEqual(toggleId(['a'],'a'),[]);assert.deepEqual(toggleId(['a'],'b'),['a','b']);
+const storage={value:JSON.stringify(['a','a','unknown','b']),getItem(key){assert.equal(key,FAVORITES_KEY);return this.value},setItem(key,value){assert.equal(key,FAVORITES_KEY);this.value=value}};
+let store=createFavoriteStore(()=>storage,valid);assert.deepEqual(store.ids,['a','b']);assert.equal(store.sessionOnly,false);
+store.save(['c','c','unknown']);assert.deepEqual(JSON.parse(storage.value),['c']);
+store=createFavoriteStore(()=>storage,valid);assert.deepEqual(store.ids,['c']);
+store.save([]);assert.deepEqual(JSON.parse(storage.value),[]);
+for(const raw of ['invalid','{}','null','123']){let writes=0;const broken=createFavoriteStore(()=>({getItem:()=>raw,setItem:()=>writes++}),valid);assert.equal(broken.sessionOnly,true);assert.deepEqual(broken.ids,[]);broken.save(['a']);assert.deepEqual(broken.ids,['a']);assert.equal(writes,0);}
+const readBlocked=createFavoriteStore(()=>({getItem(){throw Error('Read denied')}}),valid);assert.equal(readBlocked.sessionOnly,true);readBlocked.save(['c']);assert.deepEqual(readBlocked.ids,['c']);
+const blocked=createFavoriteStore(()=>{throw Error('SecurityError')},valid);assert.equal(blocked.sessionOnly,true);blocked.save(['b']);assert.deepEqual(blocked.ids,['b']);
+const quota=createFavoriteStore(()=>({getItem:()=>null,setItem:()=>{throw Error('QuotaExceeded')}}),valid);assert.equal(quota.sessionOnly,false);quota.save(['a']);assert.equal(quota.sessionOnly,true);assert.deepEqual(quota.ids,['a']);quota.save(['b']);assert.deepEqual(quota.ids,['b']);
+let selected=[];for(const id of ['a','b','c','d'])selected=addComparison(selected,id,valid).ids;
+assert.deepEqual(addComparison(selected,'a',valid),{ids:['a','b','c','d'],limitReached:false});
+assert.deepEqual(addComparison(selected,'e',valid),{ids:['a','b','c','d'],limitReached:true});
+selected=selected.filter(id=>id!=='b');selected=addComparison(selected,'e',valid).ids;assert.deepEqual(selected,['a','c','d','e']);
+assert.deepEqual(addComparison([],'unknown',valid),{ids:[],limitReached:false});
+const rows=[{id:'a',name:'A',height:12,priority:90,family:'甲',scripts:['简体']},{id:'b',name:'B',height:16,priority:0,family:'乙',scripts:['繁体']}];
+assert.deepEqual(visibleCatalog(rows,{height:['99']},'not-a-family','recommended',true,['a','b']).map(x=>x.id),['a','b']);
+assert.deepEqual(visibleCatalog(rows,{height:['99']},'','recommended',false,['a']),[]);
+assert.deepEqual(visibleCatalog(rows,{},'','recommended',true,[]),[]);
+assert.deepEqual(visibleCatalog(rows,{},'','height-desc',true,['a','b']).map(x=>x.id),['b','a']);
+assert.deepEqual(selected,['a','c','d','e'],'View/sort/filter calls do not mutate comparison state');
+console.log('State tests passed: deduplication/stale IDs, persistence/reload/clear, malformed/security/quota fallback, duplicates/max4/removal, independent favorites view and stable selection.');

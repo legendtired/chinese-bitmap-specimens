@@ -1,0 +1,33 @@
+{
+  "catalogVersion": 8,
+  "rows": 155,
+  "minCellHeight": 8,
+  "maxCellHeight": 32,
+  "sizeScope": "No 8–32px restriction; native pixel design evidence and remaining uncertainty recorded",
+  "sampleKinds": {
+    "standard": 146,
+    "partial": 7,
+    "osd": 2
+  },
+  "scripts": {
+    "简体": 87,
+    "繁体": 68
+  },
+  "nativePngCount": 155,
+  "standardChineseComplete": 148,
+  "partialChinese": 5,
+  "standardAsciiComplete": 149,
+  "partialAscii": 4,
+  "ordinaryRows": 153,
+  "fontFilesIncluded": 0,
+  "glyphDataIncluded": false,
+  "emptyLineOmission": {
+    "changedSpecimens": 7,
+    "rule": "Entirely blank sample lines do not contribute canvas width or height; partial missing-character advances and native bearings remain unchanged."
+  },
+  "curation": {
+    "removedBySelection": 22,
+    "mergedSampleEquivalent": 3,
+    "scope": "代表性字样，不以数量或细微版本差异充数；同源及疑似取模不自动等于已证实矢量转换。"
+  }
+}

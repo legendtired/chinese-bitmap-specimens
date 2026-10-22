@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tumbled28",
+    "name": "TUMBLED 28",
+    "reason": "作者官方README说明由Source Han Sans普通矢量字体生成，再以脚本调整笔画粗细；不符合本目录的原生点阵设计收录条件。",
+    "sourceUrl": "https://github.com/TsFreddie/TUMBLED#variants",
+    "evidenceType": "author_explicit_statement"
+  },
+  {
+    "id": "tumbled36",
+    "name": "TUMBLED 36",
+    "reason": "作者官方README说明由Source Han Sans普通矢量字体生成，再以脚本调整笔画粗细；不能因输出为点阵文件就当成原生点阵设计。",
+    "sourceUrl": "https://github.com/TsFreddie/TUMBLED#variants",
+    "evidenceType": "author_explicit_statement"
+  },
+  {
+    "id": "cc48-song",
+    "name": "CC 宋体48×48",
+    "status": "excluded",
+    "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/",
+    "reason": "Chinese.BIG/cc48s.bdf NOTICE explicitly: Bitmap converted from outline fonts by CAS/CSC, Beijing, China."
+  },
+  {
+    "id": "cc40-song",
+    "name": "CC 宋体40×40",
+    "status": "excluded",
+    "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/",
+    "reason": "Chinese.BIG/README: cc40s was generated from cc48s by bdfresize; cc48s itself is outline-derived."
+  },
+  {
+    "id": "cc-large-series",
+    "name": "CC 大点阵系列32/48/56/64（宋/仿宋/楷/黑）",
+    "status": "excluded",
+    "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/gb/hbf/00index.txt",
+    "reason": "Archive index explicitly states CC series bitmaps at these sizes were converted from CAS/CSC master outline fonts called clib. This does NOT establish that unrelated HZK32 is the same font."
+  },
+  {
+    "id": "jiskan48-resized",
+    "name": "JIS jiskan48",
+    "status": "excluded",
+    "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/",
+    "reason": "Japanese.BIG/jiskan48.bdf first comments: automatically resized by bdfresize-1.4; mag_x=2/1, mag_y=2/1; original 24x24 JIS X 9052-1983. Not a native48 design."
+  }
+]

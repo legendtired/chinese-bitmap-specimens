@@ -1,0 +1,32 @@
+{
+  "removedIds": [
+    "knife911_5x7",
+    "efont_biwidth_10",
+    "ark10",
+    "efont_biwidth_12",
+    "efont_biwidth_14",
+    "dotum16",
+    "batang16",
+    "gulim16",
+    "hbf_uwgb_16",
+    "taipeik20",
+    "taipeil20",
+    "taipeim20",
+    "taipeir20",
+    "taipeis20",
+    "taipeis24",
+    "dotum24",
+    "batang24",
+    "hbf_cch24",
+    "ccic_taipeil24",
+    "taipeib24",
+    "taipeir24",
+    "hzk_hzk32"
+  ],
+  "merged": {
+    "simsun_native_12": "founder_pixel12",
+    "simsun_native_14": "founder_pixel14",
+    "ccic_chkan_24": "isas_song_24"
+  },
+  "note": "Removal is a curated inclusion decision, not proof that every removed font originated from outline rasterization."
+}

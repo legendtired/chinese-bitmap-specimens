@@ -1,0 +1,40 @@
+# Local-only research inputs and generated experiments; never publish this directory.
+/local-research/
+# Raw font, firmware and extracted-glyph files must not enter the public archive.
+*.[tT][tT][fF]
+*.[tT][cC][cC]
+*.[tT][tT][cC]
+*.[oO][tT][fF]
+*.[wW][oO][fF][fF]*
+*.[bB][dD][fF]*
+*.[pP][cC][fF]*
+*.[fF][oO][nN]
+*.[fF][nN][tT]
+*.[mM][oO][tT]
+*.[rR][oO][mM]
+*.[bB][iI][nN]
+*.[hH][eE][xX]
+*.zip
+*.7z
+*.rar
+*.tar
+*.tgz
+*.tar.gz
+# Local environment, credentials, editor and test artifacts.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+playwright-report/
+test-results/
+screenshots/
+*.log

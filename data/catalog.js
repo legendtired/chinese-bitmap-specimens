@@ -1,0 +1,7137 @@
+window.FONT_CATALOG = [
+  {
+    "id": "boutique9",
+    "name": "精品点阵体 9×9（10px 字框）",
+    "family": "精品点阵体",
+    "width": 10,
+    "height": 10,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/boutique9.png",
+    "specimenWidth": 158,
+    "specimenHeight": 26,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "基于 M+ BITMAP FONTS 与 BestTen-DOT 改作，使用缝合像素补字；扩充繁简体中文。以日文像素字体为基础扩充的中文手工像素字形；9×9 为主要字面尺寸。 字体本身是像素轮廓；按其原生网格在像素中心解码，无字体 hinting、抗锯齿、加粗或普通轮廓取模。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 2,
+    "nativeEvidence": {
+      "summary": "Established native rectilinear pixel-grid decoding, no outline rasterizer, antialiasing, hinting, fallback or substitutions.",
+      "sourceUrl": "https://github.com/scott0107000/BoutiqueBitmap9x9"
+    },
+    "cellWidth": 10,
+    "cellHeight": 10,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "50f9bfa47290c3048cb77de984d61583ddf1ad4a4fd75c40460a191781991f2c",
+    "priority": 0
+  },
+  {
+    "id": "fusion10",
+    "name": "缝合像素 10×10",
+    "family": "缝合像素",
+    "width": 10,
+    "height": 10,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/fusion10.png",
+    "specimenWidth": 135,
+    "specimenHeight": 24,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/TakWolf/fusion-pixel-font",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "以方舟像素为基础，拼合 BoutiqueBitmap、Cubic11、Galmuri 等开源像素字形；不是独立重绘的所有字形。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 3,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/TakWolf/fusion-pixel-font"
+    },
+    "cellWidth": 10,
+    "cellHeight": 10,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "a9ab9a9614d6bc46b9b282cba772af2439e717eaa60be614363ce62d6c76c1c8",
+    "priority": 0
+  },
+  {
+    "id": "firefly_sung_11",
+    "name": "Firefly 螢火飛点阵新宋 11×11",
+    "family": "Firefly 萤火飞点阵新宋",
+    "width": 11,
+    "height": 11,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/firefly_sung_11.png",
+    "specimenWidth": 141,
+    "specimenHeight": 26,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/rougier/freetype-gl",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Arphic Public License：来源 TTF 的 name table（name ID 13）载有许可文本。字体数据的使用与再分发需查阅原许可；本站只展示固定字样，不提供字体文件。",
+    "provenance": "AR PL New Sung / fireflysung.ttf 1.3.0; extracted EBDT 1-bit strike, ppem 11. Firefly screen-optimized bitmap glyphs, NOT the accompanying vector outlines.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 4,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/rougier/freetype-gl"
+    },
+    "cellWidth": 11,
+    "cellHeight": 11,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "38c30f42c7b6e34cbc6afcc70b64c40ffb9fababb5800ac8afcdd7f363d5989a",
+    "priority": 0
+  },
+  {
+    "id": "boutique9bold",
+    "name": "精品点阵体 9×9 粗体（11px 字宽）",
+    "family": "精品点阵体",
+    "width": 11,
+    "height": 11,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/boutique9bold.png",
+    "specimenWidth": 173,
+    "specimenHeight": 26,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "基于 M+ BITMAP FONTS 与 BestTen-DOT 改作，使用缝合像素补字；扩充繁简体中文。同家族粗体变体；非独立字体家族。 字体本身是像素轮廓；按其原生网格在像素中心解码，无字体 hinting、抗锯齿、加粗或普通轮廓取模。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 5,
+    "nativeEvidence": {
+      "summary": "Established native rectilinear pixel-grid decoding, no outline rasterizer, antialiasing, hinting, fallback or substitutions.",
+      "sourceUrl": "https://github.com/scott0107000/BoutiqueBitmap9x9"
+    },
+    "cellWidth": 11,
+    "cellHeight": 11,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "8cc35513f58f34461dc8877e63bf214c166e43b6552e79d839ad2d97786e2acd",
+    "priority": 0
+  },
+  {
+    "id": "firefly_sung_12",
+    "name": "Firefly 螢火飛点阵新宋 12×12",
+    "family": "Firefly 萤火飞点阵新宋",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/firefly_sung_12.png",
+    "specimenWidth": 144,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/rougier/freetype-gl",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Arphic Public License：来源 TTF 的 name table（name ID 13）载有许可文本。字体数据的使用与再分发需查阅原许可；本站只展示固定字样，不提供字体文件。",
+    "provenance": "AR PL New Sung / fireflysung.ttf 1.3.0; extracted EBDT 1-bit strike, ppem 12. Firefly screen-optimized bitmap glyphs, NOT the accompanying vector outlines.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 7,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/rougier/freetype-gl"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "b18059197114168dbf80d4f921d81c8820d78feae4cfe35f4a3e40f86f00a7bd",
+    "priority": 0
+  },
+  {
+    "id": "zlabs12",
+    "name": "Z工坊像素黑体 11×12",
+    "family": "Z工坊像素黑体",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/zlabs12.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/Astro-2539/ZLabs-Pixel-12px",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "Astro_2539 在 Bits’n’Picas 制作的手工中文像素字体；本例使用 CN 字形版本。 字体本身是像素轮廓；按其原生网格在像素中心解码，无字体 hinting、抗锯齿、加粗或普通轮廓取模。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 8,
+    "nativeEvidence": {
+      "summary": "Established native rectilinear pixel-grid decoding, no outline rasterizer, antialiasing, hinting, fallback or substitutions.",
+      "sourceUrl": "https://github.com/Astro-2539/ZLabs-Pixel-12px"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "5f614a7a33090ef4b3b5595f58b150accef55ffc8a2204804f6b7054c9db52d8",
+    "priority": 0
+  },
+  {
+    "id": "wenquanyi_song_12",
+    "name": "文泉驿点阵宋体 12×12",
+    "family": "文泉驿点阵宋体",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/wenquanyi_song_12.png",
+    "specimenWidth": 168,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "GPL-2.0-or-later with font embedding exception; source COPYING retained.",
+    "provenance": "WenQuanYi Bitmap Song 1.0.0-RC1 original PCF. Hand-designed/edited bitmap project based partly on Firefly; 16px Hanzi partly from Chinese national standard GB19966. PCF mirrored by AmusementClub, no TTF rasterization.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 9,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "06dadb7486e264864d52643914b9216179d687a2112904b557af8e258b9b2327",
+    "priority": 0
+  },
+  {
+    "id": "ark12",
+    "name": "方舟像素 12×12",
+    "family": "方舟像素",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/ark12.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/TakWolf/ark-pixel-font",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "中文样文未覆盖：窗；对应位置保留透明空位，不绘制替代方框，不借用其他字体。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "TakWolf 原生手工像素字形项目。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。 本文案的像素结果与缝合像素12px完全相同。",
+    "sampleKind": "partial",
+    "coverage": "部分字符未覆盖",
+    "missing": [
+      "窗"
+    ],
+    "hanMissing": [
+      "窗"
+    ],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 10,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/TakWolf/ark-pixel-font"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "9176d019f64bce10a903a33c15b8b1e39953a57e3129adc1b83f4395cb199afd",
+    "priority": 0
+  },
+  {
+    "id": "changbandiansong-12",
+    "name": "长坂点宋 12×12",
+    "family": "长坂点宋",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/changbandiansong-12.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/yzdnn/ChangBanDianSong-12",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "yzdnn 基于 KH Dot 道玄坂12 手工补充简繁体汉字的像素字体。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 11,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/yzdnn/ChangBanDianSong-12"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "8da094108cc6953184363a1a845c858d94cb3fe6a68486ee65e912271de29fe2",
+    "priority": 0
+  },
+  {
+    "id": "cubic11",
+    "name": "俐方体11号（11×11 字面）",
+    "family": "俐方体11号",
+    "width": 13,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/cubic11.png",
+    "specimenWidth": 174,
+    "specimenHeight": 32,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/ACh-K/Cubic-11",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "基于 M+ gothic 12r 衍生，面向繁体中文并补简体字；当前字体保留两侧空白，实际汉字字宽13格、em高12格。 字体本身是像素轮廓；按其原生网格在像素中心解码，无字体 hinting、抗锯齿、加粗或普通轮廓取模。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 12,
+    "nativeEvidence": {
+      "summary": "Established native rectilinear pixel-grid decoding, no outline rasterizer, antialiasing, hinting, fallback or substitutions.",
+      "sourceUrl": "https://github.com/ACh-K/Cubic-11"
+    },
+    "cellWidth": 13,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "f80ea57a8e3a163aa8784bda65e8c54865f8ca34aea6b68ac1a87d23014b0a69",
+    "priority": 0
+  },
+  {
+    "id": "zpix12",
+    "name": "最像素 Zpix 12px（字宽13）",
+    "family": "最像素 Zpix",
+    "width": 13,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/zpix12.png",
+    "specimenWidth": 171,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/SolidZORO/zpix-pixel-font",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "个人非商业与教育用途免费；商业使用需付费授权，禁止修改、转换或拆分字体。本资料仅作渲染预览，不再分发字体或字形数据。",
+    "provenance": "SolidZORO 的中文像素字体；直接使用官方 BDF。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 13,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/SolidZORO/zpix-pixel-font"
+    },
+    "cellWidth": 13,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "df73e225b2fbef7953b753fda0a736828032344419846592a9960a52e37b72d5",
+    "priority": 0
+  },
+  {
+    "id": "firefly_sung_13",
+    "name": "Firefly 螢火飛点阵新宋 13×13",
+    "family": "Firefly 萤火飞点阵新宋",
+    "width": 13,
+    "height": 13,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/firefly_sung_13.png",
+    "specimenWidth": 163,
+    "specimenHeight": 30,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/rougier/freetype-gl",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Arphic Public License：来源 TTF 的 name table（name ID 13）载有许可文本。字体数据的使用与再分发需查阅原许可；本站只展示固定字样，不提供字体文件。",
+    "provenance": "AR PL New Sung / fireflysung.ttf 1.3.0; extracted EBDT 1-bit strike, ppem 13. Firefly screen-optimized bitmap glyphs, NOT the accompanying vector outlines.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 14,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/rougier/freetype-gl"
+    },
+    "cellWidth": 13,
+    "cellHeight": 13,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "f52d83eb686f119adf19a56bc16ca4be516608bb8620ae84896f819e1264b0ff",
+    "priority": 0
+  },
+  {
+    "id": "wenquanyi_song_13",
+    "name": "文泉驿点阵宋体 13×13",
+    "family": "文泉驿点阵宋体",
+    "width": 13,
+    "height": 13,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/wenquanyi_song_13.png",
+    "specimenWidth": 190,
+    "specimenHeight": 32,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "GPL-2.0-or-later with font embedding exception; source COPYING retained.",
+    "provenance": "WenQuanYi Bitmap Song 1.0.0-RC1 original PCF. Hand-designed/edited bitmap project based partly on Firefly; 16px Hanzi partly from Chinese national standard GB19966. PCF mirrored by AmusementClub, no TTF rasterization.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 15,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF"
+    },
+    "cellWidth": 13,
+    "cellHeight": 13,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "547e06cbe3d00452c174f843abf1d5bc784daeccdc5ae1edcde747e3a5e32996",
+    "priority": 0
+  },
+  {
+    "id": "firefly_sung_14",
+    "name": "Firefly 螢火飛点阵新宋 14×14",
+    "family": "Firefly 萤火飞点阵新宋",
+    "width": 14,
+    "height": 14,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/firefly_sung_14.png",
+    "specimenWidth": 168,
+    "specimenHeight": 32,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/rougier/freetype-gl",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Arphic Public License：来源 TTF 的 name table（name ID 13）载有许可文本。字体数据的使用与再分发需查阅原许可；本站只展示固定字样，不提供字体文件。",
+    "provenance": "AR PL New Sung / fireflysung.ttf 1.3.0; extracted EBDT 1-bit strike, ppem 14. Firefly screen-optimized bitmap glyphs, NOT the accompanying vector outlines.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 17,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/rougier/freetype-gl"
+    },
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "b0df78059745f78cbdd3a6a2c33059a8a688950b6cf51f92e8e6cdd198c39913",
+    "priority": 60
+  },
+  {
+    "id": "wenquanyi_song_14",
+    "name": "文泉驿点阵宋体 14×14",
+    "family": "文泉驿点阵宋体",
+    "width": 14,
+    "height": 14,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/wenquanyi_song_14.png",
+    "specimenWidth": 184,
+    "specimenHeight": 34,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "GPL-2.0-or-later with font embedding exception; source COPYING retained.",
+    "provenance": "WenQuanYi Bitmap Song 1.0.0-RC1 original PCF. Hand-designed/edited bitmap project based partly on Firefly; 16px Hanzi partly from Chinese national standard GB19966. PCF mirrored by AmusementClub, no TTF rasterization.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 18,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF"
+    },
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "12a132015b82173e6080fdf046f0e6091cb125fa4cd23c96ef5760a0d996a287",
+    "priority": 0
+  },
+  {
+    "id": "firefly_sung_15",
+    "name": "Firefly 螢火飛点阵新宋 15×15",
+    "family": "Firefly 萤火飞点阵新宋",
+    "width": 15,
+    "height": 15,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/firefly_sung_15.png",
+    "specimenWidth": 190,
+    "specimenHeight": 34,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/rougier/freetype-gl",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Arphic Public License：来源 TTF 的 name table（name ID 13）载有许可文本。字体数据的使用与再分发需查阅原许可；本站只展示固定字样，不提供字体文件。",
+    "provenance": "AR PL New Sung / fireflysung.ttf 1.3.0; extracted EBDT 1-bit strike, ppem 15. Firefly screen-optimized bitmap glyphs, NOT the accompanying vector outlines.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 19,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/rougier/freetype-gl"
+    },
+    "cellWidth": 15,
+    "cellHeight": 15,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "3a75e445b7efc09100798d9b09f43560d746bdba173e5973d6fd09de908ce95e",
+    "priority": 0
+  },
+  {
+    "id": "wenquanyi_song_15",
+    "name": "文泉驿点阵宋体 15×15",
+    "family": "文泉驿点阵宋体",
+    "width": 15,
+    "height": 15,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/wenquanyi_song_15.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "GPL-2.0-or-later with font embedding exception; source COPYING retained.",
+    "provenance": "WenQuanYi Bitmap Song 1.0.0-RC1 original PCF. Hand-designed/edited bitmap project based partly on Firefly; 16px Hanzi partly from Chinese national standard GB19966. PCF mirrored by AmusementClub, no TTF rasterization.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 20,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF"
+    },
+    "cellWidth": 15,
+    "cellHeight": 15,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "e1da7c318cddf4520e6fb396052ca5b5c3a9fa48144e51069ff3813e0ffc2e82",
+    "priority": 0
+  },
+  {
+    "id": "efont_biwidth_16",
+    "name": "/efont/ Unicode 16×16",
+    "family": "/efont/ Unicode",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/efont_biwidth_16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://mirrors.mit.edu/macports/distfiles/efont-unicode/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "BSD-style efont license plus retained source font notices (Public Domain, ISAS permissive, Baekmuk). See source COPYRIGHT and README.",
+    "provenance": "efont-unicode-bdf 0.4.2 regular biwidth BDF. Compiled from native bitmap sources plus efont-designed characters. Chinese at 16/24 draws partly from Taipei and ISAS; not an independent family for every inherited glyph.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 21,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://mirrors.mit.edu/macports/distfiles/efont-unicode/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "9ff5549d4d9e9e990ccf0bd4f972d0b838fd91c7dfcfcf48e101bb261785fbfe",
+    "priority": 0
+  },
+  {
+    "id": "firefly_sung_16",
+    "name": "Firefly 螢火飛点阵新宋 16×16",
+    "family": "Firefly 萤火飞点阵新宋",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/firefly_sung_16.png",
+    "specimenWidth": 192,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/rougier/freetype-gl",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Arphic Public License：来源 TTF 的 name table（name ID 13）载有许可文本。字体数据的使用与再分发需查阅原许可；本站只展示固定字样，不提供字体文件。",
+    "provenance": "AR PL New Sung / fireflysung.ttf 1.3.0; extracted EBDT 1-bit strike, ppem 16. Firefly screen-optimized bitmap glyphs, NOT the accompanying vector outlines.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 22,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/rougier/freetype-gl"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "fb8fbc0af71b183786e24f77df782ec79757825c077e78c056f7b3cc6eee7081",
+    "priority": 0
+  },
+  {
+    "id": "gnu_unifont_16",
+    "name": "GNU Unifont 16×16",
+    "family": "GNU Unifont",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/gnu_unifont_16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.gnu.org/gnu/unifont/unifont-16.0.04/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Dual licensed SIL OFL 1.1 or GPL-2.0-or-later with font embedding exception; license stated in original BDF COPYRIGHT.",
+    "provenance": "GNU Unifont 16.0.04 BDF, designed and edited as native 8×16 / 16×16 bitmaps. Chinese contributors include original Unifont work.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 23,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.gnu.org/gnu/unifont/unifont-16.0.04/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "b980be7c5962c0343ba1d0e9f9e056c68e72bef0e92edacdd7e486c06a94846c",
+    "priority": 0
+  },
+  {
+    "id": "renoufangsong-16",
+    "name": "人偶仿宋 16×16",
+    "family": "人偶仿宋",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "仿宋"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/renoufangsong-16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/yzdnn/RenOuFangSong-16",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "yzdnn 基于 KH Dot 人形町16 手工补充简繁体汉字的像素字体。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 24,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/yzdnn/RenOuFangSong-16"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "5ec621c4daa88469d3c08dead8cc777e89134315b33ea50ba4a2ffb487d3def4",
+    "priority": 50
+  },
+  {
+    "id": "badingshiweiti-16",
+    "name": "八丁饰尾体 16×16",
+    "family": "八丁饰尾体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/badingshiweiti-16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/yzdnn/BaDingShiWeiTi-16",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "yzdnn 基于 KH Dot 八丁堀16 手工补充简繁体汉字的像素字体。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 25,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/yzdnn/BaDingShiWeiTi-16"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "ebae2f08df3d9f4cbcc65ad50d5932aa2fb5a7cff9b9f60cb9e15f0523edeae3",
+    "priority": 0
+  },
+  {
+    "id": "shanweizhouhei-16",
+    "name": "扇尾胄黑 16×16",
+    "family": "扇尾胄黑",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/shanweizhouhei-16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/yzdnn/ShanWeiZhouHei-16",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "yzdnn 基于 KH Dot 兜町16 手工补充简繁体汉字的像素字体。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 26,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/yzdnn/ShanWeiZhouHei-16"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "74e4bfd5ea76491839d46fb1895b04e879ccafaef9f7227059b5450630d64308",
+    "priority": 0
+  },
+  {
+    "id": "wenquanyi_song_16",
+    "name": "文泉驿点阵宋体 16×16",
+    "family": "文泉驿点阵宋体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/wenquanyi_song_16.png",
+    "specimenWidth": 227,
+    "specimenHeight": 38,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "GPL-2.0-or-later with font embedding exception; source COPYING retained.",
+    "provenance": "WenQuanYi Bitmap Song 1.0.0-RC1 original PCF. Hand-designed/edited bitmap project based partly on Firefly; 16px Hanzi partly from Chinese national standard GB19966. PCF mirrored by AmusementClub, no TTF rasterization.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 27,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "69b93e727609621c7c141355020fb1e5a472a9025354846eb0caad43f566726a",
+    "priority": 0
+  },
+  {
+    "id": "zhenggedianhei-16",
+    "name": "正格点黑 16×16",
+    "family": "正格点黑",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/zhenggedianhei-16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/yzdnn/ZhengGeDianHei-16",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "yzdnn 基于 DotGothic16 手工补充简繁体汉字的像素字体。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 28,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/yzdnn/ZhengGeDianHei-16"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "d441ce5d3c26a8fe4157ddaef3cc0e3e309adb7515e658e6d6b22809ef0c159d",
+    "priority": 0
+  },
+  {
+    "id": "qiuyeyuanti-16",
+    "name": "秋叶圆体 16×16",
+    "family": "秋叶圆体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "圆体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/qiuyeyuanti-16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/yzdnn/QiuYeYuanTi-16",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "yzdnn 基于 KH Dot 秋葉原16 手工补充简繁体汉字的像素字体。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 29,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/yzdnn/QiuYeYuanTi-16"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "9dd8f789b420f78a9f800eaae6149fd4259444416e62b91e901d22ea6cda64c1",
+    "priority": 0
+  },
+  {
+    "id": "changbandiansong-16",
+    "name": "长坂点宋 16×16",
+    "family": "长坂点宋",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/changbandiansong-16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/yzdnn/ChangBanDianSong-16",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "yzdnn 基于 KH Dot 道玄坂16 手工补充简繁体汉字的像素字体。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 30,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/yzdnn/ChangBanDianSong-16"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "ff19630a8df83527758721b6373ce5fa1a761f47dd56ad980bfcd91f7b6f0122",
+    "priority": 0
+  },
+  {
+    "id": "efont_biwidth_24",
+    "name": "/efont/ Unicode 24×24",
+    "family": "/efont/ Unicode",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/efont_biwidth_24.png",
+    "specimenWidth": 324,
+    "specimenHeight": 52,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://mirrors.mit.edu/macports/distfiles/efont-unicode/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "BSD-style efont license plus retained source font notices (Public Domain, ISAS permissive, Baekmuk). See source COPYRIGHT and README.",
+    "provenance": "efont-unicode-bdf 0.4.2 regular biwidth BDF. Compiled from native bitmap sources plus efont-designed characters. Chinese at 16/24 draws partly from Taipei and ISAS; not an independent family for every inherited glyph.",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 31,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://mirrors.mit.edu/macports/distfiles/efont-unicode/"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "0fc26c3bfe829f20197434ceaf34cfcef23354b0931d7b6e6012d1d359fbdb13",
+    "priority": 0
+  },
+  {
+    "id": "tomzbj_hzk11us",
+    "name": "HZK11US Unicode 重排版 · 11×11",
+    "family": "HZK 宋体",
+    "width": 11,
+    "height": 11,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/tomzbj_hzk11us.png",
+    "specimenWidth": 132,
+    "specimenHeight": 11,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/tomzbj/unicode_hzk_smlib_gen",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "中文样文未覆盖：，。；对应位置保留透明空位，不绘制替代方框，不借用其他字体。 拉丁样文未覆盖：0123456789AaBbGgMm!?:+-.；对应位置保留透明空位。 源库标点及ASCII索引不可靠，本样本仅采用已核实汉字，未采用错映字模。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "仓库未明确提供字模授权；原 DOS 字库权利需另行核实。",
+    "provenance": "作者说明将既有 GB2312 HZK 字模按 Unicode 重排；直接解码原生定长二进制点阵，未用 TTF 重新栅格化。原作者与逐点手修历史未证实。",
+    "sampleKind": "partial",
+    "coverage": "部分字符未覆盖",
+    "missing": [
+      "，",
+      "。",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "A",
+      "a",
+      "B",
+      "b",
+      "G",
+      "g",
+      "M",
+      "m",
+      "!",
+      "?",
+      ":",
+      "+",
+      "-",
+      "."
+    ],
+    "hanMissing": [
+      "，",
+      "。"
+    ],
+    "asciiMissing": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "A",
+      "a",
+      "B",
+      "b",
+      "G",
+      "g",
+      "M",
+      "m",
+      "!",
+      "?",
+      ":",
+      "+",
+      "-",
+      "."
+    ],
+    "asciiOrigin": "missing",
+    "sourceIndex": 32,
+    "nativeEvidence": {
+      "summary": "Native Unicode-reordered 11x11 bitmap, verified Han only; punctuation and ASCII mapping rejected as unreliable",
+      "sourceUrl": "https://github.com/tomzbj/unicode_hzk_smlib_gen"
+    },
+    "cellWidth": 11,
+    "cellHeight": 11,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "e36a4ddc048c8e62ff0dfa89fe408f14333e9c9904430b43e576febe545b7522",
+    "priority": 0,
+    "omittedEmptyLines": [
+      "ascii"
+    ]
+  },
+  {
+    "id": "hzk_hzk12",
+    "name": "HZK12 宋体 · 12×12",
+    "family": "HZK 宋体",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hzk_hzk12.png",
+    "specimenWidth": 306,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/aguegu/BitmapFont",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "原仓库工具代码标 GPL-3.0，并不自动授予历史字模权利。后续考据明确提示 HZK 字模并非公有领域；本次仅作样文效果比较，商用须另查授权。",
+    "provenance": "直接解码公开 HZK 二进制定长点阵，未从 TTF 栅格化；原始设计者及是否逐点手修尚未证实。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 33,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/aguegu/BitmapFont"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "93836fdd7fe0c9923bca0d2b706507e87542465dce26f90c8b6e8eb99effd38e",
+    "priority": 0
+  },
+  {
+    "id": "hzk_hzk14",
+    "name": "HZK14 宋体 · 14×14",
+    "family": "HZK 宋体",
+    "width": 14,
+    "height": 14,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hzk_hzk14.png",
+    "specimenWidth": 357,
+    "specimenHeight": 32,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/aguegu/BitmapFont",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "原仓库工具代码标 GPL-3.0，并不自动授予历史字模权利。后续考据明确提示 HZK 字模并非公有领域；本次仅作样文效果比较，商用须另查授权。",
+    "provenance": "直接解码公开 HZK 二进制定长点阵，未从 TTF 栅格化；原始设计者及是否逐点手修尚未证实。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 34,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/aguegu/BitmapFont"
+    },
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "277a413e14a4135aa9bc8c81609b57568f7a70eb15161e72b456f9f8371b7a4f",
+    "priority": 0
+  },
+  {
+    "id": "ccic_eb5_15j",
+    "name": "国乔 KC 简体宋体 16×15 · 16×15",
+    "family": "国乔 KC 宋体",
+    "width": 16,
+    "height": 15,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/ccic_eb5_15j.png",
+    "specimenWidth": 408,
+    "specimenHeight": 34,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/big5/bdf/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "\"(c)1992 Kuo Chiao Information Systems, Ltd.\" / \"The bitmap files are converted from that of KC System 6.22\"",
+    "provenance": "公开历史 BDF 原生点阵，直接读取 BITMAP；未用轮廓字体重绘。文件明确标注 jiantizi，并由国乔 KC System 6.22 的简体字库转换；该库以 Big5 繁体码位存储简体字形，此处按实际字形重映射东/视/频/号/输/单。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 35,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/big5/bdf/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 15,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "c6d90f8c57e18d63537851c1dbcbb86c762f7f74a2fb5ddf70e45670314c5da2",
+    "priority": 0
+  },
+  {
+    "id": "guobiao_song_16",
+    "name": "GuoBiao 扩展国标宋体 16×16",
+    "family": "GuoBiao 扩展国标宋体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/guobiao_song_16.png",
+    "specimenWidth": 408,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "BDF header states Public Domain; preserve source headers.",
+    "provenance": "GNU intlfonts 1.4.2, Chinese/guob16.bdf. Exact BDF pixels. ",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 36,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "820238d8af2a2ea260fbebb42a8264a783f55baec036ffc57c632c8f43bae2b1",
+    "priority": 0
+  },
+  {
+    "id": "hzk_hzk16",
+    "name": "HZK16 宋体 · 16×16",
+    "family": "HZK 宋体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hzk_hzk16.png",
+    "specimenWidth": 408,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/aguegu/BitmapFont",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "原仓库工具代码标 GPL-3.0，并不自动授予历史字模权利。后续考据明确提示 HZK 字模并非公有领域；本次仅作样文效果比较，商用须另查授权。",
+    "provenance": "直接解码公开 HZK 二进制定长点阵，未从 TTF 栅格化；原始设计者及是否逐点手修尚未证实。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 37,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/aguegu/BitmapFont"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "a7b509d5b621c7b9f73b2e53da8e7c374c4c7726f1079f49048e641a6cc10944",
+    "priority": 0
+  },
+  {
+    "id": "hzk_hzk16s",
+    "name": "HZK16S 美术体 · 16×16",
+    "family": "HZK 美术体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hzk_hzk16s.png",
+    "specimenWidth": 408,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/aguegu/BitmapFont",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "原仓库工具代码标 GPL-3.0，并不自动授予历史字模权利。后续考据明确提示 HZK 字模并非公有领域；本次仅作样文效果比较，商用须另查授权。",
+    "provenance": "直接解码公开 HZK 二进制定长点阵，未从 TTF 栅格化；原始设计者及是否逐点手修尚未证实。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 38,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/aguegu/BitmapFont"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "d1280e49eeaa6dea716ceb7ef54178fd57b39bdad4309eb420211bce32c52abc",
+    "priority": 0
+  },
+  {
+    "id": "isas_fangsong_16",
+    "name": "ISAS 仿宋 16×16",
+    "family": "ISAS 仿宋",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "仿宋"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/isas_fangsong_16.png",
+    "specimenWidth": 408,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "ISAS 1988 permissive license in BDF header.",
+    "provenance": "GNU intlfonts 1.4.2, Chinese.X/gb16fs.bdf. Exact BDF pixels. ",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 39,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "7a30df026db26674c493783764f6fbc9f90eb42911865f10248491454e316276",
+    "priority": 0
+  },
+  {
+    "id": "hbf_Beijing16",
+    "name": "Beijing / ISAS 宋体 · 16×16",
+    "family": "ISAS 宋体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hbf_Beijing16.png",
+    "specimenWidth": 408,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/gb/hbf/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "\"This HBF header file is in the public domain.\" / \"The hanzi bitmap files are ccsym.16, Beijing16.1, and Beijing16.2\"；头文件许可不代表原字模许可。",
+    "provenance": "直接读取 HBF 指定的历史二进制字模及码段，未从 TTF 栅格化。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 40,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/gb/hbf/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "f6a09c8911fc05c06b277bb26dd2bd9fd0fb4ce9114d718f25fa166e3566f979",
+    "priority": 40
+  },
+  {
+    "id": "hbf_cck24",
+    "name": "CC2TeX 楷体 · 24×24",
+    "family": "CC2TeX 楷体",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hbf_cck24.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/gb/hbf/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "\"(C)1992 ZHI BIAO WU,ISCS,NUS,SINGAPORE. All Rights Reserved\" / \"RESEARCH & ACADEMIC USE ONLY. COMMERCIAL USE IS STRICTLY PROHIBITED.\"；头文件许可不代表原字模许可。",
+    "provenance": "直接读取 HBF 指定的历史二进制字模及码段，未从 TTF 栅格化。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 42,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/gb/hbf/"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "36f9f19ea24004c700af3cde295ca4b317aa77434e76bdf640af8fdea8d7ef3f",
+    "priority": 0
+  },
+  {
+    "id": "hzk_hzk24f",
+    "name": "HZK24F 仿宋 · 24×24",
+    "family": "HZK 仿宋",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "仿宋"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hzk_hzk24f.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/aguegu/BitmapFont",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "原仓库工具代码标 GPL-3.0，并不自动授予历史字模权利。后续考据明确提示 HZK 字模并非公有领域；本次仅作样文效果比较，商用须另查授权。",
+    "provenance": "直接解码公开 HZK 二进制定长点阵，未从 TTF 栅格化；原始设计者及是否逐点手修尚未证实。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 45,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/aguegu/BitmapFont"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "6cda3aa10b03653e431d8b51013596df86211c037eb99978ea2f780a4283ac86",
+    "priority": 0
+  },
+  {
+    "id": "hzk_hzk24s",
+    "name": "HZK24S 宋体 · 24×24",
+    "family": "HZK 宋体",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hzk_hzk24s.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/aguegu/BitmapFont",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "原仓库工具代码标 GPL-3.0，并不自动授予历史字模权利。后续考据明确提示 HZK 字模并非公有领域；本次仅作样文效果比较，商用须另查授权。",
+    "provenance": "直接解码公开 HZK 二进制定长点阵，未从 TTF 栅格化；原始设计者及是否逐点手修尚未证实。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 46,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/aguegu/BitmapFont"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "eaadda241da15ece57afe14b7b13f59318dbfb1568f361cdfc3a28f11f9c6ac4",
+    "priority": 0
+  },
+  {
+    "id": "hzk_hzk24k",
+    "name": "HZK24K 楷体 · 24×24",
+    "family": "HZK 楷体",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hzk_hzk24k.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/aguegu/BitmapFont",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "原仓库工具代码标 GPL-3.0，并不自动授予历史字模权利。后续考据明确提示 HZK 字模并非公有领域；本次仅作样文效果比较，商用须另查授权。",
+    "provenance": "直接解码公开 HZK 二进制定长点阵，未从 TTF 栅格化；原始设计者及是否逐点手修尚未证实。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 47,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/aguegu/BitmapFont"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "23566d8db64da5167116d684dab07f6bb9123c2374980ae470a01b4667113c8b",
+    "priority": 0
+  },
+  {
+    "id": "hzk_hzk24h",
+    "name": "HZK24H 黑体 · 24×24",
+    "family": "HZK 黑体",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hzk_hzk24h.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/aguegu/BitmapFont",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "原仓库工具代码标 GPL-3.0，并不自动授予历史字模权利。后续考据明确提示 HZK 字模并非公有领域；本次仅作样文效果比较，商用须另查授权。",
+    "provenance": "直接解码公开 HZK 二进制定长点阵，未从 TTF 栅格化；原始设计者及是否逐点手修尚未证实。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 48,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/aguegu/BitmapFont"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "214545149e48a9bd164a0165baa7008d013c664586a8d35f76bc5b10da8475f5",
+    "priority": 0
+  },
+  {
+    "id": "isas_song_24",
+    "name": "ISAS 宋体 24×24",
+    "family": "ISAS 宋体",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/isas_song_24.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。 当前完整样张 PNG（612×52）逐像素一致，两份资料均注明 ISAS 1988；仅据样文合并，不断言完整字库一致。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "ISAS 1988 permissive license in BDF header.",
+    "provenance": "GNU intlfonts 1.4.2, Chinese.X/gb24st.bdf. Exact BDF pixels. ",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 49,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "310ae385e837bb1d88ed8e166f3132ed65db073354dea8a4459b7e6c76b7bb2b",
+    "priority": 0,
+    "relatedSources": [
+      {
+        "name": "CCLIB chkan 宋体 · 24×24",
+        "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/gb/bdf/",
+        "provenance": "公开历史 BDF 原生点阵，直接读取 BITMAP；未用轮廓字体重绘。",
+        "licenseNote": "\"(C) 1988, ISAS.  Permission to use.\"",
+        "comparison": "当前完整样张 PNG（612×52）逐像素一致，两份资料均注明 ISAS 1988；仅据样文合并，不断言完整字库一致。"
+      }
+    ]
+  },
+  {
+    "id": "mplus_bitmap_10",
+    "name": "M+ BITMAP 10 dot（原生单元 10×11）",
+    "family": "M+ BITMAP",
+    "width": 10,
+    "height": 11,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/mplus_bitmap_10.png",
+    "specimenWidth": 156,
+    "specimenHeight": 26,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.iij.ad.jp/pub/sourceforge.jp/mplus-fonts/5030/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "原包 LICENSE_E 允许无限制商用、非商用、复制、分发及修改，按原样提供无担保。",
+    "provenance": "原生 BDF 点阵；JIS X 0208 码位按 Unicode 精确匹配；拉丁字使用同家族配套 BDF，不借用其他字体。 原文件：mplus_j10r.bdf + mplus_h10r.bdf。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "verified_companion",
+    "sourceIndex": 52,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.iij.ad.jp/pub/sourceforge.jp/mplus-fonts/5030/"
+    },
+    "cellWidth": 10,
+    "cellHeight": 11,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "ae54e52346031d420184c5a7fa1e5de2eb3ec5f43e4d060b005979c7d2990113",
+    "priority": 0
+  },
+  {
+    "id": "shinonome_12_gothic",
+    "name": "東雲 Shinonome Gothic 12×12",
+    "family": "Shinonome",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/shinonome_12_gothic.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-shinonome/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "项目 LICENSE 与 BDF 标记 Public Domain；日本法下作者声明不行使著作权。",
+    "provenance": "原生 BDF 点阵；JIS X 0208 码位按 Unicode 精确匹配；拉丁字使用同家族配套 BDF，不借用其他字体。 原文件：shnmk12.bdf + shnm6x12a.bdf。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "verified_companion",
+    "sourceIndex": 53,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-shinonome/"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "103c0e27d2e3a7902b42f21c2efcce94075b2ffed05f71bdc5e9f81e5c6ac96f",
+    "priority": 0
+  },
+  {
+    "id": "mplus_bitmap_12",
+    "name": "M+ BITMAP 12 dot（原生单元 12×13）",
+    "family": "M+ BITMAP",
+    "width": 12,
+    "height": 13,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/mplus_bitmap_12.png",
+    "specimenWidth": 185,
+    "specimenHeight": 32,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.iij.ad.jp/pub/sourceforge.jp/mplus-fonts/5030/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "原包 LICENSE_E 允许无限制商用、非商用、复制、分发及修改，按原样提供无担保。",
+    "provenance": "原生 BDF 点阵；JIS X 0208 码位按 Unicode 精确匹配；拉丁字使用同家族配套 BDF，不借用其他字体。 原文件：mplus_j12r.bdf + mplus_h12r.bdf。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "verified_companion",
+    "sourceIndex": 54,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.iij.ad.jp/pub/sourceforge.jp/mplus-fonts/5030/"
+    },
+    "cellWidth": 12,
+    "cellHeight": 13,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "836eeae52db3a0c911a970777240d29f08c69d71379165f788822343ac228953",
+    "priority": 0
+  },
+  {
+    "id": "shinonome_14_gothic",
+    "name": "東雲 Shinonome Gothic 14×14",
+    "family": "Shinonome",
+    "width": 14,
+    "height": 14,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/shinonome_14_gothic.png",
+    "specimenWidth": 189,
+    "specimenHeight": 32,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-shinonome/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "项目 LICENSE 与 BDF 标记 Public Domain；日本法下作者声明不行使著作权。",
+    "provenance": "原生 BDF 点阵；JIS X 0208 码位按 Unicode 精确匹配；拉丁字使用同家族配套 BDF，不借用其他字体。 原文件：shnmk14.bdf + shnm7x14a.bdf。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "verified_companion",
+    "sourceIndex": 55,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-shinonome/"
+    },
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "acbe5b632af5b13e406c265319c009d5c3d6648c5005a9d54d8b8291bb9a8fdf",
+    "priority": 0
+  },
+  {
+    "id": "shinonome_14_mincho",
+    "name": "東雲 Shinonome Mincho 14×14",
+    "family": "Shinonome",
+    "width": 14,
+    "height": 14,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/shinonome_14_mincho.png",
+    "specimenWidth": 189,
+    "specimenHeight": 32,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-shinonome/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "项目 LICENSE 与 BDF 标记 Public Domain；日本法下作者声明不行使著作权。",
+    "provenance": "原生 BDF 点阵；JIS X 0208 码位按 Unicode 精确匹配；拉丁字使用同家族配套 BDF，不借用其他字体。 原文件：shnmk14min.bdf + shnm7x14a.bdf。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "verified_companion",
+    "sourceIndex": 56,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-shinonome/"
+    },
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "7aee830f46e7859949d49e47af0ad21aa12b9154d077954594ddf1eaf5b375e1",
+    "priority": 0
+  },
+  {
+    "id": "ccic_eb5_15f",
+    "name": "国乔 KC 繁体宋体 16×15 · 16×15",
+    "family": "国乔 KC 宋体",
+    "width": 16,
+    "height": 15,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/ccic_eb5_15f.png",
+    "specimenWidth": 408,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/big5/bdf/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "\"(c)1992 Kuo Chiao Information Systems, Ltd.\" / \"The bitmap files are converted from that of KC System 6.22\"",
+    "provenance": "公开历史 BDF 原生点阵，直接读取 BITMAP；未用轮廓字体重绘。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 57,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/big5/bdf/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 15,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "499cf7c388aa53fe7ff9be2d931e89719013d8aa34f54b46226b02a7c08f24fa",
+    "priority": 0
+  },
+  {
+    "id": "hbf_cclibf16",
+    "name": "CCDOS 繁体明体 · 16×16",
+    "family": "CCDOS 繁体明体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hbf_cclibf16.png",
+    "specimenWidth": 408,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/gb/hbf/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "\"This HBF header file is in the public domain.\" / \"The hanzi bitmap files are cclibf.16 and cclib.16a\"；头文件许可不代表原字模许可。",
+    "provenance": "直接读取 HBF 指定的历史二进制字模及码段，未从 TTF 栅格化。GB12345 繁体字形；简体异形码位留缺。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 58,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/gb/hbf/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "981297b75317bec9f283b7ede96d117ca8033b1f9e9ea627773b2d4483200198",
+    "priority": 0
+  },
+  {
+    "id": "eten_taipei_16",
+    "name": "ETen Taipei 台北 16×16",
+    "family": "ETen Taipei 台北",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/eten_taipei_16.png",
+    "specimenWidth": 408,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "BDF header states Public Domain; preserve source headers.",
+    "provenance": "GNU intlfonts 1.4.2, Chinese/taipei16.bdf. Exact BDF pixels. ",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 59,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "b049c5c98014dc84fe44cde98ccb6983d82b647c27dfc92301f5acc74faceac8",
+    "priority": 0
+  },
+  {
+    "id": "hzk_hzk16f",
+    "name": "HZK16F 繁体宋体 · 16×16",
+    "family": "HZK 繁体宋体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hzk_hzk16f.png",
+    "specimenWidth": 408,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/aguegu/BitmapFont",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "原仓库工具代码标 GPL-3.0，并不自动授予历史字模权利。后续考据明确提示 HZK 字模并非公有领域；本次仅作样文效果比较，商用须另查授权。",
+    "provenance": "直接解码公开 HZK 二进制定长点阵，未从 TTF 栅格化；原始设计者及是否逐点手修尚未证实。本库以 GB2312 码位存放繁体形；不把繁体形冒充简体，相关字位留缺。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 60,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://github.com/aguegu/BitmapFont"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "1140711cab1bafafe9018fdfe8f07dbef73db061f1bb89396446e84a07df5446",
+    "priority": 0
+  },
+  {
+    "id": "shinonome_16_gothic",
+    "name": "東雲 Shinonome Gothic 16×16",
+    "family": "Shinonome",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/shinonome_16_gothic.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-shinonome/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "项目 LICENSE 与 BDF 标记 Public Domain；日本法下作者声明不行使著作权。",
+    "provenance": "原生 BDF 点阵；JIS X 0208 码位按 Unicode 精确匹配；拉丁字使用同家族配套 BDF，不借用其他字体。 原文件：shnmk16.bdf + shnm8x16a.bdf。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "verified_companion",
+    "sourceIndex": 61,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-shinonome/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "bdd6d968647dfabc1837645dc49d65318c8e8f1fab6b8a9cf37fab56046d840b",
+    "priority": 0
+  },
+  {
+    "id": "shinonome_16_mincho",
+    "name": "東雲 Shinonome Mincho 16×16",
+    "family": "Shinonome",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/shinonome_16_mincho.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-shinonome/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "项目 LICENSE 与 BDF 标记 Public Domain；日本法下作者声明不行使著作权。",
+    "provenance": "原生 BDF 点阵；JIS X 0208 码位按 Unicode 精确匹配；拉丁字使用同家族配套 BDF，不借用其他字体。 原文件：shnmk16min.bdf + shnm8x16a.bdf。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "verified_companion",
+    "sourceIndex": 62,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-shinonome/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "0126f94637230ec2ce4e4891bb7d87d0d7489c2c8f114c17bdaf04141cd5bd36",
+    "priority": 0
+  },
+  {
+    "id": "taipei15",
+    "name": "Taipei 15（16×16）",
+    "family": "Taipei historical PCF",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/taipei15.png",
+    "specimenWidth": 408,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "此 PCF 未提供版权声明；许可未核实。",
+    "provenance": "台湾 CLE 历史镜像原生 PCF，按 Big5 码位精确解码。文件名数字与实际单元尺寸可能不一致，以 PCF 度量为准。原文件没有半角 ASCII 配套字体；本修订已提取同库全角字形。字体文件名后缀未擅自推定具体书体。 本次修订：按原字库提取繁简对应字与实际显示码位；Big5 原生全角数字与英文也已逐个提取验证。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 63,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "c7789243d6410a049b0250e5a9d2c217e0f303a639f11fc62ad3dbfe87bb0690",
+    "priority": 0
+  },
+  {
+    "id": "ccic_uwb5_16m",
+    "name": "双桥 UnionWay 繁体明体 16 · 16×16",
+    "family": "UnionWay 明体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/ccic_uwb5_16m.png",
+    "specimenWidth": 408,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/big5/bdf/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "\"(c)1994-96 UnionWay International\" / \"The hanzi bitmap file is uwbig5.bmp, as part of UnionWay DBM 4.0g\"",
+    "provenance": "公开历史 BDF 原生点阵，直接读取 BITMAP；未用轮廓字体重绘。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 64,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/big5/bdf/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "4c798b5e18f472c98f15928bdcbf2145a5ee5dc0a851c3eab3a68a680ff3f33b",
+    "priority": 0
+  },
+  {
+    "id": "fashion16",
+    "name": "流行点阵体 16×16",
+    "family": "流行点阵体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/fashion16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/scott0107000/FashionBitmap16",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "基于 KH Dot 兜町16 改作，增补繁体中文。按源字体繁体码位显示统一新样文「視野無限廣，窗外有藍天。」，不替换为其他字体。字体本身是像素轮廓；按原生网格像素中心解码，无字体hinting、抗锯齿、加粗或普通轮廓取模。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 65,
+    "nativeEvidence": {
+      "summary": "Established native rectilinear pixel-grid decoding, no outline rasterizer, antialiasing, hinting, fallback or substitutions.",
+      "sourceUrl": "https://github.com/scott0107000/FashionBitmap16"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "b5a43e2203ac621d45dcedf695443ea6ecd01923afe53f250df17f78f37fe205",
+    "priority": 0
+  },
+  {
+    "id": "ayu_gothic_18",
+    "name": "Ayu Gothic 18×18（Sazanami 内嵌原生点阵）",
+    "family": "Ayu",
+    "width": 18,
+    "height": 18,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/ayu_gothic_18.png",
+    "specimenWidth": 243,
+    "specimenHeight": 40,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.iij.ad.jp/pub/sourceforge.jp/efont/10087/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "内附 doc/ayu/README.txt 明确声明 Ayu 点阵 Public Domain；Sazanami 容器另有 BSD 风格条款，见其 README。",
+    "provenance": "直接提取 sazanami-gothic.ttf 的 EBDT/EBLC 1-bit 点阵层，不栅格化轮廓。Ayu 原生 18/20 点阵由 Kappa 修改而来；相邻奇数字号复用同一字模，未重复计数。 本次修订：按原字库提取繁简对应字与实际显示码位；依旧直接读取EBDT位图层，不栅格化轮廓。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 66,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.iij.ad.jp/pub/sourceforge.jp/efont/10087/"
+    },
+    "cellWidth": 18,
+    "cellHeight": 18,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "134a455c9fbd64a1c38f1e34d1becf094204f9a64f9e31d0dce7af3bf60841fe",
+    "priority": 0
+  },
+  {
+    "id": "ayu_gothic_20",
+    "name": "Ayu Gothic 20×20（Sazanami 内嵌原生点阵）",
+    "family": "Ayu",
+    "width": 20,
+    "height": 20,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/ayu_gothic_20.png",
+    "specimenWidth": 270,
+    "specimenHeight": 44,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.iij.ad.jp/pub/sourceforge.jp/efont/10087/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "内附 doc/ayu/README.txt 明确声明 Ayu 点阵 Public Domain；Sazanami 容器另有 BSD 风格条款，见其 README。",
+    "provenance": "直接提取 sazanami-gothic.ttf 的 EBDT/EBLC 1-bit 点阵层，不栅格化轮廓。Ayu 原生 18/20 点阵由 Kappa 修改而来；相邻奇数字号复用同一字模，未重复计数。 本次修订：按原字库提取繁简对应字与实际显示码位；依旧直接读取EBDT位图层，不栅格化轮廓。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 67,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.iij.ad.jp/pub/sourceforge.jp/efont/10087/"
+    },
+    "cellWidth": 20,
+    "cellHeight": 20,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "38bc41e0c6ecbb68daf04fb89c027135901b2a2b92b096914135618cc8ec71cb",
+    "priority": 0
+  },
+  {
+    "id": "kappa_20_b",
+    "name": "Kappa Gothic Bold 20×20",
+    "family": "Kappa20",
+    "width": 20,
+    "height": 20,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kappa_20_b.png",
+    "specimenWidth": 270,
+    "specimenHeight": 44,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-kappa20/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "BDF/README 声明 Public Domain，允许使用、复制和修改，但不得禁止原字体及独立衍生版自由流通。",
+    "provenance": "原生 BDF 点阵；JIS X 0208 码位按 Unicode 精确匹配；拉丁字使用同家族配套 BDF，不借用其他字体。 原文件：k20b.bdf + 10x20rkb.bdf。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "verified_companion",
+    "sourceIndex": 68,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-kappa20/"
+    },
+    "cellWidth": 20,
+    "cellHeight": 20,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "db9f9e5ea0d996908b54aaea34f03cbb695f819c435adf8b1bcc7594c334ee6c",
+    "priority": 0
+  },
+  {
+    "id": "kappa_20_m",
+    "name": "Kappa Mincho 20×20",
+    "family": "Kappa20",
+    "width": 20,
+    "height": 20,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kappa_20_m.png",
+    "specimenWidth": 270,
+    "specimenHeight": 44,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-kappa20/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "BDF/README 声明 Public Domain，允许使用、复制和修改，但不得禁止原字体及独立衍生版自由流通。",
+    "provenance": "原生 BDF 点阵；JIS X 0208 码位按 Unicode 精确匹配；拉丁字使用同家族配套 BDF，不借用其他字体。 原文件：k20m.bdf + 10x20rkm.bdf。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "verified_companion",
+    "sourceIndex": 69,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://deb.debian.org/debian/pool/main/x/xfonts-kappa20/"
+    },
+    "cellWidth": 20,
+    "cellHeight": 20,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "e5ec7372795f33156b8af925ba1930edec24fc7b85791c66c8251e53561ca65b",
+    "priority": 0
+  },
+  {
+    "id": "taipeib20",
+    "name": "Taipei b20（20×20）",
+    "family": "Taipei historical PCF",
+    "width": 20,
+    "height": 20,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/taipeib20.png",
+    "specimenWidth": 510,
+    "specimenHeight": 44,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "PCF 内标记 Public Domain；仅核实文件内声明，未独立核实所有上游来源。",
+    "provenance": "台湾 CLE 历史镜像原生 PCF，按 Big5 码位精确解码。文件名数字与实际单元尺寸可能不一致，以 PCF 度量为准。原文件没有半角 ASCII 配套字体；本修订已提取同库全角字形。字体文件名后缀未擅自推定具体书体。 本次修订：按原字库提取繁简对应字与实际显示码位；Big5 原生全角数字与英文也已逐个提取验证。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 70,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/"
+    },
+    "cellWidth": 20,
+    "cellHeight": 20,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "ca047f037260cc9c0fa7066fbfc27700c4ed0d18f3a35663b342024a545edcf8",
+    "priority": 0
+  },
+  {
+    "id": "ccic_cmex24m",
+    "name": "文建会 CMEX / 华康 明体 24 · 24×24",
+    "family": "CMEX 华康明体",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/ccic_cmex24m.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/big5/bdf/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "\"Public Domain\" / \"The hanzi bitmap file is cmexb5p.24m from big5p-*.fnt\"",
+    "provenance": "公开历史 BDF 原生点阵，直接读取 BITMAP；未用轮廓字体重绘。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 76,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/big5/bdf/"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "20f5a319dfbdfe245958fdf402454dfc7c16803906c5d9b418fd3a73781d76a5",
+    "priority": 0
+  },
+  {
+    "id": "eten_taipei_24",
+    "name": "ETen Taipei 台北 24×24",
+    "family": "ETen Taipei 台北",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/eten_taipei_24.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "BDF header states Public Domain; preserve source headers.",
+    "provenance": "GNU intlfonts 1.4.2, Chinese/taipei24.bdf. Exact BDF pixels. ",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 77,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "1c484e26fe870abb470c36afaf017c7aad379d3e5c2ccca6fd56e8c25a61c0ba",
+    "priority": 0
+  },
+  {
+    "id": "taipeik24",
+    "name": "Taipei k24（24×24）",
+    "family": "Taipei historical PCF",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/taipeik24.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "PCF 内标记 Public Domain；仅核实文件内声明，未独立核实所有上游来源。",
+    "provenance": "台湾 CLE 历史镜像原生 PCF，按 Big5 码位精确解码。文件名数字与实际单元尺寸可能不一致，以 PCF 度量为准。原文件没有半角 ASCII 配套字体；本修订已提取同库全角字形。字体文件名后缀未擅自推定具体书体。 本次修订：按原字库提取繁简对应字与实际显示码位；Big5 原生全角数字与英文也已逐个提取验证。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 79,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "fcc10b4a124f143f039cef78616089ee62abbdfe68f598eae98c6cfbf01e10e9",
+    "priority": 0
+  },
+  {
+    "id": "taipeil24",
+    "name": "Taipei l24（24×24）",
+    "family": "Taipei historical PCF",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/taipeil24.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "PCF 内标记 Public Domain；仅核实文件内声明，未独立核实所有上游来源。",
+    "provenance": "台湾 CLE 历史镜像原生 PCF，按 Big5 码位精确解码。文件名数字与实际单元尺寸可能不一致，以 PCF 度量为准。原文件没有半角 ASCII 配套字体；本修订已提取同库全角字形。字体文件名后缀未擅自推定具体书体。 本次修订：按原字库提取繁简对应字与实际显示码位；Big5 原生全角数字与英文也已逐个提取验证。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 80,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "466f8e9ca410959c16dc01ff709925a46d5d402a8f36b91868287d845e81a8fb",
+    "priority": 0
+  },
+  {
+    "id": "taipeim24",
+    "name": "Taipei m24（24×24）",
+    "family": "Taipei historical PCF",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/taipeim24.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "PCF 内标记 Public Domain；仅核实文件内声明，未独立核实所有上游来源。",
+    "provenance": "台湾 CLE 历史镜像原生 PCF，按 Big5 码位精确解码。文件名数字与实际单元尺寸可能不一致，以 PCF 度量为准。原文件没有半角 ASCII 配套字体；本修订已提取同库全角字形。字体文件名后缀未擅自推定具体书体。 本次修订：按原字库提取繁简对应字与实际显示码位；Big5 原生全角数字与英文也已逐个提取验证。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 81,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "00e9bf472750473a2f3fd1fd5b86da39efd45f8da81b51dbdf1517093c0f5e14",
+    "priority": 0
+  },
+  {
+    "id": "ccic_eb5_24f",
+    "name": "国乔 KC 繁体宋体 24 · 24×24",
+    "family": "国乔 KC 宋体",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/ccic_eb5_24f.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/big5/bdf/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "\"(c)1992 Kuo Chiao Information Systems, Ltd.\" / \"The bitmap files are converted from that of KC System 6.22\"",
+    "provenance": "公开历史 BDF 原生点阵，直接读取 BITMAP；未用轮廓字体重绘。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 85,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/big5/bdf/"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "1ba97b5ae56f73362a76d8971f7b251543fc4af0b07b657386a5f1ec2e64c5ec",
+    "priority": 0
+  },
+  {
+    "id": "ccic_eb5_24k2",
+    "name": "国乔 KC 繁体楷体 24 · 24×24",
+    "family": "国乔 KC 楷体",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/ccic_eb5_24k2.png",
+    "specimenWidth": 612,
+    "specimenHeight": 52,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/big5/bdf/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "\"(c)1992 Kuo Chiao Information Systems, Ltd.\" / \"The bitmap files are converted from that of KC System 6.22\"",
+    "provenance": "公开历史 BDF 原生点阵，直接读取 BITMAP；未用轮廓字体重绘。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 86,
+    "nativeEvidence": {
+      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
+      "sourceUrl": "https://www.ibiblio.org/pub/packages/ccic/software/fonts/big5/bdf/"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "c0e8ff148db17f077c621dadf55c51b8557c8b61c6b40a4e1b5290add971bbd5",
+    "priority": 0
+  },
+  {
+    "id": "panasonic-mn1871681",
+    "name": "MN1871681 客户版 OSD（对照）",
+    "family": "MN1871681 客户版 OSD（对照）",
+    "width": 12,
+    "height": 18,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备 OSD"
+    ],
+    "specimen": "assets/specimens/panasonic-mn1871681.png",
+    "specimenWidth": 96,
+    "specimenHeight": 18,
+    "text": "频道 视频 AV",
+    "asciiText": "",
+    "sourceUrl": "https://datasheet4u.com/pdf/511850/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "设备参考：只展示该来源已核实存在的字形；不是通用中文字库。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "原始版权未获额外授权；扫描重建研究样本",
+    "provenance": "1998–1999 文档网格重建，疑似创维客户版；不是 ROM；未补字",
+    "sampleKind": "osd",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "missing",
+    "sourceIndex": 87,
+    "nativeEvidence": {
+      "summary": "原记录来源为原生点阵；历史作者及逐点设计过程以来源说明为准。",
+      "sourceUrl": "https://datasheet4u.com/pdf/511850/"
+    },
+    "cellWidth": 12,
+    "cellHeight": 18,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "aef2c9c88b04e5df147878d86378484d097144d92009771d24670d9f450c0b67",
+    "priority": 0
+  },
+  {
+    "id": "sony-g90-original",
+    "name": "Sony G90 原字模（对照）",
+    "family": "Sony G90 原字模（对照）",
+    "width": 24,
+    "height": 32,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备 OSD"
+    ],
+    "specimen": "assets/specimens/sony-g90-original.png",
+    "specimenWidth": 336,
+    "specimenHeight": 32,
+    "text": "视频 AV 输入 菜单 信号",
+    "asciiText": "",
+    "sourceUrl": "https://www.curtpalme.com/SonyG90_Downloads.shtm",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "设备参考：只展示该来源已核实存在的字形；不是通用中文字库。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "Sony 原字形，未获额外商业授权",
+    "provenance": "1999 实际字体 ROM；前景规则由同系芯片资料推断，未经实机核验；不含之前手补的6字",
+    "sampleKind": "osd",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 88,
+    "nativeEvidence": {
+      "summary": "原记录来源为原生点阵；历史作者及逐点设计过程以来源说明为准。",
+      "sourceUrl": "https://www.curtpalme.com/SonyG90_Downloads.shtm"
+    },
+    "cellWidth": 24,
+    "cellHeight": 32,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "7a657eb91d6f7d765d54abdfc3a61e647eda486f5b62a4e549155e5fd8b62628",
+    "priority": 20
+  },
+  {
+    "id": "apple_hei_9",
+    "name": "Mac OS / Ikarus Hei 黑体原生点阵 9×9",
+    "family": "apple_hei",
+    "width": 9,
+    "height": 9,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_hei_9.png",
+    "specimenWidth": 146,
+    "specimenHeight": 24,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Hei 6.1d3e1；直接解析 bdat/bloc 第 0 个 1-bit 原生点阵 strike，ppem=9×9。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 89,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 9,
+    "cellHeight": 9,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "90225b909c1b8c96a0324dab2d452e843a9b91dc804b2c0c5110d062b36d778f",
+    "priority": 0
+  },
+  {
+    "id": "dinkie9",
+    "name": "丁卯点阵体 9px（10×10 字框）",
+    "family": "丁卯点阵体",
+    "width": 10,
+    "height": 10,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/dinkie9.png",
+    "specimenWidth": 129,
+    "specimenHeight": 24,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://dinkiebitmap.com/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指官方预览资源，不代表完整商业字体。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "商业字体，个人与商业使用均应按版权方许可执行。使用官方网页预览资源制作对照，不再分发字体或字形数据。",
+    "provenance": "Willie Liu / Atelier Anchor 的独立手工像素字形。样例来自官方网页字体；原生像素为10字体单位，中文9×9墨迹、10格步进。不用7px放大冒充。 字体本身是像素轮廓；按其原生网格在像素中心解码，无字体 hinting、抗锯齿、加粗或普通轮廓取模。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 90,
+    "nativeEvidence": {
+      "summary": "Established native rectilinear pixel-grid decoding, no outline rasterizer, antialiasing, hinting, fallback or substitutions.",
+      "sourceUrl": "https://dinkiebitmap.com/"
+    },
+    "cellWidth": 10,
+    "cellHeight": 10,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "b08f9c0c0331fa4c83f2a047d18125318af627ce4f9b213925060c5953c298cb",
+    "priority": 0
+  },
+  {
+    "id": "fusion_bold_pixel_10px_monospaced_zh_hans",
+    "name": "缝合粗像素 10px（汉字字宽 11px）",
+    "family": "缝合粗像素",
+    "width": 11,
+    "height": 10,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/fusion_bold_pixel_10px_monospaced_zh_hans.png",
+    "specimenWidth": 162,
+    "specimenHeight": 24,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/pixel-font-studio/fusion-bold-pixel-font",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "字体字模为 OFL-1.1；仓库代码为 MIT。字模使用、修改与再分发须保留 OFL 版权许可，不可单独销售字体。",
+    "provenance": "导入自github-releases-2026-09-01/pixel-font-studio--fusion-bold-pixel-font；上游https://github.com/pixel-font-studio/fusion-bold-pixel-font/releases (v2026.09.01) 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 本样张使用官方 zh_hans 等宽版；项目自带粗体字模，不是本次采样自动加粗。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 91,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/pixel-font-studio/fusion-bold-pixel-font"
+    },
+    "cellWidth": 11,
+    "cellHeight": 10,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "5e06aed69f7e720e3b21757c6158018e17d9fa325476a614580cd6f480175fa6",
+    "priority": 0
+  },
+  {
+    "id": "lanapixel_11px",
+    "name": "LanaPixel 11px（9×9 汉字，10px 字宽）",
+    "family": "LanaPixel",
+    "width": 10,
+    "height": 11,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/lanapixel_11px.png",
+    "specimenWidth": 137,
+    "specimenHeight": 26,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://opengameart.org/content/lanapixel-localization-friendly-pixel-font",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。 原生像素设计已有上游证据；转换BDF与原字体的逐字像素一致性尚未独立完整核验。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游LanaPixel.md写明可任选SIL Open Font License或CC BY 4.0，两份授权原文随包分发。本站按OFL收录，随附LanaPixel_OpenFontLicense.txt。",
+    "provenance": "上游eishiya（https://mastodon.art/@eishiya）发布的LanaPixel包，本站收录lanapixel_everything中的LanaPixel.ttf（含谚文的完整版，2023-02-22），由ttf按11px栅格化——上游说明该字体设计于11px及其整数倍显示。发行包另有NoKorean（去谚文）与BitmapOnly（仅内嵌点阵、无轮廓）两个构建，字形相同，本站未另行收录。 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 字号为 11px，汉字墨迹 9×9，汉字原生字宽 10px；拉丁字符原生不等宽。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 92,
+    "nativeEvidence": {
+      "summary": "上游明确为原生像素设计，TTF是像素轮廓或点阵封装，非普通矢量字体任意取模。本样张直接读取已转换BDF；转换与原始源字体的逐字像素一致性尚未独立完整核验。",
+      "sourceUrl": "https://www.reddit.com/r/gamedev/comments/h03ls4/heres_my_free_pixel_font_with_east_asian_language/",
+      "designEvidence": "verified_native_pixel_design",
+      "conversionFidelity": "not_independently_fully_verified"
+    },
+    "cellWidth": 10,
+    "cellHeight": 11,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "38169cea78ea8ad13075e5c02cc2f9aa899b6c624fff3ce53cfd541bb085dd6c",
+    "priority": 0
+  },
+  {
+    "id": "mingliu_native_11",
+    "name": "MingLiU 细明体原生点阵 11×11",
+    "family": "mingliu_native",
+    "width": 11,
+    "height": 11,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/mingliu_native_11.png",
+    "specimenWidth": 135,
+    "specimenHeight": 26,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/grubeninspekteur/webseitendesigner-pywright",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "专有系统字体。字体内许可仅允许按所属产品许可显示/打印及受限嵌入；公开 GitHub 镜像不代表开放授权。仅研究对比，不分发字库或字模文件。",
+    "provenance": "MingLiU Version 7.00；直接解析 EBDT/EBLC 第 0 个 1-bit 原生点阵 strike，ppem=11×11。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 93,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/grubeninspekteur/webseitendesigner-pywright"
+    },
+    "cellWidth": 11,
+    "cellHeight": 11,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "84fe0bac5141e2feb43537603731ff9555722f84cb1fe9eab579c5f9fe624a8a",
+    "priority": 0
+  },
+  {
+    "id": "muzaipixel",
+    "name": "目哉像素 MuzaiPixel 8×12",
+    "family": "目哉像素",
+    "width": 8,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/muzaipixel.png",
+    "specimenWidth": 127,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/DWNfonts/MuzaiPixel",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游LICENSE.md为SIL OFL 1.1，版权同时署DWNfonts与Num Kadoma。",
+    "provenance": "导入自https://github.com/DWNfonts/MuzaiPixel的原生MuzaiPixel.kbitx（源文件版本2.0.20241013）；字形基于https://littlelimit.net/k8x12.htm。修正kbitx长重复编码的解码后，全部15,932个字符的像素及字宽均与同版官方MZPXorig.ttf一致。保留原生点阵来源，移除重复的TTF栅格化版本。 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 94,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/DWNfonts/MuzaiPixel"
+    },
+    "cellWidth": 8,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "09c42726809f7d7373d03ced1e0ff44cf1b6373d4524d1779a29c666f6b8256e",
+    "priority": 0
+  },
+  {
+    "id": "liorachip10x12",
+    "name": "辰芯像素体 LioraChip 10×12",
+    "family": "辰芯像素体10x12",
+    "width": 10,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/liorachip10x12.png",
+    "specimenWidth": 168,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/LioraChen09/LioraChip10x12",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；保留字体名称 Liora。可依协议使用、修改、嵌入与再分发，保留版权许可，不得单独销售字体。",
+    "provenance": "导入自pixel-fonts-supplement-zeoseven-maoken-2026-08-18/Upstream-GitHub/LioraChen09--LioraChip10x12；上游https://github.com/LioraChen09/LioraChip10x12（HEAD快照，收录于2026-08-18）；由kbitx转换 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 此字体仍在先行测试期，作者说明整体仍缺大量汉字；本次测试文案覆盖完整不代表全字库完整。 本轮用官方 TTF 直线轮廓按原生格点独立解码，测试字符与本 BDF 逐像素一致（22 个不同非空字符）。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 95,
+    "nativeEvidence": {
+      "summary": "Established native rectilinear pixel-grid decoding, no outline rasterizer, antialiasing, hinting, fallback or substitutions.",
+      "sourceUrl": "https://github.com/LioraChen09/LioraChip10x12"
+    },
+    "cellWidth": 10,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "81119f1e172524d77e77fc5e4e2be78e76a270bc0693a4ce6f3b5c8de919b4ff",
+    "priority": 0
+  },
+  {
+    "id": "zlabs_round12",
+    "name": "Z工坊像素圆体 12×12",
+    "family": "Z工坊像素圆体",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "圆体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/zlabs_round12.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/Astro-2539/ZLabs-RoundPix-12px",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "Astro_2539 基于 x12y12pxMaruMinya 修改并大量补充简体中文字形；本例为 CN 方形像素原版，不是人为圆点滤镜。BDF 为 FontPixel 按上游 KBITX 原生数据转换。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 96,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/Astro-2539/ZLabs-RoundPix-12px"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "ea0fe9e2abfa3fb593966a655cf273c2678ee36f78a8265ef1ca07870dc4096b",
+    "priority": 0
+  },
+  {
+    "id": "apple_hei_12",
+    "name": "Mac OS / Ikarus Hei 黑体原生点阵 12×12",
+    "family": "apple_hei",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_hei_12.png",
+    "specimenWidth": 189,
+    "specimenHeight": 30,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Hei 6.1d3e1；直接解析 bdat/bloc 第 1 个 1-bit 原生点阵 strike，ppem=12×12。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 97,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "9be54da95c3af87d3d100a9be77cf223d247966db74003ca936078657c1706d1",
+    "priority": 0
+  },
+  {
+    "id": "apple_kai_12",
+    "name": "Mac OS / Ikarus Kai 楷体原生点阵 12×12",
+    "family": "apple_kai",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_kai_12.png",
+    "specimenWidth": 193,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Kai 6.1d1e1；直接解析 bdat/bloc 第 1 个 1-bit 原生点阵 strike，ppem=12×12。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 98,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "2014cdb59f344997108eb23344d6d04f3085b3f515bcaa02e46b92cc9050d073",
+    "priority": 80
+  },
+  {
+    "id": "mingliu_native_12",
+    "name": "MingLiU 细明体原生点阵 12×12",
+    "family": "mingliu_native",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/mingliu_native_12.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/grubeninspekteur/webseitendesigner-pywright",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "专有系统字体。字体内许可仅允许按所属产品许可显示/打印及受限嵌入；公开 GitHub 镜像不代表开放授权。仅研究对比，不分发字库或字模文件。",
+    "provenance": "MingLiU Version 7.00；直接解析 EBDT/EBLC 第 1 个 1-bit 原生点阵 strike，ppem=12×12。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 99,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/grubeninspekteur/webseitendesigner-pywright"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "fc2f25f529042807432d783add2a5f15b57b0757760977b4f2a7509935f6e8a4",
+    "priority": 0
+  },
+  {
+    "id": "nightgazer12b_12px",
+    "name": "夜照飞 Nightgazer Bold 12×12",
+    "family": "夜照飞点阵粗体",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/nightgazer12b_12px.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/scott0107000/Nightgazer-Bitmap",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "上游主许可证为 GPL-3.0；另附 Firefly 原始 GPL-2.0 文本。继承点阵来源的授权义务，字模再分发和修改须保留相应版权与许可。",
+    "provenance": "导入自pixel-fonts-supplement-zeoseven-maoken-2026-08-18/Upstream-GitHub/scott0107000--Nightgazer-Bitmap；上游https://github.com/scott0107000/Nightgazer-Bitmap（HEAD快照，收录于2026-08-18）；由ttf转换；原字模为螢火飛FireFly。 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 作者在 2026-03-11 发布原生粗体字重，衍生自 Firefly 点阵；不是本次采样自动加粗。 本轮用官方 TTF 直线轮廓按原生格点独立解码，测试字符与本 BDF 逐像素一致（22 个不同非空字符）。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 100,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/scott0107000/Nightgazer-Bitmap"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "ad3a1ed5bfbdd93ab765b8c8b841023e4c84814e80d9aefd3b110edc230d61dc",
+    "priority": 0
+  },
+  {
+    "id": "founder_pixel12",
+    "name": "方正像素 12×12",
+    "family": "方正像素",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/founder_pixel12.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://nzj.foundertype.com/208.html?font_id=479",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。 已核验的 SimSun 5.03 12px 中文样本与此条目一致，作为相关来源收于详情，不另列重复样张；完整字库是否相同尚未核验。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "方正商业字体，商用和嵌入须按官方范围另行授权。本资料只作官方公开预览的渲染对照，不再分发字体或字形数据。",
+    "provenance": "方正官网说明六种规格均为手工设置像素。样例只读取官方网页逐字公开 WOFF 预览；检查每个轮廓均为原生网格上90%填充率的小方块，直接逐格恢复为1-bit，不将普通矢量字体任意取模。原生12×12单元，未缩放或描粗。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 101,
+    "nativeEvidence": {
+      "summary": "Official public per-character preview, verified 0.9-cell square contours reconstructed to native pixel centers",
+      "sourceUrl": "https://nzj.foundertype.com/208.html?font_id=479"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "9be2502c1d8c4c12145f354f3d987a9e7511b1e98fb1288a3d060ae95479e551",
+    "priority": 90,
+    "relatedSources": [
+      {
+        "name": "SimSun 中易宋体原生点阵 12×12",
+        "version": "5.03",
+        "sourceUrl": "https://github.com/dolbydu/font/blob/master/unicode/SimSun.ttc",
+        "provenance": "SimSun Version 5.03；直接解析 EBDT/EBLC 第 0 个 1-bit 原生点阵 strike，ppem=12×12。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+        "licenseNote": "专有系统字体。字体内许可仅允许按所属产品许可显示/打印及受限嵌入；公开 GitHub 镜像不代表开放授权。仅研究对比，不分发字库或字模文件。",
+        "comparison": "已核验样本共 24 个不同汉字及 2 个中文标点的 12×12 像素一致；仅据这些样本合并展示，不代表完整字库相同或授权相同。",
+        "coverageNote": "该 SimSun 版本的 12px 原生点阵不含可打印 ASCII；文件的轮廓层包含数字与拉丁字符。此处预览全部来自方正自身，不混用 SimSun 与方正字形。"
+      }
+    ]
+  },
+  {
+    "id": "poxiaopixel_cn_12px",
+    "name": "破晓像素 PoxiaoPixel CN 12px（ZLabs 衍生）",
+    "family": "破晓像素",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/poxiaopixel_cn_12px.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://diaowinner.itch.io/poxiaopixel",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；合并自Fairfax、ZLabs Bitmap、Galmuri，三者均为OFL-1.1，衍生作品沿用OFL-1.1。",
+    "provenance": "上游https://diaowinner.itch.io/poxiaopixel；页面自述“基于Fairfax、ZLabs Bitmap和Galmuri的字体集合，编译脚本fork自ZLabs Bitmap”，三者在本站均为OFL-1.1（见fairfax、zlabs-* 、galmuri）。PUA区块经过重排：ZLabs与Galmuri原U+E000起的私用区移至U+10E000起，Powerline符号归回原位。由ttf按原生12px格点栅格化。位图转换及本站重新生成的下载文件不保留上游OpenType字形替换规则；需要Hax连字或语言专属字形时，请使用上游原始文件。 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 样本文案的 15 个不同汉字中，14 个与第一批 ZLabs12 裁去空边后相同，仅“单”不同；为合并字体的局部变化，非全新重绘风格。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 102,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://diaowinner.itch.io/poxiaopixel"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "1d71adec0a840630bb46188ab3f39263120ced5884ef1f4e9704a77648604694",
+    "priority": 0
+  },
+  {
+    "id": "fusion_bold_pixel_12px_monospaced_zh_hans",
+    "name": "缝合粗像素 12px（汉字字宽 13px）",
+    "family": "缝合粗像素",
+    "width": 13,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/fusion_bold_pixel_12px_monospaced_zh_hans.png",
+    "specimenWidth": 189,
+    "specimenHeight": 28,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/pixel-font-studio/fusion-bold-pixel-font",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "字体字模为 OFL-1.1；仓库代码为 MIT。字模使用、修改与再分发须保留 OFL 版权许可，不可单独销售字体。",
+    "provenance": "导入自github-releases-2026-09-01/pixel-font-studio--fusion-bold-pixel-font；上游https://github.com/pixel-font-studio/fusion-bold-pixel-font/releases (v2026.09.01) 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 本样张使用官方 zh_hans 等宽版；项目自带粗体字模，不是本次采样自动加粗。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 103,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/pixel-font-studio/fusion-bold-pixel-font"
+    },
+    "cellWidth": 13,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "0f33c9c95bc4104faa4cf8dfe184be6cf2d4211ab655daec7c0f7e1718c623d5",
+    "priority": 0
+  },
+  {
+    "id": "mingliu_native_13",
+    "name": "MingLiU 细明体原生点阵 13×13",
+    "family": "mingliu_native",
+    "width": 13,
+    "height": 13,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/mingliu_native_13.png",
+    "specimenWidth": 189,
+    "specimenHeight": 30,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/grubeninspekteur/webseitendesigner-pywright",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "专有系统字体。字体内许可仅允许按所属产品许可显示/打印及受限嵌入；公开 GitHub 镜像不代表开放授权。仅研究对比，不分发字库或字模文件。",
+    "provenance": "MingLiU Version 7.00；直接解析 EBDT/EBLC 第 2 个 1-bit 原生点阵 strike，ppem=13×13。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 104,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/grubeninspekteur/webseitendesigner-pywright"
+    },
+    "cellWidth": 13,
+    "cellHeight": 13,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "09df5f0332553f23906298bf5b9bc4f0e9cb619a284f8ff08a6bce80a44955af",
+    "priority": 70
+  },
+  {
+    "id": "nightgazer13b_13px",
+    "name": "夜照飞 Nightgazer Bold 13×13",
+    "family": "夜照飞点阵粗体",
+    "width": 13,
+    "height": 13,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/nightgazer13b_13px.png",
+    "specimenWidth": 186,
+    "specimenHeight": 30,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/scott0107000/Nightgazer-Bitmap",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "上游主许可证为 GPL-3.0；另附 Firefly 原始 GPL-2.0 文本。继承点阵来源的授权义务，字模再分发和修改须保留相应版权与许可。",
+    "provenance": "导入自pixel-fonts-supplement-zeoseven-maoken-2026-08-18/Upstream-GitHub/scott0107000--Nightgazer-Bitmap；上游https://github.com/scott0107000/Nightgazer-Bitmap（HEAD快照，收录于2026-08-18）；由ttf转换；原字模为螢火飛FireFly。 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 作者在 2026-03-11 发布原生粗体字重，衍生自 Firefly 点阵；不是本次采样自动加粗。 V 的原生字宽为 7px、墨迹右侧外伸 1px，保留原字宽和全部墨迹，不裁切。 本轮用官方 TTF 直线轮廓按原生格点独立解码，测试字符与本 BDF 逐像素一致（22 个不同非空字符）。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 105,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/scott0107000/Nightgazer-Bitmap"
+    },
+    "cellWidth": 13,
+    "cellHeight": 13,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "6d6b63b9ce5a545ac6aefe5a82f82f64cb8776751c1609c61ea3347d7dad4f56",
+    "priority": 0
+  },
+  {
+    "id": "nightgazer14b_14px",
+    "name": "夜照飞 Nightgazer Bold 14×14",
+    "family": "夜照飞点阵粗体",
+    "width": 14,
+    "height": 14,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/nightgazer14b_14px.png",
+    "specimenWidth": 189,
+    "specimenHeight": 32,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/scott0107000/Nightgazer-Bitmap",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "上游主许可证为 GPL-3.0；另附 Firefly 原始 GPL-2.0 文本。继承点阵来源的授权义务，字模再分发和修改须保留相应版权与许可。",
+    "provenance": "导入自pixel-fonts-supplement-zeoseven-maoken-2026-08-18/Upstream-GitHub/scott0107000--Nightgazer-Bitmap；上游https://github.com/scott0107000/Nightgazer-Bitmap（HEAD快照，收录于2026-08-18）；由ttf转换；原字模为螢火飛FireFly。 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 作者在 2026-03-11 发布原生粗体字重，衍生自 Firefly 点阵；不是本次采样自动加粗。 V 的原生字宽为 7px、墨迹右侧外伸 1px，保留原字宽和全部墨迹，不裁切。 本轮用官方 TTF 直线轮廓按原生格点独立解码，测试字符与本 BDF 逐像素一致（22 个不同非空字符）。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 106,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/scott0107000/Nightgazer-Bitmap"
+    },
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "28c2c748be7bf32d6556940276f1c554a03c59e255213caf69b3a7b6f99e8b73",
+    "priority": 0
+  },
+  {
+    "id": "uranus_pixel_11px_14px",
+    "name": "天王星像素 Uranus 14px 网格（11px 汉字墨迹）",
+    "family": "天王星像素",
+    "width": 14,
+    "height": 14,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/uranus_pixel_11px_14px.png",
+    "specimenWidth": 180,
+    "specimenHeight": 32,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/scott0107000/Uranus-Pixel",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "GPL-2.0，继承文泉驿附加文档嵌入例外；字模再分发与修改应遵守上游许可。",
+    "provenance": "导入自pixel-fonts-supplement-zeoseven-maoken-2026-08-18/Upstream-GitHub/scott0107000--Uranus-Pixel；上游https://github.com/scott0107000/Uranus-Pixel（HEAD快照，收录于2026-08-18）；由ttf转换；字形基于文泉驿点阵宋体。 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 已独立检查官方 Uranus_Pixel_11Px.ttf：UPEM 1024，轮廓节点对齐 14px 网格，最大坐标误差小于 0.006 像素，均为直角格点轮廓；文件名 11Px 指字面，不能当作 11px em 再次栅格化。 本轮用官方 TTF 直线轮廓按原生格点独立解码，测试字符与本 BDF 逐像素一致（22 个不同非空字符）。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 107,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/scott0107000/Uranus-Pixel"
+    },
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "5a1af61e7c56c9d6b2424f9ed31e78bcb09e278228596b7e3241ccce5b8e316f",
+    "priority": 0
+  },
+  {
+    "id": "founder_pixel14",
+    "name": "方正像素 14×14",
+    "family": "方正像素",
+    "width": 14,
+    "height": 14,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/founder_pixel14.png",
+    "specimenWidth": 189,
+    "specimenHeight": 32,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://nzj.foundertype.com/208.html?font_id=479",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。 已核验当前样文的 10 个汉字与 2 个中文标点的 14×14 像素一致；不代表完整字库相同或授权相同。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "方正商业字体，商用和嵌入须按官方范围另行授权。本资料只作官方公开预览的渲染对照，不再分发字体或字形数据。",
+    "provenance": "方正官网说明六种规格均为手工设置像素。样例只读取官方网页逐字公开 WOFF 预览；检查每个轮廓均为原生网格上90%填充率的小方块，直接逐格恢复为1-bit，不将普通矢量字体任意取模。原生14×14单元，未缩放或描粗。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 108,
+    "nativeEvidence": {
+      "summary": "Official public per-character preview, verified 0.9-cell square contours reconstructed to native pixel centers",
+      "sourceUrl": "https://nzj.foundertype.com/208.html?font_id=479"
+    },
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "dfbd6623d21da82ae4badfbc6800c68e82170695986586fed1a8d431458eb748",
+    "priority": 0,
+    "relatedSources": [
+      {
+        "name": "SimSun 中易宋体原生点阵 14×14",
+        "sourceUrl": "https://github.com/dolbydu/font",
+        "provenance": "SimSun Version 5.03；直接解析 EBDT/EBLC 第 2 个 1-bit 原生点阵 strike，ppem=14×14。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+        "licenseNote": "专有系统字体。字体内许可仅允许按所属产品许可显示/打印及受限嵌入；公开 GitHub 镜像不代表开放授权。仅研究对比，不分发字库或字模文件。",
+        "comparison": "已核验当前样文的 10 个汉字与 2 个中文标点的 14×14 像素一致；不代表完整字库相同或授权相同。",
+        "version": "5.03",
+        "coverageNote": "该字号原生点阵不含可打印 ASCII；文件轮廓层有数字与拉丁字符。本预览全部使用方正自身字形，不借字混排。"
+      }
+    ]
+  },
+  {
+    "id": "mingliu_native_15",
+    "name": "MingLiU 细明体原生点阵 15×15",
+    "family": "mingliu_native",
+    "width": 15,
+    "height": 15,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/mingliu_native_15.png",
+    "specimenWidth": 189,
+    "specimenHeight": 34,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/grubeninspekteur/webseitendesigner-pywright",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "专有系统字体。字体内许可仅允许按所属产品许可显示/打印及受限嵌入；公开 GitHub 镜像不代表开放授权。仅研究对比，不分发字库或字模文件。",
+    "provenance": "MingLiU Version 7.00；直接解析 EBDT/EBLC 第 3 个 1-bit 原生点阵 strike，ppem=15×15。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 109,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/grubeninspekteur/webseitendesigner-pywright"
+    },
+    "cellWidth": 15,
+    "cellHeight": 15,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "5491812be3ee3420d42d88a97101fd7e59763f97925862589d11d9ec9f6d41be",
+    "priority": 0
+  },
+  {
+    "id": "nightgazer15b_15px",
+    "name": "夜照飞 Nightgazer Bold 15×15",
+    "family": "夜照飞点阵粗体",
+    "width": 15,
+    "height": 15,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/nightgazer15b_15px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 34,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/scott0107000/Nightgazer-Bitmap",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "上游主许可证为 GPL-3.0；另附 Firefly 原始 GPL-2.0 文本。继承点阵来源的授权义务，字模再分发和修改须保留相应版权与许可。",
+    "provenance": "导入自pixel-fonts-supplement-zeoseven-maoken-2026-08-18/Upstream-GitHub/scott0107000--Nightgazer-Bitmap；上游https://github.com/scott0107000/Nightgazer-Bitmap（HEAD快照，收录于2026-08-18）；由ttf转换；原字模为螢火飛FireFly。 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 作者在 2026-03-11 发布原生粗体字重，衍生自 Firefly 点阵；不是本次采样自动加粗。 本轮用官方 TTF 直线轮廓按原生格点独立解码，测试字符与本 BDF 逐像素一致（22 个不同非空字符）。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 110,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/scott0107000/Nightgazer-Bitmap"
+    },
+    "cellWidth": 15,
+    "cellHeight": 15,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "fe80b953ea98228b2f9f20b501d8f9a92ebf0b186a6c9e8409ae58e59e34ef5e",
+    "priority": 0
+  },
+  {
+    "id": "founder_pixel15",
+    "name": "方正像素 15×15",
+    "family": "方正像素",
+    "width": 15,
+    "height": 15,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/founder_pixel15.png",
+    "specimenWidth": 216,
+    "specimenHeight": 34,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://nzj.foundertype.com/208.html?font_id=479",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "方正商业字体，商用和嵌入须按官方范围另行授权。本资料只作官方公开预览的渲染对照，不再分发字体或字形数据。",
+    "provenance": "方正官网说明六种规格均为手工设置像素。样例只读取官方网页逐字公开 WOFF 预览；检查每个轮廓均为原生网格上90%填充率的小方块，直接逐格恢复为1-bit，不将普通矢量字体任意取模。原生15×15单元，未缩放或描粗。 该15点阵版本的半角原生步进为7.5格；本对照仅把半角字框留白进位为8格，像素字形不变。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 111,
+    "nativeEvidence": {
+      "summary": "Official public per-character preview, verified 0.9-cell square contours reconstructed to native pixel centers",
+      "sourceUrl": "https://nzj.foundertype.com/208.html?font_id=479"
+    },
+    "cellWidth": 15,
+    "cellHeight": 15,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "c9b0262f501337c23e858ea05d0cbc3542f7fb2c3182a5cf1fabdcb30b0ebbbc",
+    "priority": 0
+  },
+  {
+    "id": "zlabs_round16",
+    "name": "Z工坊像素圆体 16×16",
+    "family": "Z工坊像素圆体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "圆体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/zlabs_round16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/Astro-2539/ZLabs-RoundPix-16px",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "Astro_2539 手工中文圆体像素字体；取形参考 Zen Maru Gothic，不是将矢量字体临时取模。BDF 为 FontPixel 按上游 KBITX 原生数据转换。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 112,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/Astro-2539/ZLabs-RoundPix-16px"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "b5119a0c2927dc5f9cab101587d51e4ad44022e64699d6006f6218aa270adc4d",
+    "priority": 0
+  },
+  {
+    "id": "apple_hei_16",
+    "name": "Mac OS / Ikarus Hei 黑体原生点阵 16×16",
+    "family": "apple_hei",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_hei_16.png",
+    "specimenWidth": 230,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Hei 6.1d3e1；直接解析 bdat/bloc 第 2 个 1-bit 原生点阵 strike，ppem=16×16。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 113,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "596e492d832d5847f8140e13955cb531e26de74f4d10b334531cc9b779650cd4",
+    "priority": 0
+  },
+  {
+    "id": "apple_kai_16",
+    "name": "Mac OS / Ikarus Kai 楷体原生点阵 16×16",
+    "family": "apple_kai",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_kai_16.png",
+    "specimenWidth": 214,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Kai 6.1d1e1；直接解析 bdat/bloc 第 2 个 1-bit 原生点阵 strike，ppem=16×16。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 114,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "4fb118dc5cc16afa7e33c9b0348d2dcd1ada7c8a20c435c88346360c7d55cb71",
+    "priority": 0
+  },
+  {
+    "id": "mingliu_native_16",
+    "name": "MingLiU 细明体原生点阵 16×16",
+    "family": "mingliu_native",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/mingliu_native_16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/grubeninspekteur/webseitendesigner-pywright",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "专有系统字体。字体内许可仅允许按所属产品许可显示/打印及受限嵌入；公开 GitHub 镜像不代表开放授权。仅研究对比，不分发字库或字模文件。",
+    "provenance": "MingLiU Version 7.00；直接解析 EBDT/EBLC 第 4 个 1-bit 原生点阵 strike，ppem=16×16。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 115,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/grubeninspekteur/webseitendesigner-pywright"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "08e8b1c10e64f4ae5e839d1c0b61b9bf5ef975e2b982e06494cc56c295853ca3",
+    "priority": 0
+  },
+  {
+    "id": "nightgazer16b_16px",
+    "name": "夜照飞 Nightgazer Bold 16×16",
+    "family": "夜照飞点阵粗体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/nightgazer16b_16px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/scott0107000/Nightgazer-Bitmap",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "上游主许可证为 GPL-3.0；另附 Firefly 原始 GPL-2.0 文本。继承点阵来源的授权义务，字模再分发和修改须保留相应版权与许可。",
+    "provenance": "导入自pixel-fonts-supplement-zeoseven-maoken-2026-08-18/Upstream-GitHub/scott0107000--Nightgazer-Bitmap；上游https://github.com/scott0107000/Nightgazer-Bitmap（HEAD快照，收录于2026-08-18）；由ttf转换；原字模为螢火飛FireFly。 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 作者在 2026-03-11 发布原生粗体字重，衍生自 Firefly 点阵；不是本次采样自动加粗。 本轮用官方 TTF 直线轮廓按原生格点独立解码，测试字符与本 BDF 逐像素一致（22 个不同非空字符）。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 116,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/scott0107000/Nightgazer-Bitmap"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "73a1a2e60d1063f1cc6099862452234685552dec09c574bdeee393d94a5be626",
+    "priority": 0
+  },
+  {
+    "id": "founder_pixel18",
+    "name": "方正像素 18×18",
+    "family": "方正像素",
+    "width": 18,
+    "height": 18,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/founder_pixel18.png",
+    "specimenWidth": 243,
+    "specimenHeight": 40,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://nzj.foundertype.com/208.html?font_id=479",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "方正商业字体，商用和嵌入须按官方范围另行授权。本资料只作官方公开预览的渲染对照，不再分发字体或字形数据。",
+    "provenance": "方正官网说明六种规格均为手工设置像素。样例只读取官方网页逐字公开 WOFF 预览；检查每个轮廓均为原生网格上90%填充率的小方块，直接逐格恢复为1-bit，不将普通矢量字体任意取模。原生18×18单元，未缩放或描粗。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 117,
+    "nativeEvidence": {
+      "summary": "Official public per-character preview, verified 0.9-cell square contours reconstructed to native pixel centers",
+      "sourceUrl": "https://nzj.foundertype.com/208.html?font_id=479"
+    },
+    "cellWidth": 18,
+    "cellHeight": 18,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "b87a76a04e8e5da6f6d82e097d2d84bf858719102c09010f069bde06ccf6046d",
+    "priority": 0
+  },
+  {
+    "id": "mingliu_native_20",
+    "name": "MingLiU 细明体原生点阵 20×20",
+    "family": "mingliu_native",
+    "width": 20,
+    "height": 20,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/mingliu_native_20.png",
+    "specimenWidth": 270,
+    "specimenHeight": 44,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/grubeninspekteur/webseitendesigner-pywright",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "专有系统字体。字体内许可仅允许按所属产品许可显示/打印及受限嵌入；公开 GitHub 镜像不代表开放授权。仅研究对比，不分发字库或字模文件。",
+    "provenance": "MingLiU Version 7.00；直接解析 EBDT/EBLC 第 5 个 1-bit 原生点阵 strike，ppem=20×20。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 118,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/grubeninspekteur/webseitendesigner-pywright"
+    },
+    "cellWidth": 20,
+    "cellHeight": 20,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "ea2836c5d658e48cd90c9a6af8949e2c3c2bd0cbadf2a2948a56fc3b9a7f27c3",
+    "priority": 0
+  },
+  {
+    "id": "apple_hei_24",
+    "name": "Mac OS / Ikarus Hei 黑体原生点阵 24×24",
+    "family": "apple_hei",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_hei_24.png",
+    "specimenWidth": 342,
+    "specimenHeight": 52,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Hei 6.1d3e1；直接解析 bdat/bloc 第 3 个 1-bit 原生点阵 strike，ppem=24×24。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 119,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "03e185015ad0125813db073e78c2f2af593c4205001531c29f001850381eac79",
+    "priority": 0
+  },
+  {
+    "id": "apple_kai_24",
+    "name": "Mac OS / Ikarus Kai 楷体原生点阵 24×24",
+    "family": "apple_kai",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_kai_24.png",
+    "specimenWidth": 326,
+    "specimenHeight": 52,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Kai 6.1d1e1；直接解析 bdat/bloc 第 3 个 1-bit 原生点阵 strike，ppem=24×24。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 120,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "a7129e3d47e9ccb79b4f026715f0863c610b56775330ca518254142e116e9018",
+    "priority": 0
+  },
+  {
+    "id": "founder_pixel24",
+    "name": "方正像素 24×24",
+    "family": "方正像素",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/founder_pixel24.png",
+    "specimenWidth": 324,
+    "specimenHeight": 52,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://nzj.foundertype.com/208.html?font_id=479",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "方正商业字体，商用和嵌入须按官方范围另行授权。本资料只作官方公开预览的渲染对照，不再分发字体或字形数据。",
+    "provenance": "方正官网说明六种规格均为手工设置像素。样例只读取官方网页逐字公开 WOFF 预览；检查每个轮廓均为原生网格上90%填充率的小方块，直接逐格恢复为1-bit，不将普通矢量字体任意取模。原生24×24单元，未缩放或描粗。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 121,
+    "nativeEvidence": {
+      "summary": "Official public per-character preview, verified 0.9-cell square contours reconstructed to native pixel centers",
+      "sourceUrl": "https://nzj.foundertype.com/208.html?font_id=479"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "99c08c5efe5e07d7ee87806a32d03f12889ee255f3138d511faec4b4c5875a7d",
+    "priority": 0
+  },
+  {
+    "id": "nisc_native_16",
+    "name": "NISC GB18030 Bitmap 16×16",
+    "family": "nisc_native",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/nisc_native_16.png",
+    "specimenWidth": 192,
+    "specimenHeight": 16,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "中文样文未覆盖：，。；对应位置保留透明空位，不绘制替代方框，不借用其他字体。 拉丁样文未覆盖：0123456789AaBbGgMm!?:+-.；对应位置保留透明空位。 覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "NISC 版权所有，未发现开放再分发许可；公开镜像不等于商用授权。仅作为历史字体研究样张，不分发字库。",
+    "provenance": "GB18030 Bitmap 6.0d2e1；直接解析 bdat/bloc 第 0 个 1-bit 原生点阵 strike，ppem=16×16。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "partial",
+    "coverage": "部分字符未覆盖",
+    "missing": [
+      "，",
+      "。",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "A",
+      "a",
+      "B",
+      "b",
+      "G",
+      "g",
+      "M",
+      "m",
+      "!",
+      "?",
+      ":",
+      "+",
+      "-",
+      "."
+    ],
+    "hanMissing": [
+      "，",
+      "。"
+    ],
+    "asciiMissing": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "A",
+      "a",
+      "B",
+      "b",
+      "G",
+      "g",
+      "M",
+      "m",
+      "!",
+      "?",
+      ":",
+      "+",
+      "-",
+      "."
+    ],
+    "asciiOrigin": "missing",
+    "sourceIndex": 124,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "0d5213317620b8227d8dbe96fb3506ed345422701c770787ef1b31d99eaf40f9",
+    "priority": 0,
+    "omittedEmptyLines": [
+      "ascii"
+    ]
+  },
+  {
+    "id": "tumbled18",
+    "name": "圆石点阵黑 TUMBLED 18（14×19）",
+    "family": "圆石点阵黑 TUMBLED",
+    "width": 14,
+    "height": 19,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/tumbled18.png",
+    "specimenWidth": 168,
+    "specimenHeight": 19,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/TsFreddie/TUMBLED",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "拉丁样文未覆盖：0123456789AaBbGgMm!?:+-.；对应位置保留透明空位。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "18号作者声明汉字手工新绘，非轮廓自动取模。直接解码作者 shapes/*.txt 的 # 像素和 glyphs/*.txt 的位移；原始槽位高18，本例字模保持实际纵向范围0–18，不裁边。字体只补 CJK，拉丁数字仍依赖手表系统字体；本图不补配。 作者官方README明确18号汉字从零设计；本项读取原生glyph/shape像素，不涉及由Source Han Sans生成的28/36号。",
+    "sampleKind": "partial",
+    "coverage": "部分字符未覆盖",
+    "missing": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "A",
+      "a",
+      "B",
+      "b",
+      "G",
+      "g",
+      "M",
+      "m",
+      "!",
+      "?",
+      ":",
+      "+",
+      "-",
+      "."
+    ],
+    "hanMissing": [],
+    "asciiMissing": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "A",
+      "a",
+      "B",
+      "b",
+      "G",
+      "g",
+      "M",
+      "m",
+      "!",
+      "?",
+      ":",
+      "+",
+      "-",
+      "."
+    ],
+    "asciiOrigin": "missing",
+    "sourceIndex": 125,
+    "nativeEvidence": {
+      "summary": "Direct author-native glyph and shape text pixel decoding. Every source verified against pinned upstream git blob SHA-1. No outline rasterization, fallback, script substitution, or synthetic ASCII.",
+      "sourceUrl": "https://github.com/TsFreddie/TUMBLED"
+    },
+    "cellWidth": 14,
+    "cellHeight": 19,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "f4b0ccb7ee7d1408608a0972d8836a7c980b742a4ec5c9b00d025d56b19a47b1",
+    "priority": 0,
+    "omittedEmptyLines": [
+      "ascii"
+    ]
+  },
+  {
+    "id": "tumbled24",
+    "name": "圆石点阵黑 TUMBLED 24（16×25）",
+    "family": "圆石点阵黑 TUMBLED",
+    "width": 16,
+    "height": 25,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/tumbled24.png",
+    "specimenWidth": 192,
+    "specimenHeight": 25,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/TsFreddie/TUMBLED",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "拉丁样文未覆盖：0123456789AaBbGgMm!?:+-.；对应位置保留透明空位。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "OFL-1.1；可依协议使用、修改和再分发，需保留许可，不能单独销售字体。",
+    "provenance": "24号以 Unifont 为参考，重新调整笔画以适配 Pebble Gothic 风格，并非把16点阵简单放大。直接解码作者 shapes/*.txt 的 # 像素和 glyphs/*.txt 的位移；原始槽位高24，本例字模保持实际纵向范围0–24，不裁边。字体只补 CJK，拉丁数字仍依赖手表系统字体；本图不补配。 作者官方README明确24号参考Unifont原生点阵并调整笔画；本项不涉及由Source Han Sans生成的28/36号。",
+    "sampleKind": "partial",
+    "coverage": "部分字符未覆盖",
+    "missing": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "A",
+      "a",
+      "B",
+      "b",
+      "G",
+      "g",
+      "M",
+      "m",
+      "!",
+      "?",
+      ":",
+      "+",
+      "-",
+      "."
+    ],
+    "hanMissing": [],
+    "asciiMissing": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "A",
+      "a",
+      "B",
+      "b",
+      "G",
+      "g",
+      "M",
+      "m",
+      "!",
+      "?",
+      ":",
+      "+",
+      "-",
+      "."
+    ],
+    "asciiOrigin": "missing",
+    "sourceIndex": 126,
+    "nativeEvidence": {
+      "summary": "Direct author-native glyph and shape text pixel decoding. Every source verified against pinned upstream git blob SHA-1. No outline rasterization, fallback, script substitution, or synthetic ASCII.",
+      "sourceUrl": "https://github.com/TsFreddie/TUMBLED"
+    },
+    "cellWidth": 16,
+    "cellHeight": 25,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "aac74c481c2bad3ac3deee0750236796c3c725517df995c47106ed295230654c",
+    "priority": 0,
+    "omittedEmptyLines": [
+      "ascii"
+    ]
+  },
+  {
+    "id": "apple_biaukai_9",
+    "name": "Apple BiauKai 标楷原生点阵 9×9",
+    "family": "apple_biaukai",
+    "width": 9,
+    "height": 9,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_biaukai_9.png",
+    "specimenWidth": 113,
+    "specimenHeight": 22,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "BiauKai 6.1d3e1；直接解析 bdat/bloc 第 0 个 1-bit 原生点阵 strike，ppem=9×9。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 127,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 9,
+    "cellHeight": 9,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "851bac53192adaef031e636b0294923d4a7039110f7cc33bff942d4d6745635f",
+    "priority": 0
+  },
+  {
+    "id": "apple_lisung_9",
+    "name": "Apple LiSung 俪宋原生点阵 9×9",
+    "family": "apple_lisung",
+    "width": 9,
+    "height": 9,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_lisung_9.png",
+    "specimenWidth": 122,
+    "specimenHeight": 22,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Apple LiSung 6.1d1e2；直接解析 bdat/bloc 第 0 个 1-bit 原生点阵 strike，ppem=9×9。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 128,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 9,
+    "cellHeight": 9,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "223744ef8b676390f9f7a49d1c0a30e948de0b0ae81536b4222de4ba32c1e974",
+    "priority": 0
+  },
+  {
+    "id": "bestten_crt_10px",
+    "name": "BestTen CRT 10×10",
+    "family": "BestTen",
+    "width": 10,
+    "height": 10,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/bestten_crt_10px.png",
+    "specimenWidth": 151,
+    "specimenHeight": 26,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://flopdesign.booth.pm/items/2747965",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "M+ FONT LICENSE：允许不限用途地使用、复制与再分发（含修改及商用），字体无担保；官方版并非OFL。",
+    "provenance": "导入自direct-downloads-2026-09-03/flopdesign-bestten-1.00；上游https://flopdesign.booth.pm/items/2747965（官方Best10-FONT.zip，收录于2026-09-03）；由ttf转换。2026-09-03改用官方发行包，替换此前的猫啃网转发包：转发包额外附带了一份SIL OFL文本，导致本站将授权误判为OFL-1.1，而官方ReadMe与发布页均写明本字体依循M+授权；且转发包的CRT仅覆盖8585个码位，是官方版10196个码位的严格子集。 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 CRT为作者提供的圆角/视觉调整像素版本，未采用普通矢量字体栅格化。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 129,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://flopdesign.booth.pm/items/2747965"
+    },
+    "cellWidth": 10,
+    "cellHeight": 10,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "5b380433e7c83a0badf2467245accf51e38c4044dd0818b502e90d4ad8ca655a",
+    "priority": 0
+  },
+  {
+    "id": "galmuri9",
+    "name": "Galmuri9（汉字9×9，单元10×10）",
+    "family": "Galmuri",
+    "width": 10,
+    "height": 10,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/galmuri9.png",
+    "specimenWidth": 149,
+    "specimenHeight": 26,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/quiple/galmuri",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；原生 BDF 字模，保留版权与许可，可依协议使用、嵌入、修改和再分发，不得单独销售字体。",
+    "provenance": "导入自CJK-bitmap-fonts-open-source-2026-08-18/Pan-CJK/quiple--galmuri；上游https://github.com/quiple/galmuri/releases (v2.40.4) 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 BDF 的全局 em 包含额外语言音标空间；本样张使用上游指定的显示像素尺寸，原字宽和墨迹逐像素不变。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 130,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/quiple/galmuri"
+    },
+    "cellWidth": 10,
+    "cellHeight": 10,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "78e3e07ab667603289ca3bb7f4f5f2a389f3343f4ab4d5daa8543c8d0b89eb48",
+    "priority": 0
+  },
+  {
+    "id": "mona10_bold_10px",
+    "name": "Mona10 Bold 10×10",
+    "family": "Mona",
+    "width": 10,
+    "height": 10,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/mona10_bold_10px.png",
+    "specimenWidth": 157,
+    "specimenHeight": 26,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/MonadABXY/mona-font",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。 原生像素设计已有上游证据；转换BDF与原字体的逐字像素一致性尚未独立完整核验。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；LICENSE/mona.txt：“Copyright (c) 2025, Monad ABXY, with Reserved Font Name \"Mona\". This Font Software is licensed under the SIL Open Font License, Version 1.1.”字形取材自Noto Emoji（OFL-1.1／Apache-2.0）、方舟像素（OFL-1.1）、PixelMplus（M+ FONT LICENSE）与k8x12（旧版M+ 授权，等同公有领域），均为自由授权。",
+    "provenance": "上游https://github.com/MonadABXY/mona-font，取自release 2026.08.16的MonaFont-ttf.zip（收录于2026-08-30）。收录“01 Main”（含文字与表情的完整字体，四档字面）与“02 Text Only”（12px的HK/JP/KR/SC/TC五个地区字形版，表情较少）；发行包另有“03 Emoji Only”纯表情字体，未收录。由ttf按各自原生格点栅格化。上游的完整TTF带OpenType locl，可按文本语言切换中日韩字形；但点阵格式表达不了“同一码位的多个地区写法”，本站导出的位图TTF也没有GSUB。所以地区字形只能按文件分开收：12px的SC／TC／HK／JP／KR五份各自是固定字形，Main那几档固化的是上游默认字形（实测与KR版仅差0.42%，与SC版差13.9%）。Main的表情覆盖更全（1979对777）。 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 131,
+    "nativeEvidence": {
+      "summary": "上游明确为原生像素设计，TTF是像素轮廓或点阵封装，非普通矢量字体任意取模。本样张直接读取已转换BDF；转换与原始源字体的逐字像素一致性尚未独立完整核验。",
+      "sourceUrl": "https://github.com/MonadABXY/mona-font",
+      "designEvidence": "verified_native_pixel_design",
+      "conversionFidelity": "not_independently_fully_verified"
+    },
+    "cellWidth": 10,
+    "cellHeight": 10,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "dc38047f0ac73638da9ac8b67c67e3ca50d9631c915b025b369934988c0854cc",
+    "priority": 0
+  },
+  {
+    "id": "jf_dot_k12x10_10px",
+    "name": "k12×10 横宽点阵 12×10",
+    "family": "k12x10",
+    "width": 12,
+    "height": 10,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/jf_dot_k12x10_10px.png",
+    "specimenWidth": 162,
+    "specimenHeight": 24,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://z.apps.atjp.jp/k12x10/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "LicenseRef-PublicDomain；上游jikasei.me的自家製ドットフォント页标注漢字12x10ドットフォント - k12x10 (ぞろよし氏) ※パブリックドメイン，授权表中列入パブリックドメイン一栏：著作权由制作者放弃，个人与商用、改作与再分发均无限制，不要求署名。",
+    "provenance": "导入自 http://jikasei.me/font/jf-dotfont/ (jfdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 132,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://z.apps.atjp.jp/k12x10/"
+    },
+    "cellWidth": 12,
+    "cellHeight": 10,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "b02cd014138fd4c19f956524b80f439559015c67927476dd6e225ddd73970b27",
+    "priority": 0
+  },
+  {
+    "id": "k8x12_12px",
+    "name": "k8×12 纵长点阵 8×12",
+    "family": "k8x12",
+    "width": 8,
+    "height": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/k8x12_12px.png",
+    "specimenWidth": 108,
+    "specimenHeight": 28,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://littlelimit.net/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "旧版 M+ FONT LICENSE：允许不限用途使用、复制、修改与再分发，含商用，无担保。",
+    "provenance": "导入自pixel-fonts-supplement-zeoseven-maoken-2026-08-18/Upstream-Direct/k8x12；上游https://littlelimit.net/k8x12.htm（直链下载包，收录于2026-08-18）；由ttf转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 与同系列L/S版全部汉字相同，只保留一款；旧版简体样张中的10个汉字有8个与目哉像素相同，属于同源派生关系。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 133,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://littlelimit.net/"
+    },
+    "cellWidth": 8,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "595555b17272b26152b07d1468339f71676b1937941c5906193c427aa7bc59f9",
+    "priority": 0
+  },
+  {
+    "id": "galmuri11",
+    "name": "Galmuri11（汉字11×11，单元12×12）",
+    "family": "Galmuri",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/galmuri11.png",
+    "specimenWidth": 193,
+    "specimenHeight": 32,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/quiple/galmuri",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；原生 BDF 字模，保留版权与许可，可依协议使用、嵌入、修改和再分发，不得单独销售字体。",
+    "provenance": "导入自CJK-bitmap-fonts-open-source-2026-08-18/Pan-CJK/quiple--galmuri；上游https://github.com/quiple/galmuri/releases (v2.40.4) 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 BDF 的全局 em 包含额外语言音标空间；本样张使用上游指定的显示像素尺寸，原字宽和墨迹逐像素不变。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 134,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/quiple/galmuri"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "1e811fe19a4779a5a6533201185c524f0270780cbe65139a5a8a14a82841b0ca",
+    "priority": 0
+  },
+  {
+    "id": "jf_dot_k12b_12px",
+    "name": "K12 Bold 点阵 12×12",
+    "family": "K12",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/jf_dot_k12b_12px.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/fontpixel/fontpixel.com/tree/main/fonts/k12",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "LicenseRef-PublicDomain；上游jikasei.me的自家製ドットフォント页标注K12, K14 (橘浩志氏 / 今村俊幸氏) ※パブリックドメイン，授权表中列入パブリックドメイン一栏：著作权由制作者放弃，个人与商用、改作与再分发均无限制，不要求署名。半角所用的東雲ゴシック16同为公有领域。日文维基百科K14 (フォント)条目亦记其授权为Public Domain。",
+    "provenance": "导入自 http://jikasei.me/font/jf-dotfont/ (jfdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 135,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/fontpixel/fontpixel.com/tree/main/fonts/k12"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "d0d92485dc901a2543fd30d09b1e17328fab67eddce11a4ed8e328ce6914a375",
+    "priority": 0
+  },
+  {
+    "id": "jf_dot_k12_12px",
+    "name": "K12 点阵 12×12",
+    "family": "K12",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/jf_dot_k12_12px.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/fontpixel/fontpixel.com/tree/main/fonts/k12",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "LicenseRef-PublicDomain；上游jikasei.me的自家製ドットフォント页标注K12, K14 (橘浩志氏 / 今村俊幸氏) ※パブリックドメイン，授权表中列入パブリックドメイン一栏：著作权由制作者放弃，个人与商用、改作与再分发均无限制，不要求署名。半角所用的東雲ゴシック16同为公有领域。日文维基百科K14 (フォント)条目亦记其授权为Public Domain。",
+    "provenance": "导入自 http://jikasei.me/font/jf-dotfont/ (jfdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 136,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/fontpixel/fontpixel.com/tree/main/fonts/k12"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "229509c4a0e7b3b20fa4f0c80cf1d1e465c615f6a4f7217bb0e01e2f587326e9",
+    "priority": 0
+  },
+  {
+    "id": "kh_dot_kodenmachou_12_12px",
+    "name": "KH点阵小传马町 12×12",
+    "family": "KH点阵小传马町",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kh_dot_kodenmachou_12_12px.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://jikasei.me/font/kh-dotfont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游发布包内附 SIL_Open_Font_License_1.1.txt 全文，README 明写「本フォントのファイルは、SIL Open Font License 1.1 のもとで使用することができますので、商用利用などにおいても特に制約なくお使い頂けます」。字形著作权归平木敬太郎，TrueType 化由自家製フォント工房完成。这批字体原为 X68000 平台的『電脳フォント』系列，曾以商业授权销售，TrueType 化后经平木氏同意改以 OFL 1.1 自由发布。",
+    "provenance": "导入自 http://jikasei.me/font/kh-dotfont/ (khdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 原设计为X68000平台电脑字体系列，由作者授权以OFL发布；同字形、仅假名变化的Ki/Ko版本已去重。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 137,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://jikasei.me/font/kh-dotfont/"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "e2a031c9c93f4ee220e378454f43c6a288fe336c91ec55b685313bc6ea014e62",
+    "priority": 0
+  },
+  {
+    "id": "kh_dot_kagurazaka_12_12px",
+    "name": "KH点阵神乐坂 12×12",
+    "family": "KH点阵神乐坂",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kh_dot_kagurazaka_12_12px.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://jikasei.me/font/kh-dotfont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游发布包内附 SIL_Open_Font_License_1.1.txt 全文，README 明写「本フォントのファイルは、SIL Open Font License 1.1 のもとで使用することができますので、商用利用などにおいても特に制約なくお使い頂けます」。字形著作权归平木敬太郎，TrueType 化由自家製フォント工房完成。这批字体原为 X68000 平台的『電脳フォント』系列，曾以商业授权销售，TrueType 化后经平木氏同意改以 OFL 1.1 自由发布。",
+    "provenance": "导入自 http://jikasei.me/font/kh-dotfont/ (khdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 原设计为X68000平台电脑字体系列，由作者授权以OFL发布；同字形、仅假名变化的Ki/Ko版本已去重。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 138,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://jikasei.me/font/kh-dotfont/"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "aff65b20b092f3e8d619d9fd871b5755ce934205e4e2fdefd56117e3e95f95ff",
+    "priority": 0
+  },
+  {
+    "id": "kh_dot_dougenzaka_12_12px",
+    "name": "KH点阵道玄坂 12×12",
+    "family": "KH点阵道玄坂",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kh_dot_dougenzaka_12_12px.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://jikasei.me/font/kh-dotfont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游发布包内附 SIL_Open_Font_License_1.1.txt 全文，README 明写「本フォントのファイルは、SIL Open Font License 1.1 のもとで使用することができますので、商用利用などにおいても特に制約なくお使い頂けます」。字形著作权归平木敬太郎，TrueType 化由自家製フォント工房完成。这批字体原为 X68000 平台的『電脳フォント』系列，曾以商业授权销售，TrueType 化后经平木氏同意改以 OFL 1.1 自由发布。",
+    "provenance": "导入自 http://jikasei.me/font/kh-dotfont/ (khdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 原设计为X68000平台电脑字体系列，由作者授权以OFL发布；同字形、仅假名变化的Ki/Ko版本已去重。 与已收录的 changbandiansong-12 同源，旧版简体样张可比较的10个汉字中有7个相同，不能视作完全独立重绘。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 139,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://jikasei.me/font/kh-dotfont/"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "2ce3881fa8d12bd8a0c536f8ac48c9bc6f6bf7077d9dc5dbef3e4d28a8b8a2a2",
+    "priority": 0
+  },
+  {
+    "id": "apple_biaukai_12",
+    "name": "Apple BiauKai 标楷原生点阵 12×12",
+    "family": "apple_biaukai",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_biaukai_12.png",
+    "specimenWidth": 154,
+    "specimenHeight": 28,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "BiauKai 6.1d3e1；直接解析 bdat/bloc 第 1 个 1-bit 原生点阵 strike，ppem=12×12。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 140,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "b6545a87714958bee17b7822966bb08a6b46a0d8135608fa8329ab4e48baa87f",
+    "priority": 0
+  },
+  {
+    "id": "apple_lisung_12",
+    "name": "Apple LiSung 俪宋原生点阵 12×12",
+    "family": "apple_lisung",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_lisung_12.png",
+    "specimenWidth": 154,
+    "specimenHeight": 28,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Apple LiSung 6.1d1e2；直接解析 bdat/bloc 第 1 个 1-bit 原生点阵 strike，ppem=12×12。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 141,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "a69fa23c525e3238a7a86689e11047b3d8b955daf046ed5eb85d94abf3bcd0bf",
+    "priority": 0
+  },
+  {
+    "id": "xiaoya12",
+    "name": "小雅像素 12×12（简体缺字原型）",
+    "family": "小雅像素",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/xiaoya12.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/DWNfonts/XiaoyaPixel-Classic",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "上游仓库仍附旧版 00FF 许可；FontPixel 标注 OFL，存在版本说明不一致，本资料仅作预览，不再分发字形数据。",
+    "provenance": "diaowinner 基于 x12y12pxMaruMinya 的中文衍生，部分字形由生雅项目自动组合。修订版直接使用原 BDF 的繁体 Unicode 码位東/視/頻/號/輸/單，以完整繁体文案显示；不把源文件简体码位上的繁体外观混充简体。 从原始 BDF 的 BITMAP 直接解码，保留原生字框与半角宽度。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 142,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/DWNfonts/XiaoyaPixel-Classic"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "00fac3268907687ca143b5693f4c31f3b36c44bc39690e0dd71db000c0e27e1a",
+    "priority": 0
+  },
+  {
+    "id": "jf_dot_kaname12_12px",
+    "name": "要町 Kaname 12×12",
+    "family": "要町",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/jf_dot_kaname12_12px.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/fontpixel/fontpixel.com/tree/main/fonts/kanamecho",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "LicenseRef-PublicDomain；上游jikasei.me的自家製ドットフォント页标注要町フォント (中村隆生氏) ※パブリックドメイン，授权表中列入パブリックドメイン一栏：著作权由制作者放弃，个人与商用、改作与再分发均无限制，不要求署名。",
+    "provenance": "导入自 http://jikasei.me/font/jf-dotfont/ (jfdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 143,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/fontpixel/fontpixel.com/tree/main/fonts/kanamecho"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "e315571eb8bb4ed2d7b479db993a3cf49ed1396067dc8200d7180f916edf9a14",
+    "priority": 0
+  },
+  {
+    "id": "jf_dot_k14b_14px",
+    "name": "K14 Bold 点阵 14×14",
+    "family": "K14",
+    "width": 14,
+    "height": 14,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/jf_dot_k14b_14px.png",
+    "specimenWidth": 189,
+    "specimenHeight": 32,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/fontpixel/fontpixel.com/tree/main/fonts/k14",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "LicenseRef-PublicDomain；上游jikasei.me的自家製ドットフォント页标注K12, K14 (橘浩志氏 / 今村俊幸氏) ※パブリックドメイン，授权表中列入パブリックドメイン一栏：著作权由制作者放弃，个人与商用、改作与再分发均无限制，不要求署名。半角所用的東雲ゴシック16同为公有领域。日文维基百科K14 (フォント)条目亦记其授权为Public Domain。",
+    "provenance": "导入自 http://jikasei.me/font/jf-dotfont/ (jfdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 144,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/fontpixel/fontpixel.com/tree/main/fonts/k14"
+    },
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "bcf508ab7cfa0ea7eefb2c75d75bca8d5636eb6fbd9f0d76e35d242203dfb142",
+    "priority": 0
+  },
+  {
+    "id": "galmuri14",
+    "name": "Galmuri14（汉字13×13，单元15×15）",
+    "family": "Galmuri",
+    "width": 15,
+    "height": 15,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/galmuri14.png",
+    "specimenWidth": 238,
+    "specimenHeight": 40,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/quiple/galmuri",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；原生 BDF 字模，保留版权与许可，可依协议使用、嵌入、修改和再分发，不得单独销售字体。",
+    "provenance": "导入自CJK-bitmap-fonts-open-source-2026-08-18/Pan-CJK/quiple--galmuri；上游https://github.com/quiple/galmuri/releases (v2.40.4) 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 BDF 的全局 em 包含额外语言音标空间；本样张使用上游指定的显示像素尺寸，原字宽和墨迹逐像素不变。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 145,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/quiple/galmuri"
+    },
+    "cellWidth": 15,
+    "cellHeight": 15,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "fa6368dbdc7b83dcf27d746963f2399b93ea3f6137aae530d760f6238b3c5c51",
+    "priority": 0
+  },
+  {
+    "id": "dotgothic16_regular_16px",
+    "name": "DotGothic16 点黑 16×16",
+    "family": "DotGothic点黑16",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/dotgothic16_regular_16px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/fontworks-fonts/DotGothic16",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。 原生像素设计已有上游证据；转换BDF与原字体的逐字像素一致性尚未独立完整核验。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；Fontworks 官方字体，使用、修改及再分发须保留版权与许可，不得单独销售字体。",
+    "provenance": "重新导入Google Fonts官方完整TTF：https://github.com/google/fonts/tree/9a6cc6b8ce992aff77b69c857c46af0b42cdff76/ofl/dotgothic16（2026-09-18获取）。按原生16px关闭hinting，并将轮廓沿x、y方向各平移45/64px以对齐像素网格，修复假名笔画变粗、粘连的问题。保留全部Unicode映射及未编码字形；逐字符位图转换不保留OpenType排版规则。 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 以实际16px格点单元放置，忽略源BDF额外行距；数字4原生字宽8px、位图外伸到9px，保留全部墨迹。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 146,
+    "nativeEvidence": {
+      "summary": "上游明确为原生像素设计，TTF是像素轮廓或点阵封装，非普通矢量字体任意取模。本样张直接读取已转换BDF；转换与原始源字体的逐字像素一致性尚未独立完整核验。",
+      "sourceUrl": "https://github.com/fontworks-fonts/DotGothic16",
+      "designEvidence": "verified_native_pixel_design",
+      "conversionFidelity": "not_independently_fully_verified"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "96f16355282248696febdac3439bd771d6448ebfd254e5657b0b4498e7df55bf",
+    "priority": 0
+  },
+  {
+    "id": "kh_dot_ningyouchou_16_16px",
+    "name": "KH点阵人形町 16×16",
+    "family": "KH点阵人形町",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kh_dot_ningyouchou_16_16px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://jikasei.me/font/kh-dotfont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游发布包内附 SIL_Open_Font_License_1.1.txt 全文，README 明写「本フォントのファイルは、SIL Open Font License 1.1 のもとで使用することができますので、商用利用などにおいても特に制約なくお使い頂けます」。字形著作权归平木敬太郎，TrueType 化由自家製フォント工房完成。这批字体原为 X68000 平台的『電脳フォント』系列，曾以商业授权销售，TrueType 化后经平木氏同意改以 OFL 1.1 自由发布。",
+    "provenance": "导入自 http://jikasei.me/font/kh-dotfont/ (khdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 原设计为X68000平台电脑字体系列，由作者授权以OFL发布；同字形、仅假名变化的Ki/Ko版本已去重。 与已收录的 renoufangsong-16 同源，旧版简体样张可比较的10个汉字中有8个相同，不能视作完全独立重绘。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 147,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://jikasei.me/font/kh-dotfont/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "01c86391a52c2d44d4c6a9ae2fd5f5aafb2e6944ef9a084c9502bb227c1aa196",
+    "priority": 30
+  },
+  {
+    "id": "kh_dot_hatchoubori_16_16px",
+    "name": "KH点阵八丁堀 16×16",
+    "family": "KH点阵八丁堀",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kh_dot_hatchoubori_16_16px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://jikasei.me/font/kh-dotfont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游发布包内附 SIL_Open_Font_License_1.1.txt 全文，README 明写「本フォントのファイルは、SIL Open Font License 1.1 のもとで使用することができますので、商用利用などにおいても特に制約なくお使い頂けます」。字形著作权归平木敬太郎，TrueType 化由自家製フォント工房完成。这批字体原为 X68000 平台的『電脳フォント』系列，曾以商业授权销售，TrueType 化后经平木氏同意改以 OFL 1.1 自由发布。",
+    "provenance": "导入自 http://jikasei.me/font/kh-dotfont/ (khdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 原设计为X68000平台电脑字体系列，由作者授权以OFL发布；同字形、仅假名变化的Ki/Ko版本已去重。 与已收录的 badingshiweiti-16 同源，旧版简体样张可比较的10个汉字中有8个相同，不能视作完全独立重绘。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 148,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://jikasei.me/font/kh-dotfont/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "9c97ac6dc8538d554c9d2b36b360a74148b6b474f49f40633faf53af7e20fec9",
+    "priority": 0
+  },
+  {
+    "id": "kh_dot_kodenmachou_16_16px",
+    "name": "KH点阵小传马町 16×16",
+    "family": "KH点阵小传马町",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kh_dot_kodenmachou_16_16px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://jikasei.me/font/kh-dotfont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游发布包内附 SIL_Open_Font_License_1.1.txt 全文，README 明写「本フォントのファイルは、SIL Open Font License 1.1 のもとで使用することができますので、商用利用などにおいても特に制約なくお使い頂けます」。字形著作权归平木敬太郎，TrueType 化由自家製フォント工房完成。这批字体原为 X68000 平台的『電脳フォント』系列，曾以商业授权销售，TrueType 化后经平木氏同意改以 OFL 1.1 自由发布。",
+    "provenance": "导入自 http://jikasei.me/font/kh-dotfont/ (khdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 原设计为X68000平台电脑字体系列，由作者授权以OFL发布；同字形、仅假名变化的Ki/Ko版本已去重。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 149,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://jikasei.me/font/kh-dotfont/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "122e5a4812e586205cc9dedecd26115d6f484e4a33b48250f04ef7c775a7e7b1",
+    "priority": 0
+  },
+  {
+    "id": "kh_dot_kagurazaka_16_16px",
+    "name": "KH点阵神乐坂 16×16",
+    "family": "KH点阵神乐坂",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kh_dot_kagurazaka_16_16px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://jikasei.me/font/kh-dotfont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游发布包内附 SIL_Open_Font_License_1.1.txt 全文，README 明写「本フォントのファイルは、SIL Open Font License 1.1 のもとで使用することができますので、商用利用などにおいても特に制約なくお使い頂けます」。字形著作权归平木敬太郎，TrueType 化由自家製フォント工房完成。这批字体原为 X68000 平台的『電脳フォント』系列，曾以商业授权销售，TrueType 化后经平木氏同意改以 OFL 1.1 自由发布。",
+    "provenance": "导入自 http://jikasei.me/font/kh-dotfont/ (khdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 原设计为X68000平台电脑字体系列，由作者授权以OFL发布；同字形、仅假名变化的Ki/Ko版本已去重。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 150,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://jikasei.me/font/kh-dotfont/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "754f79c3432d4167150e0ef1d821a0c27dbfa5f2e1e51d9e7daa6c53c1e5620d",
+    "priority": 0
+  },
+  {
+    "id": "kh_dot_akihabara_16_16px",
+    "name": "KH点阵秋叶原 16×16",
+    "family": "KH点阵秋叶原",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kh_dot_akihabara_16_16px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://jikasei.me/font/kh-dotfont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游发布包内附 SIL_Open_Font_License_1.1.txt 全文，README 明写「本フォントのファイルは、SIL Open Font License 1.1 のもとで使用することができますので、商用利用などにおいても特に制約なくお使い頂けます」。字形著作权归平木敬太郎，TrueType 化由自家製フォント工房完成。这批字体原为 X68000 平台的『電脳フォント』系列，曾以商业授权销售，TrueType 化后经平木氏同意改以 OFL 1.1 自由发布。",
+    "provenance": "导入自 http://jikasei.me/font/kh-dotfont/ (khdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 原设计为X68000平台电脑字体系列，由作者授权以OFL发布；同字形、仅假名变化的Ki/Ko版本已去重。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 151,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://jikasei.me/font/kh-dotfont/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "ecc78d6d59c860d4347ee55b88014a2f195c1aad5be03c9445674db5b2a970d8",
+    "priority": 0
+  },
+  {
+    "id": "kh_dot_dougenzaka_16_16px",
+    "name": "KH点阵道玄坂 16×16",
+    "family": "KH点阵道玄坂",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kh_dot_dougenzaka_16_16px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://jikasei.me/font/kh-dotfont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游发布包内附 SIL_Open_Font_License_1.1.txt 全文，README 明写「本フォントのファイルは、SIL Open Font License 1.1 のもとで使用することができますので、商用利用などにおいても特に制約なくお使い頂けます」。字形著作权归平木敬太郎，TrueType 化由自家製フォント工房完成。这批字体原为 X68000 平台的『電脳フォント』系列，曾以商业授权销售，TrueType 化后经平木氏同意改以 OFL 1.1 自由发布。",
+    "provenance": "导入自 http://jikasei.me/font/kh-dotfont/ (khdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 原设计为X68000平台电脑字体系列，由作者授权以OFL发布；同字形、仅假名变化的Ki/Ko版本已去重。 与已收录的 changbandiansong-16 同源，旧版简体样张可比较的10个汉字中有7个相同，不能视作完全独立重绘。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 152,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://jikasei.me/font/kh-dotfont/"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "f6e8d283bc35b274478157332a73fcf68312539731a5e97dc17a2b0c0239f8bd",
+    "priority": 0
+  },
+  {
+    "id": "zlabsdiamondpix_16px_sc",
+    "name": "Z工坊像素钻石体 DiamondPix 16×16（未完备）",
+    "family": "Z工坊像素钻石体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/zlabsdiamondpix_16px_sc.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/Astro-2539/ZLabs-DiamondPix-16px",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "中文样文未覆盖：限窗外蓝；对应位置保留透明空位，不绘制替代方框，不借用其他字体。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；保留 Z工坊/ZLabs、UwU Matrix/UwUMatrix 字体名称；使用、修改与再分发遵循随附许可。",
+    "provenance": "导入自CJK-bitmap-fonts-open-source-2026-08-18/Chinese/Astro-2539--ZLabs-DiamondPix-16px；上游https://github.com/Astro-2539/ZLabs-DiamondPix-16px/releases (Build_20260309)；由kbitx转换；字形基于ChenhaoUwU的UwU点矩黑。 本轮直接解码 FontPixel BDF 的 BITMAP；不使用系统字体或任何缺字回退。 原始字库缺“期、省”，保留缺字，不用日文/繁体字形或其他字体替换。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "partial",
+    "coverage": "部分字符未覆盖",
+    "missing": [
+      "限",
+      "窗",
+      "外",
+      "蓝"
+    ],
+    "hanMissing": [
+      "限",
+      "窗",
+      "外",
+      "蓝"
+    ],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 153,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/Astro-2539/ZLabs-DiamondPix-16px"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "bc60ae6f7bab430a291f96820b2c56e504d9ca2ff857870296c1de3b19d3ae51",
+    "priority": 0
+  },
+  {
+    "id": "apple_biaukai_16",
+    "name": "Apple BiauKai 标楷原生点阵 16×16",
+    "family": "apple_biaukai",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_biaukai_16.png",
+    "specimenWidth": 207,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "BiauKai 6.1d3e1；直接解析 bdat/bloc 第 2 个 1-bit 原生点阵 strike，ppem=16×16。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 154,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "2a603b17d57bf6f5a6745d3185e767962316519fe57eec4e7ecc23aaafe3868a",
+    "priority": 0
+  },
+  {
+    "id": "apple_ligothic_16",
+    "name": "Apple LiGothic 俪黑原生点阵 16×16",
+    "family": "apple_ligothic",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_ligothic_16.png",
+    "specimenWidth": 200,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Apple LiGothic 6.1d3e1；直接解析 bdat/bloc 第 2 个 1-bit 原生点阵 strike，ppem=16×16。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 155,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "146731688168686753522a0663bb860f59b8115b853d288733d67d6f216a629a",
+    "priority": 0
+  },
+  {
+    "id": "apple_lisung_16",
+    "name": "Apple LiSung 俪宋原生点阵 16×16",
+    "family": "apple_lisung",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_lisung_16.png",
+    "specimenWidth": 207,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Apple LiSung 6.1d1e2；直接解析 bdat/bloc 第 2 个 1-bit 原生点阵 strike，ppem=16×16。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 156,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "79c1960d0bf515edb96f25b16f7f9fb7900a2ac0ae4b34000df0713ae227a40f",
+    "priority": 0
+  },
+  {
+    "id": "jf_dot_jiskan16s_16px",
+    "name": "jiskan16 JIS 点阵 16×16",
+    "family": "jiskan",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/jf_dot_jiskan16s_16px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/fontpixel/fontpixel.com/tree/main/fonts/jiskan",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "公有领域声明；本16px版全角JIS字模与半角東雲字模均属公有领域，不混入24px版的OFL半角字形。",
+    "provenance": "导入自 http://jikasei.me/font/jf-dotfont/ (jfdotfont-20150527)；由 ttf 转换。上游把16px与24px作为两组发布，本站合并为一个家族：同为日本工业标准的同一套字模在两档字身上的实现，由同一机构公开。归属依各字体name表核定：16px全角为電子情報技術産業協会／小山壽久／安岡孝一／今村俊幸／花高信哉，24px全角为電子情報技術産業協会／小山壽久／矢木達也。注：jiskan16s三个文件的设计者字段把全角误标为jiskan24，标注正确的是同包内半角取SONY版的JF-Dot-jiskan16.ttf。 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 157,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/fontpixel/fontpixel.com/tree/main/fonts/jiskan"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "9e501fff658daa049c94cd3a305aff2d3db69245e5892716056651e26830f51e",
+    "priority": 0
+  },
+  {
+    "id": "jf_dot_milkjf16b_16px",
+    "name": "milkjf Bold 16×16",
+    "family": "milkjf",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/jf_dot_milkjf16b_16px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/uobikiemukot/yaft",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "LicenseRef-PublicDomain；上游jikasei.me的自家製ドットフォント页标注milkjf BDF版 (日本農園氏 / 山内千里氏) ※パブリックドメイン，授权表中列入パブリックドメイン一栏：著作权由制作者放弃，个人与商用、改作与再分发均无限制，不要求署名。",
+    "provenance": "导入自 http://jikasei.me/font/jf-dotfont/ (jfdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 158,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "https://github.com/uobikiemukot/yaft"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "c6908f19e18a87b3a38732405b7edabd6d505c98eab3690d36a6b0f9fbecc70d",
+    "priority": 0
+  },
+  {
+    "id": "jf_dot_izumi16_16px",
+    "name": "出水 Izumi Gothic 16×16",
+    "family": "出水黑体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/jf_dot_izumi16_16px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://izumilib.web.fc2.com/izumi-bf/index.html",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "LicenseRef-PublicDomain；上游jikasei.me的自家製ドットフォント页标注出水ビットマップフォント (Yu=Izumi氏) ※パブリックドメイン，授权表中列入パブリックドメイン一栏：著作权由制作者放弃，个人与商用、改作与再分发均无限制，不要求署名。",
+    "provenance": "导入自 http://jikasei.me/font/jf-dotfont/ (jfdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 159,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://izumilib.web.fc2.com/izumi-bf/index.html"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "55755fd1f6129307262dfc5e5a64b4f9eadc7412637a9517777ea3ab798d658d",
+    "priority": 0
+  },
+  {
+    "id": "jf_dot_izumi16b_16px",
+    "name": "出水 Izumi Gothic Bold 16×16",
+    "family": "出水黑体",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体",
+      "粗体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/jf_dot_izumi16b_16px.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://izumilib.web.fc2.com/izumi-bf/index.html",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "LicenseRef-PublicDomain；上游jikasei.me的自家製ドットフォント页标注出水ビットマップフォント (Yu=Izumi氏) ※パブリックドメイン，授权表中列入パブリックドメイン一栏：著作权由制作者放弃，个人与商用、改作与再分发均无限制，不要求署名。",
+    "provenance": "导入自 http://jikasei.me/font/jf-dotfont/ (jfdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 160,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://izumilib.web.fc2.com/izumi-bf/index.html"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "ad6737ddbfb9311fdd2951f4e83e472db6abbbe7f8867c1c885fdcee8399e195",
+    "priority": 0
+  },
+  {
+    "id": "kh_dot_hibiya_24_24px",
+    "name": "KH点阵日比谷 24×24",
+    "family": "KH点阵日比谷",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kh_dot_hibiya_24_24px.png",
+    "specimenWidth": 324,
+    "specimenHeight": 52,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://jikasei.me/font/kh-dotfont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游发布包内附 SIL_Open_Font_License_1.1.txt 全文，README 明写「本フォントのファイルは、SIL Open Font License 1.1 のもとで使用することができますので、商用利用などにおいても特に制約なくお使い頂けます」。字形著作权归平木敬太郎，TrueType 化由自家製フォント工房完成。这批字体原为 X68000 平台的『電脳フォント』系列，曾以商业授权销售，TrueType 化后经平木氏同意改以 OFL 1.1 自由发布。",
+    "provenance": "导入自 http://jikasei.me/font/kh-dotfont/ (khdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 原设计为X68000平台电脑字体系列，由作者授权以OFL发布；同字形、仅假名变化的Ki/Ko版本已去重。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 164,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://jikasei.me/font/kh-dotfont/"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "4d9dafc54fe77bd4f8924aeb6a2ee1748b3b758daaddd6b3a7565061d81e4e95",
+    "priority": 0
+  },
+  {
+    "id": "apple_biaukai_24",
+    "name": "Apple BiauKai 标楷原生点阵 24×24",
+    "family": "apple_biaukai",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_biaukai_24.png",
+    "specimenWidth": 304,
+    "specimenHeight": 52,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "BiauKai 6.1d3e1；直接解析 bdat/bloc 第 3 个 1-bit 原生点阵 strike，ppem=24×24。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 165,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "268c163754ef58827d5af588ac06470a8b5db09608a82bc1ab7b91f11d8186b8",
+    "priority": 0
+  },
+  {
+    "id": "apple_ligothic_24",
+    "name": "Apple LiGothic 俪黑原生点阵 24×24",
+    "family": "apple_ligothic",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_ligothic_24.png",
+    "specimenWidth": 288,
+    "specimenHeight": 52,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Apple LiGothic 6.1d3e1；直接解析 bdat/bloc 第 3 个 1-bit 原生点阵 strike，ppem=24×24。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 166,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "f7700691803da5ead0d3e4a04fc1ce77fe35024b8e1091ba6582717aac051fec",
+    "priority": 0
+  },
+  {
+    "id": "apple_lisung_24",
+    "name": "Apple LiSung 俪宋原生点阵 24×24",
+    "family": "apple_lisung",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/apple_lisung_24.png",
+    "specimenWidth": 302,
+    "specimenHeight": 52,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/justrajdeep/fonts",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "覆盖情况仅指选定原生点阵字号，不代表同文件的矢量层。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Apple/DynaLab/Shanghai Ikarus 等原厂版权所有的专有系统字体（具体见 copyright_notice），未发现开放再分发许可；公开镜像不等于商用授权。仅作历史研究样张，不分发字库或字模文件。",
+    "provenance": "Apple LiSung 6.1d1e2；直接解析 bdat/bloc 第 3 个 1-bit 原生点阵 strike，ppem=24×24。按用户要求选择字体支持的简体或繁体样句，以实际 Unicode 字符查询，不把简体码位伪装成繁体字形。只调整空白画布以容纳原始 bearing，glyph_x_offsets 与 glyph_widths 保留真实 overhang 和 advance；未栅格化轮廓或借字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 167,
+    "nativeEvidence": {
+      "summary": "Direct original 1-bit embedded bitmap strike decoding; no glyf outline rasterization, fallback or script substitution.",
+      "sourceUrl": "https://github.com/justrajdeep/fonts"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "e210249288576fd0a2a2e2dd65d7c68b2d20bd19bcba6fe823a55c78551726a9",
+    "priority": 0
+  },
+  {
+    "id": "gulim24",
+    "name": "白墨圆体 Baekmuk Gulim 24×24",
+    "family": "白墨圆体",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "圆体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/gulim24.png",
+    "specimenWidth": 648,
+    "specimenHeight": 52,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/chocolatemelt/baekmuk",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "中文样文未覆盖：窗；对应位置保留透明空位，不绘制替代方框，不借用其他字体。 统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "Baekmuk 自由许可：允许使用、复制、修改与分发；所有副本保留版权及许可，支持文档须保留 Baekmuk 各家族商标归 Kim Jeong-Hwan 所有的说明。",
+    "provenance": "导入自CJK-bitmap-fonts-open-source-2026-08-18/Korean/chocolatemelt--baekmuk；上游https://github.com/chocolatemelt/baekmuk 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 原始BDF为KS X 1001编码，已通过EUC-KR映射Unicode；旧版精确简体文案仅覆盖9/15个汉字；本版已提取原生繁体及全角数字/英文，不另配字体。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "partial",
+    "coverage": "部分字符未覆盖",
+    "missing": [
+      "窗"
+    ],
+    "hanMissing": [
+      "窗"
+    ],
+    "asciiMissing": [],
+    "asciiOrigin": "native_fullwidth",
+    "sourceIndex": 168,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, KS X 1001 to Unicode exact EUC-KR mapping. Chinese direct match; ASCII-to-fullwidth mapping explicitly recorded.",
+      "sourceUrl": "https://github.com/chocolatemelt/baekmuk"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "4d8a168845ecbfa9a35a6ed191bf48256696f3e9f3d8c2709c3526d7f4fbd39f",
+    "priority": 0
+  },
+  {
+    "id": "kh_dot_hibiya_32_32px",
+    "name": "KH点阵日比谷 32×32",
+    "family": "KH点阵日比谷",
+    "width": 32,
+    "height": 32,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/kh_dot_hibiya_32_32px.png",
+    "specimenWidth": 432,
+    "specimenHeight": 68,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://jikasei.me/font/kh-dotfont/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1；上游发布包内附 SIL_Open_Font_License_1.1.txt 全文，README 明写「本フォントのファイルは、SIL Open Font License 1.1 のもとで使用することができますので、商用利用などにおいても特に制約なくお使い頂けます」。字形著作权归平木敬太郎，TrueType 化由自家製フォント工房完成。这批字体原为 X68000 平台的『電脳フォント』系列，曾以商业授权销售，TrueType 化后经平木氏同意改以 OFL 1.1 自由发布。",
+    "provenance": "导入自 http://jikasei.me/font/kh-dotfont/ (khdotfont-20150527)；由 ttf 转换 本轮直接解码 FontPixel BDF 的 BITMAP；原始像素字形，不使用系统字体或任何缺字回退。 按原始字符编码取字；样本文案缺字保留透明空位，绝不以日文异码、繁体异码或其他字体替代。 原设计为X68000平台电脑字体系列，由作者授权以OFL发布；同字形、仅假名变化的Ki/Ko版本已去重。 本次修订：按原字库提取繁简对应字与实际显示码位；",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 171,
+    "nativeEvidence": {
+      "summary": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sourceUrl": "http://jikasei.me/font/kh-dotfont/"
+    },
+    "cellWidth": 32,
+    "cellHeight": 32,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "2d37161698e90d5e8f472f250d85c084e08c0820cdea8b99c2b9e818b04c4ed4",
+    "priority": 0
+  },
+  {
+    "id": "xiuzhen6x8",
+    "name": "袖珍像素体（5×7字面，6×8字框）",
+    "family": "袖珍像素体",
+    "width": 6,
+    "height": 8,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/xiuzhen6x8.png",
+    "specimenWidth": 81,
+    "specimenHeight": 20,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/yzdnn/XiuZhenXiangSuTi",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1，保留名称袖珍像素体、XiuZhenXiangSuTi。",
+    "provenance": "作者明确为k6x8原生点阵扩充简繁汉字，6×8含字距；官方Sources目录发布BDF原稿。逐行读取作者BDF，不使用TTF栅格化。 这是k6x8的中文增补衍生，不按全新独立基础字族统计；固定样文共有字形39/42与k6x8相同。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "unknown",
+    "sourceIndex": null,
+    "nativeEvidence": {
+      "summary": "作者明确为k6x8原生点阵扩充简繁汉字，6×8含字距；官方Sources目录发布BDF原稿。逐行读取作者BDF，不使用TTF栅格化。 这是k6x8的中文增补衍生，不按全新独立基础字族统计；固定样文共有字形39/42与k6x8相同。",
+      "sourceUrl": "https://github.com/yzdnn/XiuZhenXiangSuTi",
+      "method": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sha256": "6147632b94cc9e5ba9cc2adb3e983611302624daeecc64db292a35d42965ca38"
+    },
+    "cellWidth": 6,
+    "cellHeight": 8,
+    "inkWidth": 5,
+    "inkHeight": 7,
+    "specimenSha256": "87da19c5d3750a1535e9415b4099e22af13cba90ebc9fe0a7a06540ae4f0d50f",
+    "priority": 0
+  },
+  {
+    "id": "boutique7",
+    "name": "精品点阵体7×7（8×8字框）",
+    "family": "精品点阵体",
+    "width": 8,
+    "height": 8,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/boutique7.png",
+    "specimenWidth": 110,
+    "specimenHeight": 20,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/scott0107000/BoutiqueBitmap7x7",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1，须保留许可与保留名称要求。",
+    "provenance": "作者说明基于美咲原生7×7点阵改作，修改日文字形与标点并增补繁体字；TTF仅封装原生像素轮廓。坐标均为256字体单位的整数格点，只解码像素占位，不用通用轮廓栅格器。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "unknown",
+    "sourceIndex": null,
+    "nativeEvidence": {
+      "summary": "作者说明基于美咲原生7×7点阵改作，修改日文字形与标点并增补繁体字；TTF仅封装原生像素轮廓。坐标均为256字体单位的整数格点，只解码像素占位，不用通用轮廓栅格器。",
+      "sourceUrl": "https://github.com/scott0107000/BoutiqueBitmap7x7",
+      "method": "Established native rectilinear pixel-grid decoding, no outline rasterizer, antialiasing, hinting, fallback or substitutions.",
+      "sha256": "25b76e6e0545ca46f3be26b8fc179e0a6af40367ded75aeada3b56a61fa3cda1",
+      "grid_step": 256,
+      "maximum_grid_error": 0
+    },
+    "cellWidth": 8,
+    "cellHeight": 8,
+    "inkWidth": 7,
+    "inkHeight": 7,
+    "specimenSha256": "20c973a9142645181d29e2bd3607e64b56b5105b4ca02414084cdda3b963b68c",
+    "priority": 0
+  },
+  {
+    "id": "chill7",
+    "name": "寒蝉点阵体7px（8×8字框）",
+    "family": "寒蝉点阵体",
+    "width": 8,
+    "height": 8,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/chill7.png",
+    "specimenWidth": 109,
+    "specimenHeight": 20,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/Warren2060/ChillBitmap",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "项目声明OFL-1.1；含美咲、精品及少量观致衍生字形，应保留上游声明。",
+    "provenance": "作者README明确修改约2000字、再设计1500多字，源于美咲、精品和少量观致原生点阵。TTF以128单位为原生像素边长；直接解码整数格点，拒绝曲线，不采用FontPixel的TTF栅格化BDF。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "unknown",
+    "sourceIndex": null,
+    "nativeEvidence": {
+      "summary": "作者README明确修改约2000字、再设计1500多字，源于美咲、精品和少量观致原生点阵。TTF以128单位为原生像素边长；直接解码整数格点，拒绝曲线，不采用FontPixel的TTF栅格化BDF。",
+      "sourceUrl": "https://github.com/Warren2060/ChillBitmap",
+      "method": "Established native rectilinear pixel-grid decoding, no outline rasterizer, antialiasing, hinting, fallback or substitutions.",
+      "sha256": "a22c0fb431b99f282fc93e5a56276eb52d00b10c9d4cfc17c597a8537405dae0",
+      "grid_step": 128,
+      "maximum_grid_error": 0
+    },
+    "cellWidth": 8,
+    "cellHeight": 8,
+    "inkWidth": 7,
+    "inkHeight": 7,
+    "specimenSha256": "9e38657cf57625fc74af9aff8b2cee0c86cd955dc18c6ff0d781dbb6cdb33676",
+    "priority": 0
+  },
+  {
+    "id": "fusion8",
+    "name": "缝合像素8×8",
+    "family": "缝合像素",
+    "width": 8,
+    "height": 8,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/fusion8.png",
+    "specimenWidth": 108,
+    "specimenHeight": 20,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/TakWolf/fusion-pixel-font",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1，并保留各原生点阵上游许可声明。",
+    "provenance": "作者8px档缝合精品7×7等原生点阵字形，不是10px缩小。读取上游发布BDF的BITMAP，来源为作者官方v2026.10.16发布包；属于原生点阵汇编衍生家族，不当作全新独立设计。 属于缝合像素家族的8px独立原生尺寸，不新增家族计数。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "unknown",
+    "sourceIndex": null,
+    "nativeEvidence": {
+      "summary": "作者8px档缝合精品7×7等原生点阵字形，不是10px缩小。读取上游发布BDF的BITMAP，来源为作者官方v2026.10.16发布包；属于原生点阵汇编衍生家族，不当作全新独立设计。 属于缝合像素家族的8px独立原生尺寸，不新增家族计数。",
+      "sourceUrl": "https://github.com/TakWolf/fusion-pixel-font",
+      "method": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sha256": "44a2d82b3dd782b505fa2297f10d8fd65499f9476d47b0331a22a133419b0ec3"
+    },
+    "cellWidth": 8,
+    "cellHeight": 8,
+    "inkWidth": 7,
+    "inkHeight": 7,
+    "specimenSha256": "b6bb916dd2213ba7c866be4679116a26a09327499ac8247818ed9d6dc5e919fb",
+    "priority": 0
+  },
+  {
+    "id": "misaki8",
+    "name": "美咲 Gothic（7×7字面，8×8字框）",
+    "family": "美咲",
+    "width": 8,
+    "height": 8,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/misaki8.png",
+    "specimenWidth": 108,
+    "specimenHeight": 20,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://littlelimit.net/misaki.htm",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "作者免费许可，允许使用、修改、再分发，保留附带许可说明。",
+    "provenance": "原作者称8×8日本语位图字体，除部分符号外都在7×7内，页面有逐字制作历史；直接下载作者BDF包并解码。日文字形，中文覆盖有限，不擅自替换异体或补字。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "unknown",
+    "sourceIndex": null,
+    "nativeEvidence": {
+      "summary": "原作者称8×8日本语位图字体，除部分符号外都在7×7内，页面有逐字制作历史；直接下载作者BDF包并解码。日文字形，中文覆盖有限，不擅自替换异体或补字。",
+      "sourceUrl": "https://littlelimit.net/misaki.htm",
+      "method": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sha256": "28a8745552c844f7c73f11bdf4470225f5e08645a98c5404b2e25bb326a5cabd"
+    },
+    "cellWidth": 8,
+    "cellHeight": 8,
+    "inkWidth": 7,
+    "inkHeight": 7,
+    "specimenSha256": "f08f9405faa1380364bb31f40fbb379e9cf3b9ef0646aaf0c8b27d2004ceac02",
+    "priority": 0
+  },
+  {
+    "id": "k6x8",
+    "name": "k6×8 Gothic（5×7字面，6×8字框）",
+    "family": "k6x8",
+    "width": 6,
+    "height": 8,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/k6x8.png",
+    "specimenWidth": 81,
+    "specimenHeight": 20,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://littlelimit.net/k6x8.htm",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "作者免费许可，保留附带M+等许可说明。",
+    "provenance": "作者官方页面说明6×8原生位图、除部分符号外5×7墨迹，2000年开始逐字制作；直接下载作者BDF包解码。日文字形，中文覆盖有限。未另列共享汉字的Mincho变体充数。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "unknown",
+    "sourceIndex": null,
+    "nativeEvidence": {
+      "summary": "作者官方页面说明6×8原生位图、除部分符号外5×7墨迹，2000年开始逐字制作；直接下载作者BDF包解码。日文字形，中文覆盖有限。未另列共享汉字的Mincho变体充数。",
+      "sourceUrl": "https://littlelimit.net/k6x8.htm",
+      "method": "Direct native BDF BITMAP decoding, Unicode exact match; no fallback or script substitution.",
+      "sha256": "b9029fa0dd93738c23e55b79ffb1f4445f51a57d09f2f9436b2c4d5ee6fe0590"
+    },
+    "cellWidth": 6,
+    "cellHeight": 8,
+    "inkWidth": 5,
+    "inkHeight": 7,
+    "specimenSha256": "ce9b79ea06474748ff19106bf32f697c42ba944f1029569a0fb85168d8d0fed9",
+    "priority": 0
+  },
+  {
+    "id": "dinkie7",
+    "name": "丁卯点阵体7px（8×8字框）",
+    "family": "丁卯点阵体",
+    "width": 8,
+    "height": 8,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/dinkie7.png",
+    "specimenWidth": 102,
+    "specimenHeight": 20,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://dinkiebitmap.com/",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "商业字体。仅官方网页预览字样用于研究对照，不分发字体或完整字库；使用字体须取得权利人许可。",
+    "provenance": "独立设计师Willie Liu / Atelier Anchor手工点阵字族，官方区分7px和9px设计。字形来自官方网页7px资源，以10字体单位为原生像素格，直接占格解码，不将9px缩小。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "unknown",
+    "sourceIndex": null,
+    "nativeEvidence": {
+      "summary": "独立设计师Willie Liu / Atelier Anchor手工点阵字族，官方区分7px和9px设计。字形来自官方网页7px资源，以10字体单位为原生像素格，直接占格解码，不将9px缩小。",
+      "sourceUrl": "https://dinkiebitmap.com/",
+      "method": "Established native rectilinear pixel-grid decoding, no outline rasterizer, antialiasing, hinting, fallback or substitutions.",
+      "sha256": "99c7edeb1cd74f816d9c51d1270279572b40386c5aedaeda4456dcc20e11bd20",
+      "grid_step": 10,
+      "maximum_grid_error": 0
+    },
+    "cellWidth": 8,
+    "cellHeight": 8,
+    "inkWidth": 7,
+    "inkHeight": 7,
+    "specimenSha256": "f30ffc20b125590ce1b5d743efd07aca4004ab8e57e0d0c773808d8e96b763d2",
+    "priority": 0
+  },
+  {
+    "id": "miseki8",
+    "name": "美绩点阵体（7×7字面，8×8字框）",
+    "family": "美绩点阵体",
+    "width": 8,
+    "height": 8,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "specimen": "assets/specimens/miseki8.png",
+    "specimenWidth": 108,
+    "specimenHeight": 20,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/ItMarki/MisekiBitmap",
+    "sourceLabel": "来源项目 / 资料页",
+    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
+    "licenseStatus": "已有许可线索",
+    "licenseNote": "OFL-1.1，保留许可声明。",
+    "provenance": "作者明确在美咲原生点阵基础扩充汉字、采用精品点阵注音蓝本。缝合像素项目注明这是其8px简体中文来源。TTF仅封装像素格点轮廓；256单位对应一原生像素，直接占格解码而非普通矢量字体栅格化。与美咲有继承关系，不是完全独立基础设计。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "unknown",
+    "sourceIndex": null,
+    "nativeEvidence": {
+      "summary": "作者明确在美咲原生点阵基础扩充汉字、采用精品点阵注音蓝本。缝合像素项目注明这是其8px简体中文来源。TTF仅封装像素格点轮廓；256单位对应一原生像素，直接占格解码而非普通矢量字体栅格化。与美咲有继承关系，不是完全独立基础设计。",
+      "sourceUrl": "https://github.com/ItMarki/MisekiBitmap",
+      "method": "Established native rectilinear pixel-grid decoding, no outline rasterizer, antialiasing, hinting, fallback or substitutions.",
+      "sha256": "f87164d114c98c5abd420bd0048c17710c5362d8a5478686005cd73e155d80e8",
+      "grid_step": 256,
+      "maximum_grid_error": 0
+    },
+    "cellWidth": 8,
+    "cellHeight": 8,
+    "inkWidth": 7,
+    "inkHeight": 7,
+    "specimenSha256": "b9bacab38e2f57bbe4e86705e2f111191ab4a174599c7c5f41505550eb9c045b",
+    "priority": 0
+  }
+];
