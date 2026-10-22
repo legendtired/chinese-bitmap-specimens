@@ -1,7 +1,27 @@
 /* No requests, dependencies, font files, or server required. */
 (function () {
   'use strict';
-  const dimensions = row => `${row.width}×${row.height}`;
+  const isReference = row => row.sampleKind === 'reference';
+  const isVariableGrid = row => !isReference(row) && row.variableGrid === true;
+  const knownSize = value => value !== null && value !== undefined && value !== '' && Number.isFinite(Number(value)) && Number(value) > 0;
+  const variableGridLabel = row => `不定字框${knownSize(row.designEmGrid) ? ` · em ${row.designEmGrid} 格` : ''}`;
+  const variableGridNote = '设计 em 仅表示设计坐标尺度，不等于固定字符框；实际边界和进位以各字形为准。';
+  const variableGridWarning = '变宽设计无统一字符框；仅按原始像素整数倍显示，不将字形硬规整到同一网格。';
+  const dimensions = row => isVariableGrid(row) ? variableGridLabel(row) : knownSize(row.width) && knownSize(row.height) ? `${row.width}×${row.height}` : '未核定';
+  const heightValue = row => isVariableGrid(row) ? 'variable' : knownSize(row.height) ? String(row.height) : 'unknown';
+  const heightLabel = value => value === 'unknown' ? '未核定' : value === 'variable' ? '不定字框' : `${value} px`;
+  const compareHeightValues = (a, b, descending = false) => {
+    const rank = value => value === 'unknown' ? 2 : value === 'variable' ? 1 : 0;
+    return rank(a) - rank(b) || (rank(a) ? 0 : (Number(a) - Number(b)) * (descending ? -1 : 1));
+  };
+  const referenceLabel = row => `原始资料图 · ${row.referenceType || '参考资料'}`;
+  const referenceWarning = '资料图不代表原生字号，不能按像素尺寸比较';
+  const referenceCoverage = '资料图不作逐字覆盖验证';
+  const cellDimensions = row => {
+    if (isVariableGrid(row)) return null;
+    const width = row.cellWidth ?? row.width, height = row.cellHeight ?? row.height;
+    return knownSize(width) && knownSize(height) ? `${width}×${height} px` : null;
+  };
   const asArray = value => Array.isArray(value) ? value : value ? [value] : [];
   function formatData(value) {
     if (value === null || value === undefined) return '';
@@ -14,6 +34,7 @@
   }
   const missingGlyphLabel = value => value === ' ' ? '空格' : value;
   function missingNotice(row) {
+    if (isReference(row)) return '';
     const han = asArray(row.hanMissing), ascii = asArray(row.asciiMissing);
     const parts = [];
     if (han.length) parts.push(`中文缺字：${han.map(missingGlyphLabel).join('、')}`);
@@ -23,7 +44,7 @@
     return parts.length ? `${parts.join('；')}。${explanation}` : '';
   }
   const groups = [
-    { key: 'height', title: '字高', value: row => [String(row.height)] },
+    { key: 'height', title: '字高', value: row => [heightValue(row)] },
     { key: 'scripts', title: '字形与字符范围', value: row => asArray(row.scripts) },
     { key: 'styles', title: '风格', value: row => asArray(row.styles) },
     { key: 'uses', title: '用途', value: row => asArray(row.uses) }
@@ -31,7 +52,7 @@
   function filterCatalog(rows, selections, family = '', sort = 'recommended') {
     const filtered = rows.filter(row => (!family || row.family === family) && groups.every(group => {
       const selected = selections[group.key] || [];
-      return !selected.length || (group.key === 'height' ? String(row.height) === String(selected[0]) : group.value(row).some(value => selected.includes(value)));
+      return !selected.length || (group.key === 'height' ? heightValue(row) === String(selected[0]) : group.value(row).some(value => selected.includes(value)));
     }));
     const priority = row => Number.isFinite(Number(row.priority)) ? Number(row.priority) : 0;
     const byName = (a, b) => a.name.localeCompare(b.name, 'zh-CN') || String(a.id || '').localeCompare(String(b.id || ''));
@@ -41,7 +62,7 @@
         const difference = priority(b) - priority(a);
         if (difference) return difference;
       }
-      return ((Number(a.height) - Number(b.height)) * (sort === 'height-desc' ? -1 : 1)) || byName(a, b);
+      return compareHeightValues(heightValue(a), heightValue(b), sort === 'height-desc') || byName(a, b);
     });
   }
   const FAVORITES_KEY = 'chinese-bitmap:favorites:v1';
@@ -85,7 +106,7 @@
     image.addEventListener('click', event => { if (event.detail !== 0 && moved) { event.preventDefault(); start = null; return; } start = null; image.focus({ preventScroll: true }); open(); });
     image.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); start = null; moved = false; open(); } });
   }
-  if (typeof module !== 'undefined' && module.exports) module.exports = { bindSpecimenDetails, filterCatalog, dimensions, missingNotice, formatData, safeSourceUrl, FAVORITES_KEY, cleanIds, toggleId, addComparison, createFavoriteStore, visibleCatalog };
+  if (typeof module !== 'undefined' && module.exports) module.exports = { bindSpecimenDetails, filterCatalog, dimensions, isReference, isVariableGrid, variableGridLabel, variableGridNote, variableGridWarning, heightValue, heightLabel, compareHeightValues, cellDimensions, referenceLabel, referenceWarning, referenceCoverage, missingNotice, formatData, safeSourceUrl, FAVORITES_KEY, cleanIds, toggleId, addComparison, createFavoriteStore, visibleCatalog };
   if (typeof document === 'undefined') return;
   const rows = Array.isArray(window.FONT_CATALOG) ? window.FONT_CATALOG : [];
   const $ = id => document.getElementById(id);
@@ -116,13 +137,13 @@
     fieldset.append(create('legend', '', group.title));
     const options = create('div', group.key === 'height' ? 'filter-options sizes' : 'filter-options');
     let values = [...new Set(rows.flatMap(group.value))];
-    if (group.key === 'height') { values.sort((a, b) => Number(a) - Number(b)); values.unshift(''); }
+    if (group.key === 'height') { values.sort((a, b) => compareHeightValues(a, b)); values.unshift(''); }
     for (const value of values) {
       const label = create('label', 'filter-option');
       const input = create('input'); input.type = group.key === 'height' ? 'radio' : 'checkbox'; input.value = value; input.dataset.group = group.key;
       if (group.key === 'height') { input.name = 'glyph-height'; input.checked = value === ''; }
       input.addEventListener('change', () => { selections[group.key] = [...options.querySelectorAll('input:checked')].map(input => input.value).filter(Boolean); render(); });
-      label.append(input, create('span', '', group.key === 'height' ? value ? `${value} px` : '全部' : value)); options.append(label);
+      label.append(input, create('span', '', group.key === 'height' ? value ? heightLabel(value) : '全部' : value)); options.append(label);
     }
     fieldset.append(options); $('filter-groups').append(fieldset);
   }
@@ -139,15 +160,18 @@
     const list = create('dl', 'detail-list');
     const permalink = create('a', '', '打开独立资料页'); permalink.href = `fonts/${encodeURIComponent(row.id)}.html`; addDetail(list, '资料页', permalink);
     addDetail(list, '家族', row.family);
-    addDetail(list, '字符框', `${row.cellWidth || row.width}×${row.cellHeight || row.height} px（字高筛选以此为准）`);
+    const cell = cellDimensions(row);
+    addDetail(list, '字符框', cell ? `${cell}（字高筛选以此为准）` : null);
+    if (isVariableGrid(row)) { addDetail(list, '字框类型', variableGridLabel(row)); addDetail(list, '设计说明', variableGridNote); }
+    if (isReference(row)) { addDetail(list, '资料类型', row.referenceType || '参考资料'); addDetail(list, '核验边界', row.referenceNote || referenceWarning); }
     if (row.inkWidth && row.inkHeight) addDetail(list, '字面／墨迹', `${row.inkWidth}×${row.inkHeight} px（不等于字符框大小）`);
     addDetail(list, '字符范围', row.scripts); addDetail(list, '覆盖说明', row.coverage);
-    addDetail(list, '样本文字', row.text); addDetail(list, '拉丁字符', row.asciiText);
-    addDetail(list, '缺字', Array.isArray(row.missing) ? row.missing.length ? row.missing.join('、') : '本次样本文字未发现缺字' : row.missing);
+    addDetail(list, '样本文字', row.text); addDetail(list, row.asciiOrigin === 'fullwidth-native' ? '全角英数样文（非ASCII）' : '拉丁字符', row.asciiOrigin === 'absent' ? null : row.asciiText);
+    addDetail(list, '缺字', isReference(row) ? referenceCoverage : Array.isArray(row.missing) ? row.missing.length ? row.missing.join('、') : '本次样本文字未发现缺字' : row.missing);
     addDetail(list, '风格', row.styles); addDetail(list, '用途', row.uses);
     addDetail(list, '授权状态', row.licenseStatus || '尚未确认，请到来源项目核实。');
     addDetail(list, '许可说明', row.licenseNote); addDetail(list, '字形来源', row.provenance);
-    addDetail(list, '样张类型', row.sampleKind === 'historical' ? '历史样张：保留来源实际可用字形，不与其他来源拼接' : row.sampleKind === 'partial' ? '统一新样文（缺字位置留空）' : row.sampleKind === 'standard' ? '统一比较样文' : row.sampleKind === 'osd' ? '来源限定字符样张' : null);
+    addDetail(list, '样张类型', isReference(row) ? '原始资料图，不作为原生像素样张' : row.sampleLabel || (row.sampleKind === 'historical' ? '历史样张：保留来源实际可用字形，不与其他来源拼接' : row.sampleKind === 'partial' ? '统一新样文（缺字位置留空）' : row.sampleKind === 'standard' ? '统一比较样文' : row.sampleKind === 'osd' ? '来源限定字符样张' : null));
     if (safeSourceUrl(row.sourceUrl)) {
       const link = create('a', '', row.sourceLabel || '来源项目'); link.href = safeSourceUrl(row.sourceUrl); link.target = '_blank'; link.rel = 'noopener noreferrer'; link.append(icon('external')); addDetail(list, '来源', link);
     }
@@ -177,27 +201,33 @@
     $('detail-content').replaceChildren(list, note); showDialog($('detail-dialog'));
   }
   function specimenImage(row, scale) {
-    const image = create('img', 'specimen-image'); image.src = row.specimen;
-    image.alt = [row.text, row.asciiText].filter(Boolean).join(' / ') || `${row.name}真实点阵样张`;
+    const reference = isReference(row), image = create('img', reference ? 'specimen-image reference-image' : 'specimen-image'); image.src = row.specimen;
+    image.alt = reference ? `${row.name}：${referenceLabel(row)}` : [row.text, row.asciiText].filter(Boolean).join(' / ') || `${row.name}真实点阵样张`;
     image.loading = 'lazy'; image.decoding = 'async';
     function setSize() {
       const width = Number(row.specimenWidth) || image.naturalWidth;
       const height = Number(row.specimenHeight) || image.naturalHeight;
-      if (width && height) { image.width = width * scale; image.height = height * scale; }
+      if (width && height) { image.width = width * (reference ? 1 : scale); image.height = height * (reference ? 1 : scale); }
     }
-    image.setScale = next => { scale = next; setSize(); };
+    image.setScale = next => { if (!reference) { scale = next; setSize(); } };
     image.addEventListener('load', setSize); setSize();
     image.addEventListener('error', () => { image.alt = `${row.name}：样张未能载入，请检查文件是否完整。`; });
     return image;
   }
   function card(row) {
-    const article = create('article', 'specimen'); article.dataset.rowId = row.id; const header = create('div', 'specimen-header');
-    header.append(create('h2', '', row.name), create('span', 'specimen-meta', `${dimensions(row)} · ${asArray(row.scripts).join(' / ')}`));
+    const reference = isReference(row), article = create('article', reference ? 'specimen reference-specimen' : isVariableGrid(row) ? 'specimen variable-grid-specimen' : 'specimen'); article.dataset.rowId = row.id; const header = create('div', 'specimen-header');
+    header.append(create('h2', '', row.name), create('span', 'specimen-meta', `${reference ? heightValue(row) === 'unknown' ? '字高未核定' : '参考资料' : dimensions(row)} · ${asArray(row.scripts).join(' / ')}`));
     const button = create('a', 'detail-button'); button.href = `fonts/${encodeURIComponent(row.id)}.html`; buttonContent(button, '详情', 'external', false, true); button.setAttribute('aria-label', `查看${row.name}详情`); button.addEventListener('click', event => { if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); detail(row); }); const actions = create('div', 'row-actions');
     const favorite = create('button', 'favorite-toggle'); favorite.dataset.favoriteId = row.id; favorite.addEventListener('click', () => toggleFavorite(row.id));
     const compare = create('button', 'compare-toggle'); compare.dataset.compareId = row.id; compare.addEventListener('click', () => toggleComparison(row.id));
     actions.append(favorite, compare, button); header.append(actions);
-    const panel = create('div', 'sample-panel');
+    const panel = create('div', reference ? 'sample-panel reference-panel' : 'sample-panel');
+    if (reference) {
+      const scroll = create('div', 'image-scroll reference-scroll'); scroll.tabIndex = 0; scroll.setAttribute('aria-label', `${row.name}原始资料图，按可用宽度显示`);
+      const image = specimenImage(row, 1); bindSpecimenDetails(image, scroll, row.name, () => detail(row)); scroll.append(image);
+      panel.append(create('div', 'sample-label', referenceLabel(row)), scroll); article.append(header, panel, create('p', 'sample-note reference-note', row.referenceNote || referenceWarning));
+      return article;
+    }
     const enlarged = create('div', 'sample-enlarged'); const label = create('label', 'sample-label', '放大观察 · ');
     const zoom = create('select', 'zoom-control'); zoom.setAttribute('aria-label', `${row.name}放大倍数`);
     for (const scale of [2, 3, 4]) { const option = create('option', '', `${scale}×`); option.value = scale; option.selected = scale === 3; zoom.append(option); }
@@ -207,7 +237,9 @@
     const native = create('div', 'sample-native'); const nativeScroll = create('div', 'image-scroll'); nativeScroll.tabIndex = 0; nativeScroll.setAttribute('aria-label', `${row.name}原尺寸样张，超宽时可横向滚动`);
     const nativeImage = specimenImage(row, 1); bindSpecimenDetails(nativeImage, nativeScroll, row.name, () => detail(row)); nativeScroll.append(nativeImage); native.append(create('div', 'sample-label', '原尺寸 · 1×'), nativeScroll);
     panel.append(enlarged, native); article.append(header, panel);
-    if (row.sampleKind === 'historical') article.append(create('p', 'sample-note', '历史样张 · 字符范围与统一样文可能不同，详见详情。'));
+    if (isVariableGrid(row)) article.append(create('p', 'sample-note variable-grid-note', variableGridNote));
+    if (row.sampleLabel) article.append(create('p', 'sample-note', row.sampleLabel));
+    else if (row.sampleKind === 'historical') article.append(create('p', 'sample-note', '历史样张 · 字符范围与统一样文可能不同，详见详情。'));
     const missingText = missingNotice(row);
     if (missingText) article.append(create('p', 'missing-hint', missingText));
     return article;
@@ -224,7 +256,7 @@
     $('empty-reset').textContent = favoritesView ? '浏览全部字样' : '清空筛选，查看全部';
     const active = document.createDocumentFragment();
     for (const group of groups) for (const value of selections[group.key]) {
-      const button = create('button'); buttonContent(button, group.key === 'height' ? `字高 ${value} px` : value, 'close', false, true); button.setAttribute('aria-label', `移除筛选：${group.title} ${value}`);
+      const button = create('button'); buttonContent(button, group.key === 'height' ? `字高 ${heightLabel(value)}` : value, 'close', false, true); button.setAttribute('aria-label', `移除筛选：${group.title} ${group.key === 'height' ? heightLabel(value) : value}`);
       button.addEventListener('click', () => { selections[group.key] = selections[group.key].filter(item => item !== value); syncInputs(); render(); }); active.append(button);
     }
     if ($('family').value) { const button = create('button'); buttonContent(button, $('family').value, 'close', false, true); button.setAttribute('aria-label', '移除字体家族筛选'); button.addEventListener('click', () => { $('family').value = ''; render(); }); active.append(button); }
@@ -294,15 +326,28 @@
   }
   function renderComparison() {
     const content = document.createDocumentFragment(), scale = Number($('compare-zoom').value);
-    $('compare-warning').hidden = !comparisonIds.some(id => rows.find(row => row.id === id).sampleKind === 'osd');
+    const selectedRows = comparisonIds.map(id => rows.find(row => row.id === id)), hasReference = selectedRows.some(isReference), hasNative = selectedRows.some(row => !isReference(row)), hasVariableGrid = selectedRows.some(isVariableGrid);
+    const warnings = [];
+    if (hasReference) warnings.push(referenceWarning + '。');
+    if (hasVariableGrid) warnings.push(variableGridWarning);
+    if (selectedRows.some(row => row.sampleKind === 'osd')) warnings.push(`${selectedRows.some(row => row.sampleKind === 'osd' && row.sampleLabel) ? '包含来源限定设备样张' : '包含 OSD 来源限定样张'}，其文字与普通字体不同，请勿将不同文字当作同字比较。`);
+    $('compare-warning').textContent = warnings.join(' '); $('compare-warning').hidden = !warnings.length; $('compare-warning').classList.toggle('reference-warning', hasReference);
+    $('compare-warning').classList.toggle('variable-grid-warning', hasVariableGrid && !hasReference);
+    const toolbar = document.querySelector('.compare-toolbar'); toolbar.hidden = !hasNative;
+    toolbar.querySelector('label').textContent = hasReference ? '原生字样放大' : '统一放大';
+    toolbar.querySelector('span').textContent = hasReference ? '倍率仅用于原生字样；资料图按可用宽度显示' : '保留原生比例，不归一化字高';
     for (const id of comparisonIds) {
-      const row = rows.find(row => row.id === id), article = create('article', 'comparison-row');
+      const row = rows.find(row => row.id === id), reference = isReference(row), article = create('article', reference ? 'comparison-row reference-specimen' : isVariableGrid(row) ? 'comparison-row variable-grid-specimen' : 'comparison-row');
       const header = create('div', 'specimen-header');
-      header.append(create('h3', '', row.name), create('span', 'specimen-meta', `${dimensions(row)} · ${asArray(row.scripts).join(' / ')}`));
+      header.append(create('h3', '', row.name), create('span', 'specimen-meta', `${reference ? row.referenceType || '参考资料' : dimensions(row)} · ${asArray(row.scripts).join(' / ')}`));
       const remove = create('button', 'quiet-button'); buttonContent(remove, '移除', 'close', false, true); remove.setAttribute('aria-label', `移出对比：${row.name}`); remove.addEventListener('click', () => removeComparison(id, true)); header.append(remove);
-      const scroll = create('div', 'image-scroll'); scroll.tabIndex = 0; scroll.setAttribute('aria-label', `${row.name}对比样张，可横向滚动`);
-      const img = specimenImage(row, scale); img.loading = 'eager'; scroll.append(img); article.append(header, scroll);
-      if (row.sampleKind === 'osd') article.append(create('p', 'sample-note', 'OSD 来源限定文字，与其他普通字体样文不同。'));
+      const scroll = create('div', reference ? 'image-scroll reference-scroll' : 'image-scroll'); scroll.tabIndex = 0; scroll.setAttribute('aria-label', reference ? `${row.name}原始资料图，按可用宽度显示` : `${row.name}对比样张，可横向滚动`);
+      const img = specimenImage(row, scale); img.loading = 'eager'; scroll.append(img); article.append(header);
+      if (reference) article.append(create('p', 'sample-label', referenceLabel(row)));
+      article.append(scroll);
+      if (reference && row.referenceNote) article.append(create('p', 'sample-note reference-note', row.referenceNote));
+      if (isVariableGrid(row)) article.append(create('p', 'sample-note variable-grid-note', variableGridNote));
+      if (row.sampleKind === 'osd') article.append(create('p', 'sample-note', `${row.sampleLabel || 'OSD 来源限定文字'}，与其他普通字体样文不同。`));
       const missing = missingNotice(row); if (missing) article.append(create('p', 'missing-hint', missing)); content.append(article);
     }
     if (!comparisonIds.length) content.append(create('p', 'muted', '对比列表已清空。关闭此窗口后，可重新选择字样。'));
@@ -315,7 +360,7 @@
   $('favorites-confirm-clear').addEventListener('click', () => { favoriteIds = favoritesStore.save([]); $('favorites-confirm').hidden = true; render(); $('favorites-back').focus(); });
   $('compare-clear').addEventListener('click', () => { comparisonIds = []; announce(''); refreshStateControls(); renderTray(); $('favorites-open').focus({ preventScroll: true }); });
   $('compare-open').addEventListener('click', () => { if (comparisonIds.length < 2) return; $('compare-zoom').value = '3'; renderComparison(); showDialog($('compare-dialog')); });
-  $('compare-zoom').addEventListener('change', () => { document.querySelectorAll('#compare-content .specimen-image').forEach(image => image.setScale(Number($('compare-zoom').value))); });
+  $('compare-zoom').addEventListener('change', () => { document.querySelectorAll('#compare-content .specimen-image:not(.reference-image)').forEach(image => image.setScale(Number($('compare-zoom').value))); });
   function syncInputs() { document.querySelectorAll('#filter-groups input').forEach(input => { input.checked = input.dataset.group === 'height' && input.value === '' ? selections.height.length === 0 : selections[input.dataset.group].includes(input.value); }); }
   function reset() { Object.keys(selections).forEach(key => { selections[key] = []; }); $('family').value = ''; syncInputs(); render(); }
   $('reset-filters').addEventListener('click', reset); $('empty-reset').addEventListener('click', () => favoritesView ? setFavoritesView(false) : reset());

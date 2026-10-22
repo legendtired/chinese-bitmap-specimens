@@ -9,7 +9,7 @@ const snapshot = JSON.stringify(rows);
 const context = {window:{}};
 vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../data/catalog.js'),'utf8'),context);
 assert.equal(JSON.stringify(context.window.FONT_CATALOG),snapshot,'JS and JSON catalog must match');
-assert.equal(rows.length,155);
+assert.equal(rows.length,require('../data/release-v17.json').totalRows);
 assert(rows.every(row=>typeof row.priority==='number'&&Number.isFinite(row.priority)));
 assert.equal(rows.filter(row=>row.priority>0).length,8);
 for (const [index,id] of expected.entries()) assert.equal(rows.find(row=>row.id===id).priority,90-index*10);

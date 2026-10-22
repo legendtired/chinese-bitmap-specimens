@@ -58,7 +58,7 @@ python scripts/generate_static.py
 python tests/seo.test.py
 ```
 
-生成器只读取 data/catalog.json，复用 app.js 的排序逻辑，需要 Python 3 与 Node.js。它同步 catalog.js、首页静态目录、155份资料页及 sitemap.xml。页面以相对路径引用资源，兼容 file:// 和 GitHub Pages 仓库子路径。生成目录中若有不在当前数据内的旧页面，脚本会停止并要求人工审阅，不静默删除文件。
+生成器只读取 data/catalog.json，复用 app.js 的排序逻辑，需要 Python 3 与 Node.js。它同步 catalog.js、首页静态目录、全部当前条目的资料页及 sitemap.xml。页面以相对路径引用资源，兼容 file:// 和 GitHub Pages 仓库子路径。生成目录中若有不在当前数据内的旧页面，脚本会停止并要求人工审阅，不静默删除文件。
 
 分享图 assets/share.png 由现有真实字标和样图进行最近邻拼合，不使用新字体模拟字形。可选重建脚本 scripts/generate_share_image.py 需要 Pillow；网站本身不依赖 Pillow，也不依赖运行生成器。
 

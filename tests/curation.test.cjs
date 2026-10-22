@@ -4,7 +4,7 @@ const path = require('node:path');
 const {createFavoriteStore,bindSpecimenDetails}=require('../app.js');
 const rows=require('../data/catalog.json'),curation=require('../data/curation.json');
 const ids=new Set(rows.map(r=>r.id));
-assert.equal(rows.length,155);assert.equal(curation.removedIds.length,22);
+assert.equal(rows.length,require('../data/release-v17.json').totalRows);assert.equal(curation.removedIds.length,22);
 for(const id of [...curation.removedIds,...Object.keys(curation.merged)])assert(!ids.has(id));
 assert(ids.has('taipeil24'),'Do not confuse separate Taipei l24 entry');
 for(const [old,id] of Object.entries(curation.merged))assert(rows.find(r=>r.id===id).relatedSources.length);

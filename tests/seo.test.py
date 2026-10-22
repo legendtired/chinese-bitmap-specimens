@@ -31,5 +31,5 @@ idx=Doc((r/'index.html').read_text());ids=[a['data-row-id'] for t,a in idx.tags 
 ordered=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'),{}).map(x=>x.id)))"],cwd=r,text=True));assert ids==ordered
 urls=[x.text for x in ET.parse(r/'sitemap.xml').findall('.//{*}loc')];assert len(urls)==len(set(urls))==len(rows)+1 and set(urls)==expected
 assert not ET.parse(r/'sitemap.xml').findall('.//{*}lastmod');assert not (r/'robots.txt').exists()
-assert len(canonicals)==156
-print('SEO checks passed: 155 static indexed rows,155 font pages,156 unique titles/descriptions/canonicals and sitemap URLs, local links/file paths and source consistency. No indexing guarantee.')
+assert len(canonicals)==len(rows)+1
+print(f'SEO checks passed: {len(rows)} indexed rows/pages, {len(rows)+1} unique canonicals and sitemap URLs; relative links and source consistency. No indexing guarantee.')

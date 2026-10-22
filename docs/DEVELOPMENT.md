@@ -15,7 +15,7 @@ python scripts/workspace.py research-status
 python scripts/workspace.py research-status --id gnu_unifont_16
 ```
 
-check 运行静态资源、数据、导航、SEO和核心逻辑检查，不自动启动浏览器。build 从 data/catalog.json 同步 catalog.js、首页静态目录、fonts/ 资料页和 sitemap。每次改目录、资料页模板或静态首页生成逻辑后，都应 build 再 check。
+check 运行静态资源、数据、导航、SEO和核心逻辑检查，不自动启动浏览器。build 从 data/catalog.json 同步 catalog.js、首页静态目录、fonts/ 资料页、sitemap 和 summary。每次改目录、资料页模板或静态首页生成逻辑后，都应 build 再 check。
 
 ## 改界面
 
@@ -25,6 +25,12 @@ check 运行静态资源、数据、导航、SEO和核心逻辑检查，不自�
 - scripts/generate_static.py：静态卡片和独立资料页模板、正式站点 BASE。
 
 静态首页和 JS 增强后的列表都要考虑。不要只改一侧。测试通过后，实际浏览器核对桌面与手机、键盘、图片缩放、详情新标签、收藏与对比。可选浏览器脚本依赖 Playwright/Chromium，不属于当前统一入口已执行的验收。
+
+## 资料图与原生字样的元数据
+
+reference条目使用referenceType与referenceNote，原格未核定时width/height/cellWidth/cellHeight都填null，不能以PNG宽高代替；specimenWidth/Height始终是实际PNG尺寸。官方标称尺寸可另放nominalDesignGrid，但不能当测得字框。资料图不参与原生覆盖统计，也不能用apply-preview直接改成native。普通全角英数标asciiOrigin=fullwidth-native，源库无普通ASCII标absent且asciiText为空。
+
+静态和动态显示都必须保留资料类型、对比警示、真实来源及未核边界。新增范围见docs/release-v16.md；变更收录应同时更新发布清单与针对性测试，而不是只改计数。
 
 ## 本地资料结构
 
@@ -66,3 +72,11 @@ apply-preview 只更新已有ID，先在 local-research/before-apply/ 保存可�
 只发布核查过的干净文件集合。local-research/ 及原字体、固件、缓存、压缩包均被 .gitignore 排除，但网页手动上传不读取 .gitignore，已跟踪文件也不会自动解除跟踪。发布前检查 git status、git ls-files 和部署文件列表。完整工作区ZIP只能用于本地，不能上传至仓库或Pages。
 
 具体部署步骤见 deployment.md。维护工具不含 push、发布或账号操作。
+
+## v16 本地输入边界
+
+本次新增 25 项原生字样与 11 项参考资料图。没有研究资料包也能修改界面、目录、构建和检查；重绘新增原生字样仍需对应的本地输入及已核验解析方法。参考图不是可重新生成任意文字的字体。旧 v15 独立资料包没有覆盖本次新增输入，不应据此宣称全部 191 项可以重生。新资料仅在另行明确需要时整理，默认发布包不包含它们。
+
+## 不定字框原生格点
+
+v17的variableGrid:true与sampleKind=reference不同。前者有可按整数格重绘的实际字形，保留1×与整数倍；height/cellHeight不猜测，以独立“不定字框”过滤。designEmGrid不是字高。修改此类显示必须同步app.js、静态模板和reference/variable-grid回归。当前范围见 [v17说明](release-v17.md)。

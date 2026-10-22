@@ -2093,7 +2093,17 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "836eeae52db3a0c911a970777240d29f08c69d71379165f788822343ac228953",
-    "priority": 0
+    "priority": 0,
+    "relatedSources": [
+      {
+        "name": "Silver 公开应用附带版本",
+        "sourceUrl": "https://poppyworks.itch.io/silver",
+        "comparison": "与M+ j12r共有6355个汉字，6172字紧裁墨迹完全相同（97.12%）。不是全字库、版本或许可证相同；本站不独立增加高度重复样字。",
+        "coverageNote": "实际比较的Silver来自公开应用附带文件，不宣称是作者最新发行。",
+        "licenseNote": "Silver存在独立许可及大预算/收入附加条件，不能套用代码仓库MIT或M+许可。",
+        "provenance": "汉字advance12，em19；不能据em称19×19新中文字形。"
+      }
+    ]
   },
   {
     "id": "shinonome_14_gothic",
@@ -7133,5 +7143,2791 @@ window.FONT_CATALOG = [
     "inkHeight": 7,
     "specimenSha256": "b9bacab38e2f57bbe4e86705e2f111191ab4a174599c7c5f41505550eb9c045b",
     "priority": 0
+  },
+  {
+    "id": "dotum-native-12",
+    "name": "Dotum 原生点阵 12×12",
+    "family": "Dotum",
+    "width": 12,
+    "height": 12,
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": 12,
+    "inkHeight": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内7476个非空汉字",
+    "sourceUrl": "https://github.com/googlefonts/gulim",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "版权归原权利人；此页仅展示字样与来源，不分发字体原文件，不据此授予字体使用许可。 源文件标注HanYang I&C Co.,LTD.2000；仓库整体许可不替代本文件版权核验。",
+    "copyright": "(c) Copyright HanYang I&C Co.,LTD. 2000",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 Dotum与Gulim的7476汉字逐像素相同，以Dotum代表，不重复列Gulim。 12px与Batang有7213/7476汉字相同，仅作代表性合并，另263字有差异，不能声称整套相同。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 Dotum与Gulim的7476汉字逐像素相同，以Dotum代表，不重复列Gulim。 12px与Batang有7213/7476汉字相同，仅作代表性合并，另263字有差异，不能声称整套相同。 这是Windows韩文系统字族，不是已排除的白墨Baekmuk。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://github.com/googlefonts/gulim",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 12,
+      "source_sha256": "58e69081efb630ad936dd398c20191f0b7ca2f91b1a2e4f310f5efc173ee6d60",
+      "source_version": "Version 2.21",
+      "han_nonblank_count": 7476,
+      "han_bitmap_metrics": [
+        {
+          "width": 12,
+          "height": 12,
+          "advance": 12,
+          "count": 7476
+        }
+      ]
+    },
+    "priority": 0,
+    "sourceIndex": 172,
+    "specimen": "assets/specimens/dotum-native-12.png",
+    "specimenWidth": 171,
+    "specimenHeight": 29,
+    "specimenSha256": "18e70e5fb5d1762336c4e8c48debbabeac634c531299da20d867688c38122855"
+  },
+  {
+    "id": "dotum-native-14",
+    "name": "Dotum 原生点阵 14×14",
+    "family": "Dotum",
+    "width": 14,
+    "height": 14,
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": 14,
+    "inkHeight": 14,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内7476个非空汉字",
+    "sourceUrl": "https://github.com/googlefonts/gulim",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "版权归原权利人；此页仅展示字样与来源，不分发字体原文件，不据此授予字体使用许可。 源文件标注HanYang I&C Co.,LTD.2000；仓库整体许可不替代本文件版权核验。",
+    "copyright": "(c) Copyright HanYang I&C Co.,LTD. 2000",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 Dotum与Gulim的7476汉字逐像素相同，以Dotum代表，不重复列Gulim。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 Dotum与Gulim的7476汉字逐像素相同，以Dotum代表，不重复列Gulim。 这是Windows韩文系统字族，不是已排除的白墨Baekmuk。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://github.com/googlefonts/gulim",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 14,
+      "source_sha256": "58e69081efb630ad936dd398c20191f0b7ca2f91b1a2e4f310f5efc173ee6d60",
+      "source_version": "Version 2.21",
+      "han_nonblank_count": 7476,
+      "han_bitmap_metrics": [
+        {
+          "width": 14,
+          "height": 14,
+          "advance": 14,
+          "count": 7476
+        }
+      ]
+    },
+    "priority": 0,
+    "sourceIndex": 173,
+    "specimen": "assets/specimens/dotum-native-14.png",
+    "specimenWidth": 224,
+    "specimenHeight": 34,
+    "specimenSha256": "43036ca5ea5ae55564eb6d3b7b5fa8e19cefcbd2ab26b6393ee2908eabe15bfe"
+  },
+  {
+    "id": "dotum-native-16",
+    "name": "Dotum 原生点阵 16×16",
+    "family": "Dotum",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": 15,
+    "inkHeight": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内7476个非空汉字",
+    "sourceUrl": "https://github.com/googlefonts/gulim",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "版权归原权利人；此页仅展示字样与来源，不分发字体原文件，不据此授予字体使用许可。 源文件标注HanYang I&C Co.,LTD.2000；仓库整体许可不替代本文件版权核验。",
+    "copyright": "(c) Copyright HanYang I&C Co.,LTD. 2000",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 Dotum与Gulim的7476汉字逐像素相同，以Dotum代表，不重复列Gulim。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 Dotum与Gulim的7476汉字逐像素相同，以Dotum代表，不重复列Gulim。 这是Windows韩文系统字族，不是已排除的白墨Baekmuk。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://github.com/googlefonts/gulim",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 16,
+      "source_sha256": "58e69081efb630ad936dd398c20191f0b7ca2f91b1a2e4f310f5efc173ee6d60",
+      "source_version": "Version 2.21",
+      "han_nonblank_count": 7476,
+      "han_bitmap_metrics": [
+        {
+          "width": 16,
+          "height": 16,
+          "advance": 16,
+          "count": 7476
+        }
+      ]
+    },
+    "priority": 0,
+    "sourceIndex": 174,
+    "specimen": "assets/specimens/dotum-native-16.png",
+    "specimenWidth": 223,
+    "specimenHeight": 37,
+    "specimenSha256": "2cfb7e4d4a109deadb1fa2b225d5425189864d6971464fddd0710e1c3024c356"
+  },
+  {
+    "id": "batang-native-14",
+    "name": "Batang 原生点阵 14×14",
+    "family": "Batang",
+    "width": 14,
+    "height": 14,
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": 14,
+    "inkHeight": 14,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内7476个非空汉字",
+    "sourceUrl": "https://github.com/googlefonts/batang",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "本次源文件声明SIL Open Font License 1.1，Copyright2023 The Batang Project Authors；仍保留历史字族来源。本站仅展示字样，不分发字体文件。",
+    "copyright": "Copyright 2023 The Batang Project Authors (https://github.com/googlefonts/batang)",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 Batang与Gungsuh的7476汉字逐像素相同，以Batang代表，不重复列Gungsuh。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 Batang与Gungsuh的7476汉字逐像素相同，以Batang代表，不重复列Gungsuh。 这是Windows韩文系统字族，不是已排除的白墨Baekmuk。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://github.com/googlefonts/batang",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 14,
+      "source_sha256": "9b1a94e95e2904131539c874d7cd4083bc734699b619700a8fbdff9e8e90cd1a",
+      "source_version": "Version 2.21",
+      "han_nonblank_count": 7476,
+      "han_bitmap_metrics": [
+        {
+          "width": 14,
+          "height": 14,
+          "advance": 14,
+          "count": 7476
+        }
+      ]
+    },
+    "priority": 0,
+    "sourceIndex": 175,
+    "specimen": "assets/specimens/batang-native-14.png",
+    "specimenWidth": 212,
+    "specimenHeight": 34,
+    "specimenSha256": "4eebc2a0123981aa72202f425e6578c8bf7d8684f14e891633c2679fbf3d6c35"
+  },
+  {
+    "id": "batang-native-16",
+    "name": "Batang 原生点阵 16×16",
+    "family": "Batang",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": 16,
+    "inkHeight": 15,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内7476个非空汉字",
+    "sourceUrl": "https://github.com/googlefonts/batang",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "本次源文件声明SIL Open Font License 1.1，Copyright2023 The Batang Project Authors；仍保留历史字族来源。本站仅展示字样，不分发字体文件。",
+    "copyright": "Copyright 2023 The Batang Project Authors (https://github.com/googlefonts/batang)",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 Batang与Gungsuh的7476汉字逐像素相同，以Batang代表，不重复列Gungsuh。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 Batang与Gungsuh的7476汉字逐像素相同，以Batang代表，不重复列Gungsuh。 这是Windows韩文系统字族，不是已排除的白墨Baekmuk。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://github.com/googlefonts/batang",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 16,
+      "source_sha256": "9b1a94e95e2904131539c874d7cd4083bc734699b619700a8fbdff9e8e90cd1a",
+      "source_version": "Version 2.21",
+      "han_nonblank_count": 7476,
+      "han_bitmap_metrics": [
+        {
+          "width": 16,
+          "height": 16,
+          "advance": 16,
+          "count": 7476
+        }
+      ]
+    },
+    "priority": 0,
+    "sourceIndex": 176,
+    "specimen": "assets/specimens/batang-native-16.png",
+    "specimenWidth": 242,
+    "specimenHeight": 37,
+    "specimenSha256": "3a31dc40a7000ea5f73ac9022984696b4cf1f098f49ca5fae9d84b2ba1db3d13"
+  },
+  {
+    "id": "ms-gothic-native-10",
+    "name": "MS Gothic 原生点阵 10×10",
+    "family": "MS Gothic",
+    "width": 10,
+    "height": 10,
+    "cellWidth": 10,
+    "cellHeight": 10,
+    "inkWidth": 10,
+    "inkHeight": 9,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内6721个非空汉字",
+    "sourceUrl": "https://learn.microsoft.com/en-us/typography/font-list/ms-gothic",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "版权归原权利人；此页仅展示字样与来源，不分发字体原文件，不据此授予字体使用许可。",
+    "copyright": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO.",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 与MS Mincho10px的6721汉字完全相同，合并展示。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 与MS Mincho10px的6721汉字完全相同，合并展示。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://industry.ricoh.com/en/-/Media/Ricoh/Sites/industry/font/pdf/built_in/en/TrueType_Ctlg.pdf",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 10,
+      "source_sha256": "d0064711ced6c07827f3e9cea9757b8c9c9ddc59218d766b1207c0c1b6b64003",
+      "source_version": "Version 5.31",
+      "han_nonblank_count": 6721,
+      "han_bitmap_metrics": [
+        {
+          "width": 10,
+          "height": 10,
+          "advance": 10,
+          "count": 6721
+        }
+      ]
+    },
+    "priority": 0,
+    "sourceIndex": 177,
+    "specimen": "assets/specimens/ms-gothic-native-10.png",
+    "specimenWidth": 139,
+    "specimenHeight": 26,
+    "specimenSha256": "00ed11d22e53cc0faf9d7fac214f04b531791352c170b0fb1cc09849033f8f85"
+  },
+  {
+    "id": "ms-gothic-native-13",
+    "name": "MS Gothic 原生点阵 13×13",
+    "family": "MS Gothic",
+    "width": 13,
+    "height": 13,
+    "cellWidth": 13,
+    "cellHeight": 13,
+    "inkWidth": 13,
+    "inkHeight": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内6721个非空汉字",
+    "sourceUrl": "https://learn.microsoft.com/en-us/typography/font-list/ms-gothic",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "版权归原权利人；此页仅展示字样与来源，不分发字体原文件，不据此授予字体使用许可。",
+    "copyright": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO.",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://industry.ricoh.com/en/-/Media/Ricoh/Sites/industry/font/pdf/built_in/en/TrueType_Ctlg.pdf",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 13,
+      "source_sha256": "d0064711ced6c07827f3e9cea9757b8c9c9ddc59218d766b1207c0c1b6b64003",
+      "source_version": "Version 5.31",
+      "han_nonblank_count": 6721,
+      "han_bitmap_metrics": [
+        {
+          "width": 13,
+          "height": 13,
+          "advance": 13,
+          "count": 6721
+        }
+      ]
+    },
+    "priority": 0,
+    "sourceIndex": 178,
+    "specimen": "assets/specimens/ms-gothic-native-13.png",
+    "specimenWidth": 193,
+    "specimenHeight": 31,
+    "specimenSha256": "e6a9fa01112c6693d0f497b444eae31fbd8ebb06936b1b84f8d662b2bc60dceb"
+  },
+  {
+    "id": "ms-gothic-native-16",
+    "name": "MS Gothic 原生点阵 16×16",
+    "family": "MS Gothic",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": 15,
+    "inkHeight": 15,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内6721个非空汉字",
+    "sourceUrl": "https://learn.microsoft.com/en-us/typography/font-list/ms-gothic",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "版权归原权利人；此页仅展示字样与来源，不分发字体原文件，不据此授予字体使用许可。",
+    "copyright": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO.",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://industry.ricoh.com/en/-/Media/Ricoh/Sites/industry/font/pdf/built_in/en/TrueType_Ctlg.pdf",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 16,
+      "source_sha256": "d0064711ced6c07827f3e9cea9757b8c9c9ddc59218d766b1207c0c1b6b64003",
+      "source_version": "Version 5.31",
+      "han_nonblank_count": 6721,
+      "han_bitmap_metrics": [
+        {
+          "width": 16,
+          "height": 16,
+          "advance": 16,
+          "count": 6721
+        }
+      ]
+    },
+    "priority": 0,
+    "sourceIndex": 179,
+    "specimen": "assets/specimens/ms-gothic-native-16.png",
+    "specimenWidth": 220,
+    "specimenHeight": 37,
+    "specimenSha256": "0d323f5c341222dece9641170723d21cbe16e4fff168a8bb9a2683c799beaae7"
+  },
+  {
+    "id": "ms-mincho-native-13",
+    "name": "MS Mincho 原生点阵 13×13",
+    "family": "MS Mincho",
+    "width": 13,
+    "height": 13,
+    "cellWidth": 13,
+    "cellHeight": 13,
+    "inkWidth": 13,
+    "inkHeight": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内6721个非空汉字",
+    "sourceUrl": "https://learn.microsoft.com/en-us/typography/font-list/ms-mincho",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "版权归原权利人；此页仅展示字样与来源，不分发字体原文件，不据此授予字体使用许可。",
+    "copyright": "(C)2009 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO.",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://industry.ricoh.com/en/-/Media/Ricoh/Sites/industry/font/pdf/built_in/en/TrueType_Ctlg.pdf",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 13,
+      "source_sha256": "77b53f8b54d69cbc33381573c6d0239d7fefcebcea89ca14fe0b1ccfe6784cef",
+      "source_version": "Version 5.01",
+      "han_nonblank_count": 6721,
+      "han_bitmap_metrics": [
+        {
+          "width": 13,
+          "height": 13,
+          "advance": 13,
+          "count": 6721
+        }
+      ]
+    },
+    "priority": 0,
+    "sourceIndex": 180,
+    "specimen": "assets/specimens/ms-mincho-native-13.png",
+    "specimenWidth": 193,
+    "specimenHeight": 31,
+    "specimenSha256": "5c11272058ae6e1db11d1731fd0c135b8ee5b2b9f76bfc889217dfd04ecb7979"
+  },
+  {
+    "id": "ms-mincho-native-16",
+    "name": "MS Mincho 原生点阵 16×16",
+    "family": "MS Mincho",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": 15,
+    "inkHeight": 15,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内6721个非空汉字",
+    "sourceUrl": "https://learn.microsoft.com/en-us/typography/font-list/ms-mincho",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "版权归原权利人；此页仅展示字样与来源，不分发字体原文件，不据此授予字体使用许可。",
+    "copyright": "(C)2009 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO.",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://industry.ricoh.com/en/-/Media/Ricoh/Sites/industry/font/pdf/built_in/en/TrueType_Ctlg.pdf",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 16,
+      "source_sha256": "77b53f8b54d69cbc33381573c6d0239d7fefcebcea89ca14fe0b1ccfe6784cef",
+      "source_version": "Version 5.01",
+      "han_nonblank_count": 6721,
+      "han_bitmap_metrics": [
+        {
+          "width": 16,
+          "height": 16,
+          "advance": 16,
+          "count": 6721
+        }
+      ]
+    },
+    "priority": 0,
+    "sourceIndex": 181,
+    "specimen": "assets/specimens/ms-mincho-native-16.png",
+    "specimenWidth": 220,
+    "specimenHeight": 37,
+    "specimenSha256": "981652513402197abf64b61dfb1162c9ea12882ee96079fc5d0ebf5d4870a354"
+  },
+  {
+    "id": "osaka-native-9",
+    "name": "Osaka 9px（9×11字框）",
+    "family": "Osaka",
+    "width": 9,
+    "height": 11,
+    "cellWidth": 9,
+    "cellHeight": 11,
+    "inkWidth": 8,
+    "inkHeight": 8,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内6356个非空汉字",
+    "sourceUrl": "https://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "版权归原权利人；此页仅展示字样与来源，不分发字体原文件，不据此授予字体使用许可。",
+    "copyright": "© 1990-1999 Apple Computer, Inc.",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 2001年Windows转换档保留的Apple Osaka4.2内嵌位图；非现代Unicode无位图版本。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 2001年Windows转换档保留的Apple Osaka4.2内嵌位图；非现代Unicode无位图版本。 字框指标指汉字存储位图矩形的最大宽高，不是单字实墨，也不是字体行距；18px中6355字为18×18、1字为18×17。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 9,
+      "source_sha256": "9d40b0820b6be1770e25d9d44acf1f97c7ae62c17469fa63ddc1297dd5ca4a9c",
+      "source_version": "4.2",
+      "han_nonblank_count": 6356,
+      "han_bitmap_metrics": [
+        {
+          "width": 9,
+          "height": 11,
+          "advance": 9,
+          "count": 6356
+        }
+      ],
+      "strike_line_metrics": {
+        "ascender": 10,
+        "descender": -2,
+        "widthMax": 9
+      },
+      "cell_metric_basis": "Maximum stored Han bitmap rectangle across U+4E00–U+9FFF; not logical line spacing or single glyph ink bounds."
+    },
+    "priority": 0,
+    "sourceIndex": 182,
+    "specimen": "assets/specimens/osaka-native-9.png",
+    "specimenWidth": 150,
+    "specimenHeight": 25,
+    "specimenSha256": "13cfadfeaf2b0a3862d6c70fabcf59275c910a3851edce025f537bc418e2ad9b"
+  },
+  {
+    "id": "osaka-native-14",
+    "name": "Osaka 14px（14×15字框）",
+    "family": "Osaka",
+    "width": 14,
+    "height": 15,
+    "cellWidth": 14,
+    "cellHeight": 15,
+    "inkWidth": 12,
+    "inkHeight": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内6356个非空汉字",
+    "sourceUrl": "https://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "版权归原权利人；此页仅展示字样与来源，不分发字体原文件，不据此授予字体使用许可。",
+    "copyright": "© 1990-1999 Apple Computer, Inc.",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 2001年Windows转换档保留的Apple Osaka4.2内嵌位图；非现代Unicode无位图版本。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 2001年Windows转换档保留的Apple Osaka4.2内嵌位图；非现代Unicode无位图版本。 字框指标指汉字存储位图矩形的最大宽高，不是单字实墨，也不是字体行距；18px中6355字为18×18、1字为18×17。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 14,
+      "source_sha256": "9d40b0820b6be1770e25d9d44acf1f97c7ae62c17469fa63ddc1297dd5ca4a9c",
+      "source_version": "4.2",
+      "han_nonblank_count": 6356,
+      "han_bitmap_metrics": [
+        {
+          "width": 14,
+          "height": 15,
+          "advance": 14,
+          "count": 6356
+        }
+      ],
+      "strike_line_metrics": {
+        "ascender": 14,
+        "descender": -4,
+        "widthMax": 14
+      },
+      "cell_metric_basis": "Maximum stored Han bitmap rectangle across U+4E00–U+9FFF; not logical line spacing or single glyph ink bounds."
+    },
+    "priority": 0,
+    "sourceIndex": 183,
+    "specimen": "assets/specimens/osaka-native-14.png",
+    "specimenWidth": 221,
+    "specimenHeight": 34,
+    "specimenSha256": "412af1496925d03d1dfe129630219d15136578ebdc244bb7fb392266b00a1d18"
+  },
+  {
+    "id": "osaka-native-18",
+    "name": "Osaka 18px（18×18字框）",
+    "family": "Osaka",
+    "width": 18,
+    "height": 18,
+    "cellWidth": 18,
+    "cellHeight": 18,
+    "inkWidth": 16,
+    "inkHeight": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内6356个非空汉字",
+    "sourceUrl": "https://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "版权归原权利人；此页仅展示字样与来源，不分发字体原文件，不据此授予字体使用许可。",
+    "copyright": "© 1990-1999 Apple Computer, Inc.",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 2001年Windows转换档保留的Apple Osaka4.2内嵌位图；非现代Unicode无位图版本。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 2001年Windows转换档保留的Apple Osaka4.2内嵌位图；非现代Unicode无位图版本。 字框指标指汉字存储位图矩形的最大宽高，不是单字实墨，也不是字体行距；18px中6355字为18×18、1字为18×17。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 18,
+      "source_sha256": "9d40b0820b6be1770e25d9d44acf1f97c7ae62c17469fa63ddc1297dd5ca4a9c",
+      "source_version": "4.2",
+      "han_nonblank_count": 6356,
+      "han_bitmap_metrics": [
+        {
+          "width": 18,
+          "height": 18,
+          "advance": 18,
+          "count": 6355
+        },
+        {
+          "width": 18,
+          "height": 17,
+          "advance": 18,
+          "count": 1
+        }
+      ],
+      "strike_line_metrics": {
+        "ascender": 18,
+        "descender": -4,
+        "widthMax": 19
+      },
+      "cell_metric_basis": "Maximum stored Han bitmap rectangle across U+4E00–U+9FFF; not logical line spacing or single glyph ink bounds."
+    },
+    "priority": 0,
+    "sourceIndex": 184,
+    "specimen": "assets/specimens/osaka-native-18.png",
+    "specimenWidth": 281,
+    "specimenHeight": 42,
+    "specimenSha256": "3aa01f44b926d79d2eb72372575c846cb3c3408fd726974b87c7b180932df717"
+  },
+  {
+    "id": "osaka-native-24",
+    "name": "Osaka 24px（24×22字框）",
+    "family": "Osaka",
+    "width": 24,
+    "height": 22,
+    "cellWidth": 24,
+    "cellHeight": 22,
+    "inkWidth": 22,
+    "inkHeight": 22,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "native",
+    "coverage": "样文与ASCII完整；U+4E00–U+9FFF内6356个非空汉字",
+    "sourceUrl": "https://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+    "sourceLabel": "来源项目 / 历史资料",
+    "licenseStatus": "以原文件及权利人许可为准",
+    "licenseNote": "版权归原权利人；此页仅展示字样与来源，不分发字体原文件，不据此授予字体使用许可。",
+    "copyright": "© 1990-1999 Apple Computer, Inc.",
+    "provenance": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 2001年Windows转换档保留的Apple Osaka4.2内嵌位图；非现代Unicode无位图版本。",
+    "sampleKind": "standard",
+    "notes": "汉字采用日文/韩文字体中的繁体共字，不代表完整繁体中文覆盖；ASCII为同一原字体同一位图字号。 2001年Windows转换档保留的Apple Osaka4.2内嵌位图；非现代Unicode无位图版本。 字框指标指汉字存储位图矩形的最大宽高，不是单字实墨，也不是字体行距；18px中6355字为18×18、1字为18×17。 原始位图存储已核实，但不因此断言每字历史制作流程。",
+    "nativeEvidence": {
+      "summary": "直接读取源文件EBDT/EBLC位图，不使用轮廓栅格化、抗锯齿或fallback。尺寸区分ppem与实际存储字框；inkWidth/Height为全汉字集最大实墨包围盒。",
+      "sourceUrl": "https://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+      "bitmap_tables": [
+        "EBDT",
+        "EBLC"
+      ],
+      "native_ppem": 24,
+      "source_sha256": "9d40b0820b6be1770e25d9d44acf1f97c7ae62c17469fa63ddc1297dd5ca4a9c",
+      "source_version": "4.2",
+      "han_nonblank_count": 6356,
+      "han_bitmap_metrics": [
+        {
+          "width": 24,
+          "height": 22,
+          "advance": 24,
+          "count": 6356
+        }
+      ],
+      "strike_line_metrics": {
+        "ascender": 24,
+        "descender": -6,
+        "widthMax": 25
+      },
+      "cell_metric_basis": "Maximum stored Han bitmap rectangle across U+4E00–U+9FFF; not logical line spacing or single glyph ink bounds."
+    },
+    "priority": 0,
+    "sourceIndex": 185,
+    "specimen": "assets/specimens/osaka-native-24.png",
+    "specimenWidth": 376,
+    "specimenHeight": 54,
+    "specimenSha256": "034589fbec57d6077c9679bd9dbc84e1a926a530b4edf95fe2c485eed9ef11d1"
+  },
+  {
+    "id": "palm_cjkos_fgb10f",
+    "name": "Palm CJKOS 简体 10×10",
+    "family": "Palm CJKOS",
+    "cellWidth": 10,
+    "cellHeight": 10,
+    "scripts": [
+      "简体"
+    ],
+    "sampleKind": "standard",
+    "asciiOrigin": "absent",
+    "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+    "licenseNote": "CJKOS为历史共享软件；未确证独立字体再分发授权。",
+    "nativeEvidence": {
+      "summary": "直接读取原PDB FBLK资源的点阵；10×10特殊13byte布局，12×12每字18byte。制作与调校史待核。",
+      "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+      "native_ppem": 10,
+      "source_sha256": "2f2db52b735589ee627b2c9ccd4d73bca2ae1cded7ccf14c377423c54a112cef"
+    },
+    "coverage": "标准样句完整；没有普通ASCII，不补借。",
+    "missing": [],
+    "width": 10,
+    "height": 10,
+    "inkWidth": 10,
+    "inkHeight": 10,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "provenance": "直接读取原PDB FBLK资源的点阵；10×10特殊13byte布局，12×12每字18byte。制作与调校史待核。",
+    "styles": [
+      "等线点阵"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "notes": "标准样句完整；没有普通ASCII，不补借。 原像素排版；字符之间保留1px样张间距。 原系统另供ASCII，本站未借入。",
+    "relatedSources": [
+      {
+        "name": "CJKOS 官方产品与许可背景",
+        "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+        "provenance": "产品介绍页；样字提取自历史归档中的原PDB，未运行程序；不将共享软件说明当作独立字体再分发授权。"
+      }
+    ],
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "priority": 0,
+    "sourceIndex": 186,
+    "specimen": "assets/specimens/palm_cjkos_fgb10f.png",
+    "specimenWidth": 132,
+    "specimenHeight": 10,
+    "specimenSha256": "5813979c0388db482458ae92111f64441af93dcb1b3244d960aa019d75216bda"
+  },
+  {
+    "id": "palm_cjkos_fb510f",
+    "name": "Palm CJKOS 繁体 10×10",
+    "family": "Palm CJKOS",
+    "cellWidth": 10,
+    "cellHeight": 10,
+    "scripts": [
+      "繁体"
+    ],
+    "sampleKind": "standard",
+    "asciiOrigin": "absent",
+    "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+    "licenseNote": "CJKOS为历史共享软件；未确证独立字体再分发授权。",
+    "nativeEvidence": {
+      "summary": "直接读取原PDB FBLK资源的点阵；10×10特殊13byte布局，12×12每字18byte。制作与调校史待核。",
+      "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+      "native_ppem": 10,
+      "source_sha256": "3ca7a7aa0e595638044337a78f16bc0c194e08d1a30ef13d70212f86c7be83a7"
+    },
+    "coverage": "标准样句完整；没有普通ASCII，不补借。",
+    "missing": [],
+    "width": 10,
+    "height": 10,
+    "inkWidth": 10,
+    "inkHeight": 10,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "provenance": "直接读取原PDB FBLK资源的点阵；10×10特殊13byte布局，12×12每字18byte。制作与调校史待核。",
+    "styles": [
+      "等线点阵"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "notes": "标准样句完整；没有普通ASCII，不补借。 原像素排版；字符之间保留1px样张间距。 原系统另供ASCII，本站未借入。",
+    "relatedSources": [
+      {
+        "name": "CJKOS 官方产品与许可背景",
+        "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+        "provenance": "产品介绍页；样字提取自历史归档中的原PDB，未运行程序；不将共享软件说明当作独立字体再分发授权。"
+      }
+    ],
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "priority": 0,
+    "sourceIndex": 187,
+    "specimen": "assets/specimens/palm_cjkos_fb510f.png",
+    "specimenWidth": 132,
+    "specimenHeight": 10,
+    "specimenSha256": "16a3ffc53e499e85423ce235fe0225865c5e59ed6853ceeae70db245aeb201c8"
+  },
+  {
+    "id": "palm_cjkos_fgb12f",
+    "name": "Palm CJKOS 简体 12×12",
+    "family": "Palm CJKOS",
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "scripts": [
+      "简体"
+    ],
+    "sampleKind": "standard",
+    "asciiOrigin": "absent",
+    "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+    "licenseNote": "CJKOS为历史共享软件；未确证独立字体再分发授权。",
+    "nativeEvidence": {
+      "summary": "直接读取原PDB FBLK资源的点阵；10×10特殊13byte布局，12×12每字18byte。制作与调校史待核。",
+      "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+      "native_ppem": 12,
+      "source_sha256": "c02b4e383ddd08b146fef4f853d55bd6492ceb546cf687fcdf4491837bbcdc8c"
+    },
+    "coverage": "标准样句完整；没有普通ASCII，不补借。",
+    "missing": [],
+    "width": 12,
+    "height": 12,
+    "inkWidth": 12,
+    "inkHeight": 12,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "provenance": "直接读取原PDB FBLK资源的点阵；10×10特殊13byte布局，12×12每字18byte。制作与调校史待核。",
+    "styles": [
+      "等线点阵"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "notes": "标准样句完整；没有普通ASCII，不补借。 原像素排版；字符之间保留1px样张间距。 原系统另供ASCII，本站未借入。",
+    "relatedSources": [
+      {
+        "name": "CJKOS 官方产品与许可背景",
+        "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+        "provenance": "产品介绍页；样字提取自历史归档中的原PDB，未运行程序；不将共享软件说明当作独立字体再分发授权。"
+      }
+    ],
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "priority": 0,
+    "sourceIndex": 188,
+    "specimen": "assets/specimens/palm_cjkos_fgb12f.png",
+    "specimenWidth": 156,
+    "specimenHeight": 12,
+    "specimenSha256": "d682a613873ae70b0d227c483a6ea301ffff0966a9866ba40b491c70f5cf4cda"
+  },
+  {
+    "id": "palm_cjkos_fb512f",
+    "name": "Palm CJKOS 繁体 12×12",
+    "family": "Palm CJKOS",
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "sampleKind": "standard",
+    "asciiOrigin": "absent",
+    "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+    "licenseNote": "CJKOS为历史共享软件；未确证独立字体再分发授权。",
+    "nativeEvidence": {
+      "summary": "直接读取原PDB FBLK资源的点阵；10×10特殊13byte布局，12×12每字18byte。制作与调校史待核。",
+      "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+      "native_ppem": 12,
+      "source_sha256": "e913c4c3f91cf2852747500f5c516a5f6ef1852df66493e4cc289f2656e15882"
+    },
+    "coverage": "标准样句完整；没有普通ASCII，不补借。",
+    "missing": [],
+    "width": 12,
+    "height": 12,
+    "inkWidth": 12,
+    "inkHeight": 12,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "provenance": "直接读取原PDB FBLK资源的点阵；10×10特殊13byte布局，12×12每字18byte。制作与调校史待核。",
+    "styles": [
+      "等线点阵"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "notes": "标准样句完整；没有普通ASCII，不补借。 原像素排版；字符之间保留1px样张间距。 原系统另供ASCII，本站未借入。",
+    "relatedSources": [
+      {
+        "name": "CJKOS 官方产品与许可背景",
+        "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+        "provenance": "产品介绍页；样字提取自历史归档中的原PDB，未运行程序；不将共享软件说明当作独立字体再分发授权。"
+      }
+    ],
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "priority": 0,
+    "sourceIndex": 189,
+    "specimen": "assets/specimens/palm_cjkos_fb512f.png",
+    "specimenWidth": 156,
+    "specimenHeight": 12,
+    "specimenSha256": "0014929593ed5fe0f9fe16d358b6010633e5b03bedf9b3101a2faddfa17d6ee8"
+  },
+  {
+    "id": "elisa_8_native",
+    "name": "ELISA 恵梨沙 8×8（10×8 字框）",
+    "family": "ELISA",
+    "cellWidth": 10,
+    "cellHeight": 8,
+    "scripts": [
+      "繁体"
+    ],
+    "sampleKind": "standard",
+    "asciiOrigin": "fullwidth-native",
+    "sourceUrl": "https://www.vector.co.jp/soft/data/writing/se013782.html",
+    "licenseNote": "原许可限制商业用途及未经许可数据复用，转载须保留完整包；不是开源自由字体。仅提供研究预览及来源，不再分发字体。",
+    "nativeEvidence": {
+      "summary": "原项目1993–1995年文档记载多人逐字制作并统一部件。BDF保留8×8原字形，横向补空白至10×8。",
+      "sourceUrl": "https://www.vector.co.jp/soft/data/writing/se013782.html",
+      "native_ppem": 8,
+      "source_sha256": "5f1c61f4d2962d3bfc4128708eb48b3885e26eb797ebe986027eb8ddab39d524"
+    },
+    "coverage": "繁体样句完整；SC样句缺视、蓝；字库为JIS，不宣称完整中文覆盖。",
+    "missing": [],
+    "width": 10,
+    "height": 8,
+    "inkWidth": 8,
+    "inkHeight": 8,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "０１２３４５６７８９　ＡａＢｂ　ＧｇＭｍ",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "provenance": "原项目1993–1995年文档记载多人逐字制作并统一部件。BDF保留8×8原字形，横向补空白至10×8。",
+    "styles": [
+      "等线点阵"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "notes": "繁体样句完整；SC样句缺视、蓝；字库为JIS，不宣称完整中文覆盖。 原像素排版；字符之间保留0px样张间距。 第二行是全角英数，不是普通半角ASCII。",
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "priority": 0,
+    "sourceIndex": 190,
+    "specimen": "assets/specimens/elisa_8_native.png",
+    "specimenWidth": 200,
+    "specimenHeight": 20,
+    "specimenSha256": "72bed518158c387369cbda03132dc656ff8c219dc7da6c64f0e9a095f9100416"
+  },
+  {
+    "id": "yh_1999_16",
+    "name": "炎黄中文平台 YH 16×16",
+    "family": "YH 红旗炎黄",
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "sampleKind": "standard",
+    "asciiOrigin": "native",
+    "sourceUrl": "https://lists.debian.org/debian-chinese/2000/07/msg00154.html",
+    "licenseNote": "原软件包包含GPL许可；独立字体的权利链未单独确认，不随站点分发字体。",
+    "nativeEvidence": {
+      "summary": "1999.11.15版原包GBK单色位图直接解析，非outline重新取模。制作及人工调校史待核。",
+      "sourceUrl": "https://lists.debian.org/debian-chinese/2000/07/msg00154.html",
+      "native_ppem": 16,
+      "source_sha256": "16df2cf01078d6825b087a897d8a8771b3b1c51a62f0db472d1e332617403e3c"
+    },
+    "coverage": "简繁标准句、原配ASCII全部覆盖；20902个基本汉字映射。",
+    "missing": [],
+    "width": 16,
+    "height": 16,
+    "inkWidth": 16,
+    "inkHeight": 16,
+    "text": "视野无限广，窗外有蓝天。\n視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "provenance": "1999.11.15版原包GBK单色位图直接解析，非outline重新取模。制作及人工调校史待核。",
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "notes": "简繁标准句、原配ASCII全部覆盖；20902个基本汉字映射。 原像素排版；字符之间保留0px样张间距。",
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "priority": 0,
+    "sourceIndex": 191,
+    "specimen": "assets/specimens/yh_1999_16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 56,
+    "specimenSha256": "e4dd258a1aa8f9da49217ad117c13e54d02bbd852b11400bef86d553f48b9047"
+  },
+  {
+    "id": "flippercn_20240803_ui",
+    "name": "FlipperCN 手绘菜单点阵（10×11 字框）",
+    "family": "FlipperCN",
+    "cellWidth": 10,
+    "cellHeight": 11,
+    "scripts": [
+      "简体"
+    ],
+    "sampleKind": "osd",
+    "asciiOrigin": "native",
+    "sourceUrl": "https://github.com/ZhaiRenGaiZaoJia/FlipperZero-CN-Firmware",
+    "licenseNote": "仓库标GPL-3.0，未找到单独字库许可；不分发提取字库。",
+    "nativeEvidence": {
+      "summary": "U8g2 RLE原字模；作者记载手绘9pt字。多数汉字9×9墨迹/10px前进宽，5字高10px，含Latin时头部最大9×11，非固定9×9。",
+      "sourceUrl": "https://github.com/ZhaiRenGaiZaoJia/FlipperZero-CN-Firmware",
+      "native_ppem": 9,
+      "source_sha256": "e31b30ee7cbcc10ceae67d3533ae3a999d1ad3420ed0e38c93dd8b18b644b6a4"
+    },
+    "coverage": "仅604码位/503汉字UI子集。标准句缺野、天，故用实际存在菜单词，不伪装全字库。",
+    "missing": [],
+    "width": 10,
+    "height": 11,
+    "inkWidth": 9,
+    "inkHeight": 10,
+    "text": "设置   显示   输入   返回   确认   菜单\n蓝牙   无线   屏幕   信号   视频   系统",
+    "asciiText": "0123456789   AaBb   GgMm   !?:+-.",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "provenance": "U8g2 RLE原字模；作者记载手绘9pt字。多数汉字9×9墨迹/10px前进宽，5字高10px，含Latin时头部最大9×11，非固定9×9。",
+    "sampleLabel": "来源限定设备菜单",
+    "styles": [
+      "等线点阵"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "notes": "仅604码位/503汉字UI子集。标准句缺野、天，故用实际存在菜单词，不伪装全字库。 原像素排版；字符之间保留0px样张间距。 主体汉字设计约9px，部分墨迹高10；字高筛选按10×11排布字框，不把全部字模称9×9。",
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "priority": 0,
+    "sourceIndex": 192,
+    "specimen": "assets/specimens/flippercn_20240803_ui.png",
+    "specimenWidth": 137,
+    "specimenHeight": 41,
+    "specimenSha256": "6f6fb787b82812f87dd21508311cc6e4ddb762d1f04ffee9c591b4be3f3b92ac"
+  },
+  {
+    "id": "marumonica_cn_12x16",
+    "name": "MaruMonica 中文扩展 · 12×16",
+    "family": "MaruMonica",
+    "width": 12,
+    "height": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "圆体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://hicchicc.github.io/00ff/",
+    "licenseNote": "原8220字形遵循hicc的x0y0FreeFont Agreement，中文扩展遵循MY1License；两层来源分别核对。不能根据API可访问推断全部再分发授权。",
+    "provenance": "中文扩展版本以原生格点构造；所示广字有实际墨迹，不是缺字。",
+    "notes": "中文与原配ASCII样文完整；墨迹尺寸为本次样文逐字最大值，并非完整字库统一框。",
+    "inkWidth": 12,
+    "inkHeight": 14,
+    "nativeEvidence": {
+      "summary": "Exact original10-unit orthogonal grid, UPM160, baseline14; all specimen outlines have no off-curve, diagonal, off-grid points. Not general outline threshold rasterization.",
+      "sourceUrl": "https://hicchicc.github.io/00ff/",
+      "sample_ink_scope": "所示样文逐字最大墨迹；不是完整字库统计",
+      "source_sha256": [
+        "54b4f9b14461fcd5ce80ce956423362036a994270273c480c52711a9593f3800",
+        "ee56f51bbc6e848ff255de83b285c7cfa07b053e5103a94f50a069f99d7ae999",
+        "e71fd3a86501f195fa28ae2f92e1f9045c54ff8f4ae197e94e22fe44535790c8",
+        "60c3eac084edf240ad6af08b1b1b7dcae818cbaba598243e52d62841194bbdbb",
+        "e84eaef6ac930ff0de4b72b5d227a4375e34361b57214f028fcbf599709f43b4"
+      ]
+    },
+    "relatedSources": [
+      {
+        "name": "MaruMonica 中文扩展版本",
+        "sourceUrl": "https://fonts.zeoseven.com/items/636/",
+        "licenseNote": "原8220字形遵循hicc的x0y0FreeFont Agreement，中文扩展遵循MY1License；两层来源分别核对。不能根据API可访问推断全部再分发授权。"
+      },
+      {
+        "name": "MY1License",
+        "sourceUrl": "https://github.com/MY1L/icense",
+        "provenance": "中文扩展层许可线索；不替代原字形协议。"
+      }
+    ],
+    "cellWidth": 12,
+    "cellHeight": 16,
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "priority": 0,
+    "sourceIndex": 193,
+    "specimen": "assets/specimens/marumonica_cn_12x16.png",
+    "specimenWidth": 161,
+    "specimenHeight": 36,
+    "specimenSha256": "3d3bf844fa85b4cb73ad7d0d70116aeda82b7424f11b7847ed720903561743e3"
+  },
+  {
+    "id": "naga10_10x10",
+    "name": "Naga10 原生点阵 · 10×10",
+    "family": "Naga10",
+    "width": 10,
+    "height": 10,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "等线点阵"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://sources.debian.org/src/xfonts-naga10/1.1-15/INSTALL",
+    "licenseNote": "原作者README允许非商业使用；商业使用需咨询作者，转载须遵守原包条件。本站不分发字体。",
+    "provenance": "作者原文记载手工制字；与现有Mona10 Regular共同6354汉字仅57相同，Bold为0，不与旧2ch Monafont混淆。",
+    "notes": "中文与原配ASCII样文完整；墨迹尺寸为本次样文逐字最大值，并非完整字库统一框。",
+    "inkWidth": 9,
+    "inkHeight": 9,
+    "nativeEvidence": {
+      "summary": "NativeBDF JIS0208 CJK10x10 + samepackage5x10a ASCII; actualBITMAP bits directly decoded.",
+      "sourceUrl": "https://sources.debian.org/src/xfonts-naga10/1.1-15/INSTALL",
+      "sample_ink_scope": "所示样文逐字最大墨迹；不是完整字库统计",
+      "source_sha256": [
+        "6b656887d22533ac8c6356cc3fba4411e8ff42e2dbb508bb16c09f7e091e0da5",
+        "bfdc2c6ea5f91a9e899176ab7f97ff7d210b6a9039d64c8289e15e5a21cb5507",
+        "a64c9d6c4a6845a24bc55527aa96eade516c4c43d2fa084bf8265f63c8858229"
+      ]
+    },
+    "cellWidth": 10,
+    "cellHeight": 10,
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "priority": 0,
+    "sourceIndex": 194,
+    "specimen": "assets/specimens/naga10_10x10.png",
+    "specimenWidth": 135,
+    "specimenHeight": 24,
+    "specimenSha256": "4f7c58fce1f1ced25730041f514830f0ca6e9bb50b39bec1271063fce93432a9"
+  },
+  {
+    "id": "paw16_16x16",
+    "name": "Paw16 原生点阵 · 16×16",
+    "family": "Paw16",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://drive.google.com/file/d/1RUc35HbneNKAXI2SMb9EcQDCFiOknIeY/view",
+    "licenseNote": "原Paw条款限制商业使用，字体分发或修改另有通知及保留文档条件。本站仅固定字样与来源，不分发字体。",
+    "provenance": "粗线与复杂字简化设计；仅核指定共同汉字比较，不宣称与所有历史字体完全独立。",
+    "notes": "中文与原配ASCII样文完整；墨迹尺寸为本次样文逐字最大值，并非完整字库统一框。",
+    "inkWidth": 14,
+    "inkHeight": 14,
+    "nativeEvidence": {
+      "summary": "NativeEBDT16ppem/EBLCindexmetrics getRow; baseline14; nooutlinefallback.",
+      "sourceUrl": "https://drive.google.com/file/d/1RUc35HbneNKAXI2SMb9EcQDCFiOknIeY/view",
+      "sample_ink_scope": "所示样文逐字最大墨迹；不是完整字库统计",
+      "source_sha256": [
+        "bef63e3cf2782ba19f7484d00377e60317ed9a039d75cee31751c4bc44fe86ce",
+        "9821510ffcca0fd9ef1abedf03f99b172825484a929a1f2bd8866d3b6c6241c4"
+      ]
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "priority": 0,
+    "sourceIndex": 195,
+    "specimen": "assets/specimens/paw16_16x16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "specimenSha256": "a8822f7057a56587131ec7581b3550bcd371c1ae5415363df3f67e7e006bc98a"
+  },
+  {
+    "id": "cns40_original",
+    "name": "CNS40 历史宋体 · 40×40",
+    "family": "CNS40",
+    "width": 40,
+    "height": 40,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "历史字库"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "０１２３４５６７８９ＡａＢｂＧｇＭｍ！？：＋－．",
+    "asciiOrigin": "fullwidth-native",
+    "sourceUrl": "https://www.debian.org/international/chinese/software",
+    "licenseNote": "历史HBF/BIN来源及整理信息已核；独立字库使用和再分发条件仍应核对原始材料，本站不提供字体文件。",
+    "provenance": "HBF记载原bitmap由台湾经济部中央标准局于1994-03-09提供，CNS11643-92 plane1。已读取历史原位图，制作过程仍待考，不能仅此断言每字手绘。",
+    "coverage": "本次繁体句和全角英数完整；不含普通ASCII。",
+    "notes": "第二行是原字库全角英数，不是ASCII。样张按40格读取，字符排版间距4px；1×指源像素，不是截图取模。",
+    "nativeEvidence": {
+      "summary": "读取原HBF/BIN，每字200bytes、40×40，无轮廓栅格化或补字。",
+      "sourceUrl": "https://www.debian.org/international/chinese/software",
+      "native_ppem": 40
+    },
+    "cellWidth": 40,
+    "cellHeight": 40,
+    "inkWidth": null,
+    "inkHeight": null,
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "sampleKind": "standard",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 196,
+    "specimen": "assets/specimens/cns40_original.png",
+    "specimenWidth": 1056,
+    "specimenHeight": 104,
+    "specimenSha256": "47ffda1a9a281631ded7926a20277089cdd532dedc00157acd00660582eadb8d"
+  },
+  {
+    "id": "hanyi-pixel-power",
+    "name": "汉仪像素力量",
+    "family": "汉仪像素力量",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "参考资料"
+    ],
+    "uses": [
+      "研究参考"
+    ],
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "asciiOrigin": "reference-unverified",
+    "sourceUrl": "https://www.hanyi.com.cn/font-list",
+    "sourceLabel": "查看原始资料",
+    "sampleKind": "reference",
+    "referenceType": "官方试字截图",
+    "referenceNote": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。",
+    "coverage": "资料图，不作逐字字库覆盖验证。",
+    "licenseNote": "字体与官网字样归汉仪及相应权利人；商业字体，非开源。此图来自官方公开在线试字。 仅固定字样与来源，不提供字体或授予使用许可。",
+    "provenance": "官方像素系列在线试字，原生设计格数与制作过程尚未核实。",
+    "notes": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。",
+    "inkWidth": null,
+    "inkHeight": null,
+    "licenseStatus": "以来源及权利人许可为准",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 197,
+    "specimen": "assets/specimens/hanyi-pixel-power.png",
+    "specimenWidth": 1066,
+    "specimenHeight": 60,
+    "specimenSha256": "b31c0b770a6e6f3c317df3010f4c3ce6c9a262386a72d1dea7822223caf659bd"
+  },
+  {
+    "id": "hanyi-pixel9",
+    "name": "汉仪像素9px",
+    "family": "汉仪像素9px",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "参考资料"
+    ],
+    "uses": [
+      "研究参考"
+    ],
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "asciiOrigin": "reference-unverified",
+    "sourceUrl": "https://www.hanyi.com.cn/font-list",
+    "sourceLabel": "查看原始资料",
+    "sampleKind": "reference",
+    "referenceType": "官方试字截图",
+    "referenceNote": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为9×9，不当作已读取的字体字框。",
+    "coverage": "资料图，不作逐字字库覆盖验证。",
+    "licenseNote": "字体与官网字样归汉仪及相应权利人；商业字体，非开源。此图来自官方公开在线试字。 仅固定字样与来源，不提供字体或授予使用许可。",
+    "provenance": "汉仪官方设计文章明确标称此设计格数，说明避让、合并、精简及灰度调整。设计尺寸不等于已实测字框或advance。",
+    "notes": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为9×9，不当作已读取的字体字框。",
+    "nominalDesignGrid": [
+      9,
+      9
+    ],
+    "inkWidth": null,
+    "inkHeight": null,
+    "licenseStatus": "以来源及权利人许可为准",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 198,
+    "specimen": "assets/specimens/hanyi-pixel9.png",
+    "specimenWidth": 1066,
+    "specimenHeight": 60,
+    "specimenSha256": "56e7c7160f1e2cf7c66cd3fe9aa5d43fdbbf271d7c7c1d306ba0b854f2a27176"
+  },
+  {
+    "id": "hanyi-pixel-invasion",
+    "name": "汉仪像素入侵",
+    "family": "汉仪像素入侵",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "参考资料"
+    ],
+    "uses": [
+      "研究参考"
+    ],
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "asciiOrigin": "reference-unverified",
+    "sourceUrl": "https://www.hanyi.com.cn/font-list",
+    "sourceLabel": "查看原始资料",
+    "sampleKind": "reference",
+    "referenceType": "官方试字截图",
+    "referenceNote": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方说明是在综艺类型黑体上局部像素化，作为设计参考收录，不称全字框原生点阵。",
+    "coverage": "资料图，不作逐字字库覆盖验证。",
+    "licenseNote": "字体与官网字样归汉仪及相应权利人；商业字体，非开源。此图来自官方公开在线试字。 仅固定字样与来源，不提供字体或授予使用许可。",
+    "provenance": "汉仪官方说明：以综艺类型黑体为基础，仅将部分笔画像素化，主要是斜向、弧线及部分笔画末端。像素设计字样，不能标为已证实原生全字框点阵。",
+    "notes": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方说明是在综艺类型黑体上局部像素化，作为设计参考收录，不称全字框原生点阵。",
+    "inkWidth": null,
+    "inkHeight": null,
+    "licenseStatus": "以来源及权利人许可为准",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 199,
+    "specimen": "assets/specimens/hanyi-pixel-invasion.png",
+    "specimenWidth": 1066,
+    "specimenHeight": 60,
+    "specimenSha256": "047b4fb29d77cc9fbdb5a43c943aa4cae2248f28ba91df087ec8793c08da4483"
+  },
+  {
+    "id": "hanyi-pixel11",
+    "name": "汉仪像素11px",
+    "family": "汉仪像素11px",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "参考资料"
+    ],
+    "uses": [
+      "研究参考"
+    ],
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "asciiOrigin": "reference-unverified",
+    "sourceUrl": "https://www.hanyi.com.cn/productdetail?id=79453",
+    "sourceLabel": "查看原始资料",
+    "sampleKind": "reference",
+    "referenceType": "官方试字截图",
+    "referenceNote": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为11×11，不当作已读取的字体字框。",
+    "coverage": "资料图，不作逐字字库覆盖验证。",
+    "licenseNote": "字体与官网字样归汉仪及相应权利人；商业字体，非开源。此图来自官方公开在线试字。 仅固定字样与来源，不提供字体或授予使用许可。",
+    "provenance": "汉仪官方设计文章明确标称此设计格数，说明避让、合并、精简及灰度调整。设计尺寸不等于已实测字框或advance。",
+    "notes": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为11×11，不当作已读取的字体字框。",
+    "nominalDesignGrid": [
+      11,
+      11
+    ],
+    "inkWidth": null,
+    "inkHeight": null,
+    "licenseStatus": "以来源及权利人许可为准",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 200,
+    "specimen": "assets/specimens/hanyi-pixel11.png",
+    "specimenWidth": 1066,
+    "specimenHeight": 60,
+    "specimenSha256": "c938ed14e465f37497295d038d412744bc9705639ae0ae4cfdbd982d8249242a"
+  },
+  {
+    "id": "hanyi-pixel13",
+    "name": "汉仪像素13px",
+    "family": "汉仪像素13px",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "参考资料"
+    ],
+    "uses": [
+      "研究参考"
+    ],
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "asciiOrigin": "reference-unverified",
+    "sourceUrl": "https://www.hanyi.com.cn/font-list",
+    "sourceLabel": "查看原始资料",
+    "sampleKind": "reference",
+    "referenceType": "官方试字截图",
+    "referenceNote": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为13×13，不当作已读取的字体字框。",
+    "coverage": "资料图，不作逐字字库覆盖验证。",
+    "licenseNote": "字体与官网字样归汉仪及相应权利人；商业字体，非开源。此图来自官方公开在线试字。 仅固定字样与来源，不提供字体或授予使用许可。",
+    "provenance": "汉仪官方设计文章明确标称此设计格数，说明避让、合并、精简及灰度调整。设计尺寸不等于已实测字框或advance。",
+    "notes": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为13×13，不当作已读取的字体字框。",
+    "nominalDesignGrid": [
+      13,
+      13
+    ],
+    "inkWidth": null,
+    "inkHeight": null,
+    "licenseStatus": "以来源及权利人许可为准",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 201,
+    "specimen": "assets/specimens/hanyi-pixel13.png",
+    "specimenWidth": 1066,
+    "specimenHeight": 60,
+    "specimenSha256": "b58a09ecf8ddcc3d2687984f839e6df0c090831425e29606e1d71d0db8c29b94"
+  },
+  {
+    "id": "hanyi-pixel-xingkai15",
+    "name": "汉仪像素行楷15px",
+    "family": "汉仪像素行楷15px",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "参考资料"
+    ],
+    "uses": [
+      "研究参考"
+    ],
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "asciiOrigin": "reference-unverified",
+    "sourceUrl": "https://www.hanyi.com.cn/productdetail?id=98858&type=0",
+    "sourceLabel": "查看原始资料",
+    "sampleKind": "reference",
+    "referenceType": "官方试字截图",
+    "referenceNote": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为15×15，不当作已读取的字体字框。",
+    "coverage": "资料图，不作逐字字库覆盖验证。",
+    "licenseNote": "字体与官网字样归汉仪及相应权利人；商业字体，非开源。此图来自官方公开在线试字。 仅固定字样与来源，不提供字体或授予使用许可。",
+    "provenance": "汉仪官方设计文章明确标称此设计格数，说明避让、合并、精简及灰度调整。设计尺寸不等于已实测字框或advance。",
+    "notes": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为15×15，不当作已读取的字体字框。",
+    "nominalDesignGrid": [
+      15,
+      15
+    ],
+    "inkWidth": null,
+    "inkHeight": null,
+    "licenseStatus": "以来源及权利人许可为准",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 202,
+    "specimen": "assets/specimens/hanyi-pixel-xingkai15.png",
+    "specimenWidth": 1066,
+    "specimenHeight": 60,
+    "specimenSha256": "a44347fe3480d068cac33e4f172c27e2178bc1a5f5e2b137c009d745ae710c94"
+  },
+  {
+    "id": "fzbase",
+    "name": "方正基础像素",
+    "family": "方正基础像素",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "参考资料"
+    ],
+    "uses": [
+      "研究参考"
+    ],
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "asciiOrigin": "reference-unverified",
+    "sourceUrl": "https://www.foundertype.com/index.php/FontInfo/index/id/212",
+    "sourceLabel": "查看原始资料",
+    "sampleKind": "reference",
+    "referenceType": "官方试字截图",
+    "referenceNote": "官网单次限11字，分段截图排版；保留抗锯齿显示。基础像素CSS字号126.425px、点阵冯48px，不作相同原生尺寸比较。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。",
+    "coverage": "资料图，不作逐字字库覆盖验证。",
+    "licenseNote": "字体与官网字样归方正字库及相应设计权利人；商业字体，非开源。 仅固定字样与来源，不提供字体或授予使用许可。",
+    "provenance": "为2005年深圳双年展形象设计而作，以较少像素构造，字宽和字高不统一。",
+    "notes": "官网单次限11字，分段截图排版；保留抗锯齿显示。基础像素CSS字号126.425px、点阵冯48px，不作相同原生尺寸比较。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。",
+    "inkWidth": null,
+    "inkHeight": null,
+    "licenseStatus": "以来源及权利人许可为准",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 203,
+    "specimen": "assets/specimens/fzbase.png",
+    "specimenWidth": 660,
+    "specimenHeight": 212,
+    "specimenSha256": "a3b591a33b793374cadf361a45b6e3a6fe38402124500175fcd0da8c9c33e740"
+  },
+  {
+    "id": "fzfeng",
+    "name": "方正点阵冯",
+    "family": "方正点阵冯",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "参考资料"
+    ],
+    "uses": [
+      "研究参考"
+    ],
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "asciiOrigin": "reference-unverified",
+    "sourceUrl": "https://www.foundertype.com/index.php/FontInfo/index/id/414",
+    "sourceLabel": "查看原始资料",
+    "sampleKind": "reference",
+    "referenceType": "官方试字截图",
+    "referenceNote": "官网单次限11字，分段截图排版；保留抗锯齿显示。基础像素CSS字号126.425px、点阵冯48px，不作相同原生尺寸比较。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。",
+    "coverage": "资料图，不作逐字字库覆盖验证。",
+    "licenseNote": "字体与官网字样归方正字库及相应设计权利人；商业字体，非开源。 仅固定字样与来源，不提供字体或授予使用许可。",
+    "provenance": "刻意调整像素数量，模拟磨蚀碑帖，在可读与不可读之间形成设计效果。",
+    "notes": "官网单次限11字，分段截图排版；保留抗锯齿显示。基础像素CSS字号126.425px、点阵冯48px，不作相同原生尺寸比较。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。",
+    "inkWidth": null,
+    "inkHeight": null,
+    "licenseStatus": "以来源及权利人许可为准",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 204,
+    "specimen": "assets/specimens/fzfeng.png",
+    "specimenWidth": 660,
+    "specimenHeight": 122,
+    "specimenSha256": "1c24f9edf5823742133159049115432a0746e66d214d0b4ec82afbf3352a33d6"
+  },
+  {
+    "id": "monotype_bitmap_hk",
+    "name": "蒙纳点阵 · 方点／圆点",
+    "family": "蒙纳点阵",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "参考资料"
+    ],
+    "uses": [
+      "研究参考"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "asciiOrigin": "reference-unverified",
+    "sourceUrl": "https://www.myfonts.com/collections/m-bitmap-square-hk-font-monotype-hk/",
+    "sourceLabel": "查看原始资料",
+    "sampleKind": "reference",
+    "referenceType": "官方试字截图",
+    "referenceNote": "上半为方点、下半为圆点，均为官网35px显示截图；原字框未核，不适合与原像素字样按字号比较。",
+    "coverage": "资料图，不作逐字字库覆盖验证。",
+    "licenseNote": "权利归原字体或资料权利人。仅展示固定研究字样和来源，不提供字体文件；公开可见不等于已取得使用或再分发授权。",
+    "provenance": "Monotype HK Design的像素设计参考。同一汉字结构的方点与圆点表现合并一条，不称两个独立原生字库。",
+    "notes": "上半为方点、下半为圆点，均为官网35px显示截图；原字框未核，不适合与原像素字样按字号比较。",
+    "inkWidth": null,
+    "inkHeight": null,
+    "licenseStatus": "以来源及权利人许可为准",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 205,
+    "specimen": "assets/specimens/monotype_bitmap_hk.png",
+    "specimenWidth": 820,
+    "specimenHeight": 336,
+    "specimenSha256": "dfc6acdbc8b531283cb39a598c892f28fe2a9784a8bacd05e7e382bc96bf2d44",
+    "relatedSources": [
+      {
+        "name": "蒙纳繁方点阵",
+        "sourceUrl": "https://www.myfonts.com/collections/m-bitmap-square-hk-font-monotype-hk/",
+        "provenance": "Monotype官方访谈将方点阵描述为pixel-based structure；尚未核实字框格数或字体内置bitmap表。"
+      },
+      {
+        "name": "蒙纳繁圆点阵",
+        "sourceUrl": "https://www.myfonts.com/collections/m-bitmap-round-hk-font-monotype-hk/",
+        "provenance": "Monotype官方访谈将方点阵描述为pixel-based structure；尚未核实字框格数或字体内置bitmap表。"
+      }
+    ]
+  },
+  {
+    "id": "chinasea_reference",
+    "name": "ChinaSea 中国海外字集 · 外字档案",
+    "family": "ChinaSea",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "参考资料"
+    ],
+    "uses": [
+      "研究参考"
+    ],
+    "text": "袜 孭 脷 餸 啲 㗎 喺 嗰 嘅 嘢 咗 嚟",
+    "asciiText": "",
+    "asciiOrigin": "reference-unverified",
+    "sourceUrl": "https://github.com/scott0107000/ChinaSea/blob/main/3.md",
+    "sourceLabel": "查看原始资料",
+    "sampleKind": "reference",
+    "referenceType": "历史外字资料",
+    "referenceNote": "上行为原档16列，下行为24列；各图原有留白与放大倍率不同，不能从PNG尺寸反推字体网格。PUA是历史映射，不代表统一语义编码。",
+    "coverage": "资料图，不作逐字字库覆盖验证。",
+    "licenseNote": "权利归原字体或资料权利人。仅展示固定研究字样和来源，不提供字体文件；公开可见不等于已取得使用或再分发授权。",
+    "provenance": "历史外字档案保存的12字、16/24两列共24幅原图；不是完整通用字库。",
+    "notes": "上行为原档16列，下行为24列；各图原有留白与放大倍率不同，不能从PNG尺寸反推字体网格。PUA是历史映射，不代表统一语义编码。",
+    "inkWidth": null,
+    "inkHeight": null,
+    "licenseStatus": "以来源及权利人许可为准",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 206,
+    "specimen": "assets/specimens/chinasea_reference.png",
+    "specimenWidth": 924,
+    "specimenHeight": 139,
+    "specimenSha256": "79c21875a343ccc5cd2fc6dd81ca479ec2f7a99eff74333523f2598e3e20157e"
+  },
+  {
+    "id": "gb48_2025_reference",
+    "name": "48点阵汉字标准 · 永字图样",
+    "family": "48点阵标准",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "参考资料"
+    ],
+    "uses": [
+      "研究参考"
+    ],
+    "text": "永",
+    "asciiText": "",
+    "asciiOrigin": "reference-unverified",
+    "sourceUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=421B9135604C56A2EA1C4396A941CFB4",
+    "sourceLabel": "查看原始资料",
+    "sampleKind": "reference",
+    "referenceType": "标准图样",
+    "referenceNote": "这是带网格的标准页面截图，存在页面缩放与抗锯齿，不是48×48二值字模；未获取完整机器可读字库，不据标准范围宣称实测覆盖。",
+    "coverage": "资料图，不作逐字字库覆盖验证。",
+    "licenseNote": "权利归原字体或资料权利人。仅展示固定研究字样和来源，不提供字体文件；公开可见不等于已取得使用或再分发授权。",
+    "provenance": "GB/T 22321.1—2025官方在线标准图2；正文定义48×48定位网格。",
+    "notes": "这是带网格的标准页面截图，存在页面缩放与抗锯齿，不是48×48二值字模；未获取完整机器可读字库，不据标准范围宣称实测覆盖。",
+    "nominalDesignGrid": [
+      48,
+      48
+    ],
+    "inkWidth": null,
+    "inkHeight": null,
+    "licenseStatus": "以来源及权利人许可为准",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 207,
+    "specimen": "assets/specimens/gb48_2025_reference.png",
+    "specimenWidth": 320,
+    "specimenHeight": 320,
+    "specimenSha256": "5016e244f2292336aab78b97029e79104ba6c757cedb236ca09f5b4aea857695"
+  },
+  {
+    "id": "konatu_native_12",
+    "name": "小夏 Konatu 精修内嵌点阵 · 12×12",
+    "family": "小夏 Konatu",
+    "width": 12,
+    "height": 12,
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "等线点阵"
+    ],
+    "uses": [
+      "系统字体"
+    ],
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://blog.masuseki.com/?p=233",
+    "licenseNote": "作者20121218发行包标MIT；保留字体原作者声明。本站只展示字样，不分发原字体。",
+    "provenance": "桝田道也字体项目：由TTF转为位图后以edbmf人工精修。实际读取20121218版本EBDT的12ppem字模，不从轮廓现场取模；不据此推断所有字号或全部字符均完成精修。",
+    "notes": "繁体标准句与原ASCII字形完整，空格为12格布局空白；简体标准句缺视、蓝，未借字补齐。实际共同非空汉字中13px与12px一致，本站只保留12px。",
+    "nativeEvidence": {
+      "summary": "EBDT strike4，12ppem，1bit；原metrics/baseline10排布。",
+      "sourceUrl": "https://blog.masuseki.com/?p=233",
+      "source_sha256": "8c0d8779fdb9aef74b8f2f9e6b0cea283f16f9f360af2b3c38f3099f132c4e43"
+    },
+    "sampleKind": "standard",
+    "coverage": "繁体标准样文及原ASCII完整",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "specimenWidth": 180,
+    "specimenHeight": 28,
+    "specimenSha256": "98041362a8b9ce1c5d024b0839552efc0b8438ee55fa69edc6b0e60d2a980c53",
+    "sourceIndex": 208,
+    "priority": 0,
+    "missing": [],
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimen": "assets/specimens/konatu_native_12.png"
+  },
+  {
+    "id": "ccdb_cccii_64",
+    "name": "CCDB / CCCII 历史点阵 · 64×64",
+    "family": "CCDB / CCCII",
+    "width": 64,
+    "height": 64,
+    "cellWidth": 64,
+    "cellHeight": 64,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体点阵"
+    ],
+    "uses": [
+      "历史字库"
+    ],
+    "text": "視野無限廣,窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/ftp/fonts/README.html",
+    "licenseNote": "BDF版权字段列中华文化相关机构的Chinese Character Analysis Group for Information Application。公开镜像不等于取得自由再分发许可，本站不分发原字库。",
+    "provenance": "安冈孝一于1996-01-11将台湾大学CCDB原bitmap转换为BDF；保存真实64×64历史字模，非小字号放大。原始制作与逐字调校过程仍未充分核实。",
+    "notes": "BDF共73885条记录，其中73827个非负编码及58个无编码记录，不等于73885个独立汉字。标准句用源库U+002C逗号代替未映射的全角逗号。英数为原CCCII字形映射到ASCII码位，保留64格字框；空格仅作布局空白，不借用其他字体。10个汉字与Unicode Unihan kCCCII对照一致。",
+    "nativeEvidence": {
+      "summary": "直接读取64×64 BDF原bitmap；BBX64 64 0 -6，ascent58/descent6，CCCII.1989编码。",
+      "sourceUrl": "http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/ftp/fonts/README.html",
+      "compressed_source_sha256": "9df6baedd79d543e4d75d442658492d11a909db025c8b3ea1d0e9d7194fd2944",
+      "records": 73885,
+      "encodedRecords": 73827,
+      "unencodedRecords": 58
+    },
+    "sampleKind": "standard",
+    "coverage": "所示繁体句与原英数映射均完整；未映射全角逗号不冒称完整",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native-cccII-mapped",
+    "specimenWidth": 1836,
+    "specimenHeight": 148,
+    "specimenSha256": "83b0a40a9c8006b0c5e4646d72339703e88a13f85f43da91bc6aa11e953aff1b",
+    "sourceIndex": 209,
+    "priority": 0,
+    "missing": [],
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimen": "assets/specimens/ccdb_cccii_64.png"
+  },
+  {
+    "id": "pixels_han_main",
+    "name": "Pixels Han · 原格点设计",
+    "family": "Pixels Han",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "variableGrid": true,
+    "designEmGrid": 14,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "像素设计"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://www.pixels-han.com/",
+    "licenseNote": "设计：欧以勒 Yile Ou；字体权利归原作者。官网未见正式发布许可，不标为开源。 本站不分发原字体或试字子集。",
+    "provenance": "从作者官网实际SC/TC试字子集读取CFF格点轮廓，按已核设计网格精确还原，不是把普通矢量轮廓任意字号取模，也不是网页截图。",
+    "notes": "当前展示简体标准句与同源ASCII，繁体固定句也已核对；无借字。设计em格数不等于统一字符框；主版字宽不同，Mono也存在超出常见9格字面的字形，故归入不定字框。每行按实际墨迹与基线布局，不作统一方框裁剪。",
+    "nativeEvidence": {
+      "summary": "实际格点轮廓与整数advance还原；图片1像素对应1设计格。仅核固定SC/TC/ASCII小样，未保存完整字体输入。",
+      "sourceUrl": "https://www.pixels-han.com/",
+      "designEmGrid": 14,
+      "lines": [
+        {
+          "text": "视野无限广，窗外有蓝天。",
+          "totalAdvance": 100.0,
+          "glyphAdvances": [
+            10.0,
+            10.0,
+            7.0,
+            10.0,
+            7.0,
+            6.0,
+            9.0,
+            8.0,
+            9.0,
+            9.0,
+            8.0,
+            7.0
+          ],
+          "canvasBounds": [
+            -1,
+            -2,
+            100.0,
+            9
+          ],
+          "baselineFromTop": 9,
+          "emGrid": 14.0,
+          "kerningApplied": false,
+          "top": 0,
+          "baselineCanvas": 9
+        },
+        {
+          "text": "0123456789 AaBb GgMm !?:+-.",
+          "totalAdvance": 110.0,
+          "glyphAdvances": [
+            4.0,
+            3.0,
+            4.0,
+            4.0,
+            5.0,
+            4.0,
+            4.0,
+            5.0,
+            4.0,
+            4.0,
+            2.0,
+            6.0,
+            5.0,
+            5.0,
+            4.0,
+            2.0,
+            6.0,
+            5.0,
+            6.0,
+            6.0,
+            2.0,
+            2.0,
+            4.0,
+            2.0,
+            6.0,
+            4.0,
+            2.0
+          ],
+          "canvasBounds": [
+            0,
+            -2,
+            110.0,
+            6
+          ],
+          "baselineFromTop": 6,
+          "emGrid": 14.0,
+          "kerningApplied": false,
+          "top": 16,
+          "baselineCanvas": 22
+        }
+      ],
+      "sourceKind": "pixel-outline-exact-grid"
+    },
+    "asciiOrigin": "native",
+    "sampleKind": "standard",
+    "coverage": "固定简繁标准句及原ASCII已核无缺字；不外推全字符集",
+    "sourceIndex": 210,
+    "priority": 0,
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimen": "assets/specimens/pixels_han_main.png",
+    "specimenWidth": 110,
+    "specimenHeight": 24,
+    "specimenSha256": "8776619052ff16a2e429e5cb560caab64c0e09053b6bc03e00e61ccaae0b2faf"
+  },
+  {
+    "id": "pixels_han_mono",
+    "name": "Pixels Han Mono · 原格点设计",
+    "family": "Pixels Han",
+    "width": null,
+    "height": null,
+    "cellWidth": null,
+    "cellHeight": null,
+    "variableGrid": true,
+    "designEmGrid": 9,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "像素设计"
+    ],
+    "uses": [
+      "像素字体"
+    ],
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://www.pixels-han.com/mono",
+    "licenseNote": "设计：欧以勒 Yile Ou；字体权利归原作者。官网未见正式发布许可，不标为开源。 本站不分发原字体或试字子集。",
+    "provenance": "从作者官网实际SC/TC试字子集读取CFF格点轮廓，按已核设计网格精确还原，不是把普通矢量轮廓任意字号取模，也不是网页截图。",
+    "notes": "当前展示简体标准句与同源ASCII，繁体固定句也已核对；无借字。设计em格数不等于统一字符框；主版字宽不同，Mono也存在超出常见9格字面的字形，故归入不定字框。每行按实际墨迹与基线布局，不作统一方框裁剪。",
+    "nativeEvidence": {
+      "summary": "实际格点轮廓与整数advance还原；图片1像素对应1设计格。仅核固定SC/TC/ASCII小样，未保存完整字体输入。",
+      "sourceUrl": "https://www.pixels-han.com/mono",
+      "designEmGrid": 9,
+      "lines": [
+        {
+          "text": "视野无限广，窗外有蓝天。",
+          "totalAdvance": 120.0,
+          "glyphAdvances": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "canvasBounds": [
+            0,
+            -1,
+            120.0,
+            8
+          ],
+          "baselineFromTop": 8,
+          "emGrid": 9.0,
+          "kerningApplied": false,
+          "top": 0,
+          "baselineCanvas": 8
+        },
+        {
+          "text": "0123456789 AaBb GgMm !?:+-.",
+          "totalAdvance": 135.0,
+          "glyphAdvances": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "canvasBounds": [
+            0,
+            -2,
+            135.0,
+            6
+          ],
+          "baselineFromTop": 6,
+          "emGrid": 9.0,
+          "kerningApplied": false,
+          "top": 14,
+          "baselineCanvas": 20
+        }
+      ],
+      "sourceKind": "pixel-outline-exact-grid"
+    },
+    "asciiOrigin": "native",
+    "sampleKind": "standard",
+    "coverage": "固定简繁标准句及原ASCII已核无缺字；不外推全字符集",
+    "sourceIndex": 211,
+    "priority": 0,
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimen": "assets/specimens/pixels_han_mono.png",
+    "specimenWidth": 135,
+    "specimenHeight": 22,
+    "specimenSha256": "d7054090e0a9d1ca29f11a96469b374a28d2b2281c43a4052afea745ecaca804"
+  },
+  {
+    "id": "dec_hei_big5_16",
+    "name": "DEC Hei 黑体（繁体）·16×16",
+    "family": "DEC Hei 黑体",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/dec_hei_big5_16.png",
+    "specimenWidth": 192,
+    "specimenHeight": 16,
+    "specimenSha256": "c3714dfa46ec9d9891950c0b4460d223b29fef397281bf947ea227c8bbfc59a9",
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "absent",
+    "sampleKind": "standard",
+    "coverage": "标准繁体样句完整；本中文PCF层没有普通ASCII，不补借。",
+    "provenance": "直接读取Tru64 5.0A Associated Products Volume 1原始PCF保存的位图，媒体卷标V5.0Ar1094_A1，约2000-04；对应手册为1999-07、5.0或以上版本。不是截图重建，不是普通矢量取模；逐字手工调校史尚未证实。",
+    "nativeEvidence": {
+      "summary": "直接解码原PCF位图及双字节编码，保留字宽、bearing、基线和原像素；手册字面为15×16，实际PCF字框及字宽16×16。",
+      "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+      "native_ppem": 16,
+      "source_sha256": "e2e0a6eb8b3c138f84ce4de724dcc42dd9ee8b49fca32bc61d53a656089943d6"
+    },
+    "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+    "sourceLabel": "Tru64官方中文技术手册（历史镜像）",
+    "licenseStatus": "以来源及权利人许可为准",
+    "licenseNote": "PCF版权属性：Copyright (c) 1988 Digital Equipment Corporation FE.。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
+    "notes": "手册字面为15×16，实际PCF字框及字宽16×16。基线ascent/descent=12/4；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。此中文PCF层不含普通单字节ASCII，本样张不作全角替代、不借配套西文字库；不能据此说整个DEC系统没有西文。同尺寸Big5/CNS版本13,060个共同汉字逐位相同，只展示已核Big5代表，不拆成两款。",
+    "priority": 0,
+    "sourceIndex": 212
+  },
+  {
+    "id": "dec_hei_big5_24",
+    "name": "DEC Hei 黑体（繁体）·24×24",
+    "family": "DEC Hei 黑体",
+    "width": 24,
+    "height": 24,
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/dec_hei_big5_24.png",
+    "specimenWidth": 288,
+    "specimenHeight": 24,
+    "specimenSha256": "6ca7b92c5766747e0b50c0425e3dec5bb1c45ca2f0efe9f45c98f39e05791337",
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "absent",
+    "sampleKind": "standard",
+    "coverage": "标准繁体样句完整；本中文PCF层没有普通ASCII，不补借。",
+    "provenance": "直接读取Tru64 5.0A Associated Products Volume 1原始PCF保存的位图，媒体卷标V5.0Ar1094_A1，约2000-04；对应手册为1999-07、5.0或以上版本。不是截图重建，不是普通矢量取模；逐字手工调校史尚未证实。",
+    "nativeEvidence": {
+      "summary": "直接解码原PCF位图及双字节编码，保留字宽、bearing、基线和原像素；手册字面为22×22，实际PCF字框及字宽24×24。",
+      "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+      "native_ppem": 24,
+      "source_sha256": "553c76e22ea467cddc24802d97cf95639d053539f8f7b2862f6d05f2709f2043"
+    },
+    "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+    "sourceLabel": "Tru64官方中文技术手册（历史镜像）",
+    "licenseStatus": "以来源及权利人许可为准",
+    "licenseNote": "该PCF版权属性为空，不能视为公有领域。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
+    "notes": "手册字面为22×22，实际PCF字框及字宽24×24。基线ascent/descent=18/6；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。此中文PCF层不含普通单字节ASCII，本样张不作全角替代、不借配套西文字库；不能据此说整个DEC系统没有西文。同尺寸Big5/CNS版本13,060个共同汉字逐位相同，只展示已核Big5代表，不拆成两款。",
+    "priority": 0,
+    "sourceIndex": 213
+  },
+  {
+    "id": "dec_sung_cns11643_24",
+    "name": "DEC Sung 宋体（繁体）·24×24",
+    "family": "DEC Sung 宋体",
+    "width": 24,
+    "height": 24,
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/dec_sung_cns11643_24.png",
+    "specimenWidth": 288,
+    "specimenHeight": 24,
+    "specimenSha256": "47d1817ecd3815b5360992c7b9fcdef79d8e973850a8e9781cd0aeccac487960",
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "absent",
+    "sampleKind": "standard",
+    "coverage": "标准繁体样句完整；本中文PCF层没有普通ASCII，不补借。",
+    "provenance": "直接读取Tru64 5.0A Associated Products Volume 1原始PCF保存的位图，媒体卷标V5.0Ar1094_A1，约2000-04；对应手册为1999-07、5.0或以上版本。不是截图重建，不是普通矢量取模；逐字手工调校史尚未证实。",
+    "nativeEvidence": {
+      "summary": "直接解码原PCF位图及双字节编码，保留字宽、bearing、基线和原像素；手册字面为22×22，实际PCF字框及字宽24×24。",
+      "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+      "native_ppem": 24,
+      "source_sha256": "acd5e271954e99343076546a17f8ca966cf4b6043fea0b5f125871949d05ee84"
+    },
+    "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+    "sourceLabel": "Tru64官方中文技术手册（历史镜像）",
+    "licenseStatus": "以来源及权利人许可为准",
+    "licenseNote": "PCF版权属性：Copyright (c) 1990 Digital Equipment Corporation。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
+    "notes": "手册字面为22×22，实际PCF字框及字宽24×24。基线ascent/descent=18/6；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。此中文PCF层不含普通单字节ASCII，本样张不作全角替代、不借配套西文字库；不能据此说整个DEC系统没有西文。",
+    "priority": 0,
+    "sourceIndex": 214
+  },
+  {
+    "id": "dec_sung_cns11643_32",
+    "name": "DEC Sung 宋体（繁体）·32×32",
+    "family": "DEC Sung 宋体",
+    "width": 32,
+    "height": 32,
+    "cellWidth": 32,
+    "cellHeight": 32,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/dec_sung_cns11643_32.png",
+    "specimenWidth": 384,
+    "specimenHeight": 32,
+    "specimenSha256": "63684ab57cf045fdb141889ef94727d111c999f04fe9ff0d5d4fd04dc43089d9",
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "absent",
+    "sampleKind": "standard",
+    "coverage": "标准繁体样句完整；本中文PCF层没有普通ASCII，不补借。",
+    "provenance": "直接读取Tru64 5.0A Associated Products Volume 1原始PCF保存的位图，媒体卷标V5.0Ar1094_A1，约2000-04；对应手册为1999-07、5.0或以上版本。不是截图重建，不是普通矢量取模；逐字手工调校史尚未证实。",
+    "nativeEvidence": {
+      "summary": "直接解码原PCF位图及双字节编码，保留字宽、bearing、基线和原像素；手册字面为30×30，实际PCF字框及字宽32×32；不是40点CNS字库的缩放版。",
+      "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+      "native_ppem": 32,
+      "source_sha256": "a6a997dedb22c8bc9d7fbccd856011845e2857dd52cca728701735913ab77410"
+    },
+    "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+    "sourceLabel": "Tru64官方中文技术手册（历史镜像）",
+    "licenseStatus": "以来源及权利人许可为准",
+    "licenseNote": "该PCF版权属性为空，不能视为公有领域。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
+    "notes": "手册字面为30×30，实际PCF字框及字宽32×32；不是40点CNS字库的缩放版。基线ascent/descent=24/8；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。此中文PCF层不含普通单字节ASCII，本样张不作全角替代、不借配套西文字库；不能据此说整个DEC系统没有西文。",
+    "priority": 0,
+    "sourceIndex": 215
+  },
+  {
+    "id": "dec_heiti_gb2312_16",
+    "name": "DEC Heiti 黑体（简体）·16×16",
+    "family": "DEC Heiti 黑体",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/dec_heiti_gb2312_16.png",
+    "specimenWidth": 432,
+    "specimenHeight": 36,
+    "specimenSha256": "15cdb9c57a9aa75cae188300c3e46b90b4679bdecfba2f377a9e8357c625e095",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "０１２３４５６７８９　ＡａＢｂ　ＧｇＭｍ　！？：＋－．",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "fullwidth-native",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；全角英数完整，不计作普通ASCII覆盖。",
+    "provenance": "直接读取Tru64 5.0A Associated Products Volume 1原始PCF保存的位图，媒体卷标V5.0Ar1094_A1，约2000-04；对应手册为1999-07、5.0或以上版本。不是截图重建，不是普通矢量取模；逐字手工调校史尚未证实。",
+    "nativeEvidence": {
+      "summary": "直接解码原PCF位图及双字节编码，保留字宽、bearing、基线和原像素；手册字面为15×16，实际PCF字框及字宽16×16。",
+      "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+      "native_ppem": 16,
+      "source_sha256": "25d1a9a66a520be223ab09de7f0174250469d6e772d0d3564c452cfcd51d1276"
+    },
+    "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+    "sourceLabel": "Tru64官方中文技术手册（历史镜像）",
+    "licenseStatus": "以来源及权利人许可为准",
+    "licenseNote": "PCF版权属性：Copyright (c) 1988 Digital Equipment Corporation Asia。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
+    "notes": "手册字面为15×16，实际PCF字框及字宽16×16。基线ascent/descent=12/4；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。第二行取自原PCF的GB2312全角英数，不是半角ASCII，未借补西文字库。",
+    "priority": 0,
+    "sourceIndex": 216
+  },
+  {
+    "id": "dec_fangsongti_gb2312_24",
+    "name": "DEC Fangsongti 仿宋·24×24",
+    "family": "DEC Fangsongti 仿宋",
+    "width": 24,
+    "height": 24,
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "仿宋"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/dec_fangsongti_gb2312_24.png",
+    "specimenWidth": 648,
+    "specimenHeight": 52,
+    "specimenSha256": "7e9352af48846d041311bc77a8d6a69b4e87dcb3905757bf0d1c6c718c4fd194",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "０１２３４５６７８９　ＡａＢｂ　ＧｇＭｍ　！？：＋－．",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "fullwidth-native",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；全角英数完整，不计作普通ASCII覆盖。",
+    "provenance": "直接读取Tru64 5.0A Associated Products Volume 1原始PCF保存的位图，媒体卷标V5.0Ar1094_A1，约2000-04；对应手册为1999-07、5.0或以上版本。不是截图重建，不是普通矢量取模；逐字手工调校史尚未证实。",
+    "nativeEvidence": {
+      "summary": "直接解码原PCF位图及双字节编码，保留字宽、bearing、基线和原像素；手册字面为22×22，实际PCF字框及字宽24×24。",
+      "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+      "native_ppem": 24,
+      "source_sha256": "8c3d8c56fcc08f05a9e34403857e45cbd0004a7f8fa416bfef9e1f9fa1cf3d6f"
+    },
+    "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+    "sourceLabel": "Tru64官方中文技术手册（历史镜像）",
+    "licenseStatus": "以来源及权利人许可为准",
+    "licenseNote": "PCF版权属性：Copyright (c) 1991 Digital Equipment Corporation Asia.。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
+    "notes": "手册字面为22×22，实际PCF字框及字宽24×24。基线ascent/descent=18/6；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。第二行取自原PCF的GB2312全角英数，不是半角ASCII，未借补西文字库。与指定HZK24F的6,763共同汉字已按±2px平移比较，中位IoU为0.478；像素差异不自动证明设计史独立。",
+    "priority": 0,
+    "sourceIndex": 217
+  },
+  {
+    "id": "dec_songti_gb2312_34",
+    "name": "DEC Songti 宋体·32字面／34字框",
+    "family": "DEC Songti 宋体",
+    "width": 34,
+    "height": 34,
+    "cellWidth": 34,
+    "cellHeight": 34,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/dec_songti_gb2312_34.png",
+    "specimenWidth": 918,
+    "specimenHeight": 72,
+    "specimenSha256": "9441f489e2c7ceb39cad3b952cedfb021700d7aee280661d25c912caf5e86f31",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "０１２３４５６７８９　ＡａＢｂ　ＧｇＭｍ　！？：＋－．",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "fullwidth-native",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；全角英数完整，不计作普通ASCII覆盖。",
+    "provenance": "直接读取Tru64 5.0A Associated Products Volume 1原始PCF保存的位图，媒体卷标V5.0Ar1094_A1，约2000-04；对应手册为1999-07、5.0或以上版本。不是截图重建，不是普通矢量取模；逐字手工调校史尚未证实。",
+    "nativeEvidence": {
+      "summary": "直接解码原PCF位图及双字节编码，保留字宽、bearing、基线和原像素；手册32×32字面，PCF实际保存34×34字符框、advance=34、PIXEL_SIZE=34；包含原边距，不是把32点放大到34点。",
+      "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+      "native_ppem": 34,
+      "source_sha256": "59bfd8ed9741833848df8c173ee2a147042e0e55802eb8348357cdaf7726b01f"
+    },
+    "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+    "sourceLabel": "Tru64官方中文技术手册（历史镜像）",
+    "licenseStatus": "以来源及权利人许可为准",
+    "licenseNote": "PCF版权属性：Copyright (c) 1991 Digital Equipment Corporation Asia。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
+    "notes": "手册32×32字面，PCF实际保存34×34字符框、advance=34、PIXEL_SIZE=34；包含原边距，不是把32点放大到34点。基线ascent/descent=26/8；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。第二行取自原PCF的GB2312全角英数，不是半角ASCII，未借补西文字库。已与指定先前移除的HZK32比较6,763共同汉字，排除逐位或仅数点微差副本；该结论不等于穷尽其他来源或证明设计独立，也不恢复旧HZK32。",
+    "priority": 0,
+    "sourceIndex": 218
+  },
+  {
+    "id": "dec_heiti_gb2312_34",
+    "name": "DEC Heiti 黑体·32字面／34字框",
+    "family": "DEC Heiti 黑体",
+    "width": 34,
+    "height": 34,
+    "cellWidth": 34,
+    "cellHeight": 34,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/dec_heiti_gb2312_34.png",
+    "specimenWidth": 918,
+    "specimenHeight": 72,
+    "specimenSha256": "92f0efafa1647a90be68f2e16ebfe0a2b5e2a037c28be1dc71225413a499a7d5",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "０１２３４５６７８９　ＡａＢｂ　ＧｇＭｍ　！？：＋－．",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "fullwidth-native",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；全角英数完整，不计作普通ASCII覆盖。",
+    "provenance": "直接读取Tru64 5.0A Associated Products Volume 1原始PCF保存的位图，媒体卷标V5.0Ar1094_A1，约2000-04；对应手册为1999-07、5.0或以上版本。不是截图重建，不是普通矢量取模；逐字手工调校史尚未证实。",
+    "nativeEvidence": {
+      "summary": "直接解码原PCF位图及双字节编码，保留字宽、bearing、基线和原像素；手册32×32字面，PCF实际保存34×34字符框、advance=34、PIXEL_SIZE=34；包含原边距，不是把32点放大到34点。",
+      "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+      "native_ppem": 34,
+      "source_sha256": "e7cc43760e420178b9002ffd6e3dcee71f1725c319004b04c61c131a24d77ad1"
+    },
+    "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+    "sourceLabel": "Tru64官方中文技术手册（历史镜像）",
+    "licenseStatus": "以来源及权利人许可为准",
+    "licenseNote": "PCF版权属性：Copyright (c) 1991 Digital Equipment Corporation Asia。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
+    "notes": "手册32×32字面，PCF实际保存34×34字符框、advance=34、PIXEL_SIZE=34；包含原边距，不是把32点放大到34点。基线ascent/descent=26/8；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。第二行取自原PCF的GB2312全角英数，不是半角ASCII，未借补西文字库。已与指定先前移除的HZK32比较6,763共同汉字，排除逐位或仅数点微差副本；该结论不等于穷尽其他来源或证明设计独立，也不恢复旧HZK32。",
+    "priority": 0,
+    "sourceIndex": 219
+  },
+  {
+    "id": "dec_kaiti_gb2312_34",
+    "name": "DEC Kaiti 楷体·32字面／34字框",
+    "family": "DEC Kaiti 楷体",
+    "width": 34,
+    "height": 34,
+    "cellWidth": 34,
+    "cellHeight": 34,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/dec_kaiti_gb2312_34.png",
+    "specimenWidth": 918,
+    "specimenHeight": 72,
+    "specimenSha256": "1c04858d69b5f1e247c18081539ca35749ef659dc5c483554a2fe8e85c1ab7cb",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "０１２３４５６７８９　ＡａＢｂ　ＧｇＭｍ　！？：＋－．",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "fullwidth-native",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；全角英数完整，不计作普通ASCII覆盖。",
+    "provenance": "直接读取Tru64 5.0A Associated Products Volume 1原始PCF保存的位图，媒体卷标V5.0Ar1094_A1，约2000-04；对应手册为1999-07、5.0或以上版本。不是截图重建，不是普通矢量取模；逐字手工调校史尚未证实。",
+    "nativeEvidence": {
+      "summary": "直接解码原PCF位图及双字节编码，保留字宽、bearing、基线和原像素；手册32×32字面，PCF实际保存34×34字符框、advance=34、PIXEL_SIZE=34；包含原边距，不是把32点放大到34点。",
+      "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+      "native_ppem": 34,
+      "source_sha256": "51b62ac5608fe4725c20cf7b70096ad3e1cf05ec03cbec485cf7a4302d5390c5"
+    },
+    "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+    "sourceLabel": "Tru64官方中文技术手册（历史镜像）",
+    "licenseStatus": "以来源及权利人许可为准",
+    "licenseNote": "PCF版权属性：Copyright (c) 1991 Digital Equipment Corporation Asia。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
+    "notes": "手册32×32字面，PCF实际保存34×34字符框、advance=34、PIXEL_SIZE=34；包含原边距，不是把32点放大到34点。基线ascent/descent=26/8；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。第二行取自原PCF的GB2312全角英数，不是半角ASCII，未借补西文字库。已与指定先前移除的HZK32比较6,763共同汉字，排除逐位或仅数点微差副本；该结论不等于穷尽其他来源或证明设计独立，也不恢复旧HZK32。",
+    "priority": 0,
+    "sourceIndex": 220
+  },
+  {
+    "id": "dec_fangsongti_gb2312_34",
+    "name": "DEC Fangsongti 仿宋·32字面／34字框",
+    "family": "DEC Fangsongti 仿宋",
+    "width": 34,
+    "height": 34,
+    "cellWidth": 34,
+    "cellHeight": 34,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "仿宋"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/dec_fangsongti_gb2312_34.png",
+    "specimenWidth": 918,
+    "specimenHeight": 72,
+    "specimenSha256": "28862c2f92b93460e8c90d6ccaace591fd4b54ddb7a83db0b74492904bb23997",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "０１２３４５６７８９　ＡａＢｂ　ＧｇＭｍ　！？：＋－．",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "fullwidth-native",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；全角英数完整，不计作普通ASCII覆盖。",
+    "provenance": "直接读取Tru64 5.0A Associated Products Volume 1原始PCF保存的位图，媒体卷标V5.0Ar1094_A1，约2000-04；对应手册为1999-07、5.0或以上版本。不是截图重建，不是普通矢量取模；逐字手工调校史尚未证实。",
+    "nativeEvidence": {
+      "summary": "直接解码原PCF位图及双字节编码，保留字宽、bearing、基线和原像素；手册32×32字面，PCF实际保存34×34字符框、advance=34、PIXEL_SIZE=34；包含原边距，不是把32点放大到34点。",
+      "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+      "native_ppem": 34,
+      "source_sha256": "38d1eddc97f86cc00b15c3788aefaaecf346901277d4a92bff9974ce9723895e"
+    },
+    "sourceUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH5.HTM",
+    "sourceLabel": "Tru64官方中文技术手册（历史镜像）",
+    "licenseStatus": "以来源及权利人许可为准",
+    "licenseNote": "PCF版权属性：Copyright (c) 1991 Digital Equipment Corporation Asia。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
+    "notes": "手册32×32字面，PCF实际保存34×34字符框、advance=34、PIXEL_SIZE=34；包含原边距，不是把32点放大到34点。基线ascent/descent=26/8；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。第二行取自原PCF的GB2312全角英数，不是半角ASCII，未借补西文字库。已与指定先前移除的HZK32比较6,763共同汉字，排除逐位或仅数点微差副本；该结论不等于穷尽其他来源或证明设计独立，也不恢复旧HZK32。",
+    "priority": 0,
+    "sourceIndex": 221
+  },
+  {
+    "id": "relmon_ms6459",
+    "name": "RELMON MS6459 OSD·12×18（原表重建）",
+    "family": "RELMON MS6459",
+    "width": 12,
+    "height": 18,
+    "cellWidth": 12,
+    "cellHeight": 18,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "设备点阵"
+    ],
+    "uses": [
+      "设备 OSD"
+    ],
+    "sampleKind": "osd",
+    "sampleLabel": "2013原字符表重建",
+    "specimen": "assets/specimens/relmon_ms6459.png",
+    "specimenWidth": 156,
+    "specimenHeight": 40,
+    "specimenSha256": "8a3e39ff2495c996124d8ee5fd807c03efb57d988240155659f763a4378c60c3",
+    "text": "菜单 输入信号 AV\n09:41 视 道 期 五",
+    "asciiText": "",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "missing": [],
+    "asciiOrigin": "source-grid-reconstruction",
+    "coverage": "仅本版规格书已核的17个12×18格点重建；所列混排样文完整，不代表通用字库或完整ROM覆盖。",
+    "provenance": "依据RELMON MS6459原厂规格书v1.4（2013-07-23，30页）第12–22页印刷字符表，在原PDF内嵌JPEG网格中逐格重建并人工核对17个字。PDF于2026-01-21再导出，不能据此改写文档版本。不是芯片ROM dump，未提取完整480字ROM或32字RAM。",
+    "nativeEvidence": {
+      "summary": "厂商标称12×18 OSD字符格；17字共3,672格从原PDF重新取样与已核JSON完全一致。仅证明这17字的印刷网格重建，不证明实机ROM逐位一致。",
+      "sourceUrl": "https://www.relmon.com/product/detail/8903/8908",
+      "native_ppem": 18,
+      "source_sha256": "581765ef5717a6aadc964781882c6f6bda574de53b34097eba46f5e848244bb4"
+    },
+    "sourceUrl": "https://www.relmon.com/product/detail/8903/8908",
+    "sourceLabel": "RELMON MS6459官方产品资料页",
+    "licenseStatus": "以来源及权利人许可为准",
+    "licenseNote": "厂商规格书与原字形权利归相关权利人；未发现完整ROM或重建字库的开放再分发授权。仅展示已核固定小样，不提供字模数组或完整字体。",
+    "notes": "样图只用已核的视、信、号、输、入、菜、道、期、五、0、1、4、9、A、V、:、单。单在0B9H；本版印刷表未见频/頻、單、星，不借补。五与偏左下的冒号保留原格，不人工修饰。空格仅作排版间隔；两行之间4px，不计作字符框。",
+    "priority": 0,
+    "sourceIndex": 222
   }
 ];
