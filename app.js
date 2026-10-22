@@ -7,8 +7,8 @@
   const variableGridLabel = row => `不定字框${knownSize(row.designEmGrid) ? ` · em ${row.designEmGrid} 格` : ''}`;
   const variableGridNote = '设计 em 仅表示设计坐标尺度，不等于固定字符框；实际边界和进位以各字形为准。';
   const variableGridWarning = '变宽设计无统一字符框；仅按原始像素整数倍显示，不将字形硬规整到同一网格。';
-  const dimensions = row => isVariableGrid(row) ? variableGridLabel(row) : knownSize(row.width) && knownSize(row.height) ? `${row.width}×${row.height}` : '未核定';
-  const heightValue = row => isVariableGrid(row) ? 'variable' : knownSize(row.height) ? String(row.height) : 'unknown';
+  const dimensions = row => row.heightBasis === 'han-design-grid' && knownSize(row.designHeight) ? `设计字高 ${row.designHeight}px` : isVariableGrid(row) ? variableGridLabel(row) : knownSize(row.width) && knownSize(row.height) ? `${row.width}×${row.height}` : '未核定';
+  const heightValue = row => row.heightBasis === 'han-design-grid' && knownSize(row.designHeight) ? String(row.designHeight) : isVariableGrid(row) ? 'variable' : knownSize(row.height) ? String(row.height) : 'unknown';
   const heightLabel = value => value === 'unknown' ? '未核定' : value === 'variable' ? '不定字框' : `${value} px`;
   const compareHeightValues = (a, b, descending = false) => {
     const rank = value => value === 'unknown' ? 2 : value === 'variable' ? 1 : 0;
@@ -33,12 +33,18 @@
     try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : null; } catch { return null; }
   }
   const missingGlyphLabel = value => value === ' ' ? '空格' : value;
+  function updateFavoriteEntryVisibility(button, count, activeElement, fallback) {
+    const hide = count === 0;
+    if (hide && activeElement === button && fallback) fallback.focus({ preventScroll: true });
+    button.hidden = hide; button.setAttribute('aria-hidden', String(hide));
+  }
   function missingNotice(row) {
     if (isReference(row)) return '';
     const han = asArray(row.hanMissing), ascii = asArray(row.asciiMissing);
     const parts = [];
     if (han.length) parts.push(`中文缺字：${han.map(missingGlyphLabel).join('、')}`);
     if (ascii.length) parts.push(`拉丁字符／符号缺字：${ascii.map(missingGlyphLabel).join('、')}`);
+    if (asArray(row.renderOmitted).length) parts.push(`未绘制（原字体有字形）：${row.renderOmitted.map(missingGlyphLabel).join('、')}`);
     if (!parts.length && asArray(row.missing).length) parts.push(`缺字：${asArray(row.missing).map(missingGlyphLabel).join('、')}`);
     const explanation = asArray(row.omittedEmptyLines).includes('ascii') ? '拉丁字符行全部缺失，样图省略该空白行；不借用其他字体补齐。' : '对应位置留空，不借用其他字体补齐。';
     return parts.length ? `${parts.join('；')}。${explanation}` : '';
@@ -106,7 +112,7 @@
     image.addEventListener('click', event => { if (event.detail !== 0 && moved) { event.preventDefault(); start = null; return; } start = null; image.focus({ preventScroll: true }); open(); });
     image.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); start = null; moved = false; open(); } });
   }
-  if (typeof module !== 'undefined' && module.exports) module.exports = { bindSpecimenDetails, filterCatalog, dimensions, isReference, isVariableGrid, variableGridLabel, variableGridNote, variableGridWarning, heightValue, heightLabel, compareHeightValues, cellDimensions, referenceLabel, referenceWarning, referenceCoverage, missingNotice, formatData, safeSourceUrl, FAVORITES_KEY, cleanIds, toggleId, addComparison, createFavoriteStore, visibleCatalog };
+  if (typeof module !== 'undefined' && module.exports) module.exports = { updateFavoriteEntryVisibility, bindSpecimenDetails, filterCatalog, dimensions, isReference, isVariableGrid, variableGridLabel, variableGridNote, variableGridWarning, heightValue, heightLabel, compareHeightValues, cellDimensions, referenceLabel, referenceWarning, referenceCoverage, missingNotice, formatData, safeSourceUrl, FAVORITES_KEY, cleanIds, toggleId, addComparison, createFavoriteStore, visibleCatalog };
   if (typeof document === 'undefined') return;
   const rows = Array.isArray(window.FONT_CATALOG) ? window.FONT_CATALOG : [];
   const $ = id => document.getElementById(id);
@@ -135,6 +141,7 @@
   for (const group of groups) {
     const fieldset = create('fieldset', 'filter-group');
     fieldset.append(create('legend', '', group.title));
+    if (group.key === 'height') fieldset.append(create('p', 'filter-basis-note', '按字框高度；格点轮廓字体按汉字设计字高。'));
     const options = create('div', group.key === 'height' ? 'filter-options sizes' : 'filter-options');
     let values = [...new Set(rows.flatMap(group.value))];
     if (group.key === 'height') { values.sort((a, b) => compareHeightValues(a, b)); values.unshift(''); }
@@ -161,6 +168,8 @@
     const permalink = create('a', '', '打开独立资料页'); permalink.href = `fonts/${encodeURIComponent(row.id)}.html`; addDetail(list, '资料页', permalink);
     addDetail(list, '家族', row.family);
     const cell = cellDimensions(row);
+    if (row.heightBasis === 'han-design-grid') { addDetail(list, '筛选依据', `汉字设计格高 ${row.designHeight}px，不是固定字符框或原字体行高`); addDetail(list, '排版说明', row.layoutNote); }
+    if (asArray(row.renderOmitted).length) addDetail(list, '有字形但未绘制', row.renderOmissionNote);
     addDetail(list, '字符框', cell ? `${cell}（字高筛选以此为准）` : null);
     if (isVariableGrid(row)) { addDetail(list, '字框类型', variableGridLabel(row)); addDetail(list, '设计说明', variableGridNote); }
     if (isReference(row)) { addDetail(list, '资料类型', row.referenceType || '参考资料'); addDetail(list, '核验边界', row.referenceNote || referenceWarning); }
@@ -171,6 +180,16 @@
     addDetail(list, '风格', row.styles); addDetail(list, '用途', row.uses);
     addDetail(list, '授权状态', row.licenseStatus || '尚未确认，请到来源项目核实。');
     addDetail(list, '许可说明', row.licenseNote); addDetail(list, '字形来源', row.provenance);
+    if (row.acquisitionGuide) {
+      const guide = create('div', 'acquisition-guide');
+      for (const [index, step] of asArray(row.acquisitionGuide.steps).entries()) guide.append(create('p', '', `${index + 1}. ${step}`));
+      guide.append(create('p', 'license-note', row.acquisitionGuide.notice || ''));
+      for (const item of asArray(row.acquisitionGuide.links)) {
+        const url = safeSourceUrl(item.url); if (!url) continue;
+        const paragraph = create('p', ''), link = create('a', '', item.label); link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; paragraph.append(link); guide.append(paragraph);
+      }
+      addDetail(list, row.acquisitionGuide.title || '官网授权与获取', guide);
+    }
     addDetail(list, '样张类型', isReference(row) ? '原始资料图，不作为原生像素样张' : row.sampleLabel || (row.sampleKind === 'historical' ? '历史样张：保留来源实际可用字形，不与其他来源拼接' : row.sampleKind === 'partial' ? '统一新样文（缺字位置留空）' : row.sampleKind === 'standard' ? '统一比较样文' : row.sampleKind === 'osd' ? '来源限定字符样张' : null));
     if (safeSourceUrl(row.sourceUrl)) {
       const link = create('a', '', row.sourceLabel || '来源项目'); link.href = safeSourceUrl(row.sourceUrl); link.target = '_blank'; link.rel = 'noopener noreferrer'; link.append(icon('external')); addDetail(list, '来源', link);
@@ -235,7 +254,7 @@
     const largeImage = specimenImage(row, 3); bindSpecimenDetails(largeImage, enlargedScroll, row.name, () => detail(row)); enlargedScroll.append(largeImage); enlarged.append(label, enlargedScroll);
     zoom.addEventListener('change', () => largeImage.setScale(Number(zoom.value)));
     const native = create('div', 'sample-native'); const nativeScroll = create('div', 'image-scroll'); nativeScroll.tabIndex = 0; nativeScroll.setAttribute('aria-label', `${row.name}原尺寸样张，超宽时可横向滚动`);
-    const nativeImage = specimenImage(row, 1); bindSpecimenDetails(nativeImage, nativeScroll, row.name, () => detail(row)); nativeScroll.append(nativeImage); native.append(create('div', 'sample-label', '原尺寸 · 1×'), nativeScroll);
+    const nativeImage = specimenImage(row, 1); bindSpecimenDetails(nativeImage, nativeScroll, row.name, () => detail(row)); nativeScroll.append(nativeImage); native.append(create('div', 'sample-label', row.gridReconstruction ? '设计格点 · 1×' : '原尺寸 · 1×'), nativeScroll);
     panel.append(enlarged, native); article.append(header, panel);
     if (isVariableGrid(row)) article.append(create('p', 'sample-note variable-grid-note', variableGridNote));
     if (row.sampleLabel) article.append(create('p', 'sample-note', row.sampleLabel));
@@ -267,7 +286,9 @@
     if (!rows.length) { $('empty').querySelector('p').textContent = '字样目录未能载入，请确认 data/catalog.js 文件完整。'; $('empty-reset').hidden = true; }
   }
   function announce(text) { $('action-notice').textContent = text; $('action-notice').hidden = !text; }
+  function headerFocusTarget() { return $('favorites-open').hidden ? $('about-open') : $('favorites-open'); }
   function refreshStateControls() {
+    updateFavoriteEntryVisibility($('favorites-open'), favoriteIds.length, document.activeElement, favoritesView ? $('favorites-back') : $('about-open'));
     $('favorites-count').textContent = favoriteIds.length;
     $('favorites-open').setAttribute('aria-pressed', String(favoritesView));
     $('favorites-clear').hidden = !favoritesView || !favoriteIds.length;
@@ -317,7 +338,7 @@
     for (const id of comparisonIds) {
       const row = rows.find(row => row.id === id);
       const button = create('button', 'compare-chip'); buttonContent(button, row.name, 'close', false, true); button.setAttribute('aria-label', `移出对比：${row.name}`);
-      button.addEventListener('click', () => { removeComparison(id); ($('compare-items').querySelector('button') || $('favorites-open')).focus({ preventScroll: true }); }); items.append(button);
+      button.addEventListener('click', () => { removeComparison(id); ($('compare-items').querySelector('button') || headerFocusTarget()).focus({ preventScroll: true }); }); items.append(button);
     }
     $('compare-items').replaceChildren(items);
     $('compare-count').textContent = `${comparisonIds.length} / 4`;
@@ -354,16 +375,16 @@
     $('compare-content').replaceChildren(content);
   }
   $('favorites-open').addEventListener('click', () => setFavoritesView(!favoritesView));
-  $('favorites-back').addEventListener('click', () => { setFavoritesView(false); $('favorites-open').focus(); });
+  $('favorites-back').addEventListener('click', () => { setFavoritesView(false); headerFocusTarget().focus(); });
   $('favorites-clear').addEventListener('click', () => { $('favorites-confirm').hidden = false; $('favorites-cancel-clear').focus(); });
   $('favorites-cancel-clear').addEventListener('click', () => { $('favorites-confirm').hidden = true; $('favorites-clear').focus(); });
   $('favorites-confirm-clear').addEventListener('click', () => { favoriteIds = favoritesStore.save([]); $('favorites-confirm').hidden = true; render(); $('favorites-back').focus(); });
-  $('compare-clear').addEventListener('click', () => { comparisonIds = []; announce(''); refreshStateControls(); renderTray(); $('favorites-open').focus({ preventScroll: true }); });
+  $('compare-clear').addEventListener('click', () => { comparisonIds = []; announce(''); refreshStateControls(); renderTray(); headerFocusTarget().focus({ preventScroll: true }); });
   $('compare-open').addEventListener('click', () => { if (comparisonIds.length < 2) return; $('compare-zoom').value = '3'; renderComparison(); showDialog($('compare-dialog')); });
   $('compare-zoom').addEventListener('change', () => { document.querySelectorAll('#compare-content .specimen-image:not(.reference-image)').forEach(image => image.setScale(Number($('compare-zoom').value))); });
   function syncInputs() { document.querySelectorAll('#filter-groups input').forEach(input => { input.checked = input.dataset.group === 'height' && input.value === '' ? selections.height.length === 0 : selections[input.dataset.group].includes(input.value); }); }
   function reset() { Object.keys(selections).forEach(key => { selections[key] = []; }); $('family').value = ''; syncInputs(); render(); }
-  $('reset-filters').addEventListener('click', reset); $('empty-reset').addEventListener('click', () => favoritesView ? setFavoritesView(false) : reset());
+  $('reset-filters').addEventListener('click', reset); $('empty-reset').addEventListener('click', () => { if (favoritesView) { setFavoritesView(false); headerFocusTarget().focus(); } else reset(); });
   $('family').addEventListener('change', render); $('sort').addEventListener('change', render);
   function closeDrawer() { $('filters').classList.remove('is-open'); $('drawer-backdrop').hidden = true; $('filters-open').setAttribute('aria-expanded', 'false'); document.body.style.overflow = ''; $('main').inert = false; $('compare-tray').inert = false; document.querySelector('.site-header').inert = false; $('filters-open').focus(); }
   $('filters-open').addEventListener('click', () => { $('filters').classList.add('is-open'); $('drawer-backdrop').hidden = false; $('filters-open').setAttribute('aria-expanded', 'true'); document.body.style.overflow = 'hidden'; $('main').inert = true; $('compare-tray').inert = true; document.querySelector('.site-header').inert = true; $('filters-close').focus(); });
@@ -372,6 +393,6 @@
   window.matchMedia('(max-width:700px)').addEventListener('change', event => { if (!event.matches && $('filters').classList.contains('is-open')) closeDrawer(); });
   $('about-open').addEventListener('click', () => showDialog($('about-dialog')));
   document.querySelectorAll('[data-close]').forEach(button => button.addEventListener('click', () => $(button.dataset.close).close()));
-  document.querySelectorAll('dialog').forEach(dialog => { dialog.addEventListener('close', () => { const target = returnFocus?.isConnected && !returnFocus.disabled && !returnFocus.closest('[hidden]') ? returnFocus : $('favorites-open'); target.focus({ preventScroll: true }); }); dialog.addEventListener('click', event => { if (event.target === dialog) { const bounds = dialog.getBoundingClientRect(); if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close(); } }); });
+  document.querySelectorAll('dialog').forEach(dialog => { dialog.addEventListener('close', () => { const target = returnFocus?.isConnected && !returnFocus.disabled && !returnFocus.closest('[hidden]') ? returnFocus : headerFocusTarget(); target.focus({ preventScroll: true }); }); dialog.addEventListener('click', event => { if (event.target === dialog) { const bounds = dialog.getBoundingClientRect(); if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close(); } }); });
   render(); renderTray();
 })();

@@ -24,3 +24,15 @@ assert.deepEqual(visibleCatalog(rows,{},'','recommended',true,[]),[]);
 assert.deepEqual(visibleCatalog(rows,{},'','height-desc',true,['a','b']).map(x=>x.id),['b','a']);
 assert.deepEqual(selected,['a','c','d','e'],'View/sort/filter calls do not mutate comparison state');
 console.log('State tests passed: deduplication/stale IDs, persistence/reload/clear, malformed/security/quota fallback, duplicates/max4/removal, independent favorites view and stable selection.');
+
+const {updateFavoriteEntryVisibility}=require('../app.js');
+const headerButton={hidden:false,attrs:{},setAttribute(k,v){this.attrs[k]=v}};let focusMoves=0;const fallback={focus(){focusMoves++}};
+updateFavoriteEntryVisibility(headerButton,0,null,fallback);assert.equal(headerButton.hidden,true);
+updateFavoriteEntryVisibility(headerButton,1,null,fallback);assert.equal(headerButton.hidden,false);assert.equal(headerButton.attrs['aria-hidden'],'false');
+updateFavoriteEntryVisibility(headerButton,0,headerButton,fallback);assert.equal(headerButton.hidden,true);assert.equal(focusMoves,1);
+const actualValid=new Set(require('../data/catalog.json').map(r=>r.id));
+let actualStorage={value:JSON.stringify(['monotype_bitmap_hk','hanyi-pixel-power','hanyi-pixel-invasion','fzbase','fzfeng','gb48_2025_reference']),getItem(){return this.value},setItem(k,v){this.value=v}};
+let actualStore=createFavoriteStore(()=>actualStorage,actualValid);assert.equal(actualStore.ids.length,0);updateFavoriteEntryVisibility(headerButton,actualStore.ids.length,null,fallback);assert(headerButton.hidden);
+actualStore.save(['hanyi-pixel13']);actualStore=createFavoriteStore(()=>actualStorage,actualValid);updateFavoriteEntryVisibility(headerButton,actualStore.ids.length,null,fallback);assert(!headerButton.hidden);actualStore.save([]);updateFavoriteEntryVisibility(headerButton,actualStore.ids.length,null,fallback);assert(headerButton.hidden);
+const sourceHtml=require('node:fs').readFileSync(require('node:path').join(__dirname,'../index.html'),'utf8');assert(/id="favorites-open"[^>]*hidden/.test(sourceHtml));
+console.log('Empty-favorites header checks: initial hidden/no flash,0→1→0,reload,removedIDs,visible focus fallback; empty-view return remains available.');

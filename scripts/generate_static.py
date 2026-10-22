@@ -14,7 +14,7 @@ def is_reference(r):return r.get('sampleKind')=='reference'
 def is_variable_grid(r):return not is_reference(r) and r.get('variableGrid') is True
 def known_size(value):return isinstance(value,(int,float)) and not isinstance(value,bool) and value>0
 def variable_grid_label(r):return '不定字框'+(f" · em {r['designEmGrid']} 格" if known_size(r.get('designEmGrid')) else '')
-def dimensions(r):return variable_grid_label(r) if is_variable_grid(r) else f"{r['width']}×{r['height']}" if known_size(r.get('width')) and known_size(r.get('height')) else '未核定'
+def dimensions(r):return f"设计字高 {r['designHeight']}px" if r.get('heightBasis')=='han-design-grid' else variable_grid_label(r) if is_variable_grid(r) else f"{r['width']}×{r['height']}" if known_size(r.get('width')) and known_size(r.get('height')) else '未核定'
 def cell_dimensions(r):
  if is_variable_grid(r):return None
  width=r.get('cellWidth') if r.get('cellWidth') is not None else r.get('width')
@@ -32,6 +32,7 @@ def missing(r):
  parts=[]
  for key,label in [('hanMissing','中文缺字'),('asciiMissing','拉丁字符／符号缺字')]:
   if r.get(key):parts.append(label+'：'+'、'.join('空格' if c==' ' else c for c in r[key]))
+ if r.get('renderOmitted'):parts.append('未绘制（原字体有字形）：'+'、'.join(r['renderOmitted']))
  if not parts:return ''
  tail='拉丁字符行全部缺失，样图省略该空白行；不借用其他字体补齐。' if 'ascii' in r.get('omittedEmptyLines',[]) else '对应位置留空，不借用其他字体补齐。'
  return '；'.join(parts)+'。'+tail
@@ -46,7 +47,7 @@ def article(r):
  if is_reference(r):
   size='字高未核定' if not known_size(r.get('height')) else '参考资料'
   return f'''<article class="specimen reference-specimen" data-row-id="{E(r['id'])}"><div class="specimen-header"><h2>{E(r['name'])}</h2><span class="specimen-meta">{size} · {E(fmt(r['scripts']))}</span><div class="row-actions"><a class="detail-button" href="fonts/{E(r['id'])}.html">详情{external}</a></div></div><div class="sample-panel reference-panel"><div class="sample-label">{E(reference_label(r))}</div><div class="image-scroll reference-scroll" tabindex="0" aria-label="{E(r['name'])}原始资料图，按可用宽度显示">{picture(r,linked=True)}</div></div><p class="sample-note reference-note">{E(r.get('referenceNote') or REFERENCE_WARNING)}</p></article>'''
- return f'''<article class="specimen{" variable-grid-specimen" if is_variable_grid(r) else ""}" data-row-id="{E(r['id'])}"><div class="specimen-header"><h2>{E(r['name'])}</h2><span class="specimen-meta">{E(dimensions(r))} · {E(fmt(r['scripts']))}</span><div class="row-actions"><a class="detail-button" href="fonts/{E(r['id'])}.html">详情{external}</a></div></div><div class="sample-panel"><div class="sample-enlarged"><div class="sample-label">放大观察 · 3×</div><div class="image-scroll" tabindex="0">{picture(r,3,linked=True)}</div></div><div class="sample-native"><div class="sample-label">原尺寸 · 1×</div><div class="image-scroll" tabindex="0">{picture(r,linked=True)}</div></div></div>{'<p class="sample-note variable-grid-note">'+VARIABLE_GRID_NOTE+'</p>' if is_variable_grid(r) else ''}{'<p class="sample-note">'+E(r['sampleLabel'])+'</p>' if r.get('sampleLabel') else ''}{'<p class="missing-hint">'+E(missing(r))+'</p>' if missing(r) else ''}</article>'''
+ return f'''<article class="specimen{" variable-grid-specimen" if is_variable_grid(r) else ""}" data-row-id="{E(r['id'])}"><div class="specimen-header"><h2>{E(r['name'])}</h2><span class="specimen-meta">{E(dimensions(r))} · {E(fmt(r['scripts']))}</span><div class="row-actions"><a class="detail-button" href="fonts/{E(r['id'])}.html">详情{external}</a></div></div><div class="sample-panel"><div class="sample-enlarged"><div class="sample-label">放大观察 · 3×</div><div class="image-scroll" tabindex="0">{picture(r,3,linked=True)}</div></div><div class="sample-native"><div class="sample-label">{'设计格点 · 1×' if r.get('gridReconstruction') else '原尺寸 · 1×'}</div><div class="image-scroll" tabindex="0">{picture(r,linked=True)}</div></div></div>{'<p class="sample-note variable-grid-note">'+VARIABLE_GRID_NOTE+'</p>' if is_variable_grid(r) else ''}{'<p class="sample-note">'+E(r['sampleLabel'])+'</p>' if r.get('sampleLabel') else ''}{'<p class="missing-hint">'+E(missing(r))+'</p>' if missing(r) else ''}</article>'''
 def meta(title,desc,url,kind='website'):
  return f'''<title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
@@ -56,7 +57,7 @@ def meta(title,desc,url,kind='website'):
 def dlrow(label,value,raw=False):return '' if value is None or value=='' else f'<dt>{E(label)}</dt><dd>{value if raw else E(fmt(value))}</dd>'
 def details(r):
  reference=is_reference(r)
- fields=[('家族',r['family']),('字符框',cell_dimensions(r)),('字框类型',variable_grid_label(r) if is_variable_grid(r) else None),('设计说明',VARIABLE_GRID_NOTE if is_variable_grid(r) else None),('资料类型',r.get('referenceType') or '参考资料' if reference else None),('核验边界',r.get('referenceNote') or REFERENCE_WARNING if reference else None),('字面／墨迹',f"{r['inkWidth']}×{r['inkHeight']} px" if r.get('inkWidth') and r.get('inkHeight') else None),('字符范围',r['scripts']),('样本文字',r.get('text')),('全角英数样文（非ASCII）' if r.get('asciiOrigin')=='fullwidth-native' else '拉丁样文',None if r.get('asciiOrigin')=='absent' else r.get('asciiText')),('覆盖说明',r.get('coverage')),('缺字',REFERENCE_COVERAGE if reference else missing(r) or '本次样本文字未发现缺字；不代表完整字库覆盖'),('样张类型',r.get('sampleLabel')),('风格',r.get('styles')),('用途',r.get('uses')),('字形来源',r.get('provenance')),('授权状态',r.get('licenseStatus')),('许可说明',r.get('licenseNote')),('说明',r.get('notes'))]
+ fields=[('家族',r['family']),('筛选依据',f"汉字设计格高 {r['designHeight']}px，不是固定字符框或原字体行高" if r.get('heightBasis')=='han-design-grid' else None),('排版说明',r.get('layoutNote')),('有字形但未绘制',r.get('renderOmissionNote')),('字符框',cell_dimensions(r)),('字框类型',variable_grid_label(r) if is_variable_grid(r) else None),('设计说明',VARIABLE_GRID_NOTE if is_variable_grid(r) else None),('资料类型',r.get('referenceType') or '参考资料' if reference else None),('核验边界',r.get('referenceNote') or REFERENCE_WARNING if reference else None),('字面／墨迹',f"{r['inkWidth']}×{r['inkHeight']} px" if r.get('inkWidth') and r.get('inkHeight') else None),('字符范围',r['scripts']),('样本文字',r.get('text')),('全角英数样文（非ASCII）' if r.get('asciiOrigin')=='fullwidth-native' else '拉丁样文',None if r.get('asciiOrigin')=='absent' else r.get('asciiText')),('覆盖说明',r.get('coverage')),('缺字与未绘制' if r.get('renderOmitted') else '缺字',REFERENCE_COVERAGE if reference else missing(r) or '本次样本文字未发现缺字；不代表完整字库覆盖'),('样张类型',r.get('sampleLabel')),('风格',r.get('styles')),('用途',r.get('uses')),('字形来源',r.get('provenance')),('授权状态',r.get('licenseStatus')),('许可说明',r.get('licenseNote')),('说明',r.get('notes'))]
  out='<dl class="detail-list">'+''.join(dlrow(k,v) for k,v in fields)+dlrow('来源',link(r['sourceUrl'],r.get('sourceLabel') or '来源项目'),True)
  ev=r.get('nativeEvidence')
  if ev:
@@ -65,6 +66,9 @@ def details(r):
   if isinstance(ev,dict) and safe(ev.get('sourceUrl')):content+=link(ev['sourceUrl'],'查看原生设计来源')
   out+=dlrow('原生证据',content,True)
  out+='</dl>'
+ guide=r.get('acquisitionGuide')
+ if guide:
+  out+='<section class="source-section"><h2>'+E(guide.get('title','官网授权与获取'))+'</h2><ol>'+''.join('<li>'+E(step)+'</li>' for step in guide.get('steps',[]))+'</ol><p>'+E(guide.get('notice',''))+'</p>'+''.join('<p>'+link(item.get('url'),item.get('label','官网说明'))+'</p>' for item in guide.get('links',[]))+'</section>'
  if r.get('relatedSources'):
   out+='<section class="source-section"><h2>相关来源与合并说明</h2>'
   for s in r['relatedSources']:
@@ -72,6 +76,7 @@ def details(r):
   out+='</section>'
  return out
 def page_description(r):
+ if r.get('heightBasis')=='han-design-grid':return f"{r['name']}：汉字设计格高 {r['designHeight']}px，原设计格点还原，不是内嵌位图或固定字符框；含原字体来源、排版与授权说明。"
  if is_reference(r):
   return f"{r['name']}资料：{r.get('referenceType') or '参考资料'}，展示原始资料图、来源与许可线索。{REFERENCE_WARNING}；{REFERENCE_COVERAGE}。"
  if is_variable_grid(r):
@@ -80,7 +85,7 @@ def page_description(r):
 def preview(r):
  if is_reference(r):
   return f'''<section class="document-preview reference-preview" aria-label="原始资料图"><p class="sample-label">{E(reference_label(r))}</p><div class="image-scroll reference-scroll" tabindex="0">{picture(r,1,'../')}</div><p class="reference-warning">{REFERENCE_WARNING}。</p></section>'''
- return f'''<section class="document-preview" aria-label="实际点阵字样"><p class="sample-label">放大观察 · 3×</p><div class="image-scroll" tabindex="0">{picture(r,3,'../')}</div><p class="sample-label native-label">原尺寸 · 1×</p><div class="image-scroll" tabindex="0">{picture(r,1,'../')}</div>{'<p class="sample-note variable-grid-note">'+VARIABLE_GRID_WARNING+'</p>' if is_variable_grid(r) else ''}{'<p class="missing-hint">'+E(missing(r))+'</p>' if missing(r) else ''}</section>'''
+ return f'''<section class="document-preview" aria-label="实际点阵字样"><p class="sample-label">放大观察 · 3×</p><div class="image-scroll" tabindex="0">{picture(r,3,'../')}</div><p class="sample-label native-label">{'设计格点 · 1×' if r.get('gridReconstruction') else '原尺寸 · 1×'}</p><div class="image-scroll" tabindex="0">{picture(r,1,'../')}</div>{'<p class="sample-note variable-grid-note">'+VARIABLE_GRID_WARNING+'</p>' if is_variable_grid(r) else ''}{'<p class="missing-hint">'+E(missing(r))+'</p>' if missing(r) else ''}</section>'''
 def font_page(r):
  title=r['name']+'｜中文点阵字样'
  url=BASE+'fonts/'+quote(r['id'])+'.html'

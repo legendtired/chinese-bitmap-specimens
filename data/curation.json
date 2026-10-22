@@ -21,12 +21,32 @@
     "ccic_taipeil24",
     "taipeib24",
     "taipeir24",
-    "hzk_hzk32"
+    "hzk_hzk32",
+    "monotype_bitmap_hk",
+    "hanyi-pixel-power",
+    "hanyi-pixel-invasion",
+    "fzbase",
+    "gb48_2025_reference",
+    "fzfeng"
   ],
   "merged": {
     "simsun_native_12": "founder_pixel12",
     "simsun_native_14": "founder_pixel14",
     "ccic_chkan_24": "isas_song_24"
   },
-  "note": "Removal is a curated inclusion decision, not proof that every removed font originated from outline rasterization."
+  "note": "Removal is a curated inclusion decision, not proof that every removed font originated from outline rasterization.",
+  "postV17RemovedIds": [
+    "monotype_bitmap_hk",
+    "hanyi-pixel-power",
+    "hanyi-pixel-invasion",
+    "fzbase",
+    "gb48_2025_reference",
+    "fzfeng"
+  ],
+  "postV17ModifiedIds": [
+    "hanyi-pixel9",
+    "hanyi-pixel11",
+    "hanyi-pixel13",
+    "hanyi-pixel-xingkai15"
+  ]
 }

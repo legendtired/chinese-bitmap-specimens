@@ -31,3 +31,9 @@ assert.equal(safeSourceUrl('/relative'),null);
 assert.equal(safeSourceUrl('https://littlelimit.net/k6x8.htm'),'https://littlelimit.net/k6x8.htm');
 assert.equal(missingNotice({asciiMissing:['A'],missing:['A'],omittedEmptyLines:['ascii']}), '拉丁字符／符号缺字：A。拉丁字符行全部缺失，样图省略该空白行；不借用其他字体补齐。');
 console.log('Filter tests passed: single height across different widths, OR within other groups, AND across groups, family, empty, sort and no mutation.');
+
+const actualRows=require('../data/catalog.json');
+for(const [id,height] of [['hanyi-pixel9',9],['hanyi-pixel11',11],['hanyi-pixel13',13],['hanyi-pixel-xingkai15',15]]) {
+ const row=actualRows.find(r=>r.id===id);assert(require('../app.js').filterCatalog(actualRows,{height:[String(height)]}).some(r=>r.id===id));assert.equal(require('../app.js').dimensions(row),`设计字高 ${height}px`);
+}
+assert(require('../app.js').missingNotice(actualRows.find(r=>r.id==='hanyi-pixel11')).includes('未绘制（原字体有字形）'));

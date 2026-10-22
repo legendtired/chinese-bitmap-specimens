@@ -40,5 +40,59 @@
     "status": "excluded",
     "sourceUrl": "https://ftp.gnu.org/gnu/intlfonts/",
     "reason": "Japanese.BIG/jiskan48.bdf first comments: automatically resized by bdfresize-1.4; mag_x=2/1, mag_y=2/1; original 24x24 JIS X 9052-1983. Not a native48 design."
+  },
+  {
+    "id": "monotype_bitmap_hk",
+    "name": "蒙纳点阵 · 方点／圆点",
+    "status": "excluded",
+    "reason": "依收录者要求移除：疑似像素风设计，不符合本项目希望保留的点阵字样范围。这是收录判断，不代表已证实其客观制作过程或许可状态。",
+    "evidenceType": "curation_decision_uncertain_design_origin",
+    "sourceUrl": "https://www.myfonts.com/collections/m-bitmap-square-hk-font-monotype-hk/",
+    "idReserved": true
+  },
+  {
+    "id": "hanyi-pixel-power",
+    "name": "汉仪像素力量",
+    "status": "excluded",
+    "reason": "依收录者要求移除：认为属于像素风设计，不符合本项目收录目标；尚无原字体格点实测，不把判断写成制作史定论。",
+    "evidenceType": "curation_decision_uncertain_design_origin",
+    "sourceUrl": "https://www.hanyi.com.cn/font-list",
+    "idReserved": true
+  },
+  {
+    "id": "hanyi-pixel-invasion",
+    "name": "汉仪像素入侵",
+    "status": "excluded",
+    "reason": "已核查提供的TTF：9765个汉字码位中7915个含斜线、4个含曲线，属于混合像素装饰，不能按纯正交设计格点还原。依收录者要求排除此类字样；不以TTF封装本身作为排除依据。",
+    "evidenceType": "supplied_font_outline_audit",
+    "sourceUrl": "https://www.hanyi.com.cn/font-list",
+    "idReserved": true
+  },
+  {
+    "id": "fzbase",
+    "name": "方正基础像素",
+    "status": "excluded",
+    "reason": "收录者已明确指认为方正基础像素，并要求按像素风设计移除。官方存在像素构字说明，但未取得统一格点实测；本记录是收录决定，不将未证实的制作史写成结论。",
+    "evidenceType": "explicit_curation_decision",
+    "sourceUrl": "https://www.foundertype.com/index.php/FontInfo/index/id/212",
+    "idReserved": true
+  },
+  {
+    "id": "gb48_2025_reference",
+    "name": "48点阵汉字标准 · 永字图样",
+    "status": "excluded",
+    "reason": "收录者明确要求不再收录本项标准图样，未说明技术原因。本决定不表示该标准图样是伪像素或否定标准本身。",
+    "evidenceType": "explicit_curation_decision",
+    "sourceUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=421B9135604C56A2EA1C4396A941CFB4",
+    "idReserved": true
+  },
+  {
+    "id": "fzfeng",
+    "name": "方正点阵冯",
+    "status": "excluded",
+    "reason": "提供的方正点阵冯简体v1.00文件中，6763汉字为正交轮廓，但常见笔宽存在78–82及104–109字体单位等差异，不满足本库可无改形还原的实用等距格点标准。依收录者要求排除类似设计；未据此断言自动取模或版权问题。",
+    "evidenceType": "supplied_font_outline_audit",
+    "sourceUrl": "https://www.foundertype.com/index.php/FontInfo/index/id/414",
+    "idReserved": true
   }
 ]

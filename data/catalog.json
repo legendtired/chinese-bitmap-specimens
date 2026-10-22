@@ -8589,48 +8589,6 @@
     "specimenSha256": "47ffda1a9a281631ded7926a20277089cdd532dedc00157acd00660582eadb8d"
   },
   {
-    "id": "hanyi-pixel-power",
-    "name": "汉仪像素力量",
-    "family": "汉仪像素力量",
-    "width": null,
-    "height": null,
-    "cellWidth": null,
-    "cellHeight": null,
-    "scripts": [
-      "简体"
-    ],
-    "styles": [
-      "参考资料"
-    ],
-    "uses": [
-      "研究参考"
-    ],
-    "text": "视野无限广，窗外有蓝天。",
-    "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "asciiOrigin": "reference-unverified",
-    "sourceUrl": "https://www.hanyi.com.cn/font-list",
-    "sourceLabel": "查看原始资料",
-    "sampleKind": "reference",
-    "referenceType": "官方试字截图",
-    "referenceNote": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。",
-    "coverage": "资料图，不作逐字字库覆盖验证。",
-    "licenseNote": "字体与官网字样归汉仪及相应权利人；商业字体，非开源。此图来自官方公开在线试字。 仅固定字样与来源，不提供字体或授予使用许可。",
-    "provenance": "官方像素系列在线试字，原生设计格数与制作过程尚未核实。",
-    "notes": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。",
-    "inkWidth": null,
-    "inkHeight": null,
-    "licenseStatus": "以来源及权利人许可为准",
-    "missing": [],
-    "hanMissing": [],
-    "asciiMissing": [],
-    "priority": 0,
-    "sourceIndex": 197,
-    "specimen": "assets/specimens/hanyi-pixel-power.png",
-    "specimenWidth": 1066,
-    "specimenHeight": 60,
-    "specimenSha256": "b31c0b770a6e6f3c317df3010f4c3ce6c9a262386a72d1dea7822223caf659bd"
-  },
-  {
     "id": "hanyi-pixel9",
     "name": "汉仪像素9px",
     "family": "汉仪像素9px",
@@ -8639,84 +8597,92 @@
     "cellWidth": null,
     "cellHeight": null,
     "scripts": [
-      "简体"
+      "简体",
+      "繁体"
     ],
     "styles": [
-      "参考资料"
+      "格点设计"
     ],
     "uses": [
-      "研究参考"
+      "现代像素设计"
     ],
     "text": "视野无限广，窗外有蓝天。",
     "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "asciiOrigin": "reference-unverified",
+    "asciiOrigin": "same-source-design-grid",
     "sourceUrl": "https://www.hanyi.com.cn/font-list",
     "sourceLabel": "查看原始资料",
-    "sampleKind": "reference",
-    "referenceType": "官方试字截图",
-    "referenceNote": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为9×9，不当作已读取的字体字框。",
-    "coverage": "资料图，不作逐字字库覆盖验证。",
-    "licenseNote": "字体与官网字样归汉仪及相应权利人；商业字体，非开源。此图来自官方公开在线试字。 仅固定字样与来源，不提供字体或授予使用许可。",
-    "provenance": "汉仪官方设计文章明确标称此设计格数，说明避让、合并、精简及灰度调整。设计尺寸不等于已实测字框或advance。",
-    "notes": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为9×9，不当作已读取的字体字框。",
+    "sampleKind": "standard",
+    "coverage": "本次简繁样句及ASCII在原字体中均有码位；本次预览无缺字或未绘制字符。",
+    "licenseNote": "版权归汉仪。个人非商用授权不等于免费商用；使用、公开展示、嵌入及再分发须核对实际授权范围。本站只展示固定字样，不提供原字体文件。",
+    "provenance": "使用个人非商用版本TTF核验设计格点。9765个汉字码位均为正交直线、无曲线且符合单一方格相位；文件没有EBDT等内嵌位图层。此处是原设计格点还原，不是任意字号轮廓抗锯齿取模。少量非汉字符号可能不满足同样条件，不把汉字结论外推全库。",
+    "notes": "按汉字设计格高筛选，不标固定方形字符框；整字位置与advance按最近格归整，字符内部形状不改。",
     "nominalDesignGrid": [
       9,
       9
     ],
     "inkWidth": null,
     "inkHeight": null,
-    "licenseStatus": "以来源及权利人许可为准",
+    "licenseStatus": "按汉仪官网个人非商用／商业授权范围使用",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
     "priority": 0,
     "sourceIndex": 198,
     "specimen": "assets/specimens/hanyi-pixel9.png",
-    "specimenWidth": 1066,
-    "specimenHeight": 60,
-    "specimenSha256": "56e7c7160f1e2cf7c66cd3fe9aa5d43fdbbf271d7c7c1d306ba0b854f2a27176"
-  },
-  {
-    "id": "hanyi-pixel-invasion",
-    "name": "汉仪像素入侵",
-    "family": "汉仪像素入侵",
-    "width": null,
-    "height": null,
-    "cellWidth": null,
-    "cellHeight": null,
-    "scripts": [
-      "简体"
-    ],
-    "styles": [
-      "参考资料"
-    ],
-    "uses": [
-      "研究参考"
-    ],
-    "text": "视野无限广，窗外有蓝天。",
-    "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "asciiOrigin": "reference-unverified",
-    "sourceUrl": "https://www.hanyi.com.cn/font-list",
-    "sourceLabel": "查看原始资料",
-    "sampleKind": "reference",
-    "referenceType": "官方试字截图",
-    "referenceNote": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方说明是在综艺类型黑体上局部像素化，作为设计参考收录，不称全字框原生点阵。",
-    "coverage": "资料图，不作逐字字库覆盖验证。",
-    "licenseNote": "字体与官网字样归汉仪及相应权利人；商业字体，非开源。此图来自官方公开在线试字。 仅固定字样与来源，不提供字体或授予使用许可。",
-    "provenance": "汉仪官方说明：以综艺类型黑体为基础，仅将部分笔画像素化，主要是斜向、弧线及部分笔画末端。像素设计字样，不能标为已证实原生全字框点阵。",
-    "notes": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方说明是在综艺类型黑体上局部像素化，作为设计参考收录，不称全字框原生点阵。",
-    "inkWidth": null,
-    "inkHeight": null,
-    "licenseStatus": "以来源及权利人许可为准",
-    "missing": [],
-    "hanMissing": [],
-    "asciiMissing": [],
-    "priority": 0,
-    "sourceIndex": 199,
-    "specimen": "assets/specimens/hanyi-pixel-invasion.png",
-    "specimenWidth": 1066,
-    "specimenHeight": 60,
-    "specimenSha256": "047b4fb29d77cc9fbdb5a43c943aa4cae2248f28ba91df087ec8793c08da4483"
+    "specimenWidth": 145,
+    "specimenHeight": 23,
+    "specimenSha256": "5e5bef33d05d167d345c8217b32197949f0afe6e6839e958744087a4e97fbbb5",
+    "acquisitionGuide": {
+      "title": "官网授权与获取",
+      "steps": [
+        "在汉仪官网字体列表搜索“汉仪像素9px”，进入对应字体介绍页，查看当前可获取版本及授权范围。",
+        "按官网提示注册或登录账号，阅读适用协议；注册可能需要手机号验证码，当前页面也展示公众号“下载激活”步骤，具体以官网当时流程为准。",
+        "完成官网要求的授权及激活流程后，从该字体页面获取个人非商用版本。商用或其他用途请先办理对应授权。"
+      ],
+      "notice": "个人非商用授权不等于免费商用，也不自动涵盖网站公开展示、嵌入或再分发；请根据实际用途核对协议并向汉仪确认。本站不提供原字体文件或直接下载链接。",
+      "links": [
+        {
+          "label": "官网字体页面",
+          "url": "https://www.hanyi.com.cn/font-list"
+        },
+        {
+          "label": "个人非商用许可协议",
+          "url": "https://www.hanyi.com.cn/faq-doc-2"
+        },
+        {
+          "label": "商业授权说明",
+          "url": "https://hanyi.com.cn/license"
+        }
+      ],
+      "checkedOn": "2026-10-22"
+    },
+    "gridReconstruction": true,
+    "heightBasis": "han-design-grid",
+    "designHeight": 9,
+    "renderOmitted": [],
+    "sampleLabel": "原设计格点还原，非内嵌位图",
+    "layoutNote": "每行采用原设计格点；整字位置和advance取最近格，以适配字体度量中的亚像素偏移。不是原字体在任意字号下的排版截图。汉字advance为1000字体单位，每格91单位，预览归整为11格；汉字设计墨迹9格不等于字符框、行高或西文最大尺寸。",
+    "renderOmissionNote": "",
+    "nativeEvidence": {
+      "summary": "正交轮廓原设计格点还原；不是TTF内嵌bitmap。",
+      "method": "每字检验正交、无曲线、单一格点相位后，逐格用非零绕数填充；未使用FreeType抗锯齿或轮廓阈值取模。轮廓长度保持不变。",
+      "bitmap_tables": [],
+      "grid_step": 91,
+      "unitsPerEm": 1000,
+      "汉字核验码位数": 9765,
+      "汉字最大设计墨迹": [
+        9,
+        9
+      ],
+      "原汉字advance": 1000,
+      "预览汉字进位格数": 11,
+      "实际中文行高": 9,
+      "实际ASCII行高": 9,
+      "实际中文基线": 8,
+      "实际ASCII基线": 7,
+      "sourceUrl": "https://www.hanyi.com.cn/font-list",
+      "sha256": "ac0e68fb195bc6ff7268cb027bca750739c43db5876e7f22411f21a1e28316b0"
+    }
   },
   {
     "id": "hanyi-pixel11",
@@ -8727,42 +8693,94 @@
     "cellWidth": null,
     "cellHeight": null,
     "scripts": [
-      "简体"
+      "简体",
+      "繁体"
     ],
     "styles": [
-      "参考资料"
+      "格点设计"
     ],
     "uses": [
-      "研究参考"
+      "现代像素设计"
     ],
     "text": "视野无限广，窗外有蓝天。",
     "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "asciiOrigin": "reference-unverified",
+    "asciiOrigin": "same-source-design-grid",
     "sourceUrl": "https://www.hanyi.com.cn/productdetail?id=79453",
     "sourceLabel": "查看原始资料",
-    "sampleKind": "reference",
-    "referenceType": "官方试字截图",
-    "referenceNote": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为11×11，不当作已读取的字体字框。",
-    "coverage": "资料图，不作逐字字库覆盖验证。",
-    "licenseNote": "字体与官网字样归汉仪及相应权利人；商业字体，非开源。此图来自官方公开在线试字。 仅固定字样与来源，不提供字体或授予使用许可。",
-    "provenance": "汉仪官方设计文章明确标称此设计格数，说明避让、合并、精简及灰度调整。设计尺寸不等于已实测字框或advance。",
-    "notes": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为11×11，不当作已读取的字体字框。",
+    "sampleKind": "standard",
+    "coverage": "本次简繁样句及ASCII在原字体中均有码位；预览中冒号因非整格排布未绘制，不是原库缺字。",
+    "licenseNote": "版权归汉仪。个人非商用授权不等于免费商用；使用、公开展示、嵌入及再分发须核对实际授权范围。本站只展示固定字样，不提供原字体文件。",
+    "provenance": "使用个人非商用版本TTF核验设计格点。9765个汉字码位均为正交直线、无曲线且符合单一方格相位；文件没有EBDT等内嵌位图层。此处是原设计格点还原，不是任意字号轮廓抗锯齿取模。少量非汉字符号可能不满足同样条件，不把汉字结论外推全库。",
+    "notes": "按汉字设计格高筛选，不标固定方形字符框；整字位置与advance按最近格归整，字符内部形状不改。原TTF包含冒号，但两点间距166字体单位不是77单位格距的整数倍，不满足本预览精确格点条件，因此保留其排版空位而不绘制；不是原字体缺字。",
     "nominalDesignGrid": [
       11,
       11
     ],
     "inkWidth": null,
     "inkHeight": null,
-    "licenseStatus": "以来源及权利人许可为准",
+    "licenseStatus": "按汉仪官网个人非商用／商业授权范围使用",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
     "priority": 0,
     "sourceIndex": 200,
     "specimen": "assets/specimens/hanyi-pixel11.png",
-    "specimenWidth": 1066,
-    "specimenHeight": 60,
-    "specimenSha256": "c938ed14e465f37497295d038d412744bc9705639ae0ae4cfdbd982d8249242a"
+    "specimenWidth": 189,
+    "specimenHeight": 29,
+    "specimenSha256": "daf8733765db23fa4ce72d091c7d61d36d67f3139e990b64445e508723760bec",
+    "acquisitionGuide": {
+      "title": "官网授权与获取",
+      "steps": [
+        "在汉仪官网字体列表搜索“汉仪像素11px”，进入对应字体介绍页，查看当前可获取版本及授权范围。",
+        "按官网提示注册或登录账号，阅读适用协议；注册可能需要手机号验证码，当前页面也展示公众号“下载激活”步骤，具体以官网当时流程为准。",
+        "完成官网要求的授权及激活流程后，从该字体页面获取个人非商用版本。商用或其他用途请先办理对应授权。"
+      ],
+      "notice": "个人非商用授权不等于免费商用，也不自动涵盖网站公开展示、嵌入或再分发；请根据实际用途核对协议并向汉仪确认。本站不提供原字体文件或直接下载链接。",
+      "links": [
+        {
+          "label": "官网字体页面",
+          "url": "https://www.hanyi.com.cn/productdetail?id=79453"
+        },
+        {
+          "label": "个人非商用许可协议",
+          "url": "https://www.hanyi.com.cn/faq-doc-2"
+        },
+        {
+          "label": "商业授权说明",
+          "url": "https://hanyi.com.cn/license"
+        }
+      ],
+      "checkedOn": "2026-10-22"
+    },
+    "gridReconstruction": true,
+    "heightBasis": "han-design-grid",
+    "designHeight": 11,
+    "renderOmitted": [
+      ":"
+    ],
+    "sampleLabel": "原设计格点还原，非内嵌位图",
+    "layoutNote": "每行采用原设计格点；整字位置和advance取最近格，以适配字体度量中的亚像素偏移。不是原字体在任意字号下的排版截图。汉字advance为1000字体单位，每格77单位，预览归整为13格；汉字设计墨迹11格不等于字符框、行高或西文最大尺寸。",
+    "renderOmissionNote": "原TTF包含冒号，但两点间距166字体单位不是77单位格距的整数倍，不满足本预览精确格点条件，因此保留其排版空位而不绘制；不是原字体缺字。",
+    "nativeEvidence": {
+      "summary": "正交轮廓原设计格点还原；不是TTF内嵌bitmap。",
+      "method": "每字检验正交、无曲线、单一格点相位后，逐格用非零绕数填充；未使用FreeType抗锯齿或轮廓阈值取模。轮廓长度保持不变。",
+      "bitmap_tables": [],
+      "grid_step": 77,
+      "unitsPerEm": 1000,
+      "汉字核验码位数": 9765,
+      "汉字最大设计墨迹": [
+        11,
+        11
+      ],
+      "原汉字advance": 1000,
+      "预览汉字进位格数": 13,
+      "实际中文行高": 12,
+      "实际ASCII行高": 12,
+      "实际中文基线": 10,
+      "实际ASCII基线": 9,
+      "sourceUrl": "https://www.hanyi.com.cn/productdetail?id=79453",
+      "sha256": "44625a8b563c00ff2da01c08aaad846726819916d160f52936eedfd9959e0ee9"
+    }
   },
   {
     "id": "hanyi-pixel13",
@@ -8773,42 +8791,92 @@
     "cellWidth": null,
     "cellHeight": null,
     "scripts": [
-      "简体"
+      "简体",
+      "繁体"
     ],
     "styles": [
-      "参考资料"
+      "格点设计"
     ],
     "uses": [
-      "研究参考"
+      "现代像素设计"
     ],
     "text": "视野无限广，窗外有蓝天。",
     "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "asciiOrigin": "reference-unverified",
+    "asciiOrigin": "same-source-design-grid",
     "sourceUrl": "https://www.hanyi.com.cn/font-list",
     "sourceLabel": "查看原始资料",
-    "sampleKind": "reference",
-    "referenceType": "官方试字截图",
-    "referenceNote": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为13×13，不当作已读取的字体字框。",
-    "coverage": "资料图，不作逐字字库覆盖验证。",
-    "licenseNote": "字体与官网字样归汉仪及相应权利人；商业字体，非开源。此图来自官方公开在线试字。 仅固定字样与来源，不提供字体或授予使用许可。",
-    "provenance": "汉仪官方设计文章明确标称此设计格数，说明避让、合并、精简及灰度调整。设计尺寸不等于已实测字框或advance。",
-    "notes": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为13×13，不当作已读取的字体字框。",
+    "sampleKind": "standard",
+    "coverage": "本次简繁样句及ASCII在原字体中均有码位；本次预览无缺字或未绘制字符。",
+    "licenseNote": "版权归汉仪。个人非商用授权不等于免费商用；使用、公开展示、嵌入及再分发须核对实际授权范围。本站只展示固定字样，不提供原字体文件。",
+    "provenance": "使用个人非商用版本TTF核验设计格点。9765个汉字码位均为正交直线、无曲线且符合单一方格相位；文件没有EBDT等内嵌位图层。此处是原设计格点还原，不是任意字号轮廓抗锯齿取模。少量非汉字符号可能不满足同样条件，不把汉字结论外推全库。",
+    "notes": "按汉字设计格高筛选，不标固定方形字符框；整字位置与advance按最近格归整，字符内部形状不改。",
     "nominalDesignGrid": [
       13,
       13
     ],
     "inkWidth": null,
     "inkHeight": null,
-    "licenseStatus": "以来源及权利人许可为准",
+    "licenseStatus": "按汉仪官网个人非商用／商业授权范围使用",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
-    "priority": 0,
+    "priority": 10,
     "sourceIndex": 201,
     "specimen": "assets/specimens/hanyi-pixel13.png",
-    "specimenWidth": 1066,
-    "specimenHeight": 60,
-    "specimenSha256": "b58a09ecf8ddcc3d2687984f839e6df0c090831425e29606e1d71d0db8c29b94"
+    "specimenWidth": 217,
+    "specimenHeight": 32,
+    "specimenSha256": "41814daeabdc2f2fcaa3750ebb218a75bc4a4587d0eb50a17479c9ca97aaa441",
+    "acquisitionGuide": {
+      "title": "官网授权与获取",
+      "steps": [
+        "在汉仪官网字体列表搜索“汉仪像素13px”，进入对应字体介绍页，查看当前可获取版本及授权范围。",
+        "按官网提示注册或登录账号，阅读适用协议；注册可能需要手机号验证码，当前页面也展示公众号“下载激活”步骤，具体以官网当时流程为准。",
+        "完成官网要求的授权及激活流程后，从该字体页面获取个人非商用版本。商用或其他用途请先办理对应授权。"
+      ],
+      "notice": "个人非商用授权不等于免费商用，也不自动涵盖网站公开展示、嵌入或再分发；请根据实际用途核对协议并向汉仪确认。本站不提供原字体文件或直接下载链接。",
+      "links": [
+        {
+          "label": "官网字体页面",
+          "url": "https://www.hanyi.com.cn/font-list"
+        },
+        {
+          "label": "个人非商用许可协议",
+          "url": "https://www.hanyi.com.cn/faq-doc-2"
+        },
+        {
+          "label": "商业授权说明",
+          "url": "https://hanyi.com.cn/license"
+        }
+      ],
+      "checkedOn": "2026-10-22"
+    },
+    "gridReconstruction": true,
+    "heightBasis": "han-design-grid",
+    "designHeight": 13,
+    "renderOmitted": [],
+    "sampleLabel": "原设计格点还原，非内嵌位图",
+    "layoutNote": "每行采用原设计格点；整字位置和advance取最近格，以适配字体度量中的亚像素偏移。不是原字体在任意字号下的排版截图。汉字advance为1000字体单位，每格67单位，预览归整为15格；汉字设计墨迹13格不等于字符框、行高或西文最大尺寸。",
+    "renderOmissionNote": "",
+    "nativeEvidence": {
+      "summary": "正交轮廓原设计格点还原；不是TTF内嵌bitmap。",
+      "method": "每字检验正交、无曲线、单一格点相位后，逐格用非零绕数填充；未使用FreeType抗锯齿或轮廓阈值取模。轮廓长度保持不变。",
+      "bitmap_tables": [],
+      "grid_step": 67,
+      "unitsPerEm": 1000,
+      "汉字核验码位数": 9765,
+      "汉字最大设计墨迹": [
+        13,
+        13
+      ],
+      "原汉字advance": 1000,
+      "预览汉字进位格数": 15,
+      "实际中文行高": 13,
+      "实际ASCII行高": 14,
+      "实际中文基线": 11,
+      "实际ASCII基线": 11,
+      "sourceUrl": "https://www.hanyi.com.cn/font-list",
+      "sha256": "061f95d5fbbc64d28d69d3a9de51f334a245aaf85ec0c739c463223e8d4cb834"
+    }
   },
   {
     "id": "hanyi-pixel-xingkai15",
@@ -8819,180 +8887,92 @@
     "cellWidth": null,
     "cellHeight": null,
     "scripts": [
-      "简体"
+      "简体",
+      "繁体"
     ],
     "styles": [
-      "参考资料"
+      "格点设计"
     ],
     "uses": [
-      "研究参考"
+      "现代像素设计"
     ],
     "text": "视野无限广，窗外有蓝天。",
     "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "asciiOrigin": "reference-unverified",
+    "asciiOrigin": "same-source-design-grid",
     "sourceUrl": "https://www.hanyi.com.cn/productdetail?id=98858&type=0",
     "sourceLabel": "查看原始资料",
-    "sampleKind": "reference",
-    "referenceType": "官方试字截图",
-    "referenceNote": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为15×15，不当作已读取的字体字框。",
-    "coverage": "资料图，不作逐字字库覆盖验证。",
-    "licenseNote": "字体与官网字样归汉仪及相应权利人；商业字体，非开源。此图来自官方公开在线试字。 仅固定字样与来源，不提供字体或授予使用许可。",
-    "provenance": "汉仪官方设计文章明确标称此设计格数，说明避让、合并、精简及灰度调整。设计尺寸不等于已实测字框或advance。",
-    "notes": "官网字号36px；抗锯齿截图，非原生1×点阵。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。 官方标称设计网格为15×15，不当作已读取的字体字框。",
+    "sampleKind": "standard",
+    "coverage": "本次简繁样句及ASCII在原字体中均有码位；本次预览无缺字或未绘制字符。",
+    "licenseNote": "版权归汉仪。个人非商用授权不等于免费商用；使用、公开展示、嵌入及再分发须核对实际授权范围。本站只展示固定字样，不提供原字体文件。",
+    "provenance": "使用个人非商用版本TTF核验设计格点。9765个汉字码位均为正交直线、无曲线且符合单一方格相位；文件没有EBDT等内嵌位图层。此处是原设计格点还原，不是任意字号轮廓抗锯齿取模。少量非汉字符号可能不满足同样条件，不把汉字结论外推全库。",
+    "notes": "按汉字设计格高筛选，不标固定方形字符框；整字位置与advance按最近格归整，字符内部形状不改。",
     "nominalDesignGrid": [
       15,
       15
     ],
     "inkWidth": null,
     "inkHeight": null,
-    "licenseStatus": "以来源及权利人许可为准",
+    "licenseStatus": "按汉仪官网个人非商用／商业授权范围使用",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
-    "priority": 0,
+    "priority": 9,
     "sourceIndex": 202,
     "specimen": "assets/specimens/hanyi-pixel-xingkai15.png",
-    "specimenWidth": 1066,
-    "specimenHeight": 60,
-    "specimenSha256": "a44347fe3480d068cac33e4f172c27e2178bc1a5f5e2b137c009d745ae710c94"
-  },
-  {
-    "id": "fzbase",
-    "name": "方正基础像素",
-    "family": "方正基础像素",
-    "width": null,
-    "height": null,
-    "cellWidth": null,
-    "cellHeight": null,
-    "scripts": [
-      "简体"
-    ],
-    "styles": [
-      "参考资料"
-    ],
-    "uses": [
-      "研究参考"
-    ],
-    "text": "视野无限广，窗外有蓝天。",
-    "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "asciiOrigin": "reference-unverified",
-    "sourceUrl": "https://www.foundertype.com/index.php/FontInfo/index/id/212",
-    "sourceLabel": "查看原始资料",
-    "sampleKind": "reference",
-    "referenceType": "官方试字截图",
-    "referenceNote": "官网单次限11字，分段截图排版；保留抗锯齿显示。基础像素CSS字号126.425px、点阵冯48px，不作相同原生尺寸比较。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。",
-    "coverage": "资料图，不作逐字字库覆盖验证。",
-    "licenseNote": "字体与官网字样归方正字库及相应设计权利人；商业字体，非开源。 仅固定字样与来源，不提供字体或授予使用许可。",
-    "provenance": "为2005年深圳双年展形象设计而作，以较少像素构造，字宽和字高不统一。",
-    "notes": "官网单次限11字，分段截图排版；保留抗锯齿显示。基础像素CSS字号126.425px、点阵冯48px，不作相同原生尺寸比较。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。",
-    "inkWidth": null,
-    "inkHeight": null,
-    "licenseStatus": "以来源及权利人许可为准",
-    "missing": [],
-    "hanMissing": [],
-    "asciiMissing": [],
-    "priority": 0,
-    "sourceIndex": 203,
-    "specimen": "assets/specimens/fzbase.png",
-    "specimenWidth": 660,
-    "specimenHeight": 212,
-    "specimenSha256": "a3b591a33b793374cadf361a45b6e3a6fe38402124500175fcd0da8c9c33e740"
-  },
-  {
-    "id": "fzfeng",
-    "name": "方正点阵冯",
-    "family": "方正点阵冯",
-    "width": null,
-    "height": null,
-    "cellWidth": null,
-    "cellHeight": null,
-    "scripts": [
-      "简体"
-    ],
-    "styles": [
-      "参考资料"
-    ],
-    "uses": [
-      "研究参考"
-    ],
-    "text": "视野无限广，窗外有蓝天。",
-    "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "asciiOrigin": "reference-unverified",
-    "sourceUrl": "https://www.foundertype.com/index.php/FontInfo/index/id/414",
-    "sourceLabel": "查看原始资料",
-    "sampleKind": "reference",
-    "referenceType": "官方试字截图",
-    "referenceNote": "官网单次限11字，分段截图排版；保留抗锯齿显示。基础像素CSS字号126.425px、点阵冯48px，不作相同原生尺寸比较。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。",
-    "coverage": "资料图，不作逐字字库覆盖验证。",
-    "licenseNote": "字体与官网字样归方正字库及相应设计权利人；商业字体，非开源。 仅固定字样与来源，不提供字体或授予使用许可。",
-    "provenance": "刻意调整像素数量，模拟磨蚀碑帖，在可读与不可读之间形成设计效果。",
-    "notes": "官网单次限11字，分段截图排版；保留抗锯齿显示。基础像素CSS字号126.425px、点阵冯48px，不作相同原生尺寸比较。 原始字体字框尚未实测，图片像素尺寸不代表原生网格。",
-    "inkWidth": null,
-    "inkHeight": null,
-    "licenseStatus": "以来源及权利人许可为准",
-    "missing": [],
-    "hanMissing": [],
-    "asciiMissing": [],
-    "priority": 0,
-    "sourceIndex": 204,
-    "specimen": "assets/specimens/fzfeng.png",
-    "specimenWidth": 660,
-    "specimenHeight": 122,
-    "specimenSha256": "1c24f9edf5823742133159049115432a0746e66d214d0b4ec82afbf3352a33d6"
-  },
-  {
-    "id": "monotype_bitmap_hk",
-    "name": "蒙纳点阵 · 方点／圆点",
-    "family": "蒙纳点阵",
-    "width": null,
-    "height": null,
-    "cellWidth": null,
-    "cellHeight": null,
-    "scripts": [
-      "繁体"
-    ],
-    "styles": [
-      "参考资料"
-    ],
-    "uses": [
-      "研究参考"
-    ],
-    "text": "視野無限廣，窗外有藍天。",
-    "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "asciiOrigin": "reference-unverified",
-    "sourceUrl": "https://www.myfonts.com/collections/m-bitmap-square-hk-font-monotype-hk/",
-    "sourceLabel": "查看原始资料",
-    "sampleKind": "reference",
-    "referenceType": "官方试字截图",
-    "referenceNote": "上半为方点、下半为圆点，均为官网35px显示截图；原字框未核，不适合与原像素字样按字号比较。",
-    "coverage": "资料图，不作逐字字库覆盖验证。",
-    "licenseNote": "权利归原字体或资料权利人。仅展示固定研究字样和来源，不提供字体文件；公开可见不等于已取得使用或再分发授权。",
-    "provenance": "Monotype HK Design的像素设计参考。同一汉字结构的方点与圆点表现合并一条，不称两个独立原生字库。",
-    "notes": "上半为方点、下半为圆点，均为官网35px显示截图；原字框未核，不适合与原像素字样按字号比较。",
-    "inkWidth": null,
-    "inkHeight": null,
-    "licenseStatus": "以来源及权利人许可为准",
-    "missing": [],
-    "hanMissing": [],
-    "asciiMissing": [],
-    "priority": 0,
-    "sourceIndex": 205,
-    "specimen": "assets/specimens/monotype_bitmap_hk.png",
-    "specimenWidth": 820,
-    "specimenHeight": 336,
-    "specimenSha256": "dfc6acdbc8b531283cb39a598c892f28fe2a9784a8bacd05e7e382bc96bf2d44",
-    "relatedSources": [
-      {
-        "name": "蒙纳繁方点阵",
-        "sourceUrl": "https://www.myfonts.com/collections/m-bitmap-square-hk-font-monotype-hk/",
-        "provenance": "Monotype官方访谈将方点阵描述为pixel-based structure；尚未核实字框格数或字体内置bitmap表。"
-      },
-      {
-        "name": "蒙纳繁圆点阵",
-        "sourceUrl": "https://www.myfonts.com/collections/m-bitmap-round-hk-font-monotype-hk/",
-        "provenance": "Monotype官方访谈将方点阵描述为pixel-based structure；尚未核实字框格数或字体内置bitmap表。"
-      }
-    ]
+    "specimenWidth": 224,
+    "specimenHeight": 41,
+    "specimenSha256": "1a3007a6322d77f0f446c370c1ee2559f207a9913e89af72381c1ee4f99f1c3a",
+    "acquisitionGuide": {
+      "title": "官网授权与获取",
+      "steps": [
+        "在汉仪官网字体列表搜索“汉仪像素行楷15px”，进入对应字体介绍页，查看当前可获取版本及授权范围。",
+        "按官网提示注册或登录账号，阅读适用协议；注册可能需要手机号验证码，当前页面也展示公众号“下载激活”步骤，具体以官网当时流程为准。",
+        "完成官网要求的授权及激活流程后，从该字体页面获取个人非商用版本。商用或其他用途请先办理对应授权。"
+      ],
+      "notice": "个人非商用授权不等于免费商用，也不自动涵盖网站公开展示、嵌入或再分发；请根据实际用途核对协议并向汉仪确认。本站不提供原字体文件或直接下载链接。",
+      "links": [
+        {
+          "label": "官网字体页面",
+          "url": "https://www.hanyi.com.cn/productdetail?id=98858&type=0"
+        },
+        {
+          "label": "个人非商用许可协议",
+          "url": "https://www.hanyi.com.cn/faq-doc-2"
+        },
+        {
+          "label": "商业授权说明",
+          "url": "https://hanyi.com.cn/license"
+        }
+      ],
+      "checkedOn": "2026-10-22"
+    },
+    "gridReconstruction": true,
+    "heightBasis": "han-design-grid",
+    "designHeight": 15,
+    "renderOmitted": [],
+    "sampleLabel": "原设计格点还原，非内嵌位图",
+    "layoutNote": "每行采用原设计格点；整字位置和advance取最近格，以适配字体度量中的亚像素偏移。不是原字体在任意字号下的排版截图。汉字advance为1000字体单位，每格59单位，预览归整为17格；汉字设计墨迹15格不等于字符框、行高或西文最大尺寸。",
+    "renderOmissionNote": "",
+    "nativeEvidence": {
+      "summary": "正交轮廓原设计格点还原；不是TTF内嵌bitmap。",
+      "method": "每字检验正交、无曲线、单一格点相位后，逐格用非零绕数填充；未使用FreeType抗锯齿或轮廓阈值取模。轮廓长度保持不变。",
+      "bitmap_tables": [],
+      "grid_step": 59,
+      "unitsPerEm": 1000,
+      "汉字核验码位数": 9765,
+      "汉字最大设计墨迹": [
+        15,
+        15
+      ],
+      "原汉字advance": 1000,
+      "预览汉字进位格数": 17,
+      "实际中文行高": 17,
+      "实际ASCII行高": 19,
+      "实际中文基线": 13,
+      "实际ASCII基线": 13,
+      "sourceUrl": "https://www.hanyi.com.cn/productdetail?id=98858&type=0",
+      "sha256": "8b5e7a58cb096830ca2792a54c59af595b8870f5685700223fcc72c7e62023b2"
+    }
   },
   {
     "id": "chinasea_reference",
@@ -9035,52 +9015,6 @@
     "specimenWidth": 924,
     "specimenHeight": 139,
     "specimenSha256": "79c21875a343ccc5cd2fc6dd81ca479ec2f7a99eff74333523f2598e3e20157e"
-  },
-  {
-    "id": "gb48_2025_reference",
-    "name": "48点阵汉字标准 · 永字图样",
-    "family": "48点阵标准",
-    "width": null,
-    "height": null,
-    "cellWidth": null,
-    "cellHeight": null,
-    "scripts": [
-      "简体"
-    ],
-    "styles": [
-      "参考资料"
-    ],
-    "uses": [
-      "研究参考"
-    ],
-    "text": "永",
-    "asciiText": "",
-    "asciiOrigin": "reference-unverified",
-    "sourceUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=421B9135604C56A2EA1C4396A941CFB4",
-    "sourceLabel": "查看原始资料",
-    "sampleKind": "reference",
-    "referenceType": "标准图样",
-    "referenceNote": "这是带网格的标准页面截图，存在页面缩放与抗锯齿，不是48×48二值字模；未获取完整机器可读字库，不据标准范围宣称实测覆盖。",
-    "coverage": "资料图，不作逐字字库覆盖验证。",
-    "licenseNote": "权利归原字体或资料权利人。仅展示固定研究字样和来源，不提供字体文件；公开可见不等于已取得使用或再分发授权。",
-    "provenance": "GB/T 22321.1—2025官方在线标准图2；正文定义48×48定位网格。",
-    "notes": "这是带网格的标准页面截图，存在页面缩放与抗锯齿，不是48×48二值字模；未获取完整机器可读字库，不据标准范围宣称实测覆盖。",
-    "nominalDesignGrid": [
-      48,
-      48
-    ],
-    "inkWidth": null,
-    "inkHeight": null,
-    "licenseStatus": "以来源及权利人许可为准",
-    "missing": [],
-    "hanMissing": [],
-    "asciiMissing": [],
-    "priority": 0,
-    "sourceIndex": 207,
-    "specimen": "assets/specimens/gb48_2025_reference.png",
-    "specimenWidth": 320,
-    "specimenHeight": 320,
-    "specimenSha256": "5016e244f2292336aab78b97029e79104ba6c757cedb236ca09f5b4aea857695"
   },
   {
     "id": "konatu_native_12",
