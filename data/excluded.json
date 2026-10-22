@@ -94,5 +94,12 @@
     "evidenceType": "supplied_font_outline_audit",
     "sourceUrl": "https://www.foundertype.com/index.php/FontInfo/index/id/414",
     "idReserved": true
+  },
+  {
+    "id": "taipeib20",
+    "name": "Taipei b20（20×20）",
+    "reason": "按收录选择移除；不据此判断字体制作方法或权利状态。",
+    "evidenceType": "explicit_curatorial_removal",
+    "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/"
   }
 ]

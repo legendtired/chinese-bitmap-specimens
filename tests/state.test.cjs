@@ -31,7 +31,7 @@ updateFavoriteEntryVisibility(headerButton,0,null,fallback);assert.equal(headerB
 updateFavoriteEntryVisibility(headerButton,1,null,fallback);assert.equal(headerButton.hidden,false);assert.equal(headerButton.attrs['aria-hidden'],'false');
 updateFavoriteEntryVisibility(headerButton,0,headerButton,fallback);assert.equal(headerButton.hidden,true);assert.equal(focusMoves,1);
 const actualValid=new Set(require('../data/catalog.json').map(r=>r.id));
-let actualStorage={value:JSON.stringify(['monotype_bitmap_hk','hanyi-pixel-power','hanyi-pixel-invasion','fzbase','fzfeng','gb48_2025_reference']),getItem(){return this.value},setItem(k,v){this.value=v}};
+let actualStorage={value:JSON.stringify(['taipeib20','monotype_bitmap_hk','hanyi-pixel-power','hanyi-pixel-invasion','fzbase','fzfeng','gb48_2025_reference']),getItem(){return this.value},setItem(k,v){this.value=v}};
 let actualStore=createFavoriteStore(()=>actualStorage,actualValid);assert.equal(actualStore.ids.length,0);updateFavoriteEntryVisibility(headerButton,actualStore.ids.length,null,fallback);assert(headerButton.hidden);
 actualStore.save(['hanyi-pixel13']);actualStore=createFavoriteStore(()=>actualStorage,actualValid);updateFavoriteEntryVisibility(headerButton,actualStore.ids.length,null,fallback);assert(!headerButton.hidden);actualStore.save([]);updateFavoriteEntryVisibility(headerButton,actualStore.ids.length,null,fallback);assert(headerButton.hidden);
 const sourceHtml=require('node:fs').readFileSync(require('node:path').join(__dirname,'../index.html'),'utf8');assert(/id="favorites-open"[^>]*hidden/.test(sourceHtml));

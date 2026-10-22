@@ -5,9 +5,13 @@ try:
 except ImportError:
  Image=None
 R=Path(__file__).resolve().parents[1];rows=json.loads((R/'data/catalog.json').read_text());byid={r['id']:r for r in rows};manifest=json.loads((R/'data/release-psa.json').read_text())
-assert len(rows)==202 and len(manifest['baseIds'])==200
-for id,sha in manifest['baseRowChecksums'].items():assert hashlib.sha256(json.dumps(byid[id],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()==sha,id
-assert set(byid)==set(manifest['baseIds'])|set(manifest['addedIds'])
+removed=set(json.loads((R/'data/curation.json').read_text()).get('postPsaRemovedIds',[]))
+assert removed=={'taipeib20'}
+assert len(rows)==201 and len(manifest['baseIds'])==200
+for id,sha in manifest['baseRowChecksums'].items():
+ if id in removed:continue
+ assert hashlib.sha256(json.dumps(byid[id],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()==sha,id
+assert set(byid)==(set(manifest['baseIds'])|set(manifest['addedIds']))-removed
 for id,ink,w,h in [('psa_c_screen_12',12,14,14),('psa_c_screen_14',14,16,17)]:
  r=byid[id];assert r['priority']==(8 if ink==12 else 0) and r['designHeight']==ink and r['heightBasis']=='han-ink-grid'
  assert (r['width'],r['height'],r['cellWidth'],r['cellHeight'])==(w,h,w,h)
@@ -29,4 +33,4 @@ im=module.render(data,0,'A');assert im.size==(14,14) and im.getpixel((1,0))[3]==
 try:module.render(data,0,'\uffff')
 except ValueError:pass
 else:raise AssertionError('Missing source glyph must not use fallback')
-print('PSA:200 prior rows unchanged; two original padded specimens; truthful no-source link/contact; synthetic LSB decoder and missing-glyph rejection passed.')
+print('PSA:199 retained prior rows unchanged; Taipei b20 explicitly removed; two original padded specimens; truthful no-source link/contact; synthetic LSB decoder and missing-glyph rejection passed.')

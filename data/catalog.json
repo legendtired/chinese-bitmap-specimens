@@ -2767,50 +2767,6 @@
     "priority": 0
   },
   {
-    "id": "taipeib20",
-    "name": "Taipei b20（20×20）",
-    "family": "Taipei historical PCF",
-    "width": 20,
-    "height": 20,
-    "scripts": [
-      "繁体"
-    ],
-    "styles": [
-      "未分类"
-    ],
-    "uses": [
-      "历史屏幕字库"
-    ],
-    "specimen": "assets/specimens/taipeib20.png",
-    "specimenWidth": 510,
-    "specimenHeight": 44,
-    "text": "視野無限廣，窗外有藍天。",
-    "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/",
-    "sourceLabel": "来源项目 / 资料页",
-    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
-    "licenseStatus": "已有许可线索",
-    "licenseNote": "PCF 内标记 Public Domain；仅核实文件内声明，未独立核实所有上游来源。",
-    "provenance": "台湾 CLE 历史镜像原生 PCF，按 Big5 码位精确解码。文件名数字与实际单元尺寸可能不一致，以 PCF 度量为准。原文件没有半角 ASCII 配套字体；本修订已提取同库全角字形。字体文件名后缀未擅自推定具体书体。 本次修订：按原字库提取繁简对应字与实际显示码位；Big5 原生全角数字与英文也已逐个提取验证。",
-    "sampleKind": "standard",
-    "coverage": "样文完整",
-    "missing": [],
-    "hanMissing": [],
-    "asciiMissing": [],
-    "asciiOrigin": "native_fullwidth",
-    "sourceIndex": 70,
-    "nativeEvidence": {
-      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
-      "sourceUrl": "https://ftp.kh.edu.tw/Linux/CLE/fonts/bitmap/taipeifont/"
-    },
-    "cellWidth": 20,
-    "cellHeight": 20,
-    "inkWidth": null,
-    "inkHeight": null,
-    "specimenSha256": "ca047f037260cc9c0fa7066fbfc27700c4ed0d18f3a35663b342024a545edcf8",
-    "priority": 0
-  },
-  {
     "id": "ccic_cmex24m",
     "name": "文建会 CMEX / 华康 明体 24 · 24×24",
     "family": "CMEX 华康明体",

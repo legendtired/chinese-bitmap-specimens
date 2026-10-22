@@ -1,25 +1,25 @@
 {
   "catalogVersion": 17,
-  "rows": 202,
+  "rows": 201,
   "minCellHeight": 8,
   "maxCellHeight": 64,
   "sizeScope": "No 8–32px restriction; native pixel design evidence and remaining uncertainty recorded",
   "sampleKinds": {
-    "standard": 190,
+    "standard": 189,
     "partial": 7,
     "osd": 4,
     "reference": 1
   },
   "scripts": {
     "简体": 107,
-    "繁体": 104
+    "繁体": 103
   },
-  "nativePngCount": 201,
-  "standardChineseComplete": 192,
+  "nativePngCount": 200,
+  "standardChineseComplete": 191,
   "partialChinese": 5,
-  "standardAsciiComplete": 176,
+  "standardAsciiComplete": 175,
   "partialAscii": 5,
-  "ordinaryRows": 197,
+  "ordinaryRows": 196,
   "fontFilesIncluded": 0,
   "glyphDataIncluded": false,
   "emptyLineOmission": {
@@ -27,12 +27,12 @@
     "rule": "Entirely blank sample lines do not contribute canvas width or height; partial missing-character advances and native bearings remain unchanged."
   },
   "curation": {
-    "removedBySelection": 28,
+    "removedBySelection": 29,
     "mergedSampleEquivalent": 3,
     "scope": "代表性字样，不以数量或细微版本差异充数；同源及疑似取模不自动等于已证实矢量转换。"
   },
   "referenceRows": 1,
-  "ordinaryAsciiRows": 181,
+  "ordinaryAsciiRows": 180,
   "ordinaryWithoutAsciiEvaluation": 16,
   "coverageRule": "Reference screenshots/standard diagrams are not glyph coverage tests. Fullwidth samples and sources without ASCII are not counted as complete ordinary ASCII.",
   "variableGridRows": 2,

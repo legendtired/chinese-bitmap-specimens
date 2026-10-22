@@ -2,8 +2,8 @@
 from pathlib import Path
 import json,hashlib
 R=Path(__file__).resolve().parents[1];rows=json.loads((R/'data/catalog.json').read_text());manifest=json.loads((R/'data/release-v17.json').read_text());byid={r['id']:r for r in rows}
-removed=set(json.loads((R/'data/curation.json').read_text())['postV17RemovedIds']);assert removed=={'monotype_bitmap_hk','hanyi-pixel-power','hanyi-pixel-invasion','fzbase','gb48_2025_reference','fzfeng'}
-assert len(rows)==len(byid)==202
+removed=set(json.loads((R/'data/curation.json').read_text())['postV17RemovedIds']);assert removed=={'monotype_bitmap_hk','hanyi-pixel-power','hanyi-pixel-invasion','fzbase','gb48_2025_reference','fzfeng','taipeib20'}
+assert len(rows)==len(byid)==201
 assert len(manifest['baseIds'])==191 and len(manifest['addedIds'])==15
 assert (set(manifest['baseIds'])|set(manifest['addedIds']))-removed|{'psa_c_screen_12','psa_c_screen_14'}==set(byid)
 for id,sha in manifest['baseRowChecksums'].items():
@@ -25,5 +25,5 @@ assert '2013' in r['provenance'] and '17' in r['coverage'];assert not set('频�
 assert '09:41' in r['text'] and '单' in r['text']
 r=byid['ccdb_cccii_64'];assert r['height']==64 and r['nativeEvidence']['records']==73885
 assert '不等于73885个独立汉字' in r['notes'] and ',' in r['text']
-s=json.loads((R/'data/summary.json').read_text());assert (s['rows'],s['nativePngCount'],s['referenceRows'],s['variableGridRows'])==(202,201,1,2)
-print('v17 checks passed: retained baseline exact except approved Hanyi edits; six explicit exclusions; only15 approved additions, zero new priority; variable grids,34px frames,2013 OSD and64px evidence boundaries.')
+s=json.loads((R/'data/summary.json').read_text());assert (s['rows'],s['nativePngCount'],s['referenceRows'],s['variableGridRows'])==(201,200,1,2)
+print('v17 checks passed: retained baseline exact except approved Hanyi edits; seven explicit exclusions; only15 approved additions, zero new priority; variable grids,34px frames,2013 OSD and64px evidence boundaries.')

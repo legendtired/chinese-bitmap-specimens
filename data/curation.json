@@ -27,7 +27,8 @@
     "hanyi-pixel-invasion",
     "fzbase",
     "gb48_2025_reference",
-    "fzfeng"
+    "fzfeng",
+    "taipeib20"
   ],
   "merged": {
     "simsun_native_12": "founder_pixel12",
@@ -41,12 +42,16 @@
     "hanyi-pixel-invasion",
     "fzbase",
     "gb48_2025_reference",
-    "fzfeng"
+    "fzfeng",
+    "taipeib20"
   ],
   "postV17ModifiedIds": [
     "hanyi-pixel9",
     "hanyi-pixel11",
     "hanyi-pixel13",
     "hanyi-pixel-xingkai15"
+  ],
+  "postPsaRemovedIds": [
+    "taipeib20"
   ]
 }
