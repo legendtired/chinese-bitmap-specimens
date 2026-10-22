@@ -80,3 +80,9 @@ apply-preview 只更新已有ID，先在 local-research/before-apply/ 保存可�
 ## 不定字框原生格点
 
 v17的variableGrid:true与sampleKind=reference不同。前者有可按整数格重绘的实际字形，保留1×与整数倍；height/cellHeight不猜测，以独立“不定字框”过滤。designEmGrid不是字高。修改此类显示必须同步app.js、静态模板和reference/variable-grid回归。当前范围见 [v17说明](release-v17.md)。
+
+## PSA原始位图样张
+
+两款PSA预览来自私有Flash原位图，不是汉仪格点轮廓还原。复现入口 `python scripts/render_psa_specimens.py --firmware local-research/psa-c-screen/read1.bin`，需要Pillow与另行提供的已核验私有输入。原固件不随公开仓库提供；输入缺失或SHA不符时应停止，不以别的字体替代。常规PSA元数据检查仅需标准库，安装Pillow后额外执行原边距像素检查和合成LSB解码测试；缺Pillow时会明确报告这些可选检查被跳过。
+
+heightBasis=han-ink-grid按12／14有效中文字面筛选，实际存储框仍分别14×14／16×17。无公开字库来源链接时sourceType=physical-extraction且sourceUrl=null，仅显示来源文字；Issue联系试用是独立入口，不能当作字库下载或版权授权。

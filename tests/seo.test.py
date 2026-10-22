@@ -25,7 +25,7 @@ for file in [r/'index.html']+list((r/'fonts').glob('*.html')):
  # Font pages have no JS requirement, use real image and source metadata.
  if file.parent.name=='fonts':
   row=next(x for x in rows if x['id']==file.stem);text=file.read_text()
-  for field in ('name','specimen','sourceUrl'):assert str(row[field]).replace('&','&amp;') in text,(file,field)
+  for field in ('name','specimen','sourceUrl') if row.get('sourceUrl') else ('name','specimen','sourceLabel'):assert str(row[field]).replace('&','&amp;') in text,(file,field)
   assert '../index.html' in text
 idx=Doc((r/'index.html').read_text());ids=[a['data-row-id'] for t,a in idx.tags if t=='article' and 'data-row-id'in a]
 ordered=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'),{}).map(x=>x.id)))"],cwd=r,text=True));assert ids==ordered

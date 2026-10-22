@@ -9863,5 +9863,155 @@
     "notes": "样图只用已核的视、信、号、输、入、菜、道、期、五、0、1、4、9、A、V、:、单。单在0B9H；本版印刷表未见频/頻、單、星，不借补。五与偏左下的冒号保留原格，不人工修饰。空格仅作排版间隔；两行之间4px，不计作字符框。",
     "priority": 0,
     "sourceIndex": 222
+  },
+  {
+    "id": "psa_c_screen_12",
+    "name": "PSA C屏原字模 · 12点阵",
+    "family": "PSA C屏实物字模",
+    "width": 14,
+    "height": 14,
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "designHeight": 12,
+    "heightBasis": "han-ink-grid",
+    "inkWidth": 12,
+    "inkHeight": 12,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "设备点阵"
+    ],
+    "uses": [
+      "设备OSD"
+    ],
+    "sampleKind": "standard",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "asciiOrigin": "same-source-bitmap",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 8,
+    "sourceIndex": 223,
+    "specimen": "assets/specimens/psa_c_screen_12.png",
+    "specimenWidth": 190,
+    "specimenHeight": 33,
+    "specimenSha256": "0b690013e58a0b4d563ce046d39abbebe0f37698939101deb393289506491b5c",
+    "sourceType": "physical-extraction",
+    "sourceUrl": null,
+    "sourceLabel": "用户实物提取，本页不提供直接下载",
+    "coverage": "单组28684个Unicode码位，其中基本CJK20902、扩展A6582、兼容汉字21；28684不是全汉字数量。本次统一中文与ASCII样文无缺字。",
+    "sampleLabel": "原始存储字模，保留左右及底部空白",
+    "layoutNote": "筛选按有效中文12点字面；实际存储为14×14，左右各1列、底部2行空白完整保留。按原width进位拼接，两行之间仅增加5px排版间隔，无逐字裁边、缩放或矢量绘制。",
+    "provenance": "来自用户自有Visteon C屏板PWB22663/A，板载MCU R7F701043与MX25L3235E Flash。Flash离板只读取得的两份4MiB镜像一致，按Unicode表、宽度表和偏移表直接解码。仅说明此次实物来源，不推断所有车型、年份或其他C屏使用相同字库。 本项目直接读取存储点阵，未使用矢量字体重新生成；原字体最初的制作方式尚未确认。",
+    "licenseNote": "原始字体品牌、权利人及适用许可尚未确认；实物提取不自动取得字体的再分发或商用许可。本站仅展示固定字样，不提供原固件或字库下载。",
+    "licenseStatus": "原字体权属及许可待确认",
+    "notes": "已对23组原生源进行共同字符比较，并检查147个既有样文条目，未发现已比范围内的整库重复；不是覆盖全目录的证明，也不能据此断言原创或独立设计。最初手工调校过程与精确原厂字体品牌未知。组0与组1中文点阵完全相同，故合并一条；299个非CJK码位存在差异，本样张采用组0普通ASCII，组1仅记为英文等字符的另一变体。",
+    "nativeEvidence": {
+      "summary": "未压缩1bpp原位图，按原存储边距解码。",
+      "method": "逐行、小端行整数，横向LSB-first；Unicode/宽度/offset映射与相邻偏移跨度校验。",
+      "storageGroup": 0,
+      "unicodeEntries": 28684,
+      "cjkUnified": 20902,
+      "cjkExtensionA": 6582,
+      "cjkCompatibility": 21,
+      "storageCell": [
+        14,
+        14
+      ],
+      "effectiveHanGrid": [
+        12,
+        12
+      ],
+      "sha256": "9690e1dafb21e1c7a2af839ce53ef301f05f4b7336ab1eeeb355edb1ef055201"
+    },
+    "acquisitionGuide": {
+      "title": "联系试用",
+      "steps": [],
+      "notice": "本页不提供直接下载；如需试用字模，请通过本仓库 Issue 联系仓库作者。联系试用不代表已取得商用或再分发许可。",
+      "links": [
+        {
+          "label": "联系仓库作者",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/issues"
+        }
+      ]
+    }
+  },
+  {
+    "id": "psa_c_screen_14",
+    "name": "PSA C屏原字模 · 14点阵",
+    "family": "PSA C屏实物字模",
+    "width": 16,
+    "height": 17,
+    "cellWidth": 16,
+    "cellHeight": 17,
+    "designHeight": 14,
+    "heightBasis": "han-ink-grid",
+    "inkWidth": 14,
+    "inkHeight": 14,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "设备点阵"
+    ],
+    "uses": [
+      "设备OSD"
+    ],
+    "sampleKind": "standard",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "asciiOrigin": "same-source-bitmap",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "priority": 0,
+    "sourceIndex": 224,
+    "specimen": "assets/specimens/psa_c_screen_14.png",
+    "specimenWidth": 247,
+    "specimenHeight": 39,
+    "specimenSha256": "f8029b87f66675f3b56514e3819071bd1864a3d8fc8b88f612c1047087a1daa1",
+    "sourceType": "physical-extraction",
+    "sourceUrl": null,
+    "sourceLabel": "用户实物提取，本页不提供直接下载",
+    "coverage": "单组28684个Unicode码位，其中基本CJK20902、扩展A6582、兼容汉字21；28684不是全汉字数量。本次统一中文与ASCII样文无缺字。",
+    "sampleLabel": "原始存储字模，保留左右及底部空白",
+    "layoutNote": "筛选按有效中文14点字面；实际存储为16×17，左右各1列、底部3行空白完整保留。按原width进位拼接，两行之间仅增加5px排版间隔，无逐字裁边、缩放或矢量绘制。",
+    "provenance": "来自用户自有Visteon C屏板PWB22663/A，板载MCU R7F701043与MX25L3235E Flash。Flash离板只读取得的两份4MiB镜像一致，按Unicode表、宽度表和偏移表直接解码。仅说明此次实物来源，不推断所有车型、年份或其他C屏使用相同字库。 本项目直接读取存储点阵，未使用矢量字体重新生成；原字体最初的制作方式尚未确认。",
+    "licenseNote": "原始字体品牌、权利人及适用许可尚未确认；实物提取不自动取得字体的再分发或商用许可。本站仅展示固定字样，不提供原固件或字库下载。",
+    "licenseStatus": "原字体权属及许可待确认",
+    "notes": "已对23组原生源进行共同字符比较，并检查147个既有样文条目，未发现已比范围内的整库重复；不是覆盖全目录的证明，也不能据此断言原创或独立设计。最初手工调校过程与精确原厂字体品牌未知。本样张采用组2及其原配较粗ASCII，不与组0混用字形。",
+    "nativeEvidence": {
+      "summary": "未压缩1bpp原位图，按原存储边距解码。",
+      "method": "逐行、小端行整数，横向LSB-first；Unicode/宽度/offset映射与相邻偏移跨度校验。",
+      "storageGroup": 2,
+      "unicodeEntries": 28684,
+      "cjkUnified": 20902,
+      "cjkExtensionA": 6582,
+      "cjkCompatibility": 21,
+      "storageCell": [
+        16,
+        17
+      ],
+      "effectiveHanGrid": [
+        14,
+        14
+      ],
+      "sha256": "9690e1dafb21e1c7a2af839ce53ef301f05f4b7336ab1eeeb355edb1ef055201"
+    },
+    "acquisitionGuide": {
+      "title": "联系试用",
+      "steps": [],
+      "notice": "本页不提供直接下载；如需试用字模，请通过本仓库 Issue 联系仓库作者。联系试用不代表已取得商用或再分发许可。",
+      "links": [
+        {
+          "label": "联系仓库作者",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/issues"
+        }
+      ]
+    }
   }
 ]

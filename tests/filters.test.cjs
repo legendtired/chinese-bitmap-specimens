@@ -37,3 +37,5 @@ for(const [id,height] of [['hanyi-pixel9',9],['hanyi-pixel11',11],['hanyi-pixel1
  const row=actualRows.find(r=>r.id===id);assert(require('../app.js').filterCatalog(actualRows,{height:[String(height)]}).some(r=>r.id===id));assert.equal(require('../app.js').dimensions(row),`设计字高 ${height}px`);
 }
 assert(require('../app.js').missingNotice(actualRows.find(r=>r.id==='hanyi-pixel11')).includes('未绘制（原字体有字形）'));
+
+for(const n of [12,14]){const r=actualRows.find(r=>r.id===`psa_c_screen_${n}`);assert(require('../app.js').filterCatalog(actualRows,{height:[String(n)]}).includes(r));assert.equal(require('../app.js').heightValue(r),String(n));}

@@ -7,8 +7,8 @@
   const variableGridLabel = row => `不定字框${knownSize(row.designEmGrid) ? ` · em ${row.designEmGrid} 格` : ''}`;
   const variableGridNote = '设计 em 仅表示设计坐标尺度，不等于固定字符框；实际边界和进位以各字形为准。';
   const variableGridWarning = '变宽设计无统一字符框；仅按原始像素整数倍显示，不将字形硬规整到同一网格。';
-  const dimensions = row => row.heightBasis === 'han-design-grid' && knownSize(row.designHeight) ? `设计字高 ${row.designHeight}px` : isVariableGrid(row) ? variableGridLabel(row) : knownSize(row.width) && knownSize(row.height) ? `${row.width}×${row.height}` : '未核定';
-  const heightValue = row => row.heightBasis === 'han-design-grid' && knownSize(row.designHeight) ? String(row.designHeight) : isVariableGrid(row) ? 'variable' : knownSize(row.height) ? String(row.height) : 'unknown';
+  const dimensions = row => row.heightBasis === 'han-ink-grid' && knownSize(row.designHeight) ? `${row.designHeight}px字面 · 存储 ${row.cellWidth}×${row.cellHeight}` : row.heightBasis === 'han-design-grid' && knownSize(row.designHeight) ? `设计字高 ${row.designHeight}px` : isVariableGrid(row) ? variableGridLabel(row) : knownSize(row.width) && knownSize(row.height) ? `${row.width}×${row.height}` : '未核定';
+  const heightValue = row => ['han-design-grid','han-ink-grid'].includes(row.heightBasis) && knownSize(row.designHeight) ? String(row.designHeight) : isVariableGrid(row) ? 'variable' : knownSize(row.height) ? String(row.height) : 'unknown';
   const heightLabel = value => value === 'unknown' ? '未核定' : value === 'variable' ? '不定字框' : `${value} px`;
   const compareHeightValues = (a, b, descending = false) => {
     const rank = value => value === 'unknown' ? 2 : value === 'variable' ? 1 : 0;
@@ -141,7 +141,7 @@
   for (const group of groups) {
     const fieldset = create('fieldset', 'filter-group');
     fieldset.append(create('legend', '', group.title));
-    if (group.key === 'height') fieldset.append(create('p', 'filter-basis-note', '按字框高度；格点轮廓字体按汉字设计字高。'));
+    if (group.key === 'height') fieldset.append(create('p', 'filter-basis-note', '默认按字框高度；标明设计字高或有效字面的条目按其注明字高。'));
     const options = create('div', group.key === 'height' ? 'filter-options sizes' : 'filter-options');
     let values = [...new Set(rows.flatMap(group.value))];
     if (group.key === 'height') { values.sort((a, b) => compareHeightValues(a, b)); values.unshift(''); }
@@ -168,9 +168,11 @@
     const permalink = create('a', '', '打开独立资料页'); permalink.href = `fonts/${encodeURIComponent(row.id)}.html`; addDetail(list, '资料页', permalink);
     addDetail(list, '家族', row.family);
     const cell = cellDimensions(row);
+    if (row.heightBasis === 'han-ink-grid') { addDetail(list, '筛选依据', `有效中文字面 ${row.designHeight}px，存储字框和空白边距另列`); addDetail(list, '排版说明', row.layoutNote); }
+    if (row.sourceType === 'physical-extraction') addDetail(list, '来源', row.sourceLabel);
     if (row.heightBasis === 'han-design-grid') { addDetail(list, '筛选依据', `汉字设计格高 ${row.designHeight}px，不是固定字符框或原字体行高`); addDetail(list, '排版说明', row.layoutNote); }
     if (asArray(row.renderOmitted).length) addDetail(list, '有字形但未绘制', row.renderOmissionNote);
-    addDetail(list, '字符框', cell ? `${cell}（字高筛选以此为准）` : null);
+    addDetail(list, '字符框', cell ? `${cell}${row.heightBasis==='han-ink-grid' ? '（存储空白完整保留；筛选按有效中文字面）' : '（字高筛选以此为准）'}` : null);
     if (isVariableGrid(row)) { addDetail(list, '字框类型', variableGridLabel(row)); addDetail(list, '设计说明', variableGridNote); }
     if (isReference(row)) { addDetail(list, '资料类型', row.referenceType || '参考资料'); addDetail(list, '核验边界', row.referenceNote || referenceWarning); }
     if (row.inkWidth && row.inkHeight) addDetail(list, '字面／墨迹', `${row.inkWidth}×${row.inkHeight} px（不等于字符框大小）`);

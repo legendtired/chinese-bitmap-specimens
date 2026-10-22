@@ -14,7 +14,7 @@ def is_reference(r):return r.get('sampleKind')=='reference'
 def is_variable_grid(r):return not is_reference(r) and r.get('variableGrid') is True
 def known_size(value):return isinstance(value,(int,float)) and not isinstance(value,bool) and value>0
 def variable_grid_label(r):return '不定字框'+(f" · em {r['designEmGrid']} 格" if known_size(r.get('designEmGrid')) else '')
-def dimensions(r):return f"设计字高 {r['designHeight']}px" if r.get('heightBasis')=='han-design-grid' else variable_grid_label(r) if is_variable_grid(r) else f"{r['width']}×{r['height']}" if known_size(r.get('width')) and known_size(r.get('height')) else '未核定'
+def dimensions(r):return f"{r['designHeight']}px字面 · 存储 {r['cellWidth']}×{r['cellHeight']}" if r.get('heightBasis')=='han-ink-grid' else f"设计字高 {r['designHeight']}px" if r.get('heightBasis')=='han-design-grid' else variable_grid_label(r) if is_variable_grid(r) else f"{r['width']}×{r['height']}" if known_size(r.get('width')) and known_size(r.get('height')) else '未核定'
 def cell_dimensions(r):
  if is_variable_grid(r):return None
  width=r.get('cellWidth') if r.get('cellWidth') is not None else r.get('width')
@@ -57,7 +57,7 @@ def meta(title,desc,url,kind='website'):
 def dlrow(label,value,raw=False):return '' if value is None or value=='' else f'<dt>{E(label)}</dt><dd>{value if raw else E(fmt(value))}</dd>'
 def details(r):
  reference=is_reference(r)
- fields=[('家族',r['family']),('筛选依据',f"汉字设计格高 {r['designHeight']}px，不是固定字符框或原字体行高" if r.get('heightBasis')=='han-design-grid' else None),('排版说明',r.get('layoutNote')),('有字形但未绘制',r.get('renderOmissionNote')),('字符框',cell_dimensions(r)),('字框类型',variable_grid_label(r) if is_variable_grid(r) else None),('设计说明',VARIABLE_GRID_NOTE if is_variable_grid(r) else None),('资料类型',r.get('referenceType') or '参考资料' if reference else None),('核验边界',r.get('referenceNote') or REFERENCE_WARNING if reference else None),('字面／墨迹',f"{r['inkWidth']}×{r['inkHeight']} px" if r.get('inkWidth') and r.get('inkHeight') else None),('字符范围',r['scripts']),('样本文字',r.get('text')),('全角英数样文（非ASCII）' if r.get('asciiOrigin')=='fullwidth-native' else '拉丁样文',None if r.get('asciiOrigin')=='absent' else r.get('asciiText')),('覆盖说明',r.get('coverage')),('缺字与未绘制' if r.get('renderOmitted') else '缺字',REFERENCE_COVERAGE if reference else missing(r) or '本次样本文字未发现缺字；不代表完整字库覆盖'),('样张类型',r.get('sampleLabel')),('风格',r.get('styles')),('用途',r.get('uses')),('字形来源',r.get('provenance')),('授权状态',r.get('licenseStatus')),('许可说明',r.get('licenseNote')),('说明',r.get('notes'))]
+ fields=[('家族',r['family']),('筛选依据',f"汉字设计格高 {r['designHeight']}px，不是固定字符框或原字体行高" if r.get('heightBasis')=='han-design-grid' else None),('有效字面筛选',f"{r['designHeight']}px；存储字框与边距另列" if r.get('heightBasis')=='han-ink-grid' else None),('排版说明',r.get('layoutNote')),('有字形但未绘制',r.get('renderOmissionNote')),('字符框',cell_dimensions(r)),('字框类型',variable_grid_label(r) if is_variable_grid(r) else None),('设计说明',VARIABLE_GRID_NOTE if is_variable_grid(r) else None),('资料类型',r.get('referenceType') or '参考资料' if reference else None),('核验边界',r.get('referenceNote') or REFERENCE_WARNING if reference else None),('字面／墨迹',f"{r['inkWidth']}×{r['inkHeight']} px" if r.get('inkWidth') and r.get('inkHeight') else None),('字符范围',r['scripts']),('样本文字',r.get('text')),('全角英数样文（非ASCII）' if r.get('asciiOrigin')=='fullwidth-native' else '拉丁样文',None if r.get('asciiOrigin')=='absent' else r.get('asciiText')),('覆盖说明',r.get('coverage')),('缺字与未绘制' if r.get('renderOmitted') else '缺字',REFERENCE_COVERAGE if reference else missing(r) or '本次样本文字未发现缺字；不代表完整字库覆盖'),('样张类型',r.get('sampleLabel')),('风格',r.get('styles')),('用途',r.get('uses')),('字形来源',r.get('provenance')),('授权状态',r.get('licenseStatus')),('许可说明',r.get('licenseNote')),('说明',r.get('notes'))]
  out='<dl class="detail-list">'+''.join(dlrow(k,v) for k,v in fields)+dlrow('来源',link(r['sourceUrl'],r.get('sourceLabel') or '来源项目'),True)
  ev=r.get('nativeEvidence')
  if ev:
@@ -76,6 +76,7 @@ def details(r):
   out+='</section>'
  return out
 def page_description(r):
+ if r.get('heightBasis')=='han-ink-grid':return f"{r['name']}：有效中文字面{r['designHeight']}点，原存储{r['cellWidth']}×{r['cellHeight']}字框与空白完整保留；实物提取样张、来源边界与联系试用说明。"
  if r.get('heightBasis')=='han-design-grid':return f"{r['name']}：汉字设计格高 {r['designHeight']}px，原设计格点还原，不是内嵌位图或固定字符框；含原字体来源、排版与授权说明。"
  if is_reference(r):
   return f"{r['name']}资料：{r.get('referenceType') or '参考资料'}，展示原始资料图、来源与许可线索。{REFERENCE_WARNING}；{REFERENCE_COVERAGE}。"

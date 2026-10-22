@@ -18,7 +18,7 @@ for row in rows:
     if 'specimenWidth' in row: assert row['specimenWidth'] == width
     if 'specimenHeight' in row: assert row['specimenHeight'] == height
     for key in ['scripts','styles','uses']: assert isinstance(row[key], list)
-    assert row['sourceUrl'].startswith(('https://','http://'))
+    assert (row.get('sourceUrl') and row['sourceUrl'].startswith(('https://','http://'))) or (row.get('sourceType')=='physical-extraction' and row['sourceUrl'] is None and row.get('sourceLabel'))
 wordmark = (ROOT / 'assets/wordmark.png').read_bytes()
 assert struct.unpack('>II', wordmark[16:24]) == (192, 48), 'Wordmark must retain 2×3 rectangular pixels'
 html = (ROOT / 'index.html').read_text()

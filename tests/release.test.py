@@ -4,7 +4,7 @@ import hashlib,json
 R=Path(__file__).resolve().parents[1]
 rows=json.loads((R/'data/catalog.json').read_text());release=json.loads((R/'data/release-v16.json').read_text());byid={r['id']:r for r in rows}
 removed=set(json.loads((R/'data/curation.json').read_text())['postV17RemovedIds']);assert removed=={'monotype_bitmap_hk','hanyi-pixel-power','hanyi-pixel-invasion','fzbase','gb48_2025_reference','fzfeng'}
-assert len(rows)==len(byid)==200
+assert len(rows)==len(byid)==202
 assert (set(release['baseIds'])|set(release['addedIds']))-removed<=set(byid)
 assert len(release['baseIds'])==155 and len(release['addedIds'])==36
 for id,sha in release['baseRowChecksums'].items():
@@ -31,5 +31,5 @@ assert byid['elisa_8_native']['asciiOrigin']=='fullwidth-native'
 assert byid['cns40_original']['asciiOrigin']=='fullwidth-native'
 assert '\n' in byid['yh_1999_16']['text'] and byid['yh_1999_16']['asciiText']
 assert all(not r['asciiText'] and r['asciiOrigin']=='absent' for r in added if r['family']=='Palm CJKOS')
-s=json.loads((R/'data/summary.json').read_text());assert s['rows']==200 and s['referenceRows']==1 and s['nativePngCount']==199
+s=json.loads((R/'data/summary.json').read_text());assert s['rows']==202 and s['referenceRows']==1 and s['nativePngCount']==201
 print('v16 checks passed: base155 preserved, only allowed Silver provenance changes;29 native/design-grid+1 retained reference; explicit pixel-style exclusions, no excluded/unapproved fonts; hashes and source/privacy boundaries valid.')
