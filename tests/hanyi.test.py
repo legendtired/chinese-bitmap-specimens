@@ -5,7 +5,7 @@ rows=json.loads((R/'data/catalog.json').read_text());hs=[r for r in rows if r['i
 assert len(hs)==4
 assert set(json.loads((R/'data/curation.json').read_text())['postV17ModifiedIds'])=={r['id'] for r in hs}
 for r in hs:
- g=r['acquisitionGuide'];assert len(g['steps'])==3 and '不等于免费商用' in g['notice']
+ g=r['acquisitionGuide'];assert g['steps']==[] and '不等于免费商用' in g['notice']
  assert g['links'][0]['url']==r['sourceUrl']
  page=(R/'fonts'/f"{r['id']}.html").read_text()
  for item in g['links']:assert item['url'].replace('&','&amp;') in page

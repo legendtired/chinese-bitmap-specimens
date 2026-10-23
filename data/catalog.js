@@ -41,7 +41,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "50f9bfa47290c3048cb77de984d61583ddf1ad4a4fd75c40460a191781991f2c",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在仓库中获取 BoutiqueBitmap9x9_1.93.ttf，使用 10px 字框。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/scott0107000/BoutiqueBitmap9x9/blob/HEAD/BoutiqueBitmap9x9_1.93.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "fusion10",
@@ -85,7 +97,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "a9ab9a9614d6bc46b9b282cba772af2439e717eaa60be614363ce62d6c76c1c8",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Releases 的 2026.10.16 版本选择 10px monospaced BDF 包，使用简体 zh_hans 字体。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/TakWolf/fusion-pixel-font/releases/tag/2026.10.16"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "firefly_sung_11",
@@ -129,7 +153,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "38c30f42c7b6e34cbc6afcc70b64c40ffb9fababb5800ac8afcdd7f363d5989a",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 11px 的内嵌点阵，而非矢量轮廓。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "boutique9bold",
@@ -174,7 +210,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "8cc35513f58f34461dc8877e63bf214c166e43b6552e79d839ad2d97786e2acd",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在仓库中选择 Bold_Add_Spacing/BoutiqueBitmap9x9_Bold_1.93.ttf；粗体请使用加字距版本。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/scott0107000/BoutiqueBitmap9x9/blob/HEAD/Bold_Add_Spacing/BoutiqueBitmap9x9_Bold_1.93.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "firefly_sung_12",
@@ -218,7 +266,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "b18059197114168dbf80d4f921d81c8820d78feae4cfe35f4a3e40f86f00a7bd",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 12px 的内嵌点阵，而非矢量轮廓。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "zlabs12",
@@ -262,7 +322,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "5f614a7a33090ef4b3b5595f58b150accef55ffc8a2204804f6b7054c9db52d8",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Releases 获取 ZLabsPixel_12px_M_CN.ttf（简体 CN 版）。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/Astro-2539/ZLabs-Pixel-12px/releases/tag/Build_20260519"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "wenquanyi_song_12",
@@ -306,7 +378,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "06dadb7486e264864d52643914b9216179d687a2112904b557af8e258b9b2327",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "需原始点阵请取 Original Fonts/wenquanyi_9pt.pcf；桌面使用可选同页 12px TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF/blob/HEAD/Original%20Fonts/wenquanyi_9pt.pcf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ark12",
@@ -354,7 +438,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "9176d019f64bce10a903a33c15b8b1e39953a57e3129adc1b83f4395cb199afd",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Releases 的 2026.10.16 版本选择 12px monospaced BDF 包，使用简体 zh_hans 字体。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/TakWolf/ark-pixel-font/releases/tag/2026.10.16"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "changbandiansong-12",
@@ -398,7 +494,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "8da094108cc6953184363a1a845c858d94cb3fe6a68486ee65e912271de29fe2",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Sources 目录获取 ChangBanDianSong-12.bdf 原始点阵。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/yzdnn/ChangBanDianSong-12/blob/HEAD/Sources/ChangBanDianSong-12.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "cubic11",
@@ -442,7 +550,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "f80ea57a8e3a163aa8784bda65e8c54865f8ca34aea6b68ac1a87d23014b0a69",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 fonts/ttf 目录获取 Cubic_11.ttf，按 12px 字框使用。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/ACh-K/Cubic-11/blob/HEAD/fonts/ttf/Cubic_11.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "zpix12",
@@ -486,7 +606,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "df73e225b2fbef7953b753fda0a736828032344419846592a9960a52e37b72d5",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Releases 获取 zpix.bdf 原始点阵；个人/教育用途免费，商业用途需另行授权。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/SolidZORO/zpix-pixel-font/releases/tag/v3.3.0"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "firefly_sung_13",
@@ -530,7 +662,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "f52d83eb686f119adf19a56bc16ca4be516608bb8620ae84896f819e1264b0ff",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 13px 的内嵌点阵，而非矢量轮廓。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "wenquanyi_song_13",
@@ -574,7 +718,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "547e06cbe3d00452c174f843abf1d5bc784daeccdc5ae1edcde747e3a5e32996",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "需原始点阵请取 Original Fonts/wenquanyi_10pt.pcf；桌面使用可选同页 13px TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF/blob/HEAD/Original%20Fonts/wenquanyi_10pt.pcf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "firefly_sung_14",
@@ -618,7 +774,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "b0df78059745f78cbdd3a6a2c33059a8a688950b6cf51f92e8e6cdd198c39913",
-    "priority": 60
+    "priority": 60,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 14px 的内嵌点阵，而非矢量轮廓。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "wenquanyi_song_14",
@@ -662,7 +830,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "12a132015b82173e6080fdf046f0e6091cb125fa4cd23c96ef5760a0d996a287",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "需原始点阵请取 Original Fonts/wenquanyi_13px.pcf；桌面使用可选同页 14px TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF/blob/HEAD/Original%20Fonts/wenquanyi_13px.pcf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "firefly_sung_15",
@@ -706,7 +886,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "3a75e445b7efc09100798d9b09f43560d746bdba173e5973d6fd09de908ce95e",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 15px 的内嵌点阵，而非矢量轮廓。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "wenquanyi_song_15",
@@ -750,7 +942,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "e1da7c318cddf4520e6fb396052ca5b5c3a9fa48144e51069ff3813e0ffc2e82",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "需原始点阵请取 Original Fonts/wenquanyi_11pt.pcf；桌面使用可选同页 15px TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF/blob/HEAD/Original%20Fonts/wenquanyi_11pt.pcf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "efont_biwidth_16",
@@ -794,7 +998,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "9ff5549d4d9e9e990ccf0bd4f972d0b838fd91c7dfcfcf48e101bb261785fbfe",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在来源目录下载 efont-unicode-bdf-0.4.2.tar.bz2，解压后使用 b16.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "firefly_sung_16",
@@ -838,7 +1049,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "fb8fbc0af71b183786e24f77df782ec79757825c077e78c056f7b3cc6eee7081",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 16px 的内嵌点阵，而非矢量轮廓。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "gnu_unifont_16",
@@ -882,7 +1105,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "b980be7c5962c0343ba1d0e9f9e056c68e72bef0e92edacdd7e486c06a94846c",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 GNU 目录选择 unifont-16.0.04.bdf.gz，解压即为原生 16 点阵 BDF。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "renoufangsong-16",
@@ -926,7 +1156,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "5ec621c4daa88469d3c08dead8cc777e89134315b33ea50ba4a2ffb487d3def4",
-    "priority": 50
+    "priority": 50,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Sources 目录获取 RenOuFangSong-16.bdf 原始点阵。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/yzdnn/RenOuFangSong-16/blob/HEAD/Sources/RenOuFangSong-16.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "badingshiweiti-16",
@@ -970,7 +1212,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "ebae2f08df3d9f4cbcc65ad50d5932aa2fb5a7cff9b9f60cb9e15f0523edeae3",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Sources 目录获取 BaDingShiWeiTi-16.bdf 原始点阵。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/yzdnn/BaDingShiWeiTi-16/blob/HEAD/Sources/BaDingShiWeiTi-16.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "shanweizhouhei-16",
@@ -1014,7 +1268,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "74e4bfd5ea76491839d46fb1895b04e879ccafaef9f7227059b5450630d64308",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Sources 目录获取 ShanWeiZhouHei-16.bdf 原始点阵。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/yzdnn/ShanWeiZhouHei-16/blob/HEAD/Sources/ShanWeiZhouHei-16.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "wenquanyi_song_16",
@@ -1058,7 +1324,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "69b93e727609621c7c141355020fb1e5a472a9025354846eb0caad43f566726a",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "需原始点阵请取 Original Fonts/wenquanyi_12pt.pcf；桌面使用可选同页 16px TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF/blob/HEAD/Original%20Fonts/wenquanyi_12pt.pcf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "zhenggedianhei-16",
@@ -1102,7 +1380,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "d441ce5d3c26a8fe4157ddaef3cc0e3e309adb7515e658e6d6b22809ef0c159d",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Sources 目录获取 ZhengGeDianHei-16.bdf 原始点阵。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/yzdnn/ZhengGeDianHei-16/blob/HEAD/Sources/ZhengGeDianHei-16.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "qiuyeyuanti-16",
@@ -1146,7 +1436,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "9dd8f789b420f78a9f800eaae6149fd4259444416e62b91e901d22ea6cda64c1",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Sources 目录获取 QiuYeYuanTi-16.bdf 原始点阵。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/yzdnn/QiuYeYuanTi-16/blob/HEAD/Sources/QiuYeYuanTi-16.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "changbandiansong-16",
@@ -1190,7 +1492,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "ff19630a8df83527758721b6373ce5fa1a761f47dd56ad980bfcd91f7b6f0122",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Sources 目录获取 ChangBanDianSong-SC-16.bdf 原始点阵。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/yzdnn/ChangBanDianSong-16/blob/HEAD/Sources/ChangBanDianSong-SC-16.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "efont_biwidth_24",
@@ -1234,7 +1548,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "0fc26c3bfe829f20197434ceaf34cfcef23354b0931d7b6e6012d1d359fbdb13",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在来源目录下载 efont-unicode-bdf-0.4.2.tar.bz2，解压后使用 b24.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "tomzbj_hzk11us",
@@ -1336,7 +1657,19 @@ window.FONT_CATALOG = [
     "priority": 0,
     "omittedEmptyLines": [
       "ascii"
-    ]
+    ],
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在仓库根目录获取 HZK11US；这是 Unicode 顺序的 11 点阵二进制字库。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/tomzbj/unicode_hzk_smlib_gen/blob/HEAD/HZK11US"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hzk_hzk12",
@@ -1380,7 +1713,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "93836fdd7fe0c9923bca0d2b706507e87542465dce26f90c8b6e8eb99effd38e",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 font 目录获取 HZK12；这是字模数据，不是可直接安装的 TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK12"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hzk_hzk14",
@@ -1424,7 +1769,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "277a413e14a4135aa9bc8c81609b57568f7a70eb15161e72b456f9f8371b7a4f",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 font 目录获取 HZK14；这是字模数据，不是可直接安装的 TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK14"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ccic_eb5_15j",
@@ -1468,7 +1825,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "c6d90f8c57e18d63537851c1dbcbb86c762f7f74a2fb5ddf70e45670314c5da2",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "来源目录中的 eb5-15j.bdf.gz 为原生 BDF；镜像当前访问不稳定。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "guobiao_song_16",
@@ -1512,7 +1876,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "820238d8af2a2ea260fbebb42a8264a783f55baec036ffc57c632c8f43bae2b1",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 intlfonts-1.4.2.tar.gz，解压后使用 Chinese/guob16.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hzk_hzk16",
@@ -1556,7 +1927,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "a7b509d5b621c7b9f73b2e53da8e7c374c4c7726f1079f49048e641a6cc10944",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 font 目录获取 HZK16；这是字模数据，不是可直接安装的 TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK16"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hzk_hzk16s",
@@ -1600,7 +1983,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "d1280e49eeaa6dea716ceb7ef54178fd57b39bdad4309eb420211bce32c52abc",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 font 目录获取 HZK16S；这是字模数据，不是可直接安装的 TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK16S"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "isas_fangsong_16",
@@ -1644,7 +2039,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "7a30df026db26674c493783764f6fbc9f90eb42911865f10248491454e316276",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 intlfonts-1.4.2.tar.gz，解压后使用 Chinese.X/gb16fs.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hbf_Beijing16",
@@ -1688,7 +2090,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "f6a09c8911fc05c06b277bb26dd2bd9fd0fb4ce9114d718f25fa166e3566f979",
-    "priority": 40
+    "priority": 40,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "需同时取得 Beijing16.hbf、Beijing16.1.gz、Beijing16.2.gz、ccsym.16；镜像当前访问不稳定。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hbf_cck24",
@@ -1732,7 +2141,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "36f9f19ea24004c700af3cde295ca4b317aa77434e76bdf640af8fdea8d7ef3f",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "需同时取得 cck24.hbf、cclib.k24.gz、ccsym.24；镜像当前访问不稳定。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hzk_hzk24f",
@@ -1776,7 +2192,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "6cda3aa10b03653e431d8b51013596df86211c037eb99978ea2f780a4283ac86",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 font 目录获取 HZK24F；这是字模数据，不是可直接安装的 TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK24F"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hzk_hzk24s",
@@ -1820,7 +2248,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "eaadda241da15ece57afe14b7b13f59318dbfb1568f361cdfc3a28f11f9c6ac4",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 font 目录获取 HZK24S；这是字模数据，不是可直接安装的 TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK24S"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hzk_hzk24k",
@@ -1864,7 +2304,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "23566d8db64da5167116d684dab07f6bb9123c2374980ae470a01b4667113c8b",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 font 目录获取 HZK24K；这是字模数据，不是可直接安装的 TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK24K"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hzk_hzk24h",
@@ -1908,7 +2360,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "214545149e48a9bd164a0165baa7008d013c664586a8d35f76bc5b10da8475f5",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 font 目录获取 HZK24H；这是字模数据，不是可直接安装的 TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK24H"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "isas_song_24",
@@ -1961,7 +2425,14 @@ window.FONT_CATALOG = [
         "licenseNote": "\"(C) 1988, ISAS.  Permission to use.\"",
         "comparison": "当前完整样张 PNG（612×52）逐像素一致，两份资料均注明 ISAS 1988；仅据样文合并，不断言完整字库一致。"
       }
-    ]
+    ],
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 intlfonts-1.4.2.tar.gz，解压后使用 Chinese.X/gb24st.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "mplus_bitmap_10",
@@ -2005,7 +2476,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "ae54e52346031d420184c5a7fa1e5de2eb3ec5f43e4d060b005979c7d2990113",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 mplus_bitmap_fonts-2.2.4.tar.gz，日文汉字用 mplus_j10r.bdf，西文用 mplus_h10r.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "shinonome_12_gothic",
@@ -2049,7 +2527,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "103c0e27d2e3a7902b42f21c2efcce94075b2ffed05f71bdc5e9f81e5c6ac96f",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 xfonts-shinonome_0.9.11.orig.tar.gz，解压后使用 bdf/shnmk12.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "mplus_bitmap_12",
@@ -2103,7 +2588,14 @@ window.FONT_CATALOG = [
         "licenseNote": "Silver存在独立许可及大预算/收入附加条件，不能套用代码仓库MIT或M+许可。",
         "provenance": "汉字advance12，em19；不能据em称19×19新中文字形。"
       }
-    ]
+    ],
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 mplus_bitmap_fonts-2.2.4.tar.gz，日文汉字用 mplus_j12r.bdf，西文用 mplus_h12r.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "shinonome_14_gothic",
@@ -2147,7 +2639,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "acbe5b632af5b13e406c265319c009d5c3d6648c5005a9d54d8b8291bb9a8fdf",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 xfonts-shinonome_0.9.11.orig.tar.gz，解压后使用 bdf/shnmk14.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "shinonome_14_mincho",
@@ -2191,7 +2690,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "7aee830f46e7859949d49e47af0ad21aa12b9154d077954594ddf1eaf5b375e1",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 xfonts-shinonome_0.9.11.orig.tar.gz，解压后使用 bdf/shnmk14min.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ccic_eb5_15f",
@@ -2235,7 +2741,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "499cf7c388aa53fe7ff9be2d931e89719013d8aa34f54b46226b02a7c08f24fa",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "来源目录中的 eb5-15f.bdf.gz 为原生 BDF；镜像当前访问不稳定。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hbf_cclibf16",
@@ -2279,7 +2792,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "981297b75317bec9f283b7ede96d117ca8033b1f9e9ea627773b2d4483200198",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "需同时取得 cclibf16.hbf、cclibf.16.gz、cclib.16a；镜像当前访问不稳定。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "eten_taipei_16",
@@ -2323,7 +2843,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "b049c5c98014dc84fe44cde98ccb6983d82b647c27dfc92301f5acc74faceac8",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 intlfonts-1.4.2.tar.gz，解压后使用 Chinese/taipei16.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hzk_hzk16f",
@@ -2367,7 +2894,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "1140711cab1bafafe9018fdfe8f07dbef73db061f1bb89396446e84a07df5446",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 font 目录获取 HZK16F；这是字模数据，不是可直接安装的 TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK16F"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "shinonome_16_gothic",
@@ -2411,7 +2950,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "bdd6d968647dfabc1837645dc49d65318c8e8f1fab6b8a9cf37fab56046d840b",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 xfonts-shinonome_0.9.11.orig.tar.gz，解压后使用 bdf/shnmk16.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "shinonome_16_mincho",
@@ -2455,7 +3001,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "0126f94637230ec2ce4e4891bb7d87d0d7489c2c8f114c17bdaf04141cd5bd36",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 xfonts-shinonome_0.9.11.orig.tar.gz，解压后使用 bdf/shnmk16min.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "taipei15",
@@ -2499,7 +3052,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "c7789243d6410a049b0250e5a9d2c217e0f303a639f11fc62ad3dbfe87bb0690",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在来源目录选择 taipei15.pcf.gz，解压后为原生 PCF 点阵文件。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ccic_uwb5_16m",
@@ -2543,7 +3103,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "4c798b5e18f472c98f15928bdcbf2145a5ee5dc0a851c3eab3a68a680ff3f33b",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "来源目录中的 uwb5-16m.bdf.gz 为原生 BDF；镜像当前访问不稳定。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "fashion16",
@@ -2587,7 +3154,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "b5a43e2203ac621d45dcedf695443ea6ecd01923afe53f250df17f78f37fe205",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在仓库根目录获取 FashionBitmap16_0.092.ttf，按 16px 原生网格使用。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/scott0107000/FashionBitmap16/blob/HEAD/FashionBitmap16_0.092.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ayu_gothic_18",
@@ -2631,7 +3210,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "134a455c9fbd64a1c38f1e34d1becf094204f9a64f9e31d0dce7af3bf60841fe",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 sazanami-20040629.tar.bz2，使用 sazanami-gothic.ttf 内嵌的 18px 点阵层。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ayu_gothic_20",
@@ -2675,7 +3261,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "38bc41e0c6ecbb68daf04fb89c027135901b2a2b92b096914135618cc8ec71cb",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 sazanami-20040629.tar.bz2，使用 sazanami-gothic.ttf 内嵌的 20px 点阵层。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kappa_20_b",
@@ -2720,7 +3313,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "db9f9e5ea0d996908b54aaea34f03cbb695f819c435adf8b1bcc7594c334ee6c",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 xfonts-kappa20_0.396.orig.tar.xz，解压后使用 k20b.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kappa_20_m",
@@ -2764,7 +3364,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "e5ec7372795f33156b8af925ba1930edec24fc7b85791c66c8251e53561ca65b",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 xfonts-kappa20_0.396.orig.tar.xz，解压后使用 k20m.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ccic_cmex24m",
@@ -2808,7 +3415,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "20f5a319dfbdfe245958fdf402454dfc7c16803906c5d9b418fd3a73781d76a5",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "来源目录中的 cmex24m.bdf.gz 为原生 BDF；镜像当前访问不稳定。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "eten_taipei_24",
@@ -2852,7 +3466,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "1c484e26fe870abb470c36afaf017c7aad379d3e5c2ccca6fd56e8c25a61c0ba",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载 intlfonts-1.4.2.tar.gz，解压后使用 Chinese/taipei24.bdf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "taipeik24",
@@ -2896,7 +3517,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "fcc10b4a124f143f039cef78616089ee62abbdfe68f598eae98c6cfbf01e10e9",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在来源目录选择 taipeik24.pcf.gz，解压后为原生 PCF 点阵文件。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "taipeil24",
@@ -2940,7 +3568,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "466f8e9ca410959c16dc01ff709925a46d5d402a8f36b91868287d845e81a8fb",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在来源目录选择 taipeil24.pcf.gz，解压后为原生 PCF 点阵文件。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "taipeim24",
@@ -2984,7 +3619,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "00e9bf472750473a2f3fd1fd5b86da39efd45f8da81b51dbdf1517093c0f5e14",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在来源目录选择 taipeim24.pcf.gz，解压后为原生 PCF 点阵文件。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ccic_eb5_24f",
@@ -3028,7 +3670,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "1ba97b5ae56f73362a76d8971f7b251543fc4af0b07b657386a5f1ec2e64c5ec",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "来源目录中的 eb5-24f.bdf.gz 为原生 BDF；镜像当前访问不稳定。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ccic_eb5_24k2",
@@ -3072,7 +3721,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "c0e8ff148db17f077c621dadf55c51b8557c8b61c6b40a4e1b5290add971bbd5",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "来源目录中的 eb5-24k2.bdf.gz 为原生 BDF；镜像当前访问不稳定。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "panasonic-mn1871681",
@@ -3116,7 +3772,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "aef2c9c88b04e5df147878d86378484d097144d92009771d24670d9f450c0b67",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "仅有规格书字符表，本页字样为重建对照，暂无完整字体下载。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://www.alldatasheet.com/datasheet-pdf/pdf/116097/PANASONIC/MN1871681.html"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "sony-g90-original",
@@ -3160,7 +3828,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "7a657eb91d6f7d765d54abdfc3a61e647eda486f5b62a4e549155e5fd8b62628",
-    "priority": 20
+    "priority": 20,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "下载页提供 v1.11 的 Firmware code，字模位于固件包中，需另行解析。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_hei_9",
@@ -3204,7 +3879,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "90225b909c1b8c96a0324dab2d452e843a9b91dc804b2c0c5110d062b36d778f",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Hei.ttf 含 9px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Hei.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dinkie9",
@@ -3248,7 +3935,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "b08f9c0c0331fa4c83f2a047d18125318af627ce4f9b213925060c5953c298cb",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "作者页面提供试用版；完整版本及授权请联系 atelierAnchor。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://atelier-anchor.com/typefaces/dinkie-bitmap"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "fusion_bold_pixel_10px_monospaced_zh_hans",
@@ -3293,7 +3992,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "5e06aed69f7e720e3b21757c6158018e17d9fa325476a614580cd6f480175fa6",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Releases 的 2026.09.01 版本选择 10px monospaced BDF 包，使用简体 zh_hans 字体。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/pixel-font-studio/fusion-bold-pixel-font/releases/tag/2026.09.01"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "lanapixel_11px",
@@ -3339,7 +4050,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "38169cea78ea8ad13075e5c02cc2f9aa899b6c624fff3ce53cfd541bb085dd6c",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "来源为作者的 OpenGameArt 发布页；当前下载入口暂未核实，请留意含中文的完整版本。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "mingliu_native_11",
@@ -3383,7 +4101,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "84fe0bac5141e2feb43537603731ff9555722f84cb1fe9eab579c5f9fe624a8a",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 11px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "muzaipixel",
@@ -3427,7 +4157,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "09c42726809f7d7373d03ced1e0ff44cf1b6373d4524d1779a29c666f6b8256e",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Releases 的 2.0.20241013 版本获取 MZPXorig.ttf；这是样张对应的 8×12 原版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/DWNfonts/MuzaiPixel/releases/tag/2.0.20241013"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "liorachip10x12",
@@ -3471,7 +4213,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "81119f1e172524d77e77fc5e4e2be78e76a270bc0693a4ce6f3b5c8de919b4ff",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 fonts 目录获取 LioraChip10x12_261011.ttf；当前为 261011 版，与页面旧快照版本待核对。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/LioraChen09/LioraChip10x12/blob/HEAD/fonts/LioraChip10x12_261011.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "zlabs_round12",
@@ -3515,7 +4269,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "ea0fe9e2abfa3fb593966a655cf273c2678ee36f78a8265ef1ca07870dc4096b",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Releases 获取 ZLabsRoundPix_12px_M_CN.ttf（CN 原版）；不要选 MD/MS 特效版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/Astro-2539/ZLabs-RoundPix-12px/releases/tag/Build_20260813"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_hei_12",
@@ -3559,7 +4325,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "9be54da95c3af87d3d100a9be77cf223d247966db74003ca936078657c1706d1",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Hei.ttf 含 12px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Hei.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_kai_12",
@@ -3603,7 +4381,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "2014cdb59f344997108eb23344d6d04f3085b3f515bcaa02e46b92cc9050d073",
-    "priority": 80
+    "priority": 80,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Kai.ttf 含 12px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Kai.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "mingliu_native_12",
@@ -3647,7 +4437,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "fc2f25f529042807432d783add2a5f15b57b0757760977b4f2a7509935f6e8a4",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 12px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "nightgazer12b_12px",
@@ -3692,7 +4494,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "ad3a1ed5bfbdd93ab765b8c8b841023e4c84814e80d9aefd3b110edc230d61dc",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在项目根目录选择 Nightgazer12B.ttf，这是 12px 粗体版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/scott0107000/Nightgazer-Bitmap/blob/main/Nightgazer12B.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "founder_pixel12",
@@ -3747,7 +4561,14 @@ window.FONT_CATALOG = [
         "comparison": "已核验样本共 24 个不同汉字及 2 个中文标点的 12×12 像素一致；仅据这些样本合并展示，不代表完整字库相同或授权相同。",
         "coverageNote": "该 SimSun 版本的 12px 原生点阵不含可打印 ASCII；文件的轮廓层包含数字与拉丁字符。此处预览全部来自方正自身，不混用 SimSun 与方正字形。"
       }
-    ]
+    ],
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在方正像素家族页面选择 12px 款，通过“获得字体 / 获取授权”获取。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "poxiaopixel_cn_12px",
@@ -3791,7 +4612,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "1d71adec0a840630bb46188ab3f39263120ced5884ef1f4e9704a77648604694",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在作者 itch.io 页面下载 Poxiao Pixel 1.0.0，选用 CN 12px 版本。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "fusion_bold_pixel_12px_monospaced_zh_hans",
@@ -3836,7 +4664,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "0f33c9c95bc4104faa4cf8dfe184be6cf2d4211ab655daec7c0f7e1718c623d5",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Releases 的 2026.09.01 版本选择 12px monospaced BDF 包，使用简体 zh_hans 字体。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/pixel-font-studio/fusion-bold-pixel-font/releases/tag/2026.09.01"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "mingliu_native_13",
@@ -3880,7 +4720,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "09df5f0332553f23906298bf5b9bc4f0e9cb619a284f8ff08a6bce80a44955af",
-    "priority": 70
+    "priority": 70,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 13px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "nightgazer13b_13px",
@@ -3925,7 +4777,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "6d6b63b9ce5a545ac6aefe5a82f82f64cb8776751c1609c61ea3347d7dad4f56",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在项目根目录选择 Nightgazer13B.ttf，这是 13px 粗体版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/scott0107000/Nightgazer-Bitmap/blob/main/Nightgazer13B.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "nightgazer14b_14px",
@@ -3970,7 +4834,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "28c2c748be7bf32d6556940276f1c554a03c59e255213caf69b3a7b6f99e8b73",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在项目根目录选择 Nightgazer14B.ttf，这是 14px 粗体版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/scott0107000/Nightgazer-Bitmap/blob/main/Nightgazer14B.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "uranus_pixel_11px_14px",
@@ -4014,7 +4890,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "5a1af61e7c56c9d6b2424f9ed31e78bcb09e278228596b7e3241ccce5b8e316f",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "项目根目录获取 Uranus_Pixel_11Px.ttf；11px 指字面，实际使用 14px 网格。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/scott0107000/Uranus-Pixel/blob/main/Uranus_Pixel_11Px.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "founder_pixel14",
@@ -4069,7 +4957,14 @@ window.FONT_CATALOG = [
         "version": "5.03",
         "coverageNote": "该字号原生点阵不含可打印 ASCII；文件轮廓层有数字与拉丁字符。本预览全部使用方正自身字形，不借字混排。"
       }
-    ]
+    ],
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在方正像素家族页面选择 14px 款，通过“获得字体 / 获取授权”获取。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "mingliu_native_15",
@@ -4113,7 +5008,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "5491812be3ee3420d42d88a97101fd7e59763f97925862589d11d9ec9f6d41be",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 15px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "nightgazer15b_15px",
@@ -4158,7 +5065,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "fe80b953ea98228b2f9f20b501d8f9a92ebf0b186a6c9e8409ae58e59e34ef5e",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在项目根目录选择 Nightgazer15B.ttf，这是 15px 粗体版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/scott0107000/Nightgazer-Bitmap/blob/main/Nightgazer15B.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "founder_pixel15",
@@ -4202,7 +5121,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "c9b0262f501337c23e858ea05d0cbc3542f7fb2c3182a5cf1fabdcb30b0ebbbc",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在方正像素家族页面选择 15px 款，通过“获得字体 / 获取授权”获取。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "zlabs_round16",
@@ -4246,7 +5172,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "b5119a0c2927dc5f9cab101587d51e4ad44022e64699d6006f6218aa270adc4d",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "原生点阵在 data/ZLabsRoundPix_16px_CN.kbitx；安装试用到 Releases 的 Build_20260501 选 ZLabsRoundPix_16px_M_CN.ttf。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/Astro-2539/ZLabs-RoundPix-16px/blob/main/data/ZLabsRoundPix_16px_CN.kbitx"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_hei_16",
@@ -4290,7 +5228,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "596e492d832d5847f8140e13955cb531e26de74f4d10b334531cc9b779650cd4",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Hei.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Hei.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_kai_16",
@@ -4334,7 +5284,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "4fb118dc5cc16afa7e33c9b0348d2dcd1ada7c8a20c435c88346360c7d55cb71",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Kai.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Kai.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "mingliu_native_16",
@@ -4378,7 +5340,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "08e8b1c10e64f4ae5e839d1c0b61b9bf5ef975e2b982e06494cc56c295853ca3",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 16px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "nightgazer16b_16px",
@@ -4423,7 +5397,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "73a1a2e60d1063f1cc6099862452234685552dec09c574bdeee393d94a5be626",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在项目根目录选择 Nightgazer16B.ttf，这是 16px 粗体版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/scott0107000/Nightgazer-Bitmap/blob/main/Nightgazer16B.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "founder_pixel18",
@@ -4467,7 +5453,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "b87a76a04e8e5da6f6d82e097d2d84bf858719102c09010f069bde06ccf6046d",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在方正像素家族页面选择 18px 款，通过“获得字体 / 获取授权”获取。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "mingliu_native_20",
@@ -4511,7 +5504,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "ea2836c5d658e48cd90c9a6af8949e2c3c2bd0cbadf2a2948a56fc3b9a7f27c3",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 20px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_hei_24",
@@ -4555,7 +5560,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "03e185015ad0125813db073e78c2f2af593c4205001531c29f001850381eac79",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Hei.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Hei.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_kai_24",
@@ -4599,7 +5616,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "a7129e3d47e9ccb79b4f026715f0863c610b56775330ca518254142e116e9018",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Kai.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Kai.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "founder_pixel24",
@@ -4643,7 +5672,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "99c08c5efe5e07d7ee87806a32d03f12889ee255f3138d511faec4b4c5875a7d",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在方正像素家族页面选择 24px 款，通过“获得字体 / 获取授权”获取。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "nisc_native_16",
@@ -4745,7 +5781,19 @@ window.FONT_CATALOG = [
     "priority": 0,
     "omittedEmptyLines": [
       "ascii"
-    ]
+    ],
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 NISC18030.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/NISC18030.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "tumbled18",
@@ -4842,7 +5890,19 @@ window.FONT_CATALOG = [
     "priority": 0,
     "omittedEmptyLines": [
       "ascii"
-    ]
+    ],
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "Releases 提供 PBF_TUMBLED.zip；原生 18 号字模在 fonts/TUMBLED_18，不是可直接安装的 TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/TsFreddie/TUMBLED/blob/main/fonts/TUMBLED_18/font.json"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "tumbled24",
@@ -4939,7 +5999,19 @@ window.FONT_CATALOG = [
     "priority": 0,
     "omittedEmptyLines": [
       "ascii"
-    ]
+    ],
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "Releases 提供 PBF_TUMBLED.zip；原生 24 号字模在 fonts/TUMBLED_24，不是可直接安装的 TTF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/TsFreddie/TUMBLED/blob/main/fonts/TUMBLED_24/font.json"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_biaukai_9",
@@ -4983,7 +6055,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "851bac53192adaef031e636b0294923d4a7039110f7cc33bff942d4d6745635f",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 BiauKai.ttf 含 9px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/BiauKai.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_lisung_9",
@@ -5027,7 +6111,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "223744ef8b676390f9f7a49d1c0a30e948de0b0ae81536b4222de4ba32c1e974",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Apple LiSung Light.ttf 含 9px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiSung%20Light.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "bestten_crt_10px",
@@ -5071,7 +6167,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "5b380433e7c83a0badf2467245accf51e38c4044dd0818b502e90d4ad8ca655a",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "登录 BOOTH 后下载 Best10-FONT.zip，选用 CRT 款。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "galmuri9",
@@ -5115,7 +6218,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "78e3e07ab667603289ca3bb7f4f5f2a389f3343f4ab4d5daa8543c8d0b89eb48",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "进入 dist，选 Galmuri9.bdf 获取点阵；安装试用选同目录 Galmuri9.ttf。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/quiple/galmuri/blob/main/dist/Galmuri9.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "mona10_bold_10px",
@@ -5162,7 +6277,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "dc38047f0ac73638da9ac8b67c67e3ca50d9631c915b025b369934988c0854cc",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "作者 Releases 中选 2026.08.16 的 MonaFont-ttf.zip，再选 Mona10 Bold，与样张版本对应。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/MonadABXY/mona-font/releases/tag/2026.08.16"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "jf_dot_k12x10_10px",
@@ -5206,7 +6333,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "b02cd014138fd4c19f956524b80f439559015c67927476dd6e225ddd73970b27",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在自家製ドットフォント页面下载 jfdotfont-20150527.zip，选用 JF-Dot-k12x10.ttf。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "http://jikasei.me/font/jf-dotfont/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "k8x12_12px",
@@ -5250,7 +6389,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "595555b17272b26152b07d1468339f71676b1937941c5906193c427aa7bc59f9",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "作者页面提供 BDF 和 TTF 包，本字样对应 k8x12 2021-05-05 版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://littlelimit.net/k8x12.htm"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "galmuri11",
@@ -5294,7 +6445,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "1e811fe19a4779a5a6533201185c524f0270780cbe65139a5a8a14a82841b0ca",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "进入 dist，选 Galmuri11.bdf 获取点阵；安装试用选同目录 Galmuri11.ttf。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/quiple/galmuri/blob/main/dist/Galmuri11.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "jf_dot_k12b_12px",
@@ -5339,7 +6502,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "d0d92485dc901a2543fd30d09b1e17328fab67eddce11a4ed8e328ce6914a375",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 FontPixel 对应目录获取 JF-Dot-K12B-12px.bdf，这是 BDF 点阵文件。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/fontpixel/fontpixel.com/blob/main/fonts/k12/JF-Dot-K12B-12px.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "jf_dot_k12_12px",
@@ -5383,7 +6558,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "229509c4a0e7b3b20fa4f0c80cf1d1e465c615f6a4f7217bb0e01e2f587326e9",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 FontPixel 对应目录获取 JF-Dot-K12-12px.bdf，这是 BDF 点阵文件。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/fontpixel/fontpixel.com/blob/main/fonts/k12/JF-Dot-K12-12px.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kh_dot_kodenmachou_12_12px",
@@ -5427,7 +6614,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "e2a031c9c93f4ee220e378454f43c6a288fe336c91ec55b685313bc6ea014e62",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在作者页面下载 khdotfont-20150527.zip，选用 KH-Dot-Kodenmachou-12.ttf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kh_dot_kagurazaka_12_12px",
@@ -5471,7 +6665,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "aff65b20b092f3e8d619d9fd871b5755ce934205e4e2fdefd56117e3e95f95ff",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在作者页面下载 khdotfont-20150527.zip，选用 KH-Dot-Kagurazaka-12.ttf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kh_dot_dougenzaka_12_12px",
@@ -5515,7 +6716,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "2ce3881fa8d12bd8a0c536f8ac48c9bc6f6bf7077d9dc5dbef3e4d28a8b8a2a2",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在作者页面下载 khdotfont-20150527.zip，选用 KH-Dot-Dougenzaka-12.ttf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_biaukai_12",
@@ -5559,7 +6767,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "b6545a87714958bee17b7822966bb08a6b46a0d8135608fa8329ab4e48baa87f",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 BiauKai.ttf 含 12px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/BiauKai.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_lisung_12",
@@ -5603,7 +6823,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "a69fa23c525e3238a7a86689e11047b3d8b955daf046ed5eb85d94abf3bcd0bf",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Apple LiSung Light.ttf 含 12px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiSung%20Light.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "xiaoya12",
@@ -5647,7 +6879,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "00fac3268907687ca143b5693f4c31f3b36c44bc39690e0dd71db000c0e27e1a",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "项目根目录获取 XiaoyaPixel.ttf；也提供 XiaoyaPixel.kbitx 原稿。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/DWNfonts/XiaoyaPixel-Classic/blob/main/XiaoyaPixel.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "jf_dot_kaname12_12px",
@@ -5691,7 +6935,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "e315571eb8bb4ed2d7b479db993a3cf49ed1396067dc8200d7180f916edf9a14",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 FontPixel 对应目录获取 JF-Dot-Kaname12-12px.bdf，这是 BDF 点阵文件。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/fontpixel/fontpixel.com/blob/main/fonts/kanamecho/JF-Dot-Kaname12-12px.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "jf_dot_k14b_14px",
@@ -5736,7 +6992,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "bcf508ab7cfa0ea7eefb2c75d75bca8d5636eb6fbd9f0d76e35d242203dfb142",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 FontPixel 对应目录获取 JF-Dot-K14B-14px.bdf，这是 BDF 点阵文件。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/fontpixel/fontpixel.com/blob/main/fonts/k14/JF-Dot-K14B-14px.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "galmuri14",
@@ -5780,7 +7048,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "fa6368dbdc7b83dcf27d746963f2399b93ea3f6137aae530d760f6238b3c5c51",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "进入 dist，选 Galmuri14.bdf 获取点阵；安装试用选同目录 Galmuri14.ttf。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/quiple/galmuri/blob/main/dist/Galmuri14.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dotgothic16_regular_16px",
@@ -5826,7 +7106,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "96f16355282248696febdac3439bd771d6448ebfd254e5657b0b4498e7df55bf",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "进入 fonts/ttf 获取 DotGothic16-Regular.ttf，按 16px 或整数倍使用。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/fontworks-fonts/DotGothic16/blob/master/fonts/ttf/DotGothic16-Regular.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kh_dot_ningyouchou_16_16px",
@@ -5870,7 +7162,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "01c86391a52c2d44d4c6a9ae2fd5f5aafb2e6944ef9a084c9502bb227c1aa196",
-    "priority": 30
+    "priority": 30,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在作者页面下载 khdotfont-20150527.zip，选用 KH-Dot-Ningyouchou-16.ttf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kh_dot_hatchoubori_16_16px",
@@ -5914,7 +7213,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "9c97ac6dc8538d554c9d2b36b360a74148b6b474f49f40633faf53af7e20fec9",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在作者页面下载 khdotfont-20150527.zip，选用 KH-Dot-Hatchoubori-16.ttf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kh_dot_kodenmachou_16_16px",
@@ -5958,7 +7264,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "122e5a4812e586205cc9dedecd26115d6f484e4a33b48250f04ef7c775a7e7b1",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在作者页面下载 khdotfont-20150527.zip，选用 KH-Dot-Kodenmachou-16.ttf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kh_dot_kagurazaka_16_16px",
@@ -6002,7 +7315,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "754f79c3432d4167150e0ef1d821a0c27dbfa5f2e1e51d9e7daa6c53c1e5620d",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在作者页面下载 khdotfont-20150527.zip，选用 KH-Dot-Kagurazaka-16.ttf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kh_dot_akihabara_16_16px",
@@ -6046,7 +7366,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "ecc78d6d59c860d4347ee55b88014a2f195c1aad5be03c9445674db5b2a970d8",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在作者页面下载 khdotfont-20150527.zip，选用 KH-Dot-Akihabara-16.ttf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kh_dot_dougenzaka_16_16px",
@@ -6090,7 +7417,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "f6e8d283bc35b274478157332a73fcf68312539731a5e97dc17a2b0c0239f8bd",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在作者页面下载 khdotfont-20150527.zip，选用 KH-Dot-Dougenzaka-16.ttf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "zlabsdiamondpix_16px_sc",
@@ -6144,7 +7478,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "bc60ae6f7bab430a291f96820b2c56e504d9ca2ff857870296c1de3b19d3ae51",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "原生点阵在 data/ZLabsDiamondPix_16px_SC.kbitx；安装试用到 Releases 的 Build_20260309 选 ZLabsDiamondPix_16px_M_SC.ttf。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/Astro-2539/ZLabs-DiamondPix-16px/blob/main/data/ZLabsDiamondPix_16px_SC.kbitx"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_biaukai_16",
@@ -6188,7 +7534,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "2a603b17d57bf6f5a6745d3185e767962316519fe57eec4e7ecc23aaafe3868a",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 BiauKai.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/BiauKai.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_ligothic_16",
@@ -6232,7 +7590,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "146731688168686753522a0663bb860f59b8115b853d288733d67d6f216a629a",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Apple LiGothic Medium.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiGothic%20Medium.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_lisung_16",
@@ -6276,7 +7646,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "79c1960d0bf515edb96f25b16f7f9fb7900a2ac0ae4b34000df0713ae227a40f",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Apple LiSung Light.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiSung%20Light.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "jf_dot_jiskan16s_16px",
@@ -6320,7 +7702,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "9e501fff658daa049c94cd3a305aff2d3db69245e5892716056651e26830f51e",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 FontPixel 对应目录获取 JF-Dot-jiskan16s-16px.bdf，这是 BDF 点阵文件。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/fontpixel/fontpixel.com/blob/main/fonts/jiskan/JF-Dot-jiskan16s-16px.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "jf_dot_milkjf16b_16px",
@@ -6365,7 +7759,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "c6908f19e18a87b3a38732405b7edabd6d505c98eab3690d36a6b0f9fbecc70d",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "FontPixel 提供 JF-Dot-milkjf16B-16px.bdf；与本站样张的一致性尚待核对。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/fontpixel/fontpixel.com/blob/main/fonts/milkjf/JF-Dot-milkjf16B-16px.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "jf_dot_izumi16_16px",
@@ -6409,7 +7815,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "55755fd1f6129307262dfc5e5a64b4f9eadc7412637a9517777ea3ab798d658d",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在自家製ドットフォント页面下载 jfdotfont-20150527.zip，选用 JF-Dot-Izumi16.ttf。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "http://jikasei.me/font/jf-dotfont/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "jf_dot_izumi16b_16px",
@@ -6454,7 +7872,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "ad6737ddbfb9311fdd2951f4e83e472db6abbbe7f8867c1c885fdcee8399e195",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在自家製ドットフォント页面下载 jfdotfont-20150527.zip，选用 JF-Dot-Izumi16B.ttf。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "http://jikasei.me/font/jf-dotfont/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kh_dot_hibiya_24_24px",
@@ -6498,7 +7928,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "4d9dafc54fe77bd4f8924aeb6a2ee1748b3b758daaddd6b3a7565061d81e4e95",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在作者页面下载 khdotfont-20150527.zip，选用 KH-Dot-Hibiya-24.ttf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_biaukai_24",
@@ -6542,7 +7979,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "268c163754ef58827d5af588ac06470a8b5db09608a82bc1ab7b91f11d8186b8",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 BiauKai.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/BiauKai.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_ligothic_24",
@@ -6586,7 +8035,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "f7700691803da5ead0d3e4a04fc1ce77fe35024b8e1091ba6582717aac051fec",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Apple LiGothic Medium.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiGothic%20Medium.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "apple_lisung_24",
@@ -6630,7 +8091,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "e210249288576fd0a2a2e2dd65d7c68b2d20bd19bcba6fe823a55c78551726a9",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "资料镜像中的 Apple LiSung Light.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiSung%20Light.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "gulim24",
@@ -6678,7 +8151,19 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "4d8a168845ecbfa9a35a6ed191bf48256696f3e9f3d8c2709c3526d7f4fbd39f",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "项目根目录获取 gulim24.bdf，即 24px 点阵。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/chocolatemelt/baekmuk/blob/master/gulim24.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "kh_dot_hibiya_32_32px",
@@ -6722,7 +8207,14 @@ window.FONT_CATALOG = [
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "2d37161698e90d5e8f472f250d85c084e08c0820cdea8b99c2b9e818b04c4ed4",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在作者页面下载 khdotfont-20150527.zip，选用 KH-Dot-Hibiya-32.ttf。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "xiuzhen6x8",
@@ -6768,7 +8260,19 @@ window.FONT_CATALOG = [
     "inkWidth": 5,
     "inkHeight": 7,
     "specimenSha256": "87da19c5d3750a1535e9415b4099e22af13cba90ebc9fe0a7a06540ae4f0d50f",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "原生字模在 Sources/XiuZhenXiangSuTi-8.bdf；安装试用选 Fonts/XiuZhenXiangSuTi.ttf。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/yzdnn/XiuZhenXiangSuTi/blob/main/Sources/XiuZhenXiangSuTi-8.bdf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "boutique7",
@@ -6816,7 +8320,19 @@ window.FONT_CATALOG = [
     "inkWidth": 7,
     "inkHeight": 7,
     "specimenSha256": "20c973a9142645181d29e2bd3607e64b56b5105b4ca02414084cdda3b963b68c",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "项目根目录获取 BoutiqueBitmap7x7.ttf；字面 7×7，字框 8×8。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/scott0107000/BoutiqueBitmap7x7/blob/main/BoutiqueBitmap7x7.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "chill7",
@@ -6864,7 +8380,19 @@ window.FONT_CATALOG = [
     "inkWidth": 7,
     "inkHeight": 7,
     "specimenSha256": "9e38657cf57625fc74af9aff8b2cee0c86cd955dc18c6ff0d781dbb6cdb33676",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "项目根目录下载 ChillBitmap7x_v2.500.zip，选 7px 系列试用。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/Warren2060/ChillBitmap/blob/main/ChillBitmap7x_v2.500.zip"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "fusion8",
@@ -6910,7 +8438,19 @@ window.FONT_CATALOG = [
     "inkWidth": 7,
     "inkHeight": 7,
     "specimenSha256": "b6bb916dd2213ba7c866be4679116a26a09327499ac8247818ed9d6dc5e919fb",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Releases 的 2026.10.16 版本选择 8px monospaced BDF 包，使用简体 zh_hans 字体。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/TakWolf/fusion-pixel-font/releases/tag/2026.10.16"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "misaki8",
@@ -6956,7 +8496,14 @@ window.FONT_CATALOG = [
     "inkWidth": 7,
     "inkHeight": 7,
     "specimenSha256": "f08f9405faa1380364bb31f40fbb379e9cf3b9ef0646aaf0c8b27d2004ceac02",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "作者页面提供 BDF 和 TTF 包，本字样对应 misaki 2021-05-05 版。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "k6x8",
@@ -7002,7 +8549,14 @@ window.FONT_CATALOG = [
     "inkWidth": 5,
     "inkHeight": 7,
     "specimenSha256": "ce9b79ea06474748ff19106bf32f697c42ba944f1029569a0fb85168d8d0fed9",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "作者页面提供 BDF 和 TTF 包，本字样对应 k6x8 2023-10-19 版。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dinkie7",
@@ -7050,7 +8604,19 @@ window.FONT_CATALOG = [
     "inkWidth": 7,
     "inkHeight": 7,
     "specimenSha256": "f30ffc20b125590ce1b5d743efd07aca4004ab8e57e0d0c773808d8e96b763d2",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "作者页面提供试用版；完整版本及授权请联系 atelierAnchor。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://atelier-anchor.com/typefaces/dinkie-bitmap"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "miseki8",
@@ -7098,7 +8664,19 @@ window.FONT_CATALOG = [
     "inkWidth": 7,
     "inkHeight": 7,
     "specimenSha256": "b9bacab38e2f57bbe4e86705e2f111191ab4a174599c7c5f41505550eb9c045b",
-    "priority": 0
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "进入 fonts 获取 MisekiBitmap.ttf，不要选另一款 MisekiBitmapMincho.ttf。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/ItMarki/MisekiBitmap/blob/main/fonts/MisekiBitmap.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dotum-native-12",
@@ -7159,7 +8737,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/dotum-native-12.png",
     "specimenWidth": 171,
     "specimenHeight": 29,
-    "specimenSha256": "18e70e5fb5d1762336c4e8c48debbabeac634c531299da20d867688c38122855"
+    "specimenSha256": "18e70e5fb5d1762336c4e8c48debbabeac634c531299da20d867688c38122855",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "获取 sources/ttf/Dotum.ttf 并读取内嵌 12px 点阵；不要选不含点阵的 hinted/unhinted 版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/googlefonts/gulim/blob/main/sources/ttf/Dotum.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dotum-native-14",
@@ -7220,7 +8810,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/dotum-native-14.png",
     "specimenWidth": 224,
     "specimenHeight": 34,
-    "specimenSha256": "43036ca5ea5ae55564eb6d3b7b5fa8e19cefcbd2ab26b6393ee2908eabe15bfe"
+    "specimenSha256": "43036ca5ea5ae55564eb6d3b7b5fa8e19cefcbd2ab26b6393ee2908eabe15bfe",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "获取 sources/ttf/Dotum.ttf 并读取内嵌 14px 点阵；不要选不含点阵的 hinted/unhinted 版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/googlefonts/gulim/blob/main/sources/ttf/Dotum.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dotum-native-16",
@@ -7281,7 +8883,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/dotum-native-16.png",
     "specimenWidth": 223,
     "specimenHeight": 37,
-    "specimenSha256": "2cfb7e4d4a109deadb1fa2b225d5425189864d6971464fddd0710e1c3024c356"
+    "specimenSha256": "2cfb7e4d4a109deadb1fa2b225d5425189864d6971464fddd0710e1c3024c356",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "获取 sources/ttf/Dotum.ttf 并读取内嵌 16px 点阵；不要选不含点阵的 hinted/unhinted 版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/googlefonts/gulim/blob/main/sources/ttf/Dotum.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "batang-native-14",
@@ -7342,7 +8956,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/batang-native-14.png",
     "specimenWidth": 212,
     "specimenHeight": 34,
-    "specimenSha256": "4eebc2a0123981aa72202f425e6578c8bf7d8684f14e891633c2679fbf3d6c35"
+    "specimenSha256": "4eebc2a0123981aa72202f425e6578c8bf7d8684f14e891633c2679fbf3d6c35",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "获取 sources/ttf/Batang.ttf 并读取内嵌 14px 点阵；不要选不含点阵的 hinted/unhinted 版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/googlefonts/batang/blob/main/sources/ttf/Batang.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "batang-native-16",
@@ -7403,7 +9029,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/batang-native-16.png",
     "specimenWidth": 242,
     "specimenHeight": 37,
-    "specimenSha256": "3a31dc40a7000ea5f73ac9022984696b4cf1f098f49ca5fae9d84b2ba1db3d13"
+    "specimenSha256": "3a31dc40a7000ea5f73ac9022984696b4cf1f098f49ca5fae9d84b2ba1db3d13",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "获取 sources/ttf/Batang.ttf 并读取内嵌 16px 点阵；不要选不含点阵的 hinted/unhinted 版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/googlefonts/batang/blob/main/sources/ttf/Batang.ttf"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ms-gothic-native-10",
@@ -7464,7 +9102,14 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/ms-gothic-native-10.png",
     "specimenWidth": 139,
     "specimenHeight": 26,
-    "specimenSha256": "00ed11d22e53cc0faf9d7fac214f04b531791352c170b0fb1cc09849033f8f85"
+    "specimenSha256": "00ed11d22e53cc0faf9d7fac214f04b531791352c170b0fb1cc09849033f8f85",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "随 Windows 等产品提供，可从已获授权的 Msgothic.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ms-gothic-native-13",
@@ -7525,7 +9170,14 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/ms-gothic-native-13.png",
     "specimenWidth": 193,
     "specimenHeight": 31,
-    "specimenSha256": "e6a9fa01112c6693d0f497b444eae31fbd8ebb06936b1b84f8d662b2bc60dceb"
+    "specimenSha256": "e6a9fa01112c6693d0f497b444eae31fbd8ebb06936b1b84f8d662b2bc60dceb",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "随 Windows 等产品提供，可从已获授权的 Msgothic.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ms-gothic-native-16",
@@ -7586,7 +9238,14 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/ms-gothic-native-16.png",
     "specimenWidth": 220,
     "specimenHeight": 37,
-    "specimenSha256": "0d323f5c341222dece9641170723d21cbe16e4fff168a8bb9a2683c799beaae7"
+    "specimenSha256": "0d323f5c341222dece9641170723d21cbe16e4fff168a8bb9a2683c799beaae7",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "随 Windows 等产品提供，可从已获授权的 Msgothic.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ms-mincho-native-13",
@@ -7647,7 +9306,14 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/ms-mincho-native-13.png",
     "specimenWidth": 193,
     "specimenHeight": 31,
-    "specimenSha256": "5c11272058ae6e1db11d1731fd0c135b8ee5b2b9f76bfc889217dfd04ecb7979"
+    "specimenSha256": "5c11272058ae6e1db11d1731fd0c135b8ee5b2b9f76bfc889217dfd04ecb7979",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "随 Windows 等产品提供，可从已获授权的 Msmincho.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ms-mincho-native-16",
@@ -7708,7 +9374,14 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/ms-mincho-native-16.png",
     "specimenWidth": 220,
     "specimenHeight": 37,
-    "specimenSha256": "981652513402197abf64b61dfb1162c9ea12882ee96079fc5d0ebf5d4870a354"
+    "specimenSha256": "981652513402197abf64b61dfb1162c9ea12882ee96079fc5d0ebf5d4870a354",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "随 Windows 等产品提供，可从已获授权的 Msmincho.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "osaka-native-9",
@@ -7775,7 +9448,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/osaka-native-9.png",
     "specimenWidth": 150,
     "specimenHeight": 25,
-    "specimenSha256": "13cfadfeaf2b0a3862d6c70fabcf59275c910a3851edce025f537bc418e2ad9b"
+    "specimenSha256": "13cfadfeaf2b0a3862d6c70fabcf59275c910a3851edce025f537bc418e2ad9b",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "历史归档页提供 Osaka.zip；请使用包含内嵌点阵的版本，不要选 OutlineOnly。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "osaka-native-14",
@@ -7842,7 +9527,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/osaka-native-14.png",
     "specimenWidth": 221,
     "specimenHeight": 34,
-    "specimenSha256": "412af1496925d03d1dfe129630219d15136578ebdc244bb7fb392266b00a1d18"
+    "specimenSha256": "412af1496925d03d1dfe129630219d15136578ebdc244bb7fb392266b00a1d18",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "历史归档页提供 Osaka.zip；请使用包含内嵌点阵的版本，不要选 OutlineOnly。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "osaka-native-18",
@@ -7915,7 +9612,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/osaka-native-18.png",
     "specimenWidth": 281,
     "specimenHeight": 42,
-    "specimenSha256": "3aa01f44b926d79d2eb72372575c846cb3c3408fd726974b87c7b180932df717"
+    "specimenSha256": "3aa01f44b926d79d2eb72372575c846cb3c3408fd726974b87c7b180932df717",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "历史归档页提供 Osaka.zip；请使用包含内嵌点阵的版本，不要选 OutlineOnly。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "osaka-native-24",
@@ -7982,7 +9691,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/osaka-native-24.png",
     "specimenWidth": 376,
     "specimenHeight": 54,
-    "specimenSha256": "034589fbec57d6077c9679bd9dbc84e1a926a530b4edf95fe2c485eed9ef11d1"
+    "specimenSha256": "034589fbec57d6077c9679bd9dbc84e1a926a530b4edf95fe2c485eed9ef11d1",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "历史归档页提供 Osaka.zip；请使用包含内嵌点阵的版本，不要选 OutlineOnly。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "palm_cjkos_fgb10f",
@@ -8035,7 +9756,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/palm_cjkos_fgb10f.png",
     "specimenWidth": 132,
     "specimenHeight": 10,
-    "specimenSha256": "5813979c0388db482458ae92111f64441af93dcb1b3244d960aa019d75216bda"
+    "specimenSha256": "5813979c0388db482458ae92111f64441af93dcb1b3244d960aa019d75216bda",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FGB10F.PDB。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://palmdb.net/app/cjkos"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "palm_cjkos_fb510f",
@@ -8088,7 +9821,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/palm_cjkos_fb510f.png",
     "specimenWidth": 132,
     "specimenHeight": 10,
-    "specimenSha256": "16a3ffc53e499e85423ce235fe0225865c5e59ed6853ceeae70db245aeb201c8"
+    "specimenSha256": "16a3ffc53e499e85423ce235fe0225865c5e59ed6853ceeae70db245aeb201c8",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FB510F.PDB。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://palmdb.net/app/cjkos"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "palm_cjkos_fgb12f",
@@ -8141,7 +9886,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/palm_cjkos_fgb12f.png",
     "specimenWidth": 156,
     "specimenHeight": 12,
-    "specimenSha256": "d682a613873ae70b0d227c483a6ea301ffff0966a9866ba40b491c70f5cf4cda"
+    "specimenSha256": "d682a613873ae70b0d227c483a6ea301ffff0966a9866ba40b491c70f5cf4cda",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FGB12F.PDB。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://palmdb.net/app/cjkos"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "palm_cjkos_fb512f",
@@ -8194,7 +9951,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/palm_cjkos_fb512f.png",
     "specimenWidth": 156,
     "specimenHeight": 12,
-    "specimenSha256": "0014929593ed5fe0f9fe16d358b6010633e5b03bedf9b3101a2faddfa17d6ee8"
+    "specimenSha256": "0014929593ed5fe0f9fe16d358b6010633e5b03bedf9b3101a2faddfa17d6ee8",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FB512F.PDB。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://palmdb.net/app/cjkos"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "elisa_8_native",
@@ -8240,7 +10009,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/elisa_8_native.png",
     "specimenWidth": 200,
     "specimenHeight": 20,
-    "specimenSha256": "72bed518158c387369cbda03132dc656ff8c219dc7da6c64f0e9a095f9100416"
+    "specimenSha256": "72bed518158c387369cbda03132dc656ff8c219dc7da6c64f0e9a095f9100416",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "Vector 下载页提供 elisa100.lzh，内为 ELISA.FNT 原始 8×8 字库。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://www.vector.co.jp/soft/dl/data/writing/se013782.html"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "yh_1999_16",
@@ -8287,7 +10068,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/yh_1999_16.png",
     "specimenWidth": 216,
     "specimenHeight": 56,
-    "specimenSha256": "e4dd258a1aa8f9da49217ad117c13e54d02bbd852b11400bef86d553f48b9047"
+    "specimenSha256": "e4dd258a1aa8f9da49217ad117c13e54d02bbd852b11400bef86d553f48b9047",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "历史源码包内有 gbk16.fnt；与本样张 1999.11.15 版是否完全一致仍待核对。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://archive.debian.org/debian/pool/main/y/yh/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "flippercn_20240803_ui",
@@ -8334,7 +10127,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/flippercn_20240803_ui.png",
     "specimenWidth": 137,
     "specimenHeight": 41,
-    "specimenSha256": "6f6fb787b82812f87dd21508311cc6e4ddb762d1f04ffee9c591b4be3f3b92ac"
+    "specimenSha256": "6f6fb787b82812f87dd21508311cc6e4ddb762d1f04ffee9c591b4be3f3b92ac",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "来源提供 20240803 固件包；字模需另行提取，没有独立可安装字体下载。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://github.com/ZhaiRenGaiZaoJia/FlipperZero-CN-Firmware/blob/main/mntm_cn-20240803%E5%85%AC%E6%B5%8B%E7%89%88/mntm_cn-20240803Test.tgz"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "marumonica_cn_12x16",
@@ -8398,7 +10203,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/marumonica_cn_12x16.png",
     "specimenWidth": 161,
     "specimenHeight": 36,
-    "specimenSha256": "3d3bf844fa85b4cb73ad7d0d70116aeda82b7424f11b7847ed720903561743e3"
+    "specimenSha256": "3d3bf844fa85b4cb73ad7d0d70116aeda82b7424f11b7847ed720903561743e3",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "请从泽七字体库获取 MaruMonica 中文扩展版，不要只下载原作者的日文版。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://fonts.zeoseven.com/items/636/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "naga10_10x10",
@@ -8448,7 +10265,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/naga10_10x10.png",
     "specimenWidth": 135,
     "specimenHeight": 24,
-    "specimenSha256": "4f7c58fce1f1ced25730041f514830f0ca6e9bb50b39bec1271063fce93432a9"
+    "specimenSha256": "4f7c58fce1f1ced25730041f514830f0ca6e9bb50b39bec1271063fce93432a9",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在 Debian 源码目录获取 knj10.bdf，这是 10×10 原始 BDF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://sources.debian.org/src/xfonts-naga10/1.1-15/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "paw16_16x16",
@@ -8497,7 +10326,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/paw16_16x16.png",
     "specimenWidth": 216,
     "specimenHeight": 36,
-    "specimenSha256": "a8822f7057a56587131ec7581b3550bcd371c1ae5415363df3f67e7e006bc98a"
+    "specimenSha256": "a8822f7057a56587131ec7581b3550bcd371c1ae5415363df3f67e7e006bc98a",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "在自家製ドットフォント页面下载 Paw 专用包 jfdot-paw-20150527.zip，使用 JF-Dot-Paw16.ttf。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "http://jikasei.me/font/jf-dotfont/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "cns40_original",
@@ -8542,7 +10383,19 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/cns40_original.png",
     "specimenWidth": 1056,
     "specimenHeight": 104,
-    "specimenSha256": "47ffda1a9a281631ded7926a20277089cdd532dedc00157acd00660582eadb8d"
+    "specimenSha256": "47ffda1a9a281631ded7926a20277089cdd532dedc00157acd00660582eadb8d",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "Debian 历史归档提供 hbf-cns40-1 原始包，内含 40×40 的 HBF/BIN 字库。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://archive.debian.org/debian/pool/main/h/hbf-cns40-1/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "hanyi-pixel9",
@@ -8590,12 +10443,8 @@ window.FONT_CATALOG = [
     "specimenSha256": "5e5bef33d05d167d345c8217b32197949f0afe6e6839e958744087a4e97fbbb5",
     "acquisitionGuide": {
       "title": "官网授权与获取",
-      "steps": [
-        "在汉仪官网字体列表搜索“汉仪像素9px”，进入对应字体介绍页，查看当前可获取版本及授权范围。",
-        "按官网提示注册或登录账号，阅读适用协议；注册可能需要手机号验证码，当前页面也展示公众号“下载激活”步骤，具体以官网当时流程为准。",
-        "完成官网要求的授权及激活流程后，从该字体页面获取个人非商用版本。商用或其他用途请先办理对应授权。"
-      ],
-      "notice": "个人非商用授权不等于免费商用，也不自动涵盖网站公开展示、嵌入或再分发；请根据实际用途核对协议并向汉仪确认。本站不提供原字体文件或直接下载链接。",
+      "steps": [],
+      "notice": "在汉仪官网搜索“汉仪像素 9px”；对应下载入口仍待确认，获取条件以具体产品页为准。 个人非商用不等于免费商用，请按实际用途核对授权。",
       "links": [
         {
           "label": "官网字体页面",
@@ -8610,7 +10459,7 @@ window.FONT_CATALOG = [
           "url": "https://hanyi.com.cn/license"
         }
       ],
-      "checkedOn": "2026-10-22"
+      "checkedOn": "2026-10-23"
     },
     "gridReconstruction": true,
     "heightBasis": "han-design-grid",
@@ -8686,12 +10535,8 @@ window.FONT_CATALOG = [
     "specimenSha256": "daf8733765db23fa4ce72d091c7d61d36d67f3139e990b64445e508723760bec",
     "acquisitionGuide": {
       "title": "官网授权与获取",
-      "steps": [
-        "在汉仪官网字体列表搜索“汉仪像素11px”，进入对应字体介绍页，查看当前可获取版本及授权范围。",
-        "按官网提示注册或登录账号，阅读适用协议；注册可能需要手机号验证码，当前页面也展示公众号“下载激活”步骤，具体以官网当时流程为准。",
-        "完成官网要求的授权及激活流程后，从该字体页面获取个人非商用版本。商用或其他用途请先办理对应授权。"
-      ],
-      "notice": "个人非商用授权不等于免费商用，也不自动涵盖网站公开展示、嵌入或再分发；请根据实际用途核对协议并向汉仪确认。本站不提供原字体文件或直接下载链接。",
+      "steps": [],
+      "notice": "在汉仪官网注册登录后下载个人非商用版；商用请另行购买授权。 个人非商用不等于免费商用，请按实际用途核对授权。",
       "links": [
         {
           "label": "官网字体页面",
@@ -8706,7 +10551,7 @@ window.FONT_CATALOG = [
           "url": "https://hanyi.com.cn/license"
         }
       ],
-      "checkedOn": "2026-10-22"
+      "checkedOn": "2026-10-23"
     },
     "gridReconstruction": true,
     "heightBasis": "han-design-grid",
@@ -8784,12 +10629,8 @@ window.FONT_CATALOG = [
     "specimenSha256": "41814daeabdc2f2fcaa3750ebb218a75bc4a4587d0eb50a17479c9ca97aaa441",
     "acquisitionGuide": {
       "title": "官网授权与获取",
-      "steps": [
-        "在汉仪官网字体列表搜索“汉仪像素13px”，进入对应字体介绍页，查看当前可获取版本及授权范围。",
-        "按官网提示注册或登录账号，阅读适用协议；注册可能需要手机号验证码，当前页面也展示公众号“下载激活”步骤，具体以官网当时流程为准。",
-        "完成官网要求的授权及激活流程后，从该字体页面获取个人非商用版本。商用或其他用途请先办理对应授权。"
-      ],
-      "notice": "个人非商用授权不等于免费商用，也不自动涵盖网站公开展示、嵌入或再分发；请根据实际用途核对协议并向汉仪确认。本站不提供原字体文件或直接下载链接。",
+      "steps": [],
+      "notice": "在汉仪官网搜索“汉仪像素 13px”；对应下载入口仍待确认，获取条件以具体产品页为准。 个人非商用不等于免费商用，请按实际用途核对授权。",
       "links": [
         {
           "label": "官网字体页面",
@@ -8804,7 +10645,7 @@ window.FONT_CATALOG = [
           "url": "https://hanyi.com.cn/license"
         }
       ],
-      "checkedOn": "2026-10-22"
+      "checkedOn": "2026-10-23"
     },
     "gridReconstruction": true,
     "heightBasis": "han-design-grid",
@@ -8880,12 +10721,8 @@ window.FONT_CATALOG = [
     "specimenSha256": "1a3007a6322d77f0f446c370c1ee2559f207a9913e89af72381c1ee4f99f1c3a",
     "acquisitionGuide": {
       "title": "官网授权与获取",
-      "steps": [
-        "在汉仪官网字体列表搜索“汉仪像素行楷15px”，进入对应字体介绍页，查看当前可获取版本及授权范围。",
-        "按官网提示注册或登录账号，阅读适用协议；注册可能需要手机号验证码，当前页面也展示公众号“下载激活”步骤，具体以官网当时流程为准。",
-        "完成官网要求的授权及激活流程后，从该字体页面获取个人非商用版本。商用或其他用途请先办理对应授权。"
-      ],
-      "notice": "个人非商用授权不等于免费商用，也不自动涵盖网站公开展示、嵌入或再分发；请根据实际用途核对协议并向汉仪确认。本站不提供原字体文件或直接下载链接。",
+      "steps": [],
+      "notice": "在汉仪官网注册登录后下载个人非商用版；商用请另行购买授权。 个人非商用不等于免费商用，请按实际用途核对授权。",
       "links": [
         {
           "label": "官网字体页面",
@@ -8900,7 +10737,7 @@ window.FONT_CATALOG = [
           "url": "https://hanyi.com.cn/license"
         }
       ],
-      "checkedOn": "2026-10-22"
+      "checkedOn": "2026-10-23"
     },
     "gridReconstruction": true,
     "heightBasis": "han-design-grid",
@@ -8970,7 +10807,14 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/chinasea_reference.png",
     "specimenWidth": 924,
     "specimenHeight": 139,
-    "specimenSha256": "79c21875a343ccc5cd2fc6dd81ca479ec2f7a99eff74333523f2598e3e20157e"
+    "specimenSha256": "79c21875a343ccc5cd2fc6dd81ca479ec2f7a99eff74333523f2598e3e20157e",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "此链接是历史外字图样与编码资料，不提供完整字体下载。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "konatu_native_12",
@@ -9015,7 +10859,14 @@ window.FONT_CATALOG = [
     "sourceLabel": "来源项目 / 资料页",
     "inkWidth": null,
     "inkHeight": null,
-    "specimen": "assets/specimens/konatu_native_12.png"
+    "specimen": "assets/specimens/konatu_native_12.png",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "作者页面下载区提供 Konatu_ver_20121218.zip；本样张读取其中的 12px 内嵌点阵。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "ccdb_cccii_64",
@@ -9063,7 +10914,14 @@ window.FONT_CATALOG = [
     "sourceLabel": "来源项目 / 资料页",
     "inkWidth": null,
     "inkHeight": null,
-    "specimen": "assets/specimens/ccdb_cccii_64.png"
+    "specimen": "assets/specimens/ccdb_cccii_64.png",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "京都大学字体目录提供 cccii64.bdf.Z，解压后为 64×64 BDF 字库。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "pixels_han_main",
@@ -9187,7 +11045,14 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/pixels_han_main.png",
     "specimenWidth": 110,
     "specimenHeight": 24,
-    "specimenSha256": "8776619052ff16a2e429e5cb560caab64c0e09053b6bc03e00e61ccaae0b2faf"
+    "specimenSha256": "8776619052ff16a2e429e5cb560caab64c0e09053b6bc03e00e61ccaae0b2faf",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "官网目前提供在线试字；完整字体获取及授权需向作者咨询，尚无自助下载。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "pixels_han_mono",
@@ -9311,7 +11176,14 @@ window.FONT_CATALOG = [
     "specimen": "assets/specimens/pixels_han_mono.png",
     "specimenWidth": 135,
     "specimenHeight": 22,
-    "specimenSha256": "d7054090e0a9d1ca29f11a96469b374a28d2b2281c43a4052afea745ecaca804"
+    "specimenSha256": "d7054090e0a9d1ca29f11a96469b374a28d2b2281c43a4052afea745ecaca804",
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "官网目前提供在线试字；完整字体获取及授权需向作者咨询，尚无自助下载。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dec_hei_big5_16",
@@ -9357,7 +11229,19 @@ window.FONT_CATALOG = [
     "licenseNote": "PCF版权属性：Copyright (c) 1988 Digital Equipment Corporation FE.。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
     "notes": "手册字面为15×16，实际PCF字框及字宽16×16。基线ascent/descent=12/4；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。此中文PCF层不含普通单字节ASCII，本样张不作全角替代、不借配套西文字库；不能据此说整个DEC系统没有西文。同尺寸Big5/CNS版本13,060个共同汉字逐位相同，只展示已核Big5代表，不拆成两款。",
     "priority": 0,
-    "sourceIndex": 212
+    "sourceIndex": 212,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://ftp.zx.net.nz/pub/Media/Digital/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dec_hei_big5_24",
@@ -9403,7 +11287,19 @@ window.FONT_CATALOG = [
     "licenseNote": "该PCF版权属性为空，不能视为公有领域。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
     "notes": "手册字面为22×22，实际PCF字框及字宽24×24。基线ascent/descent=18/6；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。此中文PCF层不含普通单字节ASCII，本样张不作全角替代、不借配套西文字库；不能据此说整个DEC系统没有西文。同尺寸Big5/CNS版本13,060个共同汉字逐位相同，只展示已核Big5代表，不拆成两款。",
     "priority": 0,
-    "sourceIndex": 213
+    "sourceIndex": 213,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://ftp.zx.net.nz/pub/Media/Digital/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dec_sung_cns11643_24",
@@ -9449,7 +11345,19 @@ window.FONT_CATALOG = [
     "licenseNote": "PCF版权属性：Copyright (c) 1990 Digital Equipment Corporation。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
     "notes": "手册字面为22×22，实际PCF字框及字宽24×24。基线ascent/descent=18/6；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。此中文PCF层不含普通单字节ASCII，本样张不作全角替代、不借配套西文字库；不能据此说整个DEC系统没有西文。",
     "priority": 0,
-    "sourceIndex": 214
+    "sourceIndex": 214,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://ftp.zx.net.nz/pub/Media/Digital/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dec_sung_cns11643_32",
@@ -9495,7 +11403,19 @@ window.FONT_CATALOG = [
     "licenseNote": "该PCF版权属性为空，不能视为公有领域。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
     "notes": "手册字面为30×30，实际PCF字框及字宽32×32；不是40点CNS字库的缩放版。基线ascent/descent=24/8；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。此中文PCF层不含普通单字节ASCII，本样张不作全角替代、不借配套西文字库；不能据此说整个DEC系统没有西文。",
     "priority": 0,
-    "sourceIndex": 215
+    "sourceIndex": 215,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://ftp.zx.net.nz/pub/Media/Digital/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dec_heiti_gb2312_16",
@@ -9541,7 +11461,19 @@ window.FONT_CATALOG = [
     "licenseNote": "PCF版权属性：Copyright (c) 1988 Digital Equipment Corporation Asia。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
     "notes": "手册字面为15×16，实际PCF字框及字宽16×16。基线ascent/descent=12/4；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。第二行取自原PCF的GB2312全角英数，不是半角ASCII，未借补西文字库。",
     "priority": 0,
-    "sourceIndex": 216
+    "sourceIndex": 216,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://ftp.zx.net.nz/pub/Media/Digital/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dec_fangsongti_gb2312_24",
@@ -9587,7 +11519,19 @@ window.FONT_CATALOG = [
     "licenseNote": "PCF版权属性：Copyright (c) 1991 Digital Equipment Corporation Asia.。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
     "notes": "手册字面为22×22，实际PCF字框及字宽24×24。基线ascent/descent=18/6；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。第二行取自原PCF的GB2312全角英数，不是半角ASCII，未借补西文字库。与指定HZK24F的6,763共同汉字已按±2px平移比较，中位IoU为0.478；像素差异不自动证明设计史独立。",
     "priority": 0,
-    "sourceIndex": 217
+    "sourceIndex": 217,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://ftp.zx.net.nz/pub/Media/Digital/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dec_songti_gb2312_34",
@@ -9633,7 +11577,19 @@ window.FONT_CATALOG = [
     "licenseNote": "PCF版权属性：Copyright (c) 1991 Digital Equipment Corporation Asia。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
     "notes": "手册32×32字面，PCF实际保存34×34字符框、advance=34、PIXEL_SIZE=34；包含原边距，不是把32点放大到34点。基线ascent/descent=26/8；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。第二行取自原PCF的GB2312全角英数，不是半角ASCII，未借补西文字库。已与指定先前移除的HZK32比较6,763共同汉字，排除逐位或仅数点微差副本；该结论不等于穷尽其他来源或证明设计独立，也不恢复旧HZK32。",
     "priority": 0,
-    "sourceIndex": 218
+    "sourceIndex": 218,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://ftp.zx.net.nz/pub/Media/Digital/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dec_heiti_gb2312_34",
@@ -9679,7 +11635,19 @@ window.FONT_CATALOG = [
     "licenseNote": "PCF版权属性：Copyright (c) 1991 Digital Equipment Corporation Asia。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
     "notes": "手册32×32字面，PCF实际保存34×34字符框、advance=34、PIXEL_SIZE=34；包含原边距，不是把32点放大到34点。基线ascent/descent=26/8；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。第二行取自原PCF的GB2312全角英数，不是半角ASCII，未借补西文字库。已与指定先前移除的HZK32比较6,763共同汉字，排除逐位或仅数点微差副本；该结论不等于穷尽其他来源或证明设计独立，也不恢复旧HZK32。",
     "priority": 0,
-    "sourceIndex": 219
+    "sourceIndex": 219,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://ftp.zx.net.nz/pub/Media/Digital/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dec_kaiti_gb2312_34",
@@ -9725,7 +11693,19 @@ window.FONT_CATALOG = [
     "licenseNote": "PCF版权属性：Copyright (c) 1991 Digital Equipment Corporation Asia。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
     "notes": "手册32×32字面，PCF实际保存34×34字符框、advance=34、PIXEL_SIZE=34；包含原边距，不是把32点放大到34点。基线ascent/descent=26/8；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。第二行取自原PCF的GB2312全角英数，不是半角ASCII，未借补西文字库。已与指定先前移除的HZK32比较6,763共同汉字，排除逐位或仅数点微差副本；该结论不等于穷尽其他来源或证明设计独立，也不恢复旧HZK32。",
     "priority": 0,
-    "sourceIndex": 220
+    "sourceIndex": 220,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://ftp.zx.net.nz/pub/Media/Digital/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "dec_fangsongti_gb2312_34",
@@ -9771,7 +11751,19 @@ window.FONT_CATALOG = [
     "licenseNote": "PCF版权属性：Copyright (c) 1991 Digital Equipment Corporation Asia。未发现完整字体开放再分发授权；本站仅展示固定字样，使用原字体须另核权利。",
     "notes": "手册32×32字面，PCF实际保存34×34字符框、advance=34、PIXEL_SIZE=34；包含原边距，不是把32点放大到34点。基线ascent/descent=26/8；墨迹包围盒随字变化，不拿字框充当每字墨迹尺寸。第二行取自原PCF的GB2312全角英数，不是半角ASCII，未借补西文字库。已与指定先前移除的HZK32比较6,763共同汉字，排除逐位或仅数点微差副本；该结论不等于穷尽其他来源或证明设计独立，也不恢复旧HZK32。",
     "priority": 0,
-    "sourceIndex": 221
+    "sourceIndex": 221,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。",
+      "links": [
+        {
+          "label": "查看获取线索",
+          "url": "https://ftp.zx.net.nz/pub/Media/Digital/"
+        }
+      ],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "relmon_ms6459",
@@ -9818,7 +11810,14 @@ window.FONT_CATALOG = [
     "licenseNote": "厂商规格书与原字形权利归相关权利人；未发现完整ROM或重建字库的开放再分发授权。仅展示已核固定小样，不提供字模数组或完整字体。",
     "notes": "样图只用已核的视、信、号、输、入、菜、道、期、五、0、1、4、9、A、V、:、单。单在0B9H；本版印刷表未见频/頻、單、星，不借补。五与偏左下的冒号保留原格，不人工修饰。空格仅作排版间隔；两行之间4px，不计作字符框。",
     "priority": 0,
-    "sourceIndex": 222
+    "sourceIndex": 222,
+    "acquisitionGuide": {
+      "title": "获取说明",
+      "steps": [],
+      "notice": "来源为芯片规格书字符表，暂无完整字库下载。",
+      "links": [],
+      "checkedOn": "2026-10-23"
+    }
   },
   {
     "id": "psa_c_screen_12",

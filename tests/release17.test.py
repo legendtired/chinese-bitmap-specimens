@@ -1,3 +1,4 @@
+from acquisition_baseline import before_acquisition
 """v17 approved scope, preserved v16.1 rows and variable-grid semantics."""
 from pathlib import Path
 import json,hashlib
@@ -8,7 +9,7 @@ assert len(manifest['baseIds'])==191 and len(manifest['addedIds'])==15
 assert (set(manifest['baseIds'])|set(manifest['addedIds']))-removed|{'psa_c_screen_12','psa_c_screen_14'}==set(byid)
 for id,sha in manifest['baseRowChecksums'].items():
  if id in removed or id in json.loads((R/'data/curation.json').read_text()).get('postV17ModifiedIds',[]):continue
- assert hashlib.sha256(json.dumps(byid[id],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()==sha,id
+ assert hashlib.sha256(json.dumps(before_acquisition(byid[id]),ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()==sha,id
 new=[byid[id] for id in manifest['addedIds']];assert all(r['priority']==0 for r in new)
 assert sum(r['id'].startswith('dec_') for r in new)==10
 assert len([r for r in rows if r.get('variableGrid')])==2
@@ -26,4 +27,4 @@ assert '09:41' in r['text'] and '单' in r['text']
 r=byid['ccdb_cccii_64'];assert r['height']==64 and r['nativeEvidence']['records']==73885
 assert '不等于73885个独立汉字' in r['notes'] and ',' in r['text']
 s=json.loads((R/'data/summary.json').read_text());assert (s['rows'],s['nativePngCount'],s['referenceRows'],s['variableGridRows'])==(201,200,1,2)
-print('v17 checks passed: retained baseline exact except approved Hanyi edits; seven explicit exclusions; only15 approved additions, zero new priority; variable grids,34px frames,2013 OSD and64px evidence boundaries.')
+print('v17 checks passed: retained baseline exact except approved acquisition guidance and Hanyi edits; seven explicit exclusions; only15 approved additions, zero new priority; variable grids,34px frames,2013 OSD and64px evidence boundaries.')
