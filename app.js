@@ -185,12 +185,16 @@
     if (row.acquisitionGuide) {
       const guide = create('div', 'acquisition-guide');
       for (const [index, step] of asArray(row.acquisitionGuide.steps).entries()) guide.append(create('p', '', `${index + 1}. ${step}`));
-      guide.append(create('p', 'license-note', row.acquisitionGuide.notice || ''));
+      if (row.acquisitionGuide.notice) guide.append(create('p', 'acquisition-notice', row.acquisitionGuide.notice));
+      const actions = create('div', 'acquisition-actions');
       for (const item of asArray(row.acquisitionGuide.links)) {
         const url = safeSourceUrl(item.url); if (!url) continue;
-        const paragraph = create('p', ''), link = create('a', '', item.label); link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; paragraph.append(link); guide.append(paragraph);
+        const action = ['font', 'trial', 'contact', 'method', 'reference', 'source', 'license'].includes(item.action) ? item.action : 'source';
+        const link = create('a', `acquisition-button${(['reference', 'source'].includes(action) || actions.childElementCount > 0) ? ' acquisition-button-secondary' : ''}`, item.label || '查看来源');
+        link.dataset.action = action; link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.append(icon('external')); actions.append(link);
       }
-      addDetail(list, row.acquisitionGuide.title || '官网授权与获取', guide);
+      if (actions.childElementCount) guide.append(actions);
+      addDetail(list, '获取方式', guide);
     }
     addDetail(list, '样张类型', isReference(row) ? '原始资料图，不作为原生像素样张' : row.sampleLabel || (row.sampleKind === 'historical' ? '历史样张：保留来源实际可用字形，不与其他来源拼接' : row.sampleKind === 'partial' ? '统一新样文（缺字位置留空）' : row.sampleKind === 'standard' ? '统一比较样文' : row.sampleKind === 'osd' ? '来源限定字符样张' : null));
     if (safeSourceUrl(row.sourceUrl)) {

@@ -58,7 +58,20 @@ def dlrow(label,value,raw=False):return '' if value is None or value=='' else f'
 def details(r):
  reference=is_reference(r)
  fields=[('家族',r['family']),('筛选依据',f"汉字设计格高 {r['designHeight']}px，不是固定字符框或原字体行高" if r.get('heightBasis')=='han-design-grid' else None),('有效字面筛选',f"{r['designHeight']}px；存储字框与边距另列" if r.get('heightBasis')=='han-ink-grid' else None),('排版说明',r.get('layoutNote')),('有字形但未绘制',r.get('renderOmissionNote')),('字符框',cell_dimensions(r)),('字框类型',variable_grid_label(r) if is_variable_grid(r) else None),('设计说明',VARIABLE_GRID_NOTE if is_variable_grid(r) else None),('资料类型',r.get('referenceType') or '参考资料' if reference else None),('核验边界',r.get('referenceNote') or REFERENCE_WARNING if reference else None),('字面／墨迹',f"{r['inkWidth']}×{r['inkHeight']} px" if r.get('inkWidth') and r.get('inkHeight') else None),('字符范围',r['scripts']),('样本文字',r.get('text')),('全角英数样文（非ASCII）' if r.get('asciiOrigin')=='fullwidth-native' else '拉丁样文',None if r.get('asciiOrigin')=='absent' else r.get('asciiText')),('覆盖说明',r.get('coverage')),('缺字与未绘制' if r.get('renderOmitted') else '缺字',REFERENCE_COVERAGE if reference else missing(r) or '本次样本文字未发现缺字；不代表完整字库覆盖'),('样张类型',r.get('sampleLabel')),('风格',r.get('styles')),('用途',r.get('uses')),('字形来源',r.get('provenance')),('授权状态',r.get('licenseStatus')),('许可说明',r.get('licenseNote')),('说明',r.get('notes'))]
- out='<dl class="detail-list">'+''.join(dlrow(k,v) for k,v in fields)+dlrow('来源',link(r['sourceUrl'],r.get('sourceLabel') or '来源项目'),True)
+ out='<dl class="detail-list">'+''.join(dlrow(k,v) for k,v in fields)
+ guide=r.get('acquisitionGuide')
+ if guide:
+  content='<div class="acquisition-guide">'+''.join('<p>'+E(str(i+1)+'. '+step)+'</p>' for i,step in enumerate(guide.get('steps',[])))
+  if guide.get('notice'):content+='<p class="acquisition-notice">'+E(guide['notice'])+'</p>'
+  actions=[]
+  for item in guide.get('links',[]):
+   if not safe(item.get('url')):continue
+   action=item.get('action') if item.get('action') in ('font','trial','contact','method','reference','source','license') else 'source'
+   secondary=' acquisition-button-secondary' if action in ('reference','source') or actions else ''
+   actions.append('<a class="acquisition-button'+secondary+'" data-action="'+action+'" href="'+E(item['url'])+'" target="_blank" rel="noopener noreferrer">'+E(item.get('label') or '查看来源')+external+'</a>')
+  if actions:content+='<div class="acquisition-actions">'+''.join(actions)+'</div>'
+  out+=dlrow('获取方式',content+'</div>',True)
+ out+=dlrow('来源',link(r['sourceUrl'],r.get('sourceLabel') or '来源项目'),True)
  ev=r.get('nativeEvidence')
  if ev:
   labels={'summary':'说明','method':'提取方式','bitmap_tables':'内嵌位图表','native_ppem':'原生像素字号','grid_step':'原生网格步长','maximum_grid_error':'最大网格误差'}
@@ -66,9 +79,6 @@ def details(r):
   if isinstance(ev,dict) and safe(ev.get('sourceUrl')):content+=link(ev['sourceUrl'],'查看原生设计来源')
   out+=dlrow('原生证据',content,True)
  out+='</dl>'
- guide=r.get('acquisitionGuide')
- if guide:
-  out+='<section class="source-section"><h2>'+E(guide.get('title','官网授权与获取'))+'</h2><ol>'+''.join('<li>'+E(step)+'</li>' for step in guide.get('steps',[]))+'</ol><p>'+E(guide.get('notice',''))+'</p>'+''.join('<p>'+link(item.get('url'),item.get('label','官网说明'))+'</p>' for item in guide.get('links',[]))+'</section>'
  if r.get('relatedSources'):
   out+='<section class="source-section"><h2>相关来源与合并说明</h2>'
   for s in r['relatedSources']:

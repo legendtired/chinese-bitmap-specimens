@@ -16,7 +16,10 @@ for row in rows:
  for link in guide['links']:assert html.escape(link['url'],quote=True) in page,row['id']
 for id in ['psa_c_screen_12','psa_c_screen_14']:
  row=next(r for r in rows if r['id']==id)
- assert row['acquisitionGuide']==BASE['originalGuides'][id]
+ guide=row['acquisitionGuide']; original=BASE['originalGuides'][id]
+ assert guide['notice']==original['notice'] and guide['steps']==original['steps']
+ assert [(x['url'],x['label']) for x in guide['links']]==[(x['url'],x['label']) for x in original['links']]
+ assert guide['type']=='contact' and all(x['action']=='contact' for x in guide['links'])
 js=(R/'data/catalog.js').read_text(); assert json.loads(js[js.index('['):].rstrip().rstrip(';'))==rows
 assert 'row.acquisitionGuide.notice' in (R/'app.js').read_text()
 print('Acquisition:201 concise guides; static/dynamic data match;11 priorities; all other row metadata, IDs and PSA contact guidance preserved.')

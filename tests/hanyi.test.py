@@ -9,7 +9,7 @@ for r in hs:
  assert g['links'][0]['url']==r['sourceUrl']
  page=(R/'fonts'/f"{r['id']}.html").read_text()
  for item in g['links']:assert item['url'].replace('&','&amp;') in page
- assert '官网授权与获取' in page and '个人非商用许可协议' in page
+ assert '获取方式' in page and '个人非商用许可协议' in page
 assert 'row.acquisitionGuide' in (R/'app.js').read_text()
 print('Hanyi guidance:4 official acquisition sections, cautious personal/commercial scope and no direct downloads; recommendation checked separately.')
 
