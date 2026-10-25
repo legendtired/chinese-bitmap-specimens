@@ -42,3 +42,23 @@ dialog{padding:0;overflow:hidden;max-height:85vh;max-height:85dvh}dialog[open]{d
 
 /* Acquisition actions are local to font details; the shared footer license note is unchanged. */
 .acquisition-guide{min-width:0}.acquisition-guide>p{margin:0 0 10px}.acquisition-guide .acquisition-notice{border:0;padding:0;margin:0;color:#555e67;font-size:12px;line-height:1.9}.acquisition-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:12px}.acquisition-actions .acquisition-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:38px;max-width:100%;box-sizing:border-box;padding:8px 14px;border:1px solid #252a2e;border-radius:var(--control-radius);background:#252a2e;color:#fff;font-size:12px;line-height:1.5;font-weight:500;text-decoration:none;overflow-wrap:anywhere}.acquisition-actions .acquisition-button:hover{background:#434a51;border-color:#434a51;color:#fff;text-decoration:none}.acquisition-actions .acquisition-button:focus-visible{outline:2px solid #252a2e;outline-offset:3px}.acquisition-actions .acquisition-button .icon{width:15px;height:15px;flex:none;margin:0}.acquisition-actions .acquisition-button-secondary{background:#fff;border-color:#d5d9dd;color:#555e67}.acquisition-actions .acquisition-button-secondary:hover{background:#f3f4f5;border-color:#a8afb6;color:#252a2e}@media(max-width:400px){.acquisition-actions .acquisition-button{padding:8px 11px}}
+
+/* Compact, deliberate mobile header and two-row catalog controls. */
+@media(max-width:700px){
+  .site-header{padding:20px 20px 24px;gap:12px 20px}
+  .header-actions{width:auto;gap:8px;margin-left:auto;flex-wrap:wrap;justify-content:flex-start}
+  .header-actions .repository-link,.header-actions .about-button,.header-actions .favorites-entry{min-height:38px;padding:8px 12px;font-size:12px;margin-left:0;gap:6px}
+  .header-actions .repository-link .icon,.header-actions .about-button .icon{width:16px;height:16px}
+  .toolbar{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px 12px;padding-bottom:16px}
+  .toolbar #filters-open,.toolbar #favorites-back{grid-column:1;grid-row:1;justify-self:start;min-height:38px}
+  .toolbar #family-control{grid-column:2;grid-row:1}
+  .toolbar #result-count{grid-column:1;grid-row:2}
+  .toolbar .sort-control{grid-column:2;grid-row:2;margin-left:0;min-width:0}
+  .toolbar .select-label select{width:100%;max-width:100%;min-width:0;min-height:38px;font-size:12px}
+  .toolbar #favorites-clear{grid-column:2;grid-row:1;justify-self:end;min-height:38px}
+  .toolbar .active-filters{grid-column:1/-1;grid-row:3}
+}
+@media(max-width:440px){
+  .site-header{align-items:flex-start}
+  .header-actions{width:100%;margin-left:0}
+}

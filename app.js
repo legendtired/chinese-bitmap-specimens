@@ -141,7 +141,6 @@
   for (const group of groups) {
     const fieldset = create('fieldset', 'filter-group');
     fieldset.append(create('legend', '', group.title));
-    if (group.key === 'height') fieldset.append(create('p', 'filter-basis-note', '默认按字框高度；标明设计字高或有效字面的条目按其注明字高。'));
     const options = create('div', group.key === 'height' ? 'filter-options sizes' : 'filter-options');
     let values = [...new Set(rows.flatMap(group.value))];
     if (group.key === 'height') { values.sort((a, b) => compareHeightValues(a, b)); values.unshift(''); }
