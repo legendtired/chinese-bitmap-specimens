@@ -56,4 +56,4 @@ assert '.acquisition-actions .acquisition-button:focus-visible' in css and '.acq
 assert 'flex-wrap:wrap' in re.search(r'\.acquisition-actions\{([^}]+)',css).group(1)
 assert 'min-height:38px' in re.search(r'\.acquisition-actions \.acquisition-button\{([^}]+)',css).group(1)
 assert '.license-note{border-top:1px solid var(--line);margin-top:24px;padding:18px 0 0;font-size:11px;line-height:1.8;color:#858d95}' in css
-print('Acquisition UI: all 201 typed guides and static buttons agree; source links preserved; honest action samples; separate note styles; focus/hover/wrapping CSS verified (not browser-rendered).')
+print('Acquisition UI: all 199 retained typed guides and static buttons agree; source links preserved; honest action samples; separate note styles; focus/hover/wrapping CSS verified (not browser-rendered).')

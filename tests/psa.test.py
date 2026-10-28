@@ -8,7 +8,8 @@ except ImportError:
 R=Path(__file__).resolve().parents[1];rows=json.loads((R/'data/catalog.json').read_text());byid={r['id']:r for r in rows};manifest=json.loads((R/'data/release-psa.json').read_text())
 removed=set(json.loads((R/'data/curation.json').read_text()).get('postPsaRemovedIds',[]))
 assert removed=={'taipeib20'}
-assert len(rows)==201 and len(manifest['baseIds'])==200
+removed |= set(json.loads((R/'data/curation.json').read_text())['postEfontRemovedIds'])
+assert len(rows)==199 and len(manifest['baseIds'])==200
 for id,sha in manifest['baseRowChecksums'].items():
  if id in removed:continue
  assert hashlib.sha256(json.dumps(before_acquisition(byid[id]),ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()==sha,id

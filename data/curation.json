@@ -28,7 +28,9 @@
     "fzbase",
     "gb48_2025_reference",
     "fzfeng",
-    "taipeib20"
+    "taipeib20",
+    "efont_biwidth_16",
+    "efont_biwidth_24"
   ],
   "merged": {
     "simsun_native_12": "founder_pixel12",
@@ -53,5 +55,10 @@
   ],
   "postPsaRemovedIds": [
     "taipeib20"
-  ]
+  ],
+  "postEfontRemovedIds": [
+    "efont_biwidth_16",
+    "efont_biwidth_24"
+  ],
+  "efontRemovalNote": "2026-10-28：按用户要求移除 /efont/ Unicode 全系当前展示。既有10/12/14排除项继续保留；历史发布清单仅作记录，不恢复展示。"
 }

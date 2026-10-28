@@ -991,64 +991,6 @@
     }
   },
   {
-    "id": "efont_biwidth_16",
-    "name": "/efont/ Unicode 16×16",
-    "family": "/efont/ Unicode",
-    "width": 16,
-    "height": 16,
-    "scripts": [
-      "简体"
-    ],
-    "styles": [
-      "未分类"
-    ],
-    "uses": [
-      "像素字体"
-    ],
-    "specimen": "assets/specimens/efont_biwidth_16.png",
-    "specimenWidth": 216,
-    "specimenHeight": 36,
-    "text": "视野无限广，窗外有蓝天。",
-    "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "sourceUrl": "https://mirrors.mit.edu/macports/distfiles/efont-unicode/",
-    "sourceLabel": "来源项目 / 资料页",
-    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
-    "licenseStatus": "已有许可线索",
-    "licenseNote": "BSD-style efont license plus retained source font notices (Public Domain, ISAS permissive, Baekmuk). See source COPYRIGHT and README.",
-    "provenance": "efont-unicode-bdf 0.4.2 regular biwidth BDF. Compiled from native bitmap sources plus efont-designed characters. Chinese at 16/24 draws partly from Taipei and ISAS; not an independent family for every inherited glyph.",
-    "sampleKind": "standard",
-    "coverage": "样文完整",
-    "missing": [],
-    "hanMissing": [],
-    "asciiMissing": [],
-    "asciiOrigin": "native",
-    "sourceIndex": 21,
-    "nativeEvidence": {
-      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
-      "sourceUrl": "https://mirrors.mit.edu/macports/distfiles/efont-unicode/"
-    },
-    "cellWidth": 16,
-    "cellHeight": 16,
-    "inkWidth": null,
-    "inkHeight": null,
-    "specimenSha256": "9ff5549d4d9e9e990ccf0bd4f972d0b838fd91c7dfcfcf48e101bb261785fbfe",
-    "priority": 0,
-    "acquisitionGuide": {
-      "title": "获取方式",
-      "steps": [],
-      "notice": "在来源目录下载 efont-unicode-bdf-0.4.2.tar.bz2，解压后使用 b16.bdf。",
-      "links": [
-        {
-          "label": "获取字体",
-          "url": "https://mirrors.mit.edu/macports/distfiles/efont-unicode/",
-          "action": "font"
-        }
-      ],
-      "checkedOn": "2026-10-23",
-      "type": "font"
-    }
-  },
-  {
     "id": "firefly_sung_16",
     "name": "Firefly 螢火飛点阵新宋 16×16",
     "family": "Firefly 萤火飞点阵新宋",
@@ -1563,64 +1505,6 @@
         {
           "label": "获取字体",
           "url": "https://github.com/yzdnn/ChangBanDianSong-16/blob/HEAD/Sources/ChangBanDianSong-SC-16.bdf",
-          "action": "font"
-        }
-      ],
-      "checkedOn": "2026-10-23",
-      "type": "font"
-    }
-  },
-  {
-    "id": "efont_biwidth_24",
-    "name": "/efont/ Unicode 24×24",
-    "family": "/efont/ Unicode",
-    "width": 24,
-    "height": 24,
-    "scripts": [
-      "简体"
-    ],
-    "styles": [
-      "未分类"
-    ],
-    "uses": [
-      "像素字体"
-    ],
-    "specimen": "assets/specimens/efont_biwidth_24.png",
-    "specimenWidth": 324,
-    "specimenHeight": 52,
-    "text": "视野无限广，窗外有蓝天。",
-    "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "sourceUrl": "https://mirrors.mit.edu/macports/distfiles/efont-unicode/",
-    "sourceLabel": "来源项目 / 资料页",
-    "notes": "统一新样文；拉丁字宽按源字体保留，可能为全角、半角或原生不等宽。样文覆盖不代表完整字库覆盖。",
-    "licenseStatus": "已有许可线索",
-    "licenseNote": "BSD-style efont license plus retained source font notices (Public Domain, ISAS permissive, Baekmuk). See source COPYRIGHT and README.",
-    "provenance": "efont-unicode-bdf 0.4.2 regular biwidth BDF. Compiled from native bitmap sources plus efont-designed characters. Chinese at 16/24 draws partly from Taipei and ISAS; not an independent family for every inherited glyph.",
-    "sampleKind": "standard",
-    "coverage": "样文完整",
-    "missing": [],
-    "hanMissing": [],
-    "asciiMissing": [],
-    "asciiOrigin": "native",
-    "sourceIndex": 31,
-    "nativeEvidence": {
-      "summary": "直接读取原始点阵文件中的像素，未使用普通矢量轮廓取模。",
-      "sourceUrl": "https://mirrors.mit.edu/macports/distfiles/efont-unicode/"
-    },
-    "cellWidth": 24,
-    "cellHeight": 24,
-    "inkWidth": null,
-    "inkHeight": null,
-    "specimenSha256": "0fc26c3bfe829f20197434ceaf34cfcef23354b0931d7b6e6012d1d359fbdb13",
-    "priority": 0,
-    "acquisitionGuide": {
-      "title": "获取方式",
-      "steps": [],
-      "notice": "在来源目录下载 efont-unicode-bdf-0.4.2.tar.bz2，解压后使用 b24.bdf。",
-      "links": [
-        {
-          "label": "获取字体",
-          "url": "https://mirrors.mit.edu/macports/distfiles/efont-unicode/",
           "action": "font"
         }
       ],

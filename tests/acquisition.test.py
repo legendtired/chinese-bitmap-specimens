@@ -4,7 +4,9 @@ import json,hashlib,html
 from acquisition_baseline import BASE
 R=Path(__file__).resolve().parents[1]
 rows=json.loads((R/'data/catalog.json').read_text())
-assert len(rows)==201 and {r['id'] for r in rows}==set(BASE['rowHashesWithoutGuide'])
+removed=set(json.loads((R/'data/curation.json').read_text())['postEfontRemovedIds'])
+assert removed=={'efont_biwidth_16','efont_biwidth_24'}
+assert len(rows)==199 and {r['id'] for r in rows}==set(BASE['rowHashesWithoutGuide'])-removed
 assert sum(r.get('priority',0)>0 for r in rows)==11
 for row in rows:
  original={k:v for k,v in row.items() if k!='acquisitionGuide'}
@@ -22,4 +24,4 @@ for id in ['psa_c_screen_12','psa_c_screen_14']:
  assert guide['type']=='contact' and all(x['action']=='contact' for x in guide['links'])
 js=(R/'data/catalog.js').read_text(); assert json.loads(js[js.index('['):].rstrip().rstrip(';'))==rows
 assert 'row.acquisitionGuide.notice' in (R/'app.js').read_text()
-print('Acquisition:201 concise guides; static/dynamic data match;11 priorities; all other row metadata, IDs and PSA contact guidance preserved.')
+print('Acquisition:199 retained concise guides; static/dynamic data match;11 priorities; all other row metadata, IDs and PSA contact guidance preserved.')
