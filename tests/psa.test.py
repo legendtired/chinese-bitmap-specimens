@@ -5,7 +5,7 @@ try:
  from PIL import Image
 except ImportError:
  Image=None
-R=Path(__file__).resolve().parents[1];rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] != 'wqx_nc1020_12'];byid={r['id']:r for r in rows};manifest=json.loads((R/'data/release-psa.json').read_text())
+R=Path(__file__).resolve().parents[1];rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('wqx_nc1020_12','casio_xda10000_12','casio_xda10000_24')];byid={r['id']:r for r in rows};manifest=json.loads((R/'data/release-psa.json').read_text())
 removed=set(json.loads((R/'data/curation.json').read_text()).get('postPsaRemovedIds',[]))
 assert removed=={'taipeib20'}
 removed |= set(json.loads((R/'data/curation.json').read_text())['postEfontRemovedIds'])

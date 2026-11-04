@@ -12650,5 +12650,131 @@ window.FONT_CATALOG = [
       "checkedOn": "2026-11-04",
       "type": "method"
     }
+  },
+  {
+    "id": "casio_xda10000_12",
+    "name": "Casio Ex-word XD-A10000 · 12×12",
+    "family": "Casio Ex-word XD-A10000",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/casio_xda10000_12.png",
+    "specimenWidth": 144,
+    "specimenHeight": 12,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "",
+    "sourceUrl": "https://github.com/dictdump/dictdump/tree/main/nor-and-nand/CY102-XD-A10000/nand/extracted-nand-files-from-device/CY102D0C-extracted/font",
+    "sourceLabel": "第三方设备保存项目",
+    "notes": "固定样句直接读取CJF位图，未补字。本文件有23940个双字节编码单元，不等于23940个汉字，也不是完整四字节GB18030覆盖。设备属约2010年产品，不代表字体创作年代；没有广播电视来源证据。原机及转储过程未独立认证。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "第三方镜像公开可访问不代表获得字库商用或再分发许可；作者与字模授权尚未核实。本站仅公开固定样图与不内嵌字形的提取脚本，不分发CJF、ROM或完整BDF。",
+    "provenance": "从 dictdump 标为 XD-A10000 NAND 提取文件的 china12z.cjf 直接解码；256字节头后为定长12×12位图，每行MSB优先。非普通矢量取模，未独立认证原机、转储过程和修改历史。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceIndex": 226,
+    "nativeEvidence": {
+      "summary": "CJF头标示 Chaina GB18030 12，8140-FEFE；直接读取存储位图。Unicode映射使用Python GB18030编码器，少数非GB2312位置可能受标准修订影响，未宣称原厂逐码认证。",
+      "sourceUrl": "https://github.com/dictdump/dictdump/tree/main/nor-and-nand/CY102-XD-A10000/nand/extracted-nand-files-from-device/CY102D0C-extracted/font"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "8136959a59327bcb1ab3fa11ac4907ee505a7d43618e217f24fe3b219b243c41",
+    "priority": 6,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "打开来源目录，选择 china12z.cjf，在GitHub文件页保存原始文件；再保存本站cjf_to_bdf.py，按说明用Python 3转换为BDF。输入须自行确认使用权；脚本不联网、不附字形、不覆盖已有输出。",
+      "links": [
+        {
+          "label": "获取 12 点源文件",
+          "url": "https://github.com/dictdump/dictdump/blob/main/nor-and-nand/CY102-XD-A10000/nand/extracted-nand-files-from-device/CY102D0C-extracted/font/china12z.cjf",
+          "action": "method"
+        },
+        {
+          "label": "提取步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/casio-exword.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-04",
+      "type": "method"
+    }
+  },
+  {
+    "id": "casio_xda10000_24",
+    "name": "Casio Ex-word XD-A10000 · 24×24",
+    "family": "Casio Ex-word XD-A10000",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/casio_xda10000_24.png",
+    "specimenWidth": 288,
+    "specimenHeight": 24,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "",
+    "sourceUrl": "https://github.com/dictdump/dictdump/tree/main/nor-and-nand/CY102-XD-A10000/nand/extracted-nand-files-from-device/CY102D0C-extracted/font",
+    "sourceLabel": "第三方设备保存项目",
+    "notes": "固定样句直接读取CJF位图，未补字。本文件有23940个双字节编码单元，不等于23940个汉字，也不是完整四字节GB18030覆盖。设备属约2010年产品，不代表字体创作年代；没有广播电视来源证据。原机及转储过程未独立认证。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "第三方镜像公开可访问不代表获得字库商用或再分发许可；作者与字模授权尚未核实。本站仅公开固定样图与不内嵌字形的提取脚本，不分发CJF、ROM或完整BDF。",
+    "provenance": "从 dictdump 标为 XD-A10000 NAND 提取文件的 china24z.cjf 直接解码；256字节头后为定长24×24位图，每行MSB优先。非普通矢量取模，未独立认证原机、转储过程和修改历史。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceIndex": 227,
+    "nativeEvidence": {
+      "summary": "CJF头标示 Chaina GB18030 24，8140-FEFE；直接读取存储位图。Unicode映射使用Python GB18030编码器，少数非GB2312位置可能受标准修订影响，未宣称原厂逐码认证。",
+      "sourceUrl": "https://github.com/dictdump/dictdump/tree/main/nor-and-nand/CY102-XD-A10000/nand/extracted-nand-files-from-device/CY102D0C-extracted/font"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "e3610f9921fbeddac22bc5984007fe4ea2cd22dbe4112596f456fc910ad4d5cb",
+    "priority": 5,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "打开来源目录，选择 china24z.cjf，在GitHub文件页保存原始文件；再保存本站cjf_to_bdf.py，按说明用Python 3转换为BDF。输入须自行确认使用权；脚本不联网、不附字形、不覆盖已有输出。",
+      "links": [
+        {
+          "label": "获取 24 点源文件",
+          "url": "https://github.com/dictdump/dictdump/blob/main/nor-and-nand/CY102-XD-A10000/nand/extracted-nand-files-from-device/CY102D0C-extracted/font/china24z.cjf",
+          "action": "method"
+        },
+        {
+          "label": "提取步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/casio-exword.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-04",
+      "type": "method"
+    }
   }
 ];
