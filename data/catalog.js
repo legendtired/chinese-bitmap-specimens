@@ -12587,5 +12587,68 @@ window.FONT_CATALOG = [
       ],
       "type": "contact"
     }
+  },
+  {
+    "id": "wqx_nc1020_12",
+    "name": "文曲星 NC1020 · 12×12",
+    "family": "文曲星 NC1020",
+    "width": 12,
+    "height": 12,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/wqx_nc1020_12.png",
+    "specimenWidth": 144,
+    "specimenHeight": 12,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "",
+    "sourceUrl": "https://github.com/hackwaly/jswqx/tree/master/rom",
+    "sourceLabel": "旧 NC1020 模拟器镜像来源",
+    "notes": "仅展示固定样句。已解析 GB2312 对应的 7445 个字符，其中 6763 个汉字；除全角空格外没有空白字形。此提取范围不含普通 ASCII，不推断设备没有西文字库。未逐字人工校对，也未实机验证。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "ROM 与字模未查到明确再分发或商用授权；模拟器代码许可不能自动覆盖字库。本站仅展示固定样图与不含字模的提取脚本，不分发 ROM 或完整 BDF。",
+    "provenance": "直接读取旧 NC1020 模拟器镜像 obj_lu.bin 的 12×12 位图：每字18字节、MSB优先，逻辑基址0x50C800，32KB块内两段16KB互换。来源不是已确认的真机转储；原始作者与设计年代未核实。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceIndex": 225,
+    "nativeEvidence": {
+      "summary": "直接提取已存储的12×12单色像素，没有矢量取模或补字；源镜像SHA256 d3bdc7847f3de1f7b58f12a07e51b3ca7f6d136d5f00ba626e39c591ea246c97。",
+      "sourceUrl": "https://github.com/hackwaly/jswqx/tree/master/rom"
+    },
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "000dfaff29b91fb97fed6474289271c35aed57242810610bcc12aa6d50885b46",
+    "priority": 7,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权使用来源目录中的 obj_lu.bin，再用 Python 3 运行本站脚本转换为 BDF。脚本校验镜像大小与SHA256，不联网、不附带字模，不覆盖已有输出。",
+      "links": [
+        {
+          "label": "提取说明与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/nc1020.md",
+          "action": "method"
+        },
+        {
+          "label": "查看镜像来源",
+          "url": "https://github.com/hackwaly/jswqx/tree/master/rom",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-04",
+      "type": "method"
+    }
   }
 ];
