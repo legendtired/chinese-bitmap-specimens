@@ -30,3 +30,5 @@ SimSun 5.03 内嵌点阵与方正像素的已核样本一致：12px 为24个汉�
 - 所查 Silver 附带版本与 M+ j12r 共有6,355个汉字，其中6,172字紧裁墨迹一致（97.12%）。相关来源并入 M+ 代表条目。[Silver](https://poppyworks.itch.io/silver)。
 
 各条目的尺寸、覆盖、版本和许可见[目录数据](../data/catalog.json)。
+
+- [Sharp X68000 16点获取与导出](sharp-x68000.md)：原生JIS字模、字符映射与ANK边界。

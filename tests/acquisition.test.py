@@ -3,7 +3,7 @@ from pathlib import Path
 import json,hashlib,html
 from acquisition_baseline import BASE
 R=Path(__file__).resolve().parents[1]
-rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('wqx_nc1020_12','casio_xda10000_12','casio_xda10000_24','panasonic_fsuv1_16','stone_ms2401h_style1_32','stone_ms2401h_style2_32','stone_ms2401h_style3_32','stone_ms2401h_style4_32')]
+rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('wqx_nc1020_12','casio_xda10000_12','casio_xda10000_24','panasonic_fsuv1_16','stone_ms2401h_style1_32','stone_ms2401h_style2_32','stone_ms2401h_style3_32','stone_ms2401h_style4_32','sharp_x68000_16')]
 removed=set(json.loads((R/'data/curation.json').read_text())['postEfontRemovedIds'])
 assert removed=={'efont_biwidth_16','efont_biwidth_24'}
 assert len(rows)==199 and {r['id'] for r in rows}==set(BASE['rowHashesWithoutGuide'])-removed
@@ -22,6 +22,6 @@ for id in ['psa_c_screen_12','psa_c_screen_14']:
  assert guide['notice']==original['notice'] and guide['steps']==original['steps']
  assert [(x['url'],x['label']) for x in guide['links']]==[(x['url'],x['label']) for x in original['links']]
  assert guide['type']=='contact' and all(x['action']=='contact' for x in guide['links'])
-js=(R/'data/catalog.js').read_text(); assert [r for r in json.loads(js[js.index('['):].rstrip().rstrip(';')) if r['id'] not in ('wqx_nc1020_12','casio_xda10000_12','casio_xda10000_24','panasonic_fsuv1_16','stone_ms2401h_style1_32','stone_ms2401h_style2_32','stone_ms2401h_style3_32','stone_ms2401h_style4_32')]==rows
+js=(R/'data/catalog.js').read_text(); assert [r for r in json.loads(js[js.index('['):].rstrip().rstrip(';')) if r['id'] not in ('wqx_nc1020_12','casio_xda10000_12','casio_xda10000_24','panasonic_fsuv1_16','stone_ms2401h_style1_32','stone_ms2401h_style2_32','stone_ms2401h_style3_32','stone_ms2401h_style4_32','sharp_x68000_16')]==rows
 assert 'row.acquisitionGuide.notice' in (R/'app.js').read_text()
 print('Acquisition:199 retained concise guides; static/dynamic data match;11 priorities; all other row metadata, IDs and PSA contact guidance preserved.')

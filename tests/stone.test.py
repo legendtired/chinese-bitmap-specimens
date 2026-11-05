@@ -5,7 +5,7 @@ import json
 import struct
 
 ROOT = Path(__file__).resolve().parents[1]
-rows = json.loads((ROOT / 'data/catalog.json').read_text())
+rows = [r for r in json.loads((ROOT / 'data/catalog.json').read_text()) if r['id'] != 'sharp_x68000_16']
 manifest = json.loads((ROOT / 'data/release-stone-ms2401h.json').read_text())
 ids = [f'stone_ms2401h_style{i}_32' for i in range(1, 5)]
 assert manifest['addedIds'] == ids

@@ -54,3 +54,5 @@ python3 scripts/workspace.py render-bdf --font input.bdf --encoding unicode --te
 - **完整Unicode映射**：Sony G90、HZK16F、DEC专有CNS等仍需独立核定，不能把可导出原槽位等同于可直接输入任意文字。
 
 PSA C屏继续通过条目中的联系入口申请试用，私有固件和完整字模不公开。MN1871681、MS6459 与 ChinaSea 等资料或字符表重建，不能据此导出不存在的完整字体。汉仪等正交轮廓设计也不等同于 EBDT 内嵌点阵；是否允许转换先看具体许可。
+
+- [Sharp X68000 16点获取与导出](sharp-x68000.md)：原生JIS字模、字符映射与ANK边界。

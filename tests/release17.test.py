@@ -2,7 +2,7 @@ from acquisition_baseline import before_acquisition
 """v17 approved scope, preserved v16.1 rows and variable-grid semantics."""
 from pathlib import Path
 import json,hashlib
-R=Path(__file__).resolve().parents[1];rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('wqx_nc1020_12','casio_xda10000_12','casio_xda10000_24','panasonic_fsuv1_16','stone_ms2401h_style1_32','stone_ms2401h_style2_32','stone_ms2401h_style3_32','stone_ms2401h_style4_32')];manifest=json.loads((R/'data/release-v17.json').read_text());byid={r['id']:r for r in rows}
+R=Path(__file__).resolve().parents[1];rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('wqx_nc1020_12','casio_xda10000_12','casio_xda10000_24','panasonic_fsuv1_16','stone_ms2401h_style1_32','stone_ms2401h_style2_32','stone_ms2401h_style3_32','stone_ms2401h_style4_32','sharp_x68000_16')];manifest=json.loads((R/'data/release-v17.json').read_text());byid={r['id']:r for r in rows}
 removed=set(json.loads((R/'data/curation.json').read_text())['postV17RemovedIds']);assert removed=={'monotype_bitmap_hk','hanyi-pixel-power','hanyi-pixel-invasion','fzbase','gb48_2025_reference','fzfeng','taipeib20'}
 removed |= set(json.loads((R/'data/curation.json').read_text())['postEfontRemovedIds'])
 assert len(rows)==len(byid)==199
@@ -27,5 +27,5 @@ assert '2013' in r['provenance'] and '17' in r['coverage'];assert not set('频�
 assert '09:41' in r['text'] and '单' in r['text']
 r=byid['ccdb_cccii_64'];assert r['height']==64 and r['nativeEvidence']['records']==73885
 assert '不等于73885个独立汉字' in r['notes'] and ',' in r['text']
-s=json.loads((R/'data/summary.json').read_text());assert (s['rows'],s['nativePngCount'],s['referenceRows'],s['variableGridRows'])==(207,206,1,2)
+s=json.loads((R/'data/summary.json').read_text());assert (s['rows'],s['nativePngCount'],s['referenceRows'],s['variableGridRows'])==(208,207,1,2)
 print('v17 checks passed: retained baseline exact except approved acquisition guidance and Hanyi edits; seven historical plus two efont exclusions; only15 approved additions, zero new priority; variable grids,34px frames,2013 OSD and64px evidence boundaries.')

@@ -17,7 +17,7 @@ SCRIPT = ROOT / 'scripts/fsuv1_to_bdf.py'
 spec = importlib.util.spec_from_file_location('fsuv1', SCRIPT)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
-rows = [r for r in json.loads((ROOT / 'data/catalog.json').read_text()) if r['id'] not in ('stone_ms2401h_style1_32','stone_ms2401h_style2_32','stone_ms2401h_style3_32','stone_ms2401h_style4_32')]
+rows = [r for r in json.loads((ROOT / 'data/catalog.json').read_text()) if r['id'] not in ('stone_ms2401h_style1_32','stone_ms2401h_style2_32','stone_ms2401h_style3_32','stone_ms2401h_style4_32','sharp_x68000_16')]
 manifest = json.loads((ROOT / 'data/release-panasonic-fsuv1.json').read_text())
 base = [r for r in rows if r['id'] not in manifest['addedIds']]
 assert len(rows) == 203 and len(base) == 202

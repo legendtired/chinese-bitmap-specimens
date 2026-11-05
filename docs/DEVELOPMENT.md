@@ -66,3 +66,5 @@ python3 scripts/workspace.py check
 ## 发布
 
 只提交核查过的文件集合。原字体、ROM、研究输入和缓存留在 `local-research/`。发布前检查 `git status`、`git ls-files` 和部署列表；旧资料包的覆盖范围按对应版本记录。详见[部署说明](deployment.md)。
+
+- [Sharp X68000 16点获取与导出](sharp-x68000.md)：原生JIS字模、字符映射与ANK边界。

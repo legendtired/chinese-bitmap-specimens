@@ -1,0 +1,11 @@
+{
+  "baseCommit": "a3725fb1c715f2c467f144c9b562c1df328d2298",
+  "baseRowsSha256": "6ce08f45a0296345df77d693b5f3bc0521b9377e617b7835a2e27f2bcfca453d",
+  "addedId": "sharp_x68000_16",
+  "sampleSha256": "f38989e02e2613a4eb0f9adcb03dbdffff31a3535034d7f0d4a66c0623aad23f",
+  "romSha256": "c4e47e1480af0b00b330a49650480c8caa34054a6e97db7ae03cbade9890185d",
+  "hanzi": 6353,
+  "mappedJis": 6877,
+  "physicalJisSlots": 7238,
+  "excluded24pxReason": "All 6353 level-1/2 Hanzi equal jiskan24; no new entry."
+}

@@ -13527,5 +13527,79 @@ window.FONT_CATALOG = [
       "checkedOn": "2026-11-05",
       "type": "method"
     }
+  },
+  {
+    "id": "sharp_x68000_16",
+    "name": "Sharp X68000 · 16×16",
+    "family": "Sharp X68000",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/sharp_x68000_16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 34,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/Abdess/retrobios/blob/main/bios/Sharp/X68000/cgrom.dat",
+    "sourceLabel": "CGROM 来源档案浏览页",
+    "notes": "JIS一级／二级汉字6353个全部非空，不是完整GB2312简体中文字库。与原jiskan16及站内JF-Dot衍生版逐字比较，6352字不同，仅「亅」相同；其他52项16点字样仅做191次共同码位样本比较，未见整组重复，不代表全库去重。同一ROM的24点汉字与jiskan24全部相同，故不另收录。第二行取原生8×16 ANK；未展示的反斜杠码位在历史JIS X0201中对应日元符号，不作通用ASCII完整覆盖声明。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "CGROM与字模未查到明确再分发或商用授权；Sharp针对IPL固件的历史免费许可不等于CGROM许可。本站仅展示固定样图和不内嵌字模的提取工具，不分发ROM或完整BDF。",
+    "provenance": "直接读取768KiB CGROM开头的16×16字模，每字32字节，逐行高位在左；半角样文取0x3A800区的8×16 ANK，不缩放、不补字。CRC32、SHA1和大小与MAME登记的X68000 CGROM一致；原始镜像未记录具体机器及转储过程，不能据此认证为1987年首批机器的实物转储。",
+    "sampleKind": "standard",
+    "sampleLabel": "繁体固定样句与原生半角ANK；保留原尺寸和字宽。",
+    "coverage": "固定样句及所示ANK完整；含6353个JIS一级／二级汉字",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 233,
+    "nativeEvidence": {
+      "summary": "原生16×16扫描行位图，源ROM SHA256 c4e47e1480af0b00b330a49650480c8caa34054a6e97db7ae03cbade9890185d；两种索引算法核对7238槽位一致。6877个已映射字符含全角空格，6353个非空汉字；后期JIS增加的「凜」「熙」对应槽位为空，导出时排除。",
+      "sourceUrl": "https://github.com/mamedev/mame/blob/master/src/mame/sharp/x68k.cpp"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "f38989e02e2613a4eb0f9adcb03dbdffff31a3535034d7f0d4a66c0623aad23f",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权使用指定cgrom.dat，再按本站说明用Python离线导出6877个16点JIS字符的Unicode BDF，其中6353个汉字；ANK只在固定样图展示，不纳入此导出。脚本校验大小与SHA256，不联网、不内嵌字模、不覆盖已有输出。",
+      "links": [
+        {
+          "label": "获取与导出步骤",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/sharp-x68000.md",
+          "action": "method"
+        },
+        {
+          "label": "查看CGROM来源档案",
+          "url": "https://github.com/Abdess/retrobios/blob/main/bios/Sharp/X68000/cgrom.dat",
+          "action": "source"
+        },
+        {
+          "label": "MAME字库校验记录",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sharp/x68k.cpp",
+          "action": "reference"
+        },
+        {
+          "label": "机型历史与字符ROM规格",
+          "url": "https://museum.ipsj.or.jp/computer/personal/0038.html",
+          "action": "reference"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
   }
 ];
