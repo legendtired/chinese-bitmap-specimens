@@ -118,6 +118,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "wqx_pc505_14x15"
       ]
+    },
+    {
+      "sourceManifest": "release-panasonic-tutx100.json",
+      "ids": [
+        "panasonic_tutx100_16x24"
+      ]
     }
   ]
 };
