@@ -161,15 +161,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 11px 的内嵌点阵，而非矢量轮廓。",
+      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 11px 的内嵌点阵，而非矢量轮廓。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -278,15 +283,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 12px 的内嵌点阵，而非矢量轮廓。",
+      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 12px 的内嵌点阵，而非矢量轮廓。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -394,15 +404,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "需原始点阵请取 Original Fonts/wenquanyi_9pt.pcf；桌面使用可选同页 12px TTF。",
+      "notice": "需原始点阵请取 Original Fonts/wenquanyi_9pt.pcf；桌面使用可选同页 12px TTF。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
+        {
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
+          "action": "method"
+        },
         {
           "label": "获取字体",
           "url": "https://github.com/AmusementClub/WenQuanYi-Bitmap-Song-TTF/blob/HEAD/Original%20Fonts/wenquanyi_9pt.pcf",
           "action": "font"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "font"
     }
   },
@@ -688,15 +703,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 13px 的内嵌点阵，而非矢量轮廓。",
+      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 13px 的内嵌点阵，而非矢量轮廓。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -804,15 +824,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 14px 的内嵌点阵，而非矢量轮廓。",
+      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 14px 的内嵌点阵，而非矢量轮廓。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -920,15 +945,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 15px 的内嵌点阵，而非矢量轮廓。",
+      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 15px 的内嵌点阵，而非矢量轮廓。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -1036,15 +1066,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 16px 的内嵌点阵，而非矢量轮廓。",
+      "notice": "在 fonts 目录获取 fireflysung.ttf，读取其中 16px 的内嵌点阵，而非矢量轮廓。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/rougier/freetype-gl/blob/HEAD/fonts/fireflysung.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -1616,16 +1651,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在仓库根目录获取 HZK11US；这是 Unicode 顺序的 11 点阵二进制字库。",
+      "notice": "在仓库根目录获取 HZK11US；这是 Unicode 顺序的 11 点阵二进制字库。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://github.com/tomzbj/unicode_hzk_smlib_gen/blob/HEAD/HZK11US",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -1674,15 +1714,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 font 目录获取 HZK12；这是字模数据，不是可直接安装的 TTF。",
+      "notice": "在 font 目录获取 HZK12；这是字模数据，不是可直接安装的 TTF。 可使用本站 HZK→BDF 脚本导出；仅接受已核验的文件大小与 SHA256，保留原像素和全角字宽。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK12",
+          "label": "导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hzk-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK12",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -1732,15 +1777,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 font 目录获取 HZK14；这是字模数据，不是可直接安装的 TTF。",
+      "notice": "在 font 目录获取 HZK14；这是字模数据，不是可直接安装的 TTF。 可使用本站 HZK→BDF 脚本导出；仅接受已核验的文件大小与 SHA256，保留原像素和全角字宽。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK14",
+          "label": "导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hzk-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK14",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -1906,15 +1956,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 font 目录获取 HZK16；这是字模数据，不是可直接安装的 TTF。",
+      "notice": "在 font 目录获取 HZK16；这是字模数据，不是可直接安装的 TTF。 可使用本站 HZK→BDF 脚本导出；仅接受已核验的文件大小与 SHA256，保留原像素和全角字宽。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK16",
+          "label": "导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hzk-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK16",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -1964,15 +2019,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 font 目录获取 HZK16S；这是字模数据，不是可直接安装的 TTF。",
+      "notice": "在 font 目录获取 HZK16S；这是字模数据，不是可直接安装的 TTF。 可使用本站 HZK→BDF 脚本导出；仅接受已核验的文件大小与 SHA256，保留原像素和全角字宽。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK16S",
+          "label": "导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hzk-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK16S",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -2196,15 +2256,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 font 目录获取 HZK24F；这是字模数据，不是可直接安装的 TTF。",
+      "notice": "在 font 目录获取 HZK24F；这是字模数据，不是可直接安装的 TTF。 可使用本站 HZK→BDF 脚本导出；仅接受已核验的文件大小与 SHA256，保留原像素和全角字宽。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK24F",
+          "label": "导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hzk-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK24F",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -2254,15 +2319,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 font 目录获取 HZK24S；这是字模数据，不是可直接安装的 TTF。",
+      "notice": "在 font 目录获取 HZK24S；这是字模数据，不是可直接安装的 TTF。 可使用本站 HZK→BDF 脚本导出；仅接受已核验的文件大小与 SHA256，保留原像素和全角字宽。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK24S",
+          "label": "导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hzk-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK24S",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -2312,15 +2382,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 font 目录获取 HZK24K；这是字模数据，不是可直接安装的 TTF。",
+      "notice": "在 font 目录获取 HZK24K；这是字模数据，不是可直接安装的 TTF。 可使用本站 HZK→BDF 脚本导出；仅接受已核验的文件大小与 SHA256，保留原像素和全角字宽。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK24K",
+          "label": "导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hzk-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK24K",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -2370,15 +2445,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 font 目录获取 HZK24H；这是字模数据，不是可直接安装的 TTF。",
+      "notice": "在 font 目录获取 HZK24H；这是字模数据，不是可直接安装的 TTF。 可使用本站 HZK→BDF 脚本导出；仅接受已核验的文件大小与 SHA256，保留原像素和全角字宽。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK24H",
+          "label": "导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hzk-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK24H",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -2969,16 +3049,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 font 目录获取 HZK16F；这是字模数据，不是可直接安装的 TTF。",
+      "notice": "在 font 目录获取 HZK16F；这是字模数据，不是可直接安装的 TTF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://github.com/aguegu/BitmapFont/blob/HEAD/font/HZK16F",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -3317,15 +3402,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "下载 sazanami-20040629.tar.bz2，使用 sazanami-gothic.ttf 内嵌的 18px 点阵层。",
+      "notice": "下载 sazanami-20040629.tar.bz2，使用 sazanami-gothic.ttf 内嵌的 18px 点阵层。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://ftp.iij.ad.jp/pub/sourceforge.jp/efont/10087/",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://ftp.iij.ad.jp/pub/sourceforge.jp/efont/10087/",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -3375,15 +3465,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "下载 sazanami-20040629.tar.bz2，使用 sazanami-gothic.ttf 内嵌的 20px 点阵层。",
+      "notice": "下载 sazanami-20040629.tar.bz2，使用 sazanami-gothic.ttf 内嵌的 20px 点阵层。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://ftp.iij.ad.jp/pub/sourceforge.jp/efont/10087/",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://ftp.iij.ad.jp/pub/sourceforge.jp/efont/10087/",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -4014,16 +4109,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "下载页提供 v1.11 的 Firmware code，字模位于固件包中，需另行解析。",
+      "notice": "下载页提供 v1.11 的 Firmware code，字模位于固件包中，需另行解析。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://www.curtpalme.com/SonyG90_Downloads.shtm",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -4072,15 +4172,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Hei.ttf 含 9px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Hei.ttf 含 9px 内嵌点阵，需使用支持读取内嵌点阵的工具。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Hei.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Hei.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -4307,15 +4412,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 11px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。",
+      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 11px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -4539,15 +4649,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Hei.ttf 含 12px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Hei.ttf 含 12px 内嵌点阵，需使用支持读取内嵌点阵的工具。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Hei.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Hei.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -4597,15 +4712,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Kai.ttf 含 12px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Kai.ttf 含 12px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Kai.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Kai.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -4655,15 +4775,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 12px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。",
+      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 12px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -4958,15 +5083,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 13px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。",
+      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 13px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -5261,15 +5391,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 15px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。",
+      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 15px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -5436,15 +5571,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "原生点阵在 data/ZLabsRoundPix_16px_CN.kbitx；安装试用到 Releases 的 Build_20260501 选 ZLabsRoundPix_16px_M_CN.ttf。",
+      "notice": "原生点阵在 data/ZLabsRoundPix_16px_CN.kbitx；安装试用到 Releases 的 Build_20260501 选 ZLabsRoundPix_16px_M_CN.ttf。 所列 KBITX 原稿已验证可按本站说明导出 BDF，保留原像素、字宽与 bearing。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/Astro-2539/ZLabs-RoundPix-16px/blob/main/data/ZLabsRoundPix_16px_CN.kbitx",
+          "label": "KBITX 导出步骤与校验",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/kbitx-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/Astro-2539/ZLabs-RoundPix-16px/blob/main/data/ZLabsRoundPix_16px_CN.kbitx",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -5494,15 +5634,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Hei.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Hei.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Hei.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Hei.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -5552,15 +5697,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Kai.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Kai.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Kai.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Kai.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -5610,15 +5760,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 16px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。",
+      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 16px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -5785,15 +5940,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 20px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。",
+      "notice": "资料镜像的 fonts/mingliu.ttc（7.00）含 20px 内嵌点阵，需读取 TTC 中 MingLiU 的对应尺寸。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/grubeninspekteur/webseitendesigner-pywright/blob/HEAD/fonts/mingliu.ttc",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -5843,15 +6003,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Hei.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Hei.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Hei.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Hei.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -5901,15 +6066,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Kai.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Kai.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Kai.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Kai.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -6075,15 +6245,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 NISC18030.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 NISC18030.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/NISC18030.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/NISC18030.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -6186,16 +6361,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "Releases 提供 PBF_TUMBLED.zip；原生 18 号字模在 fonts/TUMBLED_18，不是可直接安装的 TTF。",
+      "notice": "Releases 提供 PBF_TUMBLED.zip；原生 18 号字模在 fonts/TUMBLED_18，不是可直接安装的 TTF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://github.com/TsFreddie/TUMBLED/blob/main/fonts/TUMBLED_18/font.json",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -6297,16 +6477,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "Releases 提供 PBF_TUMBLED.zip；原生 24 号字模在 fonts/TUMBLED_24，不是可直接安装的 TTF。",
+      "notice": "Releases 提供 PBF_TUMBLED.zip；原生 24 号字模在 fonts/TUMBLED_24，不是可直接安装的 TTF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://github.com/TsFreddie/TUMBLED/blob/main/fonts/TUMBLED_24/font.json",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -6355,15 +6540,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 BiauKai.ttf 含 9px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 BiauKai.ttf 含 9px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/BiauKai.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/BiauKai.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -6413,15 +6603,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Apple LiSung Light.ttf 含 9px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Apple LiSung Light.ttf 含 9px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiSung%20Light.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiSung%20Light.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -7113,15 +7308,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 BiauKai.ttf 含 12px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 BiauKai.ttf 含 12px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/BiauKai.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/BiauKai.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -7171,15 +7371,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Apple LiSung Light.ttf 含 12px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Apple LiSung Light.ttf 含 12px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiSung%20Light.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiSung%20Light.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -7880,15 +8085,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "原生点阵在 data/ZLabsDiamondPix_16px_SC.kbitx；安装试用到 Releases 的 Build_20260309 选 ZLabsDiamondPix_16px_M_SC.ttf。",
+      "notice": "原生点阵在 data/ZLabsDiamondPix_16px_SC.kbitx；安装试用到 Releases 的 Build_20260309 选 ZLabsDiamondPix_16px_M_SC.ttf。 所列 KBITX 原稿可按本站说明导出单色 BDF；「幾」的5个灰度像素会阈值化，非灰度无损。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/Astro-2539/ZLabs-DiamondPix-16px/blob/main/data/ZLabsDiamondPix_16px_SC.kbitx",
+          "label": "KBITX 导出步骤与校验",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/kbitx-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/Astro-2539/ZLabs-DiamondPix-16px/blob/main/data/ZLabsDiamondPix_16px_SC.kbitx",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -7938,15 +8148,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 BiauKai.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 BiauKai.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/BiauKai.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/BiauKai.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -7996,15 +8211,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Apple LiGothic Medium.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Apple LiGothic Medium.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiGothic%20Medium.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiGothic%20Medium.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -8054,15 +8274,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Apple LiSung Light.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Apple LiSung Light.ttf 含 16px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiSung%20Light.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiSung%20Light.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -8404,15 +8629,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 BiauKai.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 BiauKai.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/BiauKai.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/BiauKai.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -8462,15 +8692,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Apple LiGothic Medium.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Apple LiGothic Medium.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiGothic%20Medium.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiGothic%20Medium.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -8520,15 +8755,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "资料镜像中的 Apple LiSung Light.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。",
+      "notice": "资料镜像中的 Apple LiSung Light.ttf 含 24px 内嵌点阵，需使用支持读取内嵌点阵的工具。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiSung%20Light.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/justrajdeep/fonts/blob/HEAD/Apple%20LiSung%20Light.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -9203,15 +9443,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "获取 sources/ttf/Dotum.ttf 并读取内嵌 12px 点阵；不要选不含点阵的 hinted/unhinted 版。",
+      "notice": "获取 sources/ttf/Dotum.ttf 并读取内嵌 12px 点阵；不要选不含点阵的 hinted/unhinted 版。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/googlefonts/gulim/blob/main/sources/ttf/Dotum.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/googlefonts/gulim/blob/main/sources/ttf/Dotum.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -9278,15 +9523,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "获取 sources/ttf/Dotum.ttf 并读取内嵌 14px 点阵；不要选不含点阵的 hinted/unhinted 版。",
+      "notice": "获取 sources/ttf/Dotum.ttf 并读取内嵌 14px 点阵；不要选不含点阵的 hinted/unhinted 版。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/googlefonts/gulim/blob/main/sources/ttf/Dotum.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/googlefonts/gulim/blob/main/sources/ttf/Dotum.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -9353,15 +9603,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "获取 sources/ttf/Dotum.ttf 并读取内嵌 16px 点阵；不要选不含点阵的 hinted/unhinted 版。",
+      "notice": "获取 sources/ttf/Dotum.ttf 并读取内嵌 16px 点阵；不要选不含点阵的 hinted/unhinted 版。 本文所列版本已验证可用本站脚本导出 BDF，保留原位图、字宽与基线。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/googlefonts/gulim/blob/main/sources/ttf/Dotum.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/googlefonts/gulim/blob/main/sources/ttf/Dotum.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -9428,15 +9683,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "获取 sources/ttf/Batang.ttf 并读取内嵌 14px 点阵；不要选不含点阵的 hinted/unhinted 版。",
+      "notice": "获取 sources/ttf/Batang.ttf 并读取内嵌 14px 点阵；不要选不含点阵的 hinted/unhinted 版。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/googlefonts/batang/blob/main/sources/ttf/Batang.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/googlefonts/batang/blob/main/sources/ttf/Batang.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -9503,15 +9763,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "获取 sources/ttf/Batang.ttf 并读取内嵌 16px 点阵；不要选不含点阵的 hinted/unhinted 版。",
+      "notice": "获取 sources/ttf/Batang.ttf 并读取内嵌 16px 点阵；不要选不含点阵的 hinted/unhinted 版。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://github.com/googlefonts/batang/blob/main/sources/ttf/Batang.ttf",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://github.com/googlefonts/batang/blob/main/sources/ttf/Batang.ttf",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -9578,15 +9843,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "随 Windows 等产品提供，可从已获授权的 Msgothic.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。",
+      "notice": "随 Windows 等产品提供，可从已获授权的 Msgothic.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
+        {
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
+          "action": "method"
+        },
         {
           "label": "查看字体说明",
           "url": "https://learn.microsoft.com/en-us/typography/font-list/ms-gothic",
           "action": "reference"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -9653,15 +9923,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "随 Windows 等产品提供，可从已获授权的 Msgothic.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。",
+      "notice": "随 Windows 等产品提供，可从已获授权的 Msgothic.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
+        {
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
+          "action": "method"
+        },
         {
           "label": "查看字体说明",
           "url": "https://learn.microsoft.com/en-us/typography/font-list/ms-gothic",
           "action": "reference"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -9728,15 +10003,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "随 Windows 等产品提供，可从已获授权的 Msgothic.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。",
+      "notice": "随 Windows 等产品提供，可从已获授权的 Msgothic.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
+        {
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
+          "action": "method"
+        },
         {
           "label": "查看字体说明",
           "url": "https://learn.microsoft.com/en-us/typography/font-list/ms-gothic",
           "action": "reference"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -9803,15 +10083,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "随 Windows 等产品提供，可从已获授权的 Msmincho.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。",
+      "notice": "随 Windows 等产品提供，可从已获授权的 Msmincho.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
+        {
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
+          "action": "method"
+        },
         {
           "label": "查看字体说明",
           "url": "https://learn.microsoft.com/en-us/typography/font-list/ms-mincho",
           "action": "reference"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -9878,15 +10163,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "随 Windows 等产品提供，可从已获授权的 Msmincho.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。",
+      "notice": "随 Windows 等产品提供，可从已获授权的 Msmincho.ttc 读取内嵌点阵；不同系统版本可能不含相同点阵，官网无独立下载。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
+        {
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
+          "action": "method"
+        },
         {
           "label": "查看字体说明",
           "url": "https://learn.microsoft.com/en-us/typography/font-list/ms-mincho",
           "action": "reference"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -9959,15 +10249,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "历史归档页提供 Osaka.zip；请使用包含内嵌点阵的版本，不要选 OutlineOnly。",
+      "notice": "历史归档页提供 Osaka.zip；请使用包含内嵌点阵的版本，不要选 OutlineOnly。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -10040,15 +10335,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "历史归档页提供 Osaka.zip；请使用包含内嵌点阵的版本，不要选 OutlineOnly。",
+      "notice": "历史归档页提供 Osaka.zip；请使用包含内嵌点阵的版本，不要选 OutlineOnly。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -10127,15 +10427,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "历史归档页提供 Osaka.zip；请使用包含内嵌点阵的版本，不要选 OutlineOnly。",
+      "notice": "历史归档页提供 Osaka.zip；请使用包含内嵌点阵的版本，不要选 OutlineOnly。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -10208,15 +10513,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "历史归档页提供 Osaka.zip；请使用包含内嵌点阵的版本，不要选 OutlineOnly。",
+      "notice": "历史归档页提供 Osaka.zip；请使用包含内嵌点阵的版本，不要选 OutlineOnly。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -10275,16 +10585,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FGB10F.PDB。",
+      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FGB10F.PDB。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://palmdb.net/app/cjkos",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -10342,16 +10657,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FB510F.PDB。",
+      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FB510F.PDB。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://palmdb.net/app/cjkos",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -10409,16 +10729,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FGB12F.PDB。",
+      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FGB12F.PDB。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://palmdb.net/app/cjkos",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -10476,16 +10801,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FB512F.PDB。",
+      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FB512F.PDB。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://palmdb.net/app/cjkos",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -10536,16 +10866,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "Vector 下载页提供 elisa100.lzh，内为 ELISA.FNT 原始 8×8 字库。",
+      "notice": "Vector 下载页提供 elisa100.lzh，内为 ELISA.FNT 原始 8×8 字库。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://www.vector.co.jp/soft/dl/data/writing/se013782.html",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -10658,16 +10993,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "来源提供 20240803 固件包；字模需另行提取，没有独立可安装字体下载。",
+      "notice": "来源提供 20240803 固件包；字模需另行提取，没有独立可安装字体下载。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://github.com/ZhaiRenGaiZaoJia/FlipperZero-CN-Firmware/blob/main/mntm_cn-20240803%E5%85%AC%E6%B5%8B%E7%89%88/mntm_cn-20240803Test.tgz",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -10922,16 +11262,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "Debian 历史归档提供 hbf-cns40-1 原始包，内含 40×40 的 HBF/BIN 字库。",
+      "notice": "Debian 历史归档提供 hbf-cns40-1 原始包，内含 40×40 的 HBF/BIN 字库。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://archive.debian.org/debian/pool/main/h/hbf-cns40-1/",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -11423,15 +11768,20 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "作者页面下载区提供 Konatu_ver_20121218.zip；本样张读取其中的 12px 内嵌点阵。",
+      "notice": "作者页面下载区提供 Konatu_ver_20121218.zip；本样张读取其中的 12px 内嵌点阵。 可先用本站工具检查实际位图层，再导出 BDF；此文件版本尚未补做导出验证。",
       "links": [
         {
-          "label": "查看获取方法",
-          "url": "https://blog.masuseki.com/?p=233",
+          "label": "点阵导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/bitmap-export.md",
           "action": "method"
+        },
+        {
+          "label": "查看源文件或来源",
+          "url": "https://blog.masuseki.com/?p=233",
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   },
@@ -11821,16 +12171,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。",
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://ftp.zx.net.nz/pub/Media/Digital/",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -11881,16 +12236,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。",
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://ftp.zx.net.nz/pub/Media/Digital/",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -11941,16 +12301,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。",
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://ftp.zx.net.nz/pub/Media/Digital/",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -12001,16 +12366,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。",
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://ftp.zx.net.nz/pub/Media/Digital/",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -12061,16 +12431,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。",
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://ftp.zx.net.nz/pub/Media/Digital/",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -12121,16 +12496,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。",
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://ftp.zx.net.nz/pub/Media/Digital/",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -12181,16 +12561,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。",
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://ftp.zx.net.nz/pub/Media/Digital/",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -12241,16 +12626,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。",
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://ftp.zx.net.nz/pub/Media/Digital/",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -12301,16 +12691,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。",
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://ftp.zx.net.nz/pub/Media/Digital/",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -12361,16 +12756,21 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。",
+      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
       "links": [
         {
-          "label": "查看获取方法",
+          "label": "格式说明与当前限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
+          "action": "reference"
+        },
+        {
+          "label": "查看源文件或来源",
           "url": "https://ftp.zx.net.nz/pub/Media/Digital/",
-          "action": "method"
+          "action": "source"
         }
       ],
-      "checkedOn": "2026-10-23",
-      "type": "method"
+      "checkedOn": "2026-11-05",
+      "type": "source"
     }
   },
   {
@@ -12774,6 +13174,76 @@
         }
       ],
       "checkedOn": "2026-11-04",
+      "type": "method"
+    }
+  },
+  {
+    "id": "panasonic_fsuv1_16",
+    "name": "Panasonic FS-UV1 / FS-A1F · 16×16",
+    "family": "Panasonic FS-UV1 / FS-A1F",
+    "width": 16,
+    "height": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/panasonic_fsuv1_16.png",
+    "specimenWidth": 320,
+    "specimenHeight": 80,
+    "text": "視野無限廣，窗外有藍天。\n亜愛永国語漢字画面編集",
+    "asciiText": "０１２３４５６７８９　ＡａＢｂ　ＧｇＭｍ\n！？，。：；＋−＝（）",
+    "sourceUrl": "https://www.msx.org/forum/msx-talk/software/list-undumped-msx-software-please-help?page=67",
+    "sourceLabel": "FS-UV1 持有人转储记录",
+    "notes": "JIS一级汉字2965字加「仝」，共2966个映射汉字全部非空；不是完整繁体中文字库。与两份jiskan的2966个共同汉字均不同；现有目录其他16点字样仅做样本初筛，未发现重复。固定预览的后两行为全角英数与标点，不是半角ASCII。未逐字人工认证历史字形，也未独立拆机验证。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "ROM与字模未查到明确再分发或商用授权；第三方镜像可访问不代表获得授权。本站仅展示固定样图与不内嵌字模的导出脚本，不分发ROM或完整BDF。",
+    "provenance": "直接读取128KiB ROM的16×16位图，每字32字节，四个8×8块按左上、右上、左下、右下排列。FS-UV1持有人公布其转储与FS-A1F字库一致；所用FS-A1F文件匹配该SHA256，但本站未独立取得原机转储。",
+    "sampleKind": "standard",
+    "sampleLabel": "繁体固定样句／实际覆盖汉字示例／全角英数／全角标点；缺字留空。",
+    "coverage": "繁体固定样句缺「廣」「窗」；其余所示字符完整",
+    "missing": [
+      "廣",
+      "窗"
+    ],
+    "hanMissing": [
+      "廣",
+      "窗"
+    ],
+    "asciiMissing": [],
+    "asciiOrigin": "fullwidth-native",
+    "sourceIndex": 228,
+    "nativeEvidence": {
+      "summary": "原生16×16单色存储位图，无矢量取模或补字；源ROM SHA256 e4036415638e73d5894d850cab3a40cb63e76afa0391d0ad31321bf2ed61b7d7。汉字2966字已验证非空；现代EUC-JP暂映射共3489字符、3474非空，非汉字符号的历史对应关系未全部核准。",
+      "sourceUrl": "https://www.msx.org/forum/msx-talk/software/list-undumped-msx-software-please-help?page=67"
+    },
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "fbf4da3ca1d872a42346c2e1d32fc51adc16154cd1db0cae37a8a95b5c8a16ff",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权使用fs-a1f_kanjifont.rom，再用Python 3运行本站脚本。默认导出2966个汉字的Unicode BDF，可选暂映射符号；校验大小与SHA256，不联网、不附字模、不覆盖已有输出。",
+      "links": [
+        {
+          "label": "导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/panasonic-fs-uv1.md",
+          "action": "method"
+        },
+        {
+          "label": "查看转储记录",
+          "url": "https://www.msx.org/forum/msx-talk/software/list-undumped-msx-software-please-help?page=67",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
       "type": "method"
     }
   }

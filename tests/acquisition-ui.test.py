@@ -44,7 +44,7 @@ for row in rows:
  if row['sourceUrl']:assert row['sourceUrl'].replace('&','&amp;') in page
  assert 'class="license-note"' in page
 byid={r['id']:r for r in rows}
-for id,kind in {'boutique9':'font','dinkie9':'trial','dinkie7':'trial','psa_c_screen_12':'contact','founder_pixel12':'license','dec_kaiti_gb2312_34':'method','chinasea_reference':'reference','hanyi-pixel9':'source','hanyi-pixel13':'source','lanapixel_11px':'source'}.items():assert byid[id]['acquisitionGuide']['type']==kind,(id,kind)
+for id,kind in {'boutique9':'font','dinkie9':'trial','dinkie7':'trial','psa_c_screen_12':'contact','founder_pixel12':'license','dec_kaiti_gb2312_34':'source','chinasea_reference':'reference','hanyi-pixel9':'source','hanyi-pixel13':'source','lanapixel_11px':'source'}.items():assert byid[id]['acquisitionGuide']['type']==kind,(id,kind)
 assert byid['relmon_ms6459']['acquisitionGuide']['links'][0]['action']=='reference'
 assert byid['panasonic-mn1871681']['acquisitionGuide']['type']=='reference'
 js=(R/'app.js').read_text();section=js[js.index('    if (row.acquisitionGuide) {'):js.index("    addDetail(list, '样张类型'")]

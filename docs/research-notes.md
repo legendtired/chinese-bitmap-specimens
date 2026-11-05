@@ -14,6 +14,8 @@ SimSun 5.03 内嵌点阵与方正像素的已核样本一致：12px 为24个汉�
 
 ## 设备字样
 
+- **Panasonic FS-UV1 / FS-A1F**：16×16 ROM；2965个JIS一级汉字加「仝」，与两份jiskan的2966个共同汉字均不同。繁体样句缺「廣」「窗」。[导出与核验](panasonic-fs-uv1.md)。
+
 - **MN1871681**：按1998–1999年文档网格重建，疑似客户版本。[文档](https://datasheet4u.com/pdf/511850/)。
 - **Sony G90**：实际字体 ROM 解码，前景规则参考同系芯片资料，实机显示待核。[来源](https://www.curtpalme.com/SonyG90_Downloads.shtm)。
 - **NC1020**：模拟器镜像中的12×12字模。[提取说明](nc1020.md)。

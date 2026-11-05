@@ -54,6 +54,9 @@ python3 scripts/workspace.py check
 
 ## 设备输入
 
+- [字体获取与导出](font-export.md)：各类输入、适用工具及尚未整理的处理方法。
+- [Panasonic FS-UV1 / FS-A1F](panasonic-fs-uv1.md)：16点ROM导出Unicode BDF。
+
 - [NC1020](nc1020.md)：镜像转换为 BDF。
 - [Casio Ex-word](casio-exword.md)：CJF转换为 BDF。
 - PSA：`python3 scripts/render_psa_specimens.py --firmware local-research/psa-c-screen/read1.bin`，需要已核验私有输入与 Pillow；保留14×14／16×17存储框。

@@ -1,10 +1,11 @@
+from export_baseline import before_export_guides
 """Explicit Casio two-size addition with no baseline changes or full font files."""
 from pathlib import Path
 import json,hashlib,subprocess,sys,tempfile
-R=Path(__file__).resolve().parents[1];rows=json.loads((R/'data/catalog.json').read_text());m=json.loads((R/'data/release-casio.json').read_text())
+R=Path(__file__).resolve().parents[1];rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id']!='panasonic_fsuv1_16'];m=json.loads((R/'data/release-casio.json').read_text())
 assert len(rows)==202
 base=[r for r in rows if r['id'] not in m['addedIds']]
-assert hashlib.sha256(json.dumps(base,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['baseRowsSha256']
+assert hashlib.sha256(json.dumps([before_export_guides(r) for r in base],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['baseRowsSha256']
 assert not any(r['id']=='casio_xda10000_16' for r in rows)
 for n,priority in [(12,6),(24,0)]:
  r=next(r for r in rows if r['id']==f'casio_xda10000_{n}');assert r['priority']==priority and (r['width'],r['height'])==(n,n)

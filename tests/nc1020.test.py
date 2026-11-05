@@ -1,8 +1,9 @@
+from export_baseline import before_export_guides
 """Approved NC1020 addition, fixed preview only, exact baseline preservation."""
 from pathlib import Path
 import json,hashlib,subprocess,sys,tempfile
-R=Path(__file__).resolve().parents[1]; rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if not r['id'].startswith('casio_xda10000_')]
-assert hashlib.sha256(json.dumps([r for r in rows if r['id']!='wqx_nc1020_12'],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==json.loads((R/'data/release-nc1020.json').read_text())['baseRowsSha256']
+R=Path(__file__).resolve().parents[1]; rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if not r['id'].startswith('casio_xda10000_') and r['id']!='panasonic_fsuv1_16']
+assert hashlib.sha256(json.dumps([before_export_guides(r) for r in rows if r['id']!='wqx_nc1020_12'],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==json.loads((R/'data/release-nc1020.json').read_text())['baseRowsSha256']
 r=next(r for r in rows if r['id']=='wqx_nc1020_12')
 assert len(rows)==200 and r['priority']==7 and (r['width'],r['height'])==(12,12)
 assert (r['specimenWidth'],r['specimenHeight'])==(144,12) and r['missing']==[]
