@@ -32,8 +32,7 @@ const bySource = (a, b) => {
 };
 const recent = (values, selections = {}, family = '') => api.filterCatalog(values, selections, family, 'recent');
 const pcId = 'wqx_pc505_14x15';
-const tuId = 'panasonic_tutx100_16x24';
-const priorRows = rows.filter(r => r.id !== pcId && r.id !== tuId);
+const priorRows = rows.filter(r => r.id !== pcId);
 const newIds = new Set(release.addedIds.filter(id => !withdrawn.has(id)));
 const baseIds = new Set(release.baseIds);
 const row = (id, sourceIndex, extra = {}) => ({id, sourceIndex, name: id, height: 12, family: 'fixture', scripts: ['简体'], styles: ['宋体'], uses: ['研究'], ...extra});
@@ -57,18 +56,17 @@ const fixture = [
 ];
 
 test('PC505 is newest, followed by the prior 10 retained collected items and entire 208-item baseline', () => {
-  assert.equal(rows.length, 220);
+  assert.equal(rows.length, 219);
   assert.equal(priorRows.length, 218);
   assert.equal(newIds.size, 10);
   assert.equal(baseIds.size, 208);
-  assert.equal(recent(rows)[0].id, tuId);
-  const sorted = recent(rows).filter(r => r.id !== tuId);
-  assert.equal(sorted.length, rows.length - 1);
+  const sorted = recent(rows);
+  assert.equal(sorted.length, rows.length);
   assert.equal(sorted[0].id, pcId);
   assert.equal(sorted[0].sourceIndex, 252);
   assert.deepEqual(new Set(ids(sorted.slice(1, 11))), newIds);
   assert.deepEqual(new Set(ids(sorted.slice(11))), baseIds);
-  assert.deepEqual(new Set(ids(sorted)), new Set(ids(rows).filter(id => id !== tuId)));
+  assert.deepEqual(new Set(ids(sorted)), new Set(ids(rows)));
 });
 
 test('FM Towns precedes older Sharp and batch order wins even if Sharp has a larger index', () => {
@@ -109,10 +107,10 @@ test('History batches match their checked-in release manifests with no duplicate
     }
   }
   const latest = history.batches.at(-1);
-  assert.equal(path.basename(latest.sourceManifest), 'release-panasonic-tutx100.json');
-  assert.deepEqual(latest.ids, [tuId]);
-  assert.equal(history.batches.length, 11);
-  assert.deepEqual(new Set(history.batches.at(-3).ids), newIds);
+  assert.equal(path.basename(latest.sourceManifest), 'release-pc505-collection.json');
+  assert.deepEqual(latest.ids, [pcId]);
+  assert.equal(history.batches.length, 10);
+  assert.deepEqual(new Set(history.batches.at(-2).ids), newIds);
 });
 
 test('Each recorded batch sorts ahead of older batches and unrecorded history', () => {
@@ -190,9 +188,9 @@ test('Sorting mutates neither input array, rows, filters nor favorites', () => {
 
 test('All previous sort modes match the retained rows of the immutable pre-change 221-row baselines', () => {
   for (const mode of ['recommended', 'height', 'height-desc', 'name']) {
-    assert.deepEqual(ids(api.filterCatalog(rows, {}, '', mode)).filter(id => id !== pcId && id !== tuId), previous[mode], `${mode} ordering changed`);
+    assert.deepEqual(ids(api.filterCatalog(rows, {}, '', mode)).filter(id => id !== pcId), previous[mode], `${mode} ordering changed`);
   }
-  assert.deepEqual(ids(api.filterCatalog(rows, {})).filter(id => id !== pcId && id !== tuId), previous.recommended);
+  assert.deepEqual(ids(api.filterCatalog(rows, {})).filter(id => id !== pcId), previous.recommended);
 });
 
 test('HTML offers explicit latest-collected order without replacing the recommended default', () => {
@@ -247,7 +245,7 @@ test('UI change events toggle the recency explanation and keep recent order acro
   const {$} = context.reviewHarness;
   const displayed = () => Array.from($('catalog').children, card => card.dataset.rowId);
   assert.equal($('sort-note').hidden, true);
-  assert.deepEqual(displayed().filter(id => id !== pcId && id !== tuId), previous.recommended);
+  assert.deepEqual(displayed().filter(id => id !== pcId), previous.recommended);
   assert.deepEqual(displayed(), ids(api.filterCatalog(rows, {}, '', 'recommended')));
   $('sort').value = 'recent';
   $('sort').emit('change');
@@ -270,7 +268,7 @@ test('UI change events toggle the recency explanation and keep recent order acro
   assert.equal($('sort-note').hidden, false);
   $('sort').value = 'recommended';
   $('sort').emit('change');
-  assert.deepEqual(displayed().filter(id => id !== pcId && id !== tuId), previous.recommended);
+  assert.deepEqual(displayed().filter(id => id !== pcId), previous.recommended);
   assert.deepEqual(displayed(), ids(api.filterCatalog(rows, {}, '', 'recommended')));
   assert.equal($('sort-note').hidden, true);
 });
@@ -279,6 +277,6 @@ test('UI change events toggle the recency explanation and keep recent order acro
 test('Withdrawn Solaris GB2312 is absent while all five GBK sizes and PC505 remain', () => {
   for (const id of withdrawn) assert(!rows.some(r => r.id === id));
   for (const n of [12,14,16,20,24]) assert(rows.some(r => r.id === `sun_gbk_song_${n}`));
-  assert.equal(recent(rows)[0].id, tuId);
+  assert.equal(recent(rows)[0].id, pcId);
   assert.equal(Object.keys(originalPrevious).length, Object.keys(previous).length);
 });
