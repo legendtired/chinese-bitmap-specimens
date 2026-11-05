@@ -177,7 +177,7 @@
     if (row.inkWidth && row.inkHeight) addDetail(list, '字面／墨迹', `${row.inkWidth}×${row.inkHeight} px（不等于字符框大小）`);
     addDetail(list, '字符范围', row.scripts); addDetail(list, '覆盖说明', row.coverage);
     addDetail(list, '样本文字', row.text); addDetail(list, row.asciiOrigin === 'fullwidth-native' ? '全角英数样文（非ASCII）' : '拉丁字符', row.asciiOrigin === 'absent' ? null : row.asciiText);
-    addDetail(list, '缺字', isReference(row) ? referenceCoverage : Array.isArray(row.missing) ? row.missing.length ? row.missing.join('、') : '本次样本文字未发现缺字' : row.missing);
+    addDetail(list, '缺字', isReference(row) ? referenceCoverage : Array.isArray(row.missing) ? row.missing.length ? row.missing.join('、') : '样文无缺字' : row.missing);
     addDetail(list, '风格', row.styles); addDetail(list, '用途', row.uses);
     addDetail(list, '授权状态', row.licenseStatus || '尚未确认，请到来源项目核实。');
     addDetail(list, '许可说明', row.licenseNote); addDetail(list, '字形来源', row.provenance);
@@ -221,7 +221,7 @@
       addDetail(list, '相关来源', source);
     }
     addDetail(list, '说明', row.notes);
-    const note = create('p', 'license-note', '样张仅供字形比较，不提供字体文件。预览不构成字体使用许可；请在使用前核实来源项目的适用授权。');
+    const note = create('p', 'license-note', '字体使用与再分发按原来源许可执行。');
     $('detail-content').replaceChildren(list, note); showDialog($('detail-dialog'));
   }
   function specimenImage(row, scale) {

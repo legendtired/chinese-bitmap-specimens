@@ -1,48 +1,28 @@
 # 研究记录
 
-这里只记录可以回到条目和公开资料核对的发现，不把有限样本推广成全字库结论。
+## SimSun 与方正像素
 
-## SimSun 与方正像素：相同样文不等于相同字库
+SimSun 5.03 内嵌点阵与方正像素的已核样本一致：12px 为24个汉字及2个标点，14px 为10个汉字及2个标点。目录采用方正自身字形，SimSun 记入相关来源。所查 SimSun 位图层不含可打印 ASCII，轮廓层含西文。
 
-在本项目检查的 SimSun 5.03 内嵌点阵与方正公开像素字样中，12px 已核验的 24 个不同汉字及 2 个中文标点像素一致；14px 当前比较句的 10 个汉字和 2 个中文标点也一致。
+来源：[方正项目](https://nzj.foundertype.com/208.html?font_id=479)、[SimSun 历史镜像](https://github.com/dolbydu/font/blob/master/unicode/SimSun.ttc)。
 
-因此目录分别保留方正像素 12px、14px 作为代表预览，将 SimSun 来源放入相关来源说明。方正预览全部来自其自身字形，不借用 SimSun 或其他字体补字。核验范围不支持宣称两个完整字库相同，更不能推断相同许可。
+## CCIC chkan24 与 ISAS 宋体24点
 
-SimSun 文件轮廓层有数字与拉丁字符，但这些所选原生点阵字号不含可打印 ASCII。缺失的是该位图层的覆盖，而不是据此断言整个字体文件没有西文。
+当前612×52样图逐像素一致，两项均标注 ISAS 1988，合并展示并保留来源。
 
-资料：[方正公开项目页](https://nzj.foundertype.com/208.html?font_id=479)、[SimSun 历史镜像](https://github.com/dolbydu/font/blob/master/unicode/SimSun.ttc)。镜像不是开放授权声明。具体条目及许可边界见目录中的 relatedSources。
+来源：[CCIC BDF 目录](https://www.ibiblio.org/pub/packages/ccic/software/fonts/gb/bdf/)、[GNU intlfonts](https://ftp.gnu.org/gnu/intlfonts/)。
 
-## CCIC chkan24 与 ISAS 宋体 24px
+## 设备字样
 
-两项当前完整 PNG 样张（612×52）逐像素一致，来源记录均注明 ISAS 1988。目录合并展示，保留两个来源；没有据此断言全部字形或文件内容一致。
+- **MN1871681**：按1998–1999年文档网格重建，疑似客户版本。[文档](https://datasheet4u.com/pdf/511850/)。
+- **Sony G90**：实际字体 ROM 解码，前景规则参考同系芯片资料，实机显示待核。[来源](https://www.curtpalme.com/SonyG90_Downloads.shtm)。
+- **NC1020**：模拟器镜像中的12×12字模。[提取说明](nc1020.md)。
+- **Casio XD-A10000**：CJF 文件中的12／16／24点阵。[提取与比对](casio-exword.md)。
 
-资料：[CCIC 历史 BDF 目录](https://www.ibiblio.org/pub/packages/ccic/software/fonts/gb/bdf/)、[GNU intlfonts](https://ftp.gnu.org/gnu/intlfonts/)。
+## 尺寸与版本
 
-## 设备字样：区分文档重建与 ROM 解码
+- Osaka：9／14／18／24ppem 的保存字框分别为9×11、14×15、18×18、24×22。
+- ELISA：8×8设计，10×8字框。
+- 所查 Silver 附带版本与 M+ j12r 共有6,355个汉字，其中6,172字紧裁墨迹一致（97.12%）。相关来源并入 M+ 代表条目。[Silver](https://poppyworks.itch.io/silver)。
 
-### MN1871681
-
-当前条目来自 1998–1999 文档网格重建，记录为疑似客户版字样，不是从 ROM 提取。不能把它当作所有松下电视通用字库，也不为缺失的菜单字补造字形。
-
-资料：[MN1871681 文档来源](https://datasheet4u.com/pdf/511850/)。
-
-### Sony G90
-
-当前条目来自实际字体 ROM 的解码；前景规则参考同系芯片资料推断，尚未经过实机核验。这里只展示已核验来源中的字形，不代表通用中文字库，也不能代替其他 Sony 年代或机型的字体证据。
-
-资料：[Sony G90 历史下载资料](https://www.curtpalme.com/SonyG90_Downloads.shtm)。
-
-## 仍需留意
-
-- 旧字体的版权和最初设计过程可能难以完整追溯，保留不确定性。
-- 样文覆盖不能代表全部汉字覆盖；区域编码、简繁字体与半角西文需分别核对。
-- 未收录条目可能是缺字、辨认度、重复程度或证据问题，并不自动证明其由矢量取模生成。
-- 新证据可以修正当前记录，欢迎提供原始资料和可复核的对照。
-
-## v16：尺寸与资料类型的新增核验
-
-Osaka 的 ppem 与保存位图框并不总一致：9ppem 为 9×11、14ppem 为 14×15、18ppem 最大 18×18、24ppem 为 24×22。ELISA 的 8×8 设计保存在 10×8 字框中。目录按字框高筛选，设计尺寸和字号单独说明。
-
-实际检查的 Silver 应用附带版本与 M+ j12r 共有 6355 个汉字，其中 6172 字紧裁墨迹一致（97.12%）；不据此断言最新版 Silver、全字库或许可相同。这里只为既有代表添加来源记录。作者入口：[Silver](https://poppyworks.itch.io/silver)。
-
-官方试字图、标准里的“永”字和历史外字图片可以提供研究线索，但不能据截图恢复或宣称完整原生字库。它们在目录中单列参考类型，未实测字框不填写猜测尺寸；原生全角英数也不等同于普通 ASCII 完整。新增范围和逐项入口见 [v16 收录说明](release-v16.md)。
+各条目的尺寸、覆盖、版本和许可见[目录数据](../data/catalog.json)。

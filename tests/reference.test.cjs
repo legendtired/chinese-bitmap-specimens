@@ -97,7 +97,7 @@ image.emit('click');assert($('detail-dialog').open);
 assert($('detail-content').textContent.includes(api.referenceCoverage));
 assert($('detail-content').textContent.includes(reference.referenceNote));
 assert($('detail-content').textContent.includes(reference.referenceType));
-assert(!/本次样本文字未发现缺字|null/.test($('detail-content').textContent));
+assert(!/样文无缺字|null/.test($('detail-content').textContent));
 assert(!$('detail-content').querySelectorAll('dt').some(term=>term.textContent==='字符框'));
 $('detail-dialog').close();
 image.emit('pointerdown');image.emit('pointermove',{clientX:10});image.emit('click');assert(!$('detail-dialog').open,'Dragging the reference image must not open details');

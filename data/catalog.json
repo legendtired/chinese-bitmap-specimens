@@ -12756,7 +12756,7 @@
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "e3610f9921fbeddac22bc5984007fe4ea2cd22dbe4112596f456fc910ad4d5cb",
-    "priority": 5,
+    "priority": 0,
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],

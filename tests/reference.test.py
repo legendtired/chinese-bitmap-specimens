@@ -59,7 +59,7 @@ for output in [generator.article(native),generator.font_page(native)]:
  assert 'reference-image' not in output
  images=[attrs for tag,attrs in Document(output).tags if tag=='img' and 'specimen-image' in attrs.get('class','')]
  assert [(image['width'],image['height']) for image in images]==[('360','90'),('120','30')]
-assert '本次样本文字未发现缺字' in generator.details(native)
+assert '样文无缺字' in generator.details(native)
 assert '中文缺字：字' in generator.details({**native,'hanMissing':['字']})
 fullwidth={**native,'asciiOrigin':'fullwidth-native','asciiText':'ＡＢ１２'}
 assert '<dt>全角英数样文（非ASCII）</dt><dd>ＡＢ１２</dd>' in generator.details(fullwidth)
