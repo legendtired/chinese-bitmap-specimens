@@ -1,0 +1,46 @@
+{
+  "baseCommit": "f2f494c099e93630a896496d6d2a3ba15a12877c",
+  "baseRowsSha256": "ee87aa8e4c9c6a022b50d1d700309f3b670c9df696482e2ad0d2508c6298fc45",
+  "addedIds": [
+    "stone_ms2401h_style1_32",
+    "stone_ms2401h_style2_32",
+    "stone_ms2401h_style3_32",
+    "stone_ms2401h_style4_32"
+  ],
+  "sampleText": "视野无限广窗外有蓝天",
+  "sourcePage": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
+  "styles": [
+    {
+      "id": "stone_ms2401h_style1_32",
+      "style": 1,
+      "sampleSha256": "b763a059f7e9703aad0e12d4518bfce2001eba853d89ec4552014754e5b3f23e",
+      "rowMajorSha256": "7be69d680d3e902e79a012509a1c833fb421c8f756aaf875538366989772fbba",
+      "hanzi": 6763,
+      "sourceSlots": 6768
+    },
+    {
+      "id": "stone_ms2401h_style2_32",
+      "style": 2,
+      "sampleSha256": "6861b94699e46d228e8ff4a97028a4e12616cdb12d99d8fdd45e877b5ca7ec83",
+      "rowMajorSha256": "fdf6e45ccfe66bdc7940404ccd90edb84f1eaa0473ab79dd12805aaa70f87423",
+      "hanzi": 6763,
+      "sourceSlots": 6768
+    },
+    {
+      "id": "stone_ms2401h_style3_32",
+      "style": 3,
+      "sampleSha256": "22d9f2c98f719aac1fb40474076af3096190e2040377a07042ffcb2cb4fe0533",
+      "rowMajorSha256": "d9c8609674f763a570153e01596e09d118d689e1e78d817e3682dc5e0699c8eb",
+      "hanzi": 6763,
+      "sourceSlots": 6768
+    },
+    {
+      "id": "stone_ms2401h_style4_32",
+      "style": 4,
+      "sampleSha256": "53580efbcb36397e572b89c85677c8776e5e8821c80a3d444f331ed2794b3f45",
+      "rowMajorSha256": "6071fa0a1ad795a3f2aa9b8d945f09f62f0bddad1465e28bfbfb0e2a7aca1d21",
+      "hanzi": 6763,
+      "sourceSlots": 6768
+    }
+  ]
+}

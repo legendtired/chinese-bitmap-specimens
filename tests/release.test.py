@@ -3,7 +3,7 @@ from acquisition_baseline import before_acquisition
 from pathlib import Path
 import hashlib,json
 R=Path(__file__).resolve().parents[1]
-rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('wqx_nc1020_12','casio_xda10000_12','casio_xda10000_24','panasonic_fsuv1_16')];release=json.loads((R/'data/release-v16.json').read_text());byid={r['id']:r for r in rows}
+rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('wqx_nc1020_12','casio_xda10000_12','casio_xda10000_24','panasonic_fsuv1_16','stone_ms2401h_style1_32','stone_ms2401h_style2_32','stone_ms2401h_style3_32','stone_ms2401h_style4_32')];release=json.loads((R/'data/release-v16.json').read_text());byid={r['id']:r for r in rows}
 removed=set(json.loads((R/'data/curation.json').read_text())['postV17RemovedIds']);assert removed=={'monotype_bitmap_hk','hanyi-pixel-power','hanyi-pixel-invasion','fzbase','gb48_2025_reference','fzfeng','taipeib20'}
 removed |= set(json.loads((R/'data/curation.json').read_text())['postEfontRemovedIds'])
 assert len(rows)==len(byid)==199
@@ -34,5 +34,5 @@ assert byid['elisa_8_native']['asciiOrigin']=='fullwidth-native'
 assert byid['cns40_original']['asciiOrigin']=='fullwidth-native'
 assert '\n' in byid['yh_1999_16']['text'] and byid['yh_1999_16']['asciiText']
 assert all(not r['asciiText'] and r['asciiOrigin']=='absent' for r in added if r['family']=='Palm CJKOS')
-s=json.loads((R/'data/summary.json').read_text());assert s['rows']==203 and s['referenceRows']==1 and s['nativePngCount']==202
+s=json.loads((R/'data/summary.json').read_text());assert s['rows']==207 and s['referenceRows']==1 and s['nativePngCount']==206
 print('v16 checks passed: retained base155 rows preserved except allowed acquisition guidance and Silver provenance changes;29 native/design-grid+1 retained reference; explicit pixel-style exclusions, no excluded/unapproved fonts; hashes and source/privacy boundaries valid.')

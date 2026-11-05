@@ -4,6 +4,8 @@
 
 ## 已有可运行方法
 
+- **四通 MS-2401H 四套32点**：校验BIOS与CA字库ROM后，解压导出每套6763个汉字的Unicode BDF。[步骤、样式编号与边界](stone-ms2401h.md)。
+
 - **文曲星 NC1020**：已核验的 `obj_lu.bin` → Unicode BDF，Python 标准库。[步骤与脚本](nc1020.md)。
 - **Casio XD-A10000**：`china12z.cjf`／`china24z.cjf` → Unicode BDF，Python 标准库。[步骤与脚本](casio-exword.md)。
 - **Panasonic FS-UV1**：已核验的汉字 ROM → BDF。[步骤与脚本](panasonic-fs-uv1.md)。

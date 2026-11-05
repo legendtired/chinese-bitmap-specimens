@@ -54,6 +54,8 @@ python3 scripts/workspace.py check
 
 ## 设备输入
 
+- [四通 MS-2401H](stone-ms2401h.md)：四套32点压缩汉字，校验BIOS和CA1／CA2／CA3后导出。
+
 - [字体获取与导出](font-export.md)：各类输入、适用工具及尚未整理的处理方法。
 - [Panasonic FS-UV1 / FS-A1F](panasonic-fs-uv1.md)：16点ROM导出Unicode BDF。
 

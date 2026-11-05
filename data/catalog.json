@@ -13251,5 +13251,281 @@
       "checkedOn": "2026-11-05",
       "type": "method"
     }
+  },
+  {
+    "id": "stone_ms2401h_style1_32",
+    "name": "四通 MS-2401H 样式1 · 楷体风格 32×32",
+    "family": "四通 MS-2401H",
+    "width": 32,
+    "height": 32,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史字库"
+    ],
+    "specimen": "assets/specimens/stone_ms2401h_style1_32.png",
+    "specimenWidth": 320,
+    "specimenHeight": 32,
+    "text": "视野无限广窗外有蓝天",
+    "asciiText": "",
+    "sourceUrl": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
+    "sourceLabel": "四通 MS-2401H 原始ROM资料目录",
+    "notes": "样式1独立存储6763个GB2312汉字，全部非空，另有D7FA–D7FE五个空槽。楷体风格是视觉分类，与文字处理程序的字体菜单相符，但尚未完整追踪菜单到样式编号的调用，不作为原厂正式字名。样句仅取10个汉字，共享符号区未完成编码核验；不推断设备没有ASCII。四套两两比较的6763个汉字均不同；与站内KH／DEC32点仅比对共同6字，均不同，非全库去重。设备为中文打字机，没有广播字幕机来源证据。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "ROM和字模未查到明确商用或再分发授权；原始转储可访问不代表获得字库授权。本站仅展示固定样图、方法和不内嵌字模的提取脚本，不分发ROM或完整BDF。",
+    "provenance": "直接解码MS-2401H的CA1／CA2／CA3掩膜ROM中样式1压缩字模；BIOS描述表、查找表和解压例程确定32×32原生字框。每字先解压为128字节四条8×32竖带，再无损重排为逐行像素；不是24点放大。来源原机和转储过程未由本站独立认证。",
+    "sampleKind": "standard",
+    "sampleLabel": "汉字固定样句；共享符号、标点和ASCII未纳入本次导出。",
+    "coverage": "所示10个汉字完整；可导出6763个GB2312汉字",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceIndex": 229,
+    "nativeEvidence": {
+      "summary": "两个独立解析器核对四套共27072个源槽位一致；样式1的6763汉字BDF像素回读一致。尾部零填充依据原BIOS清空128字节目标缓冲的行为，所有超出128字节的解压尾字节均为零。风格名称为外观分类，样式编号保留原身份。",
+      "sourceUrl": "https://tifan.net/blog/2020/09/17/ms240x-chinese-typewriter-2-ms-2401h-hardware-design/"
+    },
+    "cellWidth": 32,
+    "cellHeight": 32,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "b763a059f7e9703aad0e12d4518bfce2001eba853d89ec4552014754e5b3f23e",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权使用指定BIOS与CA1／CA2／CA3文件，再按本站说明用Python解压导出Unicode BDF。脚本校验文件大小和SHA256，仅导出每套6763个汉字，不含未核定共享符号；不联网、不附字模、不覆盖已有输出。",
+      "links": [
+        {
+          "label": "四套导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/stone-ms2401h.md",
+          "action": "method"
+        },
+        {
+          "label": "查看来源目录",
+          "url": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
+          "action": "source"
+        },
+        {
+          "label": "拆机与硬件说明",
+          "url": "https://tifan.net/blog/2020/09/17/ms240x-chinese-typewriter-2-ms-2401h-hardware-design/",
+          "action": "reference"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  {
+    "id": "stone_ms2401h_style2_32",
+    "name": "四通 MS-2401H 样式2 · 黑体风格 32×32",
+    "family": "四通 MS-2401H",
+    "width": 32,
+    "height": 32,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史字库"
+    ],
+    "specimen": "assets/specimens/stone_ms2401h_style2_32.png",
+    "specimenWidth": 320,
+    "specimenHeight": 32,
+    "text": "视野无限广窗外有蓝天",
+    "asciiText": "",
+    "sourceUrl": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
+    "sourceLabel": "四通 MS-2401H 原始ROM资料目录",
+    "notes": "样式2独立存储6763个GB2312汉字，全部非空，另有D7FA–D7FE五个空槽。黑体风格是视觉分类，与文字处理程序的字体菜单相符，但尚未完整追踪菜单到样式编号的调用，不作为原厂正式字名。样句仅取10个汉字，共享符号区未完成编码核验；不推断设备没有ASCII。四套两两比较的6763个汉字均不同；与站内KH／DEC32点仅比对共同6字，均不同，非全库去重。设备为中文打字机，没有广播字幕机来源证据。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "ROM和字模未查到明确商用或再分发授权；原始转储可访问不代表获得字库授权。本站仅展示固定样图、方法和不内嵌字模的提取脚本，不分发ROM或完整BDF。",
+    "provenance": "直接解码MS-2401H的CA1／CA2／CA3掩膜ROM中样式2压缩字模；BIOS描述表、查找表和解压例程确定32×32原生字框。每字先解压为128字节四条8×32竖带，再无损重排为逐行像素；不是24点放大。来源原机和转储过程未由本站独立认证。",
+    "sampleKind": "standard",
+    "sampleLabel": "汉字固定样句；共享符号、标点和ASCII未纳入本次导出。",
+    "coverage": "所示10个汉字完整；可导出6763个GB2312汉字",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceIndex": 230,
+    "nativeEvidence": {
+      "summary": "两个独立解析器核对四套共27072个源槽位一致；样式2的6763汉字BDF像素回读一致。尾部零填充依据原BIOS清空128字节目标缓冲的行为，所有超出128字节的解压尾字节均为零。风格名称为外观分类，样式编号保留原身份。",
+      "sourceUrl": "https://tifan.net/blog/2020/09/17/ms240x-chinese-typewriter-2-ms-2401h-hardware-design/"
+    },
+    "cellWidth": 32,
+    "cellHeight": 32,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "6861b94699e46d228e8ff4a97028a4e12616cdb12d99d8fdd45e877b5ca7ec83",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权使用指定BIOS与CA1／CA2／CA3文件，再按本站说明用Python解压导出Unicode BDF。脚本校验文件大小和SHA256，仅导出每套6763个汉字，不含未核定共享符号；不联网、不附字模、不覆盖已有输出。",
+      "links": [
+        {
+          "label": "四套导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/stone-ms2401h.md",
+          "action": "method"
+        },
+        {
+          "label": "查看来源目录",
+          "url": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
+          "action": "source"
+        },
+        {
+          "label": "拆机与硬件说明",
+          "url": "https://tifan.net/blog/2020/09/17/ms240x-chinese-typewriter-2-ms-2401h-hardware-design/",
+          "action": "reference"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  {
+    "id": "stone_ms2401h_style3_32",
+    "name": "四通 MS-2401H 样式3 · 仿宋风格 32×32",
+    "family": "四通 MS-2401H",
+    "width": 32,
+    "height": 32,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "仿宋"
+    ],
+    "uses": [
+      "历史字库"
+    ],
+    "specimen": "assets/specimens/stone_ms2401h_style3_32.png",
+    "specimenWidth": 320,
+    "specimenHeight": 32,
+    "text": "视野无限广窗外有蓝天",
+    "asciiText": "",
+    "sourceUrl": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
+    "sourceLabel": "四通 MS-2401H 原始ROM资料目录",
+    "notes": "样式3独立存储6763个GB2312汉字，全部非空，另有D7FA–D7FE五个空槽。仿宋风格是视觉分类，与文字处理程序的字体菜单相符，但尚未完整追踪菜单到样式编号的调用，不作为原厂正式字名。样句仅取10个汉字，共享符号区未完成编码核验；不推断设备没有ASCII。四套两两比较的6763个汉字均不同；与站内KH／DEC32点仅比对共同6字，均不同，非全库去重。设备为中文打字机，没有广播字幕机来源证据。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "ROM和字模未查到明确商用或再分发授权；原始转储可访问不代表获得字库授权。本站仅展示固定样图、方法和不内嵌字模的提取脚本，不分发ROM或完整BDF。",
+    "provenance": "直接解码MS-2401H的CA1／CA2／CA3掩膜ROM中样式3压缩字模；BIOS描述表、查找表和解压例程确定32×32原生字框。每字先解压为128字节四条8×32竖带，再无损重排为逐行像素；不是24点放大。来源原机和转储过程未由本站独立认证。",
+    "sampleKind": "standard",
+    "sampleLabel": "汉字固定样句；共享符号、标点和ASCII未纳入本次导出。",
+    "coverage": "所示10个汉字完整；可导出6763个GB2312汉字",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceIndex": 231,
+    "nativeEvidence": {
+      "summary": "两个独立解析器核对四套共27072个源槽位一致；样式3的6763汉字BDF像素回读一致。尾部零填充依据原BIOS清空128字节目标缓冲的行为，所有超出128字节的解压尾字节均为零。风格名称为外观分类，样式编号保留原身份。",
+      "sourceUrl": "https://tifan.net/blog/2020/09/17/ms240x-chinese-typewriter-2-ms-2401h-hardware-design/"
+    },
+    "cellWidth": 32,
+    "cellHeight": 32,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "22d9f2c98f719aac1fb40474076af3096190e2040377a07042ffcb2cb4fe0533",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权使用指定BIOS与CA1／CA2／CA3文件，再按本站说明用Python解压导出Unicode BDF。脚本校验文件大小和SHA256，仅导出每套6763个汉字，不含未核定共享符号；不联网、不附字模、不覆盖已有输出。",
+      "links": [
+        {
+          "label": "四套导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/stone-ms2401h.md",
+          "action": "method"
+        },
+        {
+          "label": "查看来源目录",
+          "url": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
+          "action": "source"
+        },
+        {
+          "label": "拆机与硬件说明",
+          "url": "https://tifan.net/blog/2020/09/17/ms240x-chinese-typewriter-2-ms-2401h-hardware-design/",
+          "action": "reference"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  {
+    "id": "stone_ms2401h_style4_32",
+    "name": "四通 MS-2401H 样式4 · 宋体风格 32×32",
+    "family": "四通 MS-2401H",
+    "width": 32,
+    "height": 32,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史字库"
+    ],
+    "specimen": "assets/specimens/stone_ms2401h_style4_32.png",
+    "specimenWidth": 320,
+    "specimenHeight": 32,
+    "text": "视野无限广窗外有蓝天",
+    "asciiText": "",
+    "sourceUrl": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
+    "sourceLabel": "四通 MS-2401H 原始ROM资料目录",
+    "notes": "样式4独立存储6763个GB2312汉字，全部非空，另有D7FA–D7FE五个空槽。宋体风格是视觉分类，与文字处理程序的字体菜单相符，但尚未完整追踪菜单到样式编号的调用，不作为原厂正式字名。样句仅取10个汉字，共享符号区未完成编码核验；不推断设备没有ASCII。四套两两比较的6763个汉字均不同；与站内KH／DEC32点仅比对共同6字，均不同，非全库去重。设备为中文打字机，没有广播字幕机来源证据。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "ROM和字模未查到明确商用或再分发授权；原始转储可访问不代表获得字库授权。本站仅展示固定样图、方法和不内嵌字模的提取脚本，不分发ROM或完整BDF。",
+    "provenance": "直接解码MS-2401H的CA1／CA2／CA3掩膜ROM中样式4压缩字模；BIOS描述表、查找表和解压例程确定32×32原生字框。每字先解压为128字节四条8×32竖带，再无损重排为逐行像素；不是24点放大。来源原机和转储过程未由本站独立认证。",
+    "sampleKind": "standard",
+    "sampleLabel": "汉字固定样句；共享符号、标点和ASCII未纳入本次导出。",
+    "coverage": "所示10个汉字完整；可导出6763个GB2312汉字",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceIndex": 232,
+    "nativeEvidence": {
+      "summary": "两个独立解析器核对四套共27072个源槽位一致；样式4的6763汉字BDF像素回读一致。尾部零填充依据原BIOS清空128字节目标缓冲的行为，所有超出128字节的解压尾字节均为零。风格名称为外观分类，样式编号保留原身份。",
+      "sourceUrl": "https://tifan.net/blog/2020/09/17/ms240x-chinese-typewriter-2-ms-2401h-hardware-design/"
+    },
+    "cellWidth": 32,
+    "cellHeight": 32,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "53580efbcb36397e572b89c85677c8776e5e8821c80a3d444f331ed2794b3f45",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权使用指定BIOS与CA1／CA2／CA3文件，再按本站说明用Python解压导出Unicode BDF。脚本校验文件大小和SHA256，仅导出每套6763个汉字，不含未核定共享符号；不联网、不附字模、不覆盖已有输出。",
+      "links": [
+        {
+          "label": "四套导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/stone-ms2401h.md",
+          "action": "method"
+        },
+        {
+          "label": "查看来源目录",
+          "url": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
+          "action": "source"
+        },
+        {
+          "label": "拆机与硬件说明",
+          "url": "https://tifan.net/blog/2020/09/17/ms240x-chinese-typewriter-2-ms-2401h-hardware-design/",
+          "action": "reference"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
   }
 ]
