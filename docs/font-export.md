@@ -8,12 +8,26 @@
 - **Casio XD-A10000**：`china12z.cjf`／`china24z.cjf` → Unicode BDF，Python 标准库。[步骤与脚本](casio-exword.md)。
 - **Panasonic FS-UV1**：已核验的汉字 ROM → BDF。[步骤与脚本](panasonic-fs-uv1.md)。
 - **HZK12／14／16／16S／24F／24H／24K／24S**：已核验源文件 → Unicode BDF，Python 标准库。[步骤与脚本](hzk-export.md)。
+- **HZK11US**：只导出已核验的6763个汉字；682个非汉字记录因映射不可靠而排除。[汉字子集脚本与范围](hzk11us-export.md)。
+- **FlipperCN 20240803**：固件内604字菜单子集 → Unicode BDF，保留逐字指标。[步骤与脚本](flippercn-export.md)。
+- **Palm CJKOS 10／12点**：专用 FBLK PDB → BDF；严格可往返码位转换为 Unicode，未映射／重复槽位保留为未编码字形。[正确来源版本与脚本](cjkos-export.md)。
+- **TUMBLED 18／24**：原生 glyph/shape 文本 → Unicode BDF，保留组合、位移与超出样句字框的原像素。[步骤与脚本](tumbled-export.md)。
 - **TTF／TTC 内嵌黑白点阵、Unicode PCF**：按原位图层导出 BDF，需 Python 与 FreeType。[步骤、已验证范围与脚本](bitmap-export.md)。
 - **Z工坊 RoundPix16／DiamondPix 的 KBITX 原稿**：用作者格式工具导出 BDF，再修正字符计数；Diamond 有5个灰度像素会单色化。[步骤、校验与限制](kbitx-export.md)。
+
+### 保留原编码或源槽位的导出
+
+这些方法保留字模，但输出不等于可直接输入任意 Unicode 文本的字体：
+
+- **DEC Tru64 10项**：本地 ISO 提取两个字体子集，解包后用 `pcf2bdf` 转换；保留 Big5／GB2312／DEC 专有 CNS 原编码。[步骤与命令](dec-cns-export.md)。
+- **CNS40**：校验 HBF 和两个 BIN，再导出6085字的 CNS11643-92 第1字面原编码 BDF。[步骤与脚本](dec-cns-export.md)。
+- **Sony G90／HZK16F**：分别导出4096／8368个源槽位，使用自定义编码，不猜 Unicode。Sony 来源访问限制与前景推断另有说明。[步骤与脚本](source-slot-export.md)。
 
 BDF 是点阵交换格式，不是所有系统都能直接安装的 TTF。用支持 BDF 的软件打开；不要为了“安装”把任意矢量字体重新栅格化后当作原点阵。
 
 ## 本来就是 BDF：不必再提取
+
+**ELISA** 的准确来源 `elisau10.tgz` 内已有 JIS X 0208 BDF；与目录原SHA及固定样图一致。需要 Unicode 时可重编码，不必猜原FNT。[原包获取、重编码与许可限制](elisa-export.md)。
 
 GNU Unifont、GNU intlfonts、M+ Bitmap、Shinonome、JF Dot 的 BDF 镜像、缝合像素的 BDF 发布包及部分作者原始 BDF，直接在条目所列的项目目录或 Releases 选择对应文件。`.bdf.gz` 解压后即为 BDF；`.tar.gz`／`.zip` 先解包，再选条目注明的文件。
 
@@ -35,13 +49,6 @@ python3 scripts/workspace.py render-bdf --font input.bdf --encoding unicode --te
 
 ## 仍需专门处理的格式
 
-以下条目目前没有本站已验证的一键导出脚本，来源入口不等于转换工具：
-
-- **Sony G90、FlipperCN**：固件里的专用字模布局／U8g2 压缩流，不能套用通用 TTF 提取脚本。
-- **Palm CJKOS**：PDB 内 FBLK 资源；10点与12点打包方式不同，需要专用解析和编码核验。
-- **HZK16F、HZK11US**：前者以 GB2312 槽位存放繁体字形；后者的部分符号与 ASCII 映射未可靠核定，不能直接声称得到准确 Unicode 字库。
-- **HBF、CNS40**：需同时取得描述文件和它引用的全部 BIN／字模文件，编码与范围由 HBF 决定；不是单独下载一个 BIN 即可。
-- **DEC Tru64**：先从条目指定光盘的 `WORLDWID/KIT/IOSZHTFONTP505` 或 `IOSZHSFONTP505` 取出原 PCF，再核对其 Big5／GB2312／CNS11643 编码。当前通用脚本不承诺支持非 Unicode PCF。
-- **ELISA、TUMBLED**：原始 FNT 和 glyph/shape 文本各有自己的规则，需使用对应解析工具；不能改后缀充当 TTF。
+- **完整Unicode映射**：Sony G90、HZK16F、DEC专有CNS等仍需独立核定，不能把可导出原槽位等同于可直接输入任意文字。
 
 PSA C屏继续通过条目中的联系入口申请试用，私有固件和完整字模不公开。MN1871681、MS6459 与 ChinaSea 等资料或字符表重建，不能据此导出不存在的完整字体。汉仪等正交轮廓设计也不等同于 EBDT 内嵌点阵；是否允许转换先看具体许可。

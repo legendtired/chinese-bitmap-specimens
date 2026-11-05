@@ -11,6 +11,8 @@
 
 ## 近期变更
 
+- 2026-11-05：补齐 HZK11US 汉字、FlipperCN、Palm CJKOS、TUMBLED、DEC PCF 与 CNS40 HBF 的已实测导出方法；明确 Unicode 子集、原编码与未映射槽位边界，找回 ELISA 原BDF并提供Unicode重编码；修正 Palm 来源版本；Sony G90／HZK16F 提供明确不作 Unicode 映射的源槽位导出。
+
 - 2026-11-05：加入Panasonic FS-UV1 / FS-A1F 16点固定字样，提供本地ROM→BDF导出；补充历史格式的获取与处理方法。
 
 - 2026-11-05：精简项目文档与网站说明，撤销 Casio 24点推荐。

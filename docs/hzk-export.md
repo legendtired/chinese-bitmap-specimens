@@ -60,3 +60,7 @@ HZK_TEST_SOURCE_DIR=local-research/hzk python3 tests/hzk-export.test.py
 ## 权利边界
 
 原仓库工具代码的 GPL-3.0 不自动授予历史 HZK 字模权利。转换不会改变原字体许可；使用、商用和再分发须另行核实。本站只提供方法与转换代码，不随仓库发布原字库或导出的完整 BDF。
+
+HZK11US 另有[专用汉字子集导出器](hzk11us-export.md)，仅导出6763个已核验汉字，不改变本页脚本的支持范围。
+
+HZK16F 可用[源槽位导出器](source-slot-export.md)保存全部8368槽位，但它不做 Unicode 映射。

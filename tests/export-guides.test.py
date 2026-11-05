@@ -18,6 +18,6 @@ for patch in PATCHES:
         prefix = 'https://github.com/legendtired/chinese-bitmap-specimens/blob/main/'
         if link['url'].startswith(prefix):
             assert (ROOT / link['url'][len(prefix):].split('#', 1)[0]).is_file(), link['url']
-for path in ('font-export.md', 'bitmap-export.md', 'hzk-export.md', 'panasonic-fs-uv1.md', 'kbitx-export.md'):
+for path in ('font-export.md', 'bitmap-export.md', 'hzk-export.md', 'panasonic-fs-uv1.md', 'kbitx-export.md', 'hzk11us-export.md', 'flippercn-export.md', 'dec-cns-export.md', 'cjkos-export.md', 'tumbled-export.md', 'source-slot-export.md', 'elisa-export.md'):
     assert (ROOT / 'docs' / path).is_file()
 print(f'Export guides: {len(PATCHES)} exact reviewed changes, original sources retained, all method documents present.')

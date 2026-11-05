@@ -1651,12 +1651,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在仓库根目录获取 HZK11US；这是 Unicode 顺序的 11 点阵二进制字库。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "在来源仓库取得 HZK11US，校验后可用脚本导出6763个汉字为 Unicode BDF；682个非汉字记录因映射未可靠核定而排除，不声称完整符号或 ASCII 覆盖。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "汉字子集导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hzk11us-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -1665,7 +1665,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -3049,12 +3049,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "在 font 目录获取 HZK16F；这是字模数据，不是可直接安装的 TTF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "取得准确的 HZK16F 后，用脚本导出8368个原始槽位 BDF，逐字节保留点阵；繁体字形不能按简体 GB2312 码位直接标成 Unicode，输出仅按源索引浏览。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "源槽位导出方法与限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/source-slot-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -3063,7 +3063,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -4109,12 +4109,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "下载页提供 v1.11 的 Firmware code，字模位于固件包中，需另行解析。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "已有正确的 Tg1f0110.mot 时，可用脚本导出4096个源槽位 BDF，包括推断前景与原图案两种视图；不是完整 Unicode 字体。来源页本次返回403，需另行合法取得输入，不绕过限制。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "源槽位导出方法与限制",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/source-slot-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -4123,7 +4123,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -6361,12 +6361,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "Releases 提供 PBF_TUMBLED.zip；原生 18 号字模在 fonts/TUMBLED_18，不是可直接安装的 TTF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "在来源仓库取得完整 fonts/TUMBLED_18 目录，使用 scripts/tumbled_to_bdf.py 将 glyph/shape 原生像素导出为 BDF；保留逐字 advance、位移和越界像素，不补普通 ASCII。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "原生文本导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/tumbled-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -6375,7 +6375,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -6477,12 +6477,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "Releases 提供 PBF_TUMBLED.zip；原生 24 号字模在 fonts/TUMBLED_24，不是可直接安装的 TTF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "在来源仓库取得完整 fonts/TUMBLED_24 目录，使用 scripts/tumbled_to_bdf.py 将 glyph/shape 原生像素导出为 BDF；保留逐字 advance、位移和越界像素，不补普通 ASCII。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "原生文本导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/tumbled-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -6491,7 +6491,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -10585,12 +10585,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FGB10F.PDB。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos_os5.zip，选取 Font/FGB10F.PDB；cjkos_TW.zip 与 cjkos_os4.zip 中同名文件也与本站记录匹配。用 scripts/cjkos_to_bdf.py 导出 BDF；保留原编码、空槽与未映射报告，使用及再分发按原许可执行。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "PDB导出方法与版本核对",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/cjkos-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -10599,7 +10599,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -10657,12 +10657,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FB510F.PDB。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos_os5.zip，选取 Font/FB510F.PDB；cjkos_TW.zip 与 cjkos_os4.zip 中同名文件也与本站记录匹配。用 scripts/cjkos_to_bdf.py 导出 BDF；保留原编码、空槽与未映射报告，使用及再分发按原许可执行。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "PDB导出方法与版本核对",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/cjkos-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -10671,7 +10671,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -10729,12 +10729,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FGB12F.PDB。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos_os5.zip，选取 Font/FGB12F.PDB；cjkos_TW.zip 与 cjkos_os4.zip 中同名文件也与本站记录匹配。用 scripts/cjkos_to_bdf.py 导出 BDF；保留原编码、空槽与未映射报告，使用及再分发按原许可执行。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "PDB导出方法与版本核对",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/cjkos-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -10743,7 +10743,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -10801,12 +10801,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos401.zip，选取 Font/FB512F.PDB。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "PalmDB 的 CJKOS 历史包中，打开 cjkos_os5.zip，选取 Font/FB512F.PDB；cjkos_TW.zip 与 cjkos_os4.zip 中同名文件也与本站记录匹配。用 scripts/cjkos_to_bdf.py 导出 BDF；保留原编码、空槽与未映射报告，使用及再分发按原许可执行。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "PDB导出方法与版本核对",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/cjkos-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -10815,7 +10815,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -10866,12 +10866,17 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "Vector 下载页提供 elisa100.lzh，内为 ELISA.FNT 原始 8×8 字库。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "MINIX 独立归档的 elisau10.tgz 内已有与本站原SHA一致的6877字 JIS BDF，可直接使用或用脚本重编码为 Unicode，保留10×8字框与基线。Vector原入口本次返回403；保留完整原包，按个人使用及禁止商业用途等原许可执行。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "原BDF获取与Unicode重编码",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/elisa-export.md",
+          "action": "method"
+        },
+        {
+          "label": "MINIX归档索引",
+          "url": "https://www.minix3.org/distfiles-backup/",
+          "action": "source"
         },
         {
           "label": "查看源文件或来源",
@@ -10880,7 +10885,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -10993,12 +10998,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "来源提供 20240803 固件包；字模需另行提取，没有独立可安装字体下载。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "取得准确的20240803固件包后，用专用脚本导出604字的菜单子集为 Unicode BDF；保留原像素、字宽与基线，不执行固件、不刷机，也不补成完整中文字库。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "菜单字模导出方法与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/flippercn-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -11007,7 +11012,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -11262,12 +11267,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "Debian 历史归档提供 hbf-cns40-1 原始包，内含 40×40 的 HBF/BIN 字库。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "从 Debian 历史归档原始包取得 HBF 及两个 BIN 文件，用脚本导出6085字的原编码 BDF；保留 CNS11643-92 第1字面码位、40×40原像素与34/6基线，不冒充 Unicode。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "CNS40原编码导出方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/dec-cns-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -11276,7 +11281,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -12171,12 +12176,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "从 Tru64 5.0A 附加产品盘1（AG-RHB7B-BE.iso）用脚本提取 IOSZHTFONTP505，再以 pcf2bdf 转换对应 PCF；已核验原像素和指标，输出保留 Big5 原编码，不是 Unicode。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "DEC原编码导出方法与命令",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/dec-cns-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -12185,7 +12190,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -12236,12 +12241,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "从 Tru64 5.0A 附加产品盘1（AG-RHB7B-BE.iso）用脚本提取 IOSZHTFONTP505，再以 pcf2bdf 转换对应 PCF；已核验原像素和指标，输出保留 Big5 原编码，不是 Unicode。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "DEC原编码导出方法与命令",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/dec-cns-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -12250,7 +12255,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -12301,12 +12306,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "从 Tru64 5.0A 附加产品盘1（AG-RHB7B-BE.iso）用脚本提取 IOSZHTFONTP505，再以 pcf2bdf 转换对应 PCF；已核验原像素和指标，输出保留 DEC.CNS11643.1986-2 原编码，不是 Unicode。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "DEC原编码导出方法与命令",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/dec-cns-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -12315,7 +12320,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -12366,12 +12371,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHTFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "从 Tru64 5.0A 附加产品盘1（AG-RHB7B-BE.iso）用脚本提取 IOSZHTFONTP505，再以 pcf2bdf 转换对应 PCF；已核验原像素和指标，输出保留 DEC.CNS11643.1986-2 原编码，不是 Unicode。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "DEC原编码导出方法与命令",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/dec-cns-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -12380,7 +12385,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -12431,12 +12436,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "从 Tru64 5.0A 附加产品盘1（AG-RHB7B-BE.iso）用脚本提取 IOSZHSFONTP505，再以 pcf2bdf 转换对应 PCF；已核验原像素和指标，输出保留 GB2312 原编码，不是 Unicode。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "DEC原编码导出方法与命令",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/dec-cns-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -12445,7 +12450,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -12496,12 +12501,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "从 Tru64 5.0A 附加产品盘1（AG-RHB7B-BE.iso）用脚本提取 IOSZHSFONTP505，再以 pcf2bdf 转换对应 PCF；已核验原像素和指标，输出保留 GB2312 原编码，不是 Unicode。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "DEC原编码导出方法与命令",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/dec-cns-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -12510,7 +12515,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -12561,12 +12566,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "从 Tru64 5.0A 附加产品盘1（AG-RHB7B-BE.iso）用脚本提取 IOSZHSFONTP505，再以 pcf2bdf 转换对应 PCF；已核验原像素和指标，输出保留 GB2312 原编码，不是 Unicode。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "DEC原编码导出方法与命令",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/dec-cns-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -12575,7 +12580,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -12626,12 +12631,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "从 Tru64 5.0A 附加产品盘1（AG-RHB7B-BE.iso）用脚本提取 IOSZHSFONTP505，再以 pcf2bdf 转换对应 PCF；已核验原像素和指标，输出保留 GB2312 原编码，不是 Unicode。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "DEC原编码导出方法与命令",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/dec-cns-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -12640,7 +12645,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -12691,12 +12696,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "从 Tru64 5.0A 附加产品盘1（AG-RHB7B-BE.iso）用脚本提取 IOSZHSFONTP505，再以 pcf2bdf 转换对应 PCF；已核验原像素和指标，输出保留 GB2312 原编码，不是 Unicode。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "DEC原编码导出方法与命令",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/dec-cns-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -12705,7 +12710,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
@@ -12756,12 +12761,12 @@ window.FONT_CATALOG = [
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "此字样来自 Tru64 5.0A 附加产品盘 1（AG-RHB7B-BE.iso），需从 WORLDWID/KIT/IOSZHSFONTP505 提取 PCF。 目前尚无本站已验证的导出脚本，来源入口不等于转换工具。",
+      "notice": "从 Tru64 5.0A 附加产品盘1（AG-RHB7B-BE.iso）用脚本提取 IOSZHSFONTP505，再以 pcf2bdf 转换对应 PCF；已核验原像素和指标，输出保留 GB2312 原编码，不是 Unicode。",
       "links": [
         {
-          "label": "格式说明与当前限制",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/font-export.md#%E4%BB%8D%E9%9C%80%E4%B8%93%E9%97%A8%E5%A4%84%E7%90%86%E7%9A%84%E6%A0%BC%E5%BC%8F",
-          "action": "reference"
+          "label": "DEC原编码导出方法与命令",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/dec-cns-export.md",
+          "action": "method"
         },
         {
           "label": "查看源文件或来源",
@@ -12770,7 +12775,7 @@ window.FONT_CATALOG = [
         }
       ],
       "checkedOn": "2026-11-05",
-      "type": "source"
+      "type": "method"
     }
   },
   {
