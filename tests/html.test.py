@@ -21,7 +21,7 @@ for tag,a in doc.tags:
         if a.get('src') == 'assets/wordmark.png': assert (a.get('width'), a.get('height')) == ('192', '48')
     if tag == 'dialog': assert a.get('aria-labelledby')
     if tag == 'script' or (tag == 'link' and a.get('rel') != 'canonical'): assert not a.get('src',a.get('href','')).startswith(('http:','https:','//'))
-assert [x['src'] for x in doc.scripts] == ['data/catalog.js','app.js']
+assert [x['src'] for x in doc.scripts] == ['data/catalog.js','data/collection-history.js','app.js']
 assert all('defer' in x for x in doc.scripts)
 assert doc.ids['family'][0] == doc.ids['sort'][0] == 'select'
 assert any(tag=='a' and a.get('href')=='index.html' for tag,a in doc.tags)

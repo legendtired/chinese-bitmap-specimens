@@ -56,3 +56,15 @@ python3 scripts/workspace.py render-bdf --font input.bdf --encoding unicode --te
 PSA C屏继续通过条目中的联系入口申请试用，私有固件和完整字模不公开。MN1871681、MS6459 与 ChinaSea 等资料或字符表重建，不能据此导出不存在的完整字体。汉仪等正交轮廓设计也不等同于 EBDT 内嵌点阵；是否允许转换先看具体许可。
 
 - [Sharp X68000 16点获取与导出](sharp-x68000.md)：原生JIS字模、字符映射与ANK边界。
+
+- [IBM PC DOS 中文24点](ibm-pcdos.md)：校验指定FNT，离线导出7444个标准GB2312字符及未编码IBM扩展。
+
+- [Nokia DCT3 1999](nokia-dct3.md)：静态解出9385个原Unicode码位，含9004个原生11×12汉字，保留西文与度量字段。
+
+
+- [FM Towns F20 20点](fmtowns-f20.md)：JIS原生汉字及ANK样图，导出边界分别记录。
+- [Solaris 中易宋体五个字号](solaris-gbk.md)：12／14／16／20／24点原生PCF与Unicode／原码导出。
+
+## 文曲星 PC505 14×15
+
+[提取方法与边界](wqx-pc505.md)。仅接受已校验的原厂仿真器obj，导出7445个GB映射字符和95个可打印ASCII；原生汉字14×15，不能裁为14×14。共同基线和advance为导出约定，原始输入并非已证实的实机dump。公开目录只提供固定样图和本地提取脚本，不附完整字库。

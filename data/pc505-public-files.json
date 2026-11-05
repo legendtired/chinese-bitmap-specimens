@@ -1,0 +1,37 @@
+[
+  {
+    "path": "data/pc505-catalog-overlay.json",
+    "bytes": 3788,
+    "sha256": "f59f40d5155ef9a6b3154d511edb54918e2f3463b5ddf02b5f6b94a72aade5b6"
+  },
+  {
+    "path": "data/release-pc505.json",
+    "bytes": 1947,
+    "sha256": "b3d14a745f83d88d0d92bd028909be29210dfd182c0ab37399efa9e3b86727dc"
+  },
+  {
+    "path": "assets/specimens/wqx_pc505_14x15.png",
+    "bytes": 1060,
+    "sha256": "439bb5aa3ff3522729e7b39b5f338a8d81ec4d2ca33c84cc11c52284c579fea9"
+  },
+  {
+    "path": "scripts/pc505_to_bdf.py",
+    "bytes": 9752,
+    "sha256": "4e51b3223f55ce92189f1e1b0f01ddf49dda3688290fdd747bb4816f9293e49d"
+  },
+  {
+    "path": "tests/pc505-export.test.py",
+    "bytes": 5603,
+    "sha256": "1e6409fcb97e0a8c313963e0c270beeca39906703dbb3e6f567fc93f7e67cd34"
+  },
+  {
+    "path": "tests/pc505.test.py",
+    "bytes": 3119,
+    "sha256": "50939756cfb47edd7c1d0d44212e2123c928ce2235ebfd2610877aa3b76e5c7b"
+  },
+  {
+    "path": "docs/wqx-pc505.md",
+    "bytes": 6484,
+    "sha256": "c3df28f6208c0cb013d03604b582ec293f84c0890fd6d75c407d5f2d07c92f10"
+  }
+]

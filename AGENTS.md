@@ -74,3 +74,5 @@ variableGrid:true 是实际原生格点但不定字框，不是 reference。widt
 没有有效收藏时隐藏右上角收藏入口，首次收藏后显示。清空或取消最后一个收藏后应有可退出空态及可见焦点目标，卡片收藏按钮始终保留。初始HTML隐藏入口，避免载入闪现。
 
 PSA条目的heightBasis=han-ink-grid按有效中文12／14点筛选，但cell保留14×14／16×17真实存储框，不能裁去边距或改成汉仪轮廓还原。sourceType=physical-extraction允许sourceUrl=null并显示文字来源，Issue仅联系试用，不冒充字体来源链接。原固件、完整字模、车辆识别信息不得公开。新增条目priority=0，原推荐不变。
+
+2026-11-05收录调整：sun_gb2312_song_12/14/20已按用户要求撤下，列入curation排除记录；历史清单与研究脚本不代表待收录。sun_gbk_song_12/14/16/20/24继续保留。

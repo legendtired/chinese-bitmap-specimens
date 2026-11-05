@@ -49,6 +49,15 @@
     const explanation = asArray(row.omittedEmptyLines).includes('ascii') ? '拉丁字符行全部缺失，样图省略该空白行；不借用其他字体补齐。' : '对应位置留空，不借用其他字体补齐。';
     return parts.length ? `${parts.join('；')}。${explanation}` : '';
   }
+  const collectionHistory = typeof module !== 'undefined' && module.exports
+    ? require('./data/collection-history.json')
+    : (typeof window !== 'undefined' && window.FONT_COLLECTION_HISTORY) || { batches: [] };
+  const collectionRankById = new Map();
+  for (const [index, batch] of asArray(collectionHistory.batches).entries()) {
+    for (const id of asArray(batch.ids)) collectionRankById.set(id, index + 1);
+  }
+  const collectionRank = row => collectionRankById.get(row.id) || 0;
+  const collectionSourceIndex = row => typeof row.sourceIndex === 'number' && Number.isFinite(row.sourceIndex) && row.sourceIndex >= 0 ? row.sourceIndex : -1;
   const groups = [
     { key: 'height', title: '字高', value: row => [heightValue(row)] },
     { key: 'scripts', title: '字形与字符范围', value: row => asArray(row.scripts) },
@@ -64,6 +73,7 @@
     const byName = (a, b) => a.name.localeCompare(b.name, 'zh-CN') || String(a.id || '').localeCompare(String(b.id || ''));
     return filtered.sort((a, b) => {
       if (sort === 'name') return byName(a, b);
+      if (sort === 'recent') return collectionRank(b) - collectionRank(a) || collectionSourceIndex(b) - collectionSourceIndex(a) || byName(a, b);
       if (sort === 'recommended') {
         const difference = priority(b) - priority(a);
         if (difference) return difference;
@@ -273,6 +283,7 @@
     const fragment = document.createDocumentFragment(); results.forEach(row => fragment.append(card(row)));
     $('catalog').replaceChildren(fragment); $('empty').hidden = results.length > 0;
     $('result-count').textContent = favoritesView ? `${results.length} 个收藏` : `${results.length} 个字样`;
+    $('sort-note').hidden = $('sort').value !== 'recent';
     document.querySelector('.layout').classList.toggle('favorites-view', favoritesView);
     $('favorites-back').hidden = !favoritesView; $('favorites-privacy').hidden = !favoritesView;
     $('family-control').hidden = favoritesView; $('active-filters').hidden = favoritesView; $('filters-open').hidden = favoritesView;

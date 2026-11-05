@@ -1,0 +1,62 @@
+{
+  "status": "prepared-local-only-not-released",
+  "ids": [
+    "wqx_pc505_14x15"
+  ],
+  "collectionBatchAssigned": false,
+  "integrationPolicy": "Merge into the latest catalog, allocate a new unused sourceIndex there, and record the actual verified collection batch only on release. Do not replace catalog or collection-history.",
+  "source": {
+    "description": "Manufacturer emulator image for a documented 1999 PC505 model; not a verified physical dump or wholly 1999 software package.",
+    "sourcePage": "https://archive.org/details/wqxarchive",
+    "objBytes": 4194304,
+    "objSha256": "5701cf386d1935a84b0f1a4edbfcb365f5bdb2891b320c5b1fca22f47ed93630",
+    "objCrc32": "71038c32",
+    "archiveBytes": 3930590,
+    "archiveSha256": "54c8bffec9c5a23ae43d38cf4b3c7d5df0ae31eed5d0cded077b280daf59b096"
+  },
+  "glyphCounts": {
+    "gbSlots": 7599,
+    "gbMapped": 7445,
+    "han": 6763,
+    "asciiSlots": 128,
+    "asciiMapped": 95,
+    "combinedMapped": 7540
+  },
+  "metrics": {
+    "han": [
+      14,
+      15
+    ],
+    "ascii": [
+      8,
+      16
+    ],
+    "combinedBounds": [
+      14,
+      16,
+      0,
+      0
+    ],
+    "advance": [
+      14,
+      8
+    ],
+    "baseline": "yoff0 export convention, not verified device metric",
+    "dpi": 72,
+    "swidthGbOnly": 933,
+    "swidthAscii": 500,
+    "swidthGbCombined": 875
+  },
+  "specimen": {
+    "path": "assets/specimens/wqx_pc505_14x15.png",
+    "sha256": "439bb5aa3ff3522729e7b39b5f338a8d81ec4d2ca33c84cc11c52284c579fea9",
+    "width": 216,
+    "height": 36,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "rowContainerHeight": 16,
+    "gap": 4
+  },
+  "rights": "Authorship and redistribution license unconfirmed; public output contains only fixed specimen and source-free tooling.",
+  "comparisonLimits": "Specific available versions only, not full current catalog coverage or proof of global uniqueness/authorship."
+}

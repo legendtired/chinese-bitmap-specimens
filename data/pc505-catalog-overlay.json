@@ -1,0 +1,83 @@
+[
+  {
+    "id": "wqx_pc505_14x15",
+    "name": "文曲星 PC505 · 汉字14×15",
+    "family": "文曲星 PC505 原厂仿真器",
+    "width": 14,
+    "height": 15,
+    "cellWidth": 14,
+    "cellHeight": 15,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/wqx_pc505_14x15.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "specimenSha256": "439bb5aa3ff3522729e7b39b5f338a8d81ec4d2ca33c84cc11c52284c579fea9",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "coverage": "7445个GB2312字符（含6763汉字）及95个可打印ASCII；样文完整。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/wqxarchive",
+    "sourceLabel": "文曲星历史资料归档页",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "原厂仿真器字模未查到明确再分发或商用授权。第三方镜像可取得不等于许可；本站仅展示固定样图和不含字模的导出脚本，不公开ROM、完整BDF或全字形数据。",
+    "provenance": "来自PC505原厂仿真器归档所带obj，readme自述北京金远见开发。1999年机型有同时代公开目录支持，obj内部时间为1999-07-02，其他成员至2000-02；不把整包称为1999版，不是经实机读取链验证的物理ROM dump。未运行仿真器或固件。",
+    "notes": "汉字14×15、ASCII8×16均为已存储原生点阵，逐字解码未缩放或补字。GB原7599槽中7445严格映射；ASCII原128槽中95可打印字符，其他槽不伪造Unicode。6582个汉字第15行有墨点，不裁为14×14。限定完整来源比较未见整库精确重复；与国乔15j风格近似但全字形池仅3个汉字完全相同，不据此断言原创、全球唯一或设计谱系。风格、字形设计者及Sony关系未确证。",
+    "layoutNote": "字框字段仅指汉字14×15。ASCII8×16；合并BDF总框14×16，DWIDTH14/8、yoff0及共同底边是导出约定，不是已验证设备基线。PNG每行容器16px，两行间4px，中文上方保留1px容器空白；无字形补行、裁边或替代。",
+    "nativeEvidence": {
+      "summary": "精确哈希obj中210位连续GB槽、MSB优先；全部7445字与第二算法逐行匹配。另保留95个原生ASCII8×16。BDF像素/BBX/DWIDTH全量往返验证，标准化头部仅是导出元数据。",
+      "sourceUrl": "https://archive.org/details/wqxarchive",
+      "source_sha256": "5701cf386d1935a84b0f1a4edbfcb365f5bdb2891b320c5b1fca22f47ed93630",
+      "storageCell": [
+        14,
+        15
+      ],
+      "asciiStorageCell": [
+        8,
+        16
+      ],
+      "sourceGbSlots": 7599,
+      "mappedGb2312": 7445,
+      "basicHan": 6763,
+      "sourceAsciiSlots": 128,
+      "mappedAscii": 95,
+      "unicodeMapped": 7540,
+      "globalExportBounds": [
+        14,
+        16,
+        0,
+        0
+      ],
+      "metricsStatus": "export-convention-not-verified-device-metrics",
+      "physicalDumpVerified": false
+    },
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权处理历史归档中的obj，用本站纯Python脚本校验4MiB精确SHA和CRC，离线导出GB、ASCII或合并BDF。不执行来源程序，不覆盖输出。",
+      "links": [
+        {
+          "label": "查看历史资料集",
+          "url": "https://archive.org/details/wqxarchive",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  }
+]

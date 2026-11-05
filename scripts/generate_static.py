@@ -115,6 +115,8 @@ def main():
  extra={x.name for x in folder.glob('*.html')}-expected
  if extra:raise SystemExit('Unexpected generated pages; review before removal: '+str(sorted(extra)))
  (ROOT/'data/catalog.js').write_text('window.FONT_CATALOG = '+json.dumps(rows,ensure_ascii=False,indent=2)+';\n')
+ history=json.loads((ROOT/'data/collection-history.json').read_text())
+ (ROOT/'data/collection-history.js').write_text('window.FONT_COLLECTION_HISTORY = '+json.dumps(history,ensure_ascii=False,indent=2)+';\n')
  for r in rows:(folder/(r['id']+'.html')).write_text(font_page(r))
  p=ROOT/'index.html';h=p.read_text()
  if '<!-- STATIC_CATALOG_START -->' not in h:h=h.replace('<div id="catalog" class="catalog"></div>','<div id="catalog" class="catalog"><!-- STATIC_CATALOG_START --><!-- STATIC_CATALOG_END --></div>')

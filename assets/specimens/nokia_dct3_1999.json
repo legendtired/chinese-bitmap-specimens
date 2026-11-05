@@ -1,0 +1,27 @@
+{
+  "format": "bdf-bitmap-preview-v1",
+  "sourceName": "nokia_dct3_1999.bdf",
+  "sourceSha256": "4326136234855cec4034a1bd10c6d4933eedb719e4dc2c3699d3de9e64c9ec6e",
+  "encoding": "unicode",
+  "text": "视野无限广，窗外有蓝天。\n0123456789 AaBb GgMm !?:+-.",
+  "lines": [
+    {
+      "text": "视野无限广，窗外有蓝天。",
+      "missing": [],
+      "advanceWidth": 132,
+      "height": 15
+    },
+    {
+      "text": "0123456789 AaBb GgMm !?:+-.",
+      "missing": [],
+      "advanceWidth": 185,
+      "height": 15
+    }
+  ],
+  "missing": [],
+  "specimenWidth": 185,
+  "specimenHeight": 32,
+  "specimenSha256": "f67a5175b5b253593b096f663b3e1b6980d3595d204ff5d0300da9a7369f88e8",
+  "png": "nokia_dct3_1999.png",
+  "method": "Direct saved BDF BITMAP pixels; original DWIDTH/BBX; no fallback, antialiasing or outline rasterization."
+}

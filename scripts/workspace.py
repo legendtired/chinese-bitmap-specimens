@@ -17,7 +17,7 @@ if a.command=='build':run([sys.executable,'scripts/generate_static.py'])
 elif a.command=='check':
  run(['node','--check','app.js'])
  for test in sorted((ROOT/'tests').glob('*.test.py')):run([sys.executable,str(test)])
- for test in ['filters','priority','state','curation']:run(['node',f'tests/{test}.test.cjs'])
+ for test in ['filters','priority','state','curation','recent-sort']:run(['node',f'tests/{test}.test.cjs'])
  print('Static/logic checks finished. Real-browser checks were not run by this command.')
 elif a.command=='apply-preview':run([sys.executable,'scripts/apply_preview.py','--id',a.id,'--report',a.report,'--reviewed-source-and-glyphs'])
 elif a.command=='research-status':

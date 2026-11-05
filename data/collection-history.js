@@ -1,0 +1,123 @@
+window.FONT_COLLECTION_HISTORY = {
+  "version": 1,
+  "policy": "按已核本站收录批次从新到旧；同批按目录编号倒序。早期收录时间未核，沿用稳定来源编号倒序，编号缺失置后。不补造本站收录时间或字体发行时间。",
+  "batches": [
+    {
+      "sourceManifest": "release-v16.json",
+      "ids": [
+        "dotum-native-12",
+        "dotum-native-14",
+        "dotum-native-16",
+        "batang-native-14",
+        "batang-native-16",
+        "ms-gothic-native-10",
+        "ms-gothic-native-13",
+        "ms-gothic-native-16",
+        "ms-mincho-native-13",
+        "ms-mincho-native-16",
+        "osaka-native-9",
+        "osaka-native-14",
+        "osaka-native-18",
+        "osaka-native-24",
+        "palm_cjkos_fgb10f",
+        "palm_cjkos_fb510f",
+        "palm_cjkos_fgb12f",
+        "palm_cjkos_fb512f",
+        "elisa_8_native",
+        "yh_1999_16",
+        "flippercn_20240803_ui",
+        "marumonica_cn_12x16",
+        "naga10_10x10",
+        "paw16_16x16",
+        "cns40_original",
+        "hanyi-pixel9",
+        "hanyi-pixel11",
+        "hanyi-pixel13",
+        "hanyi-pixel-xingkai15",
+        "chinasea_reference"
+      ]
+    },
+    {
+      "sourceManifest": "release-v17.json",
+      "ids": [
+        "konatu_native_12",
+        "ccdb_cccii_64",
+        "pixels_han_main",
+        "pixels_han_mono",
+        "dec_hei_big5_16",
+        "dec_hei_big5_24",
+        "dec_sung_cns11643_24",
+        "dec_sung_cns11643_32",
+        "dec_heiti_gb2312_16",
+        "dec_fangsongti_gb2312_24",
+        "dec_songti_gb2312_34",
+        "dec_heiti_gb2312_34",
+        "dec_kaiti_gb2312_34",
+        "dec_fangsongti_gb2312_34",
+        "relmon_ms6459"
+      ]
+    },
+    {
+      "sourceManifest": "release-psa.json",
+      "ids": [
+        "psa_c_screen_12",
+        "psa_c_screen_14"
+      ]
+    },
+    {
+      "sourceManifest": "release-nc1020.json",
+      "ids": [
+        "wqx_nc1020_12"
+      ]
+    },
+    {
+      "sourceManifest": "release-casio.json",
+      "ids": [
+        "casio_xda10000_12",
+        "casio_xda10000_24"
+      ]
+    },
+    {
+      "sourceManifest": "release-panasonic-fsuv1.json",
+      "ids": [
+        "panasonic_fsuv1_16"
+      ]
+    },
+    {
+      "sourceManifest": "release-stone-ms2401h.json",
+      "ids": [
+        "stone_ms2401h_style1_32",
+        "stone_ms2401h_style2_32",
+        "stone_ms2401h_style3_32",
+        "stone_ms2401h_style4_32"
+      ]
+    },
+    {
+      "sourceManifest": "release-sharp-x68000.json",
+      "ids": [
+        "sharp_x68000_16"
+      ]
+    },
+    {
+      "sourceManifest": "release-20261105-batch.json",
+      "ids": [
+        "ibm_pcdos_kai_24",
+        "ibm_pcdos_hei_24",
+        "ibm_pcdos_fangsong_24",
+        "nokia_dct3_1999",
+        "fmtowns_f20_20",
+        "sun_gbk_song_12",
+        "sun_gbk_song_14",
+        "sun_gbk_song_16",
+        "sun_gbk_song_20",
+        "sun_gbk_song_24"
+      ]
+    },
+    {
+      "sourceManifest": "release-pc505-collection.json",
+      "ids": [
+        "wqx_pc505_14x15"
+      ]
+    }
+  ]
+};

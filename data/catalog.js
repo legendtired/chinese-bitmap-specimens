@@ -13601,5 +13601,798 @@ window.FONT_CATALOG = [
       "checkedOn": "2026-11-05",
       "type": "method"
     }
+  },
+  {
+    "id": "ibm_pcdos_kai_24",
+    "name": "IBM PC DOS 楷体 · 24×24",
+    "family": "IBM PC DOS 中文版",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史字库"
+    ],
+    "specimen": "assets/specimens/ibm_pcdos_kai_24.png",
+    "specimenWidth": 288,
+    "specimenHeight": 24,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "",
+    "sourceUrl": "https://winworldpc.com/product/pc-dos/2000",
+    "sourceLabel": "PC DOS 2000 中文版保存资料页",
+    "notes": "原文件头直接标明“楷体”，不是视觉猜名。标准GB2312已映射7444字符，含全部6763汉字且无空汉字；原文件未存U+3000全角空格。与HZK24K的6763个汉字中36字逐像素相同；与DEC楷体24中937字相同，允许平移后1290字同形，不是简单平移重复。另对目录25项24点样文做共有字符比对，非全部目录全库去重。仅展示中文样句，独立ANK文件不混入此字体。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "原盘README版权标记IBM 1981–1998；未找到字模开放商用或再分发许可。公开镜像不等于授权。本站仅展示固定样图、资料与不内嵌字形的离线工具，不分发FNT、磁盘镜像或完整BDF。",
+    "provenance": "从PC DOS 2000中文简体原盘Disk03的FONT1压缩档案静态还原prckt24.FNT，再依原FONT.EXE解码逻辑恢复24×24存储点阵。文件头日期01/24/92，仅作为内部日期，不据此断定首次设计或发行时间。公开档案SHA512与来源页公布值一致，未独立认证原盘采集过程。",
+    "sampleKind": "standard",
+    "sampleLabel": "简体固定样句与原库中文标点；独立ANK文件未混用。",
+    "coverage": "样文完整；7444个标准GB2312字符，含6763汉字",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceIndex": 240,
+    "nativeEvidence": {
+      "summary": "两个独立解码器逐字核对7503条原始记录，像素、偏移和有效bit数一致；全部BDF字形回读一致。原生24×24、每字72字节，无缩放、补字或普通矢量取模；未映射IBM扩展保留未编码，不当作Unicode覆盖。",
+      "sourceUrl": "https://winworldpc.com/download/c397c399-c3a9-78c2-a406-11c3a6e28094"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "3d41b4d23d9d233969513cfd5aeb7b359cac0c5d9fa2ec6d6e592c3f4cc090e9",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权使用prckt24.FNT，按本站说明离线导出Unicode BDF。脚本校验指定SHA256；7444个标准字符含6763汉字，IBM扩展保留未编码，U+3000不补造。原盘FONT1须先静态解包；不运行原DOS程序、不联网、不附字模、不覆盖已有输出。",
+      "links": [
+        {
+          "label": "导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/ibm-pcdos.md",
+          "action": "method"
+        },
+        {
+          "label": "查看发行资料",
+          "url": "https://winworldpc.com/product/pc-dos/2000",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  {
+    "id": "ibm_pcdos_hei_24",
+    "name": "IBM PC DOS 黑体 · 24×24",
+    "family": "IBM PC DOS 中文版",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "历史字库"
+    ],
+    "specimen": "assets/specimens/ibm_pcdos_hei_24.png",
+    "specimenWidth": 288,
+    "specimenHeight": 24,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "",
+    "sourceUrl": "https://winworldpc.com/product/pc-dos/2000",
+    "sourceLabel": "PC DOS 2000 中文版保存资料页",
+    "notes": "原文件头直接标明“黑体”，不是视觉猜名。标准GB2312已映射7444字符，含全部6763汉字且无空汉字；原文件未存U+3000全角空格。与HZK24H的6763个汉字中12字逐像素相同；与DEC黑体24中72字相同，允许平移后81字同形，不是简单平移重复。另对目录25项24点样文做共有字符比对，非全部目录全库去重。仅展示中文样句，独立ANK文件不混入此字体。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "原盘README版权标记IBM 1981–1998；未找到字模开放商用或再分发许可。公开镜像不等于授权。本站仅展示固定样图、资料与不内嵌字形的离线工具，不分发FNT、磁盘镜像或完整BDF。",
+    "provenance": "从PC DOS 2000中文简体原盘Disk03的FONT1压缩档案静态还原prcht24.FNT，再依原FONT.EXE解码逻辑恢复24×24存储点阵。文件头日期01/24/92，仅作为内部日期，不据此断定首次设计或发行时间。公开档案SHA512与来源页公布值一致，未独立认证原盘采集过程。",
+    "sampleKind": "standard",
+    "sampleLabel": "简体固定样句与原库中文标点；独立ANK文件未混用。",
+    "coverage": "样文完整；7444个标准GB2312字符，含6763汉字",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceIndex": 241,
+    "nativeEvidence": {
+      "summary": "两个独立解码器逐字核对7503条原始记录，像素、偏移和有效bit数一致；全部BDF字形回读一致。原生24×24、每字72字节，无缩放、补字或普通矢量取模；未映射IBM扩展保留未编码，不当作Unicode覆盖。",
+      "sourceUrl": "https://winworldpc.com/download/c397c399-c3a9-78c2-a406-11c3a6e28094"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "43f3ec8e96f73dfcd5c3b12759ed7d915d15e67dd6487ead77767e94cc5b815f",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权使用prcht24.FNT，按本站说明离线导出Unicode BDF。脚本校验指定SHA256；7444个标准字符含6763汉字，IBM扩展保留未编码，U+3000不补造。原盘FONT1须先静态解包；不运行原DOS程序、不联网、不附字模、不覆盖已有输出。",
+      "links": [
+        {
+          "label": "导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/ibm-pcdos.md",
+          "action": "method"
+        },
+        {
+          "label": "查看发行资料",
+          "url": "https://winworldpc.com/product/pc-dos/2000",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  {
+    "id": "ibm_pcdos_fangsong_24",
+    "name": "IBM PC DOS 仿宋体 · 24×24",
+    "family": "IBM PC DOS 中文版",
+    "width": 24,
+    "height": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "仿宋"
+    ],
+    "uses": [
+      "历史字库"
+    ],
+    "specimen": "assets/specimens/ibm_pcdos_fangsong_24.png",
+    "specimenWidth": 288,
+    "specimenHeight": 24,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "",
+    "sourceUrl": "https://winworldpc.com/product/pc-dos/2000",
+    "sourceLabel": "PC DOS 2000 中文版保存资料页",
+    "notes": "原文件头直接标明“仿宋体”，不是视觉猜名。标准GB2312已映射7444字符，含全部6763汉字且无空汉字；原文件未存U+3000全角空格。与HZK24F的6763个汉字均不相同；与DEC仿宋24中54字逐像素相同，允许平移后97字同形，不是简单平移重复。另对目录25项24点样文做共有字符比对，非全部目录全库去重。仅展示中文样句，独立ANK文件不混入此字体。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "原盘README版权标记IBM 1981–1998；未找到字模开放商用或再分发许可。公开镜像不等于授权。本站仅展示固定样图、资料与不内嵌字形的离线工具，不分发FNT、磁盘镜像或完整BDF。",
+    "provenance": "从PC DOS 2000中文简体原盘Disk03的FONT1压缩档案静态还原prcfs24.FNT，再依原FONT.EXE解码逻辑恢复24×24存储点阵。文件头日期01/24/92，仅作为内部日期，不据此断定首次设计或发行时间。公开档案SHA512与来源页公布值一致，未独立认证原盘采集过程。",
+    "sampleKind": "standard",
+    "sampleLabel": "简体固定样句与原库中文标点；独立ANK文件未混用。",
+    "coverage": "样文完整；7444个标准GB2312字符，含6763汉字",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceIndex": 242,
+    "nativeEvidence": {
+      "summary": "两个独立解码器逐字核对7472条原始记录，像素、偏移和有效bit数一致；全部BDF字形回读一致。原生24×24、每字72字节，无缩放、补字或普通矢量取模；未映射IBM扩展保留未编码，不当作Unicode覆盖。",
+      "sourceUrl": "https://winworldpc.com/download/c397c399-c3a9-78c2-a406-11c3a6e28094"
+    },
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "1b8341e87ad0fd9ee4b04b76e0a2c1a199a0f334287438e9571efa2fa7f915e8",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权使用prcfs24.FNT，按本站说明离线导出Unicode BDF。脚本校验指定SHA256；7444个标准字符含6763汉字，IBM扩展保留未编码，U+3000不补造。原盘FONT1须先静态解包；不运行原DOS程序、不联网、不附字模、不覆盖已有输出。",
+      "links": [
+        {
+          "label": "导出步骤与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/ibm-pcdos.md",
+          "action": "method"
+        },
+        {
+          "label": "查看发行资料",
+          "url": "https://winworldpc.com/product/pc-dos/2000",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  {
+    "id": "nokia_dct3_1999",
+    "name": "Nokia DCT3 1999 · 汉字11×12",
+    "family": "Nokia DCT3 中文点阵",
+    "width": 11,
+    "height": 12,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/nokia_dct3_1999.png",
+    "specimenWidth": 185,
+    "specimenHeight": 32,
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://archive.org/details/Nokia_DCT3_firmwares",
+    "sourceLabel": "历史固件存档页面",
+    "notes": "汉字11×12，西文原生不等宽、常见字框高13；固定预览按导出基线对齐，PNG行高不等于汉字字高。共9004汉字，覆盖GB2312全部6763汉字及另外2241汉字；不据此声称完整Big5或GBK。6150／6110／8810已验1999语言包的同码汉字完全一致，只收录一套。未逐字人工校对或实机验证。 目录11×12字符框仅指汉字存储格；完整BDF的总边界为12×15，保留原字宽、字框与度量字段，不把西文字高或PNG行高强行改成12。与13份已有11/12点完整字库按共有Unicode及平移后的墨迹比对，均不是整套重复；不声称对全目录全部字形去重。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "历史专有固件与字模未查到明确再分发或商用授权。本站仅展示固定样图与不含字模的提取脚本，不分发固件或完整BDF。",
+    "provenance": "直接解析Nokia 6150（NSM-1）5.17 E语言包，固件头日期1999-07-01。去除Wintesla块头后，从FONT字符组读原Unicode码位，再解包按宽度分组的纵向LSB位图。字形已经保存在固件中，未缩放、轮廓取模、补字或替换。固件记录名large-bold，不据此推定中文商业字体名、作者或首次设计年。 另在6110 v5.40D（头日期1999-05-25）核对到完全相同的9004汉字，说明在该固件日期已存在，不当作最初设计日期。",
+    "sampleKind": "standard",
+    "coverage": "样文完整",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "nativeEvidence": {
+      "summary": "已存储11×12中文位图；9385码位BDF逐像素往返检查通过，9004汉字无空白或重复码，GB2312汉字6763/6763。输入SHA256 6fc1ac3669091c615d22ebccb39ee0e056239fd1a0ab99a44053a52ad26cc444。",
+      "sourceUrl": "https://archive.org/details/Nokia_DCT3_firmwares"
+    },
+    "cellWidth": 11,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "f67a5175b5b253593b096f663b3e1b6980d3595d204ff5d0300da9a7369f88e8",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权处理6150 v5.17 E语言文件nsm1ny_5.17e，再用本站脚本校验并离线导出Unicode BDF。程序不联网、不执行固件、不附带字模，不覆盖已有输出。",
+      "links": [
+        {
+          "label": "提取说明与脚本",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/nokia-dct3.md",
+          "action": "method"
+        },
+        {
+          "label": "查看历史存档",
+          "url": "https://archive.org/details/Nokia_DCT3_firmwares",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    },
+    "sourceIndex": 243,
+    "layoutNote": "汉字原生11×12；西文不等宽、常见字框高13。完整BDF采用15像素strike容纳所有原字框；基线由原度量字段解释，未将汉字放大到15点。"
+  },
+  {
+    "id": "fmtowns_f20_20",
+    "name": "Fujitsu FM Towns II FreshTV · 20×20",
+    "family": "Fujitsu FM Towns II FreshTV",
+    "width": 20,
+    "height": 20,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/fmtowns_f20_20.png",
+    "specimenWidth": 270,
+    "specimenHeight": 42,
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sourceUrl": "https://github.com/Abdess/retrobios/blob/main/bios/Fujitsu/FM%20Towns/FMT_F20.ROM",
+    "sourceLabel": "FMT_F20.ROM 来源档案浏览页",
+    "notes": "6355个JIS一级／二级汉字全部非空，包含「凜」「熙」，不是完整GB2312简体字库。与MingLiU20的6355共同汉字逐字比较，6354字不同，仅「曲」相同；与站内四项20点字样共38次共同汉字比较均不同，其他字体未作全库去重。符号区有9个已分配框线字符为空；固定样文标点和所示10×20 ANK确实存在，但不纳入仅汉字BDF。同来源16点与Sharp X68000高度相近，不重复收录。",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "ROM与字模未查到明确再分发或商用许可；归档工具的许可证不覆盖所收录的ROM。本站只提供固定样图、资料和不内嵌字模的导出工具，不公开ROM或完整BDF。",
+    "provenance": "直接读取512KiB FMT_F20.ROM：FONT2头部记录20×20，0x2810起按JIS区位存储，每字60字节、每行3字节，高20位为像素，所核验汉字的低4位填充为零。样文ANK取独立10×20区。SHA1与CRC32匹配MAME的FM Towns II FreshTV转储记录；MAME将该机型登记为1994年，不据此称为1989年首代字库。",
+    "sampleKind": "standard",
+    "sampleLabel": "繁体固定样句、原生10×20 ANK；导出BDF仅含汉字，不含标点或ANK。",
+    "coverage": "所示汉字、标点与ANK完整；汉字BDF包含6355字",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceIndex": 234,
+    "nativeEvidence": {
+      "summary": "逐字节位与整行位两种读取方式对6355汉字一致，BDF回读像素一致；源ROM SHA256 dca1f314ae2f5dc937706624990b8521016ee2231558f6cbe169bbc305efb774。原生20×20字框，不是16点放大或轮廓取模。",
+      "sourceUrl": "https://github.com/mamedev/mame/blob/master/src/mame/fujitsu/fmtowns.cpp"
+    },
+    "cellWidth": 20,
+    "cellHeight": 20,
+    "inkWidth": null,
+    "inkHeight": null,
+    "specimenSha256": "830ae637604d230946880dcecf559fcbdc982de7a7d60509319c07f66f955173",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权使用指定FMT_F20.ROM，再用本站Python脚本离线导出6355个20点汉字的Unicode BDF。标点、符号、ANK及未核定扩展区不纳入导出；脚本校验大小与SHA256，不联网、不内嵌字模、不覆盖已有输出。",
+      "links": [
+        {
+          "label": "获取与导出步骤",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/fmtowns-f20.md",
+          "action": "method"
+        },
+        {
+          "label": "查看ROM来源档案",
+          "url": "https://github.com/Abdess/retrobios/blob/main/bios/Fujitsu/FM%20Towns/FMT_F20.ROM",
+          "action": "source"
+        },
+        {
+          "label": "MAME转储与机型记录",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/fujitsu/fmtowns.cpp",
+          "action": "reference"
+        },
+        {
+          "label": "独立格式读取参考",
+          "url": "https://github.com/AZO234/retro_tessdata/blob/main/generate_training_data_f20.py",
+          "action": "reference"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  {
+    "id": "sun_gbk_song_12",
+    "name": "Solaris 中易宋体 · 12×12",
+    "family": "Solaris 中易宋体",
+    "width": 12,
+    "height": 12,
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/sun_gbk_song_12.png",
+    "specimenWidth": 162,
+    "specimenHeight": 28,
+    "specimenSha256": "fad57324b7bf592e994a9799c0f52944ceb3649af70e9b9941737c5d5a1f64d7",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；Unicode版21885字符，含20902基本汉字；原库94个ASCII，U+0020缺省。",
+    "missing": [
+      " "
+    ],
+    "hanMissing": [],
+    "asciiMissing": [
+      " "
+    ],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+    "sourceLabel": "Solaris 7 简体中文版原盘资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "PCF版权属性为Copyright (c) 1997 Beijing Zhong Yi Electronics Co.。未确认完整字体开放再分发授权；本站仅展示固定字样，不分发PCF、BDF或完整字模；使用原字体须另核权利。",
+    "provenance": "Solaris 7 SPARC 11/99简体中文版光盘内SUNWgxfnt包的gbksong12.pcf.Z。1997是内嵌版权年，1998-07-23是包内文件日期，1999-11是载体版本，均不冒充首次设计年份。直接读取原PCF点阵，未运行安装程序，未从矢量轮廓取模。",
+    "nativeEvidence": {
+      "summary": "汉字原PCF bitmap字框12×12、advance=12；PIXEL_SIZE=14。保留原像素、bearing、SWIDTH和全局ascent/descent=12/2，不是缩放补字。自写PCF解析与系统FreeType逐21980原码glyph核对，Unicode BDF回读及原生加载逐21885字验证。",
+      "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+      "source_sha256": "3c092318acb711fed39f11ad00c356e13a454ef0abf213916a74bc74299f7db6",
+      "sourcePixelSize": 14,
+      "fontAscent": 12,
+      "fontDescent": 2,
+      "sourceGlyphs": 21980,
+      "unicodeMapped": 21885,
+      "basicHan": 20902,
+      "unmappedNativeCodes": 95
+    },
+    "notes": "每字墨迹大小随字变化，12×12是汉字实际bitmap字框；原全局行高14并保留。原GBK按实际双字节映射，不把码值直接当Unicode；95个历史扩展码不猜映射，另有原码导出。ASCII U+0021–U+007E为原库半角字形；样文里的U+0020仅作6px排版留白，不添加space glyph，亦不声明95个ASCII齐全。已对照指定HZK、Beijing/ISAS、DEC、Firefly与WQY12；12/14/16另对照SimSun 5.03原生点阵；非穷尽所有历史来源的全库去重或逐点手绘史证明。",
+    "priority": 0,
+    "sourceIndex": 244,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "在原盘资料页定位Solaris 7 1199 SPARC Software CS.iso，离线打开SUNWgxfnt/archive/none并提取gbksong12.pcf.Z；先本地uncompress，再用本站标准库脚本校验指定PCF SHA-256，导出Unicode或完整原GBK BDF。95个未确认映射码与缺省ASCII空格不自动补造。",
+      "links": [
+        {
+          "label": "原盘定位、校验与导出步骤",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/solaris-gbk.md",
+          "action": "method"
+        },
+        {
+          "label": "查看原盘资料页",
+          "url": "https://archive.org/details/solaris-7-1199-sparc-cs",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  {
+    "id": "sun_gbk_song_14",
+    "name": "Solaris 中易宋体 · 14×14",
+    "family": "Solaris 中易宋体",
+    "width": 14,
+    "height": 14,
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/sun_gbk_song_14.png",
+    "specimenWidth": 189,
+    "specimenHeight": 32,
+    "specimenSha256": "21951dce5803295d8edc68c9f04142fd122d50e4c9dfc5352559e1a7b5a14e01",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；Unicode版21885字符，含20902基本汉字；原库94个ASCII，U+0020缺省。",
+    "missing": [
+      " "
+    ],
+    "hanMissing": [],
+    "asciiMissing": [
+      " "
+    ],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+    "sourceLabel": "Solaris 7 简体中文版原盘资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "PCF版权属性为Copyright (c) 1997 Beijing Zhong Yi Electronics Co.。未确认完整字体开放再分发授权；本站仅展示固定字样，不分发PCF、BDF或完整字模；使用原字体须另核权利。",
+    "provenance": "Solaris 7 SPARC 11/99简体中文版光盘内SUNWgxfnt包的gbksong14.pcf.Z。1997是内嵌版权年，1998-07-23是包内文件日期，1999-11是载体版本，均不冒充首次设计年份。直接读取原PCF点阵，未运行安装程序，未从矢量轮廓取模。",
+    "nativeEvidence": {
+      "summary": "汉字原PCF bitmap字框14×14、advance=14；PIXEL_SIZE=16。保留原像素、bearing、SWIDTH和全局ascent/descent=13/3，不是缩放补字。自写PCF解析与系统FreeType逐21980原码glyph核对，Unicode BDF回读及原生加载逐21885字验证。",
+      "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+      "source_sha256": "975ac1cf10c384db0902283468f3d373761ac46d9e5992e20fe2a8e7aa7db309",
+      "sourcePixelSize": 16,
+      "fontAscent": 13,
+      "fontDescent": 3,
+      "sourceGlyphs": 21980,
+      "unicodeMapped": 21885,
+      "basicHan": 20902,
+      "unmappedNativeCodes": 95
+    },
+    "notes": "每字墨迹大小随字变化，14×14是汉字实际bitmap字框；原全局行高16并保留。原GBK按实际双字节映射，不把码值直接当Unicode；95个历史扩展码不猜映射，另有原码导出。ASCII U+0021–U+007E为原库半角字形；样文里的U+0020仅作7px排版留白，不添加space glyph，亦不声明95个ASCII齐全。已对照指定HZK、Beijing/ISAS、DEC、Firefly与WQY12；12/14/16另对照SimSun 5.03原生点阵；非穷尽所有历史来源的全库去重或逐点手绘史证明。",
+    "priority": 0,
+    "sourceIndex": 245,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "在原盘资料页定位Solaris 7 1199 SPARC Software CS.iso，离线打开SUNWgxfnt/archive/none并提取gbksong14.pcf.Z；先本地uncompress，再用本站标准库脚本校验指定PCF SHA-256，导出Unicode或完整原GBK BDF。95个未确认映射码与缺省ASCII空格不自动补造。",
+      "links": [
+        {
+          "label": "原盘定位、校验与导出步骤",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/solaris-gbk.md",
+          "action": "method"
+        },
+        {
+          "label": "查看原盘资料页",
+          "url": "https://archive.org/details/solaris-7-1199-sparc-cs",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  {
+    "id": "sun_gbk_song_16",
+    "name": "Solaris 中易宋体 · 16×16",
+    "family": "Solaris 中易宋体",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/sun_gbk_song_16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "specimenSha256": "d36f0e2afa4329665de081c76b08ce1ba08adddf0c3cbe5bb8a33225c4aa8619",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；Unicode版21885字符，含20902基本汉字；原库94个ASCII，U+0020缺省。",
+    "missing": [
+      " "
+    ],
+    "hanMissing": [],
+    "asciiMissing": [
+      " "
+    ],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+    "sourceLabel": "Solaris 7 简体中文版原盘资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "PCF版权属性为Copyright (c) 1997 Beijing Zhong Yi Electronics Co.。未确认完整字体开放再分发授权；本站仅展示固定字样，不分发PCF、BDF或完整字模；使用原字体须另核权利。",
+    "provenance": "Solaris 7 SPARC 11/99简体中文版光盘内SUNWgxfnt包的gbksong16.pcf.Z。1997是内嵌版权年，1998-07-23是包内文件日期，1999-11是载体版本，均不冒充首次设计年份。直接读取原PCF点阵，未运行安装程序，未从矢量轮廓取模。",
+    "nativeEvidence": {
+      "summary": "汉字原PCF bitmap字框16×16、advance=16；PIXEL_SIZE=18。保留原像素、bearing、SWIDTH和全局ascent/descent=15/3，不是缩放补字。自写PCF解析与系统FreeType逐21980原码glyph核对，Unicode BDF回读及原生加载逐21885字验证。",
+      "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+      "source_sha256": "07de4bec37ba0d0354f06ca1c101c46518e4eabd18fff6a8e9953bf676f57c65",
+      "sourcePixelSize": 18,
+      "fontAscent": 15,
+      "fontDescent": 3,
+      "sourceGlyphs": 21980,
+      "unicodeMapped": 21885,
+      "basicHan": 20902,
+      "unmappedNativeCodes": 95
+    },
+    "notes": "每字墨迹大小随字变化，16×16是汉字实际bitmap字框；原全局行高18并保留。原GBK按实际双字节映射，不把码值直接当Unicode；95个历史扩展码不猜映射，另有原码导出。ASCII U+0021–U+007E为原库半角字形；样文里的U+0020仅作8px排版留白，不添加space glyph，亦不声明95个ASCII齐全。已对照指定HZK、Beijing/ISAS、DEC、Firefly与WQY12；12/14/16另对照SimSun 5.03原生点阵；非穷尽所有历史来源的全库去重或逐点手绘史证明。",
+    "priority": 0,
+    "sourceIndex": 246,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "在原盘资料页定位Solaris 7 1199 SPARC Software CS.iso，离线打开SUNWgxfnt/archive/none并提取gbksong16.pcf.Z；先本地uncompress，再用本站标准库脚本校验指定PCF SHA-256，导出Unicode或完整原GBK BDF。95个未确认映射码与缺省ASCII空格不自动补造。",
+      "links": [
+        {
+          "label": "原盘定位、校验与导出步骤",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/solaris-gbk.md",
+          "action": "method"
+        },
+        {
+          "label": "查看原盘资料页",
+          "url": "https://archive.org/details/solaris-7-1199-sparc-cs",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  {
+    "id": "sun_gbk_song_20",
+    "name": "Solaris 中易宋体 · 20×20",
+    "family": "Solaris 中易宋体",
+    "width": 20,
+    "height": 20,
+    "cellWidth": 20,
+    "cellHeight": 20,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/sun_gbk_song_20.png",
+    "specimenWidth": 270,
+    "specimenHeight": 44,
+    "specimenSha256": "ae9edf7b46302f95de3d7d8f49edfd94b60da4ebf888d17cd8307ff1ce61f1d1",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；Unicode版21885字符，含20902基本汉字；原库94个ASCII，U+0020缺省。",
+    "missing": [
+      " "
+    ],
+    "hanMissing": [],
+    "asciiMissing": [
+      " "
+    ],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+    "sourceLabel": "Solaris 7 简体中文版原盘资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "PCF版权属性为Copyright (c) 1997 Beijing Zhong Yi Electronics Co.。未确认完整字体开放再分发授权；本站仅展示固定字样，不分发PCF、BDF或完整字模；使用原字体须另核权利。",
+    "provenance": "Solaris 7 SPARC 11/99简体中文版光盘内SUNWgxfnt包的gbksong20.pcf.Z。1997是内嵌版权年，1998-07-23是包内文件日期，1999-11是载体版本，均不冒充首次设计年份。直接读取原PCF点阵，未运行安装程序，未从矢量轮廓取模。",
+    "nativeEvidence": {
+      "summary": "汉字原PCF bitmap字框20×20、advance=20；PIXEL_SIZE=22。保留原像素、bearing、SWIDTH和全局ascent/descent=19/3，不是缩放补字。自写PCF解析与系统FreeType逐21980原码glyph核对，Unicode BDF回读及原生加载逐21885字验证。",
+      "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+      "source_sha256": "63d229d64536be3a8548dd1605879ffeb6911cae09d3dc0814d4c0142006eb8a",
+      "sourcePixelSize": 22,
+      "fontAscent": 19,
+      "fontDescent": 3,
+      "sourceGlyphs": 21980,
+      "unicodeMapped": 21885,
+      "basicHan": 20902,
+      "unmappedNativeCodes": 95
+    },
+    "notes": "每字墨迹大小随字变化，20×20是汉字实际bitmap字框；原全局行高22并保留。原GBK按实际双字节映射，不把码值直接当Unicode；95个历史扩展码不猜映射，另有原码导出。ASCII U+0021–U+007E为原库半角字形；样文里的U+0020仅作10px排版留白，不添加space glyph，亦不声明95个ASCII齐全。已对照指定HZK、Beijing/ISAS、DEC、Firefly与WQY12；12/14/16另对照SimSun 5.03原生点阵；非穷尽所有历史来源的全库去重或逐点手绘史证明。",
+    "priority": 0,
+    "sourceIndex": 247,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "在原盘资料页定位Solaris 7 1199 SPARC Software CS.iso，离线打开SUNWgxfnt/archive/none并提取gbksong20.pcf.Z；先本地uncompress，再用本站标准库脚本校验指定PCF SHA-256，导出Unicode或完整原GBK BDF。95个未确认映射码与缺省ASCII空格不自动补造。",
+      "links": [
+        {
+          "label": "原盘定位、校验与导出步骤",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/solaris-gbk.md",
+          "action": "method"
+        },
+        {
+          "label": "查看原盘资料页",
+          "url": "https://archive.org/details/solaris-7-1199-sparc-cs",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  {
+    "id": "sun_gbk_song_24",
+    "name": "Solaris 中易宋体 · 24×24",
+    "family": "Solaris 中易宋体",
+    "width": 24,
+    "height": 24,
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/sun_gbk_song_24.png",
+    "specimenWidth": 324,
+    "specimenHeight": 52,
+    "specimenSha256": "958d2c67c8fd33eb8ea9ac55afe0ab9fa65b456bdc564a2b08b373cc04e1f76d",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；Unicode版21885字符，含20902基本汉字；原库94个ASCII，U+0020缺省。",
+    "missing": [
+      " "
+    ],
+    "hanMissing": [],
+    "asciiMissing": [
+      " "
+    ],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+    "sourceLabel": "Solaris 7 简体中文版原盘资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "PCF版权属性为Copyright (c) 1997 Beijing Zhong Yi Electronics Co.。未确认完整字体开放再分发授权；本站仅展示固定字样，不分发PCF、BDF或完整字模；使用原字体须另核权利。",
+    "provenance": "Solaris 7 SPARC 11/99简体中文版光盘内SUNWgxfnt包的gbksong24.pcf.Z。1997是内嵌版权年，1998-07-23是包内文件日期，1999-11是载体版本，均不冒充首次设计年份。直接读取原PCF点阵，未运行安装程序，未从矢量轮廓取模。",
+    "nativeEvidence": {
+      "summary": "汉字原PCF bitmap字框24×24、advance=24；PIXEL_SIZE=26。保留原像素、bearing、SWIDTH和全局ascent/descent=22/4，不是缩放补字。自写PCF解析与系统FreeType逐21980原码glyph核对，Unicode BDF回读及原生加载逐21885字验证。",
+      "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+      "source_sha256": "171d73f44ef1d23d0e5d0e29b3b70057bef6e3574af6dce9ccd67c2879c9528e",
+      "sourcePixelSize": 26,
+      "fontAscent": 22,
+      "fontDescent": 4,
+      "sourceGlyphs": 21980,
+      "unicodeMapped": 21885,
+      "basicHan": 20902,
+      "unmappedNativeCodes": 95
+    },
+    "notes": "每字墨迹大小随字变化，24×24是汉字实际bitmap字框；原全局行高26并保留。原GBK按实际双字节映射，不把码值直接当Unicode；95个历史扩展码不猜映射，另有原码导出。ASCII U+0021–U+007E为原库半角字形；样文里的U+0020仅作12px排版留白，不添加space glyph，亦不声明95个ASCII齐全。已对照指定HZK、Beijing/ISAS、DEC、Firefly与WQY12；12/14/16另对照SimSun 5.03原生点阵；非穷尽所有历史来源的全库去重或逐点手绘史证明。",
+    "priority": 0,
+    "sourceIndex": 248,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "在原盘资料页定位Solaris 7 1199 SPARC Software CS.iso，离线打开SUNWgxfnt/archive/none并提取gbksong24.pcf.Z；先本地uncompress，再用本站标准库脚本校验指定PCF SHA-256，导出Unicode或完整原GBK BDF。95个未确认映射码与缺省ASCII空格不自动补造。",
+      "links": [
+        {
+          "label": "原盘定位、校验与导出步骤",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/solaris-gbk.md",
+          "action": "method"
+        },
+        {
+          "label": "查看原盘资料页",
+          "url": "https://archive.org/details/solaris-7-1199-sparc-cs",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  {
+    "id": "wqx_pc505_14x15",
+    "name": "文曲星 PC505 · 汉字14×15",
+    "family": "文曲星 PC505 原厂仿真器",
+    "width": 14,
+    "height": 15,
+    "cellWidth": 14,
+    "cellHeight": 15,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/wqx_pc505_14x15.png",
+    "specimenWidth": 216,
+    "specimenHeight": 36,
+    "specimenSha256": "439bb5aa3ff3522729e7b39b5f338a8d81ec4d2ca33c84cc11c52284c579fea9",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "coverage": "7445个GB2312字符（含6763汉字）及95个可打印ASCII；样文完整。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/wqxarchive",
+    "sourceLabel": "文曲星历史资料归档页",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "原厂仿真器字模未查到明确再分发或商用授权。第三方镜像可取得不等于许可；本站仅展示固定样图和不含字模的导出脚本，不公开ROM、完整BDF或全字形数据。",
+    "provenance": "来自PC505原厂仿真器归档所带obj，readme自述北京金远见开发。1999年机型有同时代公开目录支持，obj内部时间为1999-07-02，其他成员至2000-02；不把整包称为1999版，不是经实机读取链验证的物理ROM dump。未运行仿真器或固件。",
+    "notes": "汉字14×15、ASCII8×16均为已存储原生点阵，逐字解码未缩放或补字。GB原7599槽中7445严格映射；ASCII原128槽中95可打印字符，其他槽不伪造Unicode。6582个汉字第15行有墨点，不裁为14×14。限定完整来源比较未见整库精确重复；与国乔15j风格近似但全字形池仅3个汉字完全相同，不据此断言原创、全球唯一或设计谱系。风格、字形设计者及Sony关系未确证。",
+    "layoutNote": "字框字段仅指汉字14×15。ASCII8×16；合并BDF总框14×16，DWIDTH14/8、yoff0及共同底边是导出约定，不是已验证设备基线。PNG每行容器16px，两行间4px，中文上方保留1px容器空白；无字形补行、裁边或替代。",
+    "nativeEvidence": {
+      "summary": "精确哈希obj中210位连续GB槽、MSB优先；全部7445字与第二算法逐行匹配。另保留95个原生ASCII8×16。BDF像素/BBX/DWIDTH全量往返验证，标准化头部仅是导出元数据。",
+      "sourceUrl": "https://archive.org/details/wqxarchive",
+      "source_sha256": "5701cf386d1935a84b0f1a4edbfcb365f5bdb2891b320c5b1fca22f47ed93630",
+      "storageCell": [
+        14,
+        15
+      ],
+      "asciiStorageCell": [
+        8,
+        16
+      ],
+      "sourceGbSlots": 7599,
+      "mappedGb2312": 7445,
+      "basicHan": 6763,
+      "sourceAsciiSlots": 128,
+      "mappedAscii": 95,
+      "unicodeMapped": 7540,
+      "globalExportBounds": [
+        14,
+        16,
+        0,
+        0
+      ],
+      "metricsStatus": "export-convention-not-verified-device-metrics",
+      "physicalDumpVerified": false
+    },
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权处理历史归档中的obj，用本站纯Python脚本校验4MiB精确SHA和CRC，离线导出GB、ASCII或合并BDF。不执行来源程序，不覆盖输出。",
+      "links": [
+        {
+          "label": "查看历史资料集",
+          "url": "https://archive.org/details/wqxarchive",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    },
+    "sourceIndex": 252
   }
 ];

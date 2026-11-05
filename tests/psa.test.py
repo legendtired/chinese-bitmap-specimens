@@ -5,7 +5,7 @@ try:
  from PIL import Image
 except ImportError:
  Image=None
-R=Path(__file__).resolve().parents[1];rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('wqx_nc1020_12','casio_xda10000_12','casio_xda10000_24','panasonic_fsuv1_16','stone_ms2401h_style1_32','stone_ms2401h_style2_32','stone_ms2401h_style3_32','stone_ms2401h_style4_32','sharp_x68000_16')];byid={r['id']:r for r in rows};manifest=json.loads((R/'data/release-psa.json').read_text())
+R=Path(__file__).resolve().parents[1];rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('wqx_pc505_14x15','wqx_nc1020_12','casio_xda10000_12','casio_xda10000_24','panasonic_fsuv1_16','stone_ms2401h_style1_32','stone_ms2401h_style2_32','stone_ms2401h_style3_32','stone_ms2401h_style4_32','sharp_x68000_16','ibm_pcdos_kai_24','ibm_pcdos_hei_24','ibm_pcdos_fangsong_24','nokia_dct3_1999','fmtowns_f20_20','sun_gbk_song_12','sun_gbk_song_14','sun_gbk_song_16','sun_gbk_song_20','sun_gbk_song_24','sun_gb2312_song_12','sun_gb2312_song_14','sun_gb2312_song_20')];byid={r['id']:r for r in rows};manifest=json.loads((R/'data/release-psa.json').read_text())
 removed=set(json.loads((R/'data/curation.json').read_text()).get('postPsaRemovedIds',[]))
 assert removed=={'taipeib20'}
 removed |= set(json.loads((R/'data/curation.json').read_text())['postEfontRemovedIds'])

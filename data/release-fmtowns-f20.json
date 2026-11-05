@@ -1,0 +1,13 @@
+{
+  "baseCommit": "015274a10e1aa8283c4ca08cdf2acfdfc7f701b1",
+  "baseRowsSha256": "28b9f216bf631d0fa41e7c93c7cdb731daa75a7c032e11fa0653f4270bb21d2d",
+  "addedId": "fmtowns_f20_20",
+  "sampleSha256": "830ae637604d230946880dcecf559fcbdc982de7a7d60509319c07f66f955173",
+  "romSha256": "dca1f314ae2f5dc937706624990b8521016ee2231558f6cbe169bbc305efb774",
+  "hanzi": 6355,
+  "nativeFrame": [
+    20,
+    20
+  ],
+  "machineYear": 1994
+}
