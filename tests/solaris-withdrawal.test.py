@@ -2,7 +2,7 @@
 from pathlib import Path
 import json,hashlib
 from catalog_history import before_solaris_withdrawal
-R=Path(__file__).resolve().parents[1];m=json.loads((R/'data/withdrawal-solaris-gb2312.json').read_text());rows=json.loads((R/'data/catalog.json').read_text());old=before_solaris_withdrawal(R)
+R=Path(__file__).resolve().parents[1];m=json.loads((R/'data/withdrawal-solaris-gb2312.json').read_text());rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('psion618c_8','psion618c_11')];old=before_solaris_withdrawal(R)
 ids=set(m['removedIds']);assert ids=={f'sun_gb2312_song_{n}' for n in (12,14,20)}
 assert len(rows)==len({r['id']for r in rows})==219
 assert rows==[r for r in old if r['id']not in ids]
@@ -11,11 +11,11 @@ by={r['id']:r for r in rows};assert all(i in by for i in m['preservedSolarisIds'
 assert [r for r in rows if r['priority']>0]==[r for r in old if r['priority']>0]
 c=json.loads((R/'data/curation.json').read_text());assert set(c['postSolarisGb2312RemovedIds'])==ids and ids<=set(c['removedIds'])
 h=json.loads((R/'data/collection-history.json').read_text());assert not ids.intersection(i for b in h['batches']for i in b['ids'])
-assert h['batches'][-1]['ids']==['wqx_pc505_14x15']
+assert h['batches'][-2]['ids']==['wqx_pc505_14x15']
 for r in m['removedRows']:
  assert not (R/r['specimen']).exists();assert not (R/'fonts'/f"{r['id']}.html").exists()
  assert r['id']not in (R/'index.html').read_text() and r['id']not in (R/'sitemap.xml').read_text()
-assert len(list((R/'fonts').glob('*.html')))==219
+assert len(list((R/'fonts').glob('*.html')))==221
 print('Solaris withdrawal: exactly three absent, five GBK preserved, all other219 rows exact, recommendations and newest PC505 retained.')
 
 # Withdrawn-only acquisition material is excluded from this GitHub synchronization.

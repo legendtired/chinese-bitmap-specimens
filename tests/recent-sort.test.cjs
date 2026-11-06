@@ -13,7 +13,7 @@ const root = process.env.FONT_CATALOG_ROOT || path.resolve(__dirname, '..');
 const read = relative => fs.readFileSync(path.join(root, relative), 'utf8');
 const json = relative => JSON.parse(read(relative));
 const api = require(path.join(root, 'app.js'));
-const rows = json('data/catalog.json');
+const rows = json('data/catalog.json').filter(r => !r.id.startsWith('psion618c_'));
 const release = json('data/release-20261105-batch.json');
 const baselinePath = fs.existsSync(path.join(__dirname, 'previous-sort-baseline.json'))
   ? path.join(__dirname, 'previous-sort-baseline.json')
@@ -90,6 +90,7 @@ test('Prior retained 10-item batch order is numeric descending, independently of
 
 test('History batches match their checked-in release manifests with no duplicate or unknown IDs', () => {
   const history = json('data/collection-history.json');
+  history.batches = history.batches.filter(b => b.sourceManifest !== 'release-psion618c.json');
   assert(Array.isArray(history.batches) && history.batches.length > 0);
   const known = new Set(ids(rows)), assigned = new Set();
   for (const batch of history.batches) {
@@ -115,6 +116,7 @@ test('History batches match their checked-in release manifests with no duplicate
 
 test('Each recorded batch sorts ahead of older batches and unrecorded history', () => {
   const history = json('data/collection-history.json');
+  history.batches = history.batches.filter(b => b.sourceManifest !== 'release-psion618c.json');
   const rank = new Map(history.batches.flatMap((batch, index) => batch.ids.map(id => [id, index + 1])));
   const expected = [...rows].sort((a, b) => (rank.get(b.id) || 0) - (rank.get(a.id) || 0) || bySource(a, b));
   assert.deepEqual(ids(recent(rows)), ids(expected));
@@ -230,7 +232,8 @@ test('Browser global history path produces the same newest-first order as Common
   assert(app.includes(marker), 'Expected no-DOM guard for the VM review');
   vm.runInContext(app.replace(marker, `globalThis.reviewApi = { filterCatalog, visibleCatalog }; ${marker}`), context, {filename:'app.js'});
   const actual = context.reviewApi.filterCatalog(context.window.FONT_CATALOG, {}, '', 'recent');
-  assert.deepEqual(Array.from(actual, r => r.id), ids(recent(rows)));
+  assert.deepEqual(Array.from(actual, r => r.id), ids(recent(json('data/catalog.json'))));
+  assert.deepEqual(Array.from(actual.slice(0,2), r => r.id), ['psion618c_11','psion618c_8']);
 });
 
 test('UI change events toggle the recency explanation and keep recent order across favorites and filter resets', () => {

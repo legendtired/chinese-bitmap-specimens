@@ -14394,5 +14394,127 @@
       "type": "method"
     },
     "sourceIndex": 252
+  },
+  {
+    "id": "psion618c_8",
+    "name": "Psion 618C · 8点",
+    "family": "Psion 618C Unicode",
+    "width": 9,
+    "height": 8,
+    "cellWidth": 9,
+    "cellHeight": 8,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/psion618c_8.png",
+    "specimenWidth": 106,
+    "specimenHeight": 8,
+    "specimenSha256": "dec6beab62c81781af9d97960b0703ab72013a958b5a84e3511872529b40c508",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "",
+    "sampleKind": "standard",
+    "coverage": "15441个非空汉字，包含全部6763个GB2312汉字；样文完整。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceUrl": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
+    "sourceLabel": "Psion 618C 历史ROM资料页",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "文件署名DynaLab、Shanghai eBook、Enfour，未查到开放字体许可；仅展示固定样图和无字模提取脚本。",
+    "provenance": "中文Revo/618C 1.08(14)系统Unicode.gdr中的压缩1-bit位图。设备版本依存档标注；不是本次实机读取。",
+    "notes": "8点汉字，通常字进9px；保留原像素及度量。已核对可取得同尺寸来源，未发现整库重复；部分商业或缺失来源未完成全库核验。15点与国乔15繁体高度重复，未另收录。",
+    "layoutNote": "标准样图仅汉字及标点；Unicode.gdr不含普通ASCII，未借用其他字库补字。",
+    "nativeEvidence": {
+      "summary": "从GDR原生Unicode索引和行压缩位图直接解码；不使用矢量取模。原始设计是否手绘未独立核实。",
+      "sourceUrl": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
+      "source_sha256": "cc99d6580212a5bbbc1ccfa786248aee9637a3ac6a6a88584c7fcf50ed784d15",
+      "nonblankHan": 15441,
+      "gb2312Han": 6763
+    },
+    "priority": 0,
+    "sourceIndex": 253,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权处理对应ROM，使用scripts/psion_gdr_to_bdf.py离线校验并导出；方法见docs/psion618c.md。",
+      "links": [
+        {
+          "label": "查看历史ROM资料",
+          "url": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-06",
+      "type": "method"
+    }
+  },
+  {
+    "id": "psion618c_11",
+    "name": "Psion 618C · 11点",
+    "family": "Psion 618C Unicode",
+    "width": 12,
+    "height": 11,
+    "cellWidth": 12,
+    "cellHeight": 11,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/psion618c_11.png",
+    "specimenWidth": 142,
+    "specimenHeight": 11,
+    "specimenSha256": "bbe8bbd346c5b8f64a54f5ea412711a0ade8ce914c12a07a8d4af72cf189b731",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "",
+    "sampleKind": "standard",
+    "coverage": "15447个非空汉字，包含全部6763个GB2312汉字；样文完整。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceUrl": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
+    "sourceLabel": "Psion 618C 历史ROM资料页",
+    "licenseStatus": "许可待核实",
+    "licenseNote": "文件署名DynaLab、Shanghai eBook、Enfour，未查到开放字体许可；仅展示固定样图和无字模提取脚本。",
+    "provenance": "中文Revo/618C 1.08(14)系统Unicode.gdr中的压缩1-bit位图。设备版本依存档标注；不是本次实机读取。",
+    "notes": "11点汉字，通常字进12px；保留原像素及度量。已核对可取得同尺寸来源，未发现整库重复；部分商业或缺失来源未完成全库核验。15点与国乔15繁体高度重复，未另收录。",
+    "layoutNote": "标准样图仅汉字及标点；Unicode.gdr不含普通ASCII，未借用其他字库补字。",
+    "nativeEvidence": {
+      "summary": "从GDR原生Unicode索引和行压缩位图直接解码；不使用矢量取模。原始设计是否手绘未独立核实。",
+      "sourceUrl": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
+      "source_sha256": "cc99d6580212a5bbbc1ccfa786248aee9637a3ac6a6a88584c7fcf50ed784d15",
+      "nonblankHan": 15447,
+      "gb2312Han": 6763
+    },
+    "priority": 0,
+    "sourceIndex": 254,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权处理对应ROM，使用scripts/psion_gdr_to_bdf.py离线校验并导出；方法见docs/psion618c.md。",
+      "links": [
+        {
+          "label": "查看历史ROM资料",
+          "url": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-06",
+      "type": "method"
+    }
   }
 ]

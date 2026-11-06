@@ -118,6 +118,13 @@
       "ids": [
         "wqx_pc505_14x15"
       ]
+    },
+    {
+      "sourceManifest": "release-psion618c.json",
+      "ids": [
+        "psion618c_8",
+        "psion618c_11"
+      ]
     }
   ]
 }
