@@ -13,7 +13,7 @@ for r,n,coverage in zip(new,(8,11),(15441,15447)):
  assert r['nativeEvidence']['nonblankHan']==coverage and r['nativeEvidence']['gb2312Han']==6763
  b=(R/r['specimen']).read_bytes();assert hashlib.sha256(b).hexdigest()==r['specimenSha256']
  assert struct.unpack('>II',b[16:24])==(r['specimenWidth'],r['specimenHeight'])
- assert r['missing']==[] and not r['asciiText'] and r['asciiOrigin']=='absent'
+ assert r['missing']==[] and r['asciiText']=='0123456789 AaBb GgMm !?:+-.' and r['asciiOrigin']=='native' and r['asciiPairing']['family']=='Arial'
 assert not any(r['id'] in ('psion618c_15','panasonic_tutx100_16x24') for r in rows)
 h=json.loads((R/'data/collection-history.json').read_text());assert next(b for b in h['batches'] if b['sourceManifest']=='release-psion618c.json')['ids']==m['addedIds']
 sys.path.insert(0,str(R/'scripts'));from psion_gdr_to_bdf import decode

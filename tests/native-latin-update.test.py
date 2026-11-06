@@ -5,7 +5,7 @@ from PIL import Image
 from approved_latin_update import AFTER,BEFORE,u
 R=Path(__file__).resolve().parents[1]
 rows={r['id']:r for r in json.loads((R/'data/catalog.json').read_text())}
-assert len(AFTER)==len(BEFORE)==7
+assert len(AFTER)==len(BEFORE)==9
 for id,a in AFTER.items():
  assert rows[id]==a
  data=(R/a['specimen']).read_bytes()
@@ -18,6 +18,8 @@ for id,a in AFTER.items():
  assert a['text']==BEFORE[id]['text'] and a['priority']==BEFORE[id]['priority']
  if id.startswith('stone'):
   assert a['asciiOrigin']=='fullwidth-native' and all(ord(c)>127 for c in a['asciiText'])
- else:
+ elif id.startswith('ibm'):
   assert a['asciiOrigin']=='native' and '12×24' in a['notes'] and a['asciiText']=='ABCabc0123456789'
-print('Native Latin: 7 approved previews; all original Han pixels and identities preserved.')
+ else:
+  assert a['asciiPairing']['kind']=='user-selected-same-system' and a['asciiPairing']['family']=='Arial'
+print('Native Latin: 9 approved previews; all original Han pixels and identities preserved.')

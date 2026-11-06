@@ -20,3 +20,7 @@ python scripts/psion_gdr_to_bdf.py Revo.bin --rom --size 11 --output psion11.bdf
 8点与8套可得来源逐字比对，未见整库重复；最高ELISA为108/5,506字同形。丁卯商业全库未取得。11点与HZK11、MingLiU、Firefly、LanaPixel、Mplus比对，未见整库重复；部分其他条目仅核对固定样张。15点与国乔eb5-15f的13,061个共同汉字中13,000个同形，不独立收录。
 
 公开内容仅固定字样和无字模脚本，不包含ROM、GDR、完整BDF或字模数组。
+
+## Arial 英数字样
+
+[同系统 Arial 搭配与导出](psion618c-arial.md)：8／11点各补95个ASCII，保留原生不等宽；按用户选择搭配。

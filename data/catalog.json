@@ -14414,24 +14414,24 @@
       "历史屏幕字库"
     ],
     "specimen": "assets/specimens/psion618c_8.png",
-    "specimenWidth": 106,
-    "specimenHeight": 8,
-    "specimenSha256": "dec6beab62c81781af9d97960b0703ab72013a958b5a84e3511872529b40c508",
+    "specimenWidth": 150,
+    "specimenHeight": 20,
+    "specimenSha256": "fda3801bb4fbeb7dbffbcfceeddf267210ba273973dfb57c0ca3100cceb191b4",
     "text": "视野无限广，窗外有蓝天。",
-    "asciiText": "",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
     "sampleKind": "standard",
-    "coverage": "15441个非空汉字，包含全部6763个GB2312汉字；样文完整。",
+    "coverage": "15441个非空汉字，包含全部6763个GB2312汉字；样文完整。 另95个同系统Arial ASCII。",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
-    "asciiOrigin": "absent",
+    "asciiOrigin": "native",
     "sourceUrl": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
     "sourceLabel": "Psion 618C 历史ROM资料页",
     "licenseStatus": "许可待核实",
     "licenseNote": "文件署名DynaLab、Shanghai eBook、Enfour，未查到开放字体许可；仅展示固定样图和无字模提取脚本。",
     "provenance": "中文Revo/618C 1.08(14)系统Unicode.gdr中的压缩1-bit位图。设备版本依存档标注；不是本次实机读取。",
     "notes": "8点汉字，通常字进9px；保留原像素及度量。已核对可取得同尺寸来源，未发现整库重复；部分商业或缺失来源未完成全库核验。15点与国乔15繁体高度重复，未另收录。",
-    "layoutNote": "标准样图仅汉字及标点；Unicode.gdr不含普通ASCII，未借用其他字库补字。",
+    "layoutNote": "中文搭配同一系统 Eon.gdr 中的 Arial 英数字样，由用户选择；不是已证实的唯一原配。保留各自原像素、字进和基线度量。",
     "nativeEvidence": {
       "summary": "从GDR原生Unicode索引和行压缩位图直接解码；不使用矢量取模。原始设计是否手绘未独立核实。",
       "sourceUrl": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
@@ -14444,8 +14444,13 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "自行取得并确认有权处理对应ROM，使用scripts/psion_gdr_to_bdf.py离线校验并导出；方法见docs/psion618c.md。",
+      "notice": "自行取得并确认有权处理对应ROM，使用scripts/psion_arial_to_bdf.py离线导出中文与同系统Arial的可选组合；方法见docs/psion618c-arial.md。",
       "links": [
+        {
+          "label": "中文与 Arial 搭配导出",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/psion618c-arial.md",
+          "action": "method"
+        },
         {
           "label": "查看历史ROM资料",
           "url": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
@@ -14454,7 +14459,16 @@
       ],
       "checkedOn": "2026-11-06",
       "type": "method"
-    }
+    },
+    "asciiPairing": {
+      "kind": "user-selected-same-system",
+      "family": "Arial",
+      "source": "Eon.gdr",
+      "uid": "0x100001f2",
+      "asciiRange": "U+0020–U+007E",
+      "sourceSha256": "2477ea0d6bae65eba347eb8a9ef9785bf01b58279c903b10da12d1cbc673a5de"
+    },
+    "sampleLabel": "原生中文与同系统 Arial 英数；按用户选择搭配。"
   },
   {
     "id": "psion618c_11",
@@ -14475,24 +14489,24 @@
       "历史屏幕字库"
     ],
     "specimen": "assets/specimens/psion618c_11.png",
-    "specimenWidth": 142,
-    "specimenHeight": 11,
-    "specimenSha256": "bbe8bbd346c5b8f64a54f5ea412711a0ade8ce914c12a07a8d4af72cf189b731",
+    "specimenWidth": 183,
+    "specimenHeight": 26,
+    "specimenSha256": "c7a79918612163e68b276815662f15141f2b831f12d74db943b9d32f2689771e",
     "text": "视野无限广，窗外有蓝天。",
-    "asciiText": "",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
     "sampleKind": "standard",
-    "coverage": "15447个非空汉字，包含全部6763个GB2312汉字；样文完整。",
+    "coverage": "15447个非空汉字，包含全部6763个GB2312汉字；样文完整。 另95个同系统Arial ASCII。",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
-    "asciiOrigin": "absent",
+    "asciiOrigin": "native",
     "sourceUrl": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
     "sourceLabel": "Psion 618C 历史ROM资料页",
     "licenseStatus": "许可待核实",
     "licenseNote": "文件署名DynaLab、Shanghai eBook、Enfour，未查到开放字体许可；仅展示固定样图和无字模提取脚本。",
     "provenance": "中文Revo/618C 1.08(14)系统Unicode.gdr中的压缩1-bit位图。设备版本依存档标注；不是本次实机读取。",
     "notes": "11点汉字，通常字进12px；保留原像素及度量。已核对可取得同尺寸来源，未发现整库重复；部分商业或缺失来源未完成全库核验。15点与国乔15繁体高度重复，未另收录。",
-    "layoutNote": "标准样图仅汉字及标点；Unicode.gdr不含普通ASCII，未借用其他字库补字。",
+    "layoutNote": "中文搭配同一系统 Eon.gdr 中的 Arial 英数字样，由用户选择；不是已证实的唯一原配。保留各自原像素、字进和基线度量。",
     "nativeEvidence": {
       "summary": "从GDR原生Unicode索引和行压缩位图直接解码；不使用矢量取模。原始设计是否手绘未独立核实。",
       "sourceUrl": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
@@ -14505,8 +14519,13 @@
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "自行取得并确认有权处理对应ROM，使用scripts/psion_gdr_to_bdf.py离线校验并导出；方法见docs/psion618c.md。",
+      "notice": "自行取得并确认有权处理对应ROM，使用scripts/psion_arial_to_bdf.py离线导出中文与同系统Arial的可选组合；方法见docs/psion618c-arial.md。",
       "links": [
+        {
+          "label": "中文与 Arial 搭配导出",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/psion618c-arial.md",
+          "action": "method"
+        },
         {
           "label": "查看历史ROM资料",
           "url": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
@@ -14515,7 +14534,16 @@
       ],
       "checkedOn": "2026-11-06",
       "type": "method"
-    }
+    },
+    "asciiPairing": {
+      "kind": "user-selected-same-system",
+      "family": "Arial",
+      "source": "Eon.gdr",
+      "uid": "0x100001f3",
+      "asciiRange": "U+0020–U+007E",
+      "sourceSha256": "2477ea0d6bae65eba347eb8a9ef9785bf01b58279c903b10da12d1cbc673a5de"
+    },
+    "sampleLabel": "原生中文与同系统 Arial 英数；按用户选择搭配。"
   },
   {
     "id": "palm_cjkos_fb512xmf",
