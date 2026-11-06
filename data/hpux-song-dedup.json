@@ -1,0 +1,7365 @@
+{
+  "details": [
+    {
+      "size": 40,
+      "han": 6763,
+      "hanFrame": [
+        40,
+        40,
+        0,
+        40,
+        40,
+        34,
+        6,
+        0
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "apple_biaukai_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_biaukai_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_biaukai_24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_biaukai_9",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_hei_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_hei_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_hei_24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_hei_9",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_kai_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_kai_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_kai_24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_ligothic_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_ligothic_24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_lisung_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_lisung_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_lisung_24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_lisung_9",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "ark10",
+      "compared": [
+        {
+          "size": 40,
+          "common": 720,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "ark12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6334,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "ayu_gothic_18",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "ayu_gothic_20",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "badingshiweiti-16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "batang-native-14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3650,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "batang-native-16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3650,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "batang16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 2684,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "batang24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 2684,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "bestten_crt_10px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "boutique7",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4296,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "boutique9",
+      "compared": [
+        {
+          "size": 40,
+          "common": 5863,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "boutique9bold",
+      "compared": [
+        {
+          "size": 40,
+          "common": 5863,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_chkan_24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_cmex24m",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_eb5_15f",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_eb5_15j",
+      "compared": [
+        {
+          "size": 40,
+          "common": 0,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_eb5_24f",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_eb5_24k2",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_taipeil24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 0,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_uwb5_16m",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "changbandiansong-12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "changbandiansong-16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "chill7",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "cns40_original",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3330,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "cubic11",
+      "compared": [
+        {
+          "size": 40,
+          "common": 5231,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_fangsongti_gb2312_24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_fangsongti_gb2312_34",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_hei_big5_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_hei_big5_24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_heiti_gb2312_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_heiti_gb2312_34",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_kaiti_gb2312_34",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_songti_gb2312_34",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_sung_cns11643_24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 0,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_sung_cns11643_32",
+      "compared": [
+        {
+          "size": 40,
+          "common": 0,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dinkie9",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dotgothic16_regular_16px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3385,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dotum-native-12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3650,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dotum-native-14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3650,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dotum-native-16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3650,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dotum16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 2684,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "dotum24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 2684,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "efont_biwidth_10",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "efont_biwidth_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "efont_biwidth_14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "efont_biwidth_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "efont_biwidth_24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "eten_taipei_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "eten_taipei_24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "fashion16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4043,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "firefly_sung_11",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "firefly_sung_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "firefly_sung_13",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "firefly_sung_14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "firefly_sung_15",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "firefly_sung_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "flippercn_20240803_ui",
+      "compared": [
+        {
+          "size": 40,
+          "common": 503,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "founder_pixel12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 15,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "founder_pixel14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 15,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "founder_pixel15",
+      "compared": [
+        {
+          "size": 40,
+          "common": 15,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "founder_pixel18",
+      "compared": [
+        {
+          "size": 40,
+          "common": 15,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "founder_pixel24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 15,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "fusion10",
+      "compared": [
+        {
+          "size": 40,
+          "common": 5941,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "fusion12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6635,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "fusion8",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "fusion_bold_pixel_10px_monospaced_zh_hans",
+      "compared": [
+        {
+          "size": 40,
+          "common": 5877,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "fusion_bold_pixel_12px_monospaced_zh_hans",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6618,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "galmuri11",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3363,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "galmuri14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "galmuri9",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "gnu_unifont_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "gulim16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 2684,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "gulim24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 2684,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "guobiao_song_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hanyi-pixel-xingkai15",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hanyi-pixel11",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hanyi-pixel13",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hanyi-pixel9",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hbf_Beijing16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hbf_cch24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6762,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hbf_cck24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hbf_cclibf16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 0,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hbf_uwgb_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk16f",
+      "compared": [
+        {
+          "size": 40,
+          "common": 0,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk16s",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk24f",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk24h",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk24k",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk24s",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk32",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "isas_fangsong_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "isas_song_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "isas_song_24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_izumi16_16px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4140,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_izumi16b_16px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4140,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_jiskan16s_16px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4140,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_k12_12px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4137,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_k12b_12px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4137,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_k12x10_10px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_k14b_14px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4137,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_kaname12_12px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_milkjf16b_16px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "k6x8",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "k8x12_12px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kappa_20_b",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kappa_20_m",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_akihabara_16_16px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_dougenzaka_12_12px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_dougenzaka_16_16px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_hatchoubori_16_16px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_hibiya_24_24px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_hibiya_32_32px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_kagurazaka_12_12px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_kagurazaka_16_16px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_kodenmachou_12_12px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_kodenmachou_16_16px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_ningyouchou_16_16px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "konatu_native_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3378,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "lanapixel_11px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4054,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "liorachip10x12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 1884,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "mingliu_native_11",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "mingliu_native_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "mingliu_native_13",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "mingliu_native_15",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "mingliu_native_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "mingliu_native_20",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "misaki8",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "miseki8",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "mona10_bold_10px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "mplus_bitmap_10",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "mplus_bitmap_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "muzaipixel",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "naga10_10x10",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3330,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "nightgazer12b_12px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "nightgazer13b_13px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "nightgazer14b_14px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "nightgazer15b_15px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "nightgazer16b_16px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "nisc_native_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "osaka-native-14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "osaka-native-18",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "osaka-native-24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "osaka-native-9",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "palm_cjkos_fb510f",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "palm_cjkos_fb512f",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "palm_cjkos_fgb10f",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "palm_cjkos_fgb12f",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "panasonic-mn1871681",
+      "compared": [
+        {
+          "size": 40,
+          "common": 73,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "paw16_16x16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "poxiaopixel_cn_12px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "psa_c_screen_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "psa_c_screen_14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "psa_latin_font0_h14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 0,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "psa_latin_font1_h14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 0,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "psa_latin_font2_h17",
+      "compared": [
+        {
+          "size": 40,
+          "common": 0,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "qiuyeyuanti-16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "renoufangsong-16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "shanweizhouhei-16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "shinonome_12_gothic",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "shinonome_14_gothic",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "shinonome_14_mincho",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "shinonome_16_gothic",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "shinonome_16_mincho",
+      "compared": [
+        {
+          "size": 40,
+          "common": 3331,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "simsun_18030_v206_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "simsun_18030_v206_14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "simsun_18030_v206_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "simsun_native_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "simsun_native_14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "sony-g90-original",
+      "compared": [
+        {
+          "size": 40,
+          "common": 23,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "sony-g90-raw-pattern",
+      "compared": [
+        {
+          "size": 40,
+          "common": 0,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipei15",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeib20",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeib24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeik20",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeik24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeil20",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeil24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeim20",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeim24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeir20",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeir24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeis20",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeis24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4383,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "tomzbj_hzk11us",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "tumbled18",
+      "compared": [
+        {
+          "size": 40,
+          "common": 5724,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "tumbled24",
+      "compared": [
+        {
+          "size": 40,
+          "common": 5724,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "uranus_pixel_11px_14px",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "wenquanyi_song_12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "wenquanyi_song_13",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "wenquanyi_song_14",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "wenquanyi_song_15",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "wenquanyi_song_16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "xiaoya12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 4758,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "xiuzhen6x8",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "zhenggedianhei-16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "zlabs12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "zlabs_round12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "zlabs_round16",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "zlabsdiamondpix_16px_sc",
+      "compared": [
+        {
+          "size": 40,
+          "common": 809,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    },
+    {
+      "id": "zpix12",
+      "compared": [
+        {
+          "size": 40,
+          "common": 6763,
+          "whole": 0,
+          "crop": 0
+        }
+      ]
+    }
+  ],
+  "scope": "221 historical main BDFs; 211 have mapped nonempty Han. No exact same-Unicode whole/cropped matches. Unmapped slots are not evidence of difference. Historical removed sources are included where available; not all current fonts have full sources.",
+  "sampleOnlySupplement": {
+    "method": "Sample-only exact 1-bit cropped-glyph template search in existing public PNGs for same Unicode Han named in each row text. Original HP-UX pixels, no scaling or border padding. Search covers complete target PNG; a match is a contained shape, not independently segmented glyph provenance. Nonmatches cannot establish full-font novelty. Alpha>128 and mean RGB<128 define public ink; reference-only photos excluded.",
+    "currentCatalogCount": 233,
+    "publicNativeSpecimensChecked": 232,
+    "withdrawnWithImages": [],
+    "unchecked": [
+      {
+        "id": "ark10",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "batang16",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "batang24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "ccic_taipeil24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "chinasea_reference",
+        "reason": "Reference image, not native font specimen"
+      },
+      {
+        "id": "dotum16",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "dotum24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "efont_biwidth_10",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "efont_biwidth_12",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "efont_biwidth_14",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "efont_biwidth_16",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "efont_biwidth_24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "fzbase",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "fzfeng",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "gb48_2025_reference",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "gulim16",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "hanyi-pixel-invasion",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "hanyi-pixel-power",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "hbf_cch24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "hbf_uwgb_16",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "hzk_hzk32",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "knife911_5x7",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "monotype_bitmap_hk",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "sun_gb2312_song_12",
+        "reason": "No public PNG available"
+      },
+      {
+        "id": "sun_gb2312_song_14",
+        "reason": "No public PNG available"
+      },
+      {
+        "id": "sun_gb2312_song_20",
+        "reason": "No public PNG available"
+      },
+      {
+        "id": "taipeib20",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeib24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeik20",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeil20",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeim20",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeir20",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeir24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeis20",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeis24",
+        "reason": "No row metadata found"
+      }
+    ],
+    "results": [
+      {
+        "id": "apple_biaukai_12",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 154,
+        "referenceHeight": 28
+      },
+      {
+        "id": "apple_biaukai_16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 207,
+        "referenceHeight": 36
+      },
+      {
+        "id": "apple_biaukai_24",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 304,
+        "referenceHeight": 52
+      },
+      {
+        "id": "apple_biaukai_9",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 113,
+        "referenceHeight": 22
+      },
+      {
+        "id": "apple_hei_12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 189,
+        "referenceHeight": 30
+      },
+      {
+        "id": "apple_hei_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 230,
+        "referenceHeight": 36
+      },
+      {
+        "id": "apple_hei_24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 342,
+        "referenceHeight": 52
+      },
+      {
+        "id": "apple_hei_9",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 146,
+        "referenceHeight": 24
+      },
+      {
+        "id": "apple_kai_12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 193,
+        "referenceHeight": 28
+      },
+      {
+        "id": "apple_kai_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 214,
+        "referenceHeight": 36
+      },
+      {
+        "id": "apple_kai_24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 326,
+        "referenceHeight": 52
+      },
+      {
+        "id": "apple_ligothic_16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 200,
+        "referenceHeight": 36
+      },
+      {
+        "id": "apple_ligothic_24",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 288,
+        "referenceHeight": 52
+      },
+      {
+        "id": "apple_lisung_12",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 154,
+        "referenceHeight": 28
+      },
+      {
+        "id": "apple_lisung_16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 207,
+        "referenceHeight": 36
+      },
+      {
+        "id": "apple_lisung_24",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 302,
+        "referenceHeight": 52
+      },
+      {
+        "id": "apple_lisung_9",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 122,
+        "referenceHeight": 22
+      },
+      {
+        "id": "ark12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "ayu_gothic_18",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 243,
+        "referenceHeight": 40
+      },
+      {
+        "id": "ayu_gothic_20",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 270,
+        "referenceHeight": 44
+      },
+      {
+        "id": "badingshiweiti-16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "batang-native-14",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 212,
+        "referenceHeight": 34
+      },
+      {
+        "id": "batang-native-16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 242,
+        "referenceHeight": 37
+      },
+      {
+        "id": "bestten_crt_10px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 151,
+        "referenceHeight": 26
+      },
+      {
+        "id": "boutique7",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 110,
+        "referenceHeight": 20
+      },
+      {
+        "id": "boutique9",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 158,
+        "referenceHeight": 26
+      },
+      {
+        "id": "boutique9bold",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 173,
+        "referenceHeight": 26
+      },
+      {
+        "id": "casio_xda10000_12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 144,
+        "referenceHeight": 12
+      },
+      {
+        "id": "casio_xda10000_24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 288,
+        "referenceHeight": 24
+      },
+      {
+        "id": "ccdb_cccii_64",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 1836,
+        "referenceHeight": 148
+      },
+      {
+        "id": "ccic_cmex24m",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "ccic_eb5_15f",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 408,
+        "referenceHeight": 36
+      },
+      {
+        "id": "ccic_eb5_15j",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 408,
+        "referenceHeight": 34
+      },
+      {
+        "id": "ccic_eb5_24f",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "ccic_eb5_24k2",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "ccic_uwb5_16m",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 408,
+        "referenceHeight": 36
+      },
+      {
+        "id": "changbandiansong-12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "changbandiansong-16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "chill7",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 109,
+        "referenceHeight": 20
+      },
+      {
+        "id": "cns40_original",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 1056,
+        "referenceHeight": 104
+      },
+      {
+        "id": "cubic11",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 174,
+        "referenceHeight": 32
+      },
+      {
+        "id": "dec_fangsongti_gb2312_24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 648,
+        "referenceHeight": 52
+      },
+      {
+        "id": "dec_fangsongti_gb2312_34",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 918,
+        "referenceHeight": 72
+      },
+      {
+        "id": "dec_hei_big5_16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 192,
+        "referenceHeight": 16
+      },
+      {
+        "id": "dec_hei_big5_24",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 288,
+        "referenceHeight": 24
+      },
+      {
+        "id": "dec_heiti_gb2312_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 432,
+        "referenceHeight": 36
+      },
+      {
+        "id": "dec_heiti_gb2312_34",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 918,
+        "referenceHeight": 72
+      },
+      {
+        "id": "dec_kaiti_gb2312_34",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 918,
+        "referenceHeight": 72
+      },
+      {
+        "id": "dec_songti_gb2312_34",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 918,
+        "referenceHeight": 72
+      },
+      {
+        "id": "dec_sung_cns11643_24",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 288,
+        "referenceHeight": 24
+      },
+      {
+        "id": "dec_sung_cns11643_32",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 384,
+        "referenceHeight": 32
+      },
+      {
+        "id": "dinkie7",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 102,
+        "referenceHeight": 20
+      },
+      {
+        "id": "dinkie9",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 129,
+        "referenceHeight": 24
+      },
+      {
+        "id": "dotgothic16_regular_16px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "dotum-native-12",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 171,
+        "referenceHeight": 29
+      },
+      {
+        "id": "dotum-native-14",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 224,
+        "referenceHeight": 34
+      },
+      {
+        "id": "dotum-native-16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 223,
+        "referenceHeight": 37
+      },
+      {
+        "id": "elisa_8_native",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 200,
+        "referenceHeight": 20
+      },
+      {
+        "id": "eten_taipei_16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 408,
+        "referenceHeight": 36
+      },
+      {
+        "id": "eten_taipei_24",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "fashion16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "firefly_sung_11",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 141,
+        "referenceHeight": 26
+      },
+      {
+        "id": "firefly_sung_12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 144,
+        "referenceHeight": 28
+      },
+      {
+        "id": "firefly_sung_13",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 163,
+        "referenceHeight": 30
+      },
+      {
+        "id": "firefly_sung_14",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 168,
+        "referenceHeight": 32
+      },
+      {
+        "id": "firefly_sung_15",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 190,
+        "referenceHeight": 34
+      },
+      {
+        "id": "firefly_sung_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 192,
+        "referenceHeight": 36
+      },
+      {
+        "id": "flippercn_20240803_ui",
+        "size": 40,
+        "testedHan": [
+          "设",
+          "置",
+          "显",
+          "示",
+          "输",
+          "入",
+          "返",
+          "回",
+          "确",
+          "认",
+          "菜",
+          "单",
+          "蓝",
+          "牙",
+          "无",
+          "线",
+          "屏",
+          "幕",
+          "信",
+          "号",
+          "视",
+          "频",
+          "系",
+          "统"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 137,
+        "referenceHeight": 41
+      },
+      {
+        "id": "fmtowns_f20_20",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 270,
+        "referenceHeight": 42
+      },
+      {
+        "id": "founder_pixel12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "founder_pixel14",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 189,
+        "referenceHeight": 32
+      },
+      {
+        "id": "founder_pixel15",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 34
+      },
+      {
+        "id": "founder_pixel18",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 243,
+        "referenceHeight": 40
+      },
+      {
+        "id": "founder_pixel24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 324,
+        "referenceHeight": 52
+      },
+      {
+        "id": "fusion10",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 135,
+        "referenceHeight": 24
+      },
+      {
+        "id": "fusion8",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 108,
+        "referenceHeight": 20
+      },
+      {
+        "id": "fusion_bold_pixel_10px_monospaced_zh_hans",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 162,
+        "referenceHeight": 24
+      },
+      {
+        "id": "fusion_bold_pixel_12px_monospaced_zh_hans",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 189,
+        "referenceHeight": 28
+      },
+      {
+        "id": "galmuri11",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 193,
+        "referenceHeight": 32
+      },
+      {
+        "id": "galmuri14",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 238,
+        "referenceHeight": 40
+      },
+      {
+        "id": "galmuri9",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 149,
+        "referenceHeight": 26
+      },
+      {
+        "id": "gnu_unifont_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "gulim24",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 648,
+        "referenceHeight": 52
+      },
+      {
+        "id": "guobiao_song_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 408,
+        "referenceHeight": 36
+      },
+      {
+        "id": "hanyi-pixel-xingkai15",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 224,
+        "referenceHeight": 41
+      },
+      {
+        "id": "hanyi-pixel11",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 189,
+        "referenceHeight": 29
+      },
+      {
+        "id": "hanyi-pixel13",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 217,
+        "referenceHeight": 32
+      },
+      {
+        "id": "hanyi-pixel9",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 145,
+        "referenceHeight": 23
+      },
+      {
+        "id": "hbf_Beijing16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 408,
+        "referenceHeight": 36
+      },
+      {
+        "id": "hbf_cck24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "hbf_cclibf16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 408,
+        "referenceHeight": 36
+      },
+      {
+        "id": "hpux_sung_24",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 332,
+        "referenceHeight": 60
+      },
+      {
+        "id": "hpux_sung_34",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 467,
+        "referenceHeight": 80
+      },
+      {
+        "id": "hpux_sung_42",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 575,
+        "referenceHeight": 96
+      },
+      {
+        "id": "hzk_hzk12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 306,
+        "referenceHeight": 28
+      },
+      {
+        "id": "hzk_hzk14",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 357,
+        "referenceHeight": 32
+      },
+      {
+        "id": "hzk_hzk16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 408,
+        "referenceHeight": 36
+      },
+      {
+        "id": "hzk_hzk16f",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 408,
+        "referenceHeight": 36
+      },
+      {
+        "id": "hzk_hzk16s",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 408,
+        "referenceHeight": 36
+      },
+      {
+        "id": "hzk_hzk24f",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "hzk_hzk24h",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "hzk_hzk24k",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "hzk_hzk24s",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "ibm_pcdos_fangsong_24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 288,
+        "referenceHeight": 52
+      },
+      {
+        "id": "ibm_pcdos_hei_24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 288,
+        "referenceHeight": 52
+      },
+      {
+        "id": "ibm_pcdos_kai_24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 288,
+        "referenceHeight": 52
+      },
+      {
+        "id": "isas_fangsong_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 408,
+        "referenceHeight": 36
+      },
+      {
+        "id": "isas_song_24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "jf_dot_izumi16_16px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "jf_dot_izumi16b_16px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "jf_dot_jiskan16s_16px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "jf_dot_k12_12px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "jf_dot_k12b_12px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "jf_dot_k12x10_10px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 162,
+        "referenceHeight": 24
+      },
+      {
+        "id": "jf_dot_k14b_14px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 189,
+        "referenceHeight": 32
+      },
+      {
+        "id": "jf_dot_kaname12_12px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "jf_dot_milkjf16b_16px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "k6x8",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 81,
+        "referenceHeight": 20
+      },
+      {
+        "id": "k8x12_12px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 108,
+        "referenceHeight": 28
+      },
+      {
+        "id": "kappa_20_b",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 270,
+        "referenceHeight": 44
+      },
+      {
+        "id": "kappa_20_m",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 270,
+        "referenceHeight": 44
+      },
+      {
+        "id": "kh_dot_akihabara_16_16px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "kh_dot_dougenzaka_12_12px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "kh_dot_dougenzaka_16_16px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "kh_dot_hatchoubori_16_16px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "kh_dot_hibiya_24_24px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 324,
+        "referenceHeight": 52
+      },
+      {
+        "id": "kh_dot_hibiya_32_32px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 432,
+        "referenceHeight": 68
+      },
+      {
+        "id": "kh_dot_kagurazaka_12_12px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "kh_dot_kagurazaka_16_16px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "kh_dot_kodenmachou_12_12px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "kh_dot_kodenmachou_16_16px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "kh_dot_ningyouchou_16_16px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "konatu_native_12",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 180,
+        "referenceHeight": 28
+      },
+      {
+        "id": "lanapixel_11px",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 137,
+        "referenceHeight": 26
+      },
+      {
+        "id": "liorachip10x12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 168,
+        "referenceHeight": 28
+      },
+      {
+        "id": "marumonica_cn_12x16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 161,
+        "referenceHeight": 36
+      },
+      {
+        "id": "mingliu_native_11",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 135,
+        "referenceHeight": 26
+      },
+      {
+        "id": "mingliu_native_12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "mingliu_native_13",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 189,
+        "referenceHeight": 30
+      },
+      {
+        "id": "mingliu_native_15",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 189,
+        "referenceHeight": 34
+      },
+      {
+        "id": "mingliu_native_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "mingliu_native_20",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 270,
+        "referenceHeight": 44
+      },
+      {
+        "id": "misaki8",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 108,
+        "referenceHeight": 20
+      },
+      {
+        "id": "miseki8",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 108,
+        "referenceHeight": 20
+      },
+      {
+        "id": "mona10_bold_10px",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 157,
+        "referenceHeight": 26
+      },
+      {
+        "id": "mplus_bitmap_10",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 156,
+        "referenceHeight": 26
+      },
+      {
+        "id": "mplus_bitmap_12",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 185,
+        "referenceHeight": 32
+      },
+      {
+        "id": "ms-gothic-native-10",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 139,
+        "referenceHeight": 26
+      },
+      {
+        "id": "ms-gothic-native-13",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 193,
+        "referenceHeight": 31
+      },
+      {
+        "id": "ms-gothic-native-16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 220,
+        "referenceHeight": 37
+      },
+      {
+        "id": "ms-mincho-native-13",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 193,
+        "referenceHeight": 31
+      },
+      {
+        "id": "ms-mincho-native-16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 220,
+        "referenceHeight": 37
+      },
+      {
+        "id": "mstar_tv_simp_18",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 234,
+        "referenceHeight": 40
+      },
+      {
+        "id": "muzaipixel",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 127,
+        "referenceHeight": 28
+      },
+      {
+        "id": "naga10_10x10",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 135,
+        "referenceHeight": 24
+      },
+      {
+        "id": "nightgazer12b_12px",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "nightgazer13b_13px",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 186,
+        "referenceHeight": 30
+      },
+      {
+        "id": "nightgazer14b_14px",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 189,
+        "referenceHeight": 32
+      },
+      {
+        "id": "nightgazer15b_15px",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 34
+      },
+      {
+        "id": "nightgazer16b_16px",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "nisc_native_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 192,
+        "referenceHeight": 16
+      },
+      {
+        "id": "nokia_dct3_1999",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 185,
+        "referenceHeight": 32
+      },
+      {
+        "id": "osaka-native-14",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 221,
+        "referenceHeight": 34
+      },
+      {
+        "id": "osaka-native-18",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 281,
+        "referenceHeight": 42
+      },
+      {
+        "id": "osaka-native-24",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 376,
+        "referenceHeight": 54
+      },
+      {
+        "id": "osaka-native-9",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 150,
+        "referenceHeight": 25
+      },
+      {
+        "id": "palm_cjkos_fb510f",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 132,
+        "referenceHeight": 10
+      },
+      {
+        "id": "palm_cjkos_fb512f",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 156,
+        "referenceHeight": 12
+      },
+      {
+        "id": "palm_cjkos_fb512xmf",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 156,
+        "referenceHeight": 28
+      },
+      {
+        "id": "palm_cjkos_fgb10f",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 132,
+        "referenceHeight": 10
+      },
+      {
+        "id": "palm_cjkos_fgb12f",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 156,
+        "referenceHeight": 12
+      },
+      {
+        "id": "panasonic-mn1871681",
+        "size": 40,
+        "testedHan": [
+          "频",
+          "道",
+          "视"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 96,
+        "referenceHeight": 18
+      },
+      {
+        "id": "panasonic_fsuv1_16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天",
+          "永",
+          "国",
+          "字",
+          "画",
+          "面",
+          "集"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍",
+          "亜",
+          "愛",
+          "語",
+          "漢",
+          "編"
+        ],
+        "referenceWidth": 320,
+        "referenceHeight": 80
+      },
+      {
+        "id": "paw16_16x16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "pixels_han_main",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 110,
+        "referenceHeight": 24
+      },
+      {
+        "id": "pixels_han_mono",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 135,
+        "referenceHeight": 22
+      },
+      {
+        "id": "poxiaopixel_cn_12px",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "ps2_scph50009_24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 674,
+        "referenceHeight": 52
+      },
+      {
+        "id": "psa_c_screen_12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 190,
+        "referenceHeight": 33
+      },
+      {
+        "id": "psa_c_screen_14",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 247,
+        "referenceHeight": 39
+      },
+      {
+        "id": "psion618c_11",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 183,
+        "referenceHeight": 26
+      },
+      {
+        "id": "psion618c_8",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 150,
+        "referenceHeight": 20
+      },
+      {
+        "id": "qiuyeyuanti-16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "relmon_ms6459",
+        "size": 40,
+        "testedHan": [
+          "菜",
+          "单",
+          "输",
+          "入",
+          "信",
+          "号",
+          "视",
+          "道",
+          "期",
+          "五"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 156,
+        "referenceHeight": 40
+      },
+      {
+        "id": "renoufangsong-16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "samsung_r208_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 224,
+        "referenceHeight": 44
+      },
+      {
+        "id": "san5_dos_16x14",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 432,
+        "referenceHeight": 30
+      },
+      {
+        "id": "shanweizhouhei-16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "sharp_x68000_16",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 34
+      },
+      {
+        "id": "shinonome_12_gothic",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "shinonome_14_gothic",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 189,
+        "referenceHeight": 32
+      },
+      {
+        "id": "shinonome_14_mincho",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 189,
+        "referenceHeight": 32
+      },
+      {
+        "id": "shinonome_16_gothic",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "shinonome_16_mincho",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "sony-g90-original",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "频",
+          "输",
+          "入",
+          "菜",
+          "单",
+          "信",
+          "号"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 336,
+        "referenceHeight": 32
+      },
+      {
+        "id": "stone_ms2401h_style1_32",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 320,
+        "referenceHeight": 68
+      },
+      {
+        "id": "stone_ms2401h_style2_32",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 320,
+        "referenceHeight": 68
+      },
+      {
+        "id": "stone_ms2401h_style3_32",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 320,
+        "referenceHeight": 68
+      },
+      {
+        "id": "stone_ms2401h_style4_32",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 320,
+        "referenceHeight": 68
+      },
+      {
+        "id": "sun_gbk_song_12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "sun_gbk_song_14",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 189,
+        "referenceHeight": 32
+      },
+      {
+        "id": "sun_gbk_song_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "sun_gbk_song_20",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 270,
+        "referenceHeight": 44
+      },
+      {
+        "id": "sun_gbk_song_24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 324,
+        "referenceHeight": 52
+      },
+      {
+        "id": "sunplus_sphe8202l_16x16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 203,
+        "referenceHeight": 16
+      },
+      {
+        "id": "sunplus_sphe8202l_20x24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 251,
+        "referenceHeight": 24
+      },
+      {
+        "id": "taipei15",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 408,
+        "referenceHeight": 36
+      },
+      {
+        "id": "taipeik24",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "taipeil24",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "taipeim24",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 612,
+        "referenceHeight": 52
+      },
+      {
+        "id": "tomzbj_hzk11us",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 132,
+        "referenceHeight": 11
+      },
+      {
+        "id": "tumbled18",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 168,
+        "referenceHeight": 19
+      },
+      {
+        "id": "tumbled24",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 192,
+        "referenceHeight": 25
+      },
+      {
+        "id": "uranus_pixel_11px_14px",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 180,
+        "referenceHeight": 32
+      },
+      {
+        "id": "wenquanyi_song_12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 168,
+        "referenceHeight": 28
+      },
+      {
+        "id": "wenquanyi_song_13",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 190,
+        "referenceHeight": 32
+      },
+      {
+        "id": "wenquanyi_song_14",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 184,
+        "referenceHeight": 34
+      },
+      {
+        "id": "wenquanyi_song_15",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "wenquanyi_song_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 227,
+        "referenceHeight": 38
+      },
+      {
+        "id": "win32_simsun_13",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 215,
+        "referenceHeight": 30
+      },
+      {
+        "id": "win32_simsun_20",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 296,
+        "referenceHeight": 44
+      },
+      {
+        "id": "wqx_nc1020_12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 144,
+        "referenceHeight": 12
+      },
+      {
+        "id": "wqx_pc505_14x15",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "xiaoya12",
+        "size": 40,
+        "testedHan": [
+          "野",
+          "限",
+          "窗",
+          "外",
+          "有",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "xiuzhen6x8",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 81,
+        "referenceHeight": 20
+      },
+      {
+        "id": "yh_1999_16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [
+          "視",
+          "無",
+          "廣",
+          "藍"
+        ],
+        "referenceWidth": 216,
+        "referenceHeight": 56
+      },
+      {
+        "id": "zhenggedianhei-16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "zlabs12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "zlabs_round12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 162,
+        "referenceHeight": 28
+      },
+      {
+        "id": "zlabs_round16",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "zlabsdiamondpix_16px_sc",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 216,
+        "referenceHeight": 36
+      },
+      {
+        "id": "zpix12",
+        "size": 40,
+        "testedHan": [
+          "视",
+          "野",
+          "无",
+          "限",
+          "广",
+          "窗",
+          "外",
+          "有",
+          "蓝",
+          "天"
+        ],
+        "matchedHan": [],
+        "unavailableHan": [],
+        "referenceWidth": 171,
+        "referenceHeight": 28
+      }
+    ]
+  },
+  "fullSourceGapNote": "The previous 45-source gap and mapping limitations remain; sample-only search does not fill it."
+}

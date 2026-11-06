@@ -2,7 +2,7 @@
 from pathlib import Path
 import hashlib,json,struct
 R=Path(__file__).resolve().parents[1]
-rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ['hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24']];m=json.loads((R/'data/release-windows32.json').read_text())
+rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ['hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24']];m=json.loads((R/'data/release-windows32.json').read_text())
 by={r['id']:r for r in rows};ids=['win32_simsun_13','win32_simsun_20']
 def digest(v):return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
 base=[r for r in rows if r['id'] in m['baseIds']];new=[r for r in rows if r['id'] in ids]
@@ -29,10 +29,10 @@ for row,n in zip(new,[13,20]):
  assert row['sourceUrl']=='https://archive.org/details/microsoft-windows-3.2-simpl-chinese-3.5'
  assert not any('/download/' in x['url'] for x in row['acquisitionGuide']['links'])
 h=json.loads((R/'data/collection-history.json').read_text());assert next(b for b in h['batches'] if b['sourceManifest']=='release-windows32.json')=={'sourceManifest':'release-windows32.json','ids':ids}
-s=json.loads((R/'data/summary.json').read_text());assert s['rows']==233 and s['nativePngCount']==232
+s=json.loads((R/'data/summary.json').read_text());assert s['rows']==234 and s['nativePngCount']==233
 for key in ['standardAsciiComplete','ordinaryAsciiRows']:assert s[key]==m['previousSummary'][key]+7
 assert s['partialAscii']==m['previousSummary']['partialAscii']
-assert s['ordinaryWithoutAsciiEvaluation']==m['previousSummary']['ordinaryWithoutAsciiEvaluation']+2
+assert s['ordinaryWithoutAsciiEvaluation']==m['previousSummary']['ordinaryWithoutAsciiEvaluation']+3
 curation=json.loads((R/'data/curation.json').read_text());assert not set(curation['removedIds']).intersection(by)
 assert all(i not in by for i in ['win32_simsun_16','win32_simsun_24','nokia_dct3_2002','nokia3350_2002'])
 assert s['fontFilesIncluded']==0 and s['glyphDataIncluded'] is False

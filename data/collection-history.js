@@ -177,6 +177,12 @@ window.FONT_COLLECTION_HISTORY = {
         "hpux_sung_34",
         "hpux_sung_42"
       ]
+    },
+    {
+      "sourceManifest": "release-hpux-song.json",
+      "ids": [
+        "hpux_song_40"
+      ]
     }
   ]
 };

@@ -1,0 +1,11 @@
+{
+  "path": "/Asian-PRINTER/PRNTR-SCH-RUN/usr/lib/asx/fonts/chinese-s/song40h.pcf",
+  "offset": 50327552,
+  "size": 825942,
+  "storedSha256": "101e2faea8fa51ec6c55586c42452447707536751afcd9401b16ed64536569e2",
+  "pcfSha256": "b1058e2c6b8e16fc605d1853adbd86f879dd7facf3f95ecb7ab044de52f570bf",
+  "sourceUrl": "https://archive.org/details/hp-ux-11i-version-1-mission-critical-operating-environment-sept-2005",
+  "disc": "B7994-10044 (CD1)",
+  "mediaDate": "2005-09",
+  "storage": "gzip-wrapped PCF"
+}
