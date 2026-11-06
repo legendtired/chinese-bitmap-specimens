@@ -1,0 +1,7598 @@
+{
+  "method": "All available Unicode-mapped nonblank Han in 221 private BDFs compared at same Unicode against all three HP-UX sources. Exact stored rectangle and exact whitespace-trimmed bitmap; no scaling or padding. Unmapped glyph shape-set matches are a separate non-semantic diagnostic, not Unicode comparisons.",
+  "sourceArchiveSha256": "2ffb0377c50158e015ca893c1190dd4458a9bf4a91653ccbd283594925badbdf",
+  "hpuxNonblankHan": {
+    "24": 13064,
+    "34": 13064,
+    "42": 13064
+  },
+  "referenceFiles": 221,
+  "referencesWithMappedHan": 211,
+  "currentCatalogCount": 230,
+  "currentPresent": [
+    "apple_biaukai_12",
+    "apple_biaukai_16",
+    "apple_biaukai_24",
+    "apple_biaukai_9",
+    "apple_hei_12",
+    "apple_hei_16",
+    "apple_hei_24",
+    "apple_hei_9",
+    "apple_kai_12",
+    "apple_kai_16",
+    "apple_kai_24",
+    "apple_ligothic_16",
+    "apple_ligothic_24",
+    "apple_lisung_12",
+    "apple_lisung_16",
+    "apple_lisung_24",
+    "apple_lisung_9",
+    "ark12",
+    "ayu_gothic_18",
+    "ayu_gothic_20",
+    "badingshiweiti-16",
+    "batang-native-14",
+    "batang-native-16",
+    "bestten_crt_10px",
+    "boutique7",
+    "boutique9",
+    "boutique9bold",
+    "ccic_cmex24m",
+    "ccic_eb5_15f",
+    "ccic_eb5_15j",
+    "ccic_eb5_24f",
+    "ccic_eb5_24k2",
+    "ccic_uwb5_16m",
+    "changbandiansong-12",
+    "changbandiansong-16",
+    "chill7",
+    "cns40_original",
+    "cubic11",
+    "dec_fangsongti_gb2312_24",
+    "dec_fangsongti_gb2312_34",
+    "dec_hei_big5_16",
+    "dec_hei_big5_24",
+    "dec_heiti_gb2312_16",
+    "dec_heiti_gb2312_34",
+    "dec_kaiti_gb2312_34",
+    "dec_songti_gb2312_34",
+    "dec_sung_cns11643_24",
+    "dec_sung_cns11643_32",
+    "dinkie9",
+    "dotgothic16_regular_16px",
+    "dotum-native-12",
+    "dotum-native-14",
+    "dotum-native-16",
+    "eten_taipei_16",
+    "eten_taipei_24",
+    "fashion16",
+    "firefly_sung_11",
+    "firefly_sung_12",
+    "firefly_sung_13",
+    "firefly_sung_14",
+    "firefly_sung_15",
+    "firefly_sung_16",
+    "flippercn_20240803_ui",
+    "founder_pixel12",
+    "founder_pixel14",
+    "founder_pixel15",
+    "founder_pixel18",
+    "founder_pixel24",
+    "fusion10",
+    "fusion8",
+    "fusion_bold_pixel_10px_monospaced_zh_hans",
+    "fusion_bold_pixel_12px_monospaced_zh_hans",
+    "galmuri11",
+    "galmuri14",
+    "galmuri9",
+    "gnu_unifont_16",
+    "gulim24",
+    "guobiao_song_16",
+    "hanyi-pixel-xingkai15",
+    "hanyi-pixel11",
+    "hanyi-pixel13",
+    "hanyi-pixel9",
+    "hbf_Beijing16",
+    "hbf_cck24",
+    "hbf_cclibf16",
+    "hzk_hzk12",
+    "hzk_hzk14",
+    "hzk_hzk16",
+    "hzk_hzk16f",
+    "hzk_hzk16s",
+    "hzk_hzk24f",
+    "hzk_hzk24h",
+    "hzk_hzk24k",
+    "hzk_hzk24s",
+    "isas_fangsong_16",
+    "isas_song_24",
+    "jf_dot_izumi16_16px",
+    "jf_dot_izumi16b_16px",
+    "jf_dot_jiskan16s_16px",
+    "jf_dot_k12_12px",
+    "jf_dot_k12b_12px",
+    "jf_dot_k12x10_10px",
+    "jf_dot_k14b_14px",
+    "jf_dot_kaname12_12px",
+    "jf_dot_milkjf16b_16px",
+    "k6x8",
+    "k8x12_12px",
+    "kappa_20_b",
+    "kappa_20_m",
+    "kh_dot_akihabara_16_16px",
+    "kh_dot_dougenzaka_12_12px",
+    "kh_dot_dougenzaka_16_16px",
+    "kh_dot_hatchoubori_16_16px",
+    "kh_dot_hibiya_24_24px",
+    "kh_dot_hibiya_32_32px",
+    "kh_dot_kagurazaka_12_12px",
+    "kh_dot_kagurazaka_16_16px",
+    "kh_dot_kodenmachou_12_12px",
+    "kh_dot_kodenmachou_16_16px",
+    "kh_dot_ningyouchou_16_16px",
+    "konatu_native_12",
+    "lanapixel_11px",
+    "liorachip10x12",
+    "mingliu_native_11",
+    "mingliu_native_12",
+    "mingliu_native_13",
+    "mingliu_native_15",
+    "mingliu_native_16",
+    "mingliu_native_20",
+    "misaki8",
+    "miseki8",
+    "mona10_bold_10px",
+    "mplus_bitmap_10",
+    "mplus_bitmap_12",
+    "muzaipixel",
+    "naga10_10x10",
+    "nightgazer12b_12px",
+    "nightgazer13b_13px",
+    "nightgazer14b_14px",
+    "nightgazer15b_15px",
+    "nightgazer16b_16px",
+    "nisc_native_16",
+    "osaka-native-14",
+    "osaka-native-18",
+    "osaka-native-24",
+    "osaka-native-9",
+    "palm_cjkos_fb510f",
+    "palm_cjkos_fb512f",
+    "palm_cjkos_fgb10f",
+    "palm_cjkos_fgb12f",
+    "panasonic-mn1871681",
+    "paw16_16x16",
+    "poxiaopixel_cn_12px",
+    "psa_c_screen_12",
+    "psa_c_screen_14",
+    "qiuyeyuanti-16",
+    "renoufangsong-16",
+    "shanweizhouhei-16",
+    "shinonome_12_gothic",
+    "shinonome_14_gothic",
+    "shinonome_14_mincho",
+    "shinonome_16_gothic",
+    "shinonome_16_mincho",
+    "sony-g90-original",
+    "taipei15",
+    "taipeik24",
+    "taipeil24",
+    "taipeim24",
+    "tomzbj_hzk11us",
+    "tumbled18",
+    "tumbled24",
+    "uranus_pixel_11px_14px",
+    "wenquanyi_song_12",
+    "wenquanyi_song_13",
+    "wenquanyi_song_14",
+    "wenquanyi_song_15",
+    "wenquanyi_song_16",
+    "xiaoya12",
+    "xiuzhen6x8",
+    "zhenggedianhei-16",
+    "zlabs12",
+    "zlabs_round12",
+    "zlabs_round16",
+    "zlabsdiamondpix_16px_sc",
+    "zpix12"
+  ],
+  "currentAbsent": [
+    "casio_xda10000_12",
+    "casio_xda10000_24",
+    "ccdb_cccii_64",
+    "chinasea_reference",
+    "dinkie7",
+    "elisa_8_native",
+    "fmtowns_f20_20",
+    "ibm_pcdos_fangsong_24",
+    "ibm_pcdos_hei_24",
+    "ibm_pcdos_kai_24",
+    "marumonica_cn_12x16",
+    "ms-gothic-native-10",
+    "ms-gothic-native-13",
+    "ms-gothic-native-16",
+    "ms-mincho-native-13",
+    "ms-mincho-native-16",
+    "mstar_tv_simp_18",
+    "nokia_dct3_1999",
+    "palm_cjkos_fb512xmf",
+    "panasonic_fsuv1_16",
+    "pixels_han_main",
+    "pixels_han_mono",
+    "ps2_scph50009_24",
+    "psion618c_11",
+    "psion618c_8",
+    "relmon_ms6459",
+    "samsung_r208_16",
+    "san5_dos_16x14",
+    "sharp_x68000_16",
+    "stone_ms2401h_style1_32",
+    "stone_ms2401h_style2_32",
+    "stone_ms2401h_style3_32",
+    "stone_ms2401h_style4_32",
+    "sun_gbk_song_12",
+    "sun_gbk_song_14",
+    "sun_gbk_song_16",
+    "sun_gbk_song_20",
+    "sun_gbk_song_24",
+    "sunplus_sphe8202l_16x16",
+    "sunplus_sphe8202l_20x24",
+    "win32_simsun_13",
+    "win32_simsun_20",
+    "wqx_nc1020_12",
+    "wqx_pc505_14x15",
+    "yh_1999_16"
+  ],
+  "currentPresentButNoMappedHan": [
+    "ccic_eb5_15j",
+    "dec_sung_cns11643_24",
+    "dec_sung_cns11643_32",
+    "hbf_cclibf16",
+    "hzk_hzk16f"
+  ],
+  "withdrawnPresent": [
+    "ark10",
+    "batang16",
+    "batang24",
+    "ccic_taipeil24",
+    "dotum16",
+    "dotum24",
+    "efont_biwidth_10",
+    "efont_biwidth_12",
+    "efont_biwidth_14",
+    "efont_biwidth_16",
+    "efont_biwidth_24",
+    "gulim16",
+    "hbf_cch24",
+    "hbf_uwgb_16",
+    "hzk_hzk32",
+    "taipeib20",
+    "taipeib24",
+    "taipeik20",
+    "taipeil20",
+    "taipeim20",
+    "taipeir20",
+    "taipeir24",
+    "taipeis20",
+    "taipeis24"
+  ],
+  "withdrawnAbsent": [
+    "fzbase",
+    "fzfeng",
+    "gb48_2025_reference",
+    "hanyi-pixel-invasion",
+    "hanyi-pixel-power",
+    "knife911_5x7",
+    "monotype_bitmap_hk",
+    "sun_gb2312_song_12",
+    "sun_gb2312_song_14",
+    "sun_gb2312_song_20"
+  ],
+  "results": [
+    {
+      "id": "apple_biaukai_12",
+      "bdfSha256": "dd81a92f7de2d8fd00d84a94800b9801caab8e7225032338c80b9dbaf3553ce0",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 38,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_biaukai_16",
+      "bdfSha256": "2bf1140d5d478db5588edea2201bc630894db88705c84cd765903ac9a439b0fa",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 38,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_biaukai_24",
+      "bdfSha256": "afee5e74ed7e4e7b49ad5fef1ca37e9f3dee7c9093290d25749ec91b3b000189",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 38,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_biaukai_9",
+      "bdfSha256": "647aa30588ebaa8c74652010e94e50ad2e24d20671909658807daca472203829",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 38,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_hei_12",
+      "bdfSha256": "5c7415fc8c7d1dfbb35175ba87a68a67c9efe641fb33abf9e5d507ef2a60d9ea",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 137,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_hei_16",
+      "bdfSha256": "8d1d614f20ad4a20b3f78006c1ac8fa50fe57420d7e0f675c6b8e97150b72b41",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 137,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_hei_24",
+      "bdfSha256": "5b0b375ff1cebe45b3288792e62c053ce64071ac640ca9cd1b7e451e4824a60f",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 137,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_hei_9",
+      "bdfSha256": "17ef0d2530ea0ffd149fc31e27f5153799fe0255a45166c93ea64ae4911f9ff7",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 137,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_kai_12",
+      "bdfSha256": "741d4088d80812971e0bb732d8d3f24b6d02818478516e040ee178af4c4c1195",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 137,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_kai_16",
+      "bdfSha256": "77ea7489cded9d5eb00513861ef9e5ad621f0fca24d85e34a3229e6b84ee7886",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 137,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_kai_24",
+      "bdfSha256": "45a7fa059edae3fb0193706fcdfcf8727137d21b4cd1ad89db3323793e901525",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 137,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_ligothic_16",
+      "bdfSha256": "5e8de6b7557ba8d1c4f3d6c3e518a6fd3a8997c3eff94b0c6a74034a1e26d35f",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 39,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_ligothic_24",
+      "bdfSha256": "6cf10352e0c9254a6ed6b2aef0560114ac5238a5b3a0ddf26b60a60a44e43bcf",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 39,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_lisung_12",
+      "bdfSha256": "a973f31380a4db9003f53ef12568e03a4f2e5a2d1bda7336793959f5c8201e69",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 37,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_lisung_16",
+      "bdfSha256": "d25b9244edbf6dffa379ae19a23e090400d60b656f6af2ecb648c52e0cd5cf1d",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 36,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_lisung_24",
+      "bdfSha256": "366d8812125d6bc3027c3aef27a8dc2a34037dffa01fd221025742afc00cbf10",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 36,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "apple_lisung_9",
+      "bdfSha256": "ef20a96aa44084f7e1da2869b2a3391ea94222f7caba5f8fd04afcd660d901c8",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 37,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "ark10",
+      "bdfSha256": "823249ff522195a3ac0b1de8df90b16d0edc6c5d02e123f87744721bbe94347d",
+      "mappedNonblankHan": 1085,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 700,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 700,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 700,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "ark12",
+      "bdfSha256": "fb9c067c00f17a28b10f2d1bcef2a93abef07801d2bcd92c02d723a28fdb5997",
+      "mappedNonblankHan": 20094,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 11524,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 11524,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 11524,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "ayu_gothic_18",
+      "bdfSha256": "4834a362007aee62826a0e83f4854be3acc6f60618abaf18e5462eb253c3ab98",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "ayu_gothic_20",
+      "bdfSha256": "a14142316aebf76876e15af6cc45b6a1cadc619ad85c14721789a615b5cca4e8",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "badingshiweiti-16",
+      "bdfSha256": "a52ed539a3ef00490335a350b3213c608f4e181b8ae1d6bdd7df64cac1be2cb4",
+      "mappedNonblankHan": 11543,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7790,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7790,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7790,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "batang-native-14",
+      "bdfSha256": "93fd7cb57e824267f1340f4ab750d9a4c88b93bc2358fcb8c1be43e225488720",
+      "mappedNonblankHan": 7476,
+      "unmappedNonblankGlyphs": 17793,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "batang-native-16",
+      "bdfSha256": "2ed558b1a4c4e5fd4bc3cd3ca0b207205537318881e1f902a2ce7dc4764bd4c2",
+      "mappedNonblankHan": 7476,
+      "unmappedNonblankGlyphs": 17905,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "batang16",
+      "bdfSha256": "7c93d7992e607f543a08edfee9f66cc2f11100808459fdedb23831a144474cb0",
+      "mappedNonblankHan": 4620,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "batang24",
+      "bdfSha256": "16382ceff21922c32a5a9532892d9f7e78219bedef71ba56403665b984d95135",
+      "mappedNonblankHan": 4620,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "bestten_crt_10px",
+      "bdfSha256": "9c707d5c253dd0aff275dbfd35f44c266082ebdf08828a283870d2912df1980a",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "boutique7",
+      "bdfSha256": "df2505b090ed9d5d8ebf90809d7d906c5098688fe9ffdc494be5ca8eb3e234ee",
+      "mappedNonblankHan": 8652,
+      "unmappedNonblankGlyphs": 3,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7227,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7227,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7227,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "boutique9",
+      "bdfSha256": "6c1230cb5f824481c58d573561f245e721b859654c233c0c47969d7bdf1ab1a4",
+      "mappedNonblankHan": 10607,
+      "unmappedNonblankGlyphs": 51,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7550,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7550,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7550,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "boutique9bold",
+      "bdfSha256": "3127ca4b1ea7343476510b526522b1f0e06b8d4045f51f1b54cac650d358d7bd",
+      "mappedNonblankHan": 10607,
+      "unmappedNonblankGlyphs": 51,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7550,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7550,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7550,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_chkan_24",
+      "bdfSha256": "613254c097fc22017f678b9e71a91140e48d91a63749a5897d98310836ab454c",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 1,
+          "croppedRate": 0.00022805017103762827,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_cmex24m",
+      "bdfSha256": "cec8d59a49a95342f246d9fffb4a8ccdbf7c9de67d51a4ee6437a13ed5f06929",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 7876,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_eb5_15f",
+      "bdfSha256": "546d9444dc6d823ccc5ebdb67a183e78f043dd502ea58fec020c5b50be852d88",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 161,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_eb5_15j",
+      "bdfSha256": "180bd3290767b5d86696802879bdbcb8d94f999495fef56359c7e2b9a8954b48",
+      "mappedNonblankHan": 0,
+      "unmappedNonblankGlyphs": 13865,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_eb5_24f",
+      "bdfSha256": "0eee4596a4d2bd34faca48d7f5c889ed2814ed29439bf07694fe87fb80f29a2e",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 161,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 15,
+          "croppedEqual": 16,
+          "croppedRate": 0.001225114854517611,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_eb5_24k2",
+      "bdfSha256": "347f35f7741e2a3909366bed9f3496e88e8c84683fd9bfe3ca8e08b02887c343",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 161,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 1,
+          "croppedEqual": 1,
+          "croppedRate": 7.656967840735069e-05,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_taipeil24",
+      "bdfSha256": "5f524604d982a76451709f60c0cab0aace21d17e376934d78af613f6b42e11f9",
+      "mappedNonblankHan": 0,
+      "unmappedNonblankGlyphs": 13501,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 1
+        },
+        {
+          "size": 34,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "ccic_uwb5_16m",
+      "bdfSha256": "cafe56c039c927a1a09c5c177bf50b7426887b0932cc75dd670d6e57d56fea48",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 161,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "changbandiansong-12",
+      "bdfSha256": "e0d0968236313c6c83ee5b415834e957a8d588a57e5f0ee0a5b755463242d104",
+      "mappedNonblankHan": 13161,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 8585,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 8585,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 8585,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "changbandiansong-16",
+      "bdfSha256": "507fa5d05cb3d93f370e1fbb2961a3f2d0c449c8e758ab3be423d670de81d74d",
+      "mappedNonblankHan": 13272,
+      "unmappedNonblankGlyphs": 36,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 8717,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 8717,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 8717,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "chill7",
+      "bdfSha256": "e51e71e1748fe518394eb7d3079ee310ea0e9af14d460a2a1625ea84436198ed",
+      "mappedNonblankHan": 11783,
+      "unmappedNonblankGlyphs": 178,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7858,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7858,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7858,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "cns40_original",
+      "bdfSha256": "d8f3bd2996df2ca3ff7a0cd69a368d897ec0b273b410584deb1aeb1391656607",
+      "mappedNonblankHan": 5414,
+      "unmappedNonblankGlyphs": 218,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5414,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5414,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5414,
+          "wholeEqual": 0,
+          "croppedEqual": 72,
+          "croppedRate": 0.013298854820834873,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "cubic11",
+      "bdfSha256": "e1b7129316324295b0b0ec5af98ac085f13d752aee8cdbf1b192a7690be729d0",
+      "mappedNonblankHan": 9201,
+      "unmappedNonblankGlyphs": 96,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 6816,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 6816,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 6816,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_fangsongti_gb2312_24",
+      "bdfSha256": "d8a00601e2218cce2e1f67d69a580d3387fbee3fc72b15c8d743d079cf73fad4",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_fangsongti_gb2312_34",
+      "bdfSha256": "6e83e4ee7b92a75fa51e5a4e7a2de5528fd72bb8cc1b7f4d26436468b363171e",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_hei_big5_16",
+      "bdfSha256": "93917179146cfda9a50415ca2988fce97ee039de5176fec2c128b94dccbfcae1",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 4,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_hei_big5_24",
+      "bdfSha256": "04c09dcab9a6d96da698b84ad689826a6039086a4b95efcfefbeda122b82c2d8",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 4,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_heiti_gb2312_16",
+      "bdfSha256": "932d481f690bee813ee5ff73ef0143bf6bc7ffe27ac4d1d4a41a336cba66eb10",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 2,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_heiti_gb2312_34",
+      "bdfSha256": "0c5b06a86e9b5b98b368d2cdba9a0b7e55accb4cc170e7e5a7d7ae3d533f840b",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_kaiti_gb2312_34",
+      "bdfSha256": "ad0b9b786335f150d7d1b5172454294e275b91c86a4ca4b68096cb6977ba4b24",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_songti_gb2312_34",
+      "bdfSha256": "443d191e05e5dcf0f843e4f57ce43b0f2a4570f800ef031e68289d7faf333f34",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_sung_cns11643_24",
+      "bdfSha256": "d438248822424839f512863dd8db54213c843863b9560f0acfaababb48310e44",
+      "mappedNonblankHan": 0,
+      "unmappedNonblankGlyphs": 13734,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 1
+        },
+        {
+          "size": 34,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dec_sung_cns11643_32",
+      "bdfSha256": "8e232ec1f188b5f188bf953f2d6e791c85accc7b1b11fd0e345f724463408d42",
+      "mappedNonblankHan": 0,
+      "unmappedNonblankGlyphs": 13734,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dinkie9",
+      "bdfSha256": "e01ffb8c9c1b3625e07d1d32f17d0f44dd1bb89e205d5bbad8d5a9eaa9df9359",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 80,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dotgothic16_regular_16px",
+      "bdfSha256": "453537d5ecb30bb8f14a0e1a2eebc84a9fd50127b725880b0181e9acc6ce3871",
+      "mappedNonblankHan": 6715,
+      "unmappedNonblankGlyphs": 1383,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5559,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5559,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5559,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dotum-native-12",
+      "bdfSha256": "f68bf49c4ad58d20653538ec314a2c0e52c3821f37e6b0770961c06900460621",
+      "mappedNonblankHan": 7476,
+      "unmappedNonblankGlyphs": 18202,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dotum-native-14",
+      "bdfSha256": "10a9b93f88d1fd41e73dcfdf2431803d1f37d36e39675ef05a19fd0368e3bdbe",
+      "mappedNonblankHan": 7476,
+      "unmappedNonblankGlyphs": 18125,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dotum-native-16",
+      "bdfSha256": "669dbe2ad07a0400e0406d69f88dddf875e6cd752b86f1ce7cc232d9443eabf5",
+      "mappedNonblankHan": 7476,
+      "unmappedNonblankGlyphs": 17916,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 6746,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dotum16",
+      "bdfSha256": "d6dc0ebf58151de4d8fa25b2609113366f1dfcc5a7ffbb14b6175d5e1037c921",
+      "mappedNonblankHan": 4620,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "dotum24",
+      "bdfSha256": "2b6023eb53f426960a77b7a05e1a4324b91e840586b0054e4de8510d6ad03bc7",
+      "mappedNonblankHan": 4620,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "efont_biwidth_10",
+      "bdfSha256": "5547a07767dd1cc79aedc0a6b14af3c16bedc1fe0f8a403a68e3c3d9d2e91f1a",
+      "mappedNonblankHan": 17292,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "efont_biwidth_12",
+      "bdfSha256": "ce1e60732ea16e34e5d625b7d6ef45a1ad9bd18a3a1cdcbeaef790c88ec24599",
+      "mappedNonblankHan": 17292,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "efont_biwidth_14",
+      "bdfSha256": "1d9944448fd8abad8bc15cb1e82d04b3de946baf911a23764ccd79bfdd9153b5",
+      "mappedNonblankHan": 17292,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "efont_biwidth_16",
+      "bdfSha256": "378ed0e912c98337e304e389d04b0f6ce2ebe2bf53b1ca46e330bf318846955f",
+      "mappedNonblankHan": 17292,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "efont_biwidth_24",
+      "bdfSha256": "d18f5c3713b744bbe33267cf0a938ed3155523261c2d17b3f824147079053cbf",
+      "mappedNonblankHan": 16411,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 9,
+          "croppedEqual": 9,
+          "croppedRate": 0.0006889688432978642,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "eten_taipei_16",
+      "bdfSha256": "cafe56c039c927a1a09c5c177bf50b7426887b0932cc75dd670d6e57d56fea48",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 161,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "eten_taipei_24",
+      "bdfSha256": "0eee4596a4d2bd34faca48d7f5c889ed2814ed29439bf07694fe87fb80f29a2e",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 161,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 15,
+          "croppedEqual": 16,
+          "croppedRate": 0.001225114854517611,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "fashion16",
+      "bdfSha256": "e29d34a475347b72eba9a87a913f555f177896c41916b6c0dd4625debf3f29bc",
+      "mappedNonblankHan": 7552,
+      "unmappedNonblankGlyphs": 392,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 6325,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 6325,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 6325,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "firefly_sung_11",
+      "bdfSha256": "e26e654cd34de1d5155f3bf66107a4375b984b52c809bc83fa489ecdd43c006f",
+      "mappedNonblankHan": 15464,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "firefly_sung_12",
+      "bdfSha256": "64b3f81508e4c1636c6e8f435fc9c2f32492a30c2d8726a45be5b2e2ee5bf7b5",
+      "mappedNonblankHan": 15464,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "firefly_sung_13",
+      "bdfSha256": "d8c11e1df00d01b2455b6964657a84e3dc74deba67b038117c30140eb3effbd2",
+      "mappedNonblankHan": 15464,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "firefly_sung_14",
+      "bdfSha256": "4aeb4eef789ff1ee922cd3dc2c9218931249aa2bee742afff5b320d38d478e39",
+      "mappedNonblankHan": 15464,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "firefly_sung_15",
+      "bdfSha256": "3dd7da91fed88d208038fe4d49aa026c1f0b6acc8e322cf6679a7054ff47ad91",
+      "mappedNonblankHan": 15464,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "firefly_sung_16",
+      "bdfSha256": "6f1d68f48a4538a5a672ab72d48ae023c75f940feb5042facb4b1719ba871c94",
+      "mappedNonblankHan": 15464,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "flippercn_20240803_ui",
+      "bdfSha256": "f502d67e846f3e06303fc700cf6ddb8cb0c0f879e1311749fee434942133632e",
+      "mappedNonblankHan": 503,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 323,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 323,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 323,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "founder_pixel12",
+      "bdfSha256": "0027e044878670c8c108c711f2d2dbae0547c831fcda1c815d218c26b4b0a4d5",
+      "mappedNonblankHan": 15,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "founder_pixel14",
+      "bdfSha256": "f1af49b4a1cdf77ae9c7fc8b333a65375addbf43ca4daf983402754d0e5c19df",
+      "mappedNonblankHan": 15,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "founder_pixel15",
+      "bdfSha256": "04e0b20b0d7e09552f3a970fdb3c18e610014b3048b8723db007da00eeb46b68",
+      "mappedNonblankHan": 15,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "founder_pixel18",
+      "bdfSha256": "8723c26467a9ffaf5780502b2aaacaa90353657dc3ae78b0315cf56eedffcc13",
+      "mappedNonblankHan": 15,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "founder_pixel24",
+      "bdfSha256": "a97ee7843796092720653ee4d12dfbe603f7cafe9362a95d9c588cae783e21a5",
+      "mappedNonblankHan": 15,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 9,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "fusion10",
+      "bdfSha256": "2fd709e1289e9c084feff4395a1a11226a8e09f5b7b150792014ae6f8c1eb5e1",
+      "mappedNonblankHan": 10697,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7579,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7579,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7579,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "fusion12",
+      "bdfSha256": "98567d868680cabc884bf42a1e80e7f31d7ae17f1d21c90f70039c1d2737bc06",
+      "mappedNonblankHan": 20943,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 12154,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 12154,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 12154,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "fusion8",
+      "bdfSha256": "cc7b60141cf9282854931a9d235608391b825d6b0a66eae4a7c70022e52a73c9",
+      "mappedNonblankHan": 14720,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 10215,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 10215,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 10215,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "fusion_bold_pixel_10px_monospaced_zh_hans",
+      "bdfSha256": "212467a8d6e7faf076be9846e61543429c5817c8f8b92599bae86325965b9271",
+      "mappedNonblankHan": 10570,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7551,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7551,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7551,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "fusion_bold_pixel_12px_monospaced_zh_hans",
+      "bdfSha256": "eaca0c1a4eac894651b6a83ff0721d6ba504904ba6b49813ccf9542dc0ae4efd",
+      "mappedNonblankHan": 20694,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 12102,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 12102,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 12102,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "galmuri11",
+      "bdfSha256": "caddd8e8144042236bab0d859e6008ceccd3ac120fbba70419f195cc842d964f",
+      "mappedNonblankHan": 6477,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5417,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5417,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5417,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "galmuri14",
+      "bdfSha256": "73feb9ef78bb0bf7f7aa9241d2db922a787b19ffd8f6be256729fb3bdb30a7d8",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "galmuri9",
+      "bdfSha256": "e1cd0812b971d595017e4737ff177e6724902a6131df450b2b0d2b3f6fcac3b9",
+      "mappedNonblankHan": 6375,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5336,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5336,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5336,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "gnu_unifont_16",
+      "bdfSha256": "7461658402c3e30e5682739d0a82022286650f5b7276e569c174dd25c60a58c4",
+      "mappedNonblankHan": 27648,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "gulim16",
+      "bdfSha256": "f659210c220614519b7abf5c034bbd5da1083272ac0c92d8762fa70259a11091",
+      "mappedNonblankHan": 4620,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "gulim24",
+      "bdfSha256": "efcde6f572598ad7921b4c97c7a1ef8771a49acca777427f18025163c17de7db",
+      "mappedNonblankHan": 4620,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4348,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "guobiao_song_16",
+      "bdfSha256": "36eb4bcab399fc2b8eae58b075399b73a1ba979a9756fa8716a2d34bf804c397",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 998,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hanyi-pixel-xingkai15",
+      "bdfSha256": "9305354a60e87b2f460ad3de88655a7f9587593cf922731125f097244776f9c2",
+      "mappedNonblankHan": 9765,
+      "unmappedNonblankGlyphs": 40,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7070,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7070,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7070,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hanyi-pixel11",
+      "bdfSha256": "47a914813e5f6d928db5cfc52835583f505ce395adc2db8723b350adba57222b",
+      "mappedNonblankHan": 9765,
+      "unmappedNonblankGlyphs": 2,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7070,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7070,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7070,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hanyi-pixel13",
+      "bdfSha256": "d6d66faa1795eecf2da6a8b36aefa804c2c32b0ad4539a62a3c6fbc6f3125d9a",
+      "mappedNonblankHan": 9765,
+      "unmappedNonblankGlyphs": 38,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7070,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7070,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7070,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hanyi-pixel9",
+      "bdfSha256": "5c7b77b0df345bf2f16e0aabcfb37b104ec5d351285c44394ffc9b5f64d21c36",
+      "mappedNonblankHan": 9765,
+      "unmappedNonblankGlyphs": 22,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7070,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7070,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7070,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hbf_Beijing16",
+      "bdfSha256": "b23cdcb9ac8f7d33893cedb0b93098a860b3077d0feb531debd9409014b48346",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 12,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hbf_cch24",
+      "bdfSha256": "8951424245ec69e2a503f8c7442529de3768ffb2b48f2e8492597a22318325b4",
+      "mappedNonblankHan": 6762,
+      "unmappedNonblankGlyphs": 57,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4384,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4384,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4384,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hbf_cck24",
+      "bdfSha256": "356f02e75367205b0df6f2d9200450b3b04e7a0bbce0e7b7cd7295eb7c130025",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 62,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hbf_cclibf16",
+      "bdfSha256": "e145f8a3ac46fbc642c484fa79cbb27efcc3c6328d8e38e1cc3340080c23e59d",
+      "mappedNonblankHan": 0,
+      "unmappedNonblankGlyphs": 7498,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hbf_uwgb_16",
+      "bdfSha256": "d02eb9be10f56b0cb39cbd3ee5eb2e678b0e51919774bd64c4ccb83eb002375f",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk12",
+      "bdfSha256": "09e605a454e8745155a766db42460c229f984096e1a66293a0bca4c3e2929dd8",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 36,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk14",
+      "bdfSha256": "72e925598335e54e1eb0a7de215b25266d68cae2f00509520798534aa099053c",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 314,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk16",
+      "bdfSha256": "0c7e71395e2c51d2fc5100e4445769fa45dfc36198d48406d6ac3e60d707d2e1",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 591,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk16f",
+      "bdfSha256": "3d6d8a22e60df049b93adfc9b0e23bb48a08441c7d42645562b5628bd9764ab4",
+      "mappedNonblankHan": 0,
+      "unmappedNonblankGlyphs": 7980,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk16s",
+      "bdfSha256": "fc413f29695a9a45b836d69cdcc0170d1d03b2c1f259cee25904dc0f86690473",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 697,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk24f",
+      "bdfSha256": "b0f9bccdb3fdc5da5af4e93f435bd599b4b6dd2ccd06de4aff7e2c916139caa2",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 612,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk24h",
+      "bdfSha256": "43252e5364138c70b64b7186bf8b4e16f8e57cb0a74f7a7855e4a9dd41ac3389",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 607,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk24k",
+      "bdfSha256": "0f21aa9b43c31628f4f390513cb7a697d31ee83bc0c4d43ea5f0c1ff02050a3e",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 612,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk24s",
+      "bdfSha256": "75146037d5fbb1226b1f8ef0e57f1b35bf26d2eb51294822e39b3b4be7c4f29d",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 607,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 1,
+          "croppedRate": 0.00022805017103762827,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "hzk_hzk32",
+      "bdfSha256": "aa515163712e588436389df61083aa608d9c52a6fdb99813aae0ab018077b3e5",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 733,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "isas_fangsong_16",
+      "bdfSha256": "e8f15a587e6a4e7171133a12ca83eed0f7240ab1767bc27380b23f7faada2aaa",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 27,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "isas_song_16",
+      "bdfSha256": "36eb4bcab399fc2b8eae58b075399b73a1ba979a9756fa8716a2d34bf804c397",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 998,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "isas_song_24",
+      "bdfSha256": "6c6d71333eb1c7beec35bf9886ef21bd4368ca619cc20da3d531402599690cfd",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 28,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 1,
+          "croppedRate": 0.00022805017103762827,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_izumi16_16px",
+      "bdfSha256": "312e7c495d8647f0b5668525fb79d841332d2adbc1e4c53db5f2d2bf32208298",
+      "mappedNonblankHan": 9666,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7609,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7609,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7609,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_izumi16b_16px",
+      "bdfSha256": "70e5807f255502de94beb1f061797ac72adca3fc33ae7aa89e2c4d8f2317c578",
+      "mappedNonblankHan": 9666,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7609,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7609,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7609,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_jiskan16s_16px",
+      "bdfSha256": "ca1a07212a0bc8ac619f0e2343aab4252e64121c744c2174e72242b3e1a7bdd2",
+      "mappedNonblankHan": 9666,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7609,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7609,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7609,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_k12_12px",
+      "bdfSha256": "8939adb932bcdcbb5babf8e50caef5300f74afcf06d20e33295eee9d410a2951",
+      "mappedNonblankHan": 9657,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7603,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7603,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7603,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_k12b_12px",
+      "bdfSha256": "0ea9f822cdde5f7af6a2e3acd063e1adfefd99a6df7a858d77e5e4e89c6e5565",
+      "mappedNonblankHan": 9657,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7603,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7603,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7603,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_k12x10_10px",
+      "bdfSha256": "2c227cb76936890030fac826d107be392386de37d73c115bf19092d7f86bf042",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_k14b_14px",
+      "bdfSha256": "2d41bf67c49fe5325221f8fee7dd0cca2de47e6ea13171c749f0c8b630a8111f",
+      "mappedNonblankHan": 9657,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7603,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7603,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7603,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_kaname12_12px",
+      "bdfSha256": "d4a9a2d90546934124dfad01fdaa7132f8dc3c139a5f36db37ebc49def53a6c2",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "jf_dot_milkjf16b_16px",
+      "bdfSha256": "ab678890df42553831fa5212159f4744eb8e3b794edc4088f51ffacd255daa67",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "k6x8",
+      "bdfSha256": "8e9eb74765e12e2ac8803d218b37c06767a59ef5e1a29ff093207ae4309df12b",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "k8x12_12px",
+      "bdfSha256": "66b668b14771dba4bbbbd1ff044a01e1615432366952fc1d436439ec3281ba08",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kappa_20_b",
+      "bdfSha256": "97ad8a59a05c8896774ad67c492db244877b40c1ddb3c97017ac04af3a1b9fc6",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kappa_20_m",
+      "bdfSha256": "ad3c0bcb2240d00a0f1dd5785641dbd09dbe67ca30e4f00e23f3be0e627bd0ea",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_akihabara_16_16px",
+      "bdfSha256": "06ec4f35543c89b432d65307468afe1e65a78d862ebb44cdd504eff9fc88076f",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_dougenzaka_12_12px",
+      "bdfSha256": "2c38f73c53be1c1f6ea9dd67f94f254f4e1d6b5e322babdfb524c0486d945bee",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_dougenzaka_16_16px",
+      "bdfSha256": "1edabb6da54fb967d2bb258ed930393764e4186202705c796cb06a1ba64a23cd",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_hatchoubori_16_16px",
+      "bdfSha256": "7a2fdf2214d156428607fe3e9430fe248dcc4b00bf1150aa9f36e265c834f7c7",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_hibiya_24_24px",
+      "bdfSha256": "ff208b34e492c3af58020b772416eab7b9eb6253975a1774fc84f872f11b0de7",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_hibiya_32_32px",
+      "bdfSha256": "237a665f517867894040ab2b13f427b126963ca8e72725dc8e04b8d57a47dff4",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_kagurazaka_12_12px",
+      "bdfSha256": "ec9903a23f0f37c307f8aa3eac5a006f7f96e8ea68f2329cb944d2bed8ebe12f",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_kagurazaka_16_16px",
+      "bdfSha256": "9ba2f17aa86aac811489d9fdd686d07654bbb5780581dcc3fc525fab4bc8498d",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_kodenmachou_12_12px",
+      "bdfSha256": "5193a8de0660a9403129e0202ee62f83388e3069bfcaf3c21da8cd20c99501e9",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_kodenmachou_16_16px",
+      "bdfSha256": "650a93b807f44474dd45d0cab6af61d4bebce455c86f9ed2294c55389857028f",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "kh_dot_ningyouchou_16_16px",
+      "bdfSha256": "b685419aa923440a6ac5ed9d7c2d49c905cd3c6691221254ebe07a629163fc97",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "konatu_native_12",
+      "bdfSha256": "60288ee8a298f3bf8521a0aa9cbb3319699cbc59f7301dbfac2a105d3f2ac209",
+      "mappedNonblankHan": 6682,
+      "unmappedNonblankGlyphs": 597,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5529,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5529,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5529,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "lanapixel_11px",
+      "bdfSha256": "c61edcf3ae9a59f6a6cc3640639d6cf5ec742383e88057114a13695e975fe208",
+      "mappedNonblankHan": 6990,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4719,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4719,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4719,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "liorachip10x12",
+      "bdfSha256": "7db42461584626d3fcd85baa684535dd9425957c5d7cb06913f781e89244cd5b",
+      "mappedNonblankHan": 2643,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 1896,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 1896,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 1896,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "mingliu_native_11",
+      "bdfSha256": "afcb404b330aec09f03da1e73d5988dbdaf06441038be49dfe5080d8e635aa57",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 212,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "mingliu_native_12",
+      "bdfSha256": "9b20adf88bd4bace0fbf587d7b90213d3a9e153a27c0ea1172eb9ce010229998",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 212,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "mingliu_native_13",
+      "bdfSha256": "0f8890915a6349e6acf7c3be752cd855fffd2416495ba82dc09a2f3afc5f9c69",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 212,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "mingliu_native_15",
+      "bdfSha256": "92c384c51df860001adee75e136fb1741d0fea1eb5b0d8d50a1d926eee9b1384",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 212,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "mingliu_native_16",
+      "bdfSha256": "ea5f5cc509d0fab7098b898427a9f7c19b4b4c0ad468ebbb9c8f04c5cfaddbd0",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 212,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "mingliu_native_20",
+      "bdfSha256": "6b40f419f1ebbe9c4c349192f8f501cbe5c28edc8dd45b2b713815662501aad9",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 212,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "misaki8",
+      "bdfSha256": "cb7aba646b2bdec512b68469d2aa352467c3086fdf31a6b3b705f4b1d7003dea",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "miseki8",
+      "bdfSha256": "f326db20a6c35718e0fd9c19df8b9bbbc2083d6ee1a0bedf36f11fb30018723d",
+      "mappedNonblankHan": 13481,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 9006,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 9006,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 9006,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "mona10_bold_10px",
+      "bdfSha256": "6a49047dd0e62aec88aa1e5ef7096717d151883a7e947a57aab6e7dba270c562",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "mplus_bitmap_10",
+      "bdfSha256": "5acab0c44a69fdaa1046ee649d956912fdd1bbf8290bffc1a4ab3d103a03fe04",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 84,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "mplus_bitmap_12",
+      "bdfSha256": "fc920cab507f4e581f6f6fc609b1068f349a5cf4b459a8d0cea7c5e2d41f3952",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 84,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "muzaipixel",
+      "bdfSha256": "9c26bbed0fe230741479657fe772e796a85bece450e15986948135f468a90269",
+      "mappedNonblankHan": 13972,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 9300,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 9300,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 9300,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "naga10_10x10",
+      "bdfSha256": "2149ade8045459f28c2bc96e2fd04c5e4ddc4232e291a98d3d309598a4d60531",
+      "mappedNonblankHan": 6354,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5319,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5319,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5319,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "nightgazer12b_12px",
+      "bdfSha256": "4ae77751dfc3bcf918529d4209889c27bbafbcc99840085153c89a6afbac84f7",
+      "mappedNonblankHan": 15464,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "nightgazer13b_13px",
+      "bdfSha256": "3cb31582cc08ce61157c2a685c6efd4bd7f0a817e7fe1f5805e25f47a7efa0bf",
+      "mappedNonblankHan": 15464,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "nightgazer14b_14px",
+      "bdfSha256": "9ef41cfd2119d1ee0cbdb17c572f7cfb02fc6b3e0494747584e6f6a4bab74f87",
+      "mappedNonblankHan": 15464,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "nightgazer15b_15px",
+      "bdfSha256": "8b08edd888ea33e164a3af1bc2978436bcc124eba94e5abbe482f2b1c4308a1d",
+      "mappedNonblankHan": 15464,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "nightgazer16b_16px",
+      "bdfSha256": "64f0afa7eb7437f8cb5ddad12626377ca388cbb259be29b69255b9bb0d319b40",
+      "mappedNonblankHan": 15464,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13063,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "nisc_native_16",
+      "bdfSha256": "2922a7bdfc2e1d3ea11d8bf6ae263f7fd667e1ed3ec7e7888eb637182d9f15c7",
+      "mappedNonblankHan": 27480,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "osaka-native-14",
+      "bdfSha256": "02c3dbc91ce08504ae7fabb9be0640b91ecd431f2e1ce5e5d6cd6fe9364b90a1",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 719,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "osaka-native-18",
+      "bdfSha256": "08c25c26f1fb299e1bd63cabc293432e0910f0e9f339589ee63802f3e37967cb",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 719,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "osaka-native-24",
+      "bdfSha256": "905090b9f15a78dd5e6f149b10e8aab44dba90797f146700673c63e9db4c7de5",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 719,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "osaka-native-9",
+      "bdfSha256": "abcc03447fd3c84b6a3c9d28c3a064b13545e0dc12ebec9467a76cfc639e7948",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 719,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "palm_cjkos_fb510f",
+      "bdfSha256": "9f42e5d1753190f7d185ea53513cae548cd5a00ecb001d9c67f3a6c9bc2c6c0d",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 161,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "palm_cjkos_fb512f",
+      "bdfSha256": "5d9a8f6e0992eabd31cee306d8b76365a669a77252205115ebb1eb550702bc1b",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 267,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "palm_cjkos_fgb10f",
+      "bdfSha256": "6056c277c6243a0c4d6c5c0c0a84ef38b58d9255eac77da81bd813bb254fd46d",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 172,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "palm_cjkos_fgb12f",
+      "bdfSha256": "e9d649ace74088351ce8a7bc9c5357275deac57e5e0c5551dce5a38e1bb7761e",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 119,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "panasonic-mn1871681",
+      "bdfSha256": "28c8d86325f0d6f094e32fc293e85c0d79eecd60e9e49a480d9773de925a0d19",
+      "mappedNonblankHan": 73,
+      "unmappedNonblankGlyphs": 28,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 46,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 46,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 46,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "paw16_16x16",
+      "bdfSha256": "0a4fbb75ee4b0f9a27eb95d929c5b5e423087809383fdd687d70398a9b197d74",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "poxiaopixel_cn_12px",
+      "bdfSha256": "91fe80ea3a99402719a6cd6952e609dde3b6779fc40f92f773e1b77cd880d315",
+      "mappedNonblankHan": 12698,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 8500,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 8500,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 8500,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "psa_c_screen_12",
+      "bdfSha256": "2b7d6f4c496770728813584e887935714d6c2e7644cfb19e01ab613ebd7fdf20",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "psa_c_screen_14",
+      "bdfSha256": "a1bcfc8f7d4a50d15bd2b4181f9aa153b788ea4df10ca62ef8f71991fbdb8a15",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "psa_latin_font0_h14",
+      "bdfSha256": "8898b5680a05d480abda105348d5a1ab4482a3a23700e0e25ce67847084523b1",
+      "mappedNonblankHan": 0,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "psa_latin_font1_h14",
+      "bdfSha256": "c4ee782804d2488c7e97e07dcb2124a482a2d5b6a909b79c336a9fa0c349efba",
+      "mappedNonblankHan": 0,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "psa_latin_font2_h17",
+      "bdfSha256": "d8f8fac08e4e8cee3c37e33b672e526cc7dec254bb3b84e0d6da51426c5fe213",
+      "mappedNonblankHan": 0,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "qiuyeyuanti-16",
+      "bdfSha256": "67b7b30e16c6fc6b041c1647ae9924ab155e516fa02d327aa77fbbbfb45d2e79",
+      "mappedNonblankHan": 11919,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7866,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7866,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7866,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "renoufangsong-16",
+      "bdfSha256": "bc82aacc1783f0a66f103a97616dd00db69da4b02dfa3d0a53c777e0951c5ecf",
+      "mappedNonblankHan": 11603,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7789,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7789,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7789,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "shanweizhouhei-16",
+      "bdfSha256": "8a14839997d23c27fbc26113798bd24b7051d6c461fd365a951b01ef160bc776",
+      "mappedNonblankHan": 11907,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7890,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7890,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7890,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "shinonome_12_gothic",
+      "bdfSha256": "8cdceae8d3cf3da2f6fbbdf552ec0a44e59f11ba7db51068f2d1a6796c1bc3a4",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "shinonome_14_gothic",
+      "bdfSha256": "79dc1de67d942aa4ea83489a50d2c305cbf855275be36247e528afa277256d35",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "shinonome_14_mincho",
+      "bdfSha256": "f6805b39a42718747e541df8142b175409da150d2bae23e13c7f6e48d26e677e",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "shinonome_16_gothic",
+      "bdfSha256": "16ac12b247a53c13ea7928e055bb444ee8edffe480f433d279a76685d96de905",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "shinonome_16_mincho",
+      "bdfSha256": "47de2b038e872475943de39dc733f69e2d03de279ae3a7fbb3b3316c15829d79",
+      "mappedNonblankHan": 6356,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5321,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "simsun_18030_v206_12",
+      "bdfSha256": "631b9783b9a859244f6feb16e8de9114305e3bb3efe7ed318e5f2ab5e7b6cc1f",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "simsun_18030_v206_14",
+      "bdfSha256": "74b5e9b3a0739e5b518e34591d08d70a55275c65b116be9c60c5e7daeb2558f1",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "simsun_18030_v206_16",
+      "bdfSha256": "06fea3664e9c69c51daeb28f274168463f874114d64505b2d79d7174ad86dfa9",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "simsun_native_12",
+      "bdfSha256": "57f9fa9514e83387df9bb61952d6865d5d45eb0d17a3b523044138a689e2c906",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "simsun_native_14",
+      "bdfSha256": "dc6184ab692d32a4f6b9de44bf6469068f52cf245ae1bcea958960eec4fc68c1",
+      "mappedNonblankHan": 27484,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "sony-g90-original",
+      "bdfSha256": "52c55d91f8c6a00553208f31f0f109a01264e8184b018dd3bfb0f438b481236b",
+      "mappedNonblankHan": 23,
+      "unmappedNonblankGlyphs": 2724,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 12,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 12,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 12,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "sony-g90-raw-pattern",
+      "bdfSha256": "ec9e8932d84c925d97f742f3bb55c02162fc13963dcae0a66c4ad4c06a9c3508",
+      "mappedNonblankHan": 0,
+      "unmappedNonblankGlyphs": 2760,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 0,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": null,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipei15",
+      "bdfSha256": "b9b347cb658fca1040517573df1b1f0f02901ea5047f9954b494c65f602289a6",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 4,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeib20",
+      "bdfSha256": "ce92fef6845d469407c5a5d60271c8fed06b4e13df02cb9002ee864e4663688e",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 46,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeib24",
+      "bdfSha256": "26e28d491302a4bcd23cde9c772b8c23f0a3453824b0f083a8a4411fd5f457b6",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 46,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 1,
+          "croppedEqual": 1,
+          "croppedRate": 7.656967840735069e-05,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeik20",
+      "bdfSha256": "82e663fc6562d1957143d45ffbc01810d7a65a54405fc29d7e91b8c357aa440d",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 46,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeik24",
+      "bdfSha256": "c71c521f36a4315596010bdced7ad40d0143ca12ca428265b100bc816b27e773",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 46,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 1,
+          "croppedEqual": 1,
+          "croppedRate": 7.656967840735069e-05,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeil20",
+      "bdfSha256": "b1d2eb9bfc45d04443da4b0bb0b23d6df1b3ae0ed5ed6d69a511c13ad43075ff",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 46,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeil24",
+      "bdfSha256": "7be20e2bb212ba03a4044baa447dd0bcdbd1ba248275b68b05f996f5d5ae62ff",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 46,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 1,
+          "croppedEqual": 1,
+          "croppedRate": 7.656967840735069e-05,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeim20",
+      "bdfSha256": "22918a784016ddb1ab3e478382d08e03abf81b0a103282456ace342897490cdc",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 46,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeim24",
+      "bdfSha256": "b0d36bf24f4e447e678ef69bb029a4384d1df819b6bc36510cc09b78c88e50a5",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 46,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 1,
+          "croppedEqual": 1,
+          "croppedRate": 7.656967840735069e-05,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeir20",
+      "bdfSha256": "5d8d95f3a12940f1fd3f9205612441f2904c6e37d699599a5267c307c0ca62f7",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 46,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeir24",
+      "bdfSha256": "79d3027000d5d8ef296316251dad1370483d73aa4b3416269b51ae186b814065",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 46,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 1,
+          "croppedEqual": 1,
+          "croppedRate": 7.656967840735069e-05,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeis20",
+      "bdfSha256": "260f66bfcd84999b36da5756da4ee40d9ea6e0440d115a94e4731d21a5fc1753",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 46,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "taipeis24",
+      "bdfSha256": "896d84b5ad895019a2accb61bc72a5bd0509c7c59c0505cbce33bdfd96ebe8db",
+      "mappedNonblankHan": 13061,
+      "unmappedNonblankGlyphs": 46,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13060,
+          "wholeEqual": 1,
+          "croppedEqual": 1,
+          "croppedRate": 7.656967840735069e-05,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13060,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "tomzbj_hzk11us",
+      "bdfSha256": "441e337f4a359e7767b3445409e8c30e432655b5e392c9366bd003693dde8849",
+      "mappedNonblankHan": 6763,
+      "unmappedNonblankGlyphs": 170,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4385,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "tumbled18",
+      "bdfSha256": "8805cf26e9bdbfc4ddb1374d5ca1aef8b1b4ba3e3efac7aae4ed722a2d40b8d5",
+      "mappedNonblankHan": 8196,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5788,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5788,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5788,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "tumbled24",
+      "bdfSha256": "f520b938dcd39f46a51dd9e81d487e26a6079f13a13d7a97c41a8942b7843e2c",
+      "mappedNonblankHan": 8196,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5788,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5788,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5788,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "uranus_pixel_11px_14px",
+      "bdfSha256": "7b522c5d0e61d495a4bedb5a380c0fcce0c3276d299354e829aeb72520867e9e",
+      "mappedNonblankHan": 6769,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4390,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4390,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4390,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "wenquanyi_song_12",
+      "bdfSha256": "1f20e0feeb8663281a69bd1303c9be52bd0378ee695a6c304c73e96ebfab2014",
+      "mappedNonblankHan": 27522,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "wenquanyi_song_13",
+      "bdfSha256": "dcd80beea28d1aa7c1b98896903985896e2d49cdc1fe5b7245f56e95950d902d",
+      "mappedNonblankHan": 27522,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "wenquanyi_song_14",
+      "bdfSha256": "9fe5139ec0ab570150c32f45c547716554d2f83531da97a9f09e397260197292",
+      "mappedNonblankHan": 20941,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "wenquanyi_song_15",
+      "bdfSha256": "7bc96809f1236e2e37d51a83a9ca742af415f96c0f513facaba455b6642bfc09",
+      "mappedNonblankHan": 27522,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "wenquanyi_song_16",
+      "bdfSha256": "179bc783621a60bd31c36d4770dae8d5a4a5d9d4a12e9d01deb144f420d809c2",
+      "mappedNonblankHan": 27521,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "xiaoya12",
+      "bdfSha256": "3d786c4407d1b94d7901ee8e196493a612681fea9ff78dfc2778999103b89a7b",
+      "mappedNonblankHan": 7865,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 5415,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 5415,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 5415,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "xiuzhen6x8",
+      "bdfSha256": "5618337d00c7ab7922b61c6ac5b9e6ba0697527d3b3650255a8ae7c652f142de",
+      "mappedNonblankHan": 11458,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7745,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7745,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7745,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "zhenggedianhei-16",
+      "bdfSha256": "7efae41142261f603c51ad4ccc9f050e31d5684b8e645b6fd9ffec50fe1f6df8",
+      "mappedNonblankHan": 11780,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 7868,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 7868,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 7868,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "zlabs12",
+      "bdfSha256": "f9d401c6a45b7eb94462eb4477ebdfa809cda9e3c599d292e2666fc2a1570a8f",
+      "mappedNonblankHan": 12670,
+      "unmappedNonblankGlyphs": 1,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 8544,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 8544,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 8544,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "zlabs_round12",
+      "bdfSha256": "0a4a939c9d9f626fe0d0874b80f95d26a6b3511c0e03eda91c5217cb2a3725e4",
+      "mappedNonblankHan": 11838,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 8047,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 8047,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 8047,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "zlabs_round16",
+      "bdfSha256": "c0eb1c7c4509d43dd2208a214d4a8656b11bf2a60f3dc100e4f7cfa7e907df28",
+      "mappedNonblankHan": 7021,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 4557,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 4557,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 4557,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "zlabsdiamondpix_16px_sc",
+      "bdfSha256": "fe59a40ad252f64c475570712beebc8aa357cb2bef20a3ed7a2c3f52fbf98066",
+      "mappedNonblankHan": 1060,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 806,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 806,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 806,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    },
+    {
+      "id": "zpix12",
+      "bdfSha256": "5e304266f55f03203cb2f151da02a9c4a0a59778e5f3b32edbd987518ba2e3cd",
+      "mappedNonblankHan": 20904,
+      "unmappedNonblankGlyphs": 0,
+      "compared": [
+        {
+          "size": 24,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 34,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        },
+        {
+          "size": 42,
+          "commonHan": 13064,
+          "wholeEqual": 0,
+          "croppedEqual": 0,
+          "croppedRate": 0.0,
+          "unmappedShapeMatches": 0
+        }
+      ]
+    }
+  ],
+  "decMappedSupplement": {
+    "method": "Original DEC PCF codepoints from preserved recipes remapped according to original Tru64 Chinese documentation: first byte A1–FE; second A1–FE identifies CNS plane 1, second 21–7E identifies plane 2. Transcode those plane coordinates using glibc EUC-TW. No guessing from Unicode-looking code values or source slot indices.",
+    "documentationUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH2.HTM",
+    "results": [
+      {
+        "id": "dec_sung_cns11643_24",
+        "recipeSha256": "1d11c08f22e3c746a1e074cfec1068fcc4d4aced33620e210931a05a0298a7d3",
+        "mappedHan": 13064,
+        "unmappedSourceSlots": 219,
+        "comparisons": [
+          {
+            "size": 24,
+            "commonHan": 13064,
+            "wholeEqual": 1,
+            "croppedEqual": 1
+          },
+          {
+            "size": 34,
+            "commonHan": 13064,
+            "wholeEqual": 0,
+            "croppedEqual": 0
+          },
+          {
+            "size": 42,
+            "commonHan": 13064,
+            "wholeEqual": 0,
+            "croppedEqual": 0
+          }
+        ]
+      },
+      {
+        "id": "dec_sung_cns11643_32",
+        "recipeSha256": "f22db76b723c646e4bce2510cad19048657bb7999dc2eed8c04c22192d304575",
+        "mappedHan": 13064,
+        "unmappedSourceSlots": 219,
+        "comparisons": [
+          {
+            "size": 24,
+            "commonHan": 13064,
+            "wholeEqual": 0,
+            "croppedEqual": 0
+          },
+          {
+            "size": 34,
+            "commonHan": 13064,
+            "wholeEqual": 0,
+            "croppedEqual": 0
+          },
+          {
+            "size": 42,
+            "commonHan": 13064,
+            "wholeEqual": 0,
+            "croppedEqual": 0
+          }
+        ]
+      }
+    ]
+  },
+  "referencesWithMappedHanIncludingDecSupplement": 213,
+  "currentPresentButNoMappedHanAfterDecSupplement": [
+    "ccic_eb5_15j",
+    "hbf_cclibf16",
+    "hzk_hzk16f"
+  ],
+  "sampleOnlySupplement": {
+    "method": "Sample-only exact 1-bit cropped-glyph template search in existing public PNGs for same Unicode Han named in each row text. Original HP-UX pixels, no scaling or border padding. Search covers complete target PNG; a match is a contained shape, not independently segmented glyph provenance. Nonmatches cannot establish full-font novelty. Alpha>128 and mean RGB<128 define public ink; reference-only photos excluded.",
+    "currentCatalogCount": 230,
+    "publicNativeSpecimensChecked": 229,
+    "withdrawnWithImages": [],
+    "unchecked": [
+      {
+        "id": "ark10",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "batang16",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "batang24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "ccic_taipeil24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "chinasea_reference",
+        "reason": "Reference image, not native font specimen"
+      },
+      {
+        "id": "dotum16",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "dotum24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "efont_biwidth_10",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "efont_biwidth_12",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "efont_biwidth_14",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "efont_biwidth_16",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "efont_biwidth_24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "fzbase",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "fzfeng",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "gb48_2025_reference",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "gulim16",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "hanyi-pixel-invasion",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "hanyi-pixel-power",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "hbf_cch24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "hbf_uwgb_16",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "hzk_hzk32",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "knife911_5x7",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "monotype_bitmap_hk",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "sun_gb2312_song_12",
+        "reason": "No public PNG available"
+      },
+      {
+        "id": "sun_gb2312_song_14",
+        "reason": "No public PNG available"
+      },
+      {
+        "id": "sun_gb2312_song_20",
+        "reason": "No public PNG available"
+      },
+      {
+        "id": "taipeib20",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeib24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeik20",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeil20",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeim20",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeir20",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeir24",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeis20",
+        "reason": "No row metadata found"
+      },
+      {
+        "id": "taipeis24",
+        "reason": "No row metadata found"
+      }
+    ],
+    "matchedPairs": 0,
+    "positiveControls": [
+      {
+        "size": 24,
+        "matchedHan": "視野無限廣窗外有藍天",
+        "expected": 10,
+        "matched": 10
+      },
+      {
+        "size": 34,
+        "matchedHan": "視野無限廣窗外有藍天",
+        "expected": 10,
+        "matched": 10
+      },
+      {
+        "size": 42,
+        "matchedHan": "視野無限廣窗外有藍天",
+        "expected": 10,
+        "matched": 10
+      }
+    ]
+  }
+}

@@ -169,6 +169,14 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "samsung_r208_16"
       ]
+    },
+    {
+      "sourceManifest": "release-hpux-sung.json",
+      "ids": [
+        "hpux_sung_24",
+        "hpux_sung_34",
+        "hpux_sung_42"
+      ]
     }
   ]
 };

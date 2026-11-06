@@ -1,0 +1,50 @@
+[
+  {
+    "size": 24,
+    "nonblankHan": 13064,
+    "big5Han": 13061,
+    "big5Covered": 13060,
+    "extraHan": [
+      "亠",
+      "冫",
+      "勹",
+      "彞"
+    ],
+    "missingBig5": [
+      "彝"
+    ],
+    "png": "hpux_sung_24.png"
+  },
+  {
+    "size": 34,
+    "nonblankHan": 13064,
+    "big5Han": 13061,
+    "big5Covered": 13060,
+    "extraHan": [
+      "亠",
+      "冫",
+      "勹",
+      "彞"
+    ],
+    "missingBig5": [
+      "彝"
+    ],
+    "png": "hpux_sung_34.png"
+  },
+  {
+    "size": 42,
+    "nonblankHan": 13064,
+    "big5Han": 13061,
+    "big5Covered": 13060,
+    "extraHan": [
+      "亠",
+      "冫",
+      "勹",
+      "彞"
+    ],
+    "missingBig5": [
+      "彝"
+    ],
+    "png": "hpux_sung_42.png"
+  }
+]

@@ -105,3 +105,5 @@ python3 scripts/workspace.py check
 
 
 - [Samsung SGH-R208 16×16](samsung-r208.md)：固件原汉字、同源8×16英数及逗号映射，独立源像素核验与本地导出边界。
+
+- [HP-UX繁体宋体](hpux-sung.md)：24／34／42点及同源ASCII固定样文重绘；设置 `HPUX_PCF_DIR` 可在完整检查中运行精确源回归。

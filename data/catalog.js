@@ -15459,5 +15459,203 @@ window.FONT_CATALOG = [
       ],
       "checkedOn": "2026-11-06"
     }
+  },
+  {
+    "id": "hpux_sung_24",
+    "name": "HP-UX 繁体宋体 · 24×24",
+    "family": "HP Sung",
+    "width": 24,
+    "height": 24,
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "操作系统"
+    ],
+    "specimen": "assets/specimens/hpux_sung_24.png",
+    "specimenWidth": 332,
+    "specimenHeight": 60,
+    "specimenSha256": "861774cd4461cbe8934226243a2374ffd8a6178e2c5f16793502d110e0255477",
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生CNS平面1／2汉字与同源半宽西文，不缩放、不补字。",
+    "coverage": "CNS平面1／2经EUC-TW映射含13,064个非空U+3400–9FFF汉字；Python Big5的13,061汉字中同Unicode覆盖13,060。“彝／彞”为映射差异，不互换；同源95个可打印ASCII。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/hp-ux-11i-version-1-mission-critical-operating-environment-sept-2005",
+    "sourceLabel": "HP-UX 11i 2005年9月原盘存档资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "PCF标注Copyright (c) 1994 Hewlett-Packard Company。公开存档不等于开放许可；仅展示固定PNG与无字模重绘方法，不附PCF、完整BDF或光盘。",
+    "provenance": "静态读取B7994-10045第2盘中的原生PCF；1994为字体版权标记，2005为本次原盘发行标记，不等同首次设计日期或证明手工制作。",
+    "notes": "CNS11643.1992平面1/2与ISO646.1991-IRV分别保留；同Unicode覆盖与编码变体分开，不以低精确重合率推断原创。完整历史参考覆盖边界见审计。",
+    "layoutNote": "两行固定样文，四周4px、行间4px；中文原字框24×24，ASCII 12×24，保持PCF度量。空格保留原advance，无额外字间距。",
+    "nativeEvidence": {
+      "summary": "原PCF固定SHA、CNS平面及同源ASCII；独立位级核验见HP-UX审计。",
+      "copyrightYear": 1994,
+      "hanUnicodeCount": 13064,
+      "big5HanCovered": 13060,
+      "big5HanTotal": 13061,
+      "asciiWidth": 12,
+      "fontAscent": 22,
+      "fontDescent": 2
+    },
+    "priority": 0,
+    "sourceIndex": 267,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行确认使用权后从对应原盘取得PCF。本仓库只附固定样文离线重绘工具，不授予字体商用或再分发权。",
+      "links": [
+        {
+          "label": "来源、编码边界与重绘方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hpux-sung.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-06"
+    }
+  },
+  {
+    "id": "hpux_sung_34",
+    "name": "HP-UX 繁体宋体 · 34×34",
+    "family": "HP Sung",
+    "width": 34,
+    "height": 34,
+    "cellWidth": 34,
+    "cellHeight": 34,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "操作系统"
+    ],
+    "specimen": "assets/specimens/hpux_sung_34.png",
+    "specimenWidth": 467,
+    "specimenHeight": 80,
+    "specimenSha256": "52cb303a9b0ba09b62a7b5aedcf2304ca034e5583e5ad94957df570e083116b8",
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生CNS平面1／2汉字与同源半宽西文，不缩放、不补字。",
+    "coverage": "CNS平面1／2经EUC-TW映射含13,064个非空U+3400–9FFF汉字；Python Big5的13,061汉字中同Unicode覆盖13,060。“彝／彞”为映射差异，不互换；同源95个可打印ASCII。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/hp-ux-11i-version-1-mission-critical-operating-environment-sept-2005",
+    "sourceLabel": "HP-UX 11i 2005年9月原盘存档资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "PCF标注Copyright (c) 1994 Hewlett-Packard Company。公开存档不等于开放许可；仅展示固定PNG与无字模重绘方法，不附PCF、完整BDF或光盘。",
+    "provenance": "静态读取B7994-10045第2盘中的原生PCF；1994为字体版权标记，2005为本次原盘发行标记，不等同首次设计日期或证明手工制作。",
+    "notes": "CNS11643.1992平面1/2与ISO646.1991-IRV分别保留；同Unicode覆盖与编码变体分开，不以低精确重合率推断原创。完整历史参考覆盖边界见审计。",
+    "layoutNote": "两行固定样文，四周4px、行间4px；中文原字框34×34，ASCII 17×34，保持PCF度量。空格保留原advance，无额外字间距。",
+    "nativeEvidence": {
+      "summary": "原PCF固定SHA、CNS平面及同源ASCII；独立位级核验见HP-UX审计。",
+      "copyrightYear": 1994,
+      "hanUnicodeCount": 13064,
+      "big5HanCovered": 13060,
+      "big5HanTotal": 13061,
+      "asciiWidth": 17,
+      "fontAscent": 32,
+      "fontDescent": 2
+    },
+    "priority": 0,
+    "sourceIndex": 268,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行确认使用权后从对应原盘取得PCF。本仓库只附固定样文离线重绘工具，不授予字体商用或再分发权。",
+      "links": [
+        {
+          "label": "来源、编码边界与重绘方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hpux-sung.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-06"
+    }
+  },
+  {
+    "id": "hpux_sung_42",
+    "name": "HP-UX 繁体宋体 · 42×42",
+    "family": "HP Sung",
+    "width": 42,
+    "height": 42,
+    "cellWidth": 42,
+    "cellHeight": 42,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "操作系统"
+    ],
+    "specimen": "assets/specimens/hpux_sung_42.png",
+    "specimenWidth": 575,
+    "specimenHeight": 96,
+    "specimenSha256": "8c69056adbba63b2c6aff3fa9f24d863eeccbd42b23c97de73cdadbf41e14b12",
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生CNS平面1／2汉字与同源半宽西文，不缩放、不补字。",
+    "coverage": "CNS平面1／2经EUC-TW映射含13,064个非空U+3400–9FFF汉字；Python Big5的13,061汉字中同Unicode覆盖13,060。“彝／彞”为映射差异，不互换；同源95个可打印ASCII。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/hp-ux-11i-version-1-mission-critical-operating-environment-sept-2005",
+    "sourceLabel": "HP-UX 11i 2005年9月原盘存档资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "PCF标注Copyright (c) 1994 Hewlett-Packard Company。公开存档不等于开放许可；仅展示固定PNG与无字模重绘方法，不附PCF、完整BDF或光盘。",
+    "provenance": "静态读取B7994-10045第2盘中的原生PCF；1994为字体版权标记，2005为本次原盘发行标记，不等同首次设计日期或证明手工制作。",
+    "notes": "CNS11643.1992平面1/2与ISO646.1991-IRV分别保留；同Unicode覆盖与编码变体分开，不以低精确重合率推断原创。完整历史参考覆盖边界见审计。",
+    "layoutNote": "两行固定样文，四周4px、行间4px；中文原字框42×42，ASCII 21×42，保持PCF度量。空格保留原advance，无额外字间距。",
+    "nativeEvidence": {
+      "summary": "原PCF固定SHA、CNS平面及同源ASCII；独立位级核验见HP-UX审计。",
+      "copyrightYear": 1994,
+      "hanUnicodeCount": 13064,
+      "big5HanCovered": 13060,
+      "big5HanTotal": 13061,
+      "asciiWidth": 21,
+      "fontAscent": 36,
+      "fontDescent": 6
+    },
+    "priority": 0,
+    "sourceIndex": 269,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行确认使用权后从对应原盘取得PCF。本仓库只附固定样文离线重绘工具，不授予字体商用或再分发权。",
+      "links": [
+        {
+          "label": "来源、编码边界与重绘方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hpux-sung.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-06"
+    }
   }
 ];

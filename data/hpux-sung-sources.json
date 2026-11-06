@@ -1,0 +1,65 @@
+[
+  {
+    "path": "/Asian-X11/XFNT-TCH-E-AUX/usr/lib/X11/fonts/hp_chinese_t/75dpi/sung34na.pcf",
+    "offset": 71227392,
+    "size": 6215,
+    "storedSha256": "09f4b334c27c7e2fbabacf0a53407a172c212c672c62df06e1265f669fb2be1c",
+    "pcfSha256": "6ae8ff9ecc82c08076370098c03eaf1a37aaa594ae3d3416c7dfe47b13b1cd8c"
+  },
+  {
+    "path": "/Asian-X11/XFNT-TCH-E-AUX/usr/lib/X11/fonts/hp_chinese_t/75dpi/sung42na.pcf",
+    "offset": 71239680,
+    "size": 6250,
+    "storedSha256": "8153191c661eaad26ac58d4d0c00e339a116cd47b99d0c9e3185d23d4e7e7490",
+    "pcfSha256": "a5b15f81fce3750b590400b61a6c2d8de2e5bd523b0111e3198ff888e57d8e2d"
+  },
+  {
+    "path": "/Asian-X11/XFNT-TCH-E-MIN/usr/lib/X11/fonts/hp_chinese_t/75dpi/sung24n1.pcf",
+    "offset": 75638784,
+    "size": 326650,
+    "storedSha256": "9c481a6e21d1c0a9d985554c8f08485330748af529ab89e1b0c04b72e8a35cae",
+    "pcfSha256": "0d88b59fb084c94e0ec5981511f99d26a94fae7bc10a033c8fcd55df76dc59a7"
+  },
+  {
+    "path": "/Asian-X11/XFNT-TCH-E-MIN/usr/lib/X11/fonts/hp_chinese_t/75dpi/sung24n2.pcf",
+    "offset": 75968512,
+    "size": 459234,
+    "storedSha256": "cac151da92f43b183a77086647cd5e1c0985c3096479be0be8daa821972b3452",
+    "pcfSha256": "f0f0f21e0c7455532712f7f83e89594af4baf641413f3dd0c6990636810f5c27"
+  },
+  {
+    "path": "/Asian-X11/XFNT-TCH-E-MIN/usr/lib/X11/fonts/hp_chinese_t/75dpi/sung24na.pcf",
+    "offset": 76433408,
+    "size": 5181,
+    "storedSha256": "19591d498b4d9125074c57fbbbfe17f25d30214efb455472230413fbe11178e2",
+    "pcfSha256": "414b1559addc8c19f6bd3c70bddba3db7d9979c9e6a01c63512c8560bf809ad7"
+  },
+  {
+    "path": "/Asian-X11/XPFT-TCH-E-AUX/usr/lib/X11/fonts/hp_chinese_t/75dpi/sung34n1.pcf",
+    "offset": 81573888,
+    "size": 487605,
+    "storedSha256": "8fe25195be47000a67df1fdfbe0233d553df617f6c702490af577c8082c5a154",
+    "pcfSha256": "2240793f86eb3dc2ef99d40e734effa231356d0c661d9602c5c4286070ec217e"
+  },
+  {
+    "path": "/Asian-X11/XPFT-TCH-E-AUX/usr/lib/X11/fonts/hp_chinese_t/75dpi/sung34n2.pcf",
+    "offset": 82065408,
+    "size": 681964,
+    "storedSha256": "f92637611ed5a811204cfc71804e38a20f5b2d16f159f1887a857412c07047c4",
+    "pcfSha256": "85cfd9f42fabb0757daafdd65d14e775b59a085bb1576aeb5fc7738b80c1d6f5"
+  },
+  {
+    "path": "/Asian-X11/XPFT-TCH-E-AUX/usr/lib/X11/fonts/hp_chinese_t/75dpi/sung42n1.pcf",
+    "offset": 82747392,
+    "size": 632588,
+    "storedSha256": "f3a2be2f892dcb3998c0a6b3444677694214d5469aca222dea0c7a8452972fc7",
+    "pcfSha256": "5b86114a7eac85f7d6fc425308d0614437c29cc1cbcf551d0b6e32eb47b63a4c"
+  },
+  {
+    "path": "/Asian-X11/XPFT-TCH-E-AUX/usr/lib/X11/fonts/hp_chinese_t/75dpi/sung42n2.pcf",
+    "offset": 83382272,
+    "size": 906103,
+    "storedSha256": "5b8337388a29ee19004467b29e4eb20076608c2204affd152dade450c4671ee3",
+    "pcfSha256": "7627628ecee70f25dc12a86c61afd3a8519260b6d0cc9ff8e36165bc01fc14b0"
+  }
+]
