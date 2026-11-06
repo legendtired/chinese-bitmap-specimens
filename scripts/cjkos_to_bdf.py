@@ -6,8 +6,12 @@ import json
 import struct
 from pathlib import Path
 
-# These six historical binaries were checked. Four hashes match catalog specimens.
+# Verified historical databases; True marks an included specimen source.
 SOURCES = {
+    '5877cc54d8a4cce49629a40e4c29e8c45908799d35f8dfa94ed667a0777ba77a': (12, 'gb2312', True),
+    'f630ebdea98ae72e28d7179b64cb97bde13f39eb65b66bed2c7bf6209897d4de': (12, 'gb2312', True),
+    '20cb494bf5aa0beb70faa1e2cc68b7d8b1fd9efc0a54e9b9f53bb5129a2ca135': (12, 'big5', True),
+    'a8de69c5cf30d53a3433c63c1fea1f02a54f21e380ebfe1d312514a51eabf091': (12, 'big5', True),
     '2f2db52b735589ee627b2c9ccd4d73bca2ae1cded7ccf14c377423c54a112cef': (10, 'gb2312', True),
     'c02b4e383ddd08b146fef4f853d55bd6492ceb546cf687fcdf4491837bbcdc8c': (12, 'gb2312', True),
     '3ca7a7aa0e595638044337a78f16bc0c194e08d1a30ef13d70212f86c7be83a7': (10, 'big5', True),
@@ -34,7 +38,7 @@ def load_font(path):
     data = Path(path).read_bytes()
     sha = hashlib.sha256(data).hexdigest()
     if sha not in SOURCES:
-        raise ValueError('Unverified source SHA-256; this exporter only accepts the six documented binaries')
+        raise ValueError('Unverified source SHA-256; this exporter only accepts the documented binaries')
     size, codec, catalog_match = SOURCES[sha]
     if data[60:68] != b'dFntdCJK' or not struct.unpack_from('>H', data, 32)[0] & 1:
         raise ValueError('Not a CJKOS resource database')

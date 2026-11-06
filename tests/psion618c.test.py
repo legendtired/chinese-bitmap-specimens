@@ -4,9 +4,9 @@ import json,hashlib,struct,sys
 R=Path(__file__).resolve().parents[1]
 rows=json.loads((R/'data/catalog.json').read_text());m=json.loads((R/'data/release-psion618c.json').read_text())
 base=[r for r in rows if r['id'] in m['baseIds']];new=[r for r in rows if r['id'] in m['addedIds']]
-assert len(rows)==221 and len(base)==219 and len(new)==2
+assert len(rows)==225 and len(base)==219 and len(new)==2
 for group,k in [(base,'baseRowsSha256'),(new,'addedRowsSha256')]:assert hashlib.sha256(json.dumps(group,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m[k]
-assert [r['id'] for r in rows[-2:]]==m['addedIds']
+assert [r['id'] for r in new]==m['addedIds']
 for r,n,coverage in zip(new,(8,11),(15441,15447)):
  assert r['priority']==0 and r['height']==n and r['scripts']==['简体','繁体']
  assert r['nativeEvidence']['nonblankHan']==coverage and r['nativeEvidence']['gb2312Han']==6763
@@ -14,7 +14,7 @@ for r,n,coverage in zip(new,(8,11),(15441,15447)):
  assert struct.unpack('>II',b[16:24])==(r['specimenWidth'],r['specimenHeight'])
  assert r['missing']==[] and not r['asciiText'] and r['asciiOrigin']=='absent'
 assert not any(r['id'] in ('psion618c_15','panasonic_tutx100_16x24') for r in rows)
-h=json.loads((R/'data/collection-history.json').read_text());assert h['batches'][-1]['ids']==m['addedIds']
+h=json.loads((R/'data/collection-history.json').read_text());assert next(b for b in h['batches'] if b['sourceManifest']=='release-psion618c.json')['ids']==m['addedIds']
 sys.path.insert(0,str(R/'scripts'));from psion_gdr_to_bdf import decode
 try:decode(b'not a GDR',8)
 except ValueError:pass

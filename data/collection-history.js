@@ -125,6 +125,15 @@ window.FONT_COLLECTION_HISTORY = {
         "psion618c_8",
         "psion618c_11"
       ]
+    },
+    {
+      "sourceManifest": "release-palm-styles.json",
+      "ids": [
+        "palm_cjkos_fgb12ktf",
+        "palm_cjkos_fgb12fsf",
+        "palm_cjkos_fb512kbf",
+        "palm_cjkos_fb512xmf"
+      ]
     }
   ]
 };
