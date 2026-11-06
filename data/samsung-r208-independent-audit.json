@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "method": "Independent source-bit matrices, source-byte repacking, BDF text parser, PNG filters and independently laid out source pixels. Complete font remains memory-only.",
+  "exporterSha256": "af53462c5e7f9cfae71caccac4b247da4dc420ddfc3d994548d18738f3bee060",
+  "verifierSha256": "5788338f6fd7cb9233b6826a67a00a2cd06ba17b91062571c699219ef70f04ca",
+  "axfSha256": "4c8d54f97d2c05f34b8cf9995fad1a4ba75fbb942c8dd8b49602fb70e931d521",
+  "ogmSha256": "a7f2e4bd228b31937eb0ad47170592a1ec21b35801ae2086c00e9be686dab629",
+  "checks": {
+    "hanSourceSlots": 15646,
+    "nonblankHan": 15645,
+    "blankSentinel": "U+9FA6 excluded",
+    "gb2312Han": 6763,
+    "printableAscii": 95,
+    "periodSourceSlots": 1,
+    "sourceRoundTrips": 15742,
+    "exportedGlyphs": 15742,
+    "bdfParsedGlyphs": 15742,
+    "bdfSwidth": {
+      "16": 960,
+      "8": 480
+    },
+    "westernIndex": 4,
+    "westernBase": "0x17eec0",
+    "westernCell": [
+      8,
+      16
+    ],
+    "ff0cAlias": "U+FF0C -> A12C -> native ASCII comma, width 8",
+    "periodLookupIndex": 2,
+    "periodOffset": "0x8cbda"
+  },
+  "rendererChecks": [
+    {
+      "offset": "0x4041e",
+      "byteCount": 18,
+      "verified": true,
+      "meaning": "FFxx low byte plus literal A120; FF0C becomes A12C"
+    },
+    {
+      "offset": "0x405c8",
+      "byteCount": 8,
+      "verified": true,
+      "meaning": "Select Western index 4 through setter at 0x3fc20"
+    },
+    {
+      "offset": "0x3fc20",
+      "byteCount": 16,
+      "verified": true,
+      "meaning": "Setter writes font index at state+4"
+    },
+    {
+      "offset": "0x405dc",
+      "byteCount": 30,
+      "verified": true,
+      "meaning": "A1/A0 dispatch consumes low byte and calls Latin renderer 0x3fc44"
+    },
+    {
+      "offset": "0x3fcc8",
+      "byteCount": 34,
+      "verified": true,
+      "meaning": "Selected index fetches width, height, stride and glyph base"
+    },
+    {
+      "offset": "0x3fd90",
+      "byteCount": 8,
+      "verified": true,
+      "meaning": "Latin renderer returns stored width, 8 for index4"
+    },
+    {
+      "offset": "0x3fe20",
+      "byteCount": 26,
+      "verified": true,
+      "meaning": "3000-range punctuation dispatch and lookup call"
+    }
+  ],
+  "pcLiterals": {
+    "0x40720": "0xa120",
+    "0x3fc30": "0x1002180",
+    "0x3fda0": "0x158610",
+    "0x3fd98": "0x15861c",
+    "0x3fd9c": "0x158604",
+    "0x3fda4": "0x1868c0",
+    "0x3fda8": "0x1002180",
+    "0x3ffc4": "0x465b5"
+  },
+  "pcRelativeLoads": {
+    "0x40428": "0x40720",
+    "0x3fc20": "0x3fc30",
+    "0x3fc50": "0x3fda0",
+    "0x3fc52": "0x3fd98",
+    "0x3fc54": "0x3fd9c",
+    "0x3fcdc": "0x3fda4",
+    "0x3fcc8": "0x3fda8",
+    "0x3fe4e": "0x3ffc4"
+  },
+  "specimen": {
+    "width": 224,
+    "height": 44,
+    "lineWidths": [
+      184,
+      216
+    ],
+    "outerMargin": 4,
+    "lineGap": 4,
+    "insertedCharacterGap": 0,
+    "all9856PixelsMatchSource": true,
+    "researchNativePixelsMatch": true,
+    "pngSha256": "3c907fb8750476b2c59015ea73da90cac2cfafb291b2a2e1bb20bb20402b6b13",
+    "researchPngSha256": "82c43dbc27feaf3f824a88bea4c90e28a0e06b71dcd45ef7e7901661af274428"
+  },
+  "safetyReview": {
+    "exporterImports": [
+      "argparse",
+      "binascii",
+      "hashlib",
+      "json",
+      "os",
+      "stat",
+      "struct",
+      "sys",
+      "zlib"
+    ],
+    "noNetworkOrFirmwareExecutionObserved": true,
+    "noEmbeddedGlyphDatasetObserved": true,
+    "defaultOutput": "Fixed limited specimen and aggregate report only",
+    "completeBdf": "Explicit opt-in local-only; never created by this verifier",
+    "pathPolicy": "Exporter uses pinned directory descriptors, O_NOFOLLOW and exclusive new output creation; no overwrite. This verifier accepts trusted local paths and does not claim adversarial path safety.",
+    "limits": "Static source inspection is not a security proof. No legal permission or ownership conclusion."
+  }
+}

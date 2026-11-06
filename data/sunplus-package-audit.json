@@ -104,5 +104,5 @@
     "No source or metadata change to the original227 catalog rows is included.",
     "Historical glyph creation method remains unverified."
   ],
-  "audit_phase": "final integrated two-entry release before publication"
+  "audit_phase": "Frozen verification snapshot of Sunplus release4d5f51f908cc82b553cb958306591b19d6c5ef41; later regression-test changes do not alter this historical snapshot"
 }

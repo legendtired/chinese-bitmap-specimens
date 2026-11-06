@@ -102,3 +102,6 @@ python3 scripts/workspace.py check
 
 
 - [Sunplus SPHE8202L 简体两款](sunplus-sphe8202l.md)：12×12重复不新增，16×16／20×24原GB2312槽标准Unicode解释、无半角ASCII、源像素独立审计与本地导出边界。
+
+
+- [Samsung SGH-R208 16×16](samsung-r208.md)：固件原汉字、同源8×16英数及逗号映射，独立源像素核验与本地导出边界。

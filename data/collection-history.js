@@ -163,6 +163,12 @@ window.FONT_COLLECTION_HISTORY = {
         "sunplus_sphe8202l_16x16",
         "sunplus_sphe8202l_20x24"
       ]
+    },
+    {
+      "sourceManifest": "release-samsung-r208.json",
+      "ids": [
+        "samsung_r208_16"
+      ]
     }
   ]
 };

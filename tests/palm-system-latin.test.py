@@ -41,7 +41,7 @@ with tempfile.TemporaryDirectory() as tmp:
  else:raise AssertionError('Unknown ROM accepted')
 
 # Public metadata and preview: only this row changes, original Chinese stays identical.
-u=json.loads((R/'data/update-palm-latin-20261106.json').read_text());rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20','san5_dos_16x14','mstar_tv_simp_18')];a=u['after'];b=u['before']
+u=json.loads((R/'data/update-palm-latin-20261106.json').read_text());rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20','san5_dos_16x14','mstar_tv_simp_18')];a=u['after'];b=u['before']
 assert next(r for r in rows if r['id']==a['id'])==a
 other=[r for r in rows if r['id']!=a['id']]
 assert hashlib.sha256(json.dumps(other,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==u['otherRowsSha256']
