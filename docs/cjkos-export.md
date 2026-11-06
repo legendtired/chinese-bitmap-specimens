@@ -46,7 +46,7 @@ python3 scripts/cjkos_to_bdf.py local-research/cjkos/Font/FB512F.PDB local-resea
 - 12点每字18字节，连续、行优先、MSB在左，每行12位。
 - 10点每字13字节：前10字节分别存各行左8点，后3字节从高位开始依次存10行右2点，末4位为填充。
 - 字框和advance为10或12，保留所有空边。源文件没有逐字baseline/bearing记录，BDF将基线明确约定在字符框底部。
-- 不含普通ASCII，不从Palm系统字体或其他字库补字。
+- 原PDB不含普通ASCII，本脚本保持中文单源导出。繁体细明另有可选的[同系统西文配套导出](palm-system-latin.md)，仅追加经过校验的Palm m515 stdFont，不改变本脚本输出。
 - 这不是普通Palm NFNT字体。monobit 0.48的Palm读取器及Bits'N'Picas的NFNT支持不能直接替代FBLK解析。
 
 2026-11-05验证：四个完整字体所有槽位经monobit 0.48读回后，原像素、advance、bearing和数值编码一致；四项各12字样句的像素掩码与现有PNG差异为0。完整映射与例外数量见导出JSON。普通Unicode名称与原字模身份的全面人工核验不在此测试范围。

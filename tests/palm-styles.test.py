@@ -10,7 +10,7 @@ assert [r['id'] for r in rows[-1:]]==m['addedIds']
 sys.path.insert(0,str(R/'scripts'));import cjkos_to_bdf as c
 for r in new:
  assert r['priority']==0 and r['width']==r['height']==12
- assert r['missing']==[] and not r['asciiText']
+ assert r['missing']==[] and not historical_rows([r])[0]['asciiText']
  assert c.SOURCES[r['nativeEvidence']['source_sha256']]==(12,'gb2312' if r['scripts']==['简体'] else 'big5',True)
  b=(R/r['specimen']).read_bytes();assert hashlib.sha256(b).hexdigest()==r['specimenSha256'];assert struct.unpack('>II',b[16:24])==(r['specimenWidth'],r['specimenHeight'])
 assert not any(r['id']=='palm_cjkos_fgb12stf' for r in rows)

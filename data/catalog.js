@@ -14555,38 +14555,53 @@ window.FONT_CATALOG = [
       "繁体"
     ],
     "sampleKind": "standard",
-    "asciiOrigin": "absent",
+    "asciiOrigin": "native",
     "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
-    "licenseNote": "CJKOS为历史共享软件；未确证独立字体再分发授权。",
+    "licenseNote": "CJKOS为历史共享软件；未确证独立字体再分发授权。 Palm系统字体同样未确证独立再分发授权；仅展示固定样图与无字模提取脚本。",
     "nativeEvidence": {
       "summary": "直接读取CJKOS扩展包原PDB的FBLK点阵资源，每字12×12、18字节；未运行Palm程序。制作与调校史未核。",
       "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
       "native_ppem": 12,
       "source_sha256": "a8de69c5cf30d53a3433c63c1fea1f02a54f21e380ebfe1d312514a51eabf091"
     },
-    "coverage": "13061个非空汉字；标准样句完整，不含普通ASCII。",
+    "coverage": "13061个非空汉字；标准中文样句保持不变。另配95个Palm m515系统ASCII，英数样文完整。",
     "missing": [],
     "width": 12,
     "height": 12,
     "inkWidth": 12,
     "inkHeight": 12,
     "text": "視野無限廣，窗外有藍天。",
-    "asciiText": "",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
     "hanMissing": [],
     "asciiMissing": [],
-    "provenance": "直接读取CJKOS扩展包原PDB的FBLK点阵资源，每字12×12、18字节；未运行Palm程序。制作与调校史未核。",
+    "provenance": "直接读取CJKOS扩展包原PDB的FBLK点阵资源，每字12×12、18字节；未运行Palm程序。制作与调校史未核。 西文独立提取自已校验Palm m515 OS4.1 ROM：Latin Locale Module的fnti将fontID 0映射至NFNT 32000；非CJKOS PDB内置。",
     "styles": [
       "宋体点阵"
     ],
     "uses": [
       "设备界面"
     ],
-    "notes": "原像素排版，字符间留1px。与普通Palm12点及已核查同尺寸来源不同；其他目录来源仅核对固定样字。",
+    "notes": "原像素排版，字符间留1px。与普通Palm12点及已核查同尺寸来源不同；其他目录来源仅核对固定样字。 英数采用Palm m515 OS4.1的系统stdFont原字模，不是另找相似字体；此处采用组合排版，未验证原机12点细明的实际混排基线。",
     "relatedSources": [
       {
         "name": "CJKOS 官方产品与许可背景",
         "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
         "provenance": "产品介绍页；样字提取自历史归档中的原PDB，未运行程序；不将共享软件说明当作独立字体再分发授权。"
+      },
+      {
+        "name": "Palm m515 系统ROM资料页",
+        "sourceUrl": "https://palmdb.net/app/palm-roms-complete",
+        "provenance": "兼容CJKOS 4.27的m515 OS4.1系统西文来源；不将归档可访问视为字体授权。"
+      },
+      {
+        "name": "Palm OS 字体与fontID规范",
+        "sourceUrl": "https://palm.wiki/development/docs/601/PalmOSReference/Font.html",
+        "provenance": "stdFont为fontID 0，保留NFNT位图及字进。"
+      },
+      {
+        "name": "MAME m515 ROM校验记录",
+        "sourceUrl": "https://github.com/mamedev/mame/blob/master/src/mame/palm/palm.cpp",
+        "provenance": "m515 OS4.1的SHA1与本次输入一致；字库来自该ROM，不执行固件。"
       }
     ],
     "licenseStatus": "以来源及权利人许可为准",
@@ -14595,13 +14610,18 @@ window.FONT_CATALOG = [
     "sourceIndex": 258,
     "specimen": "assets/specimens/palm_cjkos_fb512xmf.png",
     "specimenWidth": 156,
-    "specimenHeight": 12,
-    "specimenSha256": "b24073ed9da7cad20ab2cce9f54643ca85a8b5a3143341a88896f473df9d688f",
+    "specimenHeight": 28,
+    "specimenSha256": "82543c2ef12e37c7c2f6f5049e911c730189fd56229cc8733326b38719cc3d78",
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "PalmDB的CJKOS历史包内打开 cjkFntEx.zip，取 FontExt/FB512XMF.PDB；使用 scripts/cjkos_to_bdf.py 校验并导出。完整字体按原许可使用。",
+      "notice": "中文仍用原cjkos_to_bdf.py导出。另取得并确认有权处理Palm m515 OS4.1 ROM后，用palm_system_latin_to_bdf.py追加95个系统ASCII；中文映射、全部槽位和度量不变。组合排版不是原机混排复刻。",
       "links": [
+        {
+          "label": "Palm系统西文配套与合并导出",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/palm-system-latin.md",
+          "action": "method"
+        },
         {
           "label": "PDB导出方法与版本核对",
           "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/cjkos-export.md",
@@ -14615,6 +14635,26 @@ window.FONT_CATALOG = [
       ],
       "checkedOn": "2026-11-06",
       "type": "method"
+    },
+    "sampleLabel": "细明原字模 + Palm m515系统西文配套；组合排版，非原机混排复刻。",
+    "layoutNote": "中文仍为原12×12字模及既有字进；西文是兼容CJKOS的Palm m515 OS4.1 stdFont（fontID 0），并非细明PDB自带ASCII或已证实的唯一原配。保留11px西文字框和原比例字进，以字框底部对齐到12px组合行框。",
+    "asciiPairing": {
+      "kind": "compatible-system-composition",
+      "family": "Palm OS stdFont",
+      "device": "Palm m515",
+      "os": "Palm OS 4.1",
+      "fontId": 0,
+      "resourceType": "NFNT",
+      "resourceId": 32000,
+      "asciiRange": "U+0020–U+007E",
+      "glyphs": 95,
+      "sourceSha256": "47bb591f77390eae3b94669e1cb77ac8f8f5acced3d1cff35acd1ae205248f20",
+      "fontSha256": "1070e21fcb60a4b58f456364af8917ce8d9508c1f88f9894f9aec62b050d790a",
+      "sourceCellHeight": 11,
+      "sourceAscent": 9,
+      "sourceDescent": 2,
+      "latinTopOffset": 1,
+      "originalRuntimeLayoutVerified": false
     }
   }
 ];
