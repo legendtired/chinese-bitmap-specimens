@@ -1,0 +1,18 @@
+{
+  "candidate": "sunplus_cp936_12x12",
+  "reference": "hzk_hzk12",
+  "reference_bdf_sha256": "09e605a454e8745155a766db42460c229f984096e1a66293a0bca4c3e2929dd8",
+  "common_characters": 7445,
+  "exact_same_full_cell_characters": 7445,
+  "common_han": 6763,
+  "exact_same_full_cell_han": 6763,
+  "han_difference_unicode": [],
+  "non_han_difference_unicode": [],
+  "method": "Same Unicode, full original 12x12 cells; no trimming, resampling, translation, perimeter constraint or font substitution.",
+  "original_hzk12_sha256": "d83b7f1603e87dd68bebc3a6a159c57909779684188cba790146f59424c28a02",
+  "original_hzk12_bytes": 196272,
+  "original_hzk12_same_source_code_full_cell_checks": 7445,
+  "original_hzk12_same_source_code_full_cell_han_checks": 6763,
+  "exact_trim_han": 6763,
+  "source_coverage_note": "HZK12 stores additional unused/extension slots; equality claim is all 7445 assigned GB2312 characters shared with Sunplus CP936, not whole-file identity."
+}

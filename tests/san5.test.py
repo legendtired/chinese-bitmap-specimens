@@ -12,7 +12,7 @@ R = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(R / 'scripts'))
 import render_san5_specimen as san5
 
-rows = [r for r in json.loads((R / 'data/catalog.json').read_text()) if r['id'] not in ('ps2_scph50009_24','win32_simsun_13','win32_simsun_20')]
+rows = [r for r in json.loads((R / 'data/catalog.json').read_text()) if r['id'] not in ('sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20')]
 manifest = json.loads((R / 'data/release-san5.json').read_text())
 by_id = {row['id']: row for row in rows}
 base = [row for row in rows if row['id'] in manifest['baseIds']]
@@ -65,7 +65,7 @@ summary = json.loads((R / 'data/summary.json').read_text())
 # Fullwidth SAN5 increases ordinary rows but never ordinary ASCII coverage.
 for key in ('standardAsciiComplete', 'partialAscii', 'ordinaryAsciiRows'):
     assert summary[key] == manifest['previousSummary'][key] + (3 if key != 'partialAscii' else 0)
-assert summary['ordinaryWithoutAsciiEvaluation'] == manifest['previousSummary']['ordinaryWithoutAsciiEvaluation'] + 1
+assert summary['ordinaryWithoutAsciiEvaluation'] == manifest['previousSummary']['ordinaryWithoutAsciiEvaluation'] + 3
 curation = json.loads((R / 'data/curation.json').read_text())
 assert not set(curation['removedIds']).intersection(by_id)
 assert 'mstar_tv_simp_18' in by_id  # Concurrent approved addition must remain present.

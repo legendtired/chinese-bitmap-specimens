@@ -1,0 +1,72 @@
+{
+  "scope": "Same bounded models as prior scale report: original full 24x24 cell and trimmed ink; nearest-neighbor resized dimensions; no dilation or one-pixel horizontal/vertical extension; compare trimmed pixels. No delivery image altered. Not an exhaustive rasterization or provenance proof.",
+  "reference_private_glyph_json_sha256": "b72a958689b15fda9bb6416ff22ec0196da27fa557123856e91cfce02e17b89a",
+  "resampling_instances": 5040,
+  "bitmap_comparisons_including_bold": 15120,
+  "results": [
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "PS2_SCPH50009_24x24_GB18030",
+      "sample_han_compared": 14,
+      "sample_text": "视野无限广窗外有蓝天片版牌局",
+      "exact_trim_before_resize": 0,
+      "width_range": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "height_range": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "PS2_SCPH50009_24x24_GB18030",
+      "sample_han_compared": 14,
+      "sample_text": "视野无限广窗外有蓝天片版牌局",
+      "exact_trim_before_resize": 0,
+      "width_range": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "height_range": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "matching_models": []
+    }
+  ],
+  "reference_complete_rom2_sha256": "fe61257af2cd2675256c2dcc5ffd78eae1a22d24f816571c2f927a93ed3bcc2d",
+  "sample_glyphs_verified_against_original_rom": 14
+}

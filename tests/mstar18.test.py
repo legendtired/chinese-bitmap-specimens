@@ -2,7 +2,7 @@
 from pathlib import Path
 import hashlib,json,struct,sys
 R=Path(__file__).resolve().parents[1]
-rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('ps2_scph50009_24','win32_simsun_13','win32_simsun_20','san5_dos_16x14')];m=json.loads((R/'data/release-mstar18.json').read_text())
+rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20','san5_dos_16x14')];m=json.loads((R/'data/release-mstar18.json').read_text())
 base=[r for r in rows if r['id'] in m['baseIds']];added=[r for r in rows if r['id'] in m['addedIds']]
 assert len(rows)==223 and len(base)==222 and len(added)==1
 assert [r['id'] for r in base]==m['baseIds']

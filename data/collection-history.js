@@ -156,6 +156,13 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "ps2_scph50009_24"
       ]
+    },
+    {
+      "sourceManifest": "release-sunplus.json",
+      "ids": [
+        "sunplus_sphe8202l_16x16",
+        "sunplus_sphe8202l_20x24"
+      ]
     }
   ]
 };

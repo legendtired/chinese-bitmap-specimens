@@ -1,0 +1,108 @@
+{
+  "base_commit": "292acf67a86848cc7aadf7908b4a930a3e49fc23",
+  "approved_new_entries": 2,
+  "new_source_indices": [
+    264,
+    265
+  ],
+  "expected_catalog_total": 229,
+  "new_variants": [
+    "16x16",
+    "20x24"
+  ],
+  "technical_source_comparison_only": {
+    "12x12": "All7445 standard GB2312 glyphs including6763 Han exactly match existing HZK12; no new catalog row or public PNG."
+  },
+  "public_files": {
+    "assets/specimens/sunplus_sphe8202l_16x16.png": {
+      "bytes": 510,
+      "sha256": "2b9d5c4f658ab4ec7735f1f424bfc7d1b8667ee974ed2e92e0096a21ddb21469"
+    },
+    "assets/specimens/sunplus_sphe8202l_20x24.png": {
+      "bytes": 727,
+      "sha256": "eb6ccee4516890b26d671145d9c2b49265d5f50493e40a2fbb00ea4e9ae3658b"
+    },
+    "data/release-sunplus.json": {
+      "bytes": 6187,
+      "sha256": "299e4d68e10a3a6baf8e85280a1067f5832f920d2bcb88988f39d7b8c45301e5"
+    },
+    "data/sunplus-catalog-entries.json": {
+      "bytes": 10993,
+      "sha256": "dc06a11de1a566a116d2c3454bb190e5a493742ce51a99e266aa4702ae49903e"
+    },
+    "data/sunplus-dedup-audit.json": {
+      "bytes": 16981,
+      "sha256": "9d41b0a310d6315ca806726107d9100ace263f22ea6ebb548ea5dac006ed8568"
+    },
+    "data/sunplus-hzk12-duplicate-audit.json": {
+      "bytes": 960,
+      "sha256": "aa50a208e8bac107eb82e067369b03a00569483a1ace9d6ae379c9ead8f5cd15"
+    },
+    "data/sunplus-independent-audit.json": {
+      "bytes": 18464,
+      "sha256": "12cc167d48f0d7bf50b3ec86705046853a6254a44012289fdaae20905a8b408f"
+    },
+    "data/sunplus-ps2-scale-audit.json": {
+      "bytes": 1783,
+      "sha256": "b678fd7beb5651f2d5d4a8f2af57b6370f202670fec63dbadff6c32199007d98"
+    },
+    "data/sunplus-restored-source-audit.json": {
+      "bytes": 12651,
+      "sha256": "2aac88b66a7903c01fd6aa8eced260a1b56bc0c480d5a45005eb216a36112afc"
+    },
+    "data/sunplus-source-summary.json": {
+      "bytes": 6007,
+      "sha256": "d0959aa64584a904befb14d54492e2d2b884a110adb6b2079badd3b7275c8ef4"
+    },
+    "docs/sunplus-sphe8202l.md": {
+      "bytes": 13050,
+      "sha256": "b5beffd81f591945a75b2f16bfc3bd322a436343e6aa3d72ea5de34d75177fc0"
+    },
+    "scripts/sunplus_bitmap_export.py": {
+      "bytes": 17510,
+      "sha256": "0806f11b9fe92bac611bf636702be4021a1158ebf69ac82370d4064382e717dd"
+    },
+    "scripts/verify_sunplus_bitmap_decode.py": {
+      "bytes": 33208,
+      "sha256": "ebb19adb2139dd53c0443cd930a4169feb121c4acb47124aa902472649f0d98e"
+    },
+    "tests/sunplus-collection.test.py": {
+      "bytes": 3487,
+      "sha256": "bbc504c25575e3b036eea70d0efd73e4722d68227bdeeaad7539b37a3df33b2c"
+    },
+    "tests/sunplus.test.py": {
+      "bytes": 9176,
+      "sha256": "79a7538d11b5e17f0083ff733b5727dde65ccb98dcddfc51f2ce820b466c7279"
+    },
+    "tests/sunplus-preservation.test.py": {
+      "bytes": 2019,
+      "sha256": "2c5ce21c749b77391435ee1d2d992c8fd654d68253ae9dd49276aaef81472d65"
+    }
+  },
+  "checks": {
+    "public_synthetic_tests": "10 passed; optional private source test skipped without input",
+    "private_source_tests": "11 passed against exact source archive after integration",
+    "collection_metadata_test": "passed; two entries and two public PNGs only",
+    "independent_all_source_decode": "Rerun after integration passed:22842 slots and6700320 pixels, two public PNGs; no public12px duplicate",
+    "independent_bdf_roundtrip": "passed;7445 glyphs per source object, in memory",
+    "source_fontinfo_mapping_audit": "passed;24 runtime redirects including11 Han documented, not applied",
+    "hzk12_original_binary_duplicate_check": "7445/7445 standard GB2312 full12x12 glyphs identical by original source code;6763/6763 Han",
+    "catalog_screen": "repeated without artificial white perimeter;12 matched existing HZK12,16/20 no pattern matches",
+    "ps2_bounded_scale_followup": "14 original ROM2 glyphs verified;15120 bitmap comparisons, zero exact matches",
+    "restored_historical_references": "11 new references;22 pair comparisons,101186 common-Han pairs exact-trim0;24295 full24-to20x24 NN comparisons0;123120 sample-transform comparisons0",
+    "standard_library_only": "import inspection passed",
+    "public_file_payload_boundary": "only.py/.md/.json and2 fixed PNGs; no archive/object/BDF/glyph arrays",
+    "public_source_links": "browser pages only; no raw/download links",
+    "native_png_visual_inspection": "passed at original dimensions",
+    "formal_repository": "229 total entries; previous227 rows and specimen SHA values unchanged;13 recommendations unchanged",
+    "full_site_build_and_regressions": "python3 scripts/workspace.py build and check passed;229 detail pages and230 sitemap URLs; real-browser checks not included"
+  },
+  "notes": [
+    "No library or firmware executed.",
+    "Only three approved CP936 source objects supported by offline decoder; only16/20 are new catalog entries.",
+    "Default local output covers three source objects as technical comparison; explicit BDF option is standard Unicode interpretation, not runtime approximate conversion.",
+    "No source or metadata change to the original227 catalog rows is included.",
+    "Historical glyph creation method remains unverified."
+  ],
+  "audit_phase": "final integrated two-entry release before publication"
+}

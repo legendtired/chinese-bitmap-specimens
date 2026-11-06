@@ -1,0 +1,643 @@
+{
+  "limitations": "Exact trimmed same-Unicode comparisons and fixed-sentence screening only; not proof of independent design or handmade origin. Reference coverage varies; no resizing in full-font comparisons.",
+  "catalog_screen": {
+    "catalogCount": 227,
+    "scope": "Fixed Chinese sentence exact cropped bitmap patterns against original specimen pixels; no artificial white perimeter requirement. Pattern presence does not prove same-Unicode or full-font identity. No resizing or stroke transformation.",
+    "results": {
+      "sunplus_cp936_16x16_glyphs": [],
+      "sunplus_cp936_20x24_glyphs": []
+    }
+  },
+  "full_comparisons": [
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "HZK16",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "Beijing16",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "simsun20-glyphs",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "simsun24-glyphs",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "simsun16-glyphs",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "simsun13-glyphs",
+      "common_han": 6763,
+      "exact_trim": 1
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "HZK24H",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "HZK24S",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "HZK24K",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "HZK24F",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "mstar24",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "mstar24demo",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "ali24",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "HZK16",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "Beijing16",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "simsun20-glyphs",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "simsun24-glyphs",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "simsun16-glyphs",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "simsun13-glyphs",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "HZK24H",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "HZK24S",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "HZK24K",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "HZK24F",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "mstar24",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "mstar24demo",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "ali24",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "withdrawn_solaris_12",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "withdrawn_solaris_14",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "withdrawn_solaris_20",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "KC_15f",
+      "common_han": 4383,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "KC_15j",
+      "common_han": 4383,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "eten",
+      "common_han": 4383,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "eten24",
+      "common_han": 4383,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "gb16fs.bdf",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "gb24st.bdf",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "guob16.bdf",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "withdrawn_efont_b24",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "withdrawn_efont_b16",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "withdrawn_efont_b14",
+      "common_han": 6763,
+      "exact_trim": 1
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "withdrawn_efont_b12",
+      "common_han": 6763,
+      "exact_trim": 1
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "withdrawn_efont_b10",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "nisc16",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "withdrawn_solaris_12",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "withdrawn_solaris_14",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "withdrawn_solaris_20",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "KC_15f",
+      "common_han": 4383,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "KC_15j",
+      "common_han": 4383,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "eten",
+      "common_han": 4383,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "eten24",
+      "common_han": 4383,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "gb16fs.bdf",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "gb24st.bdf",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "guob16.bdf",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "withdrawn_efont_b24",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "withdrawn_efont_b16",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "withdrawn_efont_b14",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "withdrawn_efont_b12",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "withdrawn_efont_b10",
+      "common_han": 6763,
+      "exact_trim": 0
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "nisc16",
+      "common_han": 6763,
+      "exact_trim": 0
+    }
+  ],
+  "scale_models": {
+    "scope": "Sample only. Same-source full-cell and trim nearest-neighbor resizing, then optional 1px x/y extension. No changes to deliverables. Not an exhaustive possible-transformation proof.",
+    "results": [
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "HZK16",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "Beijing16",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "simsun20-glyphs",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "simsun24-glyphs",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "simsun16-glyphs",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "simsun13-glyphs",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "HZK24H",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "HZK24S",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "HZK24K",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "HZK24F",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "mstar24",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "mstar24demo",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "ali24",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "withdrawn_solaris_12__trimmed_input",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "withdrawn_solaris_14__trimmed_input",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "withdrawn_solaris_20__trimmed_input",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "KC_15f__trimmed_input",
+        "sample_han_compared": 10,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "KC_15j__trimmed_input",
+        "sample_han_compared": 10,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "eten__trimmed_input",
+        "sample_han_compared": 10,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "eten24__trimmed_input",
+        "sample_han_compared": 10,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "gb24st.bdf__trimmed_input",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "guob16.bdf__trimmed_input",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_16x16",
+        "reference": "nisc16__trimmed_input",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "HZK16",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "Beijing16",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "simsun20-glyphs",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "simsun24-glyphs",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "simsun16-glyphs",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "simsun13-glyphs",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "HZK24H",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "HZK24S",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "HZK24K",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "HZK24F",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "mstar24",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "mstar24demo",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "ali24",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "withdrawn_solaris_12__trimmed_input",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "withdrawn_solaris_14__trimmed_input",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "withdrawn_solaris_20__trimmed_input",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "KC_15f__trimmed_input",
+        "sample_han_compared": 10,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "KC_15j__trimmed_input",
+        "sample_han_compared": 10,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "eten__trimmed_input",
+        "sample_han_compared": 10,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "eten24__trimmed_input",
+        "sample_han_compared": 10,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "gb24st.bdf__trimmed_input",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "guob16.bdf__trimmed_input",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      },
+      {
+        "candidate": "sunplus_cp936_20x24",
+        "reference": "nisc16__trimmed_input",
+        "sample_han_compared": 14,
+        "best_matching_models": []
+      }
+    ]
+  },
+  "excluded_duplicate_12x12": "All7445 standard GB2312 characters exactly match existing HZK12 full12x12 cells; see sunplus-hzk12-duplicate-audit.json. Not a new catalog entry."
+}

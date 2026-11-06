@@ -2,7 +2,7 @@
 from pathlib import Path
 import hashlib,json,struct
 R=Path(__file__).resolve().parents[1]
-rows=json.loads((R/'data/catalog.json').read_text());m=json.loads((R/'data/release-ps2-china.json').read_text())
+rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ['sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24']];m=json.loads((R/'data/release-ps2-china.json').read_text())
 base=[r for r in rows if r['id'] in m['baseIds']];new=[r for r in rows if r['id'] in m['addedIds']]
 def digest(v):return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
 assert len(rows)==len({r['id'] for r in rows})==m['totalRows']==227
@@ -23,10 +23,11 @@ b=(R/r['specimen']).read_bytes();assert hashlib.sha256(b).hexdigest()==r['specim
 assert struct.unpack('>II',b[16:24])==(r['specimenWidth'],r['specimenHeight'])==(674,52)
 assert (R/'fonts/ps2_scph50009_24.html').is_file()
 assert (R/'scripts/verify_ps2_bitmap_decode.py').is_file()
-h=json.loads((R/'data/collection-history.json').read_text());assert h['batches'][-1]=={'sourceManifest':'release-ps2-china.json','ids':['ps2_scph50009_24']}
-s=json.loads((R/'data/summary.json').read_text());assert s['rows']==227 and s['nativePngCount']==226
+h=json.loads((R/'data/collection-history.json').read_text());assert next(b for b in h['batches'] if b['sourceManifest']=='release-ps2-china.json')=={'sourceManifest':'release-ps2-china.json','ids':['ps2_scph50009_24']}
+s=json.loads((R/'data/summary.json').read_text());assert s['rows']==229 and s['nativePngCount']==228
 for key in ['standardAsciiComplete','ordinaryAsciiRows']:assert s[key]==m['previousSummary'][key]+1
-for key in ['partialAscii','ordinaryWithoutAsciiEvaluation']:assert s[key]==m['previousSummary'][key]
+assert s['partialAscii']==m['previousSummary']['partialAscii']
+assert s['ordinaryWithoutAsciiEvaluation']==m['previousSummary']['ordinaryWithoutAsciiEvaluation']+2
 c=json.loads((R/'data/curation.json').read_text());assert not set(c['removedIds']).intersection(r['id'] for r in rows)
 assert s['fontFilesIncluded']==0 and s['glyphDataIncluded'] is False
 print('PS2: exactly1 approved addition; all226 prior rows and PNGs unchanged, native ASCII, mapping/layout/rights limits intact.')

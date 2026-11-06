@@ -99,3 +99,6 @@ python3 scripts/workspace.py check
 
 
 - [中国版PS2 24×24](ps2-china.md)：固定SHA完整ROM2、同ROM西文、已核GB2312/GBK映射及存储框导出边界。
+
+
+- [Sunplus SPHE8202L 简体两款](sunplus-sphe8202l.md)：12×12重复不新增，16×16／20×24原GB2312槽标准Unicode解释、无半角ASCII、源像素独立审计与本地导出边界。

@@ -1,0 +1,496 @@
+{
+  "scope": "Newly restored private historical references only; fonts stay private. Exact comparison trims blank borders without resizing. All-common-Han 24-to-20x24 NN checks and bounded sample transforms are separate models, not a proof about historical origin.",
+  "reference_meta": {
+    "taipeis24": {
+      "sha256": "896d84b5ad895019a2accb61bc72a5bd0509c7c59c0505cbce33bdfd96ebe8db",
+      "bytes": 3416307,
+      "han": 13061,
+      "encoding": "ISO10646-1 per CHARSET_REGISTRY/ENCODING; FONT string may retain historical Big5 name"
+    },
+    "taipeib24": {
+      "sha256": "26e28d491302a4bcd23cde9c772b8c23f0a3453824b0f083a8a4411fd5f457b6",
+      "bytes": 3416307,
+      "han": 13061,
+      "encoding": "ISO10646-1 per CHARSET_REGISTRY/ENCODING; FONT string may retain historical Big5 name"
+    },
+    "taipeir24": {
+      "sha256": "79d3027000d5d8ef296316251dad1370483d73aa4b3416269b51ae186b814065",
+      "bytes": 3416307,
+      "han": 13061,
+      "encoding": "ISO10646-1 per CHARSET_REGISTRY/ENCODING; FONT string may retain historical Big5 name"
+    },
+    "taipeib20": {
+      "sha256": "ce92fef6845d469407c5a5d60271c8fed06b4e13df02cb9002ee864e4663688e",
+      "bytes": 3038223,
+      "han": 13061,
+      "encoding": "ISO10646-1 per CHARSET_REGISTRY/ENCODING; FONT string may retain historical Big5 name"
+    },
+    "taipeik20": {
+      "sha256": "82e663fc6562d1957143d45ffbc01810d7a65a54405fc29d7e91b8c357aa440d",
+      "bytes": 3038223,
+      "han": 13061,
+      "encoding": "ISO10646-1 per CHARSET_REGISTRY/ENCODING; FONT string may retain historical Big5 name"
+    },
+    "taipeil20": {
+      "sha256": "b1d2eb9bfc45d04443da4b0bb0b23d6df1b3ae0ed5ed6d69a511c13ad43075ff",
+      "bytes": 3038223,
+      "han": 13061,
+      "encoding": "ISO10646-1 per CHARSET_REGISTRY/ENCODING; FONT string may retain historical Big5 name"
+    },
+    "taipeim20": {
+      "sha256": "22918a784016ddb1ab3e478382d08e03abf81b0a103282456ace342897490cdc",
+      "bytes": 3038223,
+      "han": 13061,
+      "encoding": "ISO10646-1 per CHARSET_REGISTRY/ENCODING; FONT string may retain historical Big5 name"
+    },
+    "taipeir20": {
+      "sha256": "5d8d95f3a12940f1fd3f9205612441f2904c6e37d699599a5267c307c0ca62f7",
+      "bytes": 3038223,
+      "han": 13061,
+      "encoding": "ISO10646-1 per CHARSET_REGISTRY/ENCODING; FONT string may retain historical Big5 name"
+    },
+    "taipeis20": {
+      "sha256": "260f66bfcd84999b36da5756da4ee40d9ea6e0440d115a94e4731d21a5fc1753",
+      "bytes": 3038223,
+      "han": 13061,
+      "encoding": "ISO10646-1 per CHARSET_REGISTRY/ENCODING; FONT string may retain historical Big5 name"
+    },
+    "hbf_cch24": {
+      "sha256": "8951424245ec69e2a503f8c7442529de3768ffb2b48f2e8492597a22318325b4",
+      "bytes": 1971350,
+      "han": 6763,
+      "encoding": "ISO10646-1 per CHARSET_REGISTRY/ENCODING; FONT string may retain historical Big5 name"
+    },
+    "ccic_taipeil24": {
+      "sha256": "086cfad750c7ef8b4328d51f82b4a9f3552728e20c1d44d726a2ad79a7edf0c1",
+      "bytes": 3416981,
+      "han": 13061,
+      "encoding": "big5",
+      "note": "Original Big5 BDF used with canonical codec roundtrip; alternate source codes for U+5341/U+5345 are not silently substituted. Private converted BDF has ENCODING -1 and is not treated as Unicode."
+    }
+  },
+  "exact_full_comparisons": [
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeis24",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeib24",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeir24",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeib20",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeik20",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeil20",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeim20",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeir20",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeis20",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "hbf_cch24",
+      "common_han": 6763,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeis24",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": [],
+      "full_cell_nn_to_20x24_equal": 0,
+      "full_cell_nn_to_20x24_equal_unicode": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeib24",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": [],
+      "full_cell_nn_to_20x24_equal": 0,
+      "full_cell_nn_to_20x24_equal_unicode": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeir24",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": [],
+      "full_cell_nn_to_20x24_equal": 0,
+      "full_cell_nn_to_20x24_equal_unicode": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeib20",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeik20",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeil20",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeim20",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeir20",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeis20",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "hbf_cch24",
+      "common_han": 6763,
+      "exact_trim": 0,
+      "sample_equal": [],
+      "full_cell_nn_to_20x24_equal": 0,
+      "full_cell_nn_to_20x24_equal_unicode": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "ccic_taipeil24",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "ccic_taipeil24",
+      "common_han": 4383,
+      "exact_trim": 0,
+      "sample_equal": [],
+      "full_cell_nn_to_20x24_equal": 0,
+      "full_cell_nn_to_20x24_equal_unicode": []
+    }
+  ],
+  "sample_transform_models": [
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeis24",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeib24",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeir24",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeib20",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeik20",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeil20",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeim20",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeir20",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "taipeis20",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "hbf_cch24",
+      "sample_han_compared": 14,
+      "sample_missing": [],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeis24",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeib24",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeir24",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeib20",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeik20",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeil20",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeim20",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeir20",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "taipeis20",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "hbf_cch24",
+      "sample_han_compared": 14,
+      "sample_missing": [],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_16x16",
+      "reference": "ccic_taipeil24",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    },
+    {
+      "candidate": "sunplus_cp936_20x24",
+      "reference": "ccic_taipeil24",
+      "sample_han_compared": 10,
+      "sample_missing": [
+        "视",
+        "无",
+        "广",
+        "蓝"
+      ],
+      "matching_models": []
+    }
+  ],
+  "sample_resampling_instances": 41040,
+  "sample_bitmap_comparisons_including_bold": 123120
+}
