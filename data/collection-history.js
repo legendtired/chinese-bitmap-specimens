@@ -131,6 +131,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "palm_cjkos_fb512xmf"
       ]
+    },
+    {
+      "sourceManifest": "release-mstar18.json",
+      "ids": [
+        "mstar_tv_simp_18"
+      ]
     }
   ]
 };

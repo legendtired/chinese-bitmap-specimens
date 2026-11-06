@@ -14656,5 +14656,83 @@
       "latinTopOffset": 1,
       "originalRuntimeLayoutVerified": false
     }
+  },
+  {
+    "id": "mstar_tv_simp_18",
+    "name": "MStar 电视简体 · 18×18存储（最大字面14×14）",
+    "family": "MStar TV/DVB 简体位图",
+    "width": 18,
+    "height": 18,
+    "cellWidth": 18,
+    "cellHeight": 18,
+    "inkWidth": 14,
+    "inkHeight": 14,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备 OSD"
+    ],
+    "specimen": "assets/specimens/mstar_tv_simp_18.png",
+    "specimenWidth": 234,
+    "specimenHeight": 40,
+    "specimenSha256": "461d47652cb230f7db33b838433561609327bac72d743d4f1bcf29a5c592ecd3",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "coverage": "7804个原Unicode槽，含全部6763个非空GB2312汉字及95个可打印ASCII；标准样文完整。全表226空白槽不算汉字覆盖。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://github.com/schreibikus/8831-16714/blob/e1f844b204be3f045a425520503331a6e059ac9d/tv-ap/dvb/ui2/font/Simp_ch_18X18.bin",
+    "sourceLabel": "MStar电视/DVB源码资源浏览页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "未找到该字库独立许可。周边源码有MStar专有声明，具体字形权利人未确证；Gentium/Nanum及FreeType许可不适用于本中文字库。仅展示固定小样和不含字模的导出方法，不公开整库。",
+    "provenance": "固定版本源码内Simp_ch_18X18.bin，未压缩1bpp原生位图及Unicode映射；DTMB镜像清单直接引用。不是已验证型号的实物ROM，正式字体名、设计者及设计年代未知；源码提交时间不作字体年份。",
+    "notes": "18×18是存储格，汉字最大实墨14×14。去外围空白后6763汉字仍互异。已查原字模与样图未见整套重复，范围详见提取方法；不宣称原创或全球唯一，也未证明Sony同源。原始位图存储不自动证明最初手绘。",
+    "layoutNote": "按源码VARWIDTH模式使用原bbox宽度，汉字字进15px，ASCII不等宽；不加可选gap/kerning或缩放。每字保留完整18×18像素，共同基线和两行4px间隔为导出/展示约定，非实机排版复刻。",
+    "nativeEvidence": {
+      "summary": "直接读取1bpp按行MSB-first像素，18×18字框、56字节槽（含2字节尾填充）；全7804字与独立位索引算法及BDF回读核验，无轮廓栅格化、借字或描边。",
+      "sourceUrl": "https://github.com/schreibikus/8831-16714/blob/e1f844b204be3f045a425520503331a6e059ac9d/core/api/include/msAPI_Font.h#L209-L225",
+      "source_sha256": "b2860bdb2486c5901bcebe3b29d4e009ec9151915c4d9640a8009d039903f0bf",
+      "storageCell": [
+        18,
+        18
+      ],
+      "maxHanInk": [
+        14,
+        14
+      ],
+      "unicodeMapped": 7804,
+      "nonblankHan": 6763,
+      "gb2312Han": 6763,
+      "asciiMapped": 95,
+      "hardwareLayoutVerified": false
+    },
+    "priority": 0,
+    "sourceIndex": 259,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权处理指定源码字库，用本站纯Python脚本校验精确SHA后离线导出BDF。默认原bbox宽度且无额外字距，可选18px固定字进；完整字库不公开。",
+      "links": [
+        {
+          "label": "来源、校验及离线导出",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/mstar-18.md",
+          "action": "method"
+        },
+        {
+          "label": "查看源码资源",
+          "url": "https://github.com/schreibikus/8831-16714/blob/e1f844b204be3f045a425520503331a6e059ac9d/tv-ap/dvb/ui2/font/Simp_ch_18X18.bin",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-06",
+      "type": "method"
+    }
   }
 ]

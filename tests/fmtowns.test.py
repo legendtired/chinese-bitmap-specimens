@@ -2,7 +2,7 @@ from approved_latin_update import historical_rows
 """Approved FM Towns20 addition with exact208 baseline and bounded coverage."""
 from pathlib import Path
 import hashlib,json,struct
-R=Path(__file__).resolve().parents[1];rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('palm_cjkos_fgb12ktf','palm_cjkos_fgb12fsf','palm_cjkos_fb512kbf','palm_cjkos_fb512xmf','psion618c_8','psion618c_11','wqx_pc505_14x15','ibm_pcdos_kai_24', 'ibm_pcdos_hei_24', 'ibm_pcdos_fangsong_24', 'nokia_dct3_1999', 'sun_gbk_song_12', 'sun_gbk_song_14', 'sun_gbk_song_16', 'sun_gbk_song_20', 'sun_gbk_song_24', 'sun_gb2312_song_12', 'sun_gb2312_song_14', 'sun_gb2312_song_20')];m=json.loads((R/'data/release-fmtowns-f20.json').read_text());fid='fmtowns_f20_20';new=[r for r in rows if r['id']==fid];base=[r for r in rows if r['id']!=fid]
+R=Path(__file__).resolve().parents[1];rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('mstar_tv_simp_18','palm_cjkos_fgb12ktf','palm_cjkos_fgb12fsf','palm_cjkos_fb512kbf','palm_cjkos_fb512xmf','psion618c_8','psion618c_11','wqx_pc505_14x15','ibm_pcdos_kai_24', 'ibm_pcdos_hei_24', 'ibm_pcdos_fangsong_24', 'nokia_dct3_1999', 'sun_gbk_song_12', 'sun_gbk_song_14', 'sun_gbk_song_16', 'sun_gbk_song_20', 'sun_gbk_song_24', 'sun_gb2312_song_12', 'sun_gb2312_song_14', 'sun_gb2312_song_20')];m=json.loads((R/'data/release-fmtowns-f20.json').read_text());fid='fmtowns_f20_20';new=[r for r in rows if r['id']==fid];base=[r for r in rows if r['id']!=fid]
 assert len(new)==1 and len(base)==208 and len(rows)==209
 assert hashlib.sha256(json.dumps(historical_rows(base),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['baseRowsSha256']
 r=new[0];assert r['id']==m['addedId'] and r['priority']==0
