@@ -27,5 +27,5 @@ assert '2013' in r['provenance'] and '17' in r['coverage'];assert not set('频�
 assert '09:41' in r['text'] and '单' in r['text']
 r=byid['ccdb_cccii_64'];assert r['height']==64 and r['nativeEvidence']['records']==73885
 assert '不等于73885个独立汉字' in r['notes'] and ',' in r['text']
-s=json.loads((R/'data/summary.json').read_text());assert (s['rows'],s['nativePngCount'],s['referenceRows'],s['variableGridRows'])==(225,224,1,2)
+s=json.loads((R/'data/summary.json').read_text());assert (s['rows'],s['nativePngCount'],s['referenceRows'],s['variableGridRows'])==(222,221,1,2)
 print('v17 checks passed: retained baseline exact except approved acquisition guidance and Hanyi edits; seven historical plus two efont exclusions; only15 approved additions, zero new priority; variable grids,34px frames,2013 OSD and64px evidence boundaries.')

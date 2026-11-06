@@ -8,9 +8,6 @@ from pathlib import Path
 
 # Verified historical databases; True marks an included specimen source.
 SOURCES = {
-    '5877cc54d8a4cce49629a40e4c29e8c45908799d35f8dfa94ed667a0777ba77a': (12, 'gb2312', True),
-    'f630ebdea98ae72e28d7179b64cb97bde13f39eb65b66bed2c7bf6209897d4de': (12, 'gb2312', True),
-    '20cb494bf5aa0beb70faa1e2cc68b7d8b1fd9efc0a54e9b9f53bb5129a2ca135': (12, 'big5', True),
     'a8de69c5cf30d53a3433c63c1fea1f02a54f21e380ebfe1d312514a51eabf091': (12, 'big5', True),
     '2f2db52b735589ee627b2c9ccd4d73bca2ae1cded7ccf14c377423c54a112cef': (10, 'gb2312', True),
     'c02b4e383ddd08b146fef4f853d55bd6492ceb546cf687fcdf4491837bbcdc8c': (12, 'gb2312', True),

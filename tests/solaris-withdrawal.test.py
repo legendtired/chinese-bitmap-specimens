@@ -15,7 +15,7 @@ assert next(b for b in h['batches'] if b['sourceManifest']=='release-pc505-colle
 for r in m['removedRows']:
  assert not (R/r['specimen']).exists();assert not (R/'fonts'/f"{r['id']}.html").exists()
  assert r['id']not in (R/'index.html').read_text() and r['id']not in (R/'sitemap.xml').read_text()
-assert len(list((R/'fonts').glob('*.html')))==225
+assert len(list((R/'fonts').glob('*.html')))==222
 print('Solaris withdrawal: exactly three absent, five GBK preserved, all other219 rows exact, recommendations and newest PC505 retained.')
 
 # Withdrawn-only acquisition material is excluded from this GitHub synchronization.

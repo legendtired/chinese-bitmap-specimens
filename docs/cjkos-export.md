@@ -53,15 +53,8 @@ python3 scripts/cjkos_to_bdf.py local-research/cjkos/Font/FB512F.PDB local-resea
 
 CJKOS是历史共享软件；来源包可取得不等于独立字体获准再分发。BDF仍受原权利限制。本仓库只提供解析脚本与固定样图，不附PDB或完整导出字库。
 
-## 扩展12点样式
+## 扩展12点细明
 
-同一历史包的 `CJKOS/cjkFntEx.zip` 中，`FontExt/` 提供以下四款，均可用上述脚本导出：
+同一历史包的 `CJKOS/cjkFntEx.zip` 中，`FontExt/FB512XMF.PDB` 为繁体细明12点，可用上述脚本导出。SHA-256：`a8de69c5cf30d53a3433c63c1fea1f02a54f21e380ebfe1d312514a51eabf091`。
 
-- `FGB12KTF.PDB`：简体楷体；SHA-256 `5877cc54d8a4cce49629a40e4c29e8c45908799d35f8dfa94ed667a0777ba77a`。
-- `FGB12FSF.PDB`：简体仿宋；SHA-256 `f630ebdea98ae72e28d7179b64cb97bde13f39eb65b66bed2c7bf6209897d4de`。
-- `FB512KBF.PDB`：繁体标楷；SHA-256 `20cb494bf5aa0beb70faa1e2cc68b7d8b1fd9efc0a54e9b9f53bb5129a2ca135`。
-- `FB512XMF.PDB`：繁体细明；SHA-256 `a8de69c5cf30d53a3433c63c1fea1f02a54f21e380ebfe1d312514a51eabf091`。
-
-简体各6763个、繁体各13061个非空汉字。包内文件日期为1999年，不等于已证实首次发行年或手工制作历史。扩展宋体FGB12STF与HZK12全6763汉字重复，不另收录。
-
-四款与普通Palm12、HZK12、Apple Kai/BiauKai/LiSung及MingLiU逐字比较非重复；其余同高度条目仅做固定样字排查，不宣称全字库相似率已核验。
+含13061个非空汉字。包内文件日期为1999年，不等于已证实首次发行年或手工制作历史。与普通Palm12、HZK12、Apple Kai/BiauKai/LiSung及MingLiU逐字比较非重复；其余同高度条目仅做固定样字排查。

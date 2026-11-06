@@ -1,8 +1,5 @@
 {
   "addedIds": [
-    "palm_cjkos_fgb12ktf",
-    "palm_cjkos_fgb12fsf",
-    "palm_cjkos_fb512kbf",
     "palm_cjkos_fb512xmf"
   ],
   "baseIds": [
@@ -229,5 +226,5 @@
     "psion618c_11"
   ],
   "baseRowsSha256": "cafba2af63a6cbbec881d3f03c0ff212ec9ff3581c30bb60a91c897a61ba3fdc",
-  "addedRowsSha256": "87941acfbc8e8e0157bc5da86b53b64503e24f390fc832b9adeb1db7d2062dce"
+  "addedRowsSha256": "f4dde5b2051e6cee9a97614d41a0170b2117062fde9aa7129df9fb4961251532"
 }

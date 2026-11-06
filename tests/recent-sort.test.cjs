@@ -233,7 +233,7 @@ test('Browser global history path produces the same newest-first order as Common
   vm.runInContext(app.replace(marker, `globalThis.reviewApi = { filterCatalog, visibleCatalog }; ${marker}`), context, {filename:'app.js'});
   const actual = context.reviewApi.filterCatalog(context.window.FONT_CATALOG, {}, '', 'recent');
   assert.deepEqual(Array.from(actual, r => r.id), ids(recent(json('data/catalog.json'))));
-  assert.deepEqual(Array.from(actual.slice(0,4), r => r.id), ['palm_cjkos_fb512xmf','palm_cjkos_fb512kbf','palm_cjkos_fgb12fsf','palm_cjkos_fgb12ktf']);
+  assert.deepEqual(Array.from(actual.slice(0,1), r => r.id), ['palm_cjkos_fb512xmf']);
 });
 
 test('UI change events toggle the recency explanation and keep recent order across favorites and filter resets', () => {
