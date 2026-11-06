@@ -2,7 +2,7 @@
 from pathlib import Path
 import hashlib,json,struct,sys
 R=Path(__file__).resolve().parents[1]
-rows=json.loads((R/'data/catalog.json').read_text());m=json.loads((R/'data/release-mstar18.json').read_text())
+rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id']!='san5_dos_16x14'];m=json.loads((R/'data/release-mstar18.json').read_text())
 base=[r for r in rows if r['id'] in m['baseIds']];added=[r for r in rows if r['id'] in m['addedIds']]
 assert len(rows)==223 and len(base)==222 and len(added)==1
 assert [r['id'] for r in base]==m['baseIds']
@@ -15,7 +15,7 @@ assert r['nativeEvidence']['unicodeMapped']==7804 and r['nativeEvidence']['gb231
 assert r['asciiOrigin']=='native' and r['asciiMissing']==[] and r['missing']==[]
 b=(R/r['specimen']).read_bytes();assert hashlib.sha256(b).hexdigest()==r['specimenSha256'];assert struct.unpack('>II',b[16:24])==(234,40)
 assert not any(x['id'].startswith('mstar') and x['id']!='mstar_tv_simp_18' for x in rows)
-h=json.loads((R/'data/collection-history.json').read_text());assert h['batches'][-1]=={'sourceManifest':'release-mstar18.json','ids':m['addedIds']}
+h=json.loads((R/'data/collection-history.json').read_text());assert next(b for b in h['batches'] if b['sourceManifest']=='release-mstar18.json')=={'sourceManifest':'release-mstar18.json','ids':m['addedIds']}
 assert (R/'fonts/mstar_tv_simp_18.html').is_file()
 sys.path.insert(0,str(R/'scripts'));import mstar_18_to_bdf as e
 try:e.decode(b'not the verified 18px source')

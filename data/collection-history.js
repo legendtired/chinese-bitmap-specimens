@@ -137,6 +137,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "mstar_tv_simp_18"
       ]
+    },
+    {
+      "sourceManifest": "release-san5.json",
+      "ids": [
+        "san5_dos_16x14"
+      ]
     }
   ]
 };
