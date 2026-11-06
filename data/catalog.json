@@ -14954,5 +14954,80 @@
     },
     "layoutNote": "固定两行原生像素样图，中文与原生半角ASCII之间4px空行；字间1px为样图排版间隔，不计入字模字宽。字框20×20，最大墨迹宽/高19×19，常见墨迹18×18。 BDF另用明确的上对齐字框约定，不声称恢复Windows原始基线。",
     "sourceIndex": 262
+  },
+  {
+    "id": "ps2_scph50009_24",
+    "name": "中国版 PS2 · 24×24",
+    "family": "Sony PlayStation 2 中国版",
+    "width": 24,
+    "height": 24,
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/ps2_scph50009_24.png",
+    "specimenWidth": 674,
+    "specimenHeight": 52,
+    "specimenSha256": "a3ce9e56eaf3409eff7bf3c678874b43840f52d726a8179811aaf859e5f27533",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生24×24中文与同ROM ASCII；按完整存储框展示，运行时字进未核。",
+    "coverage": "已验证21,638个GBK映射字符，含20,902基本汉字及全部6,763个GB2312汉字；另95个同ROM可打印ASCII。非完整GBK／GB18030导出。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/scph-50009-cn-190-030623-fixed-underdumped-rom-2.7z",
+    "sourceLabel": "完整ROM2历史转储资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "ROM及字模未查到开放再分发或商用许可；第三方存档不等于授权。仅展示固定样图及无字模离线工具，不公开ROM、完整BDF或字模数组。",
+    "provenance": "第三方保存的SCPH-50009完整ROM2；直接读取GB18030与FNTHANCH两个模块的24×24、1-bit扫描行。不是本次实机转储。EXTINFO有20030224-102654生成字段，不等于字体最初设计年份；原生位图存储已确认，原始手绘历史未独立证实。",
+    "notes": "中文逐行3字节、高位在左；ASCII取同一完整ROM2的FNTHANCH，未借用其他字体。ASCII墨迹至多12px宽，但每条记录24×24；图中保留完整框，24px字进仅为存储框展开约定，非实机度量。GBK另153个符号及其余GB18030槽未映射；不自动补字。GB2312／GBK的两处符号Unicode解释分别导出。查重含旧224样图、新增Windows13/20及可取得撤回项，非所有历史来源穷尽查重。",
+    "layoutNote": "两行样图：中文＋同ROM ASCII；24×24完整存储框，字间1px、行间4px。实际advance与基线未核，不伪造12px半角字进。",
+    "nativeEvidence": {
+      "summary": "完整ROM2 SHA固定；ROMDIR独立解析及两模块SHA复核；所有原槽逐位解码交叉核对。24×24 row-major MSB 1-bit，未使用轮廓栅格化、缩放或补字。",
+      "sourceUrl": "https://archive.org/details/scph-50009-cn-190-030623-fixed-underdumped-rom-2.7z",
+      "source_sha256": "fe61257af2cd2675256c2dcc5ffd78eae1a22d24f816571c2f927a93ed3bcc2d",
+      "sourceGlyphSlots": 28591,
+      "unicodeMappedGbk": 21638,
+      "basicHan": 20902,
+      "gb2312Han": 6763,
+      "printableAscii": 95,
+      "asciiStorageWidth": 24,
+      "asciiInkMaxWidth": 12,
+      "runtimeAdvance": null
+    },
+    "priority": 0,
+    "sourceIndex": 263,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "自行取得并确认有权处理完整2MiB ROM2，按说明校验SHA，再用标准库脚本离线重绘固定PNG或选择本地BDF导出。只导出已核21,638个GBK字符＋95 ASCII；不接受512KiB欠量镜像，不联网、不执行固件、不内嵌字模、不覆盖输出。",
+      "links": [
+        {
+          "label": "原始资料、校验与导出步骤",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/ps2-china.md",
+          "action": "method"
+        },
+        {
+          "label": "查看完整转储资料页",
+          "url": "https://archive.org/details/scph-50009-cn-190-030623-fixed-underdumped-rom-2.7z",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-06",
+      "type": "method"
+    }
   }
 ]

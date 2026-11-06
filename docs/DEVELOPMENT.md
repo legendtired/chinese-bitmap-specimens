@@ -96,3 +96,6 @@ python3 scripts/workspace.py check
 
 
 - [Windows 3.2 CWIN30](windows32-cwin30.md)：固定SHA安装盘存档、原生字框与ASCII、标准GB2312映射及无字模离线导出方法。
+
+
+- [中国版PS2 24×24](ps2-china.md)：固定SHA完整ROM2、同ROM西文、已核GB2312/GBK映射及存储框导出边界。

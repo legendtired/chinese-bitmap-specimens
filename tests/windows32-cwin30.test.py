@@ -41,7 +41,12 @@ class Core(unittest.TestCase):
             with self.assertRaises(ValueError):m.szdd(b,6)
     def test_bdf_synthetic_roundtrip(self):
         gs={65:dict(width=5,height=3,rows=[17,10,4])}
-        self.assertEqual(read_bdf(m.bdf(gs,3)),gs)
+        text=m.bdf(gs,3)
+        self.assertEqual(read_bdf(text),gs)
+        self.assertIn('SWIDTH 1600 0',text)
+        # At75dpi the scalable width for a full cell is960, not1000.
+        for n in [13,20]:
+            self.assertIn('SWIDTH 960 0',m.bdf({65:dict(width=n,height=n,rows=[0]*n)},n))
     def test_png_synthetic_pattern(self):
         gs={65:dict(width=5,height=3,rows=[17,10,4])}
         meta,raw=unpack_png(m.png_data(gs,'A'))

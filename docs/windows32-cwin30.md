@@ -117,3 +117,6 @@ python3 scripts/verify_windows32_bitmap_decode.py local-research/windows32/DISK6
 对每组共同6763汉字，去除外侧空白后逐像素比较：Windows13与三组分别0/1/0字相同，Windows20与三组均0字相同。再允许水平、垂直各±4px整数平移，保留全部墨迹、不缩放：Windows13对Solaris12/14的汉字差异中位数55/38像素，Windows20对Solaris20为92像素；仅差≤3像素的字分别5、35、1个，不构成近整库复用。已撤下的样图和完整来源字体没有随本材料重发布。
 
 Archive元数据的年份与配套字体名称表年份存在差异；未将存档条目日期用于认定设计或发行年份。
+
+
+BDF按75dpi声明尺寸，SWIDTH使用 `round(width×72000÷(size×75))`，全角字符为960；这是导出度量的一致性约定，不修改任何位图或固定预览像素。

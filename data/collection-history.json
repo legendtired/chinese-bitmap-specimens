@@ -150,6 +150,12 @@
         "win32_simsun_13",
         "win32_simsun_20"
       ]
+    },
+    {
+      "sourceManifest": "release-ps2-china.json",
+      "ids": [
+        "ps2_scph50009_24"
+      ]
     }
   ]
 }

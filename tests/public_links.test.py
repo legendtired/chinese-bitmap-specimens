@@ -8,6 +8,9 @@ DOWNLOAD=re.compile(r'\.(?:zip|tar|tgz|gz|z|bz2|xz|7z|rar|ttf|ttc|otf|otc|woff2?
 def direct_download(url):
  url=re.split(r'[\u3000-\u303f\uff00-\uffef]',html.unescape(url))[0].rstrip('.,);')
  p=urlsplit(url); path=unquote(p.path); query=parse_qs(p.query,keep_blank_values=True)
+ if p.hostname=='archive.org' and path.startswith('/download/'): return True
+ # Archive item IDs may end in .7z: /details/<id> is an HTML information page.
+ if p.hostname=='archive.org' and re.fullmatch(r'/details/[^/]+/?',path) and not any(k in query for k in ['raw','download']): return False
  if p.hostname=='github.com' and '/blob/' in path and not any(k in query for k in ['raw','download']): return False
  return any(k in query for k in ['raw','download']) or bool(DOWNLOAD.search(path)) or ('/releases/download/' in path) or (p.hostname=='github.com' and '/archive/' in path)
 scheme='https'+'://'
@@ -15,6 +18,9 @@ assert not direct_download(scheme+'github.com/example/fonts/blob/main/font.ttf')
 for tail in ['font.ttf?raw=true','font.ttf?raw=1','font.ttf?download=1','font.ttf?download']:
  assert direct_download(scheme+'github.com/example/fonts/blob/main/'+tail)
 for hostpath in ['cdn.example.org/font.woff2','raw.githubusercontent.com/example/main/font.bdf','example.org/archive.tar.gz']:
+ assert direct_download(scheme+hostpath)
+assert not direct_download(scheme+'archive.org/details/verified-item.7z')
+for hostpath in ['archive.org/download/item/font.7z','archive.org/download/item/no-extension','archive.org/details/item.7z?download=1','archive.org/details/item/font.bin','example.org/details/item.7z']:
  assert direct_download(scheme+hostpath)
 fail=[];count=0
 for f in ROOT.rglob('*'):

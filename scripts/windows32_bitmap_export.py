@@ -149,7 +149,7 @@ def bdf(gs, n):
     lines = ['STARTFONT 2.1','COMMENT Source pixels preserved; original rights remain with their owners.','COMMENT Layout convention: left=0, bottom=0, ascent=cell height, descent=0.','FONT -historical-windows32_simsun-medium-r-normal--%d-0-75-75-c-0-iso10646-1'%n,f'SIZE {n} 75 75',f'FONTBOUNDINGBOX {n} {n} 0 0','STARTPROPERTIES 3',f'FONT_ASCENT {n}','FONT_DESCENT 0','DEFAULT_CHAR 32','ENDPROPERTIES',f'CHARS {len(gs)}']
     for cp,g in sorted(gs.items()):
         w = g['width']; rb = (w+7)//8
-        lines += [f'STARTCHAR uni{cp:04X}',f'ENCODING {cp}',f'SWIDTH {round(w*1000/n)} 0',f'DWIDTH {w} 0',f'BBX {w} {n} 0 0','BITMAP']
+        lines += [f'STARTCHAR uni{cp:04X}',f'ENCODING {cp}',f'SWIDTH {round(w*72000/(n*75))} 0',f'DWIDTH {w} 0',f'BBX {w} {n} 0 0','BITMAP']
         lines += [f'{row << (rb*8-w):0{rb*2}X}' for row in g['rows']]
         lines += ['ENDCHAR']
     return '\n'.join(lines+['ENDFONT',''])
