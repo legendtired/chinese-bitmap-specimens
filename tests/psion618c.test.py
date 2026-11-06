@@ -3,7 +3,7 @@ from approved_latin_update import historical_rows
 from pathlib import Path
 import json,hashlib,struct,sys
 R=Path(__file__).resolve().parents[1]
-rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('san5_dos_16x14','mstar_tv_simp_18')];m=json.loads((R/'data/release-psion618c.json').read_text())
+rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('win32_simsun_13','win32_simsun_20','san5_dos_16x14','mstar_tv_simp_18')];m=json.loads((R/'data/release-psion618c.json').read_text())
 base=[r for r in rows if r['id'] in m['baseIds']];new=[r for r in rows if r['id'] in m['addedIds']]
 assert len(rows)==222 and len(base)==219 and len(new)==2
 for group,k in [(base,'baseRowsSha256'),(new,'addedRowsSha256')]:assert hashlib.sha256(json.dumps(historical_rows(group),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m[k]

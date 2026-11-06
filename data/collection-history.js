@@ -143,6 +143,13 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "san5_dos_16x14"
       ]
+    },
+    {
+      "sourceManifest": "release-windows32.json",
+      "ids": [
+        "win32_simsun_13",
+        "win32_simsun_20"
+      ]
     }
   ]
 };

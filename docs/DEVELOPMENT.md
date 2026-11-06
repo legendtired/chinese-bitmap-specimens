@@ -93,3 +93,6 @@ python3 scripts/workspace.py check
 ## 三国志Ⅴ DOS 固定预览
 
 [来源、映射与重绘方法](san5-dos.md)。`scripts/render_san5_specimen.py`仅接受精确SHA的本地ZIKU.16P，重绘已核两行PNG，不导出完整字体或候选映射。可用`SAN5_SOURCE=本地输入路径 python3 tests/san5.test.py`运行私有源像素核对；未提供输入时不会声称已通过源文件验证。
+
+
+- [Windows 3.2 CWIN30](windows32-cwin30.md)：固定SHA安装盘存档、原生字框与ASCII、标准GB2312映射及无字模离线导出方法。

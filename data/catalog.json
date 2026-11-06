@@ -14818,5 +14818,141 @@
       "checkedOn": "2026-11-06",
       "type": "method"
     }
+  },
+  {
+    "id": "win32_simsun_13",
+    "name": "Windows 3.2 宋体 · 13×13",
+    "family": "Windows 3.2 宋体",
+    "width": 13,
+    "height": 13,
+    "cellWidth": 13,
+    "cellHeight": 13,
+    "inkWidth": 13,
+    "inkHeight": 13,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体点阵"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/win32_simsun_13.png",
+    "specimenWidth": 215,
+    "specimenHeight": 30,
+    "specimenSha256": "19d238a771141c971fc81264093e63e199dddaaebefaa86ca79b5dd5510c6de4",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "coverage": "完整GB2312双字节7445字符，其中6763汉字均有非空点阵；另有95个可打印ASCII。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/microsoft-windows-3.2-simpl-chinese-3.5",
+    "sourceLabel": "Windows 3.2 第三方存档安装盘镜像",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "公开存档不等于开放授权。仅展示固定研究样文、格式说明和不含字模的提取脚本；不分发完整FON、BDF或字模JSON。使用原字体须另核权利。",
+    "provenance": "直接读取第三方存档安装盘镜像DISK6.img内SIMSUN13.FO_，离线SZDD解压得到CWIN30格式SIMSUN13.FON，未运行安装程序，未栅格化TrueType轮廓。镜像内SIMSUN/SIMHEI TTF不含嵌入位图。最初设计方式及逐点手修历史未证明。 本次未对实体软盘读盘。",
+    "nativeEvidence": {
+      "summary": "原始字框13×13；标准库行整数解码、NumPy逐位解码、Pillow原始1位解码逐7540个Unicode字形一致，全部物理位图数据逐字节往返，BDF回读逐7540字一致。",
+      "sourceUrl": "https://archive.org/details/microsoft-windows-3.2-simpl-chinese-3.5",
+      "source_sha256": "740a69421666667e734e356f536b8684d55cefe1e6a5e9d16fe80c438161b2dd",
+      "gb2312Doublebyte": 7445,
+      "basicHan": 6763,
+      "printableAscii": 95
+    },
+    "notes": "13×13为真实汉字存储字框；6040/6763汉字墨迹为13×13。原ASCII来自同文件独立128槽半角字库，只导出U+0020–U+007E，不借字。与研究基线224项旧目录原图核SHA后排重：223项有可比样字且均存在同字像素差异；ChinaSea外字资料图不可同字比较。这不是全库原创性证明。BDF导出使用显式上对齐固定字框约定，不声称恢复Windows原基线。 另取回并核SHA验证已撤下的Solaris GB2312 12/14/20，逐6763汉字去空白比较；相同字分别0/1/0，未见近整库重复。",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "从第三方存档资料页取得DISK6.img，使用纯Python标准库脚本验证固定SHA256，离线读取SIMSUN13.FO_并解压。默认只生成固定样图和报告；如具备相应使用权，可另加--export-bdf在本地导出7540字形。",
+      "links": [
+        {
+          "label": "原盘验证与提取方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/windows32-cwin30.md",
+          "action": "method"
+        },
+        {
+          "label": "第三方存档资料页",
+          "url": "https://archive.org/details/microsoft-windows-3.2-simpl-chinese-3.5",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-06"
+    },
+    "layoutNote": "固定两行原生像素样图，中文与原生半角ASCII之间4px空行；字间1px为样图排版间隔，不计入字模字宽。字框及最大墨迹13×13。 BDF另用明确的上对齐字框约定，不声称恢复Windows原始基线。",
+    "sourceIndex": 261
+  },
+  {
+    "id": "win32_simsun_20",
+    "name": "Windows 3.2 宋体 · 20×20",
+    "family": "Windows 3.2 宋体",
+    "width": 20,
+    "height": 20,
+    "cellWidth": 20,
+    "cellHeight": 20,
+    "inkWidth": 19,
+    "inkHeight": 19,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体点阵"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/win32_simsun_20.png",
+    "specimenWidth": 296,
+    "specimenHeight": 44,
+    "specimenSha256": "73ff1c50efaef100f781d6bb2db796f726fee2dd7ddb7a76396acad6cdfb4ef1",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "coverage": "完整GB2312双字节7445字符，其中6763汉字均有非空点阵；另有95个可打印ASCII。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/microsoft-windows-3.2-simpl-chinese-3.5",
+    "sourceLabel": "Windows 3.2 第三方存档安装盘镜像",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "公开存档不等于开放授权。仅展示固定研究样文、格式说明和不含字模的提取脚本；不分发完整FON、BDF或字模JSON。使用原字体须另核权利。",
+    "provenance": "直接读取第三方存档安装盘镜像DISK6.img内SIMSUN20.FO_，离线SZDD解压得到CWIN30格式SIMSUN20.FON，未运行安装程序，未栅格化TrueType轮廓。镜像内SIMSUN/SIMHEI TTF不含嵌入位图。最初设计方式及逐点手修历史未证明。 本次未对实体软盘读盘。",
+    "nativeEvidence": {
+      "summary": "原始字框20×20；标准库行整数解码、NumPy逐位解码、Pillow原始1位解码逐7540个Unicode字形一致，全部物理位图数据逐字节往返，BDF回读逐7540字一致。",
+      "sourceUrl": "https://archive.org/details/microsoft-windows-3.2-simpl-chinese-3.5",
+      "source_sha256": "f245986e77adbb467dcbef6428e1a7abb01ccaf40ea61cc4a680c5dcdc445b9e",
+      "gb2312Doublebyte": 7445,
+      "basicHan": 6763,
+      "printableAscii": 95
+    },
+    "notes": "20×20为真实汉字存储字框；5188/6763汉字墨迹为18×18，最大墨迹宽/高为19×19。原ASCII来自同文件独立128槽半角字库，只导出U+0020–U+007E，不借字。与研究基线224项旧目录原图核SHA后排重：223项有可比样字且均存在同字像素差异；ChinaSea外字资料图不可同字比较。这不是全库原创性证明。BDF导出使用显式上对齐固定字框约定，不声称恢复Windows原基线。 另取回并核SHA验证已撤下的Solaris GB2312 12/14/20，逐6763汉字去空白比较；三组相同字均为0；与撤下Solaris20允许±4px平移后，汉字差异中位数92像素，未见近整库重复。",
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "从第三方存档资料页取得DISK6.img，使用纯Python标准库脚本验证固定SHA256，离线读取SIMSUN20.FO_并解压。默认只生成固定样图和报告；如具备相应使用权，可另加--export-bdf在本地导出7540字形。",
+      "links": [
+        {
+          "label": "原盘验证与提取方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/windows32-cwin30.md",
+          "action": "method"
+        },
+        {
+          "label": "第三方存档资料页",
+          "url": "https://archive.org/details/microsoft-windows-3.2-simpl-chinese-3.5",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-06"
+    },
+    "layoutNote": "固定两行原生像素样图，中文与原生半角ASCII之间4px空行；字间1px为样图排版间隔，不计入字模字宽。字框20×20，最大墨迹宽/高19×19，常见墨迹18×18。 BDF另用明确的上对齐字框约定，不声称恢复Windows原始基线。",
+    "sourceIndex": 262
   }
 ]

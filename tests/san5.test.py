@@ -12,7 +12,7 @@ R = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(R / 'scripts'))
 import render_san5_specimen as san5
 
-rows = json.loads((R / 'data/catalog.json').read_text())
+rows = [r for r in json.loads((R / 'data/catalog.json').read_text()) if r['id'] not in ('win32_simsun_13','win32_simsun_20')]
 manifest = json.loads((R / 'data/release-san5.json').read_text())
 by_id = {row['id']: row for row in rows}
 base = [row for row in rows if row['id'] in manifest['baseIds']]
@@ -60,11 +60,11 @@ assert struct.unpack('>II', png[16:24]) == (row['specimenWidth'], row['specimenH
 page = (R / 'fonts/san5_dos_16x14.html').read_text()
 assert '全角英数样文（非ASCII）' in page and '三国志Ⅴ' in page
 history = json.loads((R / 'data/collection-history.json').read_text())
-assert history['batches'][-1] == {'sourceManifest': 'release-san5.json', 'ids': manifest['addedIds']}
+assert next(b for b in history['batches'] if b['sourceManifest'] == 'release-san5.json') == {'sourceManifest': 'release-san5.json', 'ids': manifest['addedIds']}
 summary = json.loads((R / 'data/summary.json').read_text())
 # Fullwidth SAN5 increases ordinary rows but never ordinary ASCII coverage.
 for key in ('standardAsciiComplete', 'partialAscii', 'ordinaryAsciiRows'):
-    assert summary[key] == manifest['previousSummary'][key]
+    assert summary[key] == manifest['previousSummary'][key] + (2 if key != 'partialAscii' else 0)
 assert summary['ordinaryWithoutAsciiEvaluation'] == manifest['previousSummary']['ordinaryWithoutAsciiEvaluation'] + 1
 curation = json.loads((R / 'data/curation.json').read_text())
 assert not set(curation['removedIds']).intersection(by_id)
