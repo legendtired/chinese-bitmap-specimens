@@ -1,3 +1,4 @@
+from approved_latin_update import historical_rows
 """Current scope and exact retention after explicit three-font withdrawal."""
 from pathlib import Path
 import json,hashlib
@@ -6,7 +7,7 @@ R=Path(__file__).resolve().parents[1];m=json.loads((R/'data/withdrawal-solaris-g
 ids=set(m['removedIds']);assert ids=={f'sun_gb2312_song_{n}' for n in (12,14,20)}
 assert len(rows)==len({r['id']for r in rows})==219
 assert rows==[r for r in old if r['id']not in ids]
-assert hashlib.sha256(json.dumps(rows,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['retainedRowsSha256']
+assert hashlib.sha256(json.dumps(historical_rows(rows),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['retainedRowsSha256']
 by={r['id']:r for r in rows};assert all(i in by for i in m['preservedSolarisIds']);assert len(m['preservedSolarisIds'])==5
 assert [r for r in rows if r['priority']>0]==[r for r in old if r['priority']>0]
 c=json.loads((R/'data/curation.json').read_text());assert set(c['postSolarisGb2312RemovedIds'])==ids and ids<=set(c['removedIds'])

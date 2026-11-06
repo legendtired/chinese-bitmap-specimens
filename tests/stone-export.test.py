@@ -71,6 +71,18 @@ class StoneExportTests(unittest.TestCase):
         self.assertEqual(len(bitmap), 32)
         self.assertEqual(bytes.fromhex(''.join(bitmap)), bytes(range(128)))
 
+    def test_symbol_label_does_not_alias_ascii(self):
+        output = mod.make_bdf(1, [(0xFF21, bytes(128))], True).decode('ascii')
+        self.assertIn('fullwidth Latin, not ASCII', output)
+        self.assertIn('ENCODING 65313\n', output)
+        self.assertNotIn('ENCODING 65\n', output)
+
+    def test_symbol_descriptor_guard(self):
+        sources = {name: bytes(32) for name in mod.SOURCES}
+        sources['ALPS_BIOS-ST-M27C256B.BIN'] = bytes(32768)
+        with self.assertRaisesRegex(ValueError, 'descriptor'):
+            mod.extract_symbols(sources)
+
     def test_freetype_native_strike_when_available(self):
         library_name = ctypes.util.find_library('freetype')
         if not library_name:

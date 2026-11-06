@@ -1,10 +1,11 @@
+from approved_latin_update import historical_rows
 from pathlib import Path
 import json,hashlib,struct,sys
 R=Path(__file__).resolve().parents[1]
 rows=json.loads((R/'data/catalog.json').read_text());m=json.loads((R/'data/release-palm-styles.json').read_text())
 base=[r for r in rows if r['id'] in m['baseIds']];new=[r for r in rows if r['id'] in m['addedIds']]
 assert len(rows)==222 and len(base)==221 and len(new)==1
-for group,key in [(base,'baseRowsSha256'),(new,'addedRowsSha256')]: assert hashlib.sha256(json.dumps(group,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m[key]
+for group,key in [(base,'baseRowsSha256'),(new,'addedRowsSha256')]: assert hashlib.sha256(json.dumps(historical_rows(group),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m[key]
 assert [r['id'] for r in rows[-1:]]==m['addedIds']
 sys.path.insert(0,str(R/'scripts'));import cjkos_to_bdf as c
 for r in new:

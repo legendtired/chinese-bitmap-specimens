@@ -1,3 +1,5 @@
+from approved_latin_update import AFTER
+from approved_latin_update import historical_rows
 """Four approved Stone styles, exact prior catalog and fixed specimens only."""
 from pathlib import Path
 import hashlib
@@ -11,7 +13,7 @@ ids = [f'stone_ms2401h_style{i}_32' for i in range(1, 5)]
 assert manifest['addedIds'] == ids
 base = [row for row in rows if row['id'] not in ids]
 assert len(base) == 203 and len(rows) == 207
-assert hashlib.sha256(json.dumps(base, ensure_ascii=False, sort_keys=True).encode()).hexdigest() == manifest['baseRowsSha256']
+assert hashlib.sha256(json.dumps(historical_rows(base), ensure_ascii=False, sort_keys=True).encode()).hexdigest() == manifest['baseRowsSha256']
 new_indices = [row['sourceIndex'] for row in rows if row['id'] in ids]
 assert len(set(new_indices)) == 4 and not set(new_indices) & {row['sourceIndex'] for row in base}
 by_id = {row['id']: row for row in rows}
@@ -19,7 +21,7 @@ for item in manifest['styles']:
     row = by_id[item['id']]
     assert row['priority'] == 0 and row['width'] == row['height'] == row['cellWidth'] == row['cellHeight'] == 32
     assert row['text'] == manifest['sampleText'] == '视野无限广窗外有蓝天'
-    assert row['asciiText'] == '' and row['asciiOrigin'] == 'absent'
+    assert row['asciiText'] == 'ＡＢＣａｂｃ０１２３' and row['asciiOrigin'] == 'fullwidth-native'
     assert row['missing'] == row['hanMissing'] == row['asciiMissing'] == []
     assert '视觉分类' in row['notes'] and '非全库去重' in row['notes']
     assert '独立认证' in row['provenance'] and '不是24点放大' in row['provenance']
@@ -27,8 +29,8 @@ for item in manifest['styles']:
     assert item['hanzi'] == 6763 and item['sourceSlots'] == 6768
     assert row['acquisitionGuide']['links'][0]['url'].endswith('/docs/stone-ms2401h.md')
     png = (ROOT / row['specimen']).read_bytes()
-    assert struct.unpack('>II', png[16:24]) == (320, 32)
-    assert hashlib.sha256(png).hexdigest() == row['specimenSha256'] == item['sampleSha256']
+    assert struct.unpack('>II', png[16:24]) == (320, 68)
+    assert hashlib.sha256(png).hexdigest() == row['specimenSha256'] == AFTER[row['id']]['specimenSha256']
     assert (ROOT / 'fonts' / (row['id'] + '.html')).is_file()
 assert len({item['rowMajorSha256'] for item in manifest['styles']}) == 4
 assert len({item['sampleSha256'] for item in manifest['styles']}) == 4

@@ -1,3 +1,4 @@
+from approved_latin_update import historical_rows
 """Five Solaris entries; exact prior rows, honest metrics/encoding, fixed PNGs.
 
 Later independent additions may be present. Check this release's scoped row set,
@@ -14,7 +15,7 @@ assert len(rows)==len(byid)
 assert ids==[f'sun_gbk_song_{n}' for n in (12,14,16,20,24)]
 base=[r for r in rows if r['id'] in m['baseIds']]
 assert len(base)==211 and [r['id'] for r in base]==m['baseIds']
-assert hashlib.sha256(json.dumps(base,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['baseRowsSha256']
+assert hashlib.sha256(json.dumps(historical_rows(base),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['baseRowsSha256']
 assert [r['id'] for r in rows if r['id'] in ids]==ids
 assert not set(ids)&set(m['baseIds'])
 assert sum(r['priority']>0 for r in base)==13

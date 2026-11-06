@@ -1,3 +1,5 @@
+from approved_latin_update import AFTER
+from approved_latin_update import historical_rows
 """Approved IBM native24 additions, unchanged previous rows and bounded claims."""
 from pathlib import Path
 import hashlib,json,struct
@@ -7,7 +9,7 @@ assert len(rows)==len(byid)==211
 assert ids==['ibm_pcdos_kai_24','ibm_pcdos_hei_24','ibm_pcdos_fangsong_24']
 base=[r for r in rows if r['id'] in m['baseIds']]
 assert len(base)==208 and [r['id'] for r in base]==m['baseIds']
-assert hashlib.sha256(json.dumps(base,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['baseRowsSha256']
+assert hashlib.sha256(json.dumps(historical_rows(base),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['baseRowsSha256']
 assert {r['id'] for r in rows}-set(m['baseIds'])==set(ids)
 new_indices={byid[i]['sourceIndex'] for i in ids}
 assert len(new_indices)==3 and not new_indices & {r['sourceIndex'] for r in base}
@@ -17,7 +19,7 @@ for item in m['styles']:
  assert r['priority']==0 and r['scripts']==['简体']
  assert r['width']==r['height']==r['cellWidth']==r['cellHeight']==24
  assert r['text']==m['sampleText']=='视野无限广，窗外有蓝天。'
- assert r['asciiText']=='' and r['asciiOrigin']=='absent'
+ assert r['asciiText']=='ABCabc0123456789' and r['asciiOrigin']=='native'
  assert r['missing']==r['hanMissing']==r['asciiMissing']==[]
  assert '7444' in r['coverage'] and '6763' in r['coverage']
  assert 'U+3000' in r['notes'] and '不是视觉猜名' in r['notes']
@@ -26,8 +28,8 @@ for item in m['styles']:
  assert '不分发FNT' in r['licenseNote'] and '授权' in r['licenseNote']
  assert item['mappedGb2312']==7444 and item['hanzi']==6763 and item['missingStandardCodepoints']==['U+3000']
  assert item['sourceRecords'] in [7503,7472]
- png=(R/r['specimen']).read_bytes();assert struct.unpack('>II',png[16:24])==(288,24)
- assert hashlib.sha256(png).hexdigest()==r['specimenSha256']==item['sampleSha256']
+ png=(R/r['specimen']).read_bytes();assert struct.unpack('>II',png[16:24])==(288,52)
+ assert hashlib.sha256(png).hexdigest()==r['specimenSha256']==AFTER[r['id']]['specimenSha256']
  assert (R/'fonts'/f"{r['id']}.html").is_file()
  assert r['acquisitionGuide']['links'][0]['url'].endswith('/docs/ibm-pcdos.md')
 for p in ['docs/ibm-pcdos.md','scripts/ibm_pcdos_to_bdf.py']:assert (R/p).is_file()

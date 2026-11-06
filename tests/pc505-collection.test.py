@@ -1,3 +1,4 @@
+from approved_latin_update import historical_rows
 from catalog_history import before_solaris_withdrawal
 """Exact additive PC505 collection batch: old221 rows and original public7 remain intact."""
 from pathlib import Path
@@ -8,7 +9,7 @@ assert len(rows)==len(by)==m['totalRows']==222
 base=[r for r in rows if r['id'] in m['baseIds']];new=[r for r in rows if r['id'] in m['addedIds']]
 assert [r['id'] for r in base]==m['baseIds'] and len(base)==221
 assert [r['id'] for r in new]==m['addedIds']==['wqx_pc505_14x15']
-for group,key in [(base,'baseRowsSha256'),(new,'addedRowsSha256')]:assert hashlib.sha256(json.dumps(group,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m[key]
+for group,key in [(base,'baseRowsSha256'),(new,'addedRowsSha256')]:assert hashlib.sha256(json.dumps(historical_rows(group),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m[key]
 assert new[0]['sourceIndex']==252 and new[0]['priority']==0
 assert [r['id'] for r in rows if r.get('priority',0)>0]==m['preservedRecommendedIds'] and len(m['preservedRecommendedIds'])==13
 indices=[r['sourceIndex'] for r in rows if r.get('sourceIndex') is not None];assert len(indices)==len(set(indices))

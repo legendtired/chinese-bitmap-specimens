@@ -1,3 +1,4 @@
+from approved_latin_update import historical_rows
 """Exact additive Psion batch; historical rows and user withdrawals remain intact."""
 from pathlib import Path
 import json,hashlib,struct,sys
@@ -5,7 +6,7 @@ R=Path(__file__).resolve().parents[1]
 rows=json.loads((R/'data/catalog.json').read_text());m=json.loads((R/'data/release-psion618c.json').read_text())
 base=[r for r in rows if r['id'] in m['baseIds']];new=[r for r in rows if r['id'] in m['addedIds']]
 assert len(rows)==222 and len(base)==219 and len(new)==2
-for group,k in [(base,'baseRowsSha256'),(new,'addedRowsSha256')]:assert hashlib.sha256(json.dumps(group,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m[k]
+for group,k in [(base,'baseRowsSha256'),(new,'addedRowsSha256')]:assert hashlib.sha256(json.dumps(historical_rows(group),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m[k]
 assert [r['id'] for r in new]==m['addedIds']
 for r,n,coverage in zip(new,(8,11),(15441,15447)):
  assert r['priority']==0 and r['height']==n and r['scripts']==['简体','繁体']

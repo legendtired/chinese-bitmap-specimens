@@ -1,3 +1,4 @@
+from approved_latin_update import historical_rows
 """Approved Sharp16 addition, exact prior207 rows and no duplicate24 entry."""
 from pathlib import Path
 import hashlib,json,struct
@@ -5,7 +6,7 @@ R=Path(__file__).resolve().parents[1]
 rows=[v for v in json.loads((R/'data/catalog.json').read_text()) if v['id'] not in ('palm_cjkos_fgb12ktf','palm_cjkos_fgb12fsf','palm_cjkos_fb512kbf','palm_cjkos_fb512xmf','psion618c_8','psion618c_11','wqx_pc505_14x15','ibm_pcdos_kai_24','ibm_pcdos_hei_24','ibm_pcdos_fangsong_24','nokia_dct3_1999','fmtowns_f20_20','sun_gbk_song_12','sun_gbk_song_14','sun_gbk_song_16','sun_gbk_song_20','sun_gbk_song_24','sun_gb2312_song_12','sun_gb2312_song_14','sun_gb2312_song_20')];m=json.loads((R/'data/release-sharp-x68000.json').read_text())
 new=[r for r in rows if r['id']=='sharp_x68000_16'];base=[r for r in rows if r['id']!='sharp_x68000_16']
 assert len(new)==1 and len(base)==207 and len(rows)==208
-assert hashlib.sha256(json.dumps(base,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['baseRowsSha256']
+assert hashlib.sha256(json.dumps(historical_rows(base),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['baseRowsSha256']
 r=new[0];assert r['id']==m['addedId'] and r['priority']==0
 assert r['width']==r['height']==r['cellWidth']==r['cellHeight']==16
 assert not any(x['id'].startswith('sharp_x68000') and x['id']!='sharp_x68000_16' for x in rows)

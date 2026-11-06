@@ -116,8 +116,44 @@ def extract(sources, style):
     return [(unicode_for_slot(i), frame) for i, frame in enumerate(frames) if i not in GAPS]
 
 
-def make_bdf(style, glyphs):
-    lines = ['STARTFONT 2.1', f'COMMENT Stone MS-2401H numeric style {style}; native 32x32 Hanzi only.',
+def extract_symbols(sources):
+    """BIOS 0x5731-0x574c selects shared style 0 for GB rows A1-AB.
+    Only standard GB2312 rows A1-A9 are exported; extended western sets stay out.
+    """
+    bios = sources['ALPS_BIOS-ST-M27C256B.BIN']
+    rom = b'\x00' * 0x80000 + b''.join(sources[name] for name in list(SOURCES)[1:])
+    desc = bios[0x59A6:0x59AD]
+    table = (desc[0] << 20) + (int.from_bytes(desc[5:7], 'little') << 4)
+    base = (desc[0] << 20) + (int.from_bytes(desc[1:3], 'little') << 4)
+    if (table, base) != (0x2AB730, 0x2AD320):
+        raise ValueError('Unexpected shared-symbol descriptor')
+    lookup = bios[0x59C9:0x5AC9]
+    frames, glyphs, previous = [], [], base
+    for index in range(9 * 94):
+        record = rom[table + index * 4:table + index * 4 + 4]
+        address = base + (int.from_bytes(record[:2], 'little') << 4) + record[2]
+        length = record[3]
+        if address != previous or not length or address + length > 0x2B493D:
+            raise ValueError(f'Invalid symbol bounds at slot {index}')
+        frame = row_major(decode(rom[address:address + length], lookup))
+        frames.append(frame)
+        previous = address + length
+        try:
+            char = bytes((0xA1 + index // 94, 0xA1 + index % 94)).decode('gb2312')
+        except UnicodeDecodeError:
+            continue
+        if (not any(frame)) != (char == '\u3000'):
+            raise ValueError(f'Unexpected blank symbol at slot {index}')
+        glyphs.append((ord(char), frame))
+    if (previous != 0x2B493D or len(glyphs) != 682 or
+            sha256(b''.join(frames)) != 'aacb9dd89d63e22ae131c1e6218bdefb39bc08968139fba63c463ae2a979f69a'):
+        raise ValueError('Shared-symbol checksum or mapping mismatch')
+    return glyphs
+
+
+def make_bdf(style, glyphs, include_symbols=False):
+    scope = 'Hanzi + shared GB2312 symbols; fullwidth Latin, not ASCII' if include_symbols else 'Hanzi only'
+    lines = ['STARTFONT 2.1', f'COMMENT Stone MS-2401H numeric style {style}; native 32x32 {scope}.',
              'COMMENT Unicode mapping via GB2312; no scaling or substituted glyphs.',
              'COMMENT Synthetic baseline ascent/descent 32/0; not recovered historic metrics.',
              f'FONT -stone-ms2401h_style{style}-medium-r-normal--32-320-72-72-c-320-iso10646-1',
@@ -132,19 +168,22 @@ def make_bdf(style, glyphs):
     return '\n'.join(lines + ['ENDFONT', '']).encode('ascii')
 
 
-def export(rom_dir, output):
+def export(rom_dir, output, include_symbols=False):
     # Require a new directory. This also rejects existing files and dangling symlinks.
     if output.exists() or output.is_symlink():
         raise ValueError('Output must be a new directory; existing paths are never overwritten')
     sources = load_sources(rom_dir)
     artifacts, reports = {}, []
+    symbols = extract_symbols(sources) if include_symbols else []
     for style in range(1, 5):
-        glyphs = extract(sources, style)
-        name = f'stone-ms2401h-style-{style}-32x32.bdf'
-        artifacts[name] = make_bdf(style, glyphs)
+        glyphs = extract(sources, style) + symbols
+        suffix = '-gb-symbols' if include_symbols else ''
+        name = f'stone-ms2401h-style-{style}-32x32{suffix}.bdf'
+        artifacts[name] = make_bdf(style, glyphs, include_symbols)
         reports.append({'style': style, 'file': name, 'glyphs': len(glyphs),
                         'sha256': sha256(artifacts[name]), 'all_slot_row_major_sha256': FRAME_HASHES[style]})
     report = {'sources': {name: {'size': size, 'sha256': digest} for name, (size, digest) in SOURCES.items()},
+              'included_gb_symbols': len(symbols), 'ordinary_ascii': 0,
               'native_frame': [32, 32], 'synthetic_ascent_descent': [32, 0],
               'excluded_gb_slots': ['D7FA', 'D7FB', 'D7FC', 'D7FD', 'D7FE'], 'styles': reports}
     artifacts['export-report.json'] = (json.dumps(report, indent=2) + '\n').encode('utf-8')
@@ -161,13 +200,14 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--rom-dir', required=True, type=Path, help='directory containing four verified ROM files')
     parser.add_argument('--output', required=True, type=Path, help='new local output directory (must not exist)')
+    parser.add_argument('--include-symbols', action='store_true', help='include 682 original GB2312 symbols and fullwidth Latin; not ordinary ASCII')
     args = parser.parse_args(argv)
     try:
-        report = export(args.rom_dir, args.output)
+        report = export(args.rom_dir, args.output, args.include_symbols)
     except (OSError, ValueError) as error:
         print(f'Error: {error}', file=sys.stderr)
         return 1
-    print(f'Exported {len(report["styles"])} BDF files, 6763 Hanzi each, to {args.output}')
+    print(f'Exported {len(report["styles"])} BDF files, 6763 Hanzi + {report["included_gb_symbols"]} symbols each, to {args.output}')
     return 0
 
 

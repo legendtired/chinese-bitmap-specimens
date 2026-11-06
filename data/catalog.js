@@ -13269,22 +13269,22 @@ window.FONT_CATALOG = [
     ],
     "specimen": "assets/specimens/stone_ms2401h_style1_32.png",
     "specimenWidth": 320,
-    "specimenHeight": 32,
+    "specimenHeight": 68,
     "text": "视野无限广窗外有蓝天",
-    "asciiText": "",
+    "asciiText": "ＡＢＣａｂｃ０１２３",
     "sourceUrl": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
     "sourceLabel": "四通 MS-2401H 原始ROM资料目录",
-    "notes": "样式1独立存储6763个GB2312汉字，全部非空，另有D7FA–D7FE五个空槽。楷体风格是视觉分类，与文字处理程序的字体菜单相符，但尚未完整追踪菜单到样式编号的调用，不作为原厂正式字名。样句仅取10个汉字，共享符号区未完成编码核验；不推断设备没有ASCII。四套两两比较的6763个汉字均不同；与站内KH／DEC32点仅比对共同6字，均不同，非全库去重。设备为中文打字机，没有广播字幕机来源证据。",
+    "notes": "样式1独立存储6763个GB2312汉字，全部非空，另有D7FA–D7FE五个空槽。楷体风格是视觉分类，与文字处理程序的字体菜单相符，但尚未完整追踪菜单到样式编号的调用，不作为原厂正式字名。共享 style0 已核对 GB2312 符号映射，新增全角英数行；扩展西文的字宽与输入映射仍待核定。四套两两比较的6763个汉字均不同；与站内KH／DEC32点仅比对共同6字，均不同，非全库去重。设备为中文打字机，没有广播字幕机来源证据。",
     "licenseStatus": "许可待核实",
     "licenseNote": "ROM和字模未查到明确商用或再分发授权；原始转储可访问不代表获得字库授权。本站仅展示固定样图、方法和不内嵌字模的提取脚本，不分发ROM或完整BDF。",
     "provenance": "直接解码MS-2401H的CA1／CA2／CA3掩膜ROM中样式1压缩字模；BIOS描述表、查找表和解压例程确定32×32原生字框。每字先解压为128字节四条8×32竖带，再无损重排为逐行像素；不是24点放大。来源原机和转储过程未由本站独立认证。",
     "sampleKind": "standard",
-    "sampleLabel": "汉字固定样句；共享符号、标点和ASCII未纳入本次导出。",
-    "coverage": "所示10个汉字完整；可导出6763个GB2312汉字",
+    "sampleLabel": "原生汉字与共享符号区全角英数；非普通 ASCII。",
+    "coverage": "6763 个汉字 + 682 个 GB2312 符号，含全角英数",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
-    "asciiOrigin": "absent",
+    "asciiOrigin": "fullwidth-native",
     "sourceIndex": 229,
     "nativeEvidence": {
       "summary": "两个独立解析器核对四套共27072个源槽位一致；样式1的6763汉字BDF像素回读一致。尾部零填充依据原BIOS清空128字节目标缓冲的行为，所有超出128字节的解压尾字节均为零。风格名称为外观分类，样式编号保留原身份。",
@@ -13294,12 +13294,12 @@ window.FONT_CATALOG = [
     "cellHeight": 32,
     "inkWidth": null,
     "inkHeight": null,
-    "specimenSha256": "b763a059f7e9703aad0e12d4518bfce2001eba853d89ec4552014754e5b3f23e",
+    "specimenSha256": "0627787f71ee520173e2a9d9dae6228a22bb6a51ad866058f8dfcd7956667429",
     "priority": 0,
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "自行取得并确认有权使用指定BIOS与CA1／CA2／CA3文件，再按本站说明用Python解压导出Unicode BDF。脚本校验文件大小和SHA256，仅导出每套6763个汉字，不含未核定共享符号；不联网、不附字模、不覆盖已有输出。",
+      "notice": "默认导出每套6763个汉字；加 --include-symbols 可补682个原配GB2312符号及全角英数。输入须匹配指定ROM校验值，完整字库仅在本地导出。",
       "links": [
         {
           "label": "四套导出步骤与脚本",
@@ -13317,7 +13317,7 @@ window.FONT_CATALOG = [
           "action": "reference"
         }
       ],
-      "checkedOn": "2026-11-05",
+      "checkedOn": "2026-11-06",
       "type": "method"
     }
   },
@@ -13338,22 +13338,22 @@ window.FONT_CATALOG = [
     ],
     "specimen": "assets/specimens/stone_ms2401h_style2_32.png",
     "specimenWidth": 320,
-    "specimenHeight": 32,
+    "specimenHeight": 68,
     "text": "视野无限广窗外有蓝天",
-    "asciiText": "",
+    "asciiText": "ＡＢＣａｂｃ０１２３",
     "sourceUrl": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
     "sourceLabel": "四通 MS-2401H 原始ROM资料目录",
-    "notes": "样式2独立存储6763个GB2312汉字，全部非空，另有D7FA–D7FE五个空槽。黑体风格是视觉分类，与文字处理程序的字体菜单相符，但尚未完整追踪菜单到样式编号的调用，不作为原厂正式字名。样句仅取10个汉字，共享符号区未完成编码核验；不推断设备没有ASCII。四套两两比较的6763个汉字均不同；与站内KH／DEC32点仅比对共同6字，均不同，非全库去重。设备为中文打字机，没有广播字幕机来源证据。",
+    "notes": "样式2独立存储6763个GB2312汉字，全部非空，另有D7FA–D7FE五个空槽。黑体风格是视觉分类，与文字处理程序的字体菜单相符，但尚未完整追踪菜单到样式编号的调用，不作为原厂正式字名。共享 style0 已核对 GB2312 符号映射，新增全角英数行；扩展西文的字宽与输入映射仍待核定。四套两两比较的6763个汉字均不同；与站内KH／DEC32点仅比对共同6字，均不同，非全库去重。设备为中文打字机，没有广播字幕机来源证据。",
     "licenseStatus": "许可待核实",
     "licenseNote": "ROM和字模未查到明确商用或再分发授权；原始转储可访问不代表获得字库授权。本站仅展示固定样图、方法和不内嵌字模的提取脚本，不分发ROM或完整BDF。",
     "provenance": "直接解码MS-2401H的CA1／CA2／CA3掩膜ROM中样式2压缩字模；BIOS描述表、查找表和解压例程确定32×32原生字框。每字先解压为128字节四条8×32竖带，再无损重排为逐行像素；不是24点放大。来源原机和转储过程未由本站独立认证。",
     "sampleKind": "standard",
-    "sampleLabel": "汉字固定样句；共享符号、标点和ASCII未纳入本次导出。",
-    "coverage": "所示10个汉字完整；可导出6763个GB2312汉字",
+    "sampleLabel": "原生汉字与共享符号区全角英数；非普通 ASCII。",
+    "coverage": "6763 个汉字 + 682 个 GB2312 符号，含全角英数",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
-    "asciiOrigin": "absent",
+    "asciiOrigin": "fullwidth-native",
     "sourceIndex": 230,
     "nativeEvidence": {
       "summary": "两个独立解析器核对四套共27072个源槽位一致；样式2的6763汉字BDF像素回读一致。尾部零填充依据原BIOS清空128字节目标缓冲的行为，所有超出128字节的解压尾字节均为零。风格名称为外观分类，样式编号保留原身份。",
@@ -13363,12 +13363,12 @@ window.FONT_CATALOG = [
     "cellHeight": 32,
     "inkWidth": null,
     "inkHeight": null,
-    "specimenSha256": "6861b94699e46d228e8ff4a97028a4e12616cdb12d99d8fdd45e877b5ca7ec83",
+    "specimenSha256": "7f27df0eb98f35b6cfb1f69cef67104a75c9fafef60fa97ca5e36e0d393e228d",
     "priority": 0,
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "自行取得并确认有权使用指定BIOS与CA1／CA2／CA3文件，再按本站说明用Python解压导出Unicode BDF。脚本校验文件大小和SHA256，仅导出每套6763个汉字，不含未核定共享符号；不联网、不附字模、不覆盖已有输出。",
+      "notice": "默认导出每套6763个汉字；加 --include-symbols 可补682个原配GB2312符号及全角英数。输入须匹配指定ROM校验值，完整字库仅在本地导出。",
       "links": [
         {
           "label": "四套导出步骤与脚本",
@@ -13386,7 +13386,7 @@ window.FONT_CATALOG = [
           "action": "reference"
         }
       ],
-      "checkedOn": "2026-11-05",
+      "checkedOn": "2026-11-06",
       "type": "method"
     }
   },
@@ -13407,22 +13407,22 @@ window.FONT_CATALOG = [
     ],
     "specimen": "assets/specimens/stone_ms2401h_style3_32.png",
     "specimenWidth": 320,
-    "specimenHeight": 32,
+    "specimenHeight": 68,
     "text": "视野无限广窗外有蓝天",
-    "asciiText": "",
+    "asciiText": "ＡＢＣａｂｃ０１２３",
     "sourceUrl": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
     "sourceLabel": "四通 MS-2401H 原始ROM资料目录",
-    "notes": "样式3独立存储6763个GB2312汉字，全部非空，另有D7FA–D7FE五个空槽。仿宋风格是视觉分类，与文字处理程序的字体菜单相符，但尚未完整追踪菜单到样式编号的调用，不作为原厂正式字名。样句仅取10个汉字，共享符号区未完成编码核验；不推断设备没有ASCII。四套两两比较的6763个汉字均不同；与站内KH／DEC32点仅比对共同6字，均不同，非全库去重。设备为中文打字机，没有广播字幕机来源证据。",
+    "notes": "样式3独立存储6763个GB2312汉字，全部非空，另有D7FA–D7FE五个空槽。仿宋风格是视觉分类，与文字处理程序的字体菜单相符，但尚未完整追踪菜单到样式编号的调用，不作为原厂正式字名。共享 style0 已核对 GB2312 符号映射，新增全角英数行；扩展西文的字宽与输入映射仍待核定。四套两两比较的6763个汉字均不同；与站内KH／DEC32点仅比对共同6字，均不同，非全库去重。设备为中文打字机，没有广播字幕机来源证据。",
     "licenseStatus": "许可待核实",
     "licenseNote": "ROM和字模未查到明确商用或再分发授权；原始转储可访问不代表获得字库授权。本站仅展示固定样图、方法和不内嵌字模的提取脚本，不分发ROM或完整BDF。",
     "provenance": "直接解码MS-2401H的CA1／CA2／CA3掩膜ROM中样式3压缩字模；BIOS描述表、查找表和解压例程确定32×32原生字框。每字先解压为128字节四条8×32竖带，再无损重排为逐行像素；不是24点放大。来源原机和转储过程未由本站独立认证。",
     "sampleKind": "standard",
-    "sampleLabel": "汉字固定样句；共享符号、标点和ASCII未纳入本次导出。",
-    "coverage": "所示10个汉字完整；可导出6763个GB2312汉字",
+    "sampleLabel": "原生汉字与共享符号区全角英数；非普通 ASCII。",
+    "coverage": "6763 个汉字 + 682 个 GB2312 符号，含全角英数",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
-    "asciiOrigin": "absent",
+    "asciiOrigin": "fullwidth-native",
     "sourceIndex": 231,
     "nativeEvidence": {
       "summary": "两个独立解析器核对四套共27072个源槽位一致；样式3的6763汉字BDF像素回读一致。尾部零填充依据原BIOS清空128字节目标缓冲的行为，所有超出128字节的解压尾字节均为零。风格名称为外观分类，样式编号保留原身份。",
@@ -13432,12 +13432,12 @@ window.FONT_CATALOG = [
     "cellHeight": 32,
     "inkWidth": null,
     "inkHeight": null,
-    "specimenSha256": "22d9f2c98f719aac1fb40474076af3096190e2040377a07042ffcb2cb4fe0533",
+    "specimenSha256": "cacff1fe73b276ce4ee64ad03218a5afa2f6dca4959a73bdedd95a743fe7940a",
     "priority": 0,
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "自行取得并确认有权使用指定BIOS与CA1／CA2／CA3文件，再按本站说明用Python解压导出Unicode BDF。脚本校验文件大小和SHA256，仅导出每套6763个汉字，不含未核定共享符号；不联网、不附字模、不覆盖已有输出。",
+      "notice": "默认导出每套6763个汉字；加 --include-symbols 可补682个原配GB2312符号及全角英数。输入须匹配指定ROM校验值，完整字库仅在本地导出。",
       "links": [
         {
           "label": "四套导出步骤与脚本",
@@ -13455,7 +13455,7 @@ window.FONT_CATALOG = [
           "action": "reference"
         }
       ],
-      "checkedOn": "2026-11-05",
+      "checkedOn": "2026-11-06",
       "type": "method"
     }
   },
@@ -13476,22 +13476,22 @@ window.FONT_CATALOG = [
     ],
     "specimen": "assets/specimens/stone_ms2401h_style4_32.png",
     "specimenWidth": 320,
-    "specimenHeight": 32,
+    "specimenHeight": 68,
     "text": "视野无限广窗外有蓝天",
-    "asciiText": "",
+    "asciiText": "ＡＢＣａｂｃ０１２３",
     "sourceUrl": "https://software-archive.tifan.la/Stone-Chinese-TypeWriter/MS-2401H/",
     "sourceLabel": "四通 MS-2401H 原始ROM资料目录",
-    "notes": "样式4独立存储6763个GB2312汉字，全部非空，另有D7FA–D7FE五个空槽。宋体风格是视觉分类，与文字处理程序的字体菜单相符，但尚未完整追踪菜单到样式编号的调用，不作为原厂正式字名。样句仅取10个汉字，共享符号区未完成编码核验；不推断设备没有ASCII。四套两两比较的6763个汉字均不同；与站内KH／DEC32点仅比对共同6字，均不同，非全库去重。设备为中文打字机，没有广播字幕机来源证据。",
+    "notes": "样式4独立存储6763个GB2312汉字，全部非空，另有D7FA–D7FE五个空槽。宋体风格是视觉分类，与文字处理程序的字体菜单相符，但尚未完整追踪菜单到样式编号的调用，不作为原厂正式字名。共享 style0 已核对 GB2312 符号映射，新增全角英数行；扩展西文的字宽与输入映射仍待核定。四套两两比较的6763个汉字均不同；与站内KH／DEC32点仅比对共同6字，均不同，非全库去重。设备为中文打字机，没有广播字幕机来源证据。",
     "licenseStatus": "许可待核实",
     "licenseNote": "ROM和字模未查到明确商用或再分发授权；原始转储可访问不代表获得字库授权。本站仅展示固定样图、方法和不内嵌字模的提取脚本，不分发ROM或完整BDF。",
     "provenance": "直接解码MS-2401H的CA1／CA2／CA3掩膜ROM中样式4压缩字模；BIOS描述表、查找表和解压例程确定32×32原生字框。每字先解压为128字节四条8×32竖带，再无损重排为逐行像素；不是24点放大。来源原机和转储过程未由本站独立认证。",
     "sampleKind": "standard",
-    "sampleLabel": "汉字固定样句；共享符号、标点和ASCII未纳入本次导出。",
-    "coverage": "所示10个汉字完整；可导出6763个GB2312汉字",
+    "sampleLabel": "原生汉字与共享符号区全角英数；非普通 ASCII。",
+    "coverage": "6763 个汉字 + 682 个 GB2312 符号，含全角英数",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
-    "asciiOrigin": "absent",
+    "asciiOrigin": "fullwidth-native",
     "sourceIndex": 232,
     "nativeEvidence": {
       "summary": "两个独立解析器核对四套共27072个源槽位一致；样式4的6763汉字BDF像素回读一致。尾部零填充依据原BIOS清空128字节目标缓冲的行为，所有超出128字节的解压尾字节均为零。风格名称为外观分类，样式编号保留原身份。",
@@ -13501,12 +13501,12 @@ window.FONT_CATALOG = [
     "cellHeight": 32,
     "inkWidth": null,
     "inkHeight": null,
-    "specimenSha256": "53580efbcb36397e572b89c85677c8776e5e8821c80a3d444f331ed2794b3f45",
+    "specimenSha256": "fd2baa698175e74bf35a0cc2e1a8d1fd6bf9b20610527f8a2231c796d8b3a41f",
     "priority": 0,
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "自行取得并确认有权使用指定BIOS与CA1／CA2／CA3文件，再按本站说明用Python解压导出Unicode BDF。脚本校验文件大小和SHA256，仅导出每套6763个汉字，不含未核定共享符号；不联网、不附字模、不覆盖已有输出。",
+      "notice": "默认导出每套6763个汉字；加 --include-symbols 可补682个原配GB2312符号及全角英数。输入须匹配指定ROM校验值，完整字库仅在本地导出。",
       "links": [
         {
           "label": "四套导出步骤与脚本",
@@ -13524,7 +13524,7 @@ window.FONT_CATALOG = [
           "action": "reference"
         }
       ],
-      "checkedOn": "2026-11-05",
+      "checkedOn": "2026-11-06",
       "type": "method"
     }
   },
@@ -13619,22 +13619,22 @@ window.FONT_CATALOG = [
     ],
     "specimen": "assets/specimens/ibm_pcdos_kai_24.png",
     "specimenWidth": 288,
-    "specimenHeight": 24,
+    "specimenHeight": 52,
     "text": "视野无限广，窗外有蓝天。",
-    "asciiText": "",
+    "asciiText": "ABCabc0123456789",
     "sourceUrl": "https://winworldpc.com/product/pc-dos/2000",
     "sourceLabel": "PC DOS 2000 中文版保存资料页",
-    "notes": "原文件头直接标明“楷体”，不是视觉猜名。标准GB2312已映射7444字符，含全部6763汉字且无空汉字；原文件未存U+3000全角空格。与HZK24K的6763个汉字中36字逐像素相同；与DEC楷体24中937字相同，允许平移后1290字同形，不是简单平移重复。另对目录25项24点样文做共有字符比对，非全部目录全库去重。仅展示中文样句，独立ANK文件不混入此字体。",
+    "notes": "原文件头直接标明“楷体”，不是视觉猜名。标准GB2312已映射7444字符，含全部6763汉字且无空汉字；原文件未存U+3000全角空格。与HZK24K的6763个汉字中36字逐像素相同；与DEC楷体24中937字相同，允许平移后1290字同形，不是简单平移重复。另对目录25项24点样文做共有字符比对，非全部目录全库去重。西文行取同发行盘 PRCHN24.FNT 公共ANK，12×24原生字框；三套共用，非各自专属字重。",
     "licenseStatus": "许可待核实",
     "licenseNote": "原盘README版权标记IBM 1981–1998；未找到字模开放商用或再分发许可。公开镜像不等于授权。本站仅展示固定样图、资料与不内嵌字形的离线工具，不分发FNT、磁盘镜像或完整BDF。",
     "provenance": "从PC DOS 2000中文简体原盘Disk03的FONT1压缩档案静态还原prckt24.FNT，再依原FONT.EXE解码逻辑恢复24×24存储点阵。文件头日期01/24/92，仅作为内部日期，不据此断定首次设计或发行时间。公开档案SHA512与来源页公布值一致，未独立认证原盘采集过程。",
     "sampleKind": "standard",
-    "sampleLabel": "简体固定样句与原库中文标点；独立ANK文件未混用。",
-    "coverage": "样文完整；7444个标准GB2312字符，含6763汉字",
+    "sampleLabel": "原24×24汉字 + 同发行盘公共12×24半角；非三套专属西文字重。",
+    "coverage": "7444个标准GB2312字符，含6763汉字；另95个同盘原配ASCII",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
-    "asciiOrigin": "absent",
+    "asciiOrigin": "native",
     "sourceIndex": 240,
     "nativeEvidence": {
       "summary": "两个独立解码器逐字核对7503条原始记录，像素、偏移和有效bit数一致；全部BDF字形回读一致。原生24×24、每字72字节，无缩放、补字或普通矢量取模；未映射IBM扩展保留未编码，不当作Unicode覆盖。",
@@ -13644,12 +13644,12 @@ window.FONT_CATALOG = [
     "cellHeight": 24,
     "inkWidth": null,
     "inkHeight": null,
-    "specimenSha256": "3d41b4d23d9d233969513cfd5aeb7b359cac0c5d9fa2ec6d6e592c3f4cc090e9",
+    "specimenSha256": "394bcc18aead5550c57bff7ff8754e5da53b6a5d6888932194ab2f9fcd15b146",
     "priority": 0,
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "自行取得并确认有权使用prckt24.FNT，按本站说明离线导出Unicode BDF。脚本校验指定SHA256；7444个标准字符含6763汉字，IBM扩展保留未编码，U+3000不补造。原盘FONT1须先静态解包；不运行原DOS程序、不联网、不附字模、不覆盖已有输出。",
+      "notice": "自行取得并确认有权使用prckt24.FNT，按本站说明离线导出Unicode BDF。脚本校验指定SHA256；7444个标准字符含6763汉字，IBM扩展保留未编码，U+3000不补造。原盘FONT1须先静态解包；不运行原DOS程序、不联网、不附字模、不覆盖已有输出。 可按同页PRCHN24说明导出95个原配ASCII，并选择与本套合并。",
       "links": [
         {
           "label": "导出步骤与脚本",
@@ -13662,7 +13662,7 @@ window.FONT_CATALOG = [
           "action": "source"
         }
       ],
-      "checkedOn": "2026-11-05",
+      "checkedOn": "2026-11-06",
       "type": "method"
     }
   },
@@ -13683,22 +13683,22 @@ window.FONT_CATALOG = [
     ],
     "specimen": "assets/specimens/ibm_pcdos_hei_24.png",
     "specimenWidth": 288,
-    "specimenHeight": 24,
+    "specimenHeight": 52,
     "text": "视野无限广，窗外有蓝天。",
-    "asciiText": "",
+    "asciiText": "ABCabc0123456789",
     "sourceUrl": "https://winworldpc.com/product/pc-dos/2000",
     "sourceLabel": "PC DOS 2000 中文版保存资料页",
-    "notes": "原文件头直接标明“黑体”，不是视觉猜名。标准GB2312已映射7444字符，含全部6763汉字且无空汉字；原文件未存U+3000全角空格。与HZK24H的6763个汉字中12字逐像素相同；与DEC黑体24中72字相同，允许平移后81字同形，不是简单平移重复。另对目录25项24点样文做共有字符比对，非全部目录全库去重。仅展示中文样句，独立ANK文件不混入此字体。",
+    "notes": "原文件头直接标明“黑体”，不是视觉猜名。标准GB2312已映射7444字符，含全部6763汉字且无空汉字；原文件未存U+3000全角空格。与HZK24H的6763个汉字中12字逐像素相同；与DEC黑体24中72字相同，允许平移后81字同形，不是简单平移重复。另对目录25项24点样文做共有字符比对，非全部目录全库去重。西文行取同发行盘 PRCHN24.FNT 公共ANK，12×24原生字框；三套共用，非各自专属字重。",
     "licenseStatus": "许可待核实",
     "licenseNote": "原盘README版权标记IBM 1981–1998；未找到字模开放商用或再分发许可。公开镜像不等于授权。本站仅展示固定样图、资料与不内嵌字形的离线工具，不分发FNT、磁盘镜像或完整BDF。",
     "provenance": "从PC DOS 2000中文简体原盘Disk03的FONT1压缩档案静态还原prcht24.FNT，再依原FONT.EXE解码逻辑恢复24×24存储点阵。文件头日期01/24/92，仅作为内部日期，不据此断定首次设计或发行时间。公开档案SHA512与来源页公布值一致，未独立认证原盘采集过程。",
     "sampleKind": "standard",
-    "sampleLabel": "简体固定样句与原库中文标点；独立ANK文件未混用。",
-    "coverage": "样文完整；7444个标准GB2312字符，含6763汉字",
+    "sampleLabel": "原24×24汉字 + 同发行盘公共12×24半角；非三套专属西文字重。",
+    "coverage": "7444个标准GB2312字符，含6763汉字；另95个同盘原配ASCII",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
-    "asciiOrigin": "absent",
+    "asciiOrigin": "native",
     "sourceIndex": 241,
     "nativeEvidence": {
       "summary": "两个独立解码器逐字核对7503条原始记录，像素、偏移和有效bit数一致；全部BDF字形回读一致。原生24×24、每字72字节，无缩放、补字或普通矢量取模；未映射IBM扩展保留未编码，不当作Unicode覆盖。",
@@ -13708,12 +13708,12 @@ window.FONT_CATALOG = [
     "cellHeight": 24,
     "inkWidth": null,
     "inkHeight": null,
-    "specimenSha256": "43f3ec8e96f73dfcd5c3b12759ed7d915d15e67dd6487ead77767e94cc5b815f",
+    "specimenSha256": "31ab76b1c2e31dd51252d20c3e44d75a81bb8bd8f0865cd2d67dd4df29348140",
     "priority": 0,
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "自行取得并确认有权使用prcht24.FNT，按本站说明离线导出Unicode BDF。脚本校验指定SHA256；7444个标准字符含6763汉字，IBM扩展保留未编码，U+3000不补造。原盘FONT1须先静态解包；不运行原DOS程序、不联网、不附字模、不覆盖已有输出。",
+      "notice": "自行取得并确认有权使用prcht24.FNT，按本站说明离线导出Unicode BDF。脚本校验指定SHA256；7444个标准字符含6763汉字，IBM扩展保留未编码，U+3000不补造。原盘FONT1须先静态解包；不运行原DOS程序、不联网、不附字模、不覆盖已有输出。 可按同页PRCHN24说明导出95个原配ASCII，并选择与本套合并。",
       "links": [
         {
           "label": "导出步骤与脚本",
@@ -13726,7 +13726,7 @@ window.FONT_CATALOG = [
           "action": "source"
         }
       ],
-      "checkedOn": "2026-11-05",
+      "checkedOn": "2026-11-06",
       "type": "method"
     }
   },
@@ -13747,22 +13747,22 @@ window.FONT_CATALOG = [
     ],
     "specimen": "assets/specimens/ibm_pcdos_fangsong_24.png",
     "specimenWidth": 288,
-    "specimenHeight": 24,
+    "specimenHeight": 52,
     "text": "视野无限广，窗外有蓝天。",
-    "asciiText": "",
+    "asciiText": "ABCabc0123456789",
     "sourceUrl": "https://winworldpc.com/product/pc-dos/2000",
     "sourceLabel": "PC DOS 2000 中文版保存资料页",
-    "notes": "原文件头直接标明“仿宋体”，不是视觉猜名。标准GB2312已映射7444字符，含全部6763汉字且无空汉字；原文件未存U+3000全角空格。与HZK24F的6763个汉字均不相同；与DEC仿宋24中54字逐像素相同，允许平移后97字同形，不是简单平移重复。另对目录25项24点样文做共有字符比对，非全部目录全库去重。仅展示中文样句，独立ANK文件不混入此字体。",
+    "notes": "原文件头直接标明“仿宋体”，不是视觉猜名。标准GB2312已映射7444字符，含全部6763汉字且无空汉字；原文件未存U+3000全角空格。与HZK24F的6763个汉字均不相同；与DEC仿宋24中54字逐像素相同，允许平移后97字同形，不是简单平移重复。另对目录25项24点样文做共有字符比对，非全部目录全库去重。西文行取同发行盘 PRCHN24.FNT 公共ANK，12×24原生字框；三套共用，非各自专属字重。",
     "licenseStatus": "许可待核实",
     "licenseNote": "原盘README版权标记IBM 1981–1998；未找到字模开放商用或再分发许可。公开镜像不等于授权。本站仅展示固定样图、资料与不内嵌字形的离线工具，不分发FNT、磁盘镜像或完整BDF。",
     "provenance": "从PC DOS 2000中文简体原盘Disk03的FONT1压缩档案静态还原prcfs24.FNT，再依原FONT.EXE解码逻辑恢复24×24存储点阵。文件头日期01/24/92，仅作为内部日期，不据此断定首次设计或发行时间。公开档案SHA512与来源页公布值一致，未独立认证原盘采集过程。",
     "sampleKind": "standard",
-    "sampleLabel": "简体固定样句与原库中文标点；独立ANK文件未混用。",
-    "coverage": "样文完整；7444个标准GB2312字符，含6763汉字",
+    "sampleLabel": "原24×24汉字 + 同发行盘公共12×24半角；非三套专属西文字重。",
+    "coverage": "7444个标准GB2312字符，含6763汉字；另95个同盘原配ASCII",
     "missing": [],
     "hanMissing": [],
     "asciiMissing": [],
-    "asciiOrigin": "absent",
+    "asciiOrigin": "native",
     "sourceIndex": 242,
     "nativeEvidence": {
       "summary": "两个独立解码器逐字核对7472条原始记录，像素、偏移和有效bit数一致；全部BDF字形回读一致。原生24×24、每字72字节，无缩放、补字或普通矢量取模；未映射IBM扩展保留未编码，不当作Unicode覆盖。",
@@ -13772,12 +13772,12 @@ window.FONT_CATALOG = [
     "cellHeight": 24,
     "inkWidth": null,
     "inkHeight": null,
-    "specimenSha256": "1b8341e87ad0fd9ee4b04b76e0a2c1a199a0f334287438e9571efa2fa7f915e8",
+    "specimenSha256": "90b54bb6768d8e30106eac11a057a6b4ef505d2bfec4acb5acc28c99456d9345",
     "priority": 0,
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
-      "notice": "自行取得并确认有权使用prcfs24.FNT，按本站说明离线导出Unicode BDF。脚本校验指定SHA256；7444个标准字符含6763汉字，IBM扩展保留未编码，U+3000不补造。原盘FONT1须先静态解包；不运行原DOS程序、不联网、不附字模、不覆盖已有输出。",
+      "notice": "自行取得并确认有权使用prcfs24.FNT，按本站说明离线导出Unicode BDF。脚本校验指定SHA256；7444个标准字符含6763汉字，IBM扩展保留未编码，U+3000不补造。原盘FONT1须先静态解包；不运行原DOS程序、不联网、不附字模、不覆盖已有输出。 可按同页PRCHN24说明导出95个原配ASCII，并选择与本套合并。",
       "links": [
         {
           "label": "导出步骤与脚本",
@@ -13790,7 +13790,7 @@ window.FONT_CATALOG = [
           "action": "source"
         }
       ],
-      "checkedOn": "2026-11-05",
+      "checkedOn": "2026-11-06",
       "type": "method"
     }
   },
