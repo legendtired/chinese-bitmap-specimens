@@ -1,6 +1,8 @@
 """Static DOM structure checks; these do not simulate a browser."""
 from html.parser import HTMLParser
 from pathlib import Path
+from hashlib import sha256
+from urllib.parse import urlsplit,parse_qs
 class Document(HTMLParser):
     def __init__(self):
         super().__init__(); self.ids = {}; self.tags = []; self.scripts = []
@@ -21,7 +23,11 @@ for tag,a in doc.tags:
         if a.get('src') == 'assets/wordmark.png': assert (a.get('width'), a.get('height')) == ('192', '48')
     if tag == 'dialog': assert a.get('aria-labelledby')
     if tag == 'script' or (tag == 'link' and a.get('rel') != 'canonical'): assert not a.get('src',a.get('href','')).startswith(('http:','https:','//'))
-assert [x['src'] for x in doc.scripts] == ['data/catalog.js','data/collection-history.js','app.js']
+script_urls=[urlsplit(x['src']) for x in doc.scripts]
+assert [x.path for x in script_urls] == ['data/catalog.js','data/collection-history.js','app.js']
+for script in script_urls:
+    assert not script.scheme and not script.netloc and not script.fragment
+    assert parse_qs(script.query) == {'v':[sha256((root/script.path).read_bytes()).hexdigest()[:16]]}
 assert all('defer' in x for x in doc.scripts)
 assert doc.ids['family'][0] == doc.ids['sort'][0] == 'select'
 assert any(tag=='a' and a.get('href')=='index.html' for tag,a in doc.tags)

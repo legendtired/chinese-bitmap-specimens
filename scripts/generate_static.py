@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Build crawler-readable pages from catalog.json. Requires Python 3 and Node.js; no network."""
 from pathlib import Path
-import json,re,html,subprocess,sys
+import hashlib,json,re,html,subprocess,sys
+from html.parser import HTMLParser
 from urllib.parse import quote,urlsplit
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://legendtired.github.io/chinese-bitmap-specimens/'
@@ -105,22 +106,47 @@ def font_page(r):
  intro=' · '.join(filter(None,[r.get('coverage',''),('字高未核定' if not known_size(r.get('height')) else '参考资料') if is_reference(r) else dimensions(r),fmt(r['scripts'])]))
  return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{meta(title,page_description(r),url,'article')}<link rel="stylesheet" href="../styles.css"></head><body class="font-page"><header class="site-header"><a class="wordmark" href="../index.html" aria-label="中文点阵字样首页"><img src="../assets/wordmark.png" width="192" height="48" alt="中文点阵字样"></a><a class="back-link" href="../index.html">返回全部字样</a></header><main class="font-document"><p class="document-eyebrow">字样资料 / {E(r['family'])}</p><h1>{E(r['name'])}</h1><p class="document-intro">{E(intro)}</p>{preview(r)}<section class="source-section"><h2>来源与字样信息</h2>{details(r)}</section><p class="license-note">字体使用与再分发按原来源许可执行。</p><p class="document-bottom"><a href="../index.html">返回目录，筛选与对比更多字样</a></p></main><footer class="font-page-footer">中文点阵字样 · 收集、展示与研究</footer></body></html>'''
 
+MANAGED_SCRIPTS=('data/catalog.js','data/collection-history.js','app.js')
+def version_scripts(document,assets):
+ # Parse actual script tags (not comments), then replace only their src values.
+ class Scripts(HTMLParser):
+  def handle_starttag(self,tag,attrs):
+   if tag=='script':tags.append((self.getpos(),self.get_starttag_text(),dict(attrs).get('src')))
+ tags=[];parser=Scripts();parser.feed(document)
+ lines=document.splitlines(keepends=True);replacements=[]
+ for name in MANAGED_SCRIPTS:
+  matches=[(position,tag,src) for position,tag,src in tags if src and urlsplit(src).path==name and not urlsplit(src).scheme and not urlsplit(src).netloc]
+  if len(matches)!=1:raise SystemExit(f'Expected exactly one managed script src for {name}; found {len(matches)}')
+  (line,column),tag,src=matches[0]
+  pattern=re.compile(r'(\s+src\s*=\s*)(["\'])(.*?)\2',re.I|re.S)
+  attributes=list(pattern.finditer(tag))
+  if len(attributes)!=1 or html.unescape(attributes[0][3])!=src:raise SystemExit(f'Expected one quoted src attribute for {name}')
+  match=attributes[0];start=sum(map(len,lines[:line-1]))+column
+  version=hashlib.sha256(assets[name]).hexdigest()[:16]
+  replacements.append((start+match.start(3),start+match.end(3),name+'?v='+version))
+ for start,end,value in sorted(replacements,reverse=True):document=document[:start]+value+document[end:]
+ return document
+
 def main():
  rows=json.loads((ROOT/'data/catalog.json').read_text())
  assert len({r['id'] for r in rows})==len(rows)
  for r in rows:assert re.fullmatch(r'[A-Za-z0-9_-]+',r['id']),r['id']
  # Reuse the application's comparator so first paint and JS enhancement have identical order.
  ordered=json.loads(subprocess.check_output(['node','-e',"const a=require('./app.js');const r=require('./data/catalog.json');process.stdout.write(JSON.stringify(a.filterCatalog(r,{})));"],cwd=ROOT,text=True))
+ # Validate all managed references before writing any generated output.
+ assets={
+  'data/catalog.js':('window.FONT_CATALOG = '+json.dumps(rows,ensure_ascii=False,indent=2)+';\n').encode('utf-8'),
+  'data/collection-history.js':('window.FONT_COLLECTION_HISTORY = '+json.dumps(json.loads((ROOT/'data/collection-history.json').read_text()),ensure_ascii=False,indent=2)+';\n').encode('utf-8'),
+  'app.js':(ROOT/'app.js').read_bytes(),
+ }
+ p=ROOT/'index.html';h=version_scripts(p.read_text(),assets)
  folder=ROOT/'fonts';folder.mkdir(exist_ok=True)
  expected={r['id']+'.html' for r in rows}
  # Generated directory only. Refuse silently deleting any unexpected file.
  extra={x.name for x in folder.glob('*.html')}-expected
  if extra:raise SystemExit('Unexpected generated pages; review before removal: '+str(sorted(extra)))
- (ROOT/'data/catalog.js').write_text('window.FONT_CATALOG = '+json.dumps(rows,ensure_ascii=False,indent=2)+';\n')
- history=json.loads((ROOT/'data/collection-history.json').read_text())
- (ROOT/'data/collection-history.js').write_text('window.FONT_COLLECTION_HISTORY = '+json.dumps(history,ensure_ascii=False,indent=2)+';\n')
+ for name in MANAGED_SCRIPTS[:2]:(ROOT/name).write_bytes(assets[name])
  for r in rows:(folder/(r['id']+'.html')).write_text(font_page(r))
- p=ROOT/'index.html';h=p.read_text()
  if '<!-- STATIC_CATALOG_START -->' not in h:h=h.replace('<div id="catalog" class="catalog"></div>','<div id="catalog" class="catalog"><!-- STATIC_CATALOG_START --><!-- STATIC_CATALOG_END --></div>')
  h=re.sub(r'<!-- STATIC_CATALOG_START -->.*?<!-- STATIC_CATALOG_END -->','<!-- STATIC_CATALOG_START -->\n'+'\n'.join(article(r) for r in ordered)+'\n<!-- STATIC_CATALOG_END -->',h,flags=re.S)
  h=re.sub(r'<title>.*?</title>','',h,flags=re.S);h=re.sub(r'<meta name="description"[^>]*>','',h)

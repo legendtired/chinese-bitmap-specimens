@@ -8,6 +8,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 const test = require('node:test');
+const {createHash} = require('node:crypto');
+const {pathToFileURL, fileURLToPath} = require('node:url');
 
 const root = process.env.FONT_CATALOG_ROOT || path.resolve(__dirname, '..');
 const read = relative => fs.readFileSync(path.join(root, relative), 'utf8');
@@ -230,8 +232,15 @@ test('HTML offers explicit latest-collected order without replacing the recommen
 test('Offline script order loads catalog and collection history before the app', () => {
   const html = read('index.html');
   const scripts = [...html.matchAll(/<script\b[^>]*\bsrc=["']([^"']+)["'][^>]*>/g)].map(m => m[1]);
-  assert.deepEqual(scripts, ['data/catalog.js', 'data/collection-history.js', 'app.js']);
-  for (const script of scripts) assert(fs.existsSync(path.join(root, script)), `Missing offline script: ${script}`);
+  const indexURL = pathToFileURL(path.join(root, 'index.html'));
+  const urls = scripts.map(script => new URL(script, indexURL));
+  assert.deepEqual(urls.map(url => path.relative(root, fileURLToPath(url))), ['data/catalog.js', 'data/collection-history.js', 'app.js']);
+  for (const url of urls) {
+    assert.equal(url.protocol, 'file:');
+    assert.equal(url.hash, '');
+    const bytes = fs.readFileSync(fileURLToPath(url));
+    assert.deepEqual([...url.searchParams], [['v', createHash('sha256').update(bytes).digest('hex').slice(0, 16)]]);
+  }
   assert(!/<script\b[^>]*\basync(?:\s|=|>)/.test(html), 'Dependent scripts must preserve their load order');
 });
 

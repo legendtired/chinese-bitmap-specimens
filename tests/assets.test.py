@@ -1,5 +1,6 @@
 """Run from any directory: python tests/assets.test.py. No third-party packages."""
 from pathlib import Path
+from urllib.parse import urlsplit, unquote
 import json, struct, re
 ROOT = Path(__file__).resolve().parents[1]
 rows = json.loads((ROOT / 'data/catalog.json').read_text())
@@ -23,7 +24,10 @@ wordmark = (ROOT / 'assets/wordmark.png').read_bytes()
 assert struct.unpack('>II', wordmark[16:24]) == (192, 48), 'Wordmark must retain 2×3 rectangular pixels'
 html = (ROOT / 'index.html').read_text()
 for relative in re.findall(r'(?:src|href)="([^"#]+)"', html):
-    if not relative.startswith(('https:', 'http:')): assert (ROOT / relative).exists(), relative
+    url = urlsplit(relative)
+    if url.scheme not in ('https', 'http'):
+        assert not url.scheme and not url.netloc, relative
+        assert (ROOT / unquote(url.path)).exists(), relative
 for p in ROOT.rglob('*'):
     if p.is_file() and 'local-research' not in p.relative_to(ROOT).parts and '.git' not in p.relative_to(ROOT).parts: assert p.suffix.lower() not in ['.ttf','.otf','.bdf','.pcf','.woff','.woff2','.rom','.bin'], p
 print(f'Asset tests passed: {len(rows)} PNG specimens, dimensions, schema, relative page assets, no font/ROM files.')
