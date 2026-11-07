@@ -39,3 +39,14 @@ for(const [id,height] of [['hanyi-pixel9',9],['hanyi-pixel11',11],['hanyi-pixel1
 assert(require('../app.js').missingNotice(actualRows.find(r=>r.id==='hanyi-pixel11')).includes('未绘制（原字体有字形）'));
 
 for(const n of [12,14]){const r=actualRows.find(r=>r.id===`psa_c_screen_${n}`);assert(require('../app.js').filterCatalog(actualRows,{height:[String(n)]}).includes(r));assert.equal(require('../app.js').heightValue(r),String(n));}
+
+// AIX filters by measured Han ink height without rewriting its original cell.
+{
+ const api=require('../app.js'), r=actualRows.find(r=>r.id==='aix_isas_cns_24');
+ assert.equal(api.heightValue(r),'24');
+ assert.equal(api.dimensions(r),'24px字面 · 存储 26×27');
+ assert(api.filterCatalog(actualRows,{height:['24']}).includes(r));
+ assert(!api.filterCatalog(actualRows,{height:['27']}).includes(r));
+ assert.equal(api.filterCatalog(actualRows,{},'','recent')[0].id,r.id);
+ assert.deepEqual([r.width,r.height,r.cellWidth,r.cellHeight],[26,27,26,27]);
+}

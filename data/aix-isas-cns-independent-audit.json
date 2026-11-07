@@ -1,0 +1,231 @@
+{
+  "files": [
+    {
+      "name": "cns1ucs",
+      "sha256": "344fdaaa052fff10e973c054dad0ae1d576be7c6b26632865f1649d9ed532acd",
+      "glyphs": 5865,
+      "encoded": 5865,
+      "nonblankHan": 5411,
+      "blankEncoded": [
+        "U+02D7",
+        "U+3000"
+      ],
+      "comparedPixels": 4117230,
+      "mismatchingPixels": 0,
+      "metrics": [
+        [
+          26,
+          27,
+          0,
+          26,
+          26,
+          26,
+          1,
+          0
+        ]
+      ],
+      "defaultCode": "U+3000",
+      "properties": {
+        "FONTNAME_REGISTRY": "-",
+        "FOUNDRY": "IBM_AIX",
+        "FAMILY_NAME": "Cjk_song",
+        "WEIGHT_NAME": "Medium",
+        "SLANT": "R",
+        "SETWIDTH_NAME": "Normal",
+        "ADD_STYLE_NAME": "",
+        "PIXEL_SIZE": 27,
+        "POINT_SIZE": 170,
+        "RESOLUTION_X": 100,
+        "RESOLUTION_Y": 100,
+        "SPACING": "M",
+        "AVERAGE_WIDTH": 260,
+        "CHARSET_REGISTRY": "UCS2.CNS11643.1986",
+        "CHARSET_ENCODING": "1",
+        "COPYRIGHT": "(C) 1993, ISAS.  Permission to use.",
+        "FONT": "-IBM_AIX-Cjk_song-Medium-R-Normal--27-170-100-100-M-260-UCS2.CNS11643.1986-1",
+        "RESOLUTION": 138,
+        "X_HEIGHT": 0,
+        "QUAD_WIDTH": 26,
+        "WEIGHT": 10
+      }
+    },
+    {
+      "name": "cns2ucs",
+      "sha256": "054f0f9f65c965c87aaa0a5a4ab81738469e9d2a448afe16441e5a4ebeb2b215",
+      "glyphs": 7650,
+      "encoded": 7650,
+      "nonblankHan": 7650,
+      "blankEncoded": [],
+      "comparedPixels": 5370300,
+      "mismatchingPixels": 0,
+      "metrics": [
+        [
+          26,
+          27,
+          0,
+          26,
+          26,
+          26,
+          1,
+          0
+        ]
+      ],
+      "defaultCode": "U+3000",
+      "properties": {
+        "FONTNAME_REGISTRY": "-",
+        "FOUNDRY": "IBM_AIX",
+        "FAMILY_NAME": "Cjk_song",
+        "WEIGHT_NAME": "Medium",
+        "SLANT": "R",
+        "SETWIDTH_NAME": "Normal",
+        "ADD_STYLE_NAME": "",
+        "PIXEL_SIZE": 27,
+        "POINT_SIZE": 170,
+        "RESOLUTION_X": 100,
+        "RESOLUTION_Y": 100,
+        "SPACING": "M",
+        "AVERAGE_WIDTH": 260,
+        "CHARSET_REGISTRY": "UCS2.CNS11643.1986",
+        "CHARSET_ENCODING": "2",
+        "COPYRIGHT": "(C) 1993, ISAS.  Permission to use.",
+        "FONT": "-IBM_AIX-Cjk_song-Medium-R-Normal--27-170-100-100-M-260-UCS2.CNS11643.1986-2",
+        "RESOLUTION": 138,
+        "X_HEIGHT": 24,
+        "QUAD_WIDTH": 26,
+        "WEIGHT": 10
+      }
+    },
+    {
+      "name": "Roman27ucs",
+      "sha256": "6cc5bde78ae3606ff6822d598160c41af3d95940fd5bd6c75c42e2b576c02e4a",
+      "glyphs": 127,
+      "encoded": 127,
+      "nonblankHan": 0,
+      "blankEncoded": [
+        "U+0008",
+        "U+000A",
+        "U+000C",
+        "U+000D",
+        "U+0011",
+        "U+0013",
+        "U+0018",
+        "U+0020",
+        "U+007F"
+      ],
+      "comparedPixels": 44577,
+      "mismatchingPixels": 0,
+      "metrics": [
+        [
+          13,
+          27,
+          0,
+          13,
+          13,
+          26,
+          1,
+          0
+        ]
+      ],
+      "defaultCode": "U+0020",
+      "properties": {
+        "FONTNAME_REGISTRY": "-",
+        "FOUNDRY": "IBM_AIX",
+        "FAMILY_NAME": "Cjk_song",
+        "WEIGHT_NAME": "Medium",
+        "SLANT": "R",
+        "SETWIDTH_NAME": "Normal",
+        "ADD_STYLE_NAME": "",
+        "PIXEL_SIZE": 27,
+        "POINT_SIZE": 170,
+        "RESOLUTION_X": 100,
+        "RESOLUTION_Y": 100,
+        "SPACING": "M",
+        "AVERAGE_WIDTH": 130,
+        "CHARSET_REGISTRY": "ISO8859",
+        "CHARSET_ENCODING": "1",
+        "CAP_HEIGHT": 27,
+        "CHARSET_COLLECTIONS": "",
+        "COPYRIGHT": "Copyright 1992 by IBM.",
+        "RESOLUTION": 138,
+        "X_HEIGHT": 26,
+        "QUAD_WIDTH": 13,
+        "FONT": "-IBM_AIX-Cjk_song-Medium-R-Normal--27-170-100-100-M-130-ISO8859-1",
+        "WEIGHT": 10
+      }
+    }
+  ],
+  "status": "passed",
+  "method": "Independent raw struct/per-bit PCF decoder compared to Pillow across all glyph pixels, metrics, encodings and properties. Unicode values read directly from original UCS2 PCF encoding tables, not converted from CNS. Python big5 codec used only as coverage reference; not an original CNS-to-Big5 historical mapping claim.",
+  "nonblankHanUnion": 13061,
+  "hanPlaneOverlap": [],
+  "identicalDuplicateUnicode": [],
+  "conflictingDuplicateUnicode": [
+    {
+      "code": "U+005B",
+      "character": "[",
+      "incoming": "Roman27ucs"
+    },
+    {
+      "code": "U+005D",
+      "character": "]",
+      "incoming": "Roman27ucs"
+    }
+  ],
+  "big5HanCount": 13061,
+  "big5HanCovered": 13060,
+  "missingBig5Han": [
+    "U+5F5D 彝"
+  ],
+  "extraHanOutsideBig5": [
+    "U+5F5E 彞"
+  ],
+  "big5MultipleByteCodesSameUnicode": {
+    "U+FF0F": [
+      "A1FE",
+      "A241"
+    ],
+    "U+FF3C": [
+      "A240",
+      "A242"
+    ],
+    "U+5341": [
+      "A2CC",
+      "A451"
+    ],
+    "U+5345": [
+      "A2CE",
+      "A4CA"
+    ]
+  },
+  "mergePolicy": "Audit-only collision detection visited CNS1, CNS2, then Roman without overwriting prior entries. This is not an approved full-font export policy. Fixed sample explicitly selects Roman for ASCII and contains no brackets. Future full-font export must use Roman printable ASCII and preserve original CNS slots separately.",
+  "sample": {
+    "path": "assets/specimens/aix_isas_cns_24.png",
+    "dimensions": [
+      359,
+      66
+    ],
+    "sha256": "872e5140834bf0bcb432635dea66bf2d2c42cbeb7d942e5201770a5cd8e1fc1a",
+    "lines": [
+      "視野無限廣，窗外有藍天。",
+      "0123456789 AaBb GgMm !?:+-."
+    ],
+    "noScaling": true,
+    "noCropping": true,
+    "asciiPrintableCoverage": 95
+  },
+  "containerNote": "Both CNS files final BDF_ACCELERATORS table advertises 100 bytes while actual remaining data is 72 bytes: valid accelerator plus ink bounds. The independent decoder accepted this documented size difference; all glyph-bearing tables satisfy bounds and no pixels were omitted.",
+  "encodingNotes": "CNS1/2 are directly UCS2 encoded, with no cross-plane Unicode overlaps or conflicts. CNS2 default U+3000 is absent from its own encoding table, so it must not be synthesized as an extra glyph. Roman brackets U+005B/U+005D conflict with fullwidth CNS1 variants; any future Unicode export should explicitly use original Roman for printable ASCII, preserve original CNS slots separately and document the choice. Review sentence includes no brackets.",
+  "totalGlyphsCompared": 13642,
+  "totalSourcePixelsCompared": 9532107,
+  "hanInkMeasurement": {
+    "method": "Pillow getbbox on every nonblank U+3400–9FFF glyph in each source plane, preserving source pixels.",
+    "cns1ucsMax": [
+      24,
+      24
+    ],
+    "cns2ucsMax": [
+      24,
+      24
+    ]
+  }
+}

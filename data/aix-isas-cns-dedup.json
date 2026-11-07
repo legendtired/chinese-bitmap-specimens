@@ -1,0 +1,83 @@
+{
+  "scope": "Public aggregate summary only. No full reference inventory, per-specimen inventory, glyph arrays or match coordinates.",
+  "method": "Same-Unicode nonblank Han comparison against 221 historical BDF references, both whole-cell and cropped-ink exact pixels. CNS1 and CNS2 are disjoint Han sets. Unmapped shape-only matches do not establish character identity.",
+  "nonblankHan": {
+    "plane1": 5411,
+    "plane2": 7650,
+    "union": 13061
+  },
+  "historicalReferenceSummary": {
+    "referencesChecked": 221,
+    "referencesWithMappedHan": 211,
+    "referencesWithoutMappedHan": 10,
+    "currentCatalogCount": 234,
+    "currentCatalogEntriesAbsentFromArchive": 49
+  },
+  "namedComparisons": [
+    {
+      "id": "isas_song_24",
+      "name": "ISAS 宋24",
+      "commonHan": 4382,
+      "wholeEqual": 0,
+      "croppedEqual": 1427
+    },
+    {
+      "id": "eten_taipei_24",
+      "name": "ETen Taipei24",
+      "commonHan": 13060,
+      "wholeEqual": 0,
+      "croppedEqual": 1
+    },
+    {
+      "id": "hpux_sung_24",
+      "name": "HP-UX Sung24",
+      "commonHan": 13061,
+      "wholeEqual": null,
+      "croppedEqual": 1,
+      "note": "The HP24 supplement measured cropped-ink equality only; no whole-cell count is claimed."
+    },
+    {
+      "id": "dec_sung_cns11643_24",
+      "name": "DEC Sung24",
+      "commonHan": 13061,
+      "wholeEqual": 0,
+      "croppedEqual": 1
+    },
+    {
+      "id": "dec_sung_cns11643_32",
+      "name": "DEC Sung32",
+      "commonHan": 13061,
+      "wholeEqual": 0,
+      "croppedEqual": 0
+    }
+  ],
+  "isasRelationship": {
+    "classification": "Same-source traditional extension, not an independently new design.",
+    "sharedHan": 4382,
+    "croppedEqual": 1427,
+    "croppedEqualPercent": 32.57,
+    "outsideSimplifiedReferenceHan": 8679
+  },
+  "mappingSupplement": {
+    "method": "Original DEC PCF codepoints from preserved recipes remapped according to original Tru64 Chinese documentation: first byte A1–FE; second A1–FE identifies CNS plane 1, second 21–7E identifies plane 2. Transcode those plane coordinates using glibc EUC-TW. No guessing from Unicode-looking code values or source slot indices.",
+    "documentationUrl": "https://ftp.zx.net.nz/rom/V5.0Ar1094_D1/DOCS/HTML/SUPPDOCS/CHINADOC/CHINACH2.HTM",
+    "decMappedHanPerSize": 13064,
+    "decUnmappedSourceSlotsPerSize": 219,
+    "note": "DEC24/32 use the documented CNS-plane mapping; HP24 was compared separately. These supplements do not fill all historical source and mapping gaps."
+  },
+  "sampleOnlySummary": {
+    "method": "Sample-only exact 1-bit cropped-glyph template search in existing public PNGs for same Unicode Han named in each row text. Original AIX CNS1/CNS2 pixels, no scaling or border padding. Search covers complete target PNG; a match is a contained shape, not independently segmented glyph provenance. Nonmatches cannot establish full-font novelty. Alpha>128 and mean RGB<128 define public ink; reference-only photos excluded.",
+    "currentCatalogCount": 234,
+    "publicNativeSpecimensChecked": 233,
+    "referenceImagesExcluded": 1,
+    "withdrawnImagesAvailable": 0,
+    "specimensWithAnyMatchedHan": 5,
+    "specimensWithoutMatchedHan": 228,
+    "matchedHanOccurrences": 7,
+    "distinctMatchedHan": 3,
+    "maximumMatchedHanPerSpecimen": 3,
+    "wholeSentenceMatches": 0,
+    "interpretation": "Only isolated common-character shape matches were found; this sample-only search is not a complete-source font comparison."
+  },
+  "limits": "49 current IDs were absent from the old BDF archive; mapped HP24 was supplemented separately. Other missing or unmapped full sources remain gaps. Withdrawn references are included only where historical source data exists; no withdrawn PNGs were recovered. Sporadic same-Unicode sample-shape matches are not whole-sentence or whole-font duplication, and nonmatches do not establish originality."
+}

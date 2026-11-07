@@ -86,7 +86,9 @@ def details(r):
   out+='</section>'
  return out
 def page_description(r):
- if r.get('heightBasis')=='han-ink-grid':return f"{r['name']}：有效中文字面{r['designHeight']}点，原存储{r['cellWidth']}×{r['cellHeight']}字框与空白完整保留；实物提取样张、来源边界与联系试用说明。"
+ if r.get('heightBasis')=='han-ink-grid':
+  tail='实物提取样张、来源边界与联系试用说明。' if r.get('sourceType')=='physical-extraction' else '原生位图样张、来源、编码与许可边界。'
+  return f"{r['name']}：有效中文字面{r['designHeight']}点，原存储{r['cellWidth']}×{r['cellHeight']}字框与空白完整保留；{tail}"
  if r.get('heightBasis')=='han-design-grid':return f"{r['name']}：汉字设计格高 {r['designHeight']}px，原设计格点还原，不是内嵌位图或固定字符框；含原字体来源、排版与授权说明。"
  if is_reference(r):
   return f"{r['name']}资料：{r.get('referenceType') or '参考资料'}，展示原始资料图、来源与许可线索。{REFERENCE_WARNING}；{REFERENCE_COVERAGE}。"

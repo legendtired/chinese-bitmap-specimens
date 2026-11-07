@@ -183,6 +183,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "hpux_song_40"
       ]
+    },
+    {
+      "sourceManifest": "release-aix-isas-cns.json",
+      "ids": [
+        "aix_isas_cns_24"
+      ]
     }
   ]
 };

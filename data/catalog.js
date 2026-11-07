@@ -15824,5 +15824,85 @@ window.FONT_CATALOG = [
       ],
       "checkedOn": "2026-11-06"
     }
+  },
+  {
+    "id": "aix_isas_cns_24",
+    "name": "IBM AIX / ISAS 繁体宋体 · 24点字面",
+    "family": "IBM AIX / ISAS Cjk_song",
+    "width": 26,
+    "height": 27,
+    "cellWidth": 26,
+    "cellHeight": 27,
+    "designHeight": 24,
+    "heightBasis": "han-ink-grid",
+    "inkWidth": 24,
+    "inkHeight": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "操作系统"
+    ],
+    "specimen": "assets/specimens/aix_isas_cns_24.png",
+    "specimenWidth": 359,
+    "specimenHeight": 66,
+    "specimenSha256": "872e5140834bf0bcb432635dea66bf2d2c42cbeb7d942e5201770a5cd8e1fc1a",
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生24点汉字字面，保留26×27存储框；配同源13×27 Roman ASCII，不缩放、不补字。",
+    "coverage": "原UCS2编码CNS平面1／2含5,411＋7,650＝13,061个非空U+3400–9FFF汉字，两平面无汉字交集。Python Big5的13,061汉字中同Unicode覆盖13,060；“彝／彞”不互换，不称完整Big5。Roman配套95个可打印ASCII。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/AIX_415_rs6000",
+    "sourceLabel": "IBM AIX 4.1.5 RS/6000 原盘存档资料页",
+    "licenseStatus": "原中文标注Permission to use；未确认开放再分发授权",
+    "licenseNote": "中文PCF原文“(C) 1993, ISAS.  Permission to use.”，Roman为“Copyright 1992 by IBM.”。不将简短使用声明扩大为商用或再分发授权。仅展示固定PNG、聚合审计与无字模重绘方法，不附PCF、完整BDF或光盘。",
+    "provenance": "静态读取AIX 4.1.5第1盘X11.fnt中的cns1ucs.pcf、cns2ucs.pcf与Roman27ucs.pcf，未执行安装器或旧程序。1993／1992是字库版权标记，不证明首次设计日期或逐字手绘历史。",
+    "notes": "与已有ISAS宋24属于同源繁体扩展：共享4,382汉字中1,427裁白同形（32.57%），另8,679字不在该简体字集中。ETen24、HP24、DEC24分别仅1字裁白相同，DEC32为零。221份历史BDF及234条基线的233张非reference样图补查仍不等于全库完整来源已比完。CNS1全宽方括号与Roman半宽[]同码异图，固定句不含[]；未来完整导出须明确Roman ASCII优先并保留CNS原槽，本次不导出完整字体。",
+    "layoutNote": "按24点有效中文字面筛选；中文原字框26×27、advance 26，ASCII 13×27、advance 13；共同ascent 26／descent 1。两行四周4px、行间4px，保留存储空白和原字进，不裁边、不缩放、不额外加字距。",
+    "nativeEvidence": {
+      "summary": "固定SHA原PCF；独立raw／Pillow核验全部13,642字形、9,532,107像素及编码／度量一致。原27px行格不是新的27点字面。",
+      "hanCopyrightYear": 1993,
+      "asciiCopyrightYear": 1992,
+      "hanPlane1": 5411,
+      "hanPlane2": 7650,
+      "hanUnicodeCount": 13061,
+      "big5HanCovered": 13060,
+      "big5HanTotal": 13061,
+      "printableAscii": 95,
+      "storageCell": [
+        26,
+        27
+      ],
+      "maxHanInk": [
+        24,
+        24
+      ],
+      "asciiWidth": 13,
+      "fontAscent": 26,
+      "fontDescent": 1
+    },
+    "priority": 0,
+    "sourceIndex": 271,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行确认使用权后从对应原盘取得三份精确SHA的PCF。工具仅离线重绘固定样文，不导出完整字库，不授予商用或再分发权。",
+      "links": [
+        {
+          "label": "来源、编码边界与重绘方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/aix-isas-cns.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-06"
+    }
   }
 ];

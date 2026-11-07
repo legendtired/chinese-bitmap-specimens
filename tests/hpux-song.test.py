@@ -8,7 +8,7 @@ def digest(o):return sha(json.dumps(o,ensure_ascii=False,sort_keys=True).encode(
 rows=read('data/catalog.json');m=read('data/release-hpux-song.json')
 base=[r for r in rows if r['id'] in m['baseIds']]
 added=[r for r in rows if r['id'] in m['addedIds']]
-assert len(rows)==len({r['id'] for r in rows})==234
+assert len(rows)==len({r['id'] for r in rows})==235
 assert len(base)==233 and digest(base)==m['baseRowsSha256']
 assert len(added)==1 and digest(added)==m['addedRowsSha256']
 assert [r['id'] for r in rows if r.get('priority',0)>0]==m['preservedRecommendedIds']
@@ -18,11 +18,12 @@ r=added[0];assert r['id']=='hpux_song_40' and r['priority']==0
 assert (r['width'],r['height'],r['cellWidth'],r['cellHeight'])==(40,40,40,40)
 assert r['asciiOrigin']=='absent' and r['asciiText']=='' and len(r['asciiMissing'])==95
 assert r['missing']==r['hanMissing']==[] and r['nativeEvidence']['gb2312HanCovered']==6763
-s=read('data/summary.json');assert s['rows']==234 and s['nativePngCount']==233
-for k in ['standardAsciiComplete','ordinaryAsciiRows','partialAscii']:assert s[k]==m['previousSummary'][k]
+s=read('data/summary.json');assert s['rows']==235 and s['nativePngCount']==234
+for k in ['standardAsciiComplete','ordinaryAsciiRows']:assert s[k]==m['previousSummary'][k]+1
+assert s['partialAscii']==m['previousSummary']['partialAscii']
 assert s['ordinaryWithoutAsciiEvaluation']==m['previousSummary']['ordinaryWithoutAsciiEvaluation']+1
 assert s['fontFilesIncluded']==0 and not s['glyphDataIncluded']
-assert read('data/collection-history.json')['batches'][-1]=={'sourceManifest':'release-hpux-song.json','ids':m['addedIds']}
+assert {'sourceManifest':'release-hpux-song.json','ids':m['addedIds']} in read('data/collection-history.json')['batches']
 audit=read('data/hpux-song-independent-audit.json');assert audit['status']=='passed' and audit['glyphs']==7546 and audit['pixelsCompared']==12073600 and audit['missing']==[]
 d=read('data/hpux-song-dedup.json');assert len(d['references'])==221
 assert sum(x['compared'][0]['common']>0 for x in d['references'])==211
