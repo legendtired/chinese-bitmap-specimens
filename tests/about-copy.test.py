@@ -10,7 +10,9 @@ assert readme.count(README_ADDITION) == 1
 assert index.count(INDEX_ADDITION) == 1
 about = index.split('<dialog id="about-dialog"', 1)[1].split('</dialog>', 1)[0]
 assert INDEX_ADDITION in about
-for heading in ['收录原则', '项目缘起', '浏览', '来源与使用', '补充线索']:
+assert readme.index('## 项目缘起') < readme.index('## 收录原则')
+assert about.index('<h3>项目缘起</h3>') < about.index('<h3>收录原则</h3>')
+for heading in ['项目缘起', '收录原则', '浏览', '来源与使用', '补充线索']:
     assert about.count('<h3>' + heading + '</h3>') == 1
 
 class CopyText(HTMLParser):
