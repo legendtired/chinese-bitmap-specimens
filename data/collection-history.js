@@ -204,6 +204,13 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "sony_ericsson_p802_12"
       ]
+    },
+    {
+      "sourceManifest": "release-alcatel715.json",
+      "ids": [
+        "alcatel_ot715_13x14",
+        "ms_ming_14"
+      ]
     }
   ]
 };

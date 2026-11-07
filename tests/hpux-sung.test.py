@@ -1,3 +1,4 @@
+from approved_alcatel715 import before_alcatel_data
 from approved_recommendation_update import before_recommendations
 from approved_p908_merge import restore_sun, historical_file_sha
 """Three approved HP-UX sizes with exact preserved baseline and public-only outputs."""
@@ -7,7 +8,7 @@ R=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((R/p).read_text())
 def sha(b):return hashlib.sha256(b).hexdigest()
 def digest(o):return sha(json.dumps(o,ensure_ascii=False,sort_keys=True).encode())
-rows=before_recommendations(read('data/catalog.json'));m=read('data/release-hpux-sung.json');base=[r for r in rows if r['id']in m['baseIds']];added=[r for r in rows if r['id']in m['addedIds']]
+rows=before_recommendations(before_alcatel_data('data/catalog.json', read('data/catalog.json')));m=read('data/release-hpux-sung.json');base=[r for r in rows if r['id']in m['baseIds']];added=[r for r in rows if r['id']in m['addedIds']]
 assert len(rows)==len({r['id']for r in rows})==239
 assert len(base)==230 and digest(restore_sun(base))==m['baseRowsSha256']
 assert len(added)==3 and digest(added)==m['addedRowsSha256']
@@ -20,11 +21,11 @@ for r,n in zip(added,[24,34,42]):
  assert r['asciiOrigin']=='native' and r['missing']==r['hanMissing']==r['asciiMissing']==[]
  assert r['nativeEvidence']['asciiWidth']==n//2
  assert struct.unpack_from('>II',(R/r['specimen']).read_bytes(),16)==(r['specimenWidth'],r['specimenHeight'])
-s=read('data/summary.json');assert s['rows']==239 and s['nativePngCount']==238
+s=before_alcatel_data('data/summary.json', read('data/summary.json'));assert s['rows']==239 and s['nativePngCount']==238
 for k in ['standardAsciiComplete','ordinaryAsciiRows']:assert s[k]==m['previousSummary'][k]+8
 assert s['partialAscii']==m['previousSummary']['partialAscii']
 assert s['fontFilesIncluded']==0 and s['glyphDataIncluded'] is False
-assert {'sourceManifest':'release-hpux-sung.json','ids':m['addedIds']} in read('data/collection-history.json')['batches']
+assert {'sourceManifest':'release-hpux-sung.json','ids':m['addedIds']} in before_alcatel_data('data/collection-history.json', read('data/collection-history.json'))['batches']
 assert not set(read('data/curation.json')['removedIds'])&set(m['addedIds'])
 # Optional exact source integration: all input hashes, same PNG bytes, mutated-source rejection.
 if os.environ.get('HPUX_PCF_DIR'):

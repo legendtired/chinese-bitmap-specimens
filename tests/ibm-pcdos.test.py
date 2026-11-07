@@ -1,10 +1,11 @@
+from approved_alcatel715 import before_alcatel_data
 from approved_latin_update import AFTER
 from approved_latin_update import historical_rows
 """Approved IBM native24 additions, unchanged previous rows and bounded claims."""
 from pathlib import Path
 import hashlib,json,struct
 R=Path(__file__).resolve().parents[1]
-rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20','san5_dos_16x14','mstar_tv_simp_18','palm_cjkos_fgb12ktf','palm_cjkos_fgb12fsf','palm_cjkos_fb512kbf','palm_cjkos_fb512xmf','psion618c_8','psion618c_11','wqx_pc505_14x15','nokia_dct3_1999', 'fmtowns_f20_20', 'sun_gbk_song_12', 'sun_gbk_song_14', 'sun_gbk_song_16', 'sun_gbk_song_20', 'sun_gbk_song_24', 'sun_gb2312_song_12', 'sun_gb2312_song_14', 'sun_gb2312_song_20')];m=json.loads((R/'data/release-ibm-pcdos.json').read_text());ids=m['addedIds'];byid={r['id']:r for r in rows}
+rows=[r for r in before_alcatel_data('data/catalog.json', json.loads((R/'data/catalog.json').read_text())) if r['id'] not in ('sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20','san5_dos_16x14','mstar_tv_simp_18','palm_cjkos_fgb12ktf','palm_cjkos_fgb12fsf','palm_cjkos_fb512kbf','palm_cjkos_fb512xmf','psion618c_8','psion618c_11','wqx_pc505_14x15','nokia_dct3_1999', 'fmtowns_f20_20', 'sun_gbk_song_12', 'sun_gbk_song_14', 'sun_gbk_song_16', 'sun_gbk_song_20', 'sun_gbk_song_24', 'sun_gb2312_song_12', 'sun_gb2312_song_14', 'sun_gb2312_song_20')];m=json.loads((R/'data/release-ibm-pcdos.json').read_text());ids=m['addedIds'];byid={r['id']:r for r in rows}
 assert len(rows)==len(byid)==211
 assert ids==['ibm_pcdos_kai_24','ibm_pcdos_hei_24','ibm_pcdos_fangsong_24']
 base=[r for r in rows if r['id'] in m['baseIds']]

@@ -1,10 +1,11 @@
+from approved_alcatel715 import before_alcatel_data
 from approved_recommendation_update import before_recommendations
 from approved_p908_merge import restore_sun, historical_file_sha
 """Two approved Windows 3.2 additions; prior catalog and specimen bytes unchanged."""
 from pathlib import Path
 import hashlib,json,struct
 R=Path(__file__).resolve().parents[1]
-rows=[r for r in before_recommendations(json.loads((R/'data/catalog.json').read_text())) if r['id'] not in ['sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24']];m=json.loads((R/'data/release-windows32.json').read_text())
+rows=[r for r in before_recommendations(before_alcatel_data('data/catalog.json', json.loads((R/'data/catalog.json').read_text()))) if r['id'] not in ['sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24']];m=json.loads((R/'data/release-windows32.json').read_text())
 by={r['id']:r for r in rows};ids=['win32_simsun_13','win32_simsun_20']
 def digest(v):return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
 base=[r for r in rows if r['id'] in m['baseIds']];new=[r for r in rows if r['id'] in ids]
@@ -30,8 +31,8 @@ for row,n in zip(new,[13,20]):
  assert (R/f"fonts/{row['id']}.html").is_file()
  assert row['sourceUrl']=='https://archive.org/details/microsoft-windows-3.2-simpl-chinese-3.5'
  assert not any('/download/' in x['url'] for x in row['acquisitionGuide']['links'])
-h=json.loads((R/'data/collection-history.json').read_text());assert next(b for b in h['batches'] if b['sourceManifest']=='release-windows32.json')=={'sourceManifest':'release-windows32.json','ids':ids}
-s=json.loads((R/'data/summary.json').read_text());assert s['rows']==239 and s['nativePngCount']==238
+h=before_alcatel_data('data/collection-history.json', json.loads((R/'data/collection-history.json').read_text()));assert next(b for b in h['batches'] if b['sourceManifest']=='release-windows32.json')=={'sourceManifest':'release-windows32.json','ids':ids}
+s=before_alcatel_data('data/summary.json', json.loads((R/'data/summary.json').read_text()));assert s['rows']==239 and s['nativePngCount']==238
 for key in ['standardAsciiComplete','ordinaryAsciiRows']:assert s[key]==m['previousSummary'][key]+12
 assert s['partialAscii']==m['previousSummary']['partialAscii']
 assert s['ordinaryWithoutAsciiEvaluation']==m['previousSummary']['ordinaryWithoutAsciiEvaluation']+3

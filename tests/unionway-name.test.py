@@ -1,3 +1,4 @@
+from approved_alcatel715 import before_alcatel_data, before_alcatel_bytes
 """One source-backed naming correction; immutable rows, recommendations and pixels."""
 from pathlib import Path
 import hashlib
@@ -11,7 +12,7 @@ from approved_about_copy import before_about_copy
 ROOT = Path(__file__).resolve().parents[1]
 sha = lambda data: hashlib.sha256(data).hexdigest()
 digest = lambda value: sha(json.dumps(value, ensure_ascii=False, sort_keys=True).encode())
-rows = json.loads((ROOT / 'data/catalog.json').read_text())
+rows = before_alcatel_data('data/catalog.json', json.loads((ROOT / 'data/catalog.json').read_text()))
 assert UPDATE['baseCommit'] == '05c5b71d585a1dbdc7fc955f5de782cc307c7c08'
 assert len(rows) == len({row['id'] for row in rows}) == UPDATE['totalRows'] == 239
 assert [(c['id'], c['field']) for c in UPDATE['changes']] == [('ccic_uwb5_16m', 'name'), ('san5_dos_16x14', 'notes')]
@@ -30,7 +31,7 @@ assert row['priority'] == 0
 assert set(UPDATE['changedPublicFiles']) == {'data/catalog.json', 'data/catalog.js', 'index.html', 'fonts/ccic_uwb5_16m.html', 'fonts/san5_dos_16x14.html', 'docs/san5-dos.md', 'docs/research-notes.md'}
 replacements = [('UnionWay 繁体明体 16 · 16×16', '双桥 UnionWay 繁体明体 16 · 16×16'), ('UnionWay16', 'UnionWay双桥16'), ('UnionWay 16', 'UnionWay 双桥16')]
 for path, hashes in UPDATE['changedPublicFiles'].items():
-    current = (ROOT / path).read_bytes()
+    current = before_alcatel_bytes(path)
     if path == 'index.html':
         # Later approved explanatory copy is unrelated to this naming audit.
         current = before_about_copy(current.decode()).encode()

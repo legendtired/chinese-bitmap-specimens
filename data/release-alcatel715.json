@@ -1,0 +1,30 @@
+{
+  "addedIds": [
+    "alcatel_ot715_13x14",
+    "ms_ming_14"
+  ],
+  "totalRows": 241,
+  "baseRows": 239,
+  "baseRowsSha256": "35b78e690f128a1bdd933a01f39c57d95125d4544b8e670bef09c8fb22e473fc",
+  "baseSpecimensSha256": "f97036275026088ce17b7e4f8d186724a4ca436f1bb793e34f3b43e5f3e41f8f",
+  "baseRecommendedIds": [
+    "founder_pixel12",
+    "apple_kai_12",
+    "mingliu_native_13",
+    "firefly_sung_14",
+    "renoufangsong-16",
+    "hbf_Beijing16",
+    "kh_dot_ningyouchou_16_16px",
+    "sony-g90-original",
+    "hanyi-pixel13",
+    "hanyi-pixel-xingkai15",
+    "psa_c_screen_12",
+    "wqx_nc1020_12",
+    "casio_xda10000_12",
+    "nokia_dct3_1999",
+    "wqx_pc505_14x15",
+    "samsung_r208_16"
+  ],
+  "addedRowSha256": "850ea22ae3816ee510ec9f5034202bf5f54cd65db1723d50f6fcc35580ee3769",
+  "addedRowsSha256": "71a22d950c0e8b649a2745652dc7d0509ad6b91555cbe965b47c537036ab6a26"
+}

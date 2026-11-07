@@ -1,3 +1,4 @@
+from approved_alcatel715 import before_alcatel_data
 from approved_recommendation_update import before_recommendations
 from approved_p908_merge import restore_sun, historical_file_sha
 """Exactly four approved phone additions; preserved baseline, native previews and bounds."""
@@ -25,7 +26,7 @@ def digest(value):
 
 manifest = read('data/release-phone-gdr.json')
 from approved_p908_merge import former_catalog
-rows = former_catalog(before_recommendations(read('data/catalog.json')))
+rows = former_catalog(before_recommendations(before_alcatel_data('data/catalog.json', read('data/catalog.json'))))
 ids = ['sony_ericsson_p908_14', 'nokia_9210c_15', 'nokia_9210c_17', 'nokia_9210c_19']
 assert manifest['addedIds'] == ids
 assert len(rows) == len({r['id'] for r in rows}) == 239
@@ -51,8 +52,8 @@ for row, width, height, ink in zip(added, [14, 16, 18, 20], [16, 16, 18, 20], [1
     assert row['nativeEvidence']['printableAscii'] == 95
     assert (ROOT / ('fonts/' + row['id'] + '.html')).exists() or row['id'] == 'sony_ericsson_p908_14'
 assert not set(ids) & set(read('data/curation.json')['removedIds'])
-assert next(b for b in read('data/collection-history.json')['batches'] if b['sourceManifest'] == 'release-phone-gdr.json') == {'sourceManifest': 'release-phone-gdr.json', 'ids': ids}
-summary = read('data/summary.json')
+assert next(b for b in before_alcatel_data('data/collection-history.json', read('data/collection-history.json'))['batches'] if b['sourceManifest'] == 'release-phone-gdr.json') == {'sourceManifest': 'release-phone-gdr.json', 'ids': ids}
+summary = before_alcatel_data('data/summary.json', read('data/summary.json'))
 assert (summary['rows'], summary['nativePngCount'], summary['referenceRows']) == (239, 238, 1)
 for key in ['standardAsciiComplete', 'ordinaryAsciiRows', 'standardChineseComplete']:
     assert summary[key] == manifest['previousSummary'][key] + 4

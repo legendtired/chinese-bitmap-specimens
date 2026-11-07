@@ -115,3 +115,7 @@ python3 scripts/workspace.py check
 - [P908与Nokia 9210C](phone-gdr.md)：SHA锁定的PD1/SFX/PPM/GDR静态输入、原生度量两行样图。设置 `P908_GDR` 与 `NOKIA9210C_GDR` 可运行精确源重绘回归。
 
 - [P802小号](p802.md)：严格SHA的ZIP/PD2/GDR静态重绘；设置 `P802_GDR`、`P802_PD2`、`P802_ZIP` 可运行私有源与容器链回归。
+
+- [Alcatel OT-715](alcatel-ot715.md)：SHA锁定固件与固定四行样图重绘，实机字进未核。
+
+- [MS Ming 14×14](ms-ming14.md)：SHA锁定TTF内原生位图固定两行重绘，不补ASCII。

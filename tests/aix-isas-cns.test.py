@@ -1,3 +1,4 @@
+from approved_alcatel715 import before_alcatel_data
 from approved_recommendation_update import before_recommendations
 from approved_p908_merge import restore_sun, historical_file_sha
 """One approved traditional AIX addition with exact immutable baseline and redraw."""
@@ -17,7 +18,7 @@ def read(path): return json.loads((R / path).read_text())
 def sha(blob): return hashlib.sha256(blob).hexdigest()
 def digest(value): return sha(json.dumps(value, ensure_ascii=False, sort_keys=True).encode())
 
-rows = before_recommendations(read('data/catalog.json'))
+rows = before_recommendations(before_alcatel_data('data/catalog.json', read('data/catalog.json')))
 m = read('data/release-aix-isas-cns.json')
 base = [r for r in rows if r['id'] in m['baseIds']]
 added = [r for r in rows if r['id'] in m['addedIds']]
@@ -44,8 +45,8 @@ assert struct.unpack_from('>II', (R / r['specimen']).read_bytes(), 16) == (359, 
 assert r['nativeEvidence']['hanUnicodeCount'] == 13061
 assert r['nativeEvidence']['asciiWidth'] == 13
 assert (r['nativeEvidence']['fontAscent'], r['nativeEvidence']['fontDescent']) == (26, 1)
-assert {'sourceManifest': 'release-aix-isas-cns.json', 'ids': m['addedIds']} in read('data/collection-history.json')['batches']
-s = read('data/summary.json')
+assert {'sourceManifest': 'release-aix-isas-cns.json', 'ids': m['addedIds']} in before_alcatel_data('data/collection-history.json', read('data/collection-history.json'))['batches']
+s = before_alcatel_data('data/summary.json', read('data/summary.json'))
 assert s['rows'] == 239 and s['nativePngCount'] == 238
 for key in ['standardAsciiComplete', 'ordinaryAsciiRows', 'standardChineseComplete']:
     assert s[key] == m['previousSummary'][key] + 5

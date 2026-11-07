@@ -1,3 +1,4 @@
+from approved_alcatel715 import before_alcatel_file_sha
 """Reverse only the verified UnionWay naming correction for historical audits.
 
 Current rows, changed pages and unchanged PNGs are checked independently by
@@ -21,7 +22,7 @@ def before_name_row(row):
 
 
 def before_name_file_sha(path):
-    current = hashlib.sha256((ROOT / path).read_bytes()).hexdigest()
+    current = before_alcatel_file_sha(path)
     change = UPDATE['changedPublicFiles'].get(path)
     if change:
         assert current == change['after'], 'Unreviewed file change: ' + path

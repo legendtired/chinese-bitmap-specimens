@@ -1,3 +1,4 @@
+from approved_alcatel715 import before_alcatel_data, before_alcatel_file_sha
 from approved_unionway_name import before_name_file_sha
 from approved_recommendation_update import before_recommendations
 """Exactly one P802 addition, immutable prior rows/pages/PNGs, and strict source chain."""
@@ -30,7 +31,7 @@ def digest(value):
 
 
 manifest = read('data/release-p802.json')
-rows = before_recommendations(read('data/catalog.json'))
+rows = before_recommendations(before_alcatel_data('data/catalog.json', read('data/catalog.json')))
 ident = 'sony_ericsson_p802_12'
 assert manifest['addedIds'] == [ident]
 assert len(rows) == len({r['id'] for r in rows}) == manifest['totalRows'] == 239
@@ -47,7 +48,7 @@ assert digest({r['id']: sha((ROOT / r['specimen']).read_bytes()) for r in base})
 assert [r['id'] for r in rows if r.get('priority', 0) > 0] == manifest['preservedRecommendedIds']
 assert len(manifest['preservedRecommendedIds']) == 13
 for path, expected in manifest['preservedFilesSha256'].items():
-    assert sha((ROOT / path).read_bytes()) == expected, path
+    assert before_alcatel_file_sha(path) == expected, path
 row = added[0]
 assert row['id'] == ident and row['priority'] == 0 and row['sourceIndex'] == 276
 assert (row['width'], row['height'], row['cellWidth'], row['cellHeight']) == (12, 14, 12, 14)
@@ -58,9 +59,9 @@ assert row['missing'] == row['hanMissing'] == row['asciiMissing'] == []
 assert row['asciiOrigin'] == 'native' and row['nativeEvidence']['big5Han'] == 6998
 assert row['nativeEvidence']['big5ExpectedHan'] == 13061
 assert sha((ROOT / row['specimen']).read_bytes()) == row['specimenSha256']
-assert read('data/collection-history.json')['batches'][-1] == {'sourceManifest': 'release-p802.json', 'ids': [ident]}
+assert before_alcatel_data('data/collection-history.json', read('data/collection-history.json'))['batches'][-1] == {'sourceManifest': 'release-p802.json', 'ids': [ident]}
 assert not set(r['id'] for r in rows) & set(read('data/curation.json')['removedIds'])
-summary = read('data/summary.json')
+summary = before_alcatel_data('data/summary.json', read('data/summary.json'))
 assert (summary['rows'], summary['nativePngCount'], summary['referenceRows']) == (239, 238, 1)
 for key in ['standardAsciiComplete', 'ordinaryAsciiRows', 'standardChineseComplete']:
     assert summary[key] == manifest['previousSummary'][key]

@@ -47,6 +47,6 @@ for(const n of [12,14]){const r=actualRows.find(r=>r.id===`psa_c_screen_${n}`);a
  assert.equal(api.dimensions(r),'24px字面 · 存储 26×27');
  assert(api.filterCatalog(actualRows,{height:['24']}).includes(r));
  assert(!api.filterCatalog(actualRows,{height:['27']}).includes(r));
- assert.deepEqual(api.filterCatalog(actualRows,{},'','recent').slice(0,5).map(row=>row.id),['sony_ericsson_p802_12','nokia_9210c_19','nokia_9210c_17','nokia_9210c_15',r.id]);
+ assert.deepEqual(api.filterCatalog(actualRows,{},'','recent').slice(0,5).map(row=>row.id),['ms_ming_14','alcatel_ot715_13x14','sony_ericsson_p802_12','nokia_9210c_19','nokia_9210c_17']);
  assert.deepEqual([r.width,r.height,r.cellWidth,r.cellHeight],[26,27,26,27]);
 }

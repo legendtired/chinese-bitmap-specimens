@@ -1,3 +1,4 @@
+from approved_alcatel715 import before_alcatel_data
 from approved_recommendation_update import before_recommendations
 from approved_p908_merge import restore_sun, historical_file_sha
 """Approved SAN5 addition, exact prior catalog, fullwidth and source boundaries."""
@@ -14,7 +15,7 @@ R = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(R / 'scripts'))
 import render_san5_specimen as san5
 
-rows = [r for r in before_recommendations(json.loads((R / 'data/catalog.json').read_text())) if r['id'] not in ('sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20')]
+rows = [r for r in before_recommendations(before_alcatel_data('data/catalog.json', json.loads((R / 'data/catalog.json').read_text()))) if r['id'] not in ('sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20')]
 manifest = json.loads((R / 'data/release-san5.json').read_text())
 by_id = {row['id']: row for row in rows}
 base = [row for row in rows if row['id'] in manifest['baseIds']]
@@ -61,9 +62,9 @@ assert hashlib.sha256(png).hexdigest() == row['specimenSha256']
 assert struct.unpack('>II', png[16:24]) == (row['specimenWidth'], row['specimenHeight']) == (432, 30)
 page = (R / 'fonts/san5_dos_16x14.html').read_text()
 assert '全角英数样文（非ASCII）' in page and '三国志Ⅴ' in page
-history = json.loads((R / 'data/collection-history.json').read_text())
+history = before_alcatel_data('data/collection-history.json', json.loads((R / 'data/collection-history.json').read_text()))
 assert next(b for b in history['batches'] if b['sourceManifest'] == 'release-san5.json') == {'sourceManifest': 'release-san5.json', 'ids': manifest['addedIds']}
-summary = json.loads((R / 'data/summary.json').read_text())
+summary = before_alcatel_data('data/summary.json', json.loads((R / 'data/summary.json').read_text()))
 # Fullwidth SAN5 increases ordinary rows but never ordinary ASCII coverage.
 for key in ('standardAsciiComplete', 'partialAscii', 'ordinaryAsciiRows'):
     assert summary[key] == manifest['previousSummary'][key] + (12 if key != 'partialAscii' else 0)

@@ -1,9 +1,10 @@
+from approved_alcatel715 import before_alcatel_data
 from approved_recommendation_update import before_recommendations
 from approved_latin_update import historical_rows
 """Explicit historical view for release audits. Never imported by the site or builder."""
 import json,hashlib
 def before_solaris_withdrawal(root):
- current=[r for r in before_recommendations(json.loads((root/'data/catalog.json').read_text())) if r['id'] not in ('sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20','san5_dos_16x14','mstar_tv_simp_18','palm_cjkos_fgb12ktf','palm_cjkos_fgb12fsf','palm_cjkos_fb512kbf','palm_cjkos_fb512xmf','psion618c_8','psion618c_11')]
+ current=[r for r in before_recommendations(before_alcatel_data('data/catalog.json', json.loads((root/'data/catalog.json').read_text()))) if r['id'] not in ('sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20','san5_dos_16x14','mstar_tv_simp_18','palm_cjkos_fgb12ktf','palm_cjkos_fgb12fsf','palm_cjkos_fb512kbf','palm_cjkos_fb512xmf','psion618c_8','psion618c_11')]
  m=json.loads((root/'data/withdrawal-solaris-gb2312.json').read_text())
  ids=set(m['removedIds']);assert not ids.intersection(r['id'] for r in current)
  assert hashlib.sha256(json.dumps(historical_rows(current),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['retainedRowsSha256']

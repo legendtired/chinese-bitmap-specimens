@@ -1,3 +1,4 @@
+from approved_alcatel715 import before_alcatel_data
 from approved_recommendation_update import before_recommendations
 from approved_p908_merge import restore_sun, historical_file_sha
 """One approved R208 addition, with unchanged 229-row baseline after integration."""
@@ -43,7 +44,7 @@ assert m['baseRows']==229 and m['totalRows']==230 and m['addedIds']==[row['id']]
 assert m['baseCommit']=='4d5f51f908cc82b553cb958306591b19d6c5ef41'
 assert m['addedRowsSha256']==digest([row]) and len(m['preservedRecommendedIds'])==13
 if (R/'data/catalog.json').exists():
-    rows=before_recommendations(read('data/catalog.json'))
+    rows=before_recommendations(before_alcatel_data('data/catalog.json', read('data/catalog.json')))
     base=[r for r in rows if r['id']in m['baseIds']]
     added=[r for r in rows if r['id']in m['addedIds']]
     assert len(rows)==len({r['id']for r in rows})==239
@@ -53,9 +54,9 @@ if (R/'data/catalog.json').exists():
     for r in base:assert sha((R/r['specimen']).read_bytes())==r['specimenSha256'],r['id']
     indices=[r['sourceIndex']for r in rows if r.get('sourceIndex')is not None]
     assert len(indices)==len(set(indices))
-    history=read('data/collection-history.json')
+    history=before_alcatel_data('data/collection-history.json', read('data/collection-history.json'))
     assert next(b for b in history['batches'] if b['sourceManifest']=='release-samsung-r208.json')=={'sourceManifest':'release-samsung-r208.json','ids':['samsung_r208_16']}
-    summary=read('data/summary.json')
+    summary=before_alcatel_data('data/summary.json', read('data/summary.json'))
     assert summary['rows']==239 and summary['nativePngCount']==238
     assert summary['standardAsciiComplete']==m['previousSummary']['standardAsciiComplete']+9
     assert summary['ordinaryWithoutAsciiEvaluation']==m['previousSummary']['ordinaryWithoutAsciiEvaluation']+1

@@ -1,3 +1,4 @@
+from approved_alcatel715 import before_alcatel_data
 from approved_recommendation_update import before_recommendations
 from approved_p908_merge import restore_sun, historical_file_sha
 """Approved Song40 addition, immutable prior catalog and private source redraw."""
@@ -7,7 +8,7 @@ R=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((R/p).read_text())
 def sha(b):return hashlib.sha256(b).hexdigest()
 def digest(o):return sha(json.dumps(o,ensure_ascii=False,sort_keys=True).encode())
-rows=before_recommendations(read('data/catalog.json'));m=read('data/release-hpux-song.json')
+rows=before_recommendations(before_alcatel_data('data/catalog.json', read('data/catalog.json')));m=read('data/release-hpux-song.json')
 base=[r for r in rows if r['id'] in m['baseIds']]
 added=[r for r in rows if r['id'] in m['addedIds']]
 assert len(rows)==len({r['id'] for r in rows})==239
@@ -20,12 +21,12 @@ r=added[0];assert r['id']=='hpux_song_40' and r['priority']==0
 assert (r['width'],r['height'],r['cellWidth'],r['cellHeight'])==(40,40,40,40)
 assert r['asciiOrigin']=='absent' and r['asciiText']=='' and len(r['asciiMissing'])==95
 assert r['missing']==r['hanMissing']==[] and r['nativeEvidence']['gb2312HanCovered']==6763
-s=read('data/summary.json');assert s['rows']==239 and s['nativePngCount']==238
+s=before_alcatel_data('data/summary.json', read('data/summary.json'));assert s['rows']==239 and s['nativePngCount']==238
 for k in ['standardAsciiComplete','ordinaryAsciiRows']:assert s[k]==m['previousSummary'][k]+5
 assert s['partialAscii']==m['previousSummary']['partialAscii']
 assert s['ordinaryWithoutAsciiEvaluation']==m['previousSummary']['ordinaryWithoutAsciiEvaluation']+1
 assert s['fontFilesIncluded']==0 and not s['glyphDataIncluded']
-assert {'sourceManifest':'release-hpux-song.json','ids':m['addedIds']} in read('data/collection-history.json')['batches']
+assert {'sourceManifest':'release-hpux-song.json','ids':m['addedIds']} in before_alcatel_data('data/collection-history.json', read('data/collection-history.json'))['batches']
 audit=read('data/hpux-song-independent-audit.json');assert audit['status']=='passed' and audit['glyphs']==7546 and audit['pixelsCompared']==12073600 and audit['missing']==[]
 d=read('data/hpux-song-dedup.json');assert len(d['references'])==221
 assert sum(x['compared'][0]['common']>0 for x in d['references'])==211
