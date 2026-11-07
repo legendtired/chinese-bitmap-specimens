@@ -17094,5 +17094,88 @@
       "checkedOn": "2026-11-07"
     },
     "sourceIndex": 283
+  },
+  {
+    "id": "siemens_xelibri_14",
+    "name": "Siemens Xelibri 2/4 · 14×14",
+    "family": "Siemens Xelibri 2/4",
+    "width": 14,
+    "height": 14,
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": 14,
+    "inkHeight": 14,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/siemens_xelibri_14.png",
+    "specimenWidth": 168,
+    "specimenHeight": 50,
+    "specimenSha256": "047cf9b058da58738e47025836496fa71b2c6e660d54729ef43aec0749673b51",
+    "text": "视野无限广，窗外有蓝天。\n視野無限廣，窗外有藍天。",
+    "asciiText": "AaBbCc 0123456789",
+    "sampleKind": "standard",
+    "sampleLabel": "SW511固件font 4原生14×14汉字及同层不等宽ASCII；繁体覆盖不完整。",
+    "coverage": "本层9,509个显式Unicode映射、9,506个非空字形，含9,247个非空Han。GB2312汉字6,763/6,763齐全，基本Big5唯一汉字6,703/13,061，不能称完整繁体。95个可打印ASCII同层齐全，空格为空、94个可见。固定简繁样句均有字形，但不代表全繁体或全部符号覆盖。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/siemens_xelibri_2_4_firmware",
+    "sourceLabel": "Internet Archive第三方Xelibri 2/4固件保存页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "第三方保存、散列一致及原包手册不等于厂商认证或再分发许可。仅展示固定小样图、必要来源与聚合事实及无字模重绘方法，不公开原包、固件、完整字体、字模数组或字库子集。使用与再分发受原权利约束。",
+    "provenance": "来自Xelibri 2 and 4保存包内唯一SW511 CLA；128个常规成员均已静态核验。原包手册直接注明XELIBRI 2 and 4，固件含10/10/2003及对应software ID，日期仅为构建关联字串，不认定字体创作或首次发行年。按原Unicode映射与压缩1-bit字模静态解码，不取模轮廓、不执行固件；只枚举此CLA的10个字体表，不称整个设备资源已穷尽。",
+    "notes": "固定249条参考记录的全部共同非空Han做外围空白裁切精确比较及无尺寸门槛±1px完整墨迹Dice比较，不缩放。最高大交集国乔KC15为61/6,703精确、平均0.788190；MS Song14为1/6,763、平均0.735270。未见近整层重复，不证明独创或复制方向。冻结快照仅覆盖SC13发布前199/244个目录ID、45缺口保留，另含SC13及MS14直接参考，不称当前目录全覆盖。同源11×12层与Casio12为9,241/9,247精确，不新增。",
+    "layoutNote": "完整14高原矩形顶部对齐，汉字原框和最大墨迹均14×14。字间1px依原普通width+1推进路径，4px行间隔仅为样图布局。原度量byte保留，不推为所有UI通用bearing或基线。全角逗号依原查字别名使用同层窄ASCII逗号，不放大、不借字；该别名不扩充显式覆盖。原1×黑白PNG逐字节保留，不裁框、不补画、不冒充设备默认混层UI。",
+    "nativeEvidence": {
+      "summary": "10层全部20,216个显式映射的地址、宽高、原度量byte、消耗bit数及像素由两条静态实现逐项交叉核验；固定41个显示字符直接由独立解码重建，1×及4×逐像素一致。比较输入身份已独立核验，KC15全部6,703共同字分数独立复算；非249条分数均二次复算。",
+      "sourceUrl": "https://archive.org/details/siemens_xelibri_2_4_firmware",
+      "source_sha256": "3d8047d15f91249e6ec8f2d5f97338b7f8368445e04c32d16476134a48c3afa0",
+      "sourceBytes": 3145732,
+      "containerSha256": "032ef41aea72f348c5bf233082e92a0a335d357368157cb32c9076534470b329",
+      "containerBytes": 4253674,
+      "firmwareVersion": "SW511 / 0x0207000511040000",
+      "fontTable": 4,
+      "mappedCharacters": 9509,
+      "nonblankCharacters": 9506,
+      "nonblankCjk": 9247,
+      "gb2312Han": 6763,
+      "big5Han": 6703,
+      "big5ExpectedHan": 13061,
+      "printableAscii": 95,
+      "nonblankAscii": 94,
+      "bitDepth": 1,
+      "hanRawMetricByte": 14,
+      "ordinaryAdvanceRule": "native width + 1; not a universal UI metrics claim"
+    },
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得有权处理且SHA匹配的本地SW511 CLA；工具仅离线重绘批准的固定三行PNG，不联网、不执行固件，不导出任意文字、完整字体或字库子集。",
+      "links": [
+        {
+          "label": "来源、覆盖与固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/siemens-xelibri14.md",
+          "action": "method"
+        },
+        {
+          "label": "Xelibri 2/4固件保存页",
+          "url": "https://archive.org/details/siemens_xelibri_2_4_firmware",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-07"
+    },
+    "sourceIndex": 284
   }
 ]

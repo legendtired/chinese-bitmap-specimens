@@ -241,6 +241,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "ms_song_14"
       ]
+    },
+    {
+      "sourceManifest": "release-xelibri14.json",
+      "ids": [
+        "siemens_xelibri_14"
+      ]
     }
   ]
 };

@@ -129,3 +129,5 @@ python3 scripts/workspace.py check
 - [SC_Song 13×13与外补Arial](sc-song13.md)：双SHA锁定本地TTF/GDR的固定三行重绘。设置 `SC_SONG13_SOURCE` 与 `SC_SONG13_ARIAL_SOURCE` 运行源像素回归；未提供时明确跳过私有源验证。
 
 - [MS Song 14×14与外补Arial13](ms-song14.md)：双SHA锁定本地TTF/GDR，仅固定简体及英数两行；设置 `MS_SONG14_SOURCE` 与 `MS_SONG14_ARIAL_SOURCE` 运行源像素回归。原层没有ASCII，外补不计为原生覆盖。
+
+- [Siemens Xelibri 2/4 原生14×14](siemens-xelibri14.md)：SHA和大小锁定本地SW511 CLA，仅重绘固定简繁与同层ASCII三行；设置 `XELIBRI14_SOURCE` 运行源像素及安全路径回归。未提供原源时明确跳过，不把私有研究输入纳入发布。

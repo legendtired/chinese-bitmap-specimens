@@ -1,4 +1,5 @@
 """MS Song14 + explicitly external Arial13; immutable 245-row baseline."""
+from approved_xelibri14 import before_xelibri14_data, ID as XELIBRI14_ID
 from pathlib import Path
 import hashlib,json,os,subprocess,sys,tempfile,struct,copy
 from PIL import Image
@@ -9,7 +10,7 @@ import ms_song14_specimen as sc
 import generate_static as generator
 sha=lambda b:hashlib.sha256(b).hexdigest()
 digest=lambda value:sha(json.dumps(value,ensure_ascii=False,sort_keys=True).encode())
-read=lambda path:json.loads((ROOT/path).read_text())
+read=lambda path:before_xelibri14_data(path,json.loads((ROOT/path).read_text()))
 rows=read('data/catalog.json');m=read('data/release-ms-song14.json')
 assert m['addedIds']==[ID] and m['baseRows']==245 and m['totalRows']==246
 assert m['baseCommit']=='1b4a4d305c2d396fe1cce45aad90d91ae81e3bec' and m['baseTree']=='9d776566260e34460c5133808ee8d3f9c27e38ce'
@@ -36,10 +37,10 @@ assert r['scripts']==['简体'] and r['nativeEvidence']['mappedCharacters']==742
 assert sha((ROOT/'scripts/ms_song14_specimen.py').read_bytes())==m['sourceScriptSha256']=='bf8717d35db62743f4a143e58c317d961d6dd3a4eaa56d7263d0288c2dba76db'
 assert sha((ROOT/'docs/ms-song14.md').read_bytes())==m['documentationSha256']
 summary=read('data/summary.json');assert summary['rows']==246 and summary['nativePngCount']==245
-assert len(list((ROOT/'fonts').glob('*.html')))==246
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem != XELIBRI14_ID])==246
 assert read('data/collection-history.json')['batches'][-1]=={'sourceManifest':'release-ms-song14.json','ids':[ID]}
 order=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"],cwd=ROOT))
-assert order[:3]==[ID,'sc_song_13','samsung_ypt6_14x16']
+assert [ident for ident in order if ident != XELIBRI14_ID][:3]==[ID,'sc_song_13','samsung_ypt6_14x16']
 index=(ROOT/'index.html').read_text();assert index.count(generator.article(r)+'\n')==1
 assert (ROOT/'fonts/ms_song_14.html').read_text()==generator.font_page(r)
 png=ROOT/r['specimen'];im=Image.open(png)
@@ -51,11 +52,11 @@ assert not im.crop((168,0,210,14)).getbbox()
 assert not im.crop((0,14,210,18)).getbbox() and not im.crop((0,31,210,32)).getbbox()
 # Normalization must refuse an unknown change to the newly added row/batch.
 bad=copy.deepcopy(rows);bad[-1]['name']+=' UNREVIEWED'
-try:before_ms14_data('data/catalog.json',bad)
+try:before_ms14_data('data/catalog.json',bad,xelibri14_reversed=True)
 except AssertionError:pass
 else:raise AssertionError('Changed added row was silently normalized')
 bad=read('data/collection-history.json');bad['batches'][-1]['ids'].append('UNREVIEWED')
-try:before_ms14_data('data/collection-history.json',bad)
+try:before_ms14_data('data/collection-history.json',bad,xelibri14_reversed=True)
 except AssertionError:pass
 else:raise AssertionError('Changed added batch was silently normalized')
 with tempfile.TemporaryDirectory() as td:

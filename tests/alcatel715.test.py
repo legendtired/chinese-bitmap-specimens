@@ -25,7 +25,7 @@ im=Image.open(p); assert im.size==(r['specimenWidth'],r['specimenHeight']) and i
 assert len(a.LINES)==4 and r['text'].splitlines()==a.LINES[:3] and r['asciiText']==a.LINES[3]
 assert r['nativeEvidence']['source_sha256']==a.EXPECTED
 assert read('data/summary.json')['rows']==241
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in ('ms_song_14', 'sc_song_13', 'samsung_ypt6_14x16', PSP_ID, 'olympus_mrobe_mr100_12')])==241
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in ('ms_song_14', 'siemens_xelibri_14', 'sc_song_13', 'samsung_ypt6_14x16', PSP_ID, 'olympus_mrobe_mr100_12')])==241
 assert read('data/collection-history.json')['batches'][-1]=={'sourceManifest':'release-alcatel715.json','ids':m['addedIds']}
 with tempfile.TemporaryDirectory() as td:
     bad=Path(td)/'bad.dat';bad.write_bytes(b'not a firmware')
