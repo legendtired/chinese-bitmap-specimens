@@ -1,6 +1,7 @@
 """Reverse precisely the approved SC_Song13 addition for historical SHA audits.
 Not imported by the site or builder. Unknown rows/changes are never normalized.
 """
+from approved_ms_song14 import before_ms14_rows, before_ms14_data, before_ms14_bytes
 from pathlib import Path
 import copy
 import hashlib
@@ -17,10 +18,12 @@ def before_sc13_rows(rows):
         m = json.loads((ROOT/'data/release-sc-song13.json').read_text())
         assert len(added) == 1
         assert hashlib.sha256(json.dumps(added[0], ensure_ascii=False, sort_keys=True).encode()).hexdigest() == m['addedRowSha256'], 'Unreviewed SC_Song13 row change'
-    return [r for r in rows if r['id'] != ID]
+    return [r for r in before_ms14_rows(rows) if r['id'] != ID]
 
 
-def before_sc13_data(path, value):
+def before_sc13_data(path, value, *, ms14_reversed=False):
+    if not ms14_reversed:
+        value = before_ms14_data(path, value)
     if path == 'data/catalog.json':
         return before_sc13_rows(value)
     if path == 'data/collection-history.json':
@@ -41,12 +44,12 @@ def before_sc13_data(path, value):
 
 
 def before_sc13_bytes(path, root=ROOT):
-    data = (root/path).read_bytes()
+    data = before_ms14_bytes(path, root)
     if path in ('data/catalog.json', 'data/collection-history.json', 'data/summary.json'):
-        return (json.dumps(before_sc13_data(path, json.loads(data)), ensure_ascii=False, indent=2)+'\n').encode()
+        return (json.dumps(before_sc13_data(path, json.loads(data), ms14_reversed=True), ensure_ascii=False, indent=2)+'\n').encode()
     if path in ('data/catalog.js', 'data/collection-history.js'):
         prefix, payload = data.decode().split(' = ', 1)
-        original = before_sc13_data(path.replace('.js', '.json'), json.loads(payload.rstrip().removesuffix(';')))
+        original = before_sc13_data(path.replace('.js', '.json'), json.loads(payload.rstrip().removesuffix(';')), ms14_reversed=True)
         return (prefix+' = '+json.dumps(original, ensure_ascii=False, indent=2)+';\n').encode()
     if path == 'sitemap.xml':
         text, count = re.subn(r'<url><loc>https://legendtired.github.io/chinese-bitmap-specimens/fonts/'+ID+r'\.html</loc></url>\n', '', data.decode())
@@ -55,7 +58,7 @@ def before_sc13_bytes(path, root=ROOT):
     if path == 'index.html':
         text = data.decode()
         for asset in ('data/catalog.js', 'data/collection-history.js', 'app.js'):
-            current = hashlib.sha256((root/asset).read_bytes()).hexdigest()[:16]
+            current = hashlib.sha256(before_ms14_bytes(asset, root)).hexdigest()[:16]
             previous = hashlib.sha256(before_sc13_bytes(asset, root)).hexdigest()[:16]
             tag = f'src="{asset}?v={current}"'
             assert text.count(tag) == 1

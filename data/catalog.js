@@ -16961,5 +16961,138 @@ window.FONT_CATALOG = [
       "checkedOn": "2026-11-07"
     },
     "sourceIndex": 282
+  },
+  {
+    "id": "ms_song_14",
+    "name": "MS Song · 14×14",
+    "family": "MS Song",
+    "width": 14,
+    "height": 14,
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": 13,
+    "inkHeight": 13,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/ms_song_14.png",
+    "specimenWidth": 210,
+    "specimenHeight": 32,
+    "specimenSha256": "a706f62e4fa32e81cbe99e306835dd3f461af3b7e0b3ac0f7dd9973b3d95f78e",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "MS Song原存14×14简体中文；英数按用户选择外补另一来源的Arial原生13点位图，不是Arial14或原装配套。",
+    "coverage": "本位图层7,429个映射字形、7,428个非空；6,763个GB2312汉字全部非空。Big5基本汉字仅4,383/13,061，不是完整繁体，固定中文样句只用简体。该层没有ASCII，不能据此推断整个TTF无西文轮廓。另补Eon.gdr Arial13的英数，95个可打印ASCII齐全（含空格），不计入MS Song原生覆盖。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "not-in-source",
+    "sourceUrl": "https://www.rose-hulman.edu/class/ee/hoover/Orcad%20Lite%209.2%20Schematic%20Drawing%20and%20Simulation/Orcad%20Lite%209.2%20Freeware%20Installation%20Disk/ie5/En/",
+    "sourceLabel": "Rose-Hulman大学保存的IE5语言支持目录",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "MS Song与Arial分属不同来源。大学保存、源文件署名和包内签名都不等于字体再分发许可。仅展示固定小样图、必要事实及无字模离线重绘方法，不公开CAB、TTF、GDR、ROM、完整字模或字库子集。使用与再分发受各原权利约束。",
+    "provenance": "从Rose-Hulman大学课程软件目录保存的IE5简体中文语言支持CAB取得MSSONG.TTF。内部家族MS Song、Version 1.00、唯一名Microsoft:MS Song:1996，版权串ZHUHAI Stone Computerized typesetting system R&D LTD., 1995–1996。直接读取EBDT/EBLC v2的14ppem、1-bit原存位图，不栅格化轮廓。1996内部标识、1999包时间与2000保存时间都不是已证字体设计年；本来源不能证明特定设备实装或逐字手绘。",
+    "notes": "14层对202历史、13补充、28冻结层及5份直接参考，共248条记录的完整共同汉字做裁外围空白精确及±1px Dice比较，不设尺寸门槛、不缩放。最高平均相似度为HZK14：6,763共同字中5字精确同形，均值0.839105；Sun GBK14为41/6,763精确、均值0.823116。未见整套高度重复，但有局部近似。冻结基线覆盖198/243个ID、45个缺口未改写；不是全站整库去重、独创或全球唯一证明。只收14层，12层与HZK11US重复、16层近银钩铁画1999，均不新增。",
+    "layoutNote": "保留MS Song原14×14字框、水平bearing0、垂直bearing12、advance14及所有中文原像素，最大13×13墨迹不裁框。中文168×14字形掩码与已核简体原图逐像素相同，仅白底转透明。独立第二行外补Eon.gdr的Arial13（UID0x100001f4、1×1），原13高/ascent11、比例字进与bearing不变。210×32透明画布、14高展示行、4px间隔及基线12/29是本站组合排版，Arial行底部多1px透明留白；不称Arial14，不代表原设备行距或配套。",
+    "nativeEvidence": {
+      "summary": "精确源SHA、16个SFNT表及整文件checksum、21,982项cmap、14层93个子表和全部7,429个原存字形的1,456,084像素经原表独立解码、缓存及FontTools交叉核验；外补Arial另核原GDR家族表、原度量与独立位流。",
+      "sourceUrl": "https://www.rose-hulman.edu/class/ee/hoover/Orcad%20Lite%209.2%20Schematic%20Drawing%20and%20Simulation/Orcad%20Lite%209.2%20Freeware%20Installation%20Disk/ie5/En/",
+      "source_sha256": "cfc3544bf432b43f8bd1eacd728c3df7bf8a85320dddec53e7f564b32d00072d",
+      "sourceBytes": 2569116,
+      "containerSha256": "9229d8b3e2d54a8f46aee2dfffad55a068028c4960d6546942fb29940a9bf7f4",
+      "containerBytes": 2869970,
+      "mappedCharacters": 7429,
+      "nonblankCharacters": 7428,
+      "nonblankCjk": 6763,
+      "gb2312Han": 6763,
+      "big5Han": 4383,
+      "big5ExpectedHan": 13061,
+      "printableAscii": 0,
+      "bitDepth": 1,
+      "ppem": 14,
+      "horiBearingX": 0,
+      "horiBearingY": 12,
+      "horiAdvance": 14
+    },
+    "asciiPairing": {
+      "kind": "user-selected-external-source",
+      "family": "Arial",
+      "source": "Eon.gdr",
+      "sourceUrl": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
+      "uid": "0x100001f4",
+      "cellHeight": 13,
+      "ascent": 11,
+      "posture": "upright",
+      "weight": "normal",
+      "proportional": true,
+      "scale": [
+        1,
+        1
+      ],
+      "advanceRange": [
+        3,
+        15
+      ],
+      "leftBearingRange": [
+        0,
+        2
+      ],
+      "bitmapWidthRange": [
+        0,
+        13
+      ],
+      "bitmapHeightRange": [
+        0,
+        13
+      ],
+      "asciiRange": "U+0020–U+007E",
+      "printableAscii": 95,
+      "nonblankAscii": 94,
+      "sourceSha256": "2477ea0d6bae65eba347eb8a9ef9785bf01b58279c903b10da12d1cbc673a5de",
+      "sourceBytes": 143493,
+      "originalRuntimePairingVerified": false,
+      "copyrightNotice": "Copyright Monotype Typography Ltd 1997",
+      "rightBearingRange": [
+        -1,
+        5
+      ],
+      "glyphAscentRange": [
+        -1,
+        11
+      ]
+    },
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得有权处理且SHA匹配的本地MSSONG.TTF与Eon.gdr；工具只离线重绘固定简体一行及外补Arial13英数一行，不联网、不执行固件、不栅格化轮廓、不导出任意文字或字体/字库子集。",
+      "links": [
+        {
+          "label": "来源、外补Arial13与固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/ms-song14.md",
+          "action": "method"
+        },
+        {
+          "label": "MS Song对应IE5保存目录",
+          "url": "https://www.rose-hulman.edu/class/ee/hoover/Orcad%20Lite%209.2%20Schematic%20Drawing%20and%20Simulation/Orcad%20Lite%209.2%20Freeware%20Installation%20Disk/ie5/En/",
+          "action": "source"
+        },
+        {
+          "label": "Arial对应Revo ROM资料页",
+          "url": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-07"
+    },
+    "sourceIndex": 283
   }
 ];

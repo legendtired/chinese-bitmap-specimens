@@ -44,10 +44,10 @@ assert r['nativeEvidence']['mappedCharacters'] == 33893
 assert r['nativeEvidence']['nonblankCjk'] == 20902
 summary = read('data/summary.json')
 assert summary['rows'] == 244 and summary['nativePngCount'] == 243
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem != SC13_ID]) == 244
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (SC13_ID, 'ms_song_14')]) == 244
 assert read('data/collection-history.json')['batches'][-1] == {'sourceManifest': 'release-samsung-ypt6.json', 'ids': [ID]}
 order = json.loads(subprocess.check_output(['node', '-e', "console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"], cwd=ROOT))
-assert [ident for ident in order if ident != SC13_ID][:3] == [ID, 'olympus_mrobe_mr100_12', 'sony_psp_bwfont_16x18']
+assert [ident for ident in order if ident not in (SC13_ID, 'ms_song_14')][:3] == [ID, 'olympus_mrobe_mr100_12', 'sony_psp_bwfont_16x18']
 png = ROOT/r['specimen']
 image = Image.open(png)
 assert image.mode == 'RGBA' and image.size == (211,56)

@@ -13,5 +13,5 @@ for id in removed:
  for name in ['index.html','sitemap.xml','data/catalog.js']:
   assert id not in (R/name).read_text()
 assert {'ayu_gothic_18','ayu_gothic_20'}<={r['id'] for r in rows},'Do not remove separate Sazanami-hosted Ayu fonts by URL substring'
-assert len([r for r in rows if r['id'] != 'sc_song_13'])==244 and len([p for p in (R/'fonts').glob('*.html') if p.stem != 'sc_song_13'])==244
+assert len([r for r in rows if r['id'] not in ('sc_song_13', 'ms_song_14')])==244 and len([p for p in (R/'fonts').glob('*.html') if p.stem not in ('sc_song_13', 'ms_song_14')])==244
 print('efont removal: all five known Unicode sizes excluded; two current entries/assets/pages removed; independent Ayu family retained.')

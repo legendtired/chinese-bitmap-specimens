@@ -235,6 +235,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "sc_song_13"
       ]
+    },
+    {
+      "sourceManifest": "release-ms-song14.json",
+      "ids": [
+        "ms_song_14"
+      ]
     }
   ]
 };

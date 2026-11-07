@@ -3,13 +3,14 @@ from pathlib import Path
 import hashlib,json,os,subprocess,sys,tempfile,struct,copy
 from PIL import Image
 from approved_sc_song13 import before_sc13_file_sha, before_sc13_data, ID
+from approved_ms_song14 import before_ms14_data, ID as MS14_ID
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 import sc_song13_specimen as sc
 import generate_static as generator
 sha=lambda b:hashlib.sha256(b).hexdigest()
 digest=lambda value:sha(json.dumps(value,ensure_ascii=False,sort_keys=True).encode())
-read=lambda path:json.loads((ROOT/path).read_text())
+read=lambda path:before_ms14_data(path,json.loads((ROOT/path).read_text()))
 rows=read('data/catalog.json');m=read('data/release-sc-song13.json')
 assert m['addedIds']==[ID] and m['baseRows']==244 and m['totalRows']==245
 assert m['baseCommit']=='fc60511282cb071fe047f75cb069537a2cd0db1e' and m['baseTree']=='eb9a228cc3540d5e59ef18e614716e7abb43da39'
@@ -35,10 +36,10 @@ assert r['nativeEvidence']['basicHan']==20902 and r['nativeEvidence']['compatibi
 assert sha((ROOT/'scripts/sc_song13_specimen.py').read_bytes())==m['sourceScriptSha256']=='b734d513b8ad7fecd19a14fae3f12bad7cb0490c5129c8e5ecd59db637776647'
 assert sha((ROOT/'docs/sc-song13.md').read_bytes())==m['documentationSha256']
 summary=read('data/summary.json');assert summary['rows']==245 and summary['nativePngCount']==244
-assert len(list((ROOT/'fonts').glob('*.html')))==245
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem != MS14_ID])==245
 assert read('data/collection-history.json')['batches'][-1]=={'sourceManifest':'release-sc-song13.json','ids':[ID]}
 order=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"],cwd=ROOT))
-assert order[:3]==[ID,'samsung_ypt6_14x16','olympus_mrobe_mr100_12']
+assert [ident for ident in order if ident != MS14_ID][:3]==[ID,'samsung_ypt6_14x16','olympus_mrobe_mr100_12']
 index=(ROOT/'index.html').read_text();assert index.count(generator.article(r)+'\n')==1
 assert (ROOT/'fonts/sc_song_13.html').read_text()==generator.font_page(r)
 png=ROOT/r['specimen'];im=Image.open(png)
@@ -50,11 +51,11 @@ assert not im.crop((156,0,210,30)).getbbox()
 assert all(im.getpixel((x,y))==(0,0,0,0) for y in (*range(13,17),*range(30,34)) for x in range(210))
 # Normalization must refuse an unknown change to the newly added row/batch.
 bad=copy.deepcopy(rows);bad[-1]['name']+=' UNREVIEWED'
-try:before_sc13_data('data/catalog.json',bad)
+try:before_sc13_data('data/catalog.json',bad,ms14_reversed=True)
 except AssertionError:pass
 else:raise AssertionError('Changed added row was silently normalized')
 bad=read('data/collection-history.json');bad['batches'][-1]['ids'].append('UNREVIEWED')
-try:before_sc13_data('data/collection-history.json',bad)
+try:before_sc13_data('data/collection-history.json',bad,ms14_reversed=True)
 except AssertionError:pass
 else:raise AssertionError('Changed added batch was silently normalized')
 with tempfile.TemporaryDirectory() as td:
