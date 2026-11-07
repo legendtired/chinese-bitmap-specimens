@@ -16,7 +16,13 @@ const api = require(path.join(root, 'app.js'));
 // Keep this historical sort audit at its original recommendation weights.
 // Current weights and exact three-item scope are checked by priority.test.cjs.
 const recommendationChanges = new Map(json('data/update-recommendations-20261107.json').changes.map(change => [change.id, change]));
+const namingCorrection = json('data/correction-unionway-name-20261107.json').changes.find(change => change.field === 'name');
 const historicalRecommendations = row => {
+  // Preserve historical name-sort expectations; current naming is checked separately.
+  if (row.id === namingCorrection.id) {
+    assert([namingCorrection.before, namingCorrection.after].includes(row.name));
+    row = {...row, name: namingCorrection.before};
+  }
   const change = recommendationChanges.get(row.id);
   if (!change) return row;
   assert([change.before, change.after].includes(row.priority));

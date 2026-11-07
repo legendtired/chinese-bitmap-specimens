@@ -1,4 +1,5 @@
 """Exactly three recommendation changes; all 239 rows otherwise remain byte-equivalent."""
+from approved_unionway_name import before_name_row, before_name_file_sha
 from pathlib import Path
 import hashlib
 import json
@@ -9,7 +10,7 @@ read = lambda path: json.loads((ROOT / path).read_text())
 sha = lambda data: hashlib.sha256(data).hexdigest()
 digest = lambda data: sha(json.dumps(data, ensure_ascii=False, sort_keys=True).encode())
 update = read('data/update-recommendations-20261107.json')
-rows = read('data/catalog.json')
+rows = [before_name_row(row) for row in read('data/catalog.json')]
 before = before_recommendations(rows)
 assert update['baseCommit'] == '015392f1c913614801dd1f85405fe8a78405b57f'
 assert len(rows) == len({r['id'] for r in rows}) == update['totalRows'] == 239
@@ -30,7 +31,7 @@ recommended = lambda data: [r['id'] for r in sorted(data, key=lambda r: -r['prio
 assert recommended(before) == update['beforeRecommendedIds']
 assert recommended(rows) == update['afterRecommendedIds'] == update['beforeRecommendedIds'] + [c['id'] for c in expected]
 assert len(update['beforeRecommendedIds']) == 13 and len(update['afterRecommendedIds']) == 16
-assert digest({r['id']: sha((ROOT / 'fonts' / (r['id'] + '.html')).read_bytes()) for r in rows}) == update['preservedPagesSha256']
+assert digest({r['id']: before_name_file_sha('fonts/' + r['id'] + '.html') for r in rows}) == update['preservedPagesSha256']
 assert digest({r['id']: sha((ROOT / r['specimen']).read_bytes()) for r in rows}) == update['preservedSpecimensSha256']
 for path, expected_sha in update['preservedFilesSha256'].items():
     assert sha((ROOT / path).read_bytes()) == expected_sha, path

@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-07",
+  "baseCommit": "05c5b71d585a1dbdc7fc955f5de782cc307c7c08",
+  "scope": "仅移除既有UnionWay字体名称与三处交叉引用中无来源支持的双桥称呼；不改变字形、ID、来源、许可、推荐、收录或去重结论。",
+  "evidenceUrl": "https://www.ibiblio.org/ccic/software/cnapps/mswcsys.html",
+  "evidence": "同期CCIC分别列Twinbridge Software与UnionWay International；UWB5头标FOUNDRY=UnionWay，来源UnionWay DBM 4.0g。仅纠正称呼，不推断完整设计谱系。",
+  "changes": [
+    {
+      "id": "ccic_uwb5_16m",
+      "field": "name",
+      "before": "双桥 UnionWay 繁体明体 16 · 16×16",
+      "after": "UnionWay 繁体明体 16 · 16×16"
+    },
+    {
+      "id": "san5_dos_16x14",
+      "field": "notes",
+      "before": "与KC国乔15繁体、UnionWay双桥16、GNU intlfonts ETen Taipei16逐同码位比较13,051个共同主汉字，仅裁空白边缘且不缩放，分别只有1／0／3字相同，不是这些字体的整库重复。另与提交1d003b3的221项原生预览第一行比较均不同，非221套完整字库全量去重。保留彞U+5F5E原字形，不以Windows TCA的彝替换。符号候选仍有分歧，不能宣称完整Big5或13,736槽Unicode映射全部核实。",
+      "after": "与KC国乔15繁体、UnionWay16、GNU intlfonts ETen Taipei16逐同码位比较13,051个共同主汉字，仅裁空白边缘且不缩放，分别只有1／0／3字相同，不是这些字体的整库重复。另与提交1d003b3的221项原生预览第一行比较均不同，非221套完整字库全量去重。保留彞U+5F5E原字形，不以Windows TCA的彝替换。符号候选仍有分歧，不能宣称完整Big5或13,736槽Unicode映射全部核实。"
+    }
+  ],
+  "totalRows": 239,
+  "recommendedIds": [
+    "founder_pixel12",
+    "apple_kai_12",
+    "mingliu_native_13",
+    "firefly_sung_14",
+    "renoufangsong-16",
+    "hbf_Beijing16",
+    "kh_dot_ningyouchou_16_16px",
+    "sony-g90-original",
+    "hanyi-pixel13",
+    "hanyi-pixel-xingkai15",
+    "psa_c_screen_12",
+    "wqx_nc1020_12",
+    "casio_xda10000_12",
+    "nokia_dct3_1999",
+    "wqx_pc505_14x15",
+    "samsung_r208_16"
+  ],
+  "beforeRowsSha256": "1bd1cdd77bdaad28ca7fa9952b3fcd8b69e27b7f1660103e9313d56d5e61beda",
+  "afterRowsSha256": "35b78e690f128a1bdd933a01f39c57d95125d4544b8e670bef09c8fb22e473fc",
+  "specimensSha256": "f97036275026088ce17b7e4f8d186724a4ca436f1bb793e34f3b43e5f3e41f8f",
+  "changedPublicFiles": {
+    "data/catalog.js": {
+      "before": "d409aef72e30c2fab4ae0107199be0a70515a2aaa45c0e1c2df70f1dc337615f",
+      "after": "f865047282a9253387909cc6d3f215853fe711c0907a966ec0e3f8b7a17bc81c"
+    },
+    "data/catalog.json": {
+      "before": "75d92ecd3993bf4cf68a3932537f6fa8cba489fb1ae267eda85a48227be5ff81",
+      "after": "9a37258b421c3d219acfd7a3063c1e4f9d904b949952fbc534d406a18db3fd72"
+    },
+    "docs/research-notes.md": {
+      "before": "28a2419d79eacae48504b941ab35a9a955bf537b0255dd005dcc54c70e561796",
+      "after": "8de5b8fc26847384fb6eb025cc982efe269131683b6d601ce1ef0367906f0b90"
+    },
+    "docs/san5-dos.md": {
+      "before": "8d4e747507bf897da45f27681f96e2990b39c477a1682d76ebd78b9039ef60d0",
+      "after": "eb201af7a93b017c51d76987c93b4a38807397ad568c3e8f787e1fb3e0bac286"
+    },
+    "fonts/ccic_uwb5_16m.html": {
+      "before": "1c084ff3b49624755478fdf208a70fb8d9371ca009ccddf1270dcf18017903e5",
+      "after": "e41afca1fa21d9566599819399aee48ff09fa4c1f117777de1742c3aa081aa4c"
+    },
+    "fonts/san5_dos_16x14.html": {
+      "before": "583c6e98d9933c429017cd38582154b629debfd13be22ab73be04a2ee9914b12",
+      "after": "a14cc28d608b1bd63e0a517f8172df5067585e8f279284d17ea131aa2ab45644"
+    },
+    "index.html": {
+      "before": "91ddd87e8cf5b32f63e16d6a9c89f1945c8193dde10aa590f96e221f5042892c",
+      "after": "7e59f2474a40b1286636e128c5764815927840ec9ee47ca04034b59555f9ea3c"
+    }
+  }
+}

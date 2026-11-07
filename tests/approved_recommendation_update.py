@@ -3,6 +3,7 @@
 Current weights and every original row/file are independently checked by
 recommendations-update.test.py and priority.test.cjs. Never used by the site.
 """
+from approved_unionway_name import before_name_row
 from pathlib import Path
 import json
 import hashlib
@@ -14,6 +15,7 @@ CHANGES = {change['id']: change for change in UPDATE['changes']}
 def before_recommendations(rows):
     result = []
     for row in rows:
+        row = before_name_row(row)
         change = CHANGES.get(row['id'])
         if change:
             assert row['priority'] in (change['before'], change['after']), 'Unreviewed recommendation weight: ' + row['id']

@@ -1,4 +1,5 @@
 """Restore explicit approved before-values for historical audits, never for the site."""
+from approved_unionway_name import before_name_file_sha
 from pathlib import Path
 import hashlib
 import json
@@ -26,7 +27,7 @@ def former_catalog(rows):
 
 
 def historical_file_sha(path):
-    current = hashlib.sha256((ROOT / path).read_bytes()).hexdigest()
+    current = before_name_file_sha(path)
     if path in MERGE['afterFilesSha256']:
         assert current == MERGE['afterFilesSha256'][path], 'Unreviewed file change: ' + path
         return MERGE['beforeFilesSha256'][path]

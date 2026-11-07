@@ -1,3 +1,4 @@
+from approved_unionway_name import before_name_file_sha
 from approved_recommendation_update import before_recommendations
 """Exactly one P802 addition, immutable prior rows/pages/PNGs, and strict source chain."""
 import hashlib
@@ -41,7 +42,7 @@ assert len(base) == manifest['baseRows'] == 239
 assert [r['id'] for r in base] == manifest['baseIds']
 assert digest(base) == manifest['baseRowsSha256']
 assert len(added) == 1 and digest(added) == manifest['addedRowsSha256']
-assert digest({r['id']: sha((ROOT / 'fonts' / (r['id'] + '.html')).read_bytes()) for r in preserved}) == manifest['basePagesSha256']
+assert digest({r['id']: before_name_file_sha('fonts/' + r['id'] + '.html') for r in preserved}) == manifest['basePagesSha256']
 assert digest({r['id']: sha((ROOT / r['specimen']).read_bytes()) for r in base}) == manifest['baseSpecimensSha256']
 assert [r['id'] for r in rows if r.get('priority', 0) > 0] == manifest['preservedRecommendedIds']
 assert len(manifest['preservedRecommendedIds']) == 13

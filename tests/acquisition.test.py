@@ -1,4 +1,5 @@
 """Acquisition-only update: all font metadata and pixels stay unchanged."""
+from approved_unionway_name import before_name_row
 from pathlib import Path
 import json,hashlib,html
 from acquisition_baseline import BASE
@@ -9,7 +10,7 @@ assert removed=={'efont_biwidth_16','efont_biwidth_24'}
 assert len(rows)==199 and {r['id'] for r in rows}==set(BASE['rowHashesWithoutGuide'])-removed
 assert sum(r.get('priority',0)>0 for r in rows)==11
 for row in rows:
- original={k:v for k,v in row.items() if k!='acquisitionGuide'}
+ original={k:v for k,v in before_name_row(row).items() if k!='acquisitionGuide'}
  digest=hashlib.sha256(json.dumps(original,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
  assert digest==BASE['rowHashesWithoutGuide'][row['id']],row['id']
  guide=row['acquisitionGuide'];assert guide['notice'] and guide['title'] and guide['steps']==[]
