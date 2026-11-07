@@ -1,3 +1,4 @@
+from approved_p908_merge import restore_sun, historical_file_sha
 """Approved Song40 addition, immutable prior catalog and private source redraw."""
 import hashlib, io, json, os, subprocess, sys, tempfile
 from pathlib import Path
@@ -9,7 +10,7 @@ rows=read('data/catalog.json');m=read('data/release-hpux-song.json')
 base=[r for r in rows if r['id'] in m['baseIds']]
 added=[r for r in rows if r['id'] in m['addedIds']]
 assert len(rows)==len({r['id'] for r in rows})==239
-assert len(base)==233 and digest(base)==m['baseRowsSha256']
+assert len(base)==233 and digest(restore_sun(base))==m['baseRowsSha256']
 assert len(added)==1 and digest(added)==m['addedRowsSha256']
 assert [r['id'] for r in rows if r.get('priority',0)>0]==m['preservedRecommendedIds']
 assert len(m['preservedRecommendedIds'])==13

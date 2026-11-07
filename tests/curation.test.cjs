@@ -4,7 +4,7 @@ const path = require('node:path');
 const {createFavoriteStore,bindSpecimenDetails}=require('../app.js');
 const rows=require('../data/catalog.json'),curation=require('../data/curation.json');
 const ids=new Set(rows.map(r=>r.id));
-assert.equal(rows.length,require('../data/release-psa.json').totalRows-require('../data/curation.json').postPsaRemovedIds.length-require('../data/curation.json').postEfontRemovedIds.length+26+require('../data/release-mstar18.json').addedIds.length+require('../data/release-san5.json').addedIds.length+require('../data/release-windows32.json').addedIds.length+require('../data/release-ps2-china.json').addedIds.length+require('../data/release-sunplus.json').addedIds.length+require('../data/release-samsung-r208.json').addedIds.length+require('../data/release-hpux-sung.json').addedIds.length+require('../data/release-hpux-song.json').addedIds.length+require('../data/release-aix-isas-cns.json').addedIds.length+require('../data/release-phone-gdr.json').addedIds.length-require('../data/curation.json').postSolarisGb2312RemovedIds.length);assert.equal(curation.removedIds.length,34);
+assert.equal(rows.length,require('../data/release-psa.json').totalRows-require('../data/curation.json').postPsaRemovedIds.length-require('../data/curation.json').postEfontRemovedIds.length+26+require('../data/release-mstar18.json').addedIds.length+require('../data/release-san5.json').addedIds.length+require('../data/release-windows32.json').addedIds.length+require('../data/release-ps2-china.json').addedIds.length+require('../data/release-sunplus.json').addedIds.length+require('../data/release-samsung-r208.json').addedIds.length+require('../data/release-hpux-sung.json').addedIds.length+require('../data/release-hpux-song.json').addedIds.length+require('../data/release-aix-isas-cns.json').addedIds.length+require('../data/release-phone-gdr.json').addedIds.length+require('../data/release-p802.json').addedIds.length-require('../data/release-p802.json').mergedIds.length-require('../data/curation.json').postSolarisGb2312RemovedIds.length);assert.equal(curation.removedIds.length,34);
 for(const id of [...curation.removedIds,...Object.keys(curation.merged)])assert(!ids.has(id));
 assert(ids.has('taipeil24'),'Do not confuse separate Taipei l24 entry');
 for(const [old,id] of Object.entries(curation.merged))assert(rows.find(r=>r.id===id).relatedSources.length);
@@ -21,7 +21,7 @@ image.handlers.keydown(ev({key:'Enter'}));image.handlers.keydown(ev({key:' '}));
 const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
 assert(html.includes('id="detail-content" class="dialog-body"'));assert(html.includes('aria-label="字形对比内容"'));assert(html.includes('aria-label="关于本站内容"'));
 const css=fs.readFileSync(path.join(__dirname,'../styles.css'),'utf8');assert(css.includes('dialog[open]{display:flex;flex-direction:column}'));assert(css.includes('.dialog-body{flex:1 1 auto;min-height:0;min-width:0;overflow:auto;'));
-console.log('Curation tests passed: 34 exclusions, 3 merges/provenance/favorites, pointer/keyboard/scroll suppression, fixed-header modal structure. Not a real-browser visual test.');
+console.log('Curation tests passed: 34 exclusions, 4 merges/provenance/favorites, pointer/keyboard/scroll suppression, fixed-header modal structure. Not a real-browser visual test.');
 
 const stale=createFavoriteStore(()=>({getItem:()=>JSON.stringify(['monotype_bitmap_hk','pixels_han_main']),setItem(){}}),ids,curation.merged);assert.deepEqual(stale.ids,['pixels_han_main']);assert(!ids.has('monotype_bitmap_hk'));
 

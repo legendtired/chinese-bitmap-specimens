@@ -1,3 +1,4 @@
+from approved_p908_merge import restore_sun, historical_file_sha
 """Exactly four approved phone additions; preserved baseline, native previews and bounds."""
 import hashlib
 import io
@@ -22,19 +23,20 @@ def digest(value):
     return sha(json.dumps(value, ensure_ascii=False, sort_keys=True).encode())
 
 manifest = read('data/release-phone-gdr.json')
-rows = read('data/catalog.json')
+from approved_p908_merge import former_catalog
+rows = former_catalog(read('data/catalog.json'))
 ids = ['sony_ericsson_p908_14', 'nokia_9210c_15', 'nokia_9210c_17', 'nokia_9210c_19']
 assert manifest['addedIds'] == ids
 assert len(rows) == len({r['id'] for r in rows}) == 239
 base = [r for r in rows if r['id'] in manifest['baseIds']]
 added = [r for r in rows if r['id'] in ids]
-assert len(base) == 235 and digest(base) == manifest['baseRowsSha256']
+assert len(base) == 235 and digest(restore_sun(base)) == manifest['baseRowsSha256']
 assert len(added) == 4 and digest(added) == manifest['addedRowsSha256']
 assert [r['id'] for r in rows if r.get('priority', 0) > 0] == manifest['preservedRecommendedIds']
 assert len(manifest['preservedRecommendedIds']) == 13
-assert digest({r['id']: sha((ROOT / 'fonts' / (r['id'] + '.html')).read_bytes()) for r in base}) == manifest['basePagesSha256']
+assert digest({r['id']: historical_file_sha('fonts/' + r['id'] + '.html') for r in base}) == manifest['basePagesSha256']
 for path, expected in manifest['preservedFilesSha256'].items():
-    assert sha((ROOT / path).read_bytes()) == expected, path
+    assert historical_file_sha(path) == expected, path
 assert len({r['sourceIndex'] for r in rows if r.get('sourceIndex') is not None}) == len([r for r in rows if r.get('sourceIndex') is not None])
 for row in rows:
     assert sha((ROOT / row['specimen']).read_bytes()) == row['specimenSha256'], row['id']
@@ -46,9 +48,9 @@ for row, width, height, ink in zip(added, [14, 16, 18, 20], [16, 16, 18, 20], [1
     assert row['missing'] == row['hanMissing'] == row['asciiMissing'] == []
     assert row['nativeEvidence']['gb2312Han'] == 6763 and row['nativeEvidence']['big5Han'] == 13061
     assert row['nativeEvidence']['printableAscii'] == 95
-    assert (ROOT / ('fonts/' + row['id'] + '.html')).exists()
+    assert (ROOT / ('fonts/' + row['id'] + '.html')).exists() or row['id'] == 'sony_ericsson_p908_14'
 assert not set(ids) & set(read('data/curation.json')['removedIds'])
-assert read('data/collection-history.json')['batches'][-1] == {'sourceManifest': 'release-phone-gdr.json', 'ids': ids}
+assert next(b for b in read('data/collection-history.json')['batches'] if b['sourceManifest'] == 'release-phone-gdr.json') == {'sourceManifest': 'release-phone-gdr.json', 'ids': ids}
 summary = read('data/summary.json')
 assert (summary['rows'], summary['nativePngCount'], summary['referenceRows']) == (239, 238, 1)
 for key in ['standardAsciiComplete', 'ordinaryAsciiRows', 'standardChineseComplete']:

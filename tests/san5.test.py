@@ -1,3 +1,4 @@
+from approved_p908_merge import restore_sun, historical_file_sha
 """Approved SAN5 addition, exact prior catalog, fullwidth and source boundaries."""
 from pathlib import Path
 import hashlib
@@ -12,7 +13,7 @@ R = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(R / 'scripts'))
 import render_san5_specimen as san5
 
-rows = [r for r in json.loads((R / 'data/catalog.json').read_text()) if r['id'] not in ('sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20')]
+rows = [r for r in json.loads((R / 'data/catalog.json').read_text()) if r['id'] not in ('sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20')]
 manifest = json.loads((R / 'data/release-san5.json').read_text())
 by_id = {row['id']: row for row in rows}
 base = [row for row in rows if row['id'] in manifest['baseIds']]
@@ -23,7 +24,7 @@ def digest(value):
 
 assert len(rows) == len(by_id) == manifest['totalRows']
 assert [row['id'] for row in base] == manifest['baseIds']
-assert digest(base) == manifest['baseRowsSha256']
+assert digest(restore_sun(base)) == manifest['baseRowsSha256']
 assert [row['id'] for row in new] == manifest['addedIds'] == ['san5_dos_16x14']
 assert digest(new) == manifest['addedRowsSha256']
 assert [row['id'] for row in rows if row.get('priority', 0) > 0] == manifest['preservedRecommendedIds']

@@ -1,3 +1,4 @@
+from approved_p908_merge import restore_sun, historical_file_sha
 """One approved R208 addition, with unchanged 229-row baseline after integration."""
 from pathlib import Path
 import hashlib
@@ -46,7 +47,7 @@ if (R/'data/catalog.json').exists():
     added=[r for r in rows if r['id']in m['addedIds']]
     assert len(rows)==len({r['id']for r in rows})==239
     assert len(base)==229 and [r['id']for r in base]==m['baseIds']
-    assert digest(base)==m['baseRowsSha256'] and added==[row]
+    assert digest(restore_sun(base))==m['baseRowsSha256'] and added==[row]
     assert [r['id']for r in rows if r.get('priority',0)>0]==m['preservedRecommendedIds']
     for r in base:assert sha((R/r['specimen']).read_bytes())==r['specimenSha256'],r['id']
     indices=[r['sourceIndex']for r in rows if r.get('sourceIndex')is not None]

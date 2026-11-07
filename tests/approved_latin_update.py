@@ -6,7 +6,9 @@ u=json.loads((R/'data/update-native-latin-20261106.json').read_text())
 BEFORE={r['id']:r for r in u['before']}
 AFTER={r['id']:r for r in u['after']}
 palm=json.loads((R/'data/update-palm-latin-20261106.json').read_text())
+from approved_p908_merge import restore_sun
 def historical_rows(rows):
+    rows = restore_sun(rows)
     for r in rows:
         if r['id']==palm['after']['id']:
             assert r==palm['after'], 'Unreviewed change to Palm supplemented row'

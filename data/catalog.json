@@ -14079,11 +14079,28 @@
           "label": "查看原盘资料页",
           "url": "https://archive.org/details/solaris-7-1199-sparc-cs",
           "action": "source"
+        },
+        {
+          "label": "P908变体来源、差异与离线研究方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/phone-gdr.md",
+          "action": "reference"
         }
       ],
       "checkedOn": "2026-11-05",
       "type": "method"
-    }
+    },
+    "relatedSources": [
+      {
+        "id": "sony_ericsson_p908_14",
+        "name": "Sony Ericsson P908 中号（研究变体，已合并）",
+        "version": "CXC162023 R1A08；固件内文2003-11-20 17:33；Linnea.gdr UID 0x18be。",
+        "comparison": "与本条Sun GBK14逐同Unicode紧裁比较：GB2312汉字2407/6763（35.591%）精确同形；全部共同汉字5740/15763（36.414%）。不缩放、允许±2px整数平移后，GB汉字中3299字像素差≤2、3814字≤4、4277字Dice≥0.95，中位差3、Dice中位数0.979。按收录选择合并为研究变体，不证明来源关系、复制方向、共同设计者、授权链或字库逐字节一致。",
+        "coverageNote": "P908自身为16高原生行格、ascent13、常用汉字字进14、典型墨迹13×14；16635映射码位、15788非空CJK、GB汉字6763及Big5汉字13061、同层95个ASCII。本条Sun原样图、原指标、原覆盖和主来源保持不变，不混用两者字形。",
+        "provenance": "中国版CXC162023 R1A08固件，内文日期2003-11-20 17:33；从PD1中按ROM目录位置静态读取Linnea.gdr的UID 0x18be。GDR直接存储原生1-bit行压缩点阵，不执行刷机程序、不矢量取模。Linnea/Linda仅是资源文件名，不作为设计来源或作者证据。",
+        "licenseNote": "第三方公开存档不等于再分发许可。仅展示固定小样图、聚合研究报告和无字模离线脚本；不公开完整ROM、固件、GDR、BDF或任何字库子集，使用与再分发仍受原权利约束。",
+        "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box"
+      }
+    ]
   },
   {
     "id": "sun_gbk_song_16",
@@ -15906,84 +15923,6 @@
     }
   },
   {
-    "id": "sony_ericsson_p908_14",
-    "name": "Sony Ericsson P908 · 14点字面",
-    "family": "Sony Ericsson P908",
-    "width": 14,
-    "height": 16,
-    "cellWidth": 14,
-    "cellHeight": 16,
-    "inkWidth": 13,
-    "inkHeight": 14,
-    "scripts": [
-      "简体",
-      "繁体"
-    ],
-    "styles": [
-      "未分类"
-    ],
-    "uses": [
-      "设备界面"
-    ],
-    "specimen": "assets/specimens/sony_ericsson_p908_14.png",
-    "specimenWidth": 348,
-    "specimenHeight": 44,
-    "specimenSha256": "d3f24176732018f40346e047a2b0cba841d3e6ed9afea159e335cb15f6606842",
-    "text": "视野无限广，窗外有蓝天。 視野無限廣，窗外有藍天。",
-    "asciiText": "0123456789 AaBb GgMm !?:+-.",
-    "sampleKind": "standard",
-    "sampleLabel": "原生16高字格，典型汉字13×14墨迹；简繁实际码位及同层ASCII。",
-    "coverage": "16,635个映射码位，含15,788个非空CJK汉字；全部6,763个GB2312汉字与严格Big5编解码器所映射13,061个汉字均非空。同层95个可打印ASCII完整，空格保留字进。不是完整Unicode或GB18030覆盖声明。",
-    "missing": [],
-    "hanMissing": [],
-    "asciiMissing": [],
-    "asciiOrigin": "native",
-    "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
-    "sourceLabel": "Twister 手机固件历史存档资料页",
-    "licenseStatus": "未确认开放再分发授权",
-    "licenseNote": "第三方公开存档不等于再分发许可。仅展示固定小样图、聚合研究报告和无字模离线脚本；不公开完整ROM、固件、GDR、BDF或任何字库子集，使用与再分发仍受原权利约束。",
-    "provenance": "中国版CXC162023 R1A08固件，内文日期2003-11-20 17:33；从PD1中按ROM目录位置静态读取Linnea.gdr的UID 0x18be。GDR直接存储原生1-bit行压缩点阵，不执行刷机程序、不矢量取模。Linnea/Linda仅是资源文件名，不作为设计来源或作者证据。",
-    "notes": "中号典型汉字墨迹13×14、常用字进14px、原生行字格16高。与T610中号6755/6763（99.882%）、P802中号6373/6763（94.233%）同形，故只保留覆盖更全的P908代表；Nokia3350标题子集40/44同形不能外推全库。具名完整字符层比对与当前目录固定样字检查分开记录，不宣称对所有当前／已撤字库完成整库查重，也不证明手工绘制历史。",
-    "layoutNote": "统一两行：第一行按实际简／繁Unicode取字，第二行是同一GDR层原生ASCII。保留每字原始advance、左右bearing和ascent，使用16px原生行字格；画布外边4px、行间4px仅为样图布局，不拉齐字号、不补字、不裁字框。width/cellWidth记录常用汉字字进，西文可不等宽；GDR层最大宽度17px另记。",
-    "nativeEvidence": {
-      "summary": "输入SHA及结构边界校验；Unicode段、内联8字节指标与LSB先行RLE直接解码，原生字进、bearing、ascent保留。两层版本分别锁定，不能推广到所有GDR。",
-      "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
-      "source_sha256": "debad6cef3b0b423fc53b32a923c87d0373671f929f520063d40117d6972cc4f",
-      "gdrVersion": 40,
-      "faceUid": "0x18be",
-      "mappedCharacters": 16635,
-      "nonblankCjk": 15788,
-      "gb2312Han": 6763,
-      "big5Han": 13061,
-      "printableAscii": 95,
-      "ascent": 13,
-      "layerMaxWidth": 17,
-      "typicalHanAdvance": 14,
-      "typicalInkOnly": true
-    },
-    "priority": 0,
-    "sourceIndex": 272,
-    "acquisitionGuide": {
-      "title": "获取方式",
-      "type": "method",
-      "steps": [],
-      "notice": "自行取得并确认有权处理匹配SHA的本地输入；脚本支持P908 PD1/GDR及9210C SFX/中文PPM/GDR，仅离线生成这四款固定两行PNG及聚合覆盖报告。不联网下载、不执行固件、不导出完整字体或子集。",
-      "links": [
-        {
-          "label": "来源、校验与固定样图重绘方法",
-          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/phone-gdr.md",
-          "action": "method"
-        },
-        {
-          "label": "历史固件资料页",
-          "url": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
-          "action": "source"
-        }
-      ],
-      "checkedOn": "2026-11-07"
-    }
-  },
-  {
     "id": "nokia_9210c_15",
     "name": "Nokia 9210C · 15点字面",
     "family": "Nokia 9210C",
@@ -16206,6 +16145,85 @@
         {
           "label": "来源、校验与固定样图重绘方法",
           "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/phone-gdr.md",
+          "action": "method"
+        },
+        {
+          "label": "历史固件资料页",
+          "url": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-07"
+    }
+  },
+  {
+    "id": "sony_ericsson_p802_12",
+    "name": "Sony Ericsson P802 · 12点字面",
+    "family": "Sony Ericsson P802",
+    "width": 12,
+    "height": 14,
+    "cellWidth": 12,
+    "cellHeight": 14,
+    "inkWidth": 11,
+    "inkHeight": 12,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/sony_ericsson_p802_12.png",
+    "specimenWidth": 300,
+    "specimenHeight": 40,
+    "specimenSha256": "7d58f2a3d87b5f31cecd329a93aa65959bd1a79b5dc35f1eef47f955f3ceb29e",
+    "text": "视野无限广，窗外有蓝天。 視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生14高字格，典型汉字11×12墨迹；简体完整、繁体部分及同层ASCII。",
+    "coverage": "10,406个映射码位，含9,587个非空CJK汉字；全部6,763个GB2312汉字非空，严格Big5编解码器所映射13,061个汉字中覆盖6,998个。繁体覆盖不全。同层95个可打印ASCII完整，空格保留字进；固定简繁样句无缺字。不宣称完整Big5、GBK或Unicode覆盖。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+    "sourceLabel": "Twister 手机固件历史存档资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "第三方公开存档不等于再分发许可。仅展示固定小样图、聚合研究报告和无字模离线脚本；不公开完整ROM、固件、GDR、BDF或任何字库子集，使用与再分发仍受原权利约束。",
+    "provenance": "P802中国版CXC16209 R2A07固件；配套PD1内文日期2003-04-16 21:13，从PD2的ROFS目录静态读取Linnea.gdr，选择UID 0x4823。GDR版本40，直接存储原生1-bit行压缩点阵；不执行刷机程序、不矢量取模。Linnea只是资源文件名，不作为设计来源或作者证据。",
+    "notes": "仅收小号：典型汉字墨迹11×12、汉字字进12px、原生行字格14高。已查具名完整GB汉字基线最高与SimSun18030内嵌12点507/6763（7.497%）同形；补查Sun GBK12为52/6763（0.769%），允许±2px平移且不缩放时Dice≥0.95仅265/6763。历史索引202条记录及当前238张原生固定PNG的检查分开记录，不宣称202套独立原生字体、全目录整库去重或设计原创性。中／大号不新增。",
+    "layoutNote": "两行固定样文使用实际简／繁Unicode及同层原生ASCII。保留每字advance、左右bearing、ascent与14px原生行字格；外边4px、行间4px仅为展示布局，不缩放、不补字、不裁字框。width/cellWidth为汉字字进12px，西文可不等宽；层最大宽度15px另记。",
+    "nativeEvidence": {
+      "summary": "SHA锁定P802 ZIP/PD2/GDR，核ROFS目录、版本40、15层结构和指定UID；Unicode区段、内联8字节指标及LSB先行RLE直接解码，保留原生度量。仅支持已核输入。",
+      "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+      "source_sha256": "b830cc56393523e399fcdc349f865d57fe02b4ead0fc64139eb76e035e538961",
+      "gdrVersion": 40,
+      "faceUid": "0x4823",
+      "mappedCharacters": 10406,
+      "nonblankCjk": 9587,
+      "gb2312Han": 6763,
+      "big5Han": 6998,
+      "printableAscii": 95,
+      "ascent": 11,
+      "layerMaxWidth": 15,
+      "typicalHanAdvance": 12,
+      "typicalInkOnly": true,
+      "big5ExpectedHan": 13061
+    },
+    "priority": 0,
+    "sourceIndex": 276,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得并确认有权处理匹配SHA的本地P802 PD2 ZIP、PD2或GDR；脚本只离线生成已批准小号的固定两行PNG与聚合覆盖报告。不联网、不执行固件、不输出完整字体、GDR或任何字库子集。",
+      "links": [
+        {
+          "label": "来源、校验与固定样图重绘方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/p802.md",
           "action": "method"
         },
         {

@@ -1,3 +1,4 @@
+from approved_p908_merge import restore_sun, historical_file_sha
 """One approved traditional AIX addition with exact immutable baseline and redraw."""
 import hashlib
 import io
@@ -21,11 +22,11 @@ base = [r for r in rows if r['id'] in m['baseIds']]
 added = [r for r in rows if r['id'] in m['addedIds']]
 assert len(rows) == len({r['id'] for r in rows}) == 239
 assert m['totalRows'] == 235
-assert len(base) == m['baseRows'] == 234 and digest(base) == m['baseRowsSha256']
+assert len(base) == m['baseRows'] == 234 and digest(restore_sun(base)) == m['baseRowsSha256']
 assert [r['id'] for r in base] == m['baseIds']
-assert digest({r['id']: sha((R / 'fonts' / (r['id'] + '.html')).read_bytes()) for r in base}) == m['basePagesSha256']
+assert digest({r['id']: historical_file_sha('fonts/' + r['id'] + '.html') for r in base}) == m['basePagesSha256']
 for path, expected in m['preservedFilesSha256'].items():
-    assert sha((R / path).read_bytes()) == expected, path
+    assert historical_file_sha(path) == expected, path
 assert len(added) == 1 and digest(added) == m['addedRowsSha256']
 assert [r['id'] for r in rows if r.get('priority', 0) > 0] == m['preservedRecommendedIds']
 assert len(m['preservedRecommendedIds']) == 13

@@ -1,0 +1,19 @@
+{
+  "source": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+  "outer_file": "Firmware.zip",
+  "member": "Firmware/Sony_Ericsson/P802/p802_r2a07_cxc16209_pd2.zip",
+  "inner_zip_sha256": "7d52140ed807ed92cd093281e6a8f60dca62b68f3c8b1ac8422c4c4ff435d328",
+  "pd2_sha256": "b7e4a9cb7395ea6436e660cce86367466fb27d0161b8e537d0d129648d6cba96",
+  "filename": "Linnea.gdr",
+  "rofs_name_offset": "0xde2",
+  "rofs_data_offset": "0x480f38",
+  "physical_file_offset": "0x480f3c",
+  "size": 1277578,
+  "gdr_sha256": "b830cc56393523e399fcdc349f865d57fe02b4ead0fc64139eb76e035e538961",
+  "build": "CXC16209 R2A07 030416 21:13",
+  "build_evidence": "matching pd1 physical offset 0x6590fb; original ASCII string",
+  "archiveMemberOuterCrc32": "9c347803",
+  "gdrVersion": 40,
+  "selectedLayerUid": "0x4823",
+  "license": "Redistribution permission has not been established. Aggregate provenance only; no firmware/font bytes."
+}

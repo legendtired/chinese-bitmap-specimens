@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "method": "All selected glyph metrics and row bits compared with an independently rerun original parser and previously decoded source; independent original-bearing/advance/ascent/cell PNG layout compared in RGBA. No glyph payload published.",
+  "mappedGlyphsCompared": 10406,
+  "rowsCompared": 121466,
+  "binaryPixelValuesCompared": 1278322,
+  "metricMismatches": 0,
+  "rowMismatches": 0,
+  "binaryPixelMismatches": 0,
+  "sourceChain": {
+    "zipCrc": "passed",
+    "zipSha256": "7d52140ed807ed92cd093281e6a8f60dca62b68f3c8b1ac8422c4c4ff435d328",
+    "pd2Sha256": "b7e4a9cb7395ea6436e660cce86367466fb27d0161b8e537d0d129648d6cba96",
+    "gdrSha256": "b830cc56393523e399fcdc349f865d57fe02b4ead0fc64139eb76e035e538961",
+    "rofsDirectory": "passed",
+    "sourceBytesMatch": true
+  },
+  "sample": {
+    "mode": "RGBA",
+    "size": [
+      300,
+      40
+    ],
+    "pixelsCompared": 12000,
+    "channelsCompared": 48000,
+    "inkPixels": 1442,
+    "pixelMismatches": 0,
+    "sha256": "7d58f2a3d87b5f31cecd329a93aa65959bd1a79b5dc35f1eef47f955f3ceb29e"
+  },
+  "scriptSha256": "91591f4fe3aeb3235d67460dc3ecfc7ab14eec25cc95c7715e914e41b8e59be8",
+  "sharedDecoderSha256": "b4e7fc2666bf266899bc14ebd8cac3c4673d35deb128f08b75433df7bdf4994f"
+}

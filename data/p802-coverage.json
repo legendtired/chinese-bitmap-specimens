@@ -1,0 +1,28 @@
+{
+  "id": "sony_ericsson_p802_12",
+  "uid": "0x4823",
+  "cellHeight": 14,
+  "ascent": 11,
+  "maxWidth": 15,
+  "mappedCharacters": 10406,
+  "cjkU3400U9fff": 9587,
+  "nonblankCjkU3400U9fff": 9587,
+  "gb2312": {
+    "expectedHan": 6763,
+    "presentHan": 6763,
+    "nonblankHan": 6763
+  },
+  "big5": {
+    "expectedHan": 13061,
+    "presentHan": 6998,
+    "nonblankHan": 6998
+  },
+  "printableAscii": 95,
+  "blankAscii": [
+    " "
+  ],
+  "hanAdvances": {
+    "12": 9587
+  },
+  "fixedSampleMissing": []
+}

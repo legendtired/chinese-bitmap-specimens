@@ -113,3 +113,5 @@ python3 scripts/workspace.py check
 - [IBM AIX / ISAS繁体宋体24点字面](aix-isas-cns.md)：保留26×27存储与原Unicode编码；设置 `AIX_CNS_PCF_DIR` 运行三份精确源的固定样图回归。
 
 - [P908与Nokia 9210C](phone-gdr.md)：SHA锁定的PD1/SFX/PPM/GDR静态输入、原生度量两行样图。设置 `P908_GDR` 与 `NOKIA9210C_GDR` 可运行精确源重绘回归。
+
+- [P802小号](p802.md)：严格SHA的ZIP/PD2/GDR静态重绘；设置 `P802_GDR`、`P802_PD2`、`P802_ZIP` 可运行私有源与容器链回归。

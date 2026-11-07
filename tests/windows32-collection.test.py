@@ -1,15 +1,16 @@
+from approved_p908_merge import restore_sun, historical_file_sha
 """Two approved Windows 3.2 additions; prior catalog and specimen bytes unchanged."""
 from pathlib import Path
 import hashlib,json,struct
 R=Path(__file__).resolve().parents[1]
-rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ['sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24']];m=json.loads((R/'data/release-windows32.json').read_text())
+rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ['sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24']];m=json.loads((R/'data/release-windows32.json').read_text())
 by={r['id']:r for r in rows};ids=['win32_simsun_13','win32_simsun_20']
 def digest(v):return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
 base=[r for r in rows if r['id'] in m['baseIds']];new=[r for r in rows if r['id'] in ids]
 assert len(rows)==len(by)==m['totalRows']==226
 assert len(base)==224 and [r['id'] for r in base]==m['baseIds']
 assert m['addedIds']==[r['id'] for r in new]==ids
-assert digest(base)==m['baseRowsSha256'] and digest(new)==m['addedRowsSha256']
+assert digest(restore_sun(base))==m['baseRowsSha256'] and digest(new)==m['addedRowsSha256']
 assert [r['id'] for r in rows if r.get('priority',0)>0]==m['preservedRecommendedIds']
 assert len(m['preservedRecommendedIds'])==13
 indices=[r['sourceIndex'] for r in rows if r.get('sourceIndex') is not None]

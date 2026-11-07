@@ -28,7 +28,7 @@
   },
   "curation": {
     "removedBySelection": 34,
-    "mergedSampleEquivalent": 3,
+    "mergedSampleEquivalent": 4,
     "scope": "代表性字样，不以数量或细微版本差异充数；同源及疑似取模不自动等于已证实矢量转换。"
   },
   "referenceRows": 1,

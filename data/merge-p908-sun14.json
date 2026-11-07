@@ -1,0 +1,519 @@
+{
+  "baseCommit": "535b92f43e625f189dde65808e78a05ac27befa0",
+  "mergedIds": [
+    "sony_ericsson_p908_14"
+  ],
+  "targetId": "sun_gbk_song_14",
+  "favoriteAliases": {
+    "sony_ericsson_p908_14": "sun_gbk_song_14"
+  },
+  "beforeSunRow": {
+    "id": "sun_gbk_song_14",
+    "name": "Solaris 中易宋体 · 14×14",
+    "family": "Solaris 中易宋体",
+    "width": 14,
+    "height": 14,
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/sun_gbk_song_14.png",
+    "specimenWidth": 189,
+    "specimenHeight": 32,
+    "specimenSha256": "21951dce5803295d8edc68c9f04142fd122d50e4c9dfc5352559e1a7b5a14e01",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；Unicode版21885字符，含20902基本汉字；原库94个ASCII，U+0020缺省。",
+    "missing": [
+      " "
+    ],
+    "hanMissing": [],
+    "asciiMissing": [
+      " "
+    ],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+    "sourceLabel": "Solaris 7 简体中文版原盘资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "PCF版权属性为Copyright (c) 1997 Beijing Zhong Yi Electronics Co.。未确认完整字体开放再分发授权；本站仅展示固定字样，不分发PCF、BDF或完整字模；使用原字体须另核权利。",
+    "provenance": "Solaris 7 SPARC 11/99简体中文版光盘内SUNWgxfnt包的gbksong14.pcf.Z。1997是内嵌版权年，1998-07-23是包内文件日期，1999-11是载体版本，均不冒充首次设计年份。直接读取原PCF点阵，未运行安装程序，未从矢量轮廓取模。",
+    "nativeEvidence": {
+      "summary": "汉字原PCF bitmap字框14×14、advance=14；PIXEL_SIZE=16。保留原像素、bearing、SWIDTH和全局ascent/descent=13/3，不是缩放补字。自写PCF解析与系统FreeType逐21980原码glyph核对，Unicode BDF回读及原生加载逐21885字验证。",
+      "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+      "source_sha256": "975ac1cf10c384db0902283468f3d373761ac46d9e5992e20fe2a8e7aa7db309",
+      "sourcePixelSize": 16,
+      "fontAscent": 13,
+      "fontDescent": 3,
+      "sourceGlyphs": 21980,
+      "unicodeMapped": 21885,
+      "basicHan": 20902,
+      "unmappedNativeCodes": 95
+    },
+    "notes": "每字墨迹大小随字变化，14×14是汉字实际bitmap字框；原全局行高16并保留。原GBK按实际双字节映射，不把码值直接当Unicode；95个历史扩展码不猜映射，另有原码导出。ASCII U+0021–U+007E为原库半角字形；样文里的U+0020仅作7px排版留白，不添加space glyph，亦不声明95个ASCII齐全。已对照指定HZK、Beijing/ISAS、DEC、Firefly与WQY12；12/14/16另对照SimSun 5.03原生点阵；非穷尽所有历史来源的全库去重或逐点手绘史证明。",
+    "priority": 0,
+    "sourceIndex": 245,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "在原盘资料页定位Solaris 7 1199 SPARC Software CS.iso，离线打开SUNWgxfnt/archive/none并提取gbksong14.pcf.Z；先本地uncompress，再用本站标准库脚本校验指定PCF SHA-256，导出Unicode或完整原GBK BDF。95个未确认映射码与缺省ASCII空格不自动补造。",
+      "links": [
+        {
+          "label": "原盘定位、校验与导出步骤",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/solaris-gbk.md",
+          "action": "method"
+        },
+        {
+          "label": "查看原盘资料页",
+          "url": "https://archive.org/details/solaris-7-1199-sparc-cs",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    }
+  },
+  "afterSunRow": {
+    "id": "sun_gbk_song_14",
+    "name": "Solaris 中易宋体 · 14×14",
+    "family": "Solaris 中易宋体",
+    "width": 14,
+    "height": 14,
+    "cellWidth": 14,
+    "cellHeight": 14,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/sun_gbk_song_14.png",
+    "specimenWidth": 189,
+    "specimenHeight": 32,
+    "specimenSha256": "21951dce5803295d8edc68c9f04142fd122d50e4c9dfc5352559e1a7b5a14e01",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "coverage": "标准中文样句完整；Unicode版21885字符，含20902基本汉字；原库94个ASCII，U+0020缺省。",
+    "missing": [
+      " "
+    ],
+    "hanMissing": [],
+    "asciiMissing": [
+      " "
+    ],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+    "sourceLabel": "Solaris 7 简体中文版原盘资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "PCF版权属性为Copyright (c) 1997 Beijing Zhong Yi Electronics Co.。未确认完整字体开放再分发授权；本站仅展示固定字样，不分发PCF、BDF或完整字模；使用原字体须另核权利。",
+    "provenance": "Solaris 7 SPARC 11/99简体中文版光盘内SUNWgxfnt包的gbksong14.pcf.Z。1997是内嵌版权年，1998-07-23是包内文件日期，1999-11是载体版本，均不冒充首次设计年份。直接读取原PCF点阵，未运行安装程序，未从矢量轮廓取模。",
+    "nativeEvidence": {
+      "summary": "汉字原PCF bitmap字框14×14、advance=14；PIXEL_SIZE=16。保留原像素、bearing、SWIDTH和全局ascent/descent=13/3，不是缩放补字。自写PCF解析与系统FreeType逐21980原码glyph核对，Unicode BDF回读及原生加载逐21885字验证。",
+      "sourceUrl": "https://archive.org/details/solaris-7-1199-sparc-cs",
+      "source_sha256": "975ac1cf10c384db0902283468f3d373761ac46d9e5992e20fe2a8e7aa7db309",
+      "sourcePixelSize": 16,
+      "fontAscent": 13,
+      "fontDescent": 3,
+      "sourceGlyphs": 21980,
+      "unicodeMapped": 21885,
+      "basicHan": 20902,
+      "unmappedNativeCodes": 95
+    },
+    "notes": "每字墨迹大小随字变化，14×14是汉字实际bitmap字框；原全局行高16并保留。原GBK按实际双字节映射，不把码值直接当Unicode；95个历史扩展码不猜映射，另有原码导出。ASCII U+0021–U+007E为原库半角字形；样文里的U+0020仅作7px排版留白，不添加space glyph，亦不声明95个ASCII齐全。已对照指定HZK、Beijing/ISAS、DEC、Firefly与WQY12；12/14/16另对照SimSun 5.03原生点阵；非穷尽所有历史来源的全库去重或逐点手绘史证明。",
+    "priority": 0,
+    "sourceIndex": 245,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "steps": [],
+      "notice": "在原盘资料页定位Solaris 7 1199 SPARC Software CS.iso，离线打开SUNWgxfnt/archive/none并提取gbksong14.pcf.Z；先本地uncompress，再用本站标准库脚本校验指定PCF SHA-256，导出Unicode或完整原GBK BDF。95个未确认映射码与缺省ASCII空格不自动补造。",
+      "links": [
+        {
+          "label": "原盘定位、校验与导出步骤",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/solaris-gbk.md",
+          "action": "method"
+        },
+        {
+          "label": "查看原盘资料页",
+          "url": "https://archive.org/details/solaris-7-1199-sparc-cs",
+          "action": "source"
+        },
+        {
+          "label": "P908变体来源、差异与离线研究方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/phone-gdr.md",
+          "action": "reference"
+        }
+      ],
+      "checkedOn": "2026-11-05",
+      "type": "method"
+    },
+    "relatedSources": [
+      {
+        "id": "sony_ericsson_p908_14",
+        "name": "Sony Ericsson P908 中号（研究变体，已合并）",
+        "version": "CXC162023 R1A08；固件内文2003-11-20 17:33；Linnea.gdr UID 0x18be。",
+        "comparison": "与本条Sun GBK14逐同Unicode紧裁比较：GB2312汉字2407/6763（35.591%）精确同形；全部共同汉字5740/15763（36.414%）。不缩放、允许±2px整数平移后，GB汉字中3299字像素差≤2、3814字≤4、4277字Dice≥0.95，中位差3、Dice中位数0.979。按收录选择合并为研究变体，不证明来源关系、复制方向、共同设计者、授权链或字库逐字节一致。",
+        "coverageNote": "P908自身为16高原生行格、ascent13、常用汉字字进14、典型墨迹13×14；16635映射码位、15788非空CJK、GB汉字6763及Big5汉字13061、同层95个ASCII。本条Sun原样图、原指标、原覆盖和主来源保持不变，不混用两者字形。",
+        "provenance": "中国版CXC162023 R1A08固件，内文日期2003-11-20 17:33；从PD1中按ROM目录位置静态读取Linnea.gdr的UID 0x18be。GDR直接存储原生1-bit行压缩点阵，不执行刷机程序、不矢量取模。Linnea/Linda仅是资源文件名，不作为设计来源或作者证据。",
+        "licenseNote": "第三方公开存档不等于再分发许可。仅展示固定小样图、聚合研究报告和无字模离线脚本；不公开完整ROM、固件、GDR、BDF或任何字库子集，使用与再分发仍受原权利约束。",
+        "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box"
+      }
+    ]
+  },
+  "formerStandaloneRow": {
+    "id": "sony_ericsson_p908_14",
+    "name": "Sony Ericsson P908 · 14点字面",
+    "family": "Sony Ericsson P908",
+    "width": 14,
+    "height": 16,
+    "cellWidth": 14,
+    "cellHeight": 16,
+    "inkWidth": 13,
+    "inkHeight": 14,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/sony_ericsson_p908_14.png",
+    "specimenWidth": 348,
+    "specimenHeight": 44,
+    "specimenSha256": "d3f24176732018f40346e047a2b0cba841d3e6ed9afea159e335cb15f6606842",
+    "text": "视野无限广，窗外有蓝天。 視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生16高字格，典型汉字13×14墨迹；简繁实际码位及同层ASCII。",
+    "coverage": "16,635个映射码位，含15,788个非空CJK汉字；全部6,763个GB2312汉字与严格Big5编解码器所映射13,061个汉字均非空。同层95个可打印ASCII完整，空格保留字进。不是完整Unicode或GB18030覆盖声明。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+    "sourceLabel": "Twister 手机固件历史存档资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "第三方公开存档不等于再分发许可。仅展示固定小样图、聚合研究报告和无字模离线脚本；不公开完整ROM、固件、GDR、BDF或任何字库子集，使用与再分发仍受原权利约束。",
+    "provenance": "中国版CXC162023 R1A08固件，内文日期2003-11-20 17:33；从PD1中按ROM目录位置静态读取Linnea.gdr的UID 0x18be。GDR直接存储原生1-bit行压缩点阵，不执行刷机程序、不矢量取模。Linnea/Linda仅是资源文件名，不作为设计来源或作者证据。",
+    "notes": "中号典型汉字墨迹13×14、常用字进14px、原生行字格16高。与T610中号6755/6763（99.882%）、P802中号6373/6763（94.233%）同形，故只保留覆盖更全的P908代表；Nokia3350标题子集40/44同形不能外推全库。具名完整字符层比对与当前目录固定样字检查分开记录，不宣称对所有当前／已撤字库完成整库查重，也不证明手工绘制历史。",
+    "layoutNote": "统一两行：第一行按实际简／繁Unicode取字，第二行是同一GDR层原生ASCII。保留每字原始advance、左右bearing和ascent，使用16px原生行字格；画布外边4px、行间4px仅为样图布局，不拉齐字号、不补字、不裁字框。width/cellWidth记录常用汉字字进，西文可不等宽；GDR层最大宽度17px另记。",
+    "nativeEvidence": {
+      "summary": "输入SHA及结构边界校验；Unicode段、内联8字节指标与LSB先行RLE直接解码，原生字进、bearing、ascent保留。两层版本分别锁定，不能推广到所有GDR。",
+      "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+      "source_sha256": "debad6cef3b0b423fc53b32a923c87d0373671f929f520063d40117d6972cc4f",
+      "gdrVersion": 40,
+      "faceUid": "0x18be",
+      "mappedCharacters": 16635,
+      "nonblankCjk": 15788,
+      "gb2312Han": 6763,
+      "big5Han": 13061,
+      "printableAscii": 95,
+      "ascent": 13,
+      "layerMaxWidth": 17,
+      "typicalHanAdvance": 14,
+      "typicalInkOnly": true
+    },
+    "priority": 0,
+    "sourceIndex": 272,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得并确认有权处理匹配SHA的本地输入；脚本支持P908 PD1/GDR及9210C SFX/中文PPM/GDR，仅离线生成这四款固定两行PNG及聚合覆盖报告。不联网下载、不执行固件、不导出完整字体或子集。",
+      "links": [
+        {
+          "label": "来源、校验与固定样图重绘方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/phone-gdr.md",
+          "action": "method"
+        },
+        {
+          "label": "历史固件资料页",
+          "url": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-07"
+    }
+  },
+  "decision": "Remove P908 as an independently selectable catalog item; retain explicitly qualified research-variant provenance at Sun GBK14. No attribution or authorization-chain claim.",
+  "comparison": {
+    "comparison_method": "Same Unicode only. Crop exterior all-blank rows/columns. No scaling, rotation, stroke edits or codepoint substitution. Exact compares all cropped pixels and dimensions. Near comparison minimizes symmetric-difference ink pixels over integer translations dx,dy in [-2,+2], without clipping; this is tolerance for placement only. Dice=2 intersection/(A ink+B ink); Jaccard=intersection/union. Counts include exact matches.",
+    "exact_all_layers": [
+      {
+        "baseline": "sun_gbk_song_12",
+        "scope": "GB2312 Han",
+        "common": 6763,
+        "exact_cropped": 1,
+        "pct": 0.01478633742422002
+      },
+      {
+        "baseline": "sun_gbk_song_12",
+        "scope": "all common basic Han",
+        "common": 15763,
+        "exact_cropped": 1,
+        "pct": 0.006343970056461334
+      },
+      {
+        "baseline": "sun_gbk_song_14",
+        "scope": "GB2312 Han",
+        "common": 6763,
+        "exact_cropped": 2407,
+        "pct": 35.59071418009759
+      },
+      {
+        "baseline": "sun_gbk_song_14",
+        "scope": "all common basic Han",
+        "common": 15763,
+        "exact_cropped": 5740,
+        "pct": 36.414388124088056
+      },
+      {
+        "baseline": "sun_gbk_song_16",
+        "scope": "GB2312 Han",
+        "common": 6763,
+        "exact_cropped": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "sun_gbk_song_16",
+        "scope": "all common basic Han",
+        "common": 15763,
+        "exact_cropped": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "sun_gbk_song_20",
+        "scope": "GB2312 Han",
+        "common": 6763,
+        "exact_cropped": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "sun_gbk_song_20",
+        "scope": "all common basic Han",
+        "common": 15763,
+        "exact_cropped": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "sun_gbk_song_24",
+        "scope": "GB2312 Han",
+        "common": 6763,
+        "exact_cropped": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "sun_gbk_song_24",
+        "scope": "all common basic Han",
+        "common": 15763,
+        "exact_cropped": 0,
+        "pct": 0.0
+      }
+    ],
+    "sun14_gb2312": {
+      "compared": 6763,
+      "exact_cropped": 2407,
+      "exact_pct": 35.59071418009759,
+      "same_cropped_dimensions": 5856,
+      "translation_allowed_xor_at_most": {
+        "0": 2407,
+        "1": 2898,
+        "2": 3299,
+        "4": 3814,
+        "8": 4525,
+        "16": 5292,
+        "24": 5857,
+        "32": 6228
+      },
+      "translation_allowed_dice_at_least": {
+        "0.99": 2849,
+        "0.98": 3341,
+        "0.95": 4277,
+        "0.9": 5006,
+        "0.85": 5524,
+        "0.8": 5943,
+        "0.7": 6472
+      },
+      "translation_allowed_jaccard_at_least": {
+        "0.99": 2410,
+        "0.98": 2852,
+        "0.95": 3592,
+        "0.9": 4335,
+        "0.85": 4772,
+        "0.8": 5133,
+        "0.7": 5761
+      },
+      "xor_pixels_quantiles": {
+        "0": 0,
+        "10": 0,
+        "25": 0,
+        "50": 3,
+        "75": 14,
+        "90": 29,
+        "95": 37,
+        "99": 51,
+        "100": 77
+      },
+      "dice_quantiles": {
+        "0": 0.3055555555555556,
+        "10": 0.773109243697479,
+        "25": 0.8944099378881988,
+        "50": 0.9791666666666666,
+        "75": 1.0,
+        "90": 1.0,
+        "95": 1.0,
+        "99": 1.0,
+        "100": 1.0
+      },
+      "jaccard_quantiles": {
+        "0": 0.18032786885245902,
+        "10": 0.6301369863013698,
+        "25": 0.8089887640449438,
+        "50": 0.9591836734693877,
+        "75": 1.0,
+        "90": 1.0,
+        "95": 1.0,
+        "99": 1.0,
+        "100": 1.0
+      },
+      "mean_xor_pixels": 9.038296613928729,
+      "mean_dice": 0.9305043659777582,
+      "mean_jaccard": 0.8840244941929054,
+      "global_ink_dice": 0.932953234206289,
+      "best_shift_distribution": {
+        "0,0": 6067,
+        "-1,0": 98,
+        "1,0": 242,
+        "-1,-1": 3,
+        "0,-1": 97,
+        "0,1": 219,
+        "1,1": 15,
+        "-1,1": 4,
+        "0,-2": 5,
+        "0,2": 4,
+        "1,-1": 7,
+        "-2,0": 1,
+        "-1,2": 1
+      }
+    },
+    "sun14_all_common_basic_han": {
+      "compared": 15763,
+      "exact_cropped": 5740,
+      "exact_pct": 36.414388124088056,
+      "same_cropped_dimensions": 14222,
+      "translation_allowed_xor_at_most": {
+        "0": 5740,
+        "1": 6912,
+        "2": 7763,
+        "4": 8921,
+        "8": 10732,
+        "16": 12670,
+        "24": 13871,
+        "32": 14637
+      },
+      "translation_allowed_dice_at_least": {
+        "0.99": 6862,
+        "0.98": 7967,
+        "0.95": 10269,
+        "0.9": 12251,
+        "0.85": 13405,
+        "0.8": 14237,
+        "0.7": 15268
+      },
+      "translation_allowed_jaccard_at_least": {
+        "0.99": 5757,
+        "0.98": 6866,
+        "0.95": 8493,
+        "0.9": 10441,
+        "0.85": 11662,
+        "0.8": 12540,
+        "0.7": 13864
+      },
+      "xor_pixels_quantiles": {
+        "0": 0,
+        "10": 0,
+        "25": 0,
+        "50": 3,
+        "75": 12,
+        "90": 27,
+        "95": 37,
+        "99": 52,
+        "100": 82
+      },
+      "dice_quantiles": {
+        "0": 0.3055555555555556,
+        "10": 0.802547770700637,
+        "25": 0.9135802469135802,
+        "50": 0.9808917197452229,
+        "75": 1.0,
+        "90": 1.0,
+        "95": 1.0,
+        "99": 1.0,
+        "100": 1.0
+      },
+      "jaccard_quantiles": {
+        "0": 0.18032786885245902,
+        "10": 0.6702127659574468,
+        "25": 0.8409090909090909,
+        "50": 0.9625,
+        "75": 1.0,
+        "90": 1.0,
+        "95": 1.0,
+        "99": 1.0,
+        "100": 1.0
+      },
+      "mean_xor_pixels": 8.63008310600774,
+      "mean_dice": 0.9387881600002689,
+      "mean_jaccard": 0.896365996407203,
+      "global_ink_dice": 0.9403563292371313,
+      "best_shift_distribution": {
+        "0,0": 14603,
+        "-1,0": 155,
+        "1,0": 383,
+        "-1,-1": 4,
+        "0,-1": 153,
+        "0,1": 405,
+        "1,1": 19,
+        "-1,1": 8,
+        "0,-2": 5,
+        "0,2": 8,
+        "1,-1": 13,
+        "-2,0": 2,
+        "1,-2": 1,
+        "-1,2": 1,
+        "2,0": 2,
+        "1,2": 1
+      }
+    }
+  },
+  "preservedP908SampleSha256": "d3f24176732018f40346e047a2b0cba841d3e6ed9afea159e335cb15f6606842",
+  "beforeFilesSha256": {
+    "app.js": "30831c11f806de3f63525e3c7387e23ae51e2f230df4421062d4d6834169c34e",
+    "data/curation.json": "8e0f05f49d821eb0497115f80b45e8461af9ab8af2fc5e8e33a608d26e3022f9",
+    "fonts/sun_gbk_song_14.html": "6eb4c4cac845da12a8afd3f5f6c376689cfe6d00b11b9709ea3cfe8ae2dd0ff1"
+  },
+  "afterFilesSha256": {
+    "app.js": "b81a39f8e5d6ecad49ba03390d82cd2892cb69baf8657d7cd8509f0b02c6578c",
+    "data/curation.json": "ba868579bbae807c1e7128c20597f40cedaf54c5a343acb5cad77e4183f707f4",
+    "fonts/sun_gbk_song_14.html": "a0364a993ca80894085d74cc353eed9703befd6d4531cd6383735e7b78c8a2ab"
+  }
+}

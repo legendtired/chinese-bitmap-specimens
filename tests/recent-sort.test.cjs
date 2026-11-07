@@ -13,7 +13,7 @@ const root = process.env.FONT_CATALOG_ROOT || path.resolve(__dirname, '..');
 const read = relative => fs.readFileSync(path.join(root, relative), 'utf8');
 const json = relative => JSON.parse(read(relative));
 const api = require(path.join(root, 'app.js'));
-const rows = json('data/catalog.json').filter(r => !['sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20'].includes(r.id) && r.id !== 'san5_dos_16x14' && r.id !== 'mstar_tv_simp_18' && !r.id.startsWith('psion618c_') && !require('../data/release-palm-styles.json').addedIds.includes(r.id));
+const rows = json('data/catalog.json').filter(r => !['sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20'].includes(r.id) && r.id !== 'san5_dos_16x14' && r.id !== 'mstar_tv_simp_18' && !r.id.startsWith('psion618c_') && !require('../data/release-palm-styles.json').addedIds.includes(r.id));
 const release = json('data/release-20261105-batch.json');
 const baselinePath = fs.existsSync(path.join(__dirname, 'previous-sort-baseline.json'))
   ? path.join(__dirname, 'previous-sort-baseline.json')
@@ -90,7 +90,7 @@ test('Prior retained 10-item batch order is numeric descending, independently of
 
 test('History batches match their checked-in release manifests with no duplicate or unknown IDs', () => {
   const history = json('data/collection-history.json');
-  history.batches = history.batches.filter(b => !['release-phone-gdr.json','release-aix-isas-cns.json','release-hpux-song.json','release-hpux-sung.json','release-samsung-r208.json','release-sunplus.json','release-ps2-china.json','release-windows32.json','release-san5.json','release-mstar18.json','release-psion618c.json','release-palm-styles.json'].includes(b.sourceManifest));
+  history.batches = history.batches.filter(b => !['release-p802.json','release-phone-gdr.json','release-aix-isas-cns.json','release-hpux-song.json','release-hpux-sung.json','release-samsung-r208.json','release-sunplus.json','release-ps2-china.json','release-windows32.json','release-san5.json','release-mstar18.json','release-psion618c.json','release-palm-styles.json'].includes(b.sourceManifest));
   assert(Array.isArray(history.batches) && history.batches.length > 0);
   const known = new Set(ids(rows)), assigned = new Set();
   for (const batch of history.batches) {
@@ -116,7 +116,7 @@ test('History batches match their checked-in release manifests with no duplicate
 
 test('Each recorded batch sorts ahead of older batches and unrecorded history', () => {
   const history = json('data/collection-history.json');
-  history.batches = history.batches.filter(b => !['release-phone-gdr.json','release-aix-isas-cns.json','release-hpux-song.json','release-hpux-sung.json','release-samsung-r208.json','release-sunplus.json','release-ps2-china.json','release-windows32.json','release-san5.json','release-mstar18.json','release-psion618c.json','release-palm-styles.json'].includes(b.sourceManifest));
+  history.batches = history.batches.filter(b => !['release-p802.json','release-phone-gdr.json','release-aix-isas-cns.json','release-hpux-song.json','release-hpux-sung.json','release-samsung-r208.json','release-sunplus.json','release-ps2-china.json','release-windows32.json','release-san5.json','release-mstar18.json','release-psion618c.json','release-palm-styles.json'].includes(b.sourceManifest));
   const rank = new Map(history.batches.flatMap((batch, index) => batch.ids.map(id => [id, index + 1])));
   const expected = [...rows].sort((a, b) => (rank.get(b.id) || 0) - (rank.get(a.id) || 0) || bySource(a, b));
   assert.deepEqual(ids(recent(rows)), ids(expected));
@@ -233,7 +233,7 @@ test('Browser global history path produces the same newest-first order as Common
   vm.runInContext(app.replace(marker, `globalThis.reviewApi = { filterCatalog, visibleCatalog }; ${marker}`), context, {filename:'app.js'});
   const actual = context.reviewApi.filterCatalog(context.window.FONT_CATALOG, {}, '', 'recent');
   assert.deepEqual(Array.from(actual, r => r.id), ids(recent(json('data/catalog.json'))));
-  assert.deepEqual(Array.from(actual.slice(0,8), r => r.id), ['nokia_9210c_19','nokia_9210c_17','nokia_9210c_15','sony_ericsson_p908_14','aix_isas_cns_24','hpux_song_40','hpux_sung_42','hpux_sung_34']);
+  assert.deepEqual(Array.from(actual.slice(0,8), r => r.id), ['sony_ericsson_p802_12','nokia_9210c_19','nokia_9210c_17','nokia_9210c_15','aix_isas_cns_24','hpux_song_40','hpux_sung_42','hpux_sung_34']);
 });
 
 test('UI change events toggle the recency explanation and keep recent order across favorites and filter resets', () => {

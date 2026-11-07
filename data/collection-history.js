@@ -198,6 +198,12 @@ window.FONT_COLLECTION_HISTORY = {
         "nokia_9210c_17",
         "nokia_9210c_19"
       ]
+    },
+    {
+      "sourceManifest": "release-p802.json",
+      "ids": [
+        "sony_ericsson_p802_12"
+      ]
     }
   ]
 };
