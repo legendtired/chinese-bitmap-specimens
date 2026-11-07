@@ -119,3 +119,5 @@ python3 scripts/workspace.py check
 - [Alcatel OT-715](alcatel-ot715.md)：SHA锁定固件与固定四行样图重绘，实机字进未核。
 
 - [MS Ming 14×14](ms-ming14.md)：SHA锁定TTF内原生位图固定两行重绘，不补ASCII。
+
+- [Sony PSP 中文BWFont 16×18](psp-bwfont.md)：SHA锁定的本地BWFont与intraFont映射源码，只重绘固定两行；设置 `PSP_BWFONT_SOURCE`、`PSP_MAPPING_SOURCE` 可运行源像素回归。

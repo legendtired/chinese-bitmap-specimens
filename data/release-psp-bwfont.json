@@ -1,0 +1,40 @@
+{
+  "addedIds": [
+    "sony_psp_bwfont_16x18"
+  ],
+  "totalRows": 242,
+  "baseRows": 241,
+  "baseCommit": "8cff4ddbb5e4ffaa0655c574c545d3eeca384a17",
+  "baseRowsSha256": "00f755dfc36f959ab609a7c5171f25c0b5c59228dcd397bf0d953b0ddca18a2e",
+  "baseSpecimensSha256": "90cbc999ebf1aceb894cbffe2a060b950f159754ea96de8cf06360e17d236c5a",
+  "basePagesSha256": "b3f20753c5fb91191f44a88663247aa0e33499ec02ada40629e8fea3c33c7d80",
+  "baseRecommendedIds": [
+    "founder_pixel12",
+    "apple_kai_12",
+    "mingliu_native_13",
+    "firefly_sung_14",
+    "renoufangsong-16",
+    "hbf_Beijing16",
+    "kh_dot_ningyouchou_16_16px",
+    "sony-g90-original",
+    "hanyi-pixel13",
+    "hanyi-pixel-xingkai15",
+    "psa_c_screen_12",
+    "wqx_nc1020_12",
+    "casio_xda10000_12",
+    "nokia_dct3_1999",
+    "wqx_pc505_14x15",
+    "samsung_r208_16",
+    "alcatel_ot715_13x14"
+  ],
+  "baseFilesSha256": {
+    "data/catalog.json": "faed1ded6086dcbe75d065dce6eb6f13dea3e7c7dce8bbfa25d6b029f555167e",
+    "data/catalog.js": "78777011a88312bb4ac8b57d2c33ad3310cc52cdd4545eb6129dd34bf48540e0",
+    "data/collection-history.json": "3b4fa4ef03c47fd34a5d84bc8f422c9005813fd04d43270823145caceb0aa99a",
+    "data/collection-history.js": "437d5cd455b0bd1daeebc79e68d8ecc77b1046ea8cdf64c5cf2761e96139a2df",
+    "data/summary.json": "cf486e081ee97b3fb95f56b8b524383794ec31a824b7a70dfb406a304d46756f",
+    "index.html": "de0a9f46dc065ad559b2667990d0def1cea260444e00ab081bba461c76b9b14e",
+    "sitemap.xml": "4ba0398aad2e775f821aa4d7804ee7ad4ef32ed9db6f618e13b42b4e962551b4"
+  },
+  "addedRowSha256": "8b06ea3ded16900cbac2a5c8a6c6530211dd9a7ba3e7fe6cb970eefe60aa746c"
+}

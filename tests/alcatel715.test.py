@@ -1,3 +1,4 @@
+from approved_psp_bwfont import before_psp_data, ID as PSP_ID
 """Approved one-item addition, source-native fixed PNG, immutable existing catalog."""
 from pathlib import Path
 import hashlib, json, os, sys, tempfile
@@ -5,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 import alcatel715_specimen as a
 from PIL import Image
-read=lambda p:json.loads((ROOT/p).read_text())
+read=lambda p:before_psp_data(p,json.loads((ROOT/p).read_text()))
 sha=lambda b:hashlib.sha256(b).hexdigest()
 digest=lambda x:sha(json.dumps(x,ensure_ascii=False,sort_keys=True).encode())
 rows=read('data/catalog.json'); m=read('data/release-alcatel715.json')
@@ -24,7 +25,7 @@ im=Image.open(p); assert im.size==(r['specimenWidth'],r['specimenHeight']) and i
 assert len(a.LINES)==4 and r['text'].splitlines()==a.LINES[:3] and r['asciiText']==a.LINES[3]
 assert r['nativeEvidence']['source_sha256']==a.EXPECTED
 assert read('data/summary.json')['rows']==241
-assert len(list((ROOT/'fonts').glob('*.html')))==241
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem != PSP_ID])==241
 assert read('data/collection-history.json')['batches'][-1]=={'sourceManifest':'release-alcatel715.json','ids':m['addedIds']}
 with tempfile.TemporaryDirectory() as td:
     bad=Path(td)/'bad.dat';bad.write_bytes(b'not a firmware')

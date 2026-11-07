@@ -1,25 +1,25 @@
 {
   "catalogVersion": 17,
-  "rows": 241,
+  "rows": 242,
   "minCellHeight": 8,
   "maxCellHeight": 64,
   "sizeScope": "No 8–32px restriction; native pixel design evidence and remaining uncertainty recorded",
   "sampleKinds": {
-    "standard": 229,
+    "standard": 230,
     "partial": 7,
     "osd": 4,
     "reference": 1
   },
   "scripts": {
-    "简体": 138,
-    "繁体": 128
+    "简体": 139,
+    "繁体": 129
   },
-  "nativePngCount": 240,
-  "standardChineseComplete": 230,
+  "nativePngCount": 241,
+  "standardChineseComplete": 231,
   "partialChinese": 6,
   "standardAsciiComplete": 197,
   "partialAscii": 10,
-  "ordinaryRows": 236,
+  "ordinaryRows": 237,
   "fontFilesIncluded": 0,
   "glyphDataIncluded": false,
   "emptyLineOmission": {
@@ -33,7 +33,7 @@
   },
   "referenceRows": 1,
   "ordinaryAsciiRows": 207,
-  "ordinaryWithoutAsciiEvaluation": 29,
+  "ordinaryWithoutAsciiEvaluation": 30,
   "coverageRule": "Reference screenshots/standard diagrams are not glyph coverage tests. Fullwidth samples and sources without ASCII are not counted as complete ordinary ASCII.",
   "variableGridRows": 2,
   "renderOmittedRows": 1,

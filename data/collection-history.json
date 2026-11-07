@@ -211,6 +211,12 @@
         "alcatel_ot715_13x14",
         "ms_ming_14"
       ]
+    },
+    {
+      "sourceManifest": "release-psp-bwfont.json",
+      "ids": [
+        "sony_psp_bwfont_16x18"
+      ]
     }
   ]
 }

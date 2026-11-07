@@ -25,6 +25,6 @@ assert s['partialAscii']==m['previousSummary']['partialAscii']
 assert s['ordinaryWithoutAsciiEvaluation']==m['previousSummary']['ordinaryWithoutAsciiEvaluation']+3
 assert s['fontFilesIncluded']==0 and s['glyphDataIncluded'] is False
 c=json.loads((R/'data/curation.json').read_text());assert not set(c['removedIds']).intersection(r['id'] for r in rows)
-assert len([p for p in (R/'fonts').glob('*.html') if p.stem not in ('alcatel_ot715_13x14', 'ms_ming_14')])==239
+assert len([p for p in (R/'fonts').glob('*.html') if p.stem not in ('sony_psp_bwfont_16x18', 'alcatel_ot715_13x14', 'ms_ming_14')])==239
 assert len(list((R/'assets/specimens').glob('sunplus*')))==2
 print('Sunplus integrated release: 227 baseline rows and PNGs unchanged; exactly two simplified additions; no recommendation or ASCII substitution.')
