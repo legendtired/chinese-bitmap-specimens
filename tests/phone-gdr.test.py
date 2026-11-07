@@ -1,3 +1,4 @@
+from approved_recommendation_update import before_recommendations
 from approved_p908_merge import restore_sun, historical_file_sha
 """Exactly four approved phone additions; preserved baseline, native previews and bounds."""
 import hashlib
@@ -24,7 +25,7 @@ def digest(value):
 
 manifest = read('data/release-phone-gdr.json')
 from approved_p908_merge import former_catalog
-rows = former_catalog(read('data/catalog.json'))
+rows = former_catalog(before_recommendations(read('data/catalog.json')))
 ids = ['sony_ericsson_p908_14', 'nokia_9210c_15', 'nokia_9210c_17', 'nokia_9210c_19']
 assert manifest['addedIds'] == ids
 assert len(rows) == len({r['id'] for r in rows}) == 239

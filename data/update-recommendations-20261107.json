@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-07",
+  "baseCommit": "015392f1c913614801dd1f85405fe8a78405b57f",
+  "scope": "仅将用户指定的三套既有字样加入推荐，接在原13项推荐之后；其他目录字段、原推荐权重、样图、详情页、收录批次与排除记录不变。",
+  "totalRows": 239,
+  "changes": [
+    {
+      "id": "nokia_dct3_1999",
+      "before": 0,
+      "after": 5
+    },
+    {
+      "id": "wqx_pc505_14x15",
+      "before": 0,
+      "after": 4
+    },
+    {
+      "id": "samsung_r208_16",
+      "before": 0,
+      "after": 3
+    }
+  ],
+  "beforeRecommendedIds": [
+    "founder_pixel12",
+    "apple_kai_12",
+    "mingliu_native_13",
+    "firefly_sung_14",
+    "renoufangsong-16",
+    "hbf_Beijing16",
+    "kh_dot_ningyouchou_16_16px",
+    "sony-g90-original",
+    "hanyi-pixel13",
+    "hanyi-pixel-xingkai15",
+    "psa_c_screen_12",
+    "wqx_nc1020_12",
+    "casio_xda10000_12"
+  ],
+  "afterRecommendedIds": [
+    "founder_pixel12",
+    "apple_kai_12",
+    "mingliu_native_13",
+    "firefly_sung_14",
+    "renoufangsong-16",
+    "hbf_Beijing16",
+    "kh_dot_ningyouchou_16_16px",
+    "sony-g90-original",
+    "hanyi-pixel13",
+    "hanyi-pixel-xingkai15",
+    "psa_c_screen_12",
+    "wqx_nc1020_12",
+    "casio_xda10000_12",
+    "nokia_dct3_1999",
+    "wqx_pc505_14x15",
+    "samsung_r208_16"
+  ],
+  "beforeRowsSha256": "b730c263e17d43990cd4cda9f744612381f13be1ea1a3a83e6c0c77e0ac981ee",
+  "afterRowsSha256": "1bd1cdd77bdaad28ca7fa9952b3fcd8b69e27b7f1660103e9313d56d5e61beda",
+  "preservedPagesSha256": "030a50e5f1530d318c83f8b75f598cee22c7d8dd0de09ba4f49727e3cf68832c",
+  "preservedSpecimensSha256": "f97036275026088ce17b7e4f8d186724a4ca436f1bb793e34f3b43e5f3e41f8f",
+  "preservedFilesSha256": {
+    "app.js": "b81a39f8e5d6ecad49ba03390d82cd2892cb69baf8657d7cd8509f0b02c6578c",
+    "styles.css": "96159ac107ff0fd26ae35a19f7b9c78a1bd1480f58ecdc09e1231d30637271f0",
+    "data/collection-history.json": "5baea43bab71326c4e2491ff40ac8555f4317e67ac949f82e90b9eed8314178b",
+    "data/collection-history.js": "0452a8463de12ea97f773cdbdcee0551524c5ad934ffffccc6ebcf79ce1f30c6",
+    "data/curation.json": "ba868579bbae807c1e7128c20597f40cedaf54c5a343acb5cad77e4183f707f4",
+    "data/summary.json": "c5c1b1a97af2f594654ab9cd099b81bf7bbd8f22e01f7856aea710d5d7bf2439",
+    "sitemap.xml": "ed4841e9cfea656c22c72f8b0e7f9f480592e7323ebd0ee0d0629f2011c60249"
+  },
+  "updatedHistoricalTestFiles": {
+    "tests/pc505.test.py": {
+      "before": {
+        "bytes": 3119,
+        "sha256": "50939756cfb47edd7c1d0d44212e2123c928ce2235ebfd2610877aa3b76e5c7b"
+      },
+      "after": {
+        "bytes": 3209,
+        "sha256": "4223fd02bd3bb820b1682cfde18aeb0dfff7ce59d1ce37bb9895d181f3102d08"
+      }
+    }
+  }
+}

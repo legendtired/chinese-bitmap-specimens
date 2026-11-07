@@ -13,7 +13,16 @@ const root = process.env.FONT_CATALOG_ROOT || path.resolve(__dirname, '..');
 const read = relative => fs.readFileSync(path.join(root, relative), 'utf8');
 const json = relative => JSON.parse(read(relative));
 const api = require(path.join(root, 'app.js'));
-const rows = json('data/catalog.json').filter(r => !['sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20'].includes(r.id) && r.id !== 'san5_dos_16x14' && r.id !== 'mstar_tv_simp_18' && !r.id.startsWith('psion618c_') && !require('../data/release-palm-styles.json').addedIds.includes(r.id));
+// Keep this historical sort audit at its original recommendation weights.
+// Current weights and exact three-item scope are checked by priority.test.cjs.
+const recommendationChanges = new Map(json('data/update-recommendations-20261107.json').changes.map(change => [change.id, change]));
+const historicalRecommendations = row => {
+  const change = recommendationChanges.get(row.id);
+  if (!change) return row;
+  assert([change.before, change.after].includes(row.priority));
+  return {...row, priority: change.before};
+};
+const rows = json('data/catalog.json').map(historicalRecommendations).filter(r => !['sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20'].includes(r.id) && r.id !== 'san5_dos_16x14' && r.id !== 'mstar_tv_simp_18' && !r.id.startsWith('psion618c_') && !require('../data/release-palm-styles.json').addedIds.includes(r.id));
 const release = json('data/release-20261105-batch.json');
 const baselinePath = fs.existsSync(path.join(__dirname, 'previous-sort-baseline.json'))
   ? path.join(__dirname, 'previous-sort-baseline.json')

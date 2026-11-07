@@ -1,3 +1,4 @@
+from approved_recommendation_update import before_recommendations
 """Exactly one P802 addition, immutable prior rows/pages/PNGs, and strict source chain."""
 import hashlib
 import io
@@ -28,7 +29,7 @@ def digest(value):
 
 
 manifest = read('data/release-p802.json')
-rows = read('data/catalog.json')
+rows = before_recommendations(read('data/catalog.json'))
 ident = 'sony_ericsson_p802_12'
 assert manifest['addedIds'] == [ident]
 assert len(rows) == len({r['id'] for r in rows}) == manifest['totalRows'] == 239

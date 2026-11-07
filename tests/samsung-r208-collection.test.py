@@ -1,3 +1,4 @@
+from approved_recommendation_update import before_recommendations
 from approved_p908_merge import restore_sun, historical_file_sha
 """One approved R208 addition, with unchanged 229-row baseline after integration."""
 from pathlib import Path
@@ -42,7 +43,7 @@ assert m['baseRows']==229 and m['totalRows']==230 and m['addedIds']==[row['id']]
 assert m['baseCommit']=='4d5f51f908cc82b553cb958306591b19d6c5ef41'
 assert m['addedRowsSha256']==digest([row]) and len(m['preservedRecommendedIds'])==13
 if (R/'data/catalog.json').exists():
-    rows=read('data/catalog.json')
+    rows=before_recommendations(read('data/catalog.json'))
     base=[r for r in rows if r['id']in m['baseIds']]
     added=[r for r in rows if r['id']in m['addedIds']]
     assert len(rows)==len({r['id']for r in rows})==239

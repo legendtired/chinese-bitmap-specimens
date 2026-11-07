@@ -1,9 +1,10 @@
+from approved_recommendation_update import before_recommendations
 from approved_p908_merge import restore_sun, historical_file_sha
 """Final integrated Sunplus release preserves the complete 227-row baseline."""
 from pathlib import Path
 import hashlib,json
 R=Path(__file__).resolve().parents[1]
-rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16')];m=json.loads((R/'data/release-sunplus.json').read_text())
+rows=[r for r in before_recommendations(json.loads((R/'data/catalog.json').read_text())) if r['id'] not in ('sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16')];m=json.loads((R/'data/release-sunplus.json').read_text())
 def digest(v):return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
 base=[r for r in rows if r['id'] in m['baseIds']];added=[r for r in rows if r['id'] in m['addedIds']]
 assert len(rows)==len({r['id'] for r in rows})==m['totalRows']==229

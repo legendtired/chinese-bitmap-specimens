@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Additive PC505 overlay invariants; no fixed global catalog size/index."""
+from approved_recommendation_update import before_recommendations
 from pathlib import Path
 import hashlib,json,struct,unittest
 ROOT=Path(__file__).resolve().parents[1];ID='wqx_pc505_14x15'
@@ -33,7 +34,7 @@ class OverlayTests(unittest.TestCase):
  def test_integrated_row_if_present(self):
   p=ROOT/'data/catalog.json'
   if p.exists():
-   rows=json.loads(p.read_text());selected=[r for r in rows if r['id']==ID];self.assertEqual(len(selected),1)
+   rows=before_recommendations(json.loads(p.read_text()));selected=[r for r in rows if r['id']==ID];self.assertEqual(len(selected),1)
    assigned=selected[0].copy();index=assigned.pop('sourceIndex');self.assertIsInstance(index,int)
    self.assertEqual(assigned,self.r);self.assertEqual(sum(r.get('sourceIndex')==index for r in rows),1)
  def test_allowlist_if_packaged(self):

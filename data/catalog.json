@@ -13836,7 +13836,7 @@
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "f67a5175b5b253593b096f663b3e1b6980d3595d204ff5d0300da9a7369f88e8",
-    "priority": 0,
+    "priority": 5,
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
@@ -14395,7 +14395,7 @@
       "metricsStatus": "export-convention-not-verified-device-metrics",
       "physicalDumpVerified": false
     },
-    "priority": 0,
+    "priority": 4,
     "acquisitionGuide": {
       "title": "获取方式",
       "steps": [],
@@ -15455,7 +15455,7 @@
       "runtimeBaseline": null,
       "embeddedFirmwareDate": "2002-09-06"
     },
-    "priority": 0,
+    "priority": 3,
     "sourceIndex": 266,
     "acquisitionGuide": {
       "title": "获取方式",

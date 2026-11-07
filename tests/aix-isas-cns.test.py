@@ -1,3 +1,4 @@
+from approved_recommendation_update import before_recommendations
 from approved_p908_merge import restore_sun, historical_file_sha
 """One approved traditional AIX addition with exact immutable baseline and redraw."""
 import hashlib
@@ -16,7 +17,7 @@ def read(path): return json.loads((R / path).read_text())
 def sha(blob): return hashlib.sha256(blob).hexdigest()
 def digest(value): return sha(json.dumps(value, ensure_ascii=False, sort_keys=True).encode())
 
-rows = read('data/catalog.json')
+rows = before_recommendations(read('data/catalog.json'))
 m = read('data/release-aix-isas-cns.json')
 base = [r for r in rows if r['id'] in m['baseIds']]
 added = [r for r in rows if r['id'] in m['addedIds']]

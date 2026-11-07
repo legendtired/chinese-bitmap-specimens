@@ -1,9 +1,10 @@
+from approved_recommendation_update import before_recommendations
 from approved_latin_update import historical_rows
 """Current scope and exact retention after explicit three-font withdrawal."""
 from pathlib import Path
 import json,hashlib
 from catalog_history import before_solaris_withdrawal
-R=Path(__file__).resolve().parents[1];m=json.loads((R/'data/withdrawal-solaris-gb2312.json').read_text());rows=[r for r in json.loads((R/'data/catalog.json').read_text()) if r['id'] not in ('sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20','san5_dos_16x14','mstar_tv_simp_18','palm_cjkos_fgb12ktf','palm_cjkos_fgb12fsf','palm_cjkos_fb512kbf','palm_cjkos_fb512xmf','psion618c_8','psion618c_11')];old=before_solaris_withdrawal(R)
+R=Path(__file__).resolve().parents[1];m=json.loads((R/'data/withdrawal-solaris-gb2312.json').read_text());rows=[r for r in before_recommendations(json.loads((R/'data/catalog.json').read_text())) if r['id'] not in ('sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16','sunplus_sphe8202l_16x16','sunplus_sphe8202l_20x24','ps2_scph50009_24','win32_simsun_13','win32_simsun_20','san5_dos_16x14','mstar_tv_simp_18','palm_cjkos_fgb12ktf','palm_cjkos_fgb12fsf','palm_cjkos_fb512kbf','palm_cjkos_fb512xmf','psion618c_8','psion618c_11')];old=before_solaris_withdrawal(R)
 ids=set(m['removedIds']);assert ids=={f'sun_gb2312_song_{n}' for n in (12,14,20)}
 assert len(rows)==len({r['id']for r in rows})==219
 assert rows==[r for r in old if r['id']not in ids]

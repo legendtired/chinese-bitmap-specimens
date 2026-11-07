@@ -1,3 +1,4 @@
+from approved_recommendation_update import before_recommendations
 from approved_latin_update import historical_rows
 """Five Solaris entries; exact prior rows, honest metrics/encoding, fixed PNGs.
 
@@ -9,7 +10,7 @@ import hashlib
 import json
 import struct
 R=Path(__file__).resolve().parents[1]
-rows=json.loads((R/'data/catalog.json').read_text());m=json.loads((R/'data/release-solaris-gbk.json').read_text())
+rows=before_recommendations(json.loads((R/'data/catalog.json').read_text()));m=json.loads((R/'data/release-solaris-gbk.json').read_text())
 byid={r['id']:r for r in rows};ids=m['addedIds']
 assert len(rows)==len(byid)
 assert ids==[f'sun_gbk_song_{n}' for n in (12,14,16,20,24)]
