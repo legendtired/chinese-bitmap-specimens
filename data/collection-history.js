@@ -189,6 +189,15 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "aix_isas_cns_24"
       ]
+    },
+    {
+      "sourceManifest": "release-phone-gdr.json",
+      "ids": [
+        "sony_ericsson_p908_14",
+        "nokia_9210c_15",
+        "nokia_9210c_17",
+        "nokia_9210c_19"
+      ]
     }
   ]
 };

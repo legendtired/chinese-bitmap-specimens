@@ -8,7 +8,7 @@ def digest(o):return sha(json.dumps(o,ensure_ascii=False,sort_keys=True).encode(
 rows=read('data/catalog.json');m=read('data/release-hpux-song.json')
 base=[r for r in rows if r['id'] in m['baseIds']]
 added=[r for r in rows if r['id'] in m['addedIds']]
-assert len(rows)==len({r['id'] for r in rows})==235
+assert len(rows)==len({r['id'] for r in rows})==239
 assert len(base)==233 and digest(base)==m['baseRowsSha256']
 assert len(added)==1 and digest(added)==m['addedRowsSha256']
 assert [r['id'] for r in rows if r.get('priority',0)>0]==m['preservedRecommendedIds']
@@ -18,8 +18,8 @@ r=added[0];assert r['id']=='hpux_song_40' and r['priority']==0
 assert (r['width'],r['height'],r['cellWidth'],r['cellHeight'])==(40,40,40,40)
 assert r['asciiOrigin']=='absent' and r['asciiText']=='' and len(r['asciiMissing'])==95
 assert r['missing']==r['hanMissing']==[] and r['nativeEvidence']['gb2312HanCovered']==6763
-s=read('data/summary.json');assert s['rows']==235 and s['nativePngCount']==234
-for k in ['standardAsciiComplete','ordinaryAsciiRows']:assert s[k]==m['previousSummary'][k]+1
+s=read('data/summary.json');assert s['rows']==239 and s['nativePngCount']==238
+for k in ['standardAsciiComplete','ordinaryAsciiRows']:assert s[k]==m['previousSummary'][k]+5
 assert s['partialAscii']==m['previousSummary']['partialAscii']
 assert s['ordinaryWithoutAsciiEvaluation']==m['previousSummary']['ordinaryWithoutAsciiEvaluation']+1
 assert s['fontFilesIncluded']==0 and not s['glyphDataIncluded']

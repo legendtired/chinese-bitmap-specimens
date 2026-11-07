@@ -15904,5 +15904,317 @@ window.FONT_CATALOG = [
       ],
       "checkedOn": "2026-11-06"
     }
+  },
+  {
+    "id": "sony_ericsson_p908_14",
+    "name": "Sony Ericsson P908 · 14点字面",
+    "family": "Sony Ericsson P908",
+    "width": 14,
+    "height": 16,
+    "cellWidth": 14,
+    "cellHeight": 16,
+    "inkWidth": 13,
+    "inkHeight": 14,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/sony_ericsson_p908_14.png",
+    "specimenWidth": 348,
+    "specimenHeight": 44,
+    "specimenSha256": "d3f24176732018f40346e047a2b0cba841d3e6ed9afea159e335cb15f6606842",
+    "text": "视野无限广，窗外有蓝天。 視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生16高字格，典型汉字13×14墨迹；简繁实际码位及同层ASCII。",
+    "coverage": "16,635个映射码位，含15,788个非空CJK汉字；全部6,763个GB2312汉字与严格Big5编解码器所映射13,061个汉字均非空。同层95个可打印ASCII完整，空格保留字进。不是完整Unicode或GB18030覆盖声明。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+    "sourceLabel": "Twister 手机固件历史存档资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "第三方公开存档不等于再分发许可。仅展示固定小样图、聚合研究报告和无字模离线脚本；不公开完整ROM、固件、GDR、BDF或任何字库子集，使用与再分发仍受原权利约束。",
+    "provenance": "中国版CXC162023 R1A08固件，内文日期2003-11-20 17:33；从PD1中按ROM目录位置静态读取Linnea.gdr的UID 0x18be。GDR直接存储原生1-bit行压缩点阵，不执行刷机程序、不矢量取模。Linnea/Linda仅是资源文件名，不作为设计来源或作者证据。",
+    "notes": "中号典型汉字墨迹13×14、常用字进14px、原生行字格16高。与T610中号6755/6763（99.882%）、P802中号6373/6763（94.233%）同形，故只保留覆盖更全的P908代表；Nokia3350标题子集40/44同形不能外推全库。具名完整字符层比对与当前目录固定样字检查分开记录，不宣称对所有当前／已撤字库完成整库查重，也不证明手工绘制历史。",
+    "layoutNote": "统一两行：第一行按实际简／繁Unicode取字，第二行是同一GDR层原生ASCII。保留每字原始advance、左右bearing和ascent，使用16px原生行字格；画布外边4px、行间4px仅为样图布局，不拉齐字号、不补字、不裁字框。width/cellWidth记录常用汉字字进，西文可不等宽；GDR层最大宽度17px另记。",
+    "nativeEvidence": {
+      "summary": "输入SHA及结构边界校验；Unicode段、内联8字节指标与LSB先行RLE直接解码，原生字进、bearing、ascent保留。两层版本分别锁定，不能推广到所有GDR。",
+      "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+      "source_sha256": "debad6cef3b0b423fc53b32a923c87d0373671f929f520063d40117d6972cc4f",
+      "gdrVersion": 40,
+      "faceUid": "0x18be",
+      "mappedCharacters": 16635,
+      "nonblankCjk": 15788,
+      "gb2312Han": 6763,
+      "big5Han": 13061,
+      "printableAscii": 95,
+      "ascent": 13,
+      "layerMaxWidth": 17,
+      "typicalHanAdvance": 14,
+      "typicalInkOnly": true
+    },
+    "priority": 0,
+    "sourceIndex": 272,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得并确认有权处理匹配SHA的本地输入；脚本支持P908 PD1/GDR及9210C SFX/中文PPM/GDR，仅离线生成这四款固定两行PNG及聚合覆盖报告。不联网下载、不执行固件、不导出完整字体或子集。",
+      "links": [
+        {
+          "label": "来源、校验与固定样图重绘方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/phone-gdr.md",
+          "action": "method"
+        },
+        {
+          "label": "历史固件资料页",
+          "url": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-07"
+    }
+  },
+  {
+    "id": "nokia_9210c_15",
+    "name": "Nokia 9210C · 15点字面",
+    "family": "Nokia 9210C",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": 15,
+    "inkHeight": 15,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/nokia_9210c_15.png",
+    "specimenWidth": 400,
+    "specimenHeight": 44,
+    "specimenSha256": "761babe7d69626fd23213585c3da39f6f8df7129c912453657b25239f21d5b20",
+    "text": "视野无限广，窗外有蓝天。 視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生16高字格，典型汉字15×15墨迹；简繁实际码位及同层ASCII。",
+    "coverage": "22,327个映射码位，含20,902个非空CJK汉字；全部6,763个GB2312汉字与严格Big5编解码器所映射13,061个汉字均非空。同层95个可打印ASCII完整，空格保留字进。不是完整Unicode或GB18030覆盖声明。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+    "sourceLabel": "Twister 手机固件历史存档资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "第三方公开存档不等于再分发许可。仅展示固定小样图、聚合研究报告和无字模离线脚本；不公开完整ROM、固件、GDR、BDF或任何字库子集，使用与再分发仍受原权利约束。",
+    "provenance": "RAE-3中国版36.13固件，内文日期07-03-02（2002-03-07）；从通过CRC及654个传输块校验的中文PPM静态读取Linda.gdr。中国／台湾／香港三个PPM中的GDR逐字节相同；损坏MCU未使用。GDR直接存储原生1-bit行压缩点阵，不执行刷机程序、不矢量取模。Linnea/Linda仅是资源文件名，不作为设计来源或作者证据。",
+    "notes": "典型汉字墨迹15×15，汉字字进16px、原生行字格16高。47个具名字库层中45层覆盖完整GB2312汉字；15点墨迹层最高6/6763（0.08872%），17/19点墨迹层在实际共同码位中均未见同形。具名完整字符层比对与当前目录固定样字检查分开记录，不宣称对所有当前／已撤字库完成整库查重，也不证明手工绘制历史。",
+    "layoutNote": "统一两行：第一行按实际简／繁Unicode取字，第二行是同一GDR层原生ASCII。保留每字原始advance、左右bearing和ascent，使用16px原生行字格；画布外边4px、行间4px仅为样图布局，不拉齐字号、不补字、不裁字框。width/cellWidth记录常用汉字字进，西文可不等宽；GDR层最大宽度16px另记。",
+    "nativeEvidence": {
+      "summary": "输入SHA及结构边界校验；Unicode段、内联8字节指标与LSB先行RLE直接解码，原生字进、bearing、ascent保留。两层版本分别锁定，不能推广到所有GDR。",
+      "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+      "source_sha256": "4cee557f8edb16c096e708d13cc24ecd7ae7461f25b27ae46e57c925aa5a69f4",
+      "gdrVersion": 39,
+      "faceUid": "0x100054f9",
+      "mappedCharacters": 22327,
+      "nonblankCjk": 20902,
+      "gb2312Han": 6763,
+      "big5Han": 13061,
+      "printableAscii": 95,
+      "ascent": 14,
+      "layerMaxWidth": 16,
+      "typicalHanAdvance": 16,
+      "typicalInkOnly": true
+    },
+    "priority": 0,
+    "sourceIndex": 273,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得并确认有权处理匹配SHA的本地输入；脚本支持P908 PD1/GDR及9210C SFX/中文PPM/GDR，仅离线生成这四款固定两行PNG及聚合覆盖报告。不联网下载、不执行固件、不导出完整字体或子集。",
+      "links": [
+        {
+          "label": "来源、校验与固定样图重绘方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/phone-gdr.md",
+          "action": "method"
+        },
+        {
+          "label": "历史固件资料页",
+          "url": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-07"
+    }
+  },
+  {
+    "id": "nokia_9210c_17",
+    "name": "Nokia 9210C · 17点字面",
+    "family": "Nokia 9210C",
+    "width": 18,
+    "height": 18,
+    "cellWidth": 18,
+    "cellHeight": 18,
+    "inkWidth": 17,
+    "inkHeight": 17,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/nokia_9210c_17.png",
+    "specimenWidth": 449,
+    "specimenHeight": 48,
+    "specimenSha256": "075a5a0f95e854ce0a5062f3d766d2ce96d6f3819e7402272627a24fe3903d98",
+    "text": "视野无限广，窗外有蓝天。 視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生18高字格，典型汉字17×17墨迹；简繁实际码位及同层ASCII。",
+    "coverage": "22,327个映射码位，含20,902个非空CJK汉字；全部6,763个GB2312汉字与严格Big5编解码器所映射13,061个汉字均非空。同层95个可打印ASCII完整，空格保留字进。不是完整Unicode或GB18030覆盖声明。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+    "sourceLabel": "Twister 手机固件历史存档资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "第三方公开存档不等于再分发许可。仅展示固定小样图、聚合研究报告和无字模离线脚本；不公开完整ROM、固件、GDR、BDF或任何字库子集，使用与再分发仍受原权利约束。",
+    "provenance": "RAE-3中国版36.13固件，内文日期07-03-02（2002-03-07）；从通过CRC及654个传输块校验的中文PPM静态读取Linda.gdr。中国／台湾／香港三个PPM中的GDR逐字节相同；损坏MCU未使用。GDR直接存储原生1-bit行压缩点阵，不执行刷机程序、不矢量取模。Linnea/Linda仅是资源文件名，不作为设计来源或作者证据。",
+    "notes": "典型汉字墨迹17×17，汉字字进18px、原生行字格18高。47个具名字库层中45层覆盖完整GB2312汉字；15点墨迹层最高6/6763（0.08872%），17/19点墨迹层在实际共同码位中均未见同形。具名完整字符层比对与当前目录固定样字检查分开记录，不宣称对所有当前／已撤字库完成整库查重，也不证明手工绘制历史。",
+    "layoutNote": "统一两行：第一行按实际简／繁Unicode取字，第二行是同一GDR层原生ASCII。保留每字原始advance、左右bearing和ascent，使用18px原生行字格；画布外边4px、行间4px仅为样图布局，不拉齐字号、不补字、不裁字框。width/cellWidth记录常用汉字字进，西文可不等宽；GDR层最大宽度18px另记。",
+    "nativeEvidence": {
+      "summary": "输入SHA及结构边界校验；Unicode段、内联8字节指标与LSB先行RLE直接解码，原生字进、bearing、ascent保留。两层版本分别锁定，不能推广到所有GDR。",
+      "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+      "source_sha256": "4cee557f8edb16c096e708d13cc24ecd7ae7461f25b27ae46e57c925aa5a69f4",
+      "gdrVersion": 39,
+      "faceUid": "0x10005504",
+      "mappedCharacters": 22327,
+      "nonblankCjk": 20902,
+      "gb2312Han": 6763,
+      "big5Han": 13061,
+      "printableAscii": 95,
+      "ascent": 16,
+      "layerMaxWidth": 18,
+      "typicalHanAdvance": 18,
+      "typicalInkOnly": true
+    },
+    "priority": 0,
+    "sourceIndex": 274,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得并确认有权处理匹配SHA的本地输入；脚本支持P908 PD1/GDR及9210C SFX/中文PPM/GDR，仅离线生成这四款固定两行PNG及聚合覆盖报告。不联网下载、不执行固件、不导出完整字体或子集。",
+      "links": [
+        {
+          "label": "来源、校验与固定样图重绘方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/phone-gdr.md",
+          "action": "method"
+        },
+        {
+          "label": "历史固件资料页",
+          "url": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-07"
+    }
+  },
+  {
+    "id": "nokia_9210c_19",
+    "name": "Nokia 9210C · 19点字面",
+    "family": "Nokia 9210C",
+    "width": 20,
+    "height": 20,
+    "cellWidth": 20,
+    "cellHeight": 20,
+    "inkWidth": 19,
+    "inkHeight": 19,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/nokia_9210c_19.png",
+    "specimenWidth": 498,
+    "specimenHeight": 52,
+    "specimenSha256": "cabc11b8a337fbbf19250f358bd85262452b4fd1563b2387991109e10f3b85c1",
+    "text": "视野无限广，窗外有蓝天。 視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生20高字格，典型汉字19×19墨迹；简繁实际码位及同层ASCII。",
+    "coverage": "22,327个映射码位，含20,902个非空CJK汉字；全部6,763个GB2312汉字与严格Big5编解码器所映射13,061个汉字均非空。同层95个可打印ASCII完整，空格保留字进。不是完整Unicode或GB18030覆盖声明。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+    "sourceLabel": "Twister 手机固件历史存档资料页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "第三方公开存档不等于再分发许可。仅展示固定小样图、聚合研究报告和无字模离线脚本；不公开完整ROM、固件、GDR、BDF或任何字库子集，使用与再分发仍受原权利约束。",
+    "provenance": "RAE-3中国版36.13固件，内文日期07-03-02（2002-03-07）；从通过CRC及654个传输块校验的中文PPM静态读取Linda.gdr。中国／台湾／香港三个PPM中的GDR逐字节相同；损坏MCU未使用。GDR直接存储原生1-bit行压缩点阵，不执行刷机程序、不矢量取模。Linnea/Linda仅是资源文件名，不作为设计来源或作者证据。",
+    "notes": "典型汉字墨迹19×19，汉字字进20px、原生行字格20高。47个具名字库层中45层覆盖完整GB2312汉字；15点墨迹层最高6/6763（0.08872%），17/19点墨迹层在实际共同码位中均未见同形。具名完整字符层比对与当前目录固定样字检查分开记录，不宣称对所有当前／已撤字库完成整库查重，也不证明手工绘制历史。",
+    "layoutNote": "统一两行：第一行按实际简／繁Unicode取字，第二行是同一GDR层原生ASCII。保留每字原始advance、左右bearing和ascent，使用20px原生行字格；画布外边4px、行间4px仅为样图布局，不拉齐字号、不补字、不裁字框。width/cellWidth记录常用汉字字进，西文可不等宽；GDR层最大宽度21px另记。",
+    "nativeEvidence": {
+      "summary": "输入SHA及结构边界校验；Unicode段、内联8字节指标与LSB先行RLE直接解码，原生字进、bearing、ascent保留。两层版本分别锁定，不能推广到所有GDR。",
+      "sourceUrl": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+      "source_sha256": "4cee557f8edb16c096e708d13cc24ecd7ae7461f25b27ae46e57c925aa5a69f4",
+      "gdrVersion": 39,
+      "faceUid": "0x10005505",
+      "mappedCharacters": 22327,
+      "nonblankCjk": 20902,
+      "gb2312Han": 6763,
+      "big5Han": 13061,
+      "printableAscii": 95,
+      "ascent": 18,
+      "layerMaxWidth": 21,
+      "typicalHanAdvance": 20,
+      "typicalInkOnly": true
+    },
+    "priority": 0,
+    "sourceIndex": 275,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得并确认有权处理匹配SHA的本地输入；脚本支持P908 PD1/GDR及9210C SFX/中文PPM/GDR，仅离线生成这四款固定两行PNG及聚合覆盖报告。不联网下载、不执行固件、不导出完整字体或子集。",
+      "links": [
+        {
+          "label": "来源、校验与固定样图重绘方法",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/phone-gdr.md",
+          "action": "method"
+        },
+        {
+          "label": "历史固件资料页",
+          "url": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-07"
+    }
   }
 ];

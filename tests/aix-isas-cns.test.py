@@ -19,7 +19,8 @@ rows = read('data/catalog.json')
 m = read('data/release-aix-isas-cns.json')
 base = [r for r in rows if r['id'] in m['baseIds']]
 added = [r for r in rows if r['id'] in m['addedIds']]
-assert len(rows) == len({r['id'] for r in rows}) == m['totalRows'] == 235
+assert len(rows) == len({r['id'] for r in rows}) == 239
+assert m['totalRows'] == 235
 assert len(base) == m['baseRows'] == 234 and digest(base) == m['baseRowsSha256']
 assert [r['id'] for r in base] == m['baseIds']
 assert digest({r['id']: sha((R / 'fonts' / (r['id'] + '.html')).read_bytes()) for r in base}) == m['basePagesSha256']
@@ -41,11 +42,11 @@ assert struct.unpack_from('>II', (R / r['specimen']).read_bytes(), 16) == (359, 
 assert r['nativeEvidence']['hanUnicodeCount'] == 13061
 assert r['nativeEvidence']['asciiWidth'] == 13
 assert (r['nativeEvidence']['fontAscent'], r['nativeEvidence']['fontDescent']) == (26, 1)
-assert read('data/collection-history.json')['batches'][-1] == {'sourceManifest': 'release-aix-isas-cns.json', 'ids': m['addedIds']}
+assert {'sourceManifest': 'release-aix-isas-cns.json', 'ids': m['addedIds']} in read('data/collection-history.json')['batches']
 s = read('data/summary.json')
-assert s['rows'] == 235 and s['nativePngCount'] == 234
+assert s['rows'] == 239 and s['nativePngCount'] == 238
 for key in ['standardAsciiComplete', 'ordinaryAsciiRows', 'standardChineseComplete']:
-    assert s[key] == m['previousSummary'][key] + 1
+    assert s[key] == m['previousSummary'][key] + 5
 for key in ['partialAscii', 'ordinaryWithoutAsciiEvaluation', 'referenceRows', 'variableGridRows']:
     assert s[key] == m['previousSummary'][key]
 assert s['fontFilesIncluded'] == 0 and s['glyphDataIncluded'] is False

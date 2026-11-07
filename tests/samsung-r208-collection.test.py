@@ -44,7 +44,7 @@ if (R/'data/catalog.json').exists():
     rows=read('data/catalog.json')
     base=[r for r in rows if r['id']in m['baseIds']]
     added=[r for r in rows if r['id']in m['addedIds']]
-    assert len(rows)==len({r['id']for r in rows})==235
+    assert len(rows)==len({r['id']for r in rows})==239
     assert len(base)==229 and [r['id']for r in base]==m['baseIds']
     assert digest(base)==m['baseRowsSha256'] and added==[row]
     assert [r['id']for r in rows if r.get('priority',0)>0]==m['preservedRecommendedIds']
@@ -54,8 +54,8 @@ if (R/'data/catalog.json').exists():
     history=read('data/collection-history.json')
     assert next(b for b in history['batches'] if b['sourceManifest']=='release-samsung-r208.json')=={'sourceManifest':'release-samsung-r208.json','ids':['samsung_r208_16']}
     summary=read('data/summary.json')
-    assert summary['rows']==235 and summary['nativePngCount']==234
-    assert summary['standardAsciiComplete']==m['previousSummary']['standardAsciiComplete']+5
+    assert summary['rows']==239 and summary['nativePngCount']==238
+    assert summary['standardAsciiComplete']==m['previousSummary']['standardAsciiComplete']+9
     assert summary['ordinaryWithoutAsciiEvaluation']==m['previousSummary']['ordinaryWithoutAsciiEvaluation']+1
     assert summary['fontFilesIncluded']==0 and summary['glyphDataIncluded']is False
     assert (R/'fonts/samsung_r208_16.html').is_file()

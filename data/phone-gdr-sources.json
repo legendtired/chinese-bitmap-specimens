@@ -1,0 +1,62 @@
+{
+  "sourcePage": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+  "p908": {
+    "archiveMember": "Firmware/Sony_Ericsson/P908/p908_r1a08_162023.zip",
+    "zipSha256": "225b93158da571f2278cbff96cfc9813774662d2b614eb096d7b0b5a8f1831d0",
+    "pd1Sha256": "52103c468cbd1ed6dae379965a6250fec78bfb90f8c3d8f0d04fb816b27c123d",
+    "gdrSha256": "debad6cef3b0b423fc53b32a923c87d0373671f929f520063d40117d6972cc4f",
+    "gdrOffsetInPd1": "0x188c554",
+    "gdrSize": 1821475,
+    "firmware": "CXC162023 R1A08 031120 17:33"
+  },
+  "nokia9210c": {
+    "archive_page": "https://archive.org/details/Twister_Mobile_Phone_Flashing_Box",
+    "archive_file": "Firmware.zip",
+    "archive_entry": "Firmware/DCT-3 fireware/9210C RAE-3/rae3-36[1].13.exe",
+    "archive_entry_offset": 370460913,
+    "size": 63816608,
+    "sha256": "6ccf1082e7194dcaeabd79c4b7f31d2a29973232771766c91b358d56420f7ee4",
+    "outer_zip_crc32": "3425783a",
+    "outer_crc32_valid": true,
+    "provenance": "rae-3.ini: Updated for Chinese build. 07.03.02 Si Hang; CHINESE_ZH: RAE33036.0US; CHINESE_TW: RAE33036.0UT; CHINESE_HK: RAE33036.0UH",
+    "limitation": "Archived SFX central directory has inconsistent offsets; original compressed RAE33036.000 stream is invalid. All three Chinese PPM streams independently pass inner ZIP CRC32 and all 654 transport-record checksums; they contain identical Linda.gdr files. MCU was not repaired or used; installer was never executed."
+  },
+  "ppmVariants": [
+    {
+      "source": "RAE33036.0US",
+      "source_size": 5361145,
+      "source_sha256": "bcda421d7fc490e141039d12bba9d1f430c4d7a830e745735102220422bea973",
+      "name": "Linda.gdr",
+      "size": 2915114,
+      "rom_address": "0x50a74780",
+      "flash_address": "0x1274780",
+      "version": 39,
+      "sha256": "4cee557f8edb16c096e708d13cc24ecd7ae7461f25b27ae46e57c925aa5a69f4",
+      "validatedTransportRecords": 654
+    },
+    {
+      "source": "RAE33036.0UT",
+      "source_size": 5361145,
+      "source_sha256": "92ca7380084613606251846c7271eb08d66e3aa4c7ca0b2b969af16c3c6fbd70",
+      "name": "Linda.gdr",
+      "size": 2915114,
+      "rom_address": "0x50a64930",
+      "flash_address": "0x1264930",
+      "version": 39,
+      "sha256": "4cee557f8edb16c096e708d13cc24ecd7ae7461f25b27ae46e57c925aa5a69f4",
+      "validatedTransportRecords": 654
+    },
+    {
+      "source": "RAE33036.0UH",
+      "source_size": 5361145,
+      "source_sha256": "4541ffb0c5ddad0f18c1b49afedf400b775e2d72920928715480b169eb1fa826",
+      "name": "Linda.gdr",
+      "size": 2915114,
+      "rom_address": "0x50a767e0",
+      "flash_address": "0x12767e0",
+      "version": 39,
+      "sha256": "4cee557f8edb16c096e708d13cc24ecd7ae7461f25b27ae46e57c925aa5a69f4",
+      "validatedTransportRecords": 654
+    }
+  ]
+}

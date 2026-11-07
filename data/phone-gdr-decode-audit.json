@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "method": "New strict SHA-locked decoder compared every decoded glyph row and all five native metrics with prior research decoder output. The implementations share the documented GDR format and are not independent hardware verification. Original PD1/SFX container paths produced byte-identical GDR in memory; no raw data written.",
+  "glyphsCompared": 83616,
+  "pixelsCompared": 21498570,
+  "layers": [
+    {
+      "id": "sony_ericsson_p908_14",
+      "uid": "0x18be",
+      "glyphsCompared": 16635,
+      "pixelsCompared": 2920681,
+      "metricsCompared": 16635,
+      "mismatches": 0
+    },
+    {
+      "id": "nokia_9210c_15",
+      "uid": "0x100054f9",
+      "glyphsCompared": 22327,
+      "pixelsCompared": 4755993,
+      "metricsCompared": 22327,
+      "mismatches": 0
+    },
+    {
+      "id": "nokia_9210c_17",
+      "uid": "0x10005504",
+      "glyphsCompared": 22327,
+      "pixelsCompared": 6132141,
+      "metricsCompared": 22327,
+      "mismatches": 0
+    },
+    {
+      "id": "nokia_9210c_19",
+      "uid": "0x10005505",
+      "glyphsCompared": 22327,
+      "pixelsCompared": 7689755,
+      "metricsCompared": 22327,
+      "mismatches": 0
+    }
+  ],
+  "p908Pd1SliceMatches": true,
+  "nokia9210cSfxPpmMatches": true,
+  "scriptSha256": "b4e7fc2666bf266899bc14ebd8cac3c4673d35deb128f08b75433df7bdf4994f"
+}

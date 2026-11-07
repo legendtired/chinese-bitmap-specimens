@@ -1,0 +1,2916 @@
+{
+  "method": "Same Unicode code point, remove only outer blank rows/columns, exact binary ink comparison; no scaling. Named full-repertoire comparisons are distinct from the public fixed-sample supplement.",
+  "p908NamedResults": {
+    "p908_dedup.json": [
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "Nokia 6150 1999 11x12",
+        "common": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "SimSun18030 v2.06 embedded 12",
+        "common": 6763,
+        "exact": 1,
+        "pct": 0.015
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "SimSun18030 v2.06 embedded 14",
+        "common": 6763,
+        "exact": 100,
+        "pct": 1.479
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "SimSun18030 v2.06 embedded 16",
+        "common": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "QD 15x16_latin.gdr",
+        "common": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "QD 11x12_latin.gdr",
+        "common": 6763,
+        "exact": 2,
+        "pct": 0.03
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "Mobile01 13_bold.gdr",
+        "common": 6763,
+        "exact": 11,
+        "pct": 0.163
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "Mobile01 19_bold.gdr.gdr",
+        "common": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "SimSun5.03 stored 12",
+        "common": 6763,
+        "exact": 1,
+        "pct": 0.015
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "SimSun5.03 stored 13",
+        "common": 6763,
+        "exact": 1,
+        "pct": 0.015
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "SimSun5.03 stored 14",
+        "common": 6763,
+        "exact": 49,
+        "pct": 0.725
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "SimSun5.03 stored 15",
+        "common": 6763,
+        "exact": 49,
+        "pct": 0.725
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "SimSun5.03 stored 16",
+        "common": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "font": "0x18be",
+        "cell": 16,
+        "baseline": "SimSun5.03 stored 17",
+        "common": 6763,
+        "exact": 0,
+        "pct": 0.0
+      }
+    ],
+    "p908_hzk_dedup.json": [
+      {
+        "baseline": "HZK12",
+        "common": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "HZK14",
+        "common": 6763,
+        "exact": 6,
+        "pct": 0.08871802454532013
+      },
+      {
+        "baseline": "HZK16",
+        "common": 6763,
+        "exact": 1,
+        "pct": 0.01478633742422002
+      }
+    ],
+    "p908_restored_dedup.json": [
+      {
+        "baseline": "Windows3.2 SIMSUN13",
+        "common_gb2312": 6763,
+        "exact": 11,
+        "pct": 0.16264971166642023
+      },
+      {
+        "baseline": "Windows3.2 SIMSUN20",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "gb16fs.bdf",
+        "common_gb2312": 6763,
+        "exact": 1,
+        "pct": 0.01478633742422002
+      },
+      {
+        "baseline": "gb16st.bdf",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "guob16.bdf",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "taipei16.bdf",
+        "common_gb2312": 4383,
+        "exact": 0,
+        "pct": 0.0
+      }
+    ],
+    "p908_firefly_wqy_dedup.json": [
+      {
+        "baseline": "Firefly stored 11",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "Firefly stored 12",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "Firefly stored 13",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "Firefly stored 14",
+        "common_gb2312": 6763,
+        "exact": 1,
+        "pct": 0.01478633742422002
+      },
+      {
+        "baseline": "Firefly stored 15",
+        "common_gb2312": 6763,
+        "exact": 3,
+        "pct": 0.044359012272660064
+      },
+      {
+        "baseline": "Firefly stored 16",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "baseline": "WenQuanYi original 13px.pcf (14 cell)",
+        "common_gb2312": 6763,
+        "exact": 7,
+        "pct": 0.10350436196954013
+      }
+    ],
+    "p802_p908_final_dedup.json": [
+      {
+        "phone": "p908",
+        "baseline": "MingLiU stored 11",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "phone": "p908",
+        "baseline": "MingLiU stored 12",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "phone": "p908",
+        "baseline": "MingLiU stored 13",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "phone": "p908",
+        "baseline": "MingLiU stored 15",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "phone": "p908",
+        "baseline": "MingLiU stored 16",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "phone": "p908",
+        "baseline": "MingLiU stored 20",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "phone": "p908",
+        "baseline": "Nokia3350v5.22 chin14-plain",
+        "common_gb2312": 44,
+        "exact": 40,
+        "pct": 90.9090909090909
+      },
+      {
+        "phone": "p908",
+        "baseline": "Nokia3350v5.22 chin-plain",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "phone": "p908",
+        "baseline": "WenQuanYi original 9pt.pcf (12 cell)",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      }
+    ],
+    "p802_p908_palm_dedup.json": [
+      {
+        "phone": "p908",
+        "baseline": "PalmCJKOS FB510F.PDB",
+        "common_gb2312": 4383,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "phone": "p908",
+        "baseline": "PalmCJKOS FB512F.PDB",
+        "common_gb2312": 4383,
+        "exact": 2,
+        "pct": 0.04563084645220169
+      },
+      {
+        "phone": "p908",
+        "baseline": "PalmCJKOS cjkFntEx_FGB12STF.PDB",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "phone": "p908",
+        "baseline": "PalmCJKOS FGB10F.PDB",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "phone": "p908",
+        "baseline": "PalmCJKOS cjkFntEx_FB512XMF.PDB",
+        "common_gb2312": 4383,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "phone": "p908",
+        "baseline": "PalmCJKOS FGB12F.PDB",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      },
+      {
+        "phone": "p908",
+        "baseline": "PalmCJKOS cjkos401_FGB10F.PDB",
+        "common_gb2312": 6763,
+        "exact": 0,
+        "pct": 0.0
+      }
+    ]
+  },
+  "p908SharedDesignCaveats": [
+    {
+      "source": "Sony Ericsson T610 A_14B",
+      "sameGbHan": 6755,
+      "commonGbHan": 6763,
+      "decision": "Do not add separately; retain broader P908 representative."
+    },
+    {
+      "source": "Sony Ericsson P802 middle layer",
+      "sameGbHan": 6373,
+      "commonGbHan": 6763,
+      "decision": "Do not add separately; retain broader P908 representative."
+    },
+    {
+      "source": "Nokia3350 v5.22 title subset",
+      "sameGbHan": 40,
+      "commonGbHan": 44,
+      "decision": "Only 44-character subset; do not infer full-library match."
+    }
+  ],
+  "nokia9210cNamedResults": [
+    {
+      "font_uid": "0x100054f9",
+      "cell_height": 16,
+      "results": [
+        {
+          "baseline": "SimSun18030 v2.06 stored 12px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun18030 v2.06 stored 14px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 1,
+            "percent": 0.01479
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 1,
+            "percent": 0.00766
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 1,
+            "percent": 0.00478
+          }
+        },
+        {
+          "baseline": "SimSun18030 v2.06 stored 16px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 6,
+            "percent": 0.08872
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 7,
+            "percent": 0.05359
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 11,
+            "percent": 0.05263
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 12px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 13px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 14px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 5,
+            "percent": 0.07393
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 5,
+            "percent": 0.03828
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 5,
+            "percent": 0.02392
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 15px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 5,
+            "percent": 0.07393
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 5,
+            "percent": 0.03828
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 5,
+            "percent": 0.02392
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 16px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 1,
+            "percent": 0.01479
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 3,
+            "percent": 0.02297
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 6,
+            "percent": 0.02871
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 17px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 1,
+            "percent": 0.01479
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 3,
+            "percent": 0.02297
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 6,
+            "percent": 0.02871
+          }
+        },
+        {
+          "baseline": "HZK12 current local",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "HZK14 current local",
+          "GB2312": {
+            "common": 6763,
+            "exact": 1,
+            "percent": 0.01479
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 1,
+            "percent": 0.02282
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 1,
+            "percent": 0.01479
+          }
+        },
+        {
+          "baseline": "HZK16 current local",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Nokia6150 1999 11x12",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6513,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9004,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "QD/Mobile01 15x16_latin.gdr UID 0x100059f1 cell 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 6,
+            "percent": 0.08872
+          },
+          "Big5": {
+            "common": 6535,
+            "exact": 6,
+            "percent": 0.09181
+          },
+          "CJK_common": {
+            "common": 9151,
+            "exact": 7,
+            "percent": 0.07649
+          }
+        },
+        {
+          "baseline": "QD/Mobile01 11x12_latin.gdr UID 0x100059f0 cell 12",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6535,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9151,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "QD/Mobile01 13_bold.gdr UID 0x127edd cell 13",
+          "GB2312": {
+            "common": 6763,
+            "exact": 2,
+            "percent": 0.02957
+          },
+          "Big5": {
+            "common": 6557,
+            "exact": 2,
+            "percent": 0.0305
+          },
+          "CJK_common": {
+            "common": 9190,
+            "exact": 2,
+            "percent": 0.02176
+          }
+        },
+        {
+          "baseline": "QD/Mobile01 19_bold.gdr.gdr UID 0x127edb cell 17",
+          "GB2312": {
+            "common": 6763,
+            "exact": 4,
+            "percent": 0.05915
+          },
+          "Big5": {
+            "common": 6558,
+            "exact": 4,
+            "percent": 0.06099
+          },
+          "CJK_common": {
+            "common": 9191,
+            "exact": 4,
+            "percent": 0.04352
+          }
+        },
+        {
+          "baseline": "Nokia6600 15x16_latin.gdr UID 0x100059f1 cell 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 6,
+            "percent": 0.08872
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 7,
+            "percent": 0.05359
+          },
+          "CJK_common": {
+            "common": 17146,
+            "exact": 9,
+            "percent": 0.05249
+          }
+        },
+        {
+          "baseline": "Nokia6600 11x12_latin.gdr UID 0x100059f0 cell 12",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 17146,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P908 Linnea.gdr UID 0x4823 cell 14",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 15763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P908 Linnea.gdr UID 0x18be cell 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 2,
+            "percent": 0.01531
+          },
+          "CJK_common": {
+            "common": 15763,
+            "exact": 2,
+            "percent": 0.01269
+          }
+        },
+        {
+          "baseline": "P908 Linnea.gdr UID 0x6784 cell 18",
+          "GB2312": {
+            "common": 6763,
+            "exact": 6,
+            "percent": 0.08872
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 7,
+            "percent": 0.05359
+          },
+          "CJK_common": {
+            "common": 15763,
+            "exact": 8,
+            "percent": 0.05075
+          }
+        },
+        {
+          "baseline": "Windows3.2 SIMSUN13",
+          "GB2312": {
+            "common": 6763,
+            "exact": 2,
+            "percent": 0.02957
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 2,
+            "percent": 0.04563
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 2,
+            "percent": 0.02957
+          }
+        },
+        {
+          "baseline": "Windows3.2 SIMSUN20",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "gb16fs.bdf",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "gb16st.bdf",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "guob16.bdf",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "taipei16.bdf",
+          "GB2312": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 11",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 12",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 13",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 14",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 15",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "WenQuanYi original 13px.pcf (14 cell)",
+          "GB2312": {
+            "common": 6763,
+            "exact": 2,
+            "percent": 0.02957
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 2,
+            "percent": 0.04563
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 2,
+            "percent": 0.02957
+          }
+        },
+        {
+          "baseline": "MingLiU stored 11px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 12px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 13px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 15px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 16px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 1,
+            "percent": 0.00766
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 1,
+            "percent": 0.00478
+          }
+        },
+        {
+          "baseline": "MingLiU stored 20px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P802 Linnea.gdr UID 0x4823 cell 14",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6998,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9587,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P802 Linnea.gdr UID 0x18be cell 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6998,
+            "exact": 1,
+            "percent": 0.01429
+          },
+          "CJK_common": {
+            "common": 9587,
+            "exact": 1,
+            "percent": 0.01043
+          }
+        },
+        {
+          "baseline": "P802 Linnea.gdr UID 0x6784 cell 18",
+          "GB2312": {
+            "common": 6763,
+            "exact": 6,
+            "percent": 0.08872
+          },
+          "Big5": {
+            "common": 6998,
+            "exact": 6,
+            "percent": 0.08574
+          },
+          "CJK_common": {
+            "common": 9587,
+            "exact": 7,
+            "percent": 0.07302
+          }
+        },
+        {
+          "baseline": "Nokia3350v5.22 chin14-plain",
+          "GB2312": {
+            "common": 44,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 48,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 67,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Nokia3350v5.22 chin-plain",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6531,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9077,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "WenQuanYi original 9pt.pcf (12 cell)",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "font_uid": "0x10005504",
+      "cell_height": 18,
+      "results": [
+        {
+          "baseline": "SimSun18030 v2.06 stored 12px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun18030 v2.06 stored 14px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun18030 v2.06 stored 16px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 12px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 13px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 14px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 15px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 16px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 17px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "HZK12 current local",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "HZK14 current local",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "HZK16 current local",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Nokia6150 1999 11x12",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6513,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9004,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "QD/Mobile01 15x16_latin.gdr UID 0x100059f1 cell 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6535,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9151,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "QD/Mobile01 11x12_latin.gdr UID 0x100059f0 cell 12",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6535,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9151,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "QD/Mobile01 13_bold.gdr UID 0x127edd cell 13",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6557,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9190,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "QD/Mobile01 19_bold.gdr.gdr UID 0x127edb cell 17",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6558,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9191,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Nokia6600 15x16_latin.gdr UID 0x100059f1 cell 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 17146,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Nokia6600 11x12_latin.gdr UID 0x100059f0 cell 12",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 17146,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P908 Linnea.gdr UID 0x4823 cell 14",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 15763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P908 Linnea.gdr UID 0x18be cell 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 15763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P908 Linnea.gdr UID 0x6784 cell 18",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 15763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Windows3.2 SIMSUN13",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Windows3.2 SIMSUN20",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "gb16fs.bdf",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "gb16st.bdf",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "guob16.bdf",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "taipei16.bdf",
+          "GB2312": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 11",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 12",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 13",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 14",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 15",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "WenQuanYi original 13px.pcf (14 cell)",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 11px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 12px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 13px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 15px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 16px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 20px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P802 Linnea.gdr UID 0x4823 cell 14",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6998,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9587,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P802 Linnea.gdr UID 0x18be cell 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6998,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9587,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P802 Linnea.gdr UID 0x6784 cell 18",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6998,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9587,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Nokia3350v5.22 chin14-plain",
+          "GB2312": {
+            "common": 44,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 48,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 67,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Nokia3350v5.22 chin-plain",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6531,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9077,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "WenQuanYi original 9pt.pcf (12 cell)",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "font_uid": "0x10005505",
+      "cell_height": 20,
+      "results": [
+        {
+          "baseline": "SimSun18030 v2.06 stored 12px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun18030 v2.06 stored 14px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun18030 v2.06 stored 16px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 12px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 13px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 14px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 15px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 16px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "SimSun v5.03 stored 17px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "HZK12 current local",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "HZK14 current local",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "HZK16 current local",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Nokia6150 1999 11x12",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6513,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9004,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "QD/Mobile01 15x16_latin.gdr UID 0x100059f1 cell 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6535,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9151,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "QD/Mobile01 11x12_latin.gdr UID 0x100059f0 cell 12",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6535,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9151,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "QD/Mobile01 13_bold.gdr UID 0x127edd cell 13",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6557,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9190,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "QD/Mobile01 19_bold.gdr.gdr UID 0x127edb cell 17",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6558,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9191,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Nokia6600 15x16_latin.gdr UID 0x100059f1 cell 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 17146,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Nokia6600 11x12_latin.gdr UID 0x100059f0 cell 12",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 17146,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P908 Linnea.gdr UID 0x4823 cell 14",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 15763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P908 Linnea.gdr UID 0x18be cell 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 15763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P908 Linnea.gdr UID 0x6784 cell 18",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 15763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Windows3.2 SIMSUN13",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Windows3.2 SIMSUN20",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "gb16fs.bdf",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "gb16st.bdf",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "guob16.bdf",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "taipei16.bdf",
+          "GB2312": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 11",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 12",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 13",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 14",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 15",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Firefly stored 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "WenQuanYi original 13px.pcf (14 cell)",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 11px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 12px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 13px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 15px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 16px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "MingLiU stored 20px",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 13061,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 20902,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P802 Linnea.gdr UID 0x4823 cell 14",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6998,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9587,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P802 Linnea.gdr UID 0x18be cell 16",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6998,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9587,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "P802 Linnea.gdr UID 0x6784 cell 18",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6998,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9587,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Nokia3350v5.22 chin14-plain",
+          "GB2312": {
+            "common": 44,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 48,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 67,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "Nokia3350v5.22 chin-plain",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 6531,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 9077,
+            "exact": 0,
+            "percent": 0.0
+          }
+        },
+        {
+          "baseline": "WenQuanYi original 9pt.pcf (12 cell)",
+          "GB2312": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "Big5": {
+            "common": 4383,
+            "exact": 0,
+            "percent": 0.0
+          },
+          "CJK_common": {
+            "common": 6763,
+            "exact": 0,
+            "percent": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "limitation": "Not complete deduplication of every current or removed font. Native storage does not prove manual authorship or redistribution rights."
+}

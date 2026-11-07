@@ -1,0 +1,111 @@
+[
+  {
+    "id": "sony_ericsson_p908_14",
+    "uid": "0x18be",
+    "cellHeight": 16,
+    "ascent": 13,
+    "maxWidth": 17,
+    "mappedCharacters": 16635,
+    "cjkU3400U9fff": 15788,
+    "nonblankCjkU3400U9fff": 15788,
+    "gb2312": {
+      "expectedHan": 6763,
+      "presentHan": 6763,
+      "nonblankHan": 6763
+    },
+    "big5": {
+      "expectedHan": 13061,
+      "presentHan": 13061,
+      "nonblankHan": 13061
+    },
+    "printableAscii": 95,
+    "blankAscii": [
+      " "
+    ],
+    "hanAdvances": {
+      "13": 1,
+      "14": 15762
+    }
+  },
+  {
+    "id": "nokia_9210c_15",
+    "uid": "0x100054f9",
+    "cellHeight": 16,
+    "ascent": 14,
+    "maxWidth": 16,
+    "mappedCharacters": 22327,
+    "cjkU3400U9fff": 20902,
+    "nonblankCjkU3400U9fff": 20902,
+    "gb2312": {
+      "expectedHan": 6763,
+      "presentHan": 6763,
+      "nonblankHan": 6763
+    },
+    "big5": {
+      "expectedHan": 13061,
+      "presentHan": 13061,
+      "nonblankHan": 13061
+    },
+    "printableAscii": 95,
+    "blankAscii": [
+      " "
+    ],
+    "hanAdvances": {
+      "16": 20902
+    }
+  },
+  {
+    "id": "nokia_9210c_17",
+    "uid": "0x10005504",
+    "cellHeight": 18,
+    "ascent": 16,
+    "maxWidth": 18,
+    "mappedCharacters": 22327,
+    "cjkU3400U9fff": 20902,
+    "nonblankCjkU3400U9fff": 20902,
+    "gb2312": {
+      "expectedHan": 6763,
+      "presentHan": 6763,
+      "nonblankHan": 6763
+    },
+    "big5": {
+      "expectedHan": 13061,
+      "presentHan": 13061,
+      "nonblankHan": 13061
+    },
+    "printableAscii": 95,
+    "blankAscii": [
+      " "
+    ],
+    "hanAdvances": {
+      "18": 20902
+    }
+  },
+  {
+    "id": "nokia_9210c_19",
+    "uid": "0x10005505",
+    "cellHeight": 20,
+    "ascent": 18,
+    "maxWidth": 21,
+    "mappedCharacters": 22327,
+    "cjkU3400U9fff": 20902,
+    "nonblankCjkU3400U9fff": 20902,
+    "gb2312": {
+      "expectedHan": 6763,
+      "presentHan": 6763,
+      "nonblankHan": 6763
+    },
+    "big5": {
+      "expectedHan": 13061,
+      "presentHan": 13061,
+      "nonblankHan": 13061
+    },
+    "printableAscii": 95,
+    "blankAscii": [
+      " "
+    ],
+    "hanAdvances": {
+      "20": 20902
+    }
+  }
+]

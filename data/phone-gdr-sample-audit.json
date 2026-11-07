@@ -1,0 +1,130 @@
+{
+  "source_commit": "c35ae6683ffaabf31159bd289eff11e042a55ece",
+  "catalog_sha256": "906262d81f75946145352e9ef9666b8b14ade0e45ec233b2abfc86964f69d565",
+  "tested_native_count": 233,
+  "excluded_reference": [
+    "chinasea_reference"
+  ],
+  "scope": "Actual same-codepoint CJK characters declared in every fixed Chinese sample, including both actual Simplified and Traditional forms and device-specific text. Original candidate pixels crop outer blank rows/columns only. No rescaling or internal edits.",
+  "method": "Conservative full-image exact pixel search of each same-codepoint candidate glyph, without required blank border. Searching all image positions cannot miss a same-codepoint exact occurrence because of segmentation or layout. A hit alone is NOT claimed as a same-codepoint match until its placement is reviewed; no hits safely exclude exact matching for that tested glyph.",
+  "limitation": "Fixed samples only, not complete-font deduplication. No inference about characters not in current PNG samples. Missing candidate glyphs are untestable, not mismatches. Pattern hits may occur at another codepoint or inside a larger glyph and must be reviewed. Different samples cannot prove independent authorship.",
+  "positive_controls": [
+    {
+      "source": "HZK12 current local",
+      "specimen_id": "hzk_hzk12",
+      "tested": 10,
+      "matched": 10,
+      "matched_characters": "视野无限广窗外有蓝天",
+      "passed": true
+    },
+    {
+      "source": "HZK14 current local",
+      "specimen_id": "hzk_hzk14",
+      "tested": 10,
+      "matched": 10,
+      "matched_characters": "视野无限广窗外有蓝天",
+      "passed": true
+    },
+    {
+      "source": "HZK16 current local",
+      "specimen_id": "hzk_hzk16",
+      "tested": 10,
+      "matched": 10,
+      "matched_characters": "视野无限广窗外有蓝天",
+      "passed": true
+    },
+    {
+      "source": "Nokia6150 1999 11x12",
+      "specimen_id": "nokia_dct3_1999",
+      "tested": 10,
+      "matched": 10,
+      "matched_characters": "视野无限广窗外有蓝天",
+      "passed": true
+    }
+  ],
+  "reviewed_hits": [
+    {
+      "candidate_uid": "0x18be",
+      "baseline_id": "sun_gbk_song_14",
+      "character": "广",
+      "same_codepoint_confirmed": true,
+      "reason": "Position x=56 is fifth 14px Chinese cell (广), y=0, 13x14 ink; other nine Han glyphs have no exact match."
+    }
+  ],
+  "summary": "No near-complete fixed Chinese sample match in 233 current native specimens. P908 has one same-codepoint 广 match to Sun GBK14, 1/10. Nokia candidates have no exact sample glyph hits. Positive controls each pass 10/10. Removed-source sample results are separately bounded.",
+  "candidates": [
+    {
+      "uid": "0x18be",
+      "specimensChecked": 233,
+      "specimensWithAnyPatternHit": 1,
+      "totalPatternHits": 1,
+      "maximumHitsPerSpecimen": 1,
+      "nearCompleteSampleMatches": 0
+    },
+    {
+      "uid": "0x100054f9",
+      "specimensChecked": 233,
+      "specimensWithAnyPatternHit": 0,
+      "totalPatternHits": 0,
+      "maximumHitsPerSpecimen": 0,
+      "nearCompleteSampleMatches": 0
+    },
+    {
+      "uid": "0x10005504",
+      "specimensChecked": 233,
+      "specimensWithAnyPatternHit": 0,
+      "totalPatternHits": 0,
+      "maximumHitsPerSpecimen": 0,
+      "nearCompleteSampleMatches": 0
+    },
+    {
+      "uid": "0x10005505",
+      "specimensChecked": 233,
+      "specimensWithAnyPatternHit": 0,
+      "totalPatternHits": 0,
+      "maximumHitsPerSpecimen": 0,
+      "nearCompleteSampleMatches": 0
+    }
+  ],
+  "removed_source_supplement": {
+    "scope": "14 unique Han characters across actual simplified and traditional fixed sample sentences; outer blanks cropped only",
+    "availableSources": 24,
+    "testableSources": 23,
+    "unusableEncodingSources": 1,
+    "unavailableSources": 11,
+    "sampleCharacterRange": [
+      5,
+      14
+    ],
+    "exactSameCodepointMatches": 0,
+    "limitation": "Only fixed sample characters, not full-source deduplication. Unavailable/unmapped sources remain untested."
+  },
+  "integrationSupplement": {
+    "baseCommit": "75096b0c69254760758e28437095a4a18b6aa9ec",
+    "baselineId": "aix_isas_cns_24",
+    "specimenSha256": "872e5140834bf0bcb432635dea66bf2d2c42cbeb7d942e5201770a5cd8e1fc1a",
+    "scope": "AIX fixed traditional sample only, same Unicode and unchanged native pixels; no full-source comparison claimed.",
+    "checks": [
+      {
+        "candidateUid": "0x18be",
+        "testedCharacters": 10,
+        "exactPatternHits": 0
+      },
+      {
+        "candidateUid": "0x100054f9",
+        "testedCharacters": 10,
+        "exactPatternHits": 0
+      },
+      {
+        "candidateUid": "0x10005504",
+        "testedCharacters": 10,
+        "exactPatternHits": 0
+      },
+      {
+        "candidateUid": "0x10005505",
+        "testedCharacters": 10,
+        "exactPatternHits": 0
+      }
+    ]
+  }
+}
