@@ -6,6 +6,7 @@ import re
 import subprocess
 import sys
 from approved_unionway_name import UPDATE, before_name_row
+from approved_about_copy import before_about_copy
 
 ROOT = Path(__file__).resolve().parents[1]
 sha = lambda data: hashlib.sha256(data).hexdigest()
@@ -30,6 +31,9 @@ assert set(UPDATE['changedPublicFiles']) == {'data/catalog.json', 'data/catalog.
 replacements = [('UnionWay 繁体明体 16 · 16×16', '双桥 UnionWay 繁体明体 16 · 16×16'), ('UnionWay16', 'UnionWay双桥16'), ('UnionWay 16', 'UnionWay 双桥16')]
 for path, hashes in UPDATE['changedPublicFiles'].items():
     current = (ROOT / path).read_bytes()
+    if path == 'index.html':
+        # Later approved explanatory copy is unrelated to this naming audit.
+        current = before_about_copy(current.decode()).encode()
     assert sha(current) == hashes['after'], path
     old = current.decode()
     if path == 'index.html':
