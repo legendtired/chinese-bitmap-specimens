@@ -8,13 +8,14 @@ import sys
 import tempfile
 from PIL import Image
 from approved_psp_bwfont import before_psp_file_sha
+from approved_mrobe_mr100 import before_mrobe_data, ID as MROBE_ID
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 import psp_bwfont_specimen as psp
 sha = lambda b: hashlib.sha256(b).hexdigest()
 digest = lambda value: sha(json.dumps(value, ensure_ascii=False, sort_keys=True).encode())
-read = lambda path: json.loads((ROOT / path).read_text())
+read = lambda path: before_mrobe_data(path, json.loads((ROOT / path).read_text()))
 rows = read('data/catalog.json')
 m = read('data/release-psp-bwfont.json')
 ident = 'sony_psp_bwfont_16x18'
@@ -40,10 +41,10 @@ assert r['nativeEvidence']['source_sha256'] == psp.SOURCE_SHA256
 assert r['nativeEvidence']['mappingSourceSha256'] == psp.MAPPING_SHA256
 assert r['nativeEvidence']['firmwareSampleYear'] == 2015
 assert read('data/summary.json')['rows'] == 242
-assert len(list((ROOT/'fonts').glob('*.html'))) == 242
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem != MROBE_ID]) == 242
 assert read('data/collection-history.json')['batches'][-1] == {'sourceManifest': 'release-psp-bwfont.json', 'ids': [ident]}
 order = json.loads(subprocess.check_output(['node', '-e', "console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"], cwd=ROOT))
-assert order[0] == ident
+assert [value for value in order if value != MROBE_ID][0] == ident
 png = ROOT / r['specimen']
 image = Image.open(png)
 assert image.mode == '1' and image.size == (192, 38)

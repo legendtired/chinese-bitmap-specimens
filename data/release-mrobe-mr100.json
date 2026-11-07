@@ -1,0 +1,45 @@
+{
+  "addedIds": [
+    "olympus_mrobe_mr100_12"
+  ],
+  "totalRows": 243,
+  "baseRows": 242,
+  "baseCommit": "ce7b980c5fa03aa4440166d210a471c8bd0ca871",
+  "baseTree": "a11303841d9c7fbddd114eab7c4fb98d86bd7883",
+  "baseRowsSha256": "c5a260029886d7280f8a0caefd834175a2132e504663e6482749771296ebc301",
+  "baseSpecimensSha256": "bfb0245957eacdd9e294a86e562df7135c09053789d4f84f56ac1f8ce2e89feb",
+  "basePagesSha256": "63750463a235b7a532ff75b16de285f5e8f785a9e94b89ebcd52f3fa3d48311c",
+  "baseRecommendedIds": [
+    "founder_pixel12",
+    "apple_kai_12",
+    "mingliu_native_13",
+    "firefly_sung_14",
+    "renoufangsong-16",
+    "hbf_Beijing16",
+    "kh_dot_ningyouchou_16_16px",
+    "sony-g90-original",
+    "hanyi-pixel13",
+    "hanyi-pixel-xingkai15",
+    "psa_c_screen_12",
+    "wqx_nc1020_12",
+    "casio_xda10000_12",
+    "nokia_dct3_1999",
+    "wqx_pc505_14x15",
+    "samsung_r208_16",
+    "alcatel_ot715_13x14"
+  ],
+  "baseFilesSha256": {
+    "data/catalog.json": "cf6c189d4180c151fff3a1d6b60a6564182d6eafdcb521c962b7af4991284ca4",
+    "data/catalog.js": "b333cfd62c54fc8892bd21a6359ba16f3f6066b87dcda0bfc74a07fe3231d7d8",
+    "data/collection-history.json": "5853e088d24346c1e1fb37de408da3e2684b3c695853bd91acc2356dcd8d215d",
+    "data/collection-history.js": "11ae814ab923763ef1ac5a735715b5e14cefa2235be4fa1078278f3c4d97d705",
+    "data/summary.json": "0a352ea3859d6570116b0d9d4d6c1d079c9b25a30c525d27418dd058dd91c4ea",
+    "index.html": "e2ef7d00c11b5b2d12ad7d3bd18f9a09f16195cf003a4376e9022dc1c6c00c07",
+    "sitemap.xml": "492bc2653222ee4305b5705dfcf0b5907c7062b57ce289a506c40f2336ad444a",
+    "app.js": "b81a39f8e5d6ecad49ba03390d82cd2892cb69baf8657d7cd8509f0b02c6578c",
+    "styles.css": "96159ac107ff0fd26ae35a19f7b9c78a1bd1480f58ecdc09e1231d30637271f0",
+    "data/curation.json": "ba868579bbae807c1e7128c20597f40cedaf54c5a343acb5cad77e4183f707f4",
+    "data/release-psp-bwfont.json": "d9fef34696f4422fedc223cfc31e545ad365550972eec262200f73b586b08071"
+  },
+  "addedRowSha256": "f1dab6e4bb65fa2d8a54f79480ed582ad758eca212d8e74fd0ba385e8e8865ef"
+}

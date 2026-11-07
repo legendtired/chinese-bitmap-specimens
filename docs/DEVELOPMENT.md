@@ -121,3 +121,5 @@ python3 scripts/workspace.py check
 - [MS Ming 14×14](ms-ming14.md)：SHA锁定TTF内原生位图固定两行重绘，不补ASCII。
 
 - [Sony PSP 中文BWFont 16×18](psp-bwfont.md)：SHA锁定的本地BWFont与intraFont映射源码，只重绘固定两行；设置 `PSP_BWFONT_SOURCE`、`PSP_MAPPING_SOURCE` 可运行源像素回归。
+
+- [Olympus m:robe MR-100 12×12](mrobe-mr100.md)：SHA锁定本地FNT，只重绘固定三行；设置 `MROBE_MR100_SOURCE` 可运行原源与独立Pillow像素回归。

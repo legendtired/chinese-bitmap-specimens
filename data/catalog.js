@@ -16665,5 +16665,95 @@ window.FONT_CATALOG = [
       ],
       "checkedOn": "2026-11-07"
     }
+  },
+  {
+    "id": "olympus_mrobe_mr100_12",
+    "name": "Olympus m:robe MR-100 · 12×12",
+    "family": "Olympus m:robe MR-100",
+    "width": 12,
+    "height": 12,
+    "cellWidth": 12,
+    "cellHeight": 12,
+    "inkWidth": 11,
+    "inkHeight": 12,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/olympus_mrobe_mr100_12.png",
+    "specimenWidth": 171,
+    "specimenHeight": 44,
+    "specimenSha256": "7b37d8f6c8086403779a3f45129d95ce3c4067f613a051027149b52060386347",
+    "text": "视野无限广，窗外有蓝天。\n視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "2.17V保存包内原生1-bit点阵；汉字12×12存储及同层不等宽ASCII。",
+    "coverage": "20,278个映射槽中20,277个像素完整、20,274个非空；非空基本区／扩展A汉字16,400个，另有36个兼容汉字。GB2312汉字6,763/6,763、Big5基本汉字13,061/13,061及两兼容汉字齐全；不是全部Big5符号覆盖。同层95个可打印ASCII有映射，空格为空、94字非空。唯一尾部少4字节的U+3164排除，不补零，不影响汉字、ASCII与固定样文。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://github.com/bagder/sansa/tree/4f488ff82ade4df773a3d802965575c1cb8d9a18/mrobe100",
+    "sourceLabel": "Daniel Stenberg保存的MR-100升级器解包目录（固定提交）",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "第三方保存及解析方法不等于原字体开放许可。仅展示固定小样图、必要聚合事实与无字模离线重绘工具；不公开保存包、FNT、MI4、完整字模或字库子集。使用与再分发仍受原权利约束。",
+    "provenance": "从bagder/sansa固定提交保存的MR-100升级器解包件静态读取MR100.fnt，不是本次直接取得原厂EXE或Rockbox替代字体。包内两份INI均为2.17V，原MI4历史MD5一致，官方2005-05-30公告独立对应。原Unicode映射与52字节记录给出像素位置，逐行高位在左。2004年容器时间戳不当作字体设计年。",
+    "notes": "汉字通常11×11墨迹，但桅、淖、费用足12行，最大墨迹11×12，不能裁为11×11。Dotum12共同7,083字中434精确同形、平均Dice 0.823940，存在局部高相似；全部已查来源精确并集1,190/16,400，不是独创证明。冻结比较覆盖原196/241个ID，另直比PSP，相当于收录前197/242个ID，45个缺口仍在，部分来源仅小样本；不称全站全库去重。厂方手册仅说明屏幕字体属于Ricoh，不能据此确认所有字模作者或与另一Ricoh库相同。",
+    "layoutNote": "固定简繁与英数三行保留原存字宽与像素，汉字12×12、同层ASCII宽2–12px高12px。按原存宽连续放置、行距16px仅为诊断排版。运行时advance、bearing和基线未由设备或原程序独立确认，不冒充实机排版；不裁框、补画、平滑或换字体。",
+    "nativeEvidence": {
+      "summary": "原Unicode表与两套像素偏移一致；20,277个完整槽、2,898,744个存储像素经独立Pillow解码及字节回包验证。唯一U+3164短尾排除；固定样图另作源到PNG独立回归。",
+      "sourceUrl": "https://github.com/bagder/sansa/tree/4f488ff82ade4df773a3d802965575c1cb8d9a18/mrobe100",
+      "source_sha256": "e81b038173cabc11680e8e3f11a528c5b668420853014a94e8b9ce95de248a4e",
+      "sourceBytes": 1781424,
+      "firmwareVersion": "2.17V",
+      "firmwareSampleYear": 2005,
+      "mappedCharacters": 20278,
+      "completeCharacters": 20277,
+      "nonblankCharacters": 20274,
+      "nonblankCjk": 16400,
+      "compatibilityHan": 36,
+      "gb2312Han": 6763,
+      "big5Han": 13061,
+      "big5ExpectedHan": 13061,
+      "big5CompatibilityHan": 2,
+      "printableAscii": 95,
+      "nonblankAscii": 94,
+      "excludedIncompleteCodepoints": [
+        "U+3164"
+      ],
+      "bitDepth": 1
+    },
+    "priority": 0,
+    "sourceIndex": 280,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得有权处理且SHA匹配的本地MR100.fnt。工具只离线重绘已批准的固定三行PNG，不联网、不执行固件、不导出任意文字、完整字体或字库子集。",
+      "links": [
+        {
+          "label": "来源、覆盖边界与固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/mrobe-mr100.md",
+          "action": "method"
+        },
+        {
+          "label": "MR-100保存件来源目录（固定提交）",
+          "url": "https://github.com/bagder/sansa/tree/4f488ff82ade4df773a3d802965575c1cb8d9a18/mrobe100",
+          "action": "source"
+        },
+        {
+          "label": "Olympus 2.17V官方发布公告",
+          "url": "https://support.jp.omsystem.com/jp/support/cs/npls/info/nplsif20050501.html",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-07"
+    }
   }
 ];

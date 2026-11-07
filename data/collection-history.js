@@ -217,6 +217,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "sony_psp_bwfont_16x18"
       ]
+    },
+    {
+      "sourceManifest": "release-mrobe-mr100.json",
+      "ids": [
+        "olympus_mrobe_mr100_12"
+      ]
     }
   ]
 };
