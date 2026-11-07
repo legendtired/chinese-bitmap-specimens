@@ -223,6 +223,12 @@
       "ids": [
         "olympus_mrobe_mr100_12"
       ]
+    },
+    {
+      "sourceManifest": "release-samsung-ypt6.json",
+      "ids": [
+        "samsung_ypt6_14x16"
+      ]
     }
   ]
 }

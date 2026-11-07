@@ -123,3 +123,5 @@ python3 scripts/workspace.py check
 - [Sony PSP 中文BWFont 16×18](psp-bwfont.md)：SHA锁定的本地BWFont与intraFont映射源码，只重绘固定两行；设置 `PSP_BWFONT_SOURCE`、`PSP_MAPPING_SOURCE` 可运行源像素回归。
 
 - [Olympus m:robe MR-100 12×12](mrobe-mr100.md)：SHA锁定本地FNT，只重绘固定三行；设置 `MROBE_MR100_SOURCE` 可运行原源与独立Pillow像素回归。
+
+- [Samsung YP-T6 14×16](samsung-ypt6.md)：SHA锁定的本地resource.bin，仅固定三行；设置 `SAMSUNG_YPT6_SOURCE` 运行源像素回归。

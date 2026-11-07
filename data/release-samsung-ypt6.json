@@ -1,0 +1,46 @@
+{
+  "addedIds": [
+    "samsung_ypt6_14x16"
+  ],
+  "totalRows": 244,
+  "baseRows": 243,
+  "baseCommit": "fd8d647f494489ace22cca96312b2b0e5e7d8603",
+  "baseTree": "efe60bc3929064a34cf2d8205ae5edbb7f4225d4",
+  "baseRowsSha256": "af064d2bd5c9dcbbbd7b4a974ec8f8b4bbb05873bd0f00ecc39d72ec834c6d98",
+  "baseSpecimensSha256": "ee30e1bfbff66af58e730a2841130760b89dc3bb569e82e95b8bd4348aebafae",
+  "basePagesSha256": "99fdd7ec64cafed3589cf1a8e9c007e777fe43c1fa53a33e6b3005459ab107c7",
+  "baseRecommendedIds": [
+    "founder_pixel12",
+    "apple_kai_12",
+    "mingliu_native_13",
+    "firefly_sung_14",
+    "renoufangsong-16",
+    "hbf_Beijing16",
+    "kh_dot_ningyouchou_16_16px",
+    "sony-g90-original",
+    "hanyi-pixel13",
+    "hanyi-pixel-xingkai15",
+    "psa_c_screen_12",
+    "wqx_nc1020_12",
+    "casio_xda10000_12",
+    "nokia_dct3_1999",
+    "wqx_pc505_14x15",
+    "samsung_r208_16",
+    "alcatel_ot715_13x14"
+  ],
+  "baseFilesSha256": {
+    "data/catalog.json": "bbd9bd3f9efa4753275e4d9f939c2b1324705a2a79aa95b2825e599d51e5bb56",
+    "data/catalog.js": "036743e133220a5f598477cd65bc579126d524aa2f766dad29236611da4744f0",
+    "data/collection-history.json": "4b041300425c4dc42c4b1c7a813781dd56590451693b0d1f3e0785dcac612ece",
+    "data/collection-history.js": "8bd5cad0ecae2f59ca083f6a27233c470be4944f0e6d3bf551836d78fd09211b",
+    "data/summary.json": "8a050aa55ffc8f988744b2d1fca6bdca1695b838d99606c431d7ab2c4a7695db",
+    "index.html": "9c89013521b9fc1a32fe7ddb9d749cb59131554545912ad133a5ed39f90bc4b2",
+    "sitemap.xml": "3534469dd0bcf094d44e8d8bf560cb3e46a3a127cba8409406e5e54f65755fe9",
+    "app.js": "b81a39f8e5d6ecad49ba03390d82cd2892cb69baf8657d7cd8509f0b02c6578c",
+    "styles.css": "96159ac107ff0fd26ae35a19f7b9c78a1bd1480f58ecdc09e1231d30637271f0",
+    "scripts/generate_static.py": "d2f6bf5d0a92e52d277f955b6533b960822852bf32686490c4d6db21b33d48d1",
+    "data/curation.json": "ba868579bbae807c1e7128c20597f40cedaf54c5a343acb5cad77e4183f707f4",
+    "data/release-mrobe-mr100.json": "92ae184603262702b30b6b77582279530cc0d255845a74e3bd7c32a63619d71a"
+  },
+  "addedRowSha256": "6cb29f7030ad26edde47f5342ecc6ec95ae28e21cd260956243212a30333ff83"
+}

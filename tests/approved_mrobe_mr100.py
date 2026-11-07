@@ -1,6 +1,7 @@
 """Reverse only the approved MR-100 addition for historical release audits.
 Never imported by the site or builder. mrobe-mr100.test.py locks retained rows/pixels/pages.
 """
+from approved_samsung_ypt6 import before_ypt6_rows, before_ypt6_data, before_ypt6_bytes
 from pathlib import Path
 import copy
 import hashlib
@@ -11,10 +12,12 @@ ID = 'olympus_mrobe_mr100_12'
 
 
 def before_mrobe_rows(rows):
-    return [r for r in rows if r['id'] != ID]
+    return [r for r in before_ypt6_rows(rows) if r['id'] != ID]
 
 
-def before_mrobe_data(path, value):
+def before_mrobe_data(path, value, *, ypt6_reversed=False):
+    if not ypt6_reversed:
+        value = before_ypt6_data(path, value)
     if path == 'data/catalog.json':
         return before_mrobe_rows(value)
     if path == 'data/collection-history.json':
@@ -34,7 +37,7 @@ def before_mrobe_data(path, value):
 
 
 def before_mrobe_bytes(path):
-    data = (ROOT / path).read_bytes()
+    data = before_ypt6_bytes(path, ROOT)
     if path == 'scripts/generate_static.py':
         # The release manifests predate content-versioned scripts. Reverse only
         # this exact reviewed builder change; unknown edits still fail closed.
@@ -53,10 +56,10 @@ def before_mrobe_bytes(path):
         assert hashlib.sha256(data).hexdigest() == '7d4ebcc6e622d103cdbf2b7b54ff08df1aa98fb200f0e5d3a11c6ea6a57dc6a4'
         return data
     if path in ('data/catalog.json', 'data/collection-history.json', 'data/summary.json'):
-        return (json.dumps(before_mrobe_data(path, json.loads(data)), ensure_ascii=False, indent=2) + '\n').encode()
+        return (json.dumps(before_mrobe_data(path, json.loads(data), ypt6_reversed=True), ensure_ascii=False, indent=2) + '\n').encode()
     if path in ('data/catalog.js', 'data/collection-history.js'):
         prefix, payload = data.decode().split(' = ', 1)
-        original = before_mrobe_data(path.replace('.js', '.json'), json.loads(payload.rstrip().removesuffix(';')))
+        original = before_mrobe_data(path.replace('.js', '.json'), json.loads(payload.rstrip().removesuffix(';')), ypt6_reversed=True)
         return (prefix + ' = ' + json.dumps(original, ensure_ascii=False, indent=2) + ';\n').encode()
     if path == 'sitemap.xml':
         text, count = re.subn(r'<url><loc>https://legendtired.github.io/chinese-bitmap-specimens/fonts/' + ID + r'\.html</loc></url>\n', '', data.decode())
@@ -67,7 +70,7 @@ def before_mrobe_bytes(path):
         # The current script bytes and versions are checked independently.
         text = data.decode()
         for asset in ('data/catalog.js', 'data/collection-history.js', 'app.js'):
-            version = hashlib.sha256((ROOT / asset).read_bytes()).hexdigest()[:16]
+            version = hashlib.sha256(before_ypt6_bytes(asset, ROOT)).hexdigest()[:16]
             current = f'src="{asset}?v={version}"'
             assert text.count(current) == 1, asset
             text = text.replace(current, f'src="{asset}"', 1)

@@ -16755,5 +16755,84 @@ window.FONT_CATALOG = [
       ],
       "checkedOn": "2026-11-07"
     }
+  },
+  {
+    "id": "samsung_ypt6_14x16",
+    "name": "Samsung YP-T6 · 14×16",
+    "family": "Samsung YP-T6",
+    "width": 14,
+    "height": 16,
+    "cellWidth": 14,
+    "cellHeight": 16,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/samsung_ypt6_14x16.png",
+    "specimenWidth": 211,
+    "specimenHeight": 56,
+    "specimenSha256": "32fde0f66433fa615794b0a5bc117017ff48f3fe61f488d00c2b7cd463b8c322",
+    "text": "视野无限广，窗外有蓝天。\n視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "2004年v1.2原厂资源内原生1-bit点阵；汉字常规14×16存储及同层不等宽ASCII。",
+    "coverage": "33,894个原字形槽；保守排除共享默认值1后有33,893个Unicode映射。U+4E00–U+9FA5的20,902个统一汉字均非空，另有302个兼容汉字。GB2312汉字6,763/6,763、Big5基本汉字13,061/13,061及两兼容汉字齐全；不代表全部Big5/CP950符号。95个可打印ASCII有映射，空格为空、94字非空。原CP950转换表缺249个扩展位置，另有3个输出符号缺此层字模。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://www.samsung.com.cn/support/model.YP-T6Z_XAC/",
+    "sourceLabel": "三星中国 YP-T6 官方支持页（v1.2，2004-11-22）",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "官方可下载不等于字体开放许可。仅展示固定小样图、必要聚合事实与无字模离线重绘方法，不公开原包、固件、完整字模或字库子集；使用与再分发仍受原权利约束。",
+    "provenance": "静态读取三星官方支持页所列v1.2升级包中的resource.bin，产品版本001.200.000；包内Unicode两级映射指向嵌套原生bitmap资源，按每8行一页、列序、低位在上解码。不是普通矢量取模，不执行安装器或固件。2004-11-22是官方升级包发布日期，不是已证实的字体设计日期。",
+    "notes": "20,898个统一汉字原存14×16，另外壦25×16、悷18×16、饀15×16、饞30×16及原孤点／空白照存；通常墨迹13×13，不将整库裁成13点。Dotum14共同7,476字中655精确同形、平均Dice 0.820954，2,478字≥0.90、1,585字≥0.95，存在局部高相似。历史202、补充13、近期28层的全部可用同码汉字比较未见近全层重复；基准只覆盖收录前198/243个目录ID，45缺口仍在，不称全站去重，也不证明原创、手工设计或作者身份。",
+    "layoutNote": "固定简繁与同层英数三行保留原存字宽与像素，按原矩形宽连续放置；20px行距仅为样图排版。原机advance、bearing、基线与行距未独立恢复，不冒充实机排版；不裁框、补画、借字、平滑或修正原异常。",
+    "nativeEvidence": {
+      "summary": "两条独立路径核验154个资源目录、36,020个资源；33,894个原槽共7,369,408个存储像素逐位回填与原字节一致。33,893个保守映射及固定1×/4×样图逐像素一致；四异常槽由原头与载荷独立重现。",
+      "sourceUrl": "https://www.samsung.com.cn/support/model.YP-T6Z_XAC/",
+      "source_sha256": "39c90743c732fb1e08014c64812cbf178858b3eaa12b232a4a5a89a42bd5aebb",
+      "sourceBytes": 3168312,
+      "firmwareVersion": "1.2 / 001.200.000",
+      "firmwareSampleYear": 2004,
+      "nativeGlyphSlots": 33894,
+      "mappedCharacters": 33893,
+      "nonblankCjk": 20902,
+      "compatibilityHan": 302,
+      "gb2312Han": 6763,
+      "big5Han": 13061,
+      "big5ExpectedHan": 13061,
+      "big5CompatibilityHan": 2,
+      "printableAscii": 95,
+      "nonblankAscii": 94,
+      "bitDepth": 1
+    },
+    "priority": 0,
+    "sourceIndex": 281,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得有权处理且SHA匹配的本地resource.bin；工具仅离线重绘已批准的固定三行PNG，不联网、不执行固件，不导出任意文字、完整字体或字库子集。",
+      "links": [
+        {
+          "label": "来源、覆盖边界与固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/samsung-ypt6.md",
+          "action": "method"
+        },
+        {
+          "label": "三星 YP-T6 官方支持页",
+          "url": "https://www.samsung.com.cn/support/model.YP-T6Z_XAC/",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-07"
+    }
   }
 ];

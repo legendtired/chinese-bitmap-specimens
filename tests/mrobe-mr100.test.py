@@ -8,13 +8,14 @@ import sys
 import tempfile
 from PIL import Image
 from approved_mrobe_mr100 import before_mrobe_file_sha
+from approved_samsung_ypt6 import before_ypt6_data, ID as YPT6_ID
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 import mrobe_mr100_specimen as mrobe
 sha = lambda b: hashlib.sha256(b).hexdigest()
 digest = lambda value: sha(json.dumps(value, ensure_ascii=False, sort_keys=True).encode())
-read = lambda path: json.loads((ROOT / path).read_text())
+read = lambda path: before_ypt6_data(path, json.loads((ROOT / path).read_text()))
 rows = read('data/catalog.json')
 m = read('data/release-mrobe-mr100.json')
 ident = 'olympus_mrobe_mr100_12'
@@ -42,10 +43,10 @@ assert r['nativeEvidence']['completeCharacters'] == 20277
 assert r['nativeEvidence']['excludedIncompleteCodepoints'] == ['U+3164']
 assert read('data/summary.json')['rows'] == 243
 assert read('data/summary.json')['nativePngCount'] == 242
-assert len(list((ROOT/'fonts').glob('*.html'))) == 243
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem != YPT6_ID]) == 243
 assert read('data/collection-history.json')['batches'][-1] == {'sourceManifest': 'release-mrobe-mr100.json', 'ids': [ident]}
 order = json.loads(subprocess.check_output(['node', '-e', "console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"], cwd=ROOT))
-assert order[:2] == [ident, 'sony_psp_bwfont_16x18']
+assert [value for value in order if value != YPT6_ID][:2] == [ident, 'sony_psp_bwfont_16x18']
 png = ROOT / r['specimen']
 image = Image.open(png)
 assert image.mode == 'RGBA' and image.size == (171,44)
