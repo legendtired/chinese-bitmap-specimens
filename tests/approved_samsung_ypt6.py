@@ -1,6 +1,7 @@
 """Reverse only the approved YP-T6 addition for immutable historical audits.
 Never used by the site/builder. samsung-ypt6.test.py locks the 243 retained rows and files.
 """
+from approved_sc_song13 import before_sc13_rows, before_sc13_data, before_sc13_bytes
 from pathlib import Path
 import copy
 import hashlib
@@ -11,10 +12,12 @@ ID = 'samsung_ypt6_14x16'
 
 
 def before_ypt6_rows(rows):
-    return [r for r in rows if r['id'] != ID]
+    return [r for r in before_sc13_rows(rows) if r['id'] != ID]
 
 
-def before_ypt6_data(path, value):
+def before_ypt6_data(path, value, *, sc13_reversed=False):
+    if not sc13_reversed:
+        value = before_sc13_data(path, value)
     if path == 'data/catalog.json':
         return before_ypt6_rows(value)
     if path == 'data/collection-history.json':
@@ -34,12 +37,12 @@ def before_ypt6_data(path, value):
 
 
 def before_ypt6_bytes(path, root=ROOT):
-    data = (root / path).read_bytes()
+    data = before_sc13_bytes(path, root)
     if path in ('data/catalog.json', 'data/collection-history.json', 'data/summary.json'):
-        return (json.dumps(before_ypt6_data(path, json.loads(data)), ensure_ascii=False, indent=2) + '\n').encode()
+        return (json.dumps(before_ypt6_data(path, json.loads(data), sc13_reversed=True), ensure_ascii=False, indent=2) + '\n').encode()
     if path in ('data/catalog.js', 'data/collection-history.js'):
         prefix, payload = data.decode().split(' = ', 1)
-        original = before_ypt6_data(path.replace('.js', '.json'), json.loads(payload.rstrip().removesuffix(';')))
+        original = before_ypt6_data(path.replace('.js', '.json'), json.loads(payload.rstrip().removesuffix(';')), sc13_reversed=True)
         return (prefix + ' = ' + json.dumps(original, ensure_ascii=False, indent=2) + ';\n').encode()
     if path == 'sitemap.xml':
         text, count = re.subn(r'<url><loc>https://legendtired.github.io/chinese-bitmap-specimens/fonts/' + ID + r'\.html</loc></url>\n', '', data.decode())
@@ -49,7 +52,7 @@ def before_ypt6_bytes(path, root=ROOT):
         text = data.decode()
         # Restore precise content hashes for the prior catalog/history, never remove versions.
         for asset in ('data/catalog.js', 'data/collection-history.js', 'app.js'):
-            current = hashlib.sha256((root/asset).read_bytes()).hexdigest()[:16]
+            current = hashlib.sha256(before_sc13_bytes(asset, root)).hexdigest()[:16]
             previous = hashlib.sha256(before_ypt6_bytes(asset, root)).hexdigest()[:16]
             tag = f'src="{asset}?v={current}"'
             assert text.count(tag) == 1

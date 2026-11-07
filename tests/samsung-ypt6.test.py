@@ -8,13 +8,14 @@ import sys
 import tempfile
 from PIL import Image
 from approved_samsung_ypt6 import before_ypt6_file_sha, ID
+from approved_sc_song13 import before_sc13_data, ID as SC13_ID
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'scripts'))
 import samsung_ypt6_specimen as ypt6
 sha = lambda b: hashlib.sha256(b).hexdigest()
 digest = lambda value: sha(json.dumps(value, ensure_ascii=False, sort_keys=True).encode())
-read = lambda path: json.loads((ROOT/path).read_text())
+read = lambda path: before_sc13_data(path, json.loads((ROOT/path).read_text()))
 rows = read('data/catalog.json')
 m = read('data/release-samsung-ypt6.json')
 assert m['addedIds'] == [ID] and m['baseRows'] == 243 and m['totalRows'] == 244
@@ -43,10 +44,10 @@ assert r['nativeEvidence']['mappedCharacters'] == 33893
 assert r['nativeEvidence']['nonblankCjk'] == 20902
 summary = read('data/summary.json')
 assert summary['rows'] == 244 and summary['nativePngCount'] == 243
-assert len(list((ROOT/'fonts').glob('*.html'))) == 244
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem != SC13_ID]) == 244
 assert read('data/collection-history.json')['batches'][-1] == {'sourceManifest': 'release-samsung-ypt6.json', 'ids': [ID]}
 order = json.loads(subprocess.check_output(['node', '-e', "console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"], cwd=ROOT))
-assert order[:3] == [ID, 'olympus_mrobe_mr100_12', 'sony_psp_bwfont_16x18']
+assert [ident for ident in order if ident != SC13_ID][:3] == [ID, 'olympus_mrobe_mr100_12', 'sony_psp_bwfont_16x18']
 png = ROOT/r['specimen']
 image = Image.open(png)
 assert image.mode == 'RGBA' and image.size == (211,56)

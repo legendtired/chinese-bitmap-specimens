@@ -229,6 +229,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "samsung_ypt6_14x16"
       ]
+    },
+    {
+      "sourceManifest": "release-sc-song13.json",
+      "ids": [
+        "sc_song_13"
+      ]
     }
   ]
 };

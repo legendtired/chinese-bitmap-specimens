@@ -125,3 +125,5 @@ python3 scripts/workspace.py check
 - [Olympus m:robe MR-100 12×12](mrobe-mr100.md)：SHA锁定本地FNT，只重绘固定三行；设置 `MROBE_MR100_SOURCE` 可运行原源与独立Pillow像素回归。
 
 - [Samsung YP-T6 14×16](samsung-ypt6.md)：SHA锁定的本地resource.bin，仅固定三行；设置 `SAMSUNG_YPT6_SOURCE` 运行源像素回归。
+
+- [SC_Song 13×13与外补Arial](sc-song13.md)：双SHA锁定本地TTF/GDR的固定三行重绘。设置 `SC_SONG13_SOURCE` 与 `SC_SONG13_ARIAL_SOURCE` 运行源像素回归；未提供时明确跳过私有源验证。

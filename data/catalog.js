@@ -16834,5 +16834,132 @@ window.FONT_CATALOG = [
       ],
       "checkedOn": "2026-11-07"
     }
+  },
+  {
+    "id": "sc_song_13",
+    "name": "SC_Song · 13×13",
+    "family": "SC_Song",
+    "width": 13,
+    "height": 13,
+    "cellWidth": 13,
+    "cellHeight": 13,
+    "inkWidth": 12,
+    "inkHeight": 12,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/sc_song_13.png",
+    "specimenWidth": 210,
+    "specimenHeight": 47,
+    "specimenSha256": "c9cdc3117e8f9083fd2f2383607b69fccda43a8cd46fd99fc446259c916be2e8",
+    "text": "视野无限广，窗外有蓝天。\n視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "SC_Song原存13×13中文；英数按用户选择外补另一来源的Arial原生13点位图，不是原装配套。",
+    "coverage": "本位图层21,742个映射槽、21,741个非空字形，含20,902个基本区汉字和21个兼容汉字，没有扩展A汉字。GB2312汉字6,763/6,763、Big5基本汉字13,061/13,061；不等于全Unicode、GB18030或全部Big5符号覆盖。本层没有ASCII；整个TTF的ASCII cmap不代表该位图层覆盖。展示英数另来自Eon.gdr Arial13，其95个可打印ASCII齐全（含空格）。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "not-in-source",
+    "sourceUrl": "https://github.com/172625145/Kingmos-GUI",
+    "sourceLabel": "Kingmos-GUI第三方保存仓库",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "SC_Song与Arial分属不同来源，第三方保存、内部名称和版权串都不等于再分发许可。仅展示固定小样图、必要事实及无字模离线重绘工具；不公开原TTF、GDR、ROM、完整字模或字库子集。使用与再分发仍受各原权利约束。",
+    "provenance": "SC_Song Version 1.00，内部唯一名Microsoft:SC_Song:1996；版权串ZHUHAI Stone Computerized typesetting system R&D LTD., 1995–1996。直接读取sunfon.ttf中EBDT/EBLC v2的13ppem、1-bit原存位图，不栅格化轮廓。Kingmos-GUI路径只是第三方保存位置，不证明具体Windows CE或其他设备实装；1996仅是内部标识，不是已证设备或设计年份。",
+    "notes": "与HZK12全部6,763个共同汉字仅86字裁外白后精确同形，但±1px平移Dice均值0.830627，2,158字（31.91%）≥0.90、995字≥0.95，局部近似明显。历史202条、当前补充13条和冻结28层完整共同汉字比较未发现近全层重复；基于243条目快照覆盖198/243个ID，仍45个缺口，部分来源只限小样本。另与Samsung YP-T6直接比较20,902共同汉字为1字精确同形、平均Dice0.644078。不是全站去重、独创或逐字手工设计证明。仅收13层，不引入已排除12/14/15/16层。",
+    "layoutNote": "保留原13×13中文框、水平bearing0、垂直bearing11、advance13及原像素，汉字最大墨迹12×12不裁框。中文原两行156×30区域不变。第三行外补同既有Psion来源Eon.gdr中的Arial13（UID0x100001f4、1×1）；保留其原不等宽字进和bearing，不是与SC_Song同系统或原装配套。210×47透明画布、13高展示行框与4px行间隔是本站组合排版，不代表原设备行距或屏幕复刻。",
+    "nativeEvidence": {
+      "summary": "SC_Song原源SHA、SFNT表checksum、cmap与FontTools、EBLC地址/度量及原位图逐像素交叉核验；13层21,742槽完整字节回填一致。外补Arial另以原GDR家族表、13层UID和独立位流解码核验。",
+      "sourceUrl": "https://github.com/172625145/Kingmos-GUI",
+      "source_sha256": "648b674639a9a83d35ca65934561dd38ee8d623afec2ee4e632ae6f7d53e0d55",
+      "sourceBytes": 4686044,
+      "mappedCharacters": 21742,
+      "nonblankCharacters": 21741,
+      "nonblankCjk": 20902,
+      "basicHan": 20902,
+      "extensionAHan": 0,
+      "compatibilityHan": 21,
+      "gb2312Han": 6763,
+      "big5Han": 13061,
+      "big5ExpectedHan": 13061,
+      "printableAscii": 0,
+      "bitDepth": 1,
+      "ppem": 13,
+      "horiBearingX": 0,
+      "horiBearingY": 11,
+      "horiAdvance": 13
+    },
+    "asciiPairing": {
+      "kind": "user-selected-external-source",
+      "family": "Arial",
+      "source": "Eon.gdr",
+      "sourceUrl": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
+      "uid": "0x100001f4",
+      "cellHeight": 13,
+      "ascent": 11,
+      "posture": "upright",
+      "weight": "normal",
+      "proportional": true,
+      "scale": [
+        1,
+        1
+      ],
+      "advanceRange": [
+        3,
+        15
+      ],
+      "leftBearingRange": [
+        0,
+        2
+      ],
+      "bitmapWidthRange": [
+        0,
+        13
+      ],
+      "bitmapHeightRange": [
+        0,
+        13
+      ],
+      "asciiRange": "U+0020–U+007E",
+      "printableAscii": 95,
+      "nonblankAscii": 94,
+      "sourceSha256": "2477ea0d6bae65eba347eb8a9ef9785bf01b58279c903b10da12d1cbc673a5de",
+      "sourceBytes": 143493,
+      "originalRuntimePairingVerified": false,
+      "copyrightNotice": "Copyright Monotype Typography Ltd 1997"
+    },
+    "priority": 0,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得有权处理且SHA匹配的本地sunfon.ttf与Eon.gdr；工具仅离线重绘这一固定三行PNG，不联网、不执行固件、不栅格化轮廓、不导出任意文字或字体/字库子集。英文和数字按用户选择跨来源补充，非原装配套。",
+      "links": [
+        {
+          "label": "来源、外补Arial及固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/sc-song13.md",
+          "action": "method"
+        },
+        {
+          "label": "SC_Song第三方保存仓库",
+          "url": "https://github.com/172625145/Kingmos-GUI",
+          "action": "source"
+        },
+        {
+          "label": "Arial对应Revo ROM资料页",
+          "url": "https://github.com/explit28/Psion-ROM/tree/main/Revo/Revo_v1.08%2814%29_chitr",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-07"
+    },
+    "sourceIndex": 282
   }
 ];

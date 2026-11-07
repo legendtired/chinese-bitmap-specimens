@@ -1,0 +1,51 @@
+{
+  "addedIds": [
+    "sc_song_13"
+  ],
+  "totalRows": 245,
+  "baseRows": 244,
+  "baseCommit": "fc60511282cb071fe047f75cb069537a2cd0db1e",
+  "baseTree": "eb9a228cc3540d5e59ef18e614716e7abb43da39",
+  "baseRowsSha256": "8f4781a9e4a1385e8489efaa7e16c721188298e96929c62cf61abf3ac5420f8d",
+  "baseSpecimensSha256": "73a90bbbe63b623baed86b6d72ee79aa6724cb18584a0e5bd69bdf19bf635a2b",
+  "basePagesSha256": "9c971aeacc293aa8db7a6ba6ed7098628dc20e2c7d5d9bcd2a28c8ea4b3e321a",
+  "baseRecommendedIds": [
+    "founder_pixel12",
+    "apple_kai_12",
+    "mingliu_native_13",
+    "firefly_sung_14",
+    "renoufangsong-16",
+    "hbf_Beijing16",
+    "kh_dot_ningyouchou_16_16px",
+    "sony-g90-original",
+    "hanyi-pixel13",
+    "hanyi-pixel-xingkai15",
+    "psa_c_screen_12",
+    "wqx_nc1020_12",
+    "casio_xda10000_12",
+    "nokia_dct3_1999",
+    "wqx_pc505_14x15",
+    "samsung_r208_16",
+    "alcatel_ot715_13x14"
+  ],
+  "baseFilesSha256": {
+    "data/catalog.json": "fb1e11df27e1b2daf6f7d5f601f96a3497a8292fdb92c689e52128d6059dacfd",
+    "data/catalog.js": "7404fc01f51e6460e796ebe06e7060131674a592ec5071dc82d1f70a9ff4d8ab",
+    "data/collection-history.json": "6823935fb8ee02ee4dc8024e562460599905ba1ae030b5ec5ba1df6cf7b6ba7a",
+    "data/collection-history.js": "dfd257ec1500277be206a878a729dee756832ecbf7970e4ec727bbf4c80af64a",
+    "data/summary.json": "d69fc9d900d0b4e16a4a8c770027a9dc6e1f035b95acd8bb71570f9f69bd1465",
+    "index.html": "43ebcf2dfa280ddef2b9498237ce8e8feab41b0bfdf41001cda90f78fa7d11cd",
+    "sitemap.xml": "3fab4197b95f24925078e71d317d2f427d029fc49a8bfedfa3de9045dfbd1673",
+    "app.js": "b81a39f8e5d6ecad49ba03390d82cd2892cb69baf8657d7cd8509f0b02c6578c",
+    "styles.css": "96159ac107ff0fd26ae35a19f7b9c78a1bd1480f58ecdc09e1231d30637271f0",
+    "scripts/generate_static.py": "d2f6bf5d0a92e52d277f955b6533b960822852bf32686490c4d6db21b33d48d1",
+    "scripts/update_summary.py": "2b1774dd37e8d3e41ad46d0ce6741c78150b4a21f4971e786d596f4a26155fa3",
+    "data/curation.json": "ba868579bbae807c1e7128c20597f40cedaf54c5a343acb5cad77e4183f707f4",
+    "data/release-samsung-ypt6.json": "bb4c89d3ef0f110f2711158e4dfb3133478f72412102dfc58a5f27751c9837c8",
+    "data/release-mrobe-mr100.json": "92ae184603262702b30b6b77582279530cc0d255845a74e3bd7c32a63619d71a"
+  },
+  "addedRowSha256": "00fec3d55dc184f7d706e62f2cbc4509d8b003ccd21065b11b37baad78fa5af0",
+  "specimenSha256": "c9cdc3117e8f9083fd2f2383607b69fccda43a8cd46fd99fc446259c916be2e8",
+  "sourceScriptSha256": "b734d513b8ad7fecd19a14fae3f12bad7cb0490c5129c8e5ecd59db637776647",
+  "documentationSha256": "cf942c3ec610f2ce15b9e0b04801cb7e9893076891a20e56ac31e10e827d6903"
+}
