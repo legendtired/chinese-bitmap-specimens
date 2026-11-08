@@ -1,3 +1,4 @@
+from approved_hitech_adp3 import before_hitech_adp3_rows, before_hitech_adp3_data, before_hitech_adp3_bytes
 """Reverse precisely the approved Xelibri14 addition for historical SHA audits.
 Not imported by the site or builder. Unknown rows/changes are never normalized.
 """
@@ -17,10 +18,12 @@ def before_xelibri14_rows(rows):
         m = json.loads((ROOT/'data/release-xelibri14.json').read_text())
         assert len(added) == 1
         assert hashlib.sha256(json.dumps(added[0], ensure_ascii=False, sort_keys=True).encode()).hexdigest() == m['addedRowSha256'], 'Unreviewed Xelibri14 row change'
-    return [r for r in rows if r['id'] != ID]
+    return [r for r in before_hitech_adp3_rows(rows) if r['id'] != ID]
 
 
-def before_xelibri14_data(path, value):
+def before_xelibri14_data(path, value, *, hitech_reversed=False):
+    if not hitech_reversed:
+        value = before_hitech_adp3_data(path, value)
     if path == 'data/catalog.json':
         return before_xelibri14_rows(value)
     if path == 'data/collection-history.json':
@@ -41,12 +44,12 @@ def before_xelibri14_data(path, value):
 
 
 def before_xelibri14_bytes(path, root=ROOT):
-    data = (root/path).read_bytes()
+    data = before_hitech_adp3_bytes(path, root)
     if path in ('data/catalog.json', 'data/collection-history.json', 'data/summary.json'):
-        return (json.dumps(before_xelibri14_data(path, json.loads(data)), ensure_ascii=False, indent=2)+'\n').encode()
+        return (json.dumps(before_xelibri14_data(path, json.loads(data), hitech_reversed=True), ensure_ascii=False, indent=2)+'\n').encode()
     if path in ('data/catalog.js', 'data/collection-history.js'):
         prefix, payload = data.decode().split(' = ', 1)
-        original = before_xelibri14_data(path.replace('.js', '.json'), json.loads(payload.rstrip().removesuffix(';')))
+        original = before_xelibri14_data(path.replace('.js', '.json'), json.loads(payload.rstrip().removesuffix(';')), hitech_reversed=True)
         return (prefix+' = '+json.dumps(original, ensure_ascii=False, indent=2)+';\n').encode()
     if path == 'sitemap.xml':
         text, count = re.subn(r'<url><loc>https://legendtired.github.io/chinese-bitmap-specimens/fonts/'+ID+r'\.html</loc></url>\n', '', data.decode())
@@ -55,7 +58,7 @@ def before_xelibri14_bytes(path, root=ROOT):
     if path == 'index.html':
         text = data.decode()
         for asset in ('data/catalog.js', 'data/collection-history.js', 'app.js'):
-            current = hashlib.sha256((root/asset).read_bytes()).hexdigest()[:16]
+            current = hashlib.sha256(before_hitech_adp3_bytes(asset, root)).hexdigest()[:16]
             previous = hashlib.sha256(before_xelibri14_bytes(asset, root)).hexdigest()[:16]
             tag = f'src="{asset}?v={current}"'
             assert text.count(tag) == 1

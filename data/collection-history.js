@@ -247,6 +247,21 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "siemens_xelibri_14"
       ]
+    },
+    {
+      "sourceManifest": "release-hitech-adp3.json",
+      "ids": [
+        "hitech_adp3_24"
+      ]
+    },
+    {
+      "sourceManifest": "release-approved-four.json",
+      "ids": [
+        "windows31_mingli20",
+        "deadf_game_16",
+        "richwin_42_song_16",
+        "asiasurf_tm16"
+      ]
     }
   ]
 };

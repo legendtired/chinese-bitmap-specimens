@@ -1,0 +1,89 @@
+{
+  "status": "bounded-source-and-deduplication-audit-complete",
+  "addedIds": [
+    "hitech_adp3_24"
+  ],
+  "baseRows": 247,
+  "totalRows": 248,
+  "baseCommit": "d73b2ec19c6c3ca1ad02a0fd55a5802a5c7a0d2c",
+  "baseTree": "4fc534b84abaf5319169b60feb3f2cb207cee81d",
+  "baseRowsSha256": "edcc154a4ccf075f67d4f0c2301bb7cd9e2ab6478d00a0eacfdc04a1842ac513",
+  "baseSpecimensSha256": "a5ac0bd52de5cd239593c7524534d816863c98edddc1f3b2d70d253a7dbf0980",
+  "basePagesSha256": "35c02b656b03e3d41876d7ba98c1a78b8f1d5af69a89d1278d80c81f24bdcc71",
+  "baseSummary": {
+    "catalogVersion": 17,
+    "rows": 247,
+    "minCellHeight": 8,
+    "maxCellHeight": 64,
+    "sizeScope": "No 8–32px restriction; native pixel design evidence and remaining uncertainty recorded",
+    "sampleKinds": {
+      "standard": 235,
+      "partial": 7,
+      "osd": 4,
+      "reference": 1
+    },
+    "scripts": {
+      "简体": 144,
+      "繁体": 133
+    },
+    "nativePngCount": 246,
+    "standardChineseComplete": 236,
+    "partialChinese": 6,
+    "standardAsciiComplete": 200,
+    "partialAscii": 10,
+    "ordinaryRows": 242,
+    "fontFilesIncluded": 0,
+    "glyphDataIncluded": false,
+    "emptyLineOmission": {
+      "changedSpecimens": 7,
+      "rule": "Entirely blank sample lines do not contribute canvas width or height; partial missing-character advances and native bearings remain unchanged."
+    },
+    "curation": {
+      "removedBySelection": 34,
+      "mergedSampleEquivalent": 4,
+      "scope": "代表性字样，不以数量或细微版本差异充数；同源及疑似取模不自动等于已证实矢量转换。"
+    },
+    "referenceRows": 1,
+    "ordinaryAsciiRows": 210,
+    "ordinaryWithoutAsciiEvaluation": 32,
+    "coverageRule": "Reference screenshots/standard diagrams are not glyph coverage tests. Fullwidth samples and sources without ASCII are not counted as complete ordinary ASCII.",
+    "variableGridRows": 2,
+    "renderOmittedRows": 1,
+    "designHeightRows": 4
+  },
+  "baseFilesSha256": {
+    "data/catalog.json": "ccdf1d24bf41b659adf7f08615e0d97677e8d5e1410bcce7a3f703c3f9762d45",
+    "data/catalog.js": "92e2a6872f990aaed4cb7b7f27a0b5dc3b4daebfd39637833d763455e2ad21bd",
+    "data/collection-history.json": "2a2f18f541dc07a180c08ee01d002d19ca2873006f63b1ce450dd5b2c8004a5a",
+    "data/collection-history.js": "73ebd58280efc0076d9d0f33f58d6d4d6d852d1d12339a452f259852f929288b",
+    "data/summary.json": "5dfc747ee2d621bba9e45ecd28e32fcc8fa41d44e5619e57cb850d4bcf9b7d07",
+    "index.html": "220b1899afc9dd521b352cfd49a94beb85c254658d98aee504841b0cc797f75e",
+    "sitemap.xml": "890f7b28ab6bebbf61acbfd688ed40d7449c49c92fdae832ffd1133ae0c29fe8",
+    "app.js": "b81a39f8e5d6ecad49ba03390d82cd2892cb69baf8657d7cd8509f0b02c6578c",
+    "styles.css": "96159ac107ff0fd26ae35a19f7b9c78a1bd1480f58ecdc09e1231d30637271f0"
+  },
+  "baseRecommendedIds": [
+    "founder_pixel12",
+    "apple_kai_12",
+    "mingliu_native_13",
+    "firefly_sung_14",
+    "renoufangsong-16",
+    "hbf_Beijing16",
+    "kh_dot_ningyouchou_16_16px",
+    "sony-g90-original",
+    "hanyi-pixel13",
+    "hanyi-pixel-xingkai15",
+    "psa_c_screen_12",
+    "wqx_nc1020_12",
+    "casio_xda10000_12",
+    "nokia_dct3_1999",
+    "wqx_pc505_14x15",
+    "samsung_r208_16",
+    "alcatel_ot715_13x14"
+  ],
+  "addedRowSha256": "cbdbb2dd6f0aa9568b0d0670c19d92f58282245b66aad3b34caa645e3c266ca3",
+  "sourceScriptSha256": "92a3fca91b40c2f86f99961070954129641fda210627733c903a51ea104db108",
+  "documentationSha256": "1ae727669d32c6d940532c650d08109802cb086c8052d309ce1f9d8b1f0e4b0a",
+  "specimenSha256": "2d361e448715a86d80b8a9bcbdb73b2ea3ee6ceb38ef3cc895bb02ad2d7e5265",
+  "sourceRelationshipScope": "Windows 3.1 TC MINGLI24 and HITECH CFONT.24: all 13494 common Big5 source-code cells equal after inversion; merge provenance only"
+}

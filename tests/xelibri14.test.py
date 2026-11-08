@@ -1,3 +1,4 @@
+from approved_hitech_adp3 import before_hitech_adp3_data
 """Approved native Xelibri14 fixed preview; immutable 246-row baseline."""
 from pathlib import Path
 import copy,hashlib,json,os,subprocess,sys,tempfile
@@ -9,7 +10,7 @@ import xelibri14_specimen as source_tool
 import generate_static as generator
 sha=lambda data:hashlib.sha256(data).hexdigest()
 digest=lambda value:sha(json.dumps(value,ensure_ascii=False,sort_keys=True).encode())
-read=lambda path:json.loads((ROOT/path).read_text())
+read=lambda path:before_hitech_adp3_data(path,json.loads((ROOT/path).read_text()))
 rows=read('data/catalog.json');m=read('data/release-xelibri14.json')
 assert m['addedIds']==[ID] and m['baseRows']==246 and m['totalRows']==247
 assert m['baseCommit']=='47105314604031e27a0e2c91f6401a5eaabc4a65' and m['baseTree']=='9804e1e00f3fb87ec2e55e83612c37420b666364'
@@ -35,10 +36,11 @@ assert r['scripts']==['简体','繁体']
 assert sha((ROOT/'scripts/xelibri14_specimen.py').read_bytes())==m['sourceScriptSha256']=='1a0e201b6f3285ba1b9d2adfe51d65d0f8d45a3800934767c29e21eef1764c46'
 assert sha((ROOT/'docs/siemens-xelibri14.md').read_bytes())==m['documentationSha256']=='f67a0f30dc5c870fd4b3551c4efd88b68343d6e5d062cdcc785f00d344e1b6d6'
 summary=read('data/summary.json');assert summary['rows']==247 and summary['nativePngCount']==246
-assert summary['standardAsciiComplete']==before_xelibri14_data('data/summary.json',summary)['standardAsciiComplete']+1
-assert len(list((ROOT/'fonts').glob('*.html')))==247
+assert summary['standardAsciiComplete']==before_xelibri14_data('data/summary.json',summary,hitech_reversed=True)['standardAsciiComplete']+1
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in ('hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==247
 assert read('data/collection-history.json')['batches'][-1]=={'sourceManifest':'release-xelibri14.json','ids':[ID]}
 order=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"],cwd=ROOT))
+order=[ident for ident in order if ident not in ('hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')]
 assert order[:4]==[ID,'ms_song_14','sc_song_13','samsung_ypt6_14x16']
 index=(ROOT/'index.html').read_text();assert index.count(generator.article(r)+'\n')==1
 assert (ROOT/'fonts'/f'{ID}.html').read_text()==generator.font_page(r)

@@ -17177,5 +17177,560 @@
       "checkedOn": "2026-11-07"
     },
     "sourceIndex": 284
+  },
+  {
+    "id": "hitech_adp3_24",
+    "name": "MINGLI24 / HITECH ADP3 · 24×24",
+    "family": "HITECH ADP3",
+    "width": 24,
+    "height": 24,
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/hitech_adp3_24.png",
+    "specimenWidth": 288,
+    "specimenHeight": 24,
+    "specimenSha256": "2d361e448715a86d80b8a9bcbdb73b2ea3ee6ceb38ef3cc895bb02ad2d7e5265",
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "",
+    "sampleKind": "standard",
+    "sampleLabel": "Windows 3.1繁体MINGLI24与ADP for Windows 3.1.05配套CFONT.24的共同原码字模相同，合并展示；固定预览仍读取CFONT.24，不是设备ROM提取。",
+    "coverage": "严格Big5基本汉字13,061/13,061；兼容汉字2另计。十、卅各有两种不同原字模；严格Big5汉字13,063个唯一Unicode、13,065个原变体。另7个CP950扩展汉字分列，不混入基本Big5覆盖。本预览及重绘入口使用的CFONT.24不含半角ASCII，未外补；相关Windows源MINGLI24.FON另有12×24半宽ASCII的128个原槽，本次不显示、不借入样图。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceUrl": "https://www.otomasyonavm.com/en/hitech-hmi-programs",
+    "sourceLabel": "HITECH HMI软件保存介绍页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "保存来源、散列核验和原程序证据不等于开放再分发许可。仅提供固定小样、必要事实及无字模离线重绘方法，不公开原包、完整字体、程序、字模数组或字库子集。",
+    "provenance": "ADP for Windows 3.1.05（2003）配套CFONT.24，直接读取24×24预存1-bit字模；原程序Big5寻址、72字节读取和Windows单色CreateBitmap路径已静态核验。1995-08-30仅为保存的字体文件时间，不是认证设计年份；不称设备ROM或已证手绘设计。 另核Windows 3.1繁体3.10.151保存件MINGLI24.FON：13,494个共同Big5原码的完整72字节仅反相后，与CFONT.24逐字节全同，含13,065个原汉字变体、13,063个唯一汉字及十／卅全部别名。因此合并为同一24×24字体的两处保存来源，不新增第二款。Windows成员目录记录1993-05-02，为更早保存记录，不认证设计年；第三方保存不等于微软原盘认证，不推断复制方向或设计者。",
+    "notes": "合并的MINGLI24同原格来源关系另列；以下为其他已核参考的有边界比较。原250条记录的全共同汉字比较，最高大交集为CMEX明24：13,061共同汉字中3字精确相同、平均±1px Dice为0.659583。针对当前247目录的45个缺口，补查可恢复原件、条件映射、原槽高相似形状池与有限样字，已核范围未见整层高度重复。仍有12项原源或布局未闭合、ChinaSea仅参考图；固定预览仅18个有限警报层（13项有renderer依据、5项仅元数据约束），不能当作全字库比较。另核可恢复已排除来源，不改变排除决定。结论不证明穷尽、原创或逐字手绘。",
+    "layoutNote": "按原24×24字框等宽排成固定预览，24px字进是本预览排版，不代表已核实的软件运行时字进。原库标点保留；1×为288×24，4×为1152×96严格整数复制。无裁框、补画、借字或外补ASCII。",
+    "nativeEvidence": {
+      "summary": "原文件、原程序读取与单色绘制路径、全原槽及固定样图由独立实现核验。",
+      "sourceUrl": "https://www.otomasyonavm.com/en/hitech-hmi-programs",
+      "source_sha256": "1f46c0240a1a840f944baed0627c734351672c0dd388528313c9421d6a957121",
+      "sourceBytes": 976680,
+      "bitDepth": 1,
+      "big5Han": 13061,
+      "big5ExpectedHan": 13061,
+      "compatibilityHan": 2,
+      "printableAscii": 0,
+      "physicalSlots": 13565,
+      "cp950ExtensionHan": 7,
+      "big5SourceHanVariants": 13065,
+      "relatedSource": {
+        "name": "Windows 3.1 Traditional Chinese 3.10.151 / MINGLI24.FON",
+        "sourceUrl": "https://archive.org/details/windows-3.1-traditional-chinese",
+        "sourceBytes": 998448,
+        "sourceSha256": "813b175212ff8cf5fe2d43d85332ca6589a325f2cdcf7dc5e339a7f19a89fe1f",
+        "compressedSourceBytes": 798054,
+        "compressedSourceSha256": "ee1ec86e14602eaa939505877e9697a23469c398eaabc98ebc03ca95b61775d0",
+        "preservedMemberDate": "1993-05-02",
+        "commonBig5SourceCodes": 13494,
+        "exactInvertedCells": 13494,
+        "hanSourceVariants": 13065,
+        "uniqueHan": 13063,
+        "comparison": "Full 72-byte source cells after bit inversion only; no crop, shift or rescaling; aliases retained",
+        "scope": "Same common-code glyphs, not identical file coverage; no copying direction, designer or design-date attribution",
+        "asciiCellWidth": 12,
+        "asciiCellHeight": 24,
+        "asciiPhysicalSlots": 128,
+        "asciiShownInPreview": false
+      }
+    },
+    "priority": 0,
+    "sourceIndex": 285,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得有权处理且SHA匹配的本地源文件；工具只离线重绘批准固定样文的1×或4×PNG，不联网、不执行旧程序、不导出任意文字或完整字体。",
+      "links": [
+        {
+          "label": "来源、覆盖与固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/hitech-adp3-24.md",
+          "action": "method"
+        },
+        {
+          "label": "可浏览来源页",
+          "url": "https://www.otomasyonavm.com/en/hitech-hmi-programs",
+          "action": "source"
+        },
+        {
+          "label": "Windows 3.1繁体保存资料页（相同24点字模来源）",
+          "url": "https://archive.org/details/windows-3.1-traditional-chinese",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-08"
+    }
+  },
+  {
+    "id": "windows31_mingli20",
+    "name": "Windows 3.1 MINGLI20 · 20×20",
+    "family": "Windows 3.1 MINGLI",
+    "width": 20,
+    "height": 20,
+    "cellWidth": 20,
+    "cellHeight": 20,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/windows31_mingli20.png",
+    "specimenWidth": 240,
+    "specimenHeight": 20,
+    "specimenSha256": "692fd91faef8fed21c152ed85fb35e29af98ff210a4d4734459addbf479803a5",
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "",
+    "sampleKind": "standard",
+    "sampleLabel": "Windows 3.1繁体保存件中的CWIN30原存20×20；固定中文标点预览。",
+    "coverage": "基本Big5汉字13,061/13,061；另2兼容字，共13,063唯一Han、13,065原Han变体，十／卅原别名保留且全体原汉字矩阵互异。GB2312汉字4,383/6,763，非完整简体。原层95个可打印ASCII为10×20，空格为空；本固定图未展示，不外补。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://archive.org/details/windows-3.1-traditional-chinese",
+    "sourceLabel": "Windows 3.1 Traditional Chinese保存介绍页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "保存来源、散列核验和原程序证据不等于开放再分发许可。仅提供固定小样、必要事实及无字模离线重绘方法，不公开原包、完整字体、程序、字模数组或字库子集。",
+    "provenance": "Windows 3.1 Traditional Chinese 3.10.151第三方保存件MINGLI20.FON，CWIN30预存1-bit 20×20。成员日期1993-05-02仅为保存元数据，不认证设计年、微软原盘或作者。同包旧MINGLI.TTF存在CompuFont/MingLi43异常，不能据其猜测本层谱系。",
+    "notes": "与现库MingLiU20近缘：13,063共同Han，1,794墨迹精确相同，完整墨迹±1px比较均Dice 0.845565947，4,499字低于0.80；非近整层复制，不据此称独立原创。已核250记录、46补充层及19原池加CCDOS原槽阈值控制，最高近邻经独立全量复核；仍有12个原源／布局未闭合及参考图限制，不称全库穷尽。同包MINGLI24与HITECH全部13,494共同原码原格反相后全同，不另增24款。",
+    "layoutNote": "按原20×20框等宽排列批准固定句，不补ASCII、不裁框、不借字。20px字进仅为预览排版，原运行时bearing、baseline与advance未完全恢复。1×240×20，4×960×80为严格整数复制。",
+    "nativeEvidence": {
+      "summary": "原CWIN30头、同包驱动寻址、所有13,906原槽解码与字节回填已独立核验；不证明上游逐点手绘。",
+      "sourceUrl": "https://archive.org/details/windows-3.1-traditional-chinese",
+      "source_sha256": "5b0d5a506b03b9f6ab981ff220c1e14aafda7966960cc4234ba3bb6f76003b09",
+      "sourceBytes": 832088,
+      "compressedSha256": "f6a29a5083186e56cabaac7acc08cb2d672776b277f0512557cfe76142aaf05f",
+      "compressedBytes": 643392,
+      "bitDepth": 1,
+      "big5Han": 13061,
+      "big5ExpectedHan": 13061,
+      "compatibilityHan": 2,
+      "big5SourceHanVariants": 13065,
+      "physicalSlots": 13906,
+      "printableAscii": 95,
+      "asciiCellWidth": 10,
+      "asciiCellHeight": 20,
+      "asciiShownInPreview": false
+    },
+    "priority": 0,
+    "sourceIndex": 286,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得有权处理且SHA匹配的本地源文件；工具只离线重绘批准固定样文的1×或4×PNG，不联网、不执行旧程序、不导出任意文字或完整字体。",
+      "links": [
+        {
+          "label": "来源、覆盖与固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/windows31-mingli20.md",
+          "action": "method"
+        },
+        {
+          "label": "可浏览来源页",
+          "url": "https://archive.org/details/windows-3.1-traditional-chinese",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-08"
+    }
+  },
+  {
+    "id": "deadf_game_16",
+    "name": "新世纪兴亡史 DEADF · 16×16",
+    "family": "新世纪兴亡史 DEADF",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/deadf_game_16.png",
+    "specimenWidth": 192,
+    "specimenHeight": 16,
+    "specimenSha256": "023a138be5fe1df233fd8dccafb4e35b41ee0180287255b467d353f5062d3293",
+    "asciiText": "",
+    "sampleKind": "standard",
+    "sampleLabel": "《新世纪兴亡史》保存件DEADF.FON原16×16固定中文标点预览；《天帝之子》并作第二来源。",
+    "coverage": "基本Big5汉字13,061，另2兼容汉字，共13,063不同Unicode、13,065非空汉字原码；一级5,401、二级7,652，符号区另12汉字原码。十／卅等不同原像素别名保留。非汉字codec标签和CP950扩展不当真实覆盖；配套半宽ASCII未核，本图不展示也不借字。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "unknown",
+    "sourceUrl": "https://github.com/rwv/chinese-dos-games/blob/master/games.json",
+    "sourceLabel": "rwv/chinese-dos-games可浏览保存索引",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "第三方保存件、散列核验和程序证据不等于原盘认证或开放再分发许可。仅展示固定小样、核验事实及无字模离线重绘工具，不公开原包、完整字体、程序、字模数组、诊断完整表或任意文字子集。",
+    "provenance": "《新世纪兴亡史》第三方保存包DEADF.FON，原生1bpp、16×16、14,151物理槽。字体设计年代和作者未知；1990-10-31仅保存DOS文件时间。原读取／绘制证据来自同包未压缩伴随程序DF.ORI，实际启动DF.EXE的等价性未证。《天帝之子》CHINE.FON与本项一级5,401原码全同，全部13,065汉字原码中13,055原32字节相同，合并第二来源而非第二套，不推复制方向。",
+    "notes": "二级与国乔KC15f大量复用：7,652共同原码中5,857墨迹精确相同，均Dice 0.9695006933；一级对原KC为11/5,401精确、均0.7464517011。一级对250主比较记录及50重叠／条件／有限附加记录的逐字最佳并集15精确、均0.8354033216，非单一来源均值，不称全层原创或无重复。全13,063汉字对250记录仅完成精确比较，并集5,893；全范围近似未重跑。另以34实际原槽池完成全部13,065汉字原码精确控制及一级5,401字≥0.90全形控制，新增11个一级字与KC15j未赋Unicode原槽精确同形，单列跨码／未定码关系，不混入上述同码15／5,401及均值；一级未见单一来源整层近同、二级大量复用判断不变，不推复制方向。34池非34套完整字体；12项源／布局未闭合、CCDOS条件、子集和固定预览限制保留，非全目录穷尽。",
+    "layoutNote": "保留原16×16框、每字16px排列批准固定十二字，不按常见14行墨迹裁成16×14。1×透明PNG192×16，4×768×64仅最近邻整数复制。无缺字替补；不声称复原游戏阴影、压缩显示分支或完整运行时画面。",
+    "nativeEvidence": {
+      "summary": "同保存包DF.ORI原槽寻址、32字节读取和16×16绘制路径静态闭合；14,151槽共3,622,656物理像素经独立核验。DF.ORI不冒充实际启动DF.EXE；不证明上游全体手绘或原创。",
+      "sourceUrl": "https://github.com/rwv/chinese-dos-games/blob/master/games.json",
+      "source_sha256": "438ac6da4f212fbdf2098e0828786177ffdd25ec1d93225d9113298be7e43967",
+      "sourceBytes": 452832,
+      "bitDepth": 1,
+      "physicalSlots": 14151,
+      "big5Han": 13061,
+      "big5ExpectedHan": 13061,
+      "compatibilityHan": 2,
+      "big5SourceHanVariants": 13065,
+      "firstLevelHan": 5401,
+      "secondLevelHan": 7652,
+      "asciiShownInPreview": false,
+      "secondarySourceName": "《天帝之子》CHINE.FON",
+      "secondarySourceBytes": 633024,
+      "secondarySourceSha256": "b8db6177e0fd6a515f5d372547f802c0ae358e3b25a995c0b0df64200d34262f",
+      "secondarySourceRelation": "一级5,401原码全部原32字节相同；全部13,065汉字原码中13,055相同。不外推CHINE扩展区或复制方向。"
+    },
+    "priority": 0,
+    "sourceIndex": 287,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得有权处理且SHA匹配的本地DEADF.FON；工具只离线重绘批准固定样文的1×/4×PNG，不联网、不执行旧程序、不接受任意文本、不导出完整字体。",
+      "links": [
+        {
+          "label": "来源、复用关系与固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/deadf-game-16.md",
+          "action": "method"
+        },
+        {
+          "label": "可浏览保存项目索引",
+          "url": "https://github.com/rwv/chinese-dos-games/blob/master/games.json",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-08"
+    },
+    "text": "視野無限廣，窗外有藍天。"
+  },
+  {
+    "id": "richwin_42_song_16",
+    "name": "RichWin 4.2 宋体 · 16×16",
+    "family": "RichWin 4.2 宋体",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "宋体"
+    ],
+    "uses": [
+      "操作系统"
+    ],
+    "specimen": "assets/specimens/richwin_42_song_16.png",
+    "specimenWidth": 160,
+    "specimenHeight": 16,
+    "specimenSha256": "a5566e5e840fbb4e9946f87cef2641cdf842616dad07329744886eb757aad61a",
+    "asciiText": "",
+    "sampleKind": "standard",
+    "sampleLabel": "原系统同family三段宋体16×16组合；固定10汉字，4字E1＋6字GB，未使用E2字，三件不含本句标点或ASCII，不借补。",
+    "coverage": "GB2312汉字6,763全有；基本Big5汉字13,060/13,061，缺褋，另2兼容汉字。基础有效13,062原码／唯一Unicode、13,061物理槽；一级5,401、二级7,651、符号区另10汉字。7个CP950解释扩展另列。十／卅符号区别名未在三件范围，不等于汉字本身缺失；所选三RSF无普通ASCII，整系统其他ASCII／符号层未核。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [
+      " ",
+      "!",
+      "\"",
+      "#",
+      "$",
+      "%",
+      "&",
+      "'",
+      "(",
+      ")",
+      "*",
+      "+",
+      ",",
+      "-",
+      ".",
+      "/",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      ":",
+      ";",
+      "<",
+      "=",
+      ">",
+      "?",
+      "@",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z",
+      "[",
+      "\\",
+      "]",
+      "^",
+      "_",
+      "`",
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "o",
+      "p",
+      "q",
+      "r",
+      "s",
+      "t",
+      "u",
+      "v",
+      "w",
+      "x",
+      "y",
+      "z",
+      "{",
+      "|",
+      "}",
+      "~"
+    ],
+    "asciiOrigin": "absent",
+    "sourceUrl": "https://software-archive.tifan.la/cndos-new-dos-16-years-collection/soft/doswareb.htm",
+    "sourceLabel": "中文DOS软件保存目录（RichWin rw421）",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "第三方保存和SHA核验不等于开放许可。仅固定预览、聚合事实和无字模离线工具；不公开原包、RSF、DLL、完整字库、字模数组、诊断全表或任意文字子集。",
+    "provenance": "原安装文字RichWin 4.2，镜像目录名rw421／4.21分列；1995文件日期非设计年。GB16ST.RSF、CBST16E1.RSF、CBST16E2.RSF由原RSE头、INI及FONTDRV／FONTMAN／WSENGINE／WSECODEM静态链证为同一宋体16×16的互补层，不是研究者另配两套繁体库。未运行原系统，不称全部手绘或原创。",
+    "notes": "GB基部对Beijing16高度复用，旧GB全6,763中6,734墨迹精确；本次Big5所用GB共同4,382中4,362精确、均Dice0.999679。扩展E1/E2与三星R208显著近形：8,676共同Unicode中1,026裁外空白后完整墨迹精确、均Dice0.888464、4,711≥0.90／3,540≥0.95；1,026中仅82原16×16框逐像素同。raw原槽4,739／3,542／1,026单列，不混同码分母或推复制方向。303条限定同码控制及60个限定原槽池不是全历史穷尽，12项旧缺口、条件和有限池范围保留，整体不称低重复。保留原麼→GB麽、兀与兀共槽、惚从E2及褋前向缺字，不改映射。",
+    "layoutNote": "只绘視野無限廣窗外有藍天，原逗号／句号目标在本三件范围外，未补借。固定单行透明160×16／4×640×64，4E1＋6GB、0E2；完整16×16框不裁边不移位。无额外字距，4×仅整数复制；不证明原运行时字进或基线。",
+    "nativeEvidence": {
+      "summary": "三RSF原RSE头及四DLL静态字体选择链已独立核验；三源20,907槽、5,352,192像素及原码映射有独立研究证据。固定重绘工具只校三源身份并读取十字，不执行全部字库比较。",
+      "sourceUrl": "https://software-archive.tifan.la/cndos-new-dos-16-years-collection/soft/doswareb.htm",
+      "sourceFiles": [
+        {
+          "name": "GB16ST.RSF",
+          "bytes": 216664,
+          "sha256": "e210c3c3edc359bf9bfd7ffc664946f794962ae85f433e7841225c9b3339933e"
+        },
+        {
+          "name": "CBST16E1.RSF",
+          "bytes": 75352,
+          "sha256": "562a48053bcfe87d53fa8f9e5a9a37c7fb18c95502bebe697ceb2aec993cde5d"
+        },
+        {
+          "name": "CBST16E2.RSF",
+          "bytes": 377272,
+          "sha256": "f9ff7bd921947fb44600d241a67662b4ccfae70fd2bc0a5f97b36140fe39c46a"
+        }
+      ],
+      "physicalSlots": 20907,
+      "nonblankSlots": 20902,
+      "bitDepth": 1,
+      "gb2312Han": 6763,
+      "big5Han": 13060,
+      "big5ExpectedHan": 13061,
+      "big5Missing": [
+        "褋"
+      ],
+      "compatibilityHan": 2,
+      "basicBig5EffectiveRecords": 13062,
+      "cp950AdditionalHan": 7,
+      "printableAscii": 0,
+      "asciiScope": "仅本条三RSF；整系统其他ASCII／符号层未核，不推断整系统没有。",
+      "systemAsciiCoverage": null,
+      "punctuationOmitted": [
+        "，",
+        "。"
+      ],
+      "previewLayerCounts": {
+        "GB": 6,
+        "E1": 4,
+        "E2": 0
+      },
+      "runtimeAdvance": null,
+      "runtimeBaseline": null
+    },
+    "priority": 0,
+    "sourceIndex": 288,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得有权处理且大小／SHA匹配的本地三RSF。工具只重绘固定十汉字1×／4×PNG，不联网、不执行旧程序、不接受任意文本、不导出完整字体。",
+      "links": [
+        {
+          "label": "来源、相似关系与固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/richwin-42-song16.md",
+          "action": "method"
+        },
+        {
+          "label": "可浏览保存来源目录",
+          "url": "https://software-archive.tifan.la/cndos-new-dos-16-years-collection/soft/doswareb.htm",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-08"
+    },
+    "text": "視野無限廣窗外有藍天"
+  },
+  {
+    "id": "asiasurf_tm16",
+    "name": "DynaLab AsiaSurf 繁体16×16",
+    "family": "DynaLab AsiaSurf DFM-MING-BIG5",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "宋体 / 明朝"
+    ],
+    "uses": [
+      "操作系统"
+    ],
+    "specimen": "assets/specimens/asiasurf_tm16.png",
+    "specimenWidth": 160,
+    "specimenHeight": 16,
+    "specimenSha256": "2effe5e9f6f64d1ace4e34f70ba740ad0da5cf4be5f7acc9e77314007d03a321",
+    "asciiText": "",
+    "sampleKind": "standard",
+    "sampleLabel": "原DLM_TM.WKF预存16×16繁体位图，固定十汉字；无标点或ASCII，完整原框，不补借。",
+    "coverage": "基本Big5统一汉字13,061全部非空，另2兼容汉字；十／卅别名保留，共13,065原码、13,063不同Han标签。另7个CP950汉字、34符号扩展非空；116个CP950无映射非空槽保留原码、不反赋Unicode。256半角物理槽存在，但已核0x6f86入口不可达，其他路径及整系统ASCII未核，本条不评估或展示ASCII。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "renderOmitted": [],
+    "asciiOrigin": "unknown",
+    "sourceUrl": "https://www.ibiblio.org/ccic/software/cnapps/mswcsys.html",
+    "sourceLabel": "CCIC Windows中文系统保存介绍（AsiaSurf）",
+    "licenseStatus": "未确认开放字体再分发授权",
+    "licenseNote": "原包20天评价及商业使用须书面许可等试用条件不等于开放字体许可。仅固定预览与无字模离线工具；不公开原ZIP、WKF、DLL、TBL、完整位图、全映射或任意文字子集。",
+    "provenance": "1996年AsiaSurf简版原README署DynaLab Inc.，1996为版本载体时间，不是字体设计年。原DLL将DLM_TM.WKF配为DFM-MING-BIG5，风格分类沿原MING名称。原包预存bitmap，本次直读原16×16尺寸，没有从轮廓取模；更早设计或生成流程未核，未运行旧系统。",
+    "notes": "303条限定同码证据未发现整层高重复，完整墨迹exact并集18个不同Han。另60限定原槽池对基本13,065原码的并集：≥0.90为1,285、≥0.95为255、裁外空白完整墨迹exact12、完整16框exact9。两口径不同；池含有限预览、图表、UI及声明范围，不是全库或60套完整字体，12项未恢复原源缺口和ChinaSea参考边界保留。相似度不证明原创、手绘、传播方向或权利许可。CM16与TM12因强重复不新增。",
+    "layoutNote": "仅視野無限廣窗外有藍天，原16×16完整框、不裁边或移位，无额外字距；透明160×16／4×640×64，4×只整数复制，保留原透明底隐藏RGB黑色。标点不在批准样文，不声称原库缺少标点；ASCII因可达性未核不展示，无外补。asciiMissing和renderOmitted为空仅不登记未经证实的缺字／省绘，不表示ASCII覆盖；原运行时字进、基线未核。",
+    "nativeEvidence": {
+      "summary": "原WKF头／层表、DLL静态原码查槽和原字号直拷贝已独立核验。TM16原层13,973个DBCS槽；固定重绘工具仅验证完整源身份并读十字，不执行全库比较或原程序。",
+      "sourceUrl": "https://www.ibiblio.org/ccic/software/cnapps/mswcsys.html",
+      "sourceFiles": [
+        {
+          "name": "DLM_TM.WKF",
+          "bytes": 790002,
+          "sha256": "669c1e9acf8d20eb1598355387ebdb1234af9e5900095f9904e858cdc23c6e55"
+        }
+      ],
+      "layerHeaderOffset": 338752,
+      "dbcsOffset": 342866,
+      "bytesPerGlyph": 32,
+      "physicalDbcsSlots": 13973,
+      "nonblankDbcsSlots": 13865,
+      "blankDbcsSlots": 108,
+      "bitDepth": 1,
+      "big5Han": 13061,
+      "big5ExpectedHan": 13061,
+      "big5Missing": [],
+      "compatibilityHan": 2,
+      "basicBig5OriginalCodes": 13065,
+      "basicBig5UniqueHan": 13063,
+      "big5FirstZoneCodes": 5401,
+      "big5SecondZoneCodes": 7652,
+      "big5SymbolZoneHanCodes": 12,
+      "retainedBasicAliases": [
+        "十",
+        "卅"
+      ],
+      "cp950AdditionalHan": 7,
+      "cp950AdditionalSymbols": 34,
+      "unmappedNonblankSlots": 116,
+      "asciiPhysicalSlots": 256,
+      "printableAscii": null,
+      "asciiScope": "半角物理槽存在；已核0x6f86路径先受DBCS范围检查而不可达，其他路径及整系统ASCII未核。本条未评估，不登记95源缺字。",
+      "systemAsciiCoverage": null,
+      "runtimeAdvance": null,
+      "runtimeBaseline": null
+    },
+    "priority": 0,
+    "sourceIndex": 289,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得有权处理且完整长度／SHA匹配的本地DLM_TM.WKF。工具只重绘固定十汉字1×／4×PNG，不联网、不执行旧程序、不接受任意文本、不导出完整字体。",
+      "links": [
+        {
+          "label": "来源、覆盖边界与固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/asiasurf-tm16.md",
+          "action": "method"
+        },
+        {
+          "label": "可浏览CCIC来源介绍",
+          "url": "https://www.ibiblio.org/ccic/software/cnapps/mswcsys.html",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-08"
+    },
+    "text": "視野無限廣窗外有藍天"
   }
 ]

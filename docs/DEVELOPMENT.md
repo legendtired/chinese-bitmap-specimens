@@ -131,3 +131,10 @@ python3 scripts/workspace.py check
 - [MS Song 14×14与外补Arial13](ms-song14.md)：双SHA锁定本地TTF/GDR，仅固定简体及英数两行；设置 `MS_SONG14_SOURCE` 与 `MS_SONG14_ARIAL_SOURCE` 运行源像素回归。原层没有ASCII，外补不计为原生覆盖。
 
 - [Siemens Xelibri 2/4 原生14×14](siemens-xelibri14.md)：SHA和大小锁定本地SW511 CLA，仅重绘固定简繁与同层ASCII三行；设置 `XELIBRI14_SOURCE` 运行源像素及安全路径回归。未提供原源时明确跳过，不把私有研究输入纳入发布。
+
+- [MINGLI24 / HITECH ADP3 24×24](hitech-adp3-24.md)：固定预览；设置 `HITECH_ADP3_SOURCE` 可运行SHA锁定源像素与安全路径回归。
+
+
+## 本地五项整合（待发布）
+
+目录增至252项。HITECH与Windows 3.1 MINGLI24共用字模保留为一项，追加MINGLI20、新世纪兴亡史DEADF、RichWin4.2宋体16、AsiaSurf繁体16。原247项及17项推荐不变；只展示批准固定样图，不公开原字库或研究输入。该记录不表示远端或浏览器验收已完成。

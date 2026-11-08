@@ -43,10 +43,10 @@ assert r['nativeEvidence']['completeCharacters'] == 20277
 assert r['nativeEvidence']['excludedIncompleteCodepoints'] == ['U+3164']
 assert read('data/summary.json')['rows'] == 243
 assert read('data/summary.json')['nativePngCount'] == 242
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (YPT6_ID, 'sc_song_13', 'ms_song_14', 'siemens_xelibri_14')]) == 243
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (YPT6_ID, 'sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')]) == 243
 assert read('data/collection-history.json')['batches'][-1] == {'sourceManifest': 'release-mrobe-mr100.json', 'ids': [ident]}
 order = json.loads(subprocess.check_output(['node', '-e', "console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"], cwd=ROOT))
-assert [value for value in order if value not in (YPT6_ID, 'sc_song_13', 'ms_song_14', 'siemens_xelibri_14')][:2] == [ident, 'sony_psp_bwfont_16x18']
+assert [value for value in order if value not in (YPT6_ID, 'sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')][:2] == [ident, 'sony_psp_bwfont_16x18']
 png = ROOT / r['specimen']
 image = Image.open(png)
 assert image.mode == 'RGBA' and image.size == (171,44)

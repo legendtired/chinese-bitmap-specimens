@@ -36,10 +36,10 @@ assert r['nativeEvidence']['basicHan']==20902 and r['nativeEvidence']['compatibi
 assert sha((ROOT/'scripts/sc_song13_specimen.py').read_bytes())==m['sourceScriptSha256']=='b734d513b8ad7fecd19a14fae3f12bad7cb0490c5129c8e5ecd59db637776647'
 assert sha((ROOT/'docs/sc-song13.md').read_bytes())==m['documentationSha256']
 summary=read('data/summary.json');assert summary['rows']==245 and summary['nativePngCount']==244
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (MS14_ID, 'siemens_xelibri_14')])==245
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (MS14_ID, 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==245
 assert read('data/collection-history.json')['batches'][-1]=={'sourceManifest':'release-sc-song13.json','ids':[ID]}
 order=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"],cwd=ROOT))
-assert [ident for ident in order if ident not in (MS14_ID, 'siemens_xelibri_14')][:3]==[ID,'samsung_ypt6_14x16','olympus_mrobe_mr100_12']
+assert [ident for ident in order if ident not in (MS14_ID, 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')][:3]==[ID,'samsung_ypt6_14x16','olympus_mrobe_mr100_12']
 index=(ROOT/'index.html').read_text();assert index.count(generator.article(r)+'\n')==1
 assert (ROOT/'fonts/sc_song_13.html').read_text()==generator.font_page(r)
 png=ROOT/r['specimen'];im=Image.open(png)
