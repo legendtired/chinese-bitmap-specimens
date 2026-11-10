@@ -73,6 +73,17 @@ def before_simsun_bytes(path,root=ROOT):
             current=next(r for r in json.loads((root/'data/catalog.json').read_text()) if r['id']==ident)
             assert match.group()==generator.article(current)+'\n'
             text=re.sub(pattern,lambda _:generator.article(row)+'\n',text,flags=re.S)
+            if ident=='founder_pixel12' and current['priority']!=row['priority']:
+                # Undo only the explicitly reviewed first-place recommendation swap.
+                approved=MANIFEST['founderRecommendationReplacement']['changes'][ident]
+                assert current['priority']==approved['after']==0 and row['priority']==approved['before']==90
+                assert digest(current)==MANIFEST['modifiedRowsAfterSha256'][ident]
+                restored_article=generator.article(row)+'\n'
+                assert text.count(restored_article)==1
+                text=text.replace(restored_article,'',1)
+                marker='<!-- STATIC_CATALOG_START -->\n'
+                assert text.count(marker)==1
+                text=text.replace(marker,marker+restored_article,1)
         assert text.count('>256 个字样</span>')==1
         return text.replace('>256 个字样</span>','>252 个字样</span>',1).encode()
     # Restore only reviewed byte-identical changes. Any unrelated mutation survives

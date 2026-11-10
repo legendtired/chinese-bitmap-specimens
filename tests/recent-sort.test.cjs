@@ -16,10 +16,17 @@ const read = relative => fs.readFileSync(path.join(root, relative), 'utf8');
 const json = relative => JSON.parse(read(relative));
 const api = require(path.join(root, 'app.js'));
 // Keep this historical sort audit at its original recommendation weights.
-// Current weights and exact three-item scope are checked by priority.test.cjs.
+// Current weights and the exact approved replacement are checked by priority.test.cjs.
 const recommendationChanges = new Map(json('data/update-recommendations-20261107.json').changes.map(change => [change.id, change]));
 const namingCorrection = json('data/correction-unionway-name-20261107.json').changes.find(change => change.field === 'name');
 const historicalRecommendations = row => {
+  // Undo the approved recommendation-only swap before this immutable old sort audit.
+  if (row.id === 'founder_pixel12') {
+    const replacement = json('data/release-simsun-versions.json').founderRecommendationReplacement.changes.founder_pixel12;
+    assert.deepEqual(replacement, {before:90, after:0});
+    assert.equal(row.priority, replacement.after);
+    row = {...row, priority:replacement.before};
+  }
   // Preserve historical name-sort expectations; current naming is checked separately.
   if (row.id === namingCorrection.id) {
     assert([namingCorrection.before, namingCorrection.after].includes(row.name));

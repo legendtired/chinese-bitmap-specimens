@@ -1132,11 +1132,11 @@
   "rowHashes": {
     "simsun_v303_12": "d257447df1b2a1b8351b4538f89252d25af50c155083cc7ea489befe4eae8332",
     "simsun_v303_14": "00662defc46c66073c9881dc85f2f4c812d9674ed7b7a2f4fa2aa54bfad1a8cd",
-    "simsun_v503_12": "ad77d3a2d3e5b68543ffa938d0e2a5f266336569fac3e60ede34b25ceac4d73f",
+    "simsun_v503_12": "83e61e8e4ccd237177eb4bb53258a90c92dbcab40b777bc1d8dbf05a61fa4481",
     "simsun_v503_14": "a70a223aca15013487d4cd36815aeb1f33632497ea1b53db591c37548e845e60"
   },
   "modifiedRowsAfterSha256": {
-    "founder_pixel12": "71017d89a6098b6d923c8bbd32a07cc2bddc563d9f933c48fd2f343847002670",
+    "founder_pixel12": "e7e6a203c1d9f189d8a5668bea97ac4906fa7b4fa8ad7eb0ff754a7678e9ac76",
     "founder_pixel14": "3241f989c7ed07105cbf027da8099a9da9b07896490242b842d0fb6041a2f34a"
   },
   "basePageHashes": {
@@ -1472,16 +1472,16 @@
   "changedFileHashes": {
     "README.md": "d6250de9e0837149c480c669d7f4f8905d6f3ed613f43cf0f50d69d15021cc4a",
     "app.js": "4cd69cbae3f03d04f6f635e715ee3ef428a2fdc14300ce713085629dc274b3f3",
-    "data/catalog.js": "46b781eaa5143da3d6d84e56a5767ecf4a43129979b48e0c82fe70f1202e33d6",
-    "data/catalog.json": "76aff9ad4dd8baf7027a7fc701cb0701c9cb35698324f2113457c36f1304604c",
+    "data/catalog.js": "0540def9e3fb71562adb1d83384a864d9720e8fc6384cab09b8a5f2622bce808",
+    "data/catalog.json": "8ef436a9cf8746c0875a9b65840ab13ddedeea46275a3f13c3c9647887176848",
     "data/collection-history.js": "4f1952249d624b37ff03f7468dc9c4434c3aa1d595a884867aaede7c4582fe04",
     "data/collection-history.json": "ac15f4ebc9de8a9444abdb122ea854440e9dff2daa041527d3a866b66098feb9",
     "data/curation.json": "dc1dcc3acbaeba18f7c7a24c0b9b3f693df0e4923d794eacc58dd7ba6af097fd",
     "data/summary.json": "57431d3186724041417268a87f7f9301e69be2839621d243513d8e4bba1b0a09",
-    "docs/PROJECT_STATE.md": "b1f963091a4d3a524796ca2b9dc1ae56e2012f9f4ca5090ecdbc15bc1177a871",
+    "docs/PROJECT_STATE.md": "fdd95d00aad8565261b1d481112be3b7d0d2213bf04a7e22a34c900da070cdf0",
     "fonts/founder_pixel12.html": "17d783afdba3b40b2203bc9253de9a3e078d0d46827977523ed40a3a8d08f448",
     "fonts/founder_pixel14.html": "9a27b62f7c287729d2d6c28ace8e1a7197839089932bed03db5299d034a1cf67",
-    "index.html": "5fbe02a58471b80d537cb7b2db42762362f109a08c08b3893f893191d6b722e8",
+    "index.html": "7054f5659bdc125d44e62efdd35c68989835735ed3f00a7286c224120c43c5d5",
     "sitemap.xml": "279cc7e85ba57c85f9db5130c9c3959e507156a9b805b93e99336ed7458bbece",
     "tests/alcatel715.test.py": "58a49de3640840973d8b51bed66f71d793f459a7c2ea36320c54f2e053ad5eda",
     "tests/approved-four-integration.test.py": "93c7496cd22172609782a57f902f2be934d0680a9478edb144189c3f3ed28028",
@@ -1493,10 +1493,10 @@
     "tests/mrobe-mr100.test.py": "f515b7938c28b2254e1722614a26e5d0095ec5e08fd017237852619679975580",
     "tests/ms-song14.test.py": "a0817e8a1c5d0ff2b5de8d577e1ef1b20c3f0c0fa07744effb56982bdc079537",
     "tests/p908-merge.test.py": "16f01da19afebb9017b790606e935530e039746c43d51875cdf3d99121624458",
-    "tests/priority.test.cjs": "38142c0b4edba5f79707e60674a15958fdcf7fda1ccfd89a758892b16bfed3be",
+    "tests/priority.test.cjs": "b1ff1fa68b05b86c921da6fbea3f6a13320b24b16904415830a8963073d84aed",
     "tests/psp-bwfont.test.py": "b96633d81dd5522ba8b5ba3e78cff36185dccf5765fe2f437035aa779ef6c315",
     "tests/public_links.test.py": "03e286d835bcd74bd88ee8b3835132bc667b971117fcbccd8184e8b0734d51f7",
-    "tests/recent-sort.test.cjs": "afc751e2bb4f940398588d2d5d5ead22bf7e77c4321c41daf0dc3a853aa7fc31",
+    "tests/recent-sort.test.cjs": "54deb422e145e3e1c953d70c789c525c28d64438f580ada893e7f7db8e7ee2fe",
     "tests/samsung-ypt6.test.py": "9599664b122da2fcac933196aa69e45020a48ffb4738c8a848547e7a7e58a205",
     "tests/sc-song13.test.py": "e31feb4c6be750d32bd8e97e1a557c624297a8660e53ea7586b8ea76296eb2eb",
     "tests/solaris-withdrawal.test.py": "7809b12453511bead95ced8f317b4a2a60bd005b08d21654efdf55bf1ded14dd",
@@ -1532,14 +1532,14 @@
     "assets/specimens/simsun_v503_12_4x.png": "b227be2577596057648d66c761f6627d2de446108ad4088829935f839a585cc0",
     "assets/specimens/simsun_v503_14.png": "5c9765b7fac487b73a3252ed1b0872a63c0f57bf7cc495b192d433f2d5eeaaa1",
     "assets/specimens/simsun_v503_14_4x.png": "7089ebc5bb946e1039d2128935d36cb22dca548d2baf97233c331c05dd87bead",
-    "docs/simsun-versions.md": "16c827217ec1d688e3eca03f1eb8461d4a09b18e06868c14d320ddd8eea499d9",
+    "docs/simsun-versions.md": "84ec17d297881a21ab919bfa9d47dab5431108350230cfdf90542d07ddd2b605",
     "fonts/simsun_v303_12.html": "d8292a07082c07b5ebb8aabe66d7eef4eccd873a6fbe9a57892c1f4cd16f698e",
     "fonts/simsun_v303_14.html": "f881844dd0f9e48d1bcdcd6e877524af8c1be27ff8ba6ad18563f29458b9f03d",
     "fonts/simsun_v503_12.html": "cd69a2dd60a9eb51b4c082d7dbb5e9bdc09f89964b8879a3fa6fed03baee6613",
     "fonts/simsun_v503_14.html": "91494f3d142a495bc9e6133a0eaf74c3adf918c697341ab241e4c028b07052e5",
-    "tests/approved_simsun.py": "da3e908701f84a70bc04be268866afbe345dd1426b297e9b4c31cfb6c52c7b1b",
+    "tests/approved_simsun.py": "46802d7122bf8d558c7f01eff7fc5402fca99db7bf127e70ef6248e26fecc0b8",
     "tests/simsun-source.test.py": "3356173fe79ab67ef45251a6e075c5666aa935c28362bcdb07e0363b26fcc3a9",
-    "tests/simsun-versions.test.py": "5dd6bbd23cc4bdc9f83859d8fd579c82a5730e0a8e282d280bdd9c42c4b462a7"
+    "tests/simsun-versions.test.py": "b6b1f58b27ac7f3251c550e6a8394b9e6fc34898f7ab06dde12b7edec118388c"
   },
   "baseChangedFiles": {
     "README.md": "# 中文点阵字样\n\n收集中文点阵字形，记录来源、尺寸与提取方法。\n\n**[在线浏览](https://fonts.resmx.com/)** · [GitHub Pages](https://legendtired.github.io/chinese-bitmap-specimens/) · [研究记录](docs/research-notes.md) · [提供线索](CONTRIBUTING.md)\n\n## 项目缘起\n\n中文点阵字体的资料年代久远，散落在旧网站、论坛、软件和设备中。随着链接失效、内容向移动平台迁移，以及 AI 生成内容增多，原始资料越来越难寻找，有价值的信息也更难筛选。\n\n这个项目希望把分散的字样和资料整理起来，记录来源与获取线索，方便查阅、比较和研究。\n\n## 收录原则\n\n- 收录中文点阵字样，包括历史字库、系统与设备字体，以及现代像素字体。\n- 以原始位图或可核验的像素网格为依据，不收录普通矢量取模或简单放大得到的重复字样。\n- 注重字形差异与代表性，重复或高度近似的版本择取代表，并保留相关来源。\n- 保留原有像素、字宽和缺字情况，注明来源、尺寸、字符覆盖及许可线索。\n\n## 字样\n\n### 方正像素 12×12\n\n![方正像素12×12](assets/specimens/founder_pixel12.png)\n\n### Mac OS / Ikarus Kai 12×12\n\n![Mac OS Ikarus Kai 12×12](assets/specimens/apple_kai_12.png)\n\n### Sony G90\n\n![Sony G90 OSD字样](assets/specimens/sony-g90-original.png)\n\n## 目录\n\n当前 **252 个条目**：251 个原生、设计格点或设备字样，1 个参考资料图。固定字框高度为 8–64px。\n\n- 原生字样按原尺寸和整数倍显示，可筛选、收藏和对比。\n- 来源、版本、字符覆盖和许可见各条目详情。\n- 同尺寸的近似版本选取代表展示，保留其他来源。\n- 资料图和不定字框单独标记。缺字留空。\n- 收藏保存在当前浏览器。\n\n## 获取字库\n\n- [Windows 3.1 MINGLI20 · 20×20](docs/windows31-mingli20.md)：仅固定字样与无字模重绘方法，来源与覆盖限制见说明。\n- [新世纪兴亡史 DEADF · 16×16](docs/deadf-game-16.md)：仅固定字样与无字模重绘方法，来源与覆盖限制见说明。\n- [RichWin 4.2 宋体 · 16×16](docs/richwin-42-song16.md)：仅固定字样与无字模重绘方法，来源与覆盖限制见说明。\n- [DynaLab AsiaSurf 繁体16×16](docs/asiasurf-tm16.md)：仅固定字样与无字模重绘方法，来源与覆盖限制见说明。\n\n- [MINGLI24 / HITECH ADP3 24×24](docs/hitech-adp3-24.md)：Windows 3.1繁体与ADP for Windows配套的共同原码字模相同，合并一项；完整基本Big5汉字；仅固定样图与无字模重绘方法，不称设备ROM。\n\n- [Siemens Xelibri 2/4 原生14×14](docs/siemens-xelibri14.md)：完整GB2312汉字、部分繁体及同层ASCII；原窄逗号与像素保持，仅固定样图和无字模重绘方法。\n\n- [MS Song 14×14与外补Arial13](docs/ms-song14.md)：原14×14简体字形及跨来源Arial13英数；保留原像素、字进与缺字边界，只提供固定样图和无字模重绘方法。\n\n- [SC_Song 13×13与外补Arial](docs/sc-song13.md)：原13×13中文及用户选择的另一来源Arial13英数；保留原像素和度量，仅固定样图与无字模重绘方法。\n\n- [Samsung YP-T6 14×16](docs/samsung-ypt6.md)：2004年v1.2原厂资源的简繁汉字及同层ASCII；保留原异常框与覆盖边界，仅固定样图和无字模重绘方法。\n\n- [Olympus m:robe MR-100 12×12](docs/mrobe-mr100.md)：2.17V保存包的原生汉字与同层不等宽ASCII，完整槽及尾部排除边界；只提供固定样图与无字模离线重绘方法。\n\n- [Sony PSP 中文BWFont 16×18](docs/psp-bwfont.md)：官方6.61字节来源、第三方Unicode映射边界与无ASCII固定样图重绘。\n\n- [Sony Ericsson P802 小号12点字面](docs/p802.md)：原生14高行格、完整GB2312汉字与部分繁体、同层ASCII；只提供固定样图和无字模离线重绘方法。\n\n- [Nokia 9210C与P908研究变体](docs/phone-gdr.md)：9210C三款及已合并到Sun GBK14来源说明的P908；区分14／15／17／19点典型字面与16／18／20高行格，仅固定两行样图和SHA锁定的离线重绘方法。\n\n- [IBM AIX / ISAS 繁体宋体24点字面](docs/aix-isas-cns.md)：保留26×27存储与同源13×27 ASCII，记录同源扩展及编码冲突；仅固定样图与无字模重绘方法。\n\n- [HP-UX 打印宋体40点](docs/hpux-song.md)：完整GB2312汉字，未找到配套半角ASCII；仅固定中文预览与无字模重绘方法。\n\n- [HP-UX 繁体宋体24／34／42点](docs/hpux-sung.md)：原CNS平面1／2及同源半宽ASCII，仅固定样文和无字模方法。\n\n- [Samsung SGH-R208 16×16](docs/samsung-r208.md)：完整GB2312汉字及同固件8×16英数，保留原8px逗号映射；仅固定样图、聚合审计与无字模离线提取方法。\n\n- [Sunplus SPHE8202L 简体16×16／20×24](docs/sunplus-sphe8202l.md)：各含完整GB2312汉字；12×12与已有HZK12完全相同不新增，无半角ASCII，不收录繁体，仅固定样图与无字模离线提取方法。\n\n- [中国版PS2 24×24](docs/ps2-china.md)：ROM2中文点阵与同ROM英数，完整GB2312汉字；仅固定样图、已核映射及离线提取方法。\n\n- [Windows 3.2 宋体13／20点](docs/windows32-cwin30.md)：安装盘存档中的原生CWIN30点阵，完整GB2312与同文件ASCII；固定样图及无字模的离线提取工具。\n\n- [三国志Ⅴ DOS 16×14](docs/san5-dos.md)：13,052个主汉字的映射与去重记录；仅提供固定样文重绘，不公开完整字库。\n\n- [Psion 618C 8／11点](docs/psion618c.md)：简繁汉字及GDR离线导出。\n\n- [文曲星 PC505 14×15](docs/wqx-pc505.md)：原厂仿真器obj中的原生汉字和8×16 ASCII；完整字库仅本地提取。\n\n- [FM Towns F20 20点](docs/fmtowns-f20.md)：JIS原生汉字及ANK样图，导出边界分别记录。\n- [Solaris 中易宋体五个字号](docs/solaris-gbk.md)：12／14／16／20／24点原生PCF与Unicode／原码导出。\n\n- [Nokia DCT3 1999](docs/nokia-dct3.md)：9004个原生11×12汉字，简繁兼有，保留西文原字框与度量字段。\n\n- [IBM PC DOS 三套24点](docs/ibm-pcdos.md)：楷体、黑体和仿宋；标准GB2312映射及未编码扩展的离线导出。\n\n- [Sharp X68000 16点](docs/sharp-x68000.md)：校验CGROM后导出原生16点字模；不重复收录24点。\n\n- [四通 MS-2401H 四套32点](docs/stone-ms2401h.md)：校验BIOS与CA字库ROM，解压导出每套6763个汉字。\n\n- [字体获取与导出](docs/font-export.md)：按输入格式查找方法与限制。\n- [Panasonic FS-UV1 / FS-A1F 16点](docs/panasonic-fs-uv1.md)：校验ROM后导出Unicode BDF。\n\n- [文曲星 NC1020 12点](docs/nc1020.md)：下载来源镜像，用脚本提取为 BDF。\n- [Casio Ex-word 12／24点](docs/casio-exword.md)：下载 CJF，用脚本转换为 BDF。12点列为推荐。\n- 其他条目的获取入口见网站详情。\n\n本站提供固定字样和提取工具。字体使用与再分发按原来源许可执行。\n\n## 资料\n\n- [研究方法](docs/methodology.md) · [研究记录](docs/research-notes.md)\n- [目录数据](data/catalog.json) · [统计](data/summary.json)\n- [v16](docs/release-v16.md) · [v17](docs/release-v17.md) · [当前状态](docs/PROJECT_STATE.md)\n- [贡献指南](CONTRIBUTING.md) · [第三方声明](third_party/README.md)\n\n## 本地维护\n\n直接打开 `index.html` 即可浏览。维护需要 Python 3.9+ 和 Node.js 18+：\n\n```sh\npython3 scripts/workspace.py build\npython3 scripts/workspace.py check\n```\n\n目录单源为 `data/catalog.json`。原字体、ROM 和研究输入放在被忽略的 `local-research/`，不随网站发布。详见[开发说明](docs/DEVELOPMENT.md)与[部署说明](docs/deployment.md)。\n\n- [MStar 电视/DVB 简体18点](docs/mstar-18.md)：18×18存储、最大字面14×14；完整GB2312与原生ASCII，附离线导出方法。\n",
@@ -1922,6 +1922,21 @@
           ],
           "checkedOn": "2026-11-10"
         }
+      }
+    }
+  },
+  "founderRecommendationReplacement": {
+    "baseCommit": "4dff35981268464df24ae814baf8cc3bee625dc7",
+    "scope": "用户确认以SimSun 5.03 12点替换推荐首位的方正像素12点；方正条目保留，仅取消推荐，其余推荐和排序不变。",
+    "baseRowsSha256": "c3aaf50ca8e2a3664ad7b7c74bf7c89e07ae389c108bac23254243272ae05719",
+    "changes": {
+      "founder_pixel12": {
+        "before": 90,
+        "after": 0
+      },
+      "simsun_v503_12": {
+        "before": 1,
+        "after": 90
       }
     }
   }

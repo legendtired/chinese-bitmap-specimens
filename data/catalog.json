@@ -4893,7 +4893,7 @@
     "inkWidth": null,
     "inkHeight": null,
     "specimenSha256": "9be2502c1d8c4c12145f354f3d987a9e7511b1e98fb1288a3d060ae95479e551",
-    "priority": 90,
+    "priority": 0,
     "relatedSources": [
       {
         "name": "SimSun 5.03 中易宋体原生点阵 12×12（另列版本条目）",
@@ -17973,7 +17973,7 @@
       "differentTightShapes": 21658,
       "differentAdvanceCount": 0
     },
-    "priority": 1,
+    "priority": 90,
     "sourceIndex": 292,
     "relatedSources": [
       {
