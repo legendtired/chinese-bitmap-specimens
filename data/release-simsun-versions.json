@@ -1130,10 +1130,10 @@
     ]
   },
   "rowHashes": {
-    "simsun_v303_12": "2543c79856617e5919ccb4691eebdf3b7295858e1447887ad83135a048a69052",
-    "simsun_v303_14": "cad02c231bb24892054c58714981d65e50e12eaef80bc04b13fe9c00a9743d01",
-    "simsun_v503_12": "2a2e357f53189d5500c823ea68fa8b368dd25b2e82d1e46f0336a721125ee783",
-    "simsun_v503_14": "5d91812cd0981c61df57b04b241f3f353a7903e10c17dc56490ff7a1e0151386"
+    "simsun_v303_12": "d257447df1b2a1b8351b4538f89252d25af50c155083cc7ea489befe4eae8332",
+    "simsun_v303_14": "00662defc46c66073c9881dc85f2f4c812d9674ed7b7a2f4fa2aa54bfad1a8cd",
+    "simsun_v503_12": "ad77d3a2d3e5b68543ffa938d0e2a5f266336569fac3e60ede34b25ceac4d73f",
+    "simsun_v503_14": "a70a223aca15013487d4cd36815aeb1f33632497ea1b53db591c37548e845e60"
   },
   "modifiedRowsAfterSha256": {
     "founder_pixel12": "71017d89a6098b6d923c8bbd32a07cc2bddc563d9f933c48fd2f343847002670",
@@ -1470,18 +1470,18 @@
     "tests/xelibri14.test.py"
   ],
   "changedFileHashes": {
-    "README.md": "b5a03ccf4de53e56005cad8f989b1d05fdfc0ab15cc32e23c53aa964bc6a1fce",
+    "README.md": "d6250de9e0837149c480c669d7f4f8905d6f3ed613f43cf0f50d69d15021cc4a",
     "app.js": "4cd69cbae3f03d04f6f635e715ee3ef428a2fdc14300ce713085629dc274b3f3",
-    "data/catalog.js": "19a8b5fb6d4c4cc70e03b4fdbcc1a9127a0442e6cc4680390ca7cf8427fdd329",
-    "data/catalog.json": "78544a9830cd9c063a1ab93f634ef6da2ca447ddb1f95e77a4c98e9a4b243877",
+    "data/catalog.js": "46b781eaa5143da3d6d84e56a5767ecf4a43129979b48e0c82fe70f1202e33d6",
+    "data/catalog.json": "76aff9ad4dd8baf7027a7fc701cb0701c9cb35698324f2113457c36f1304604c",
     "data/collection-history.js": "4f1952249d624b37ff03f7468dc9c4434c3aa1d595a884867aaede7c4582fe04",
     "data/collection-history.json": "ac15f4ebc9de8a9444abdb122ea854440e9dff2daa041527d3a866b66098feb9",
     "data/curation.json": "dc1dcc3acbaeba18f7c7a24c0b9b3f693df0e4923d794eacc58dd7ba6af097fd",
     "data/summary.json": "57431d3186724041417268a87f7f9301e69be2839621d243513d8e4bba1b0a09",
-    "docs/PROJECT_STATE.md": "93be09a55d799eb44048238ad79b43d1bbb4fead037e7c598cd6c3bf1f2da7a8",
+    "docs/PROJECT_STATE.md": "b1f963091a4d3a524796ca2b9dc1ae56e2012f9f4ca5090ecdbc15bc1177a871",
     "fonts/founder_pixel12.html": "17d783afdba3b40b2203bc9253de9a3e078d0d46827977523ed40a3a8d08f448",
     "fonts/founder_pixel14.html": "9a27b62f7c287729d2d6c28ace8e1a7197839089932bed03db5299d034a1cf67",
-    "index.html": "796367f9758358e3b4f0a7e0e4bd92fe7e23e40c41feba0b8748cffe01d0fcb5",
+    "index.html": "5fbe02a58471b80d537cb7b2db42762362f109a08c08b3893f893191d6b722e8",
     "sitemap.xml": "279cc7e85ba57c85f9db5130c9c3959e507156a9b805b93e99336ed7458bbece",
     "tests/alcatel715.test.py": "58a49de3640840973d8b51bed66f71d793f459a7c2ea36320c54f2e053ad5eda",
     "tests/approved-four-integration.test.py": "93c7496cd22172609782a57f902f2be934d0680a9478edb144189c3f3ed28028",
@@ -1493,7 +1493,7 @@
     "tests/mrobe-mr100.test.py": "f515b7938c28b2254e1722614a26e5d0095ec5e08fd017237852619679975580",
     "tests/ms-song14.test.py": "a0817e8a1c5d0ff2b5de8d577e1ef1b20c3f0c0fa07744effb56982bdc079537",
     "tests/p908-merge.test.py": "16f01da19afebb9017b790606e935530e039746c43d51875cdf3d99121624458",
-    "tests/priority.test.cjs": "ef923c5792b94037b1388d171ececdfe96c142cfdbfae0defb7f4e11d02b63ac",
+    "tests/priority.test.cjs": "38142c0b4edba5f79707e60674a15958fdcf7fda1ccfd89a758892b16bfed3be",
     "tests/psp-bwfont.test.py": "b96633d81dd5522ba8b5ba3e78cff36185dccf5765fe2f437035aa779ef6c315",
     "tests/public_links.test.py": "03e286d835bcd74bd88ee8b3835132bc667b971117fcbccd8184e8b0734d51f7",
     "tests/recent-sort.test.cjs": "afc751e2bb4f940398588d2d5d5ead22bf7e77c4321c41daf0dc3a853aa7fc31",
@@ -1532,14 +1532,14 @@
     "assets/specimens/simsun_v503_12_4x.png": "b227be2577596057648d66c761f6627d2de446108ad4088829935f839a585cc0",
     "assets/specimens/simsun_v503_14.png": "5c9765b7fac487b73a3252ed1b0872a63c0f57bf7cc495b192d433f2d5eeaaa1",
     "assets/specimens/simsun_v503_14_4x.png": "7089ebc5bb946e1039d2128935d36cb22dca548d2baf97233c331c05dd87bead",
-    "docs/simsun-versions.md": "29114cf0012f1f8e903abd99544c743574acadb4178193b3da7bdd5a4f7d003b",
-    "fonts/simsun_v303_12.html": "710dcf9b602a8e16f2b3df6c786670414bf4f3132e4fb722922a1cc6820a3a7a",
-    "fonts/simsun_v303_14.html": "1413febb55f78eac3dc9b22315e41c2153ff54412c656d7f95bc914555db87d8",
-    "fonts/simsun_v503_12.html": "5d0cbe3818d0f1dfc3386859275c04503eb3d6f932e79210f3140ab84b2d6b53",
-    "fonts/simsun_v503_14.html": "d8eee8058358b3f68e81e9aa0e80b020b0c1f10a70fc46cf093e1d6760409189",
+    "docs/simsun-versions.md": "16c827217ec1d688e3eca03f1eb8461d4a09b18e06868c14d320ddd8eea499d9",
+    "fonts/simsun_v303_12.html": "d8292a07082c07b5ebb8aabe66d7eef4eccd873a6fbe9a57892c1f4cd16f698e",
+    "fonts/simsun_v303_14.html": "f881844dd0f9e48d1bcdcd6e877524af8c1be27ff8ba6ad18563f29458b9f03d",
+    "fonts/simsun_v503_12.html": "cd69a2dd60a9eb51b4c082d7dbb5e9bdc09f89964b8879a3fa6fed03baee6613",
+    "fonts/simsun_v503_14.html": "91494f3d142a495bc9e6133a0eaf74c3adf918c697341ab241e4c028b07052e5",
     "tests/approved_simsun.py": "da3e908701f84a70bc04be268866afbe345dd1426b297e9b4c31cfb6c52c7b1b",
     "tests/simsun-source.test.py": "3356173fe79ab67ef45251a6e075c5666aa935c28362bcdb07e0363b26fcc3a9",
-    "tests/simsun-versions.test.py": "7d2e261bbc78dc3de20aa283ac5a958cacf2b197e19242d30890cf29e8569ddf"
+    "tests/simsun-versions.test.py": "5dd6bbd23cc4bdc9f83859d8fd579c82a5730e0a8e282d280bdd9c42c4b462a7"
   },
   "baseChangedFiles": {
     "README.md": "# 中文点阵字样\n\n收集中文点阵字形，记录来源、尺寸与提取方法。\n\n**[在线浏览](https://fonts.resmx.com/)** · [GitHub Pages](https://legendtired.github.io/chinese-bitmap-specimens/) · [研究记录](docs/research-notes.md) · [提供线索](CONTRIBUTING.md)\n\n## 项目缘起\n\n中文点阵字体的资料年代久远，散落在旧网站、论坛、软件和设备中。随着链接失效、内容向移动平台迁移，以及 AI 生成内容增多，原始资料越来越难寻找，有价值的信息也更难筛选。\n\n这个项目希望把分散的字样和资料整理起来，记录来源与获取线索，方便查阅、比较和研究。\n\n## 收录原则\n\n- 收录中文点阵字样，包括历史字库、系统与设备字体，以及现代像素字体。\n- 以原始位图或可核验的像素网格为依据，不收录普通矢量取模或简单放大得到的重复字样。\n- 注重字形差异与代表性，重复或高度近似的版本择取代表，并保留相关来源。\n- 保留原有像素、字宽和缺字情况，注明来源、尺寸、字符覆盖及许可线索。\n\n## 字样\n\n### 方正像素 12×12\n\n![方正像素12×12](assets/specimens/founder_pixel12.png)\n\n### Mac OS / Ikarus Kai 12×12\n\n![Mac OS Ikarus Kai 12×12](assets/specimens/apple_kai_12.png)\n\n### Sony G90\n\n![Sony G90 OSD字样](assets/specimens/sony-g90-original.png)\n\n## 目录\n\n当前 **252 个条目**：251 个原生、设计格点或设备字样，1 个参考资料图。固定字框高度为 8–64px。\n\n- 原生字样按原尺寸和整数倍显示，可筛选、收藏和对比。\n- 来源、版本、字符覆盖和许可见各条目详情。\n- 同尺寸的近似版本选取代表展示，保留其他来源。\n- 资料图和不定字框单独标记。缺字留空。\n- 收藏保存在当前浏览器。\n\n## 获取字库\n\n- [Windows 3.1 MINGLI20 · 20×20](docs/windows31-mingli20.md)：仅固定字样与无字模重绘方法，来源与覆盖限制见说明。\n- [新世纪兴亡史 DEADF · 16×16](docs/deadf-game-16.md)：仅固定字样与无字模重绘方法，来源与覆盖限制见说明。\n- [RichWin 4.2 宋体 · 16×16](docs/richwin-42-song16.md)：仅固定字样与无字模重绘方法，来源与覆盖限制见说明。\n- [DynaLab AsiaSurf 繁体16×16](docs/asiasurf-tm16.md)：仅固定字样与无字模重绘方法，来源与覆盖限制见说明。\n\n- [MINGLI24 / HITECH ADP3 24×24](docs/hitech-adp3-24.md)：Windows 3.1繁体与ADP for Windows配套的共同原码字模相同，合并一项；完整基本Big5汉字；仅固定样图与无字模重绘方法，不称设备ROM。\n\n- [Siemens Xelibri 2/4 原生14×14](docs/siemens-xelibri14.md)：完整GB2312汉字、部分繁体及同层ASCII；原窄逗号与像素保持，仅固定样图和无字模重绘方法。\n\n- [MS Song 14×14与外补Arial13](docs/ms-song14.md)：原14×14简体字形及跨来源Arial13英数；保留原像素、字进与缺字边界，只提供固定样图和无字模重绘方法。\n\n- [SC_Song 13×13与外补Arial](docs/sc-song13.md)：原13×13中文及用户选择的另一来源Arial13英数；保留原像素和度量，仅固定样图与无字模重绘方法。\n\n- [Samsung YP-T6 14×16](docs/samsung-ypt6.md)：2004年v1.2原厂资源的简繁汉字及同层ASCII；保留原异常框与覆盖边界，仅固定样图和无字模重绘方法。\n\n- [Olympus m:robe MR-100 12×12](docs/mrobe-mr100.md)：2.17V保存包的原生汉字与同层不等宽ASCII，完整槽及尾部排除边界；只提供固定样图与无字模离线重绘方法。\n\n- [Sony PSP 中文BWFont 16×18](docs/psp-bwfont.md)：官方6.61字节来源、第三方Unicode映射边界与无ASCII固定样图重绘。\n\n- [Sony Ericsson P802 小号12点字面](docs/p802.md)：原生14高行格、完整GB2312汉字与部分繁体、同层ASCII；只提供固定样图和无字模离线重绘方法。\n\n- [Nokia 9210C与P908研究变体](docs/phone-gdr.md)：9210C三款及已合并到Sun GBK14来源说明的P908；区分14／15／17／19点典型字面与16／18／20高行格，仅固定两行样图和SHA锁定的离线重绘方法。\n\n- [IBM AIX / ISAS 繁体宋体24点字面](docs/aix-isas-cns.md)：保留26×27存储与同源13×27 ASCII，记录同源扩展及编码冲突；仅固定样图与无字模重绘方法。\n\n- [HP-UX 打印宋体40点](docs/hpux-song.md)：完整GB2312汉字，未找到配套半角ASCII；仅固定中文预览与无字模重绘方法。\n\n- [HP-UX 繁体宋体24／34／42点](docs/hpux-sung.md)：原CNS平面1／2及同源半宽ASCII，仅固定样文和无字模方法。\n\n- [Samsung SGH-R208 16×16](docs/samsung-r208.md)：完整GB2312汉字及同固件8×16英数，保留原8px逗号映射；仅固定样图、聚合审计与无字模离线提取方法。\n\n- [Sunplus SPHE8202L 简体16×16／20×24](docs/sunplus-sphe8202l.md)：各含完整GB2312汉字；12×12与已有HZK12完全相同不新增，无半角ASCII，不收录繁体，仅固定样图与无字模离线提取方法。\n\n- [中国版PS2 24×24](docs/ps2-china.md)：ROM2中文点阵与同ROM英数，完整GB2312汉字；仅固定样图、已核映射及离线提取方法。\n\n- [Windows 3.2 宋体13／20点](docs/windows32-cwin30.md)：安装盘存档中的原生CWIN30点阵，完整GB2312与同文件ASCII；固定样图及无字模的离线提取工具。\n\n- [三国志Ⅴ DOS 16×14](docs/san5-dos.md)：13,052个主汉字的映射与去重记录；仅提供固定样文重绘，不公开完整字库。\n\n- [Psion 618C 8／11点](docs/psion618c.md)：简繁汉字及GDR离线导出。\n\n- [文曲星 PC505 14×15](docs/wqx-pc505.md)：原厂仿真器obj中的原生汉字和8×16 ASCII；完整字库仅本地提取。\n\n- [FM Towns F20 20点](docs/fmtowns-f20.md)：JIS原生汉字及ANK样图，导出边界分别记录。\n- [Solaris 中易宋体五个字号](docs/solaris-gbk.md)：12／14／16／20／24点原生PCF与Unicode／原码导出。\n\n- [Nokia DCT3 1999](docs/nokia-dct3.md)：9004个原生11×12汉字，简繁兼有，保留西文原字框与度量字段。\n\n- [IBM PC DOS 三套24点](docs/ibm-pcdos.md)：楷体、黑体和仿宋；标准GB2312映射及未编码扩展的离线导出。\n\n- [Sharp X68000 16点](docs/sharp-x68000.md)：校验CGROM后导出原生16点字模；不重复收录24点。\n\n- [四通 MS-2401H 四套32点](docs/stone-ms2401h.md)：校验BIOS与CA字库ROM，解压导出每套6763个汉字。\n\n- [字体获取与导出](docs/font-export.md)：按输入格式查找方法与限制。\n- [Panasonic FS-UV1 / FS-A1F 16点](docs/panasonic-fs-uv1.md)：校验ROM后导出Unicode BDF。\n\n- [文曲星 NC1020 12点](docs/nc1020.md)：下载来源镜像，用脚本提取为 BDF。\n- [Casio Ex-word 12／24点](docs/casio-exword.md)：下载 CJF，用脚本转换为 BDF。12点列为推荐。\n- 其他条目的获取入口见网站详情。\n\n本站提供固定字样和提取工具。字体使用与再分发按原来源许可执行。\n\n## 资料\n\n- [研究方法](docs/methodology.md) · [研究记录](docs/research-notes.md)\n- [目录数据](data/catalog.json) · [统计](data/summary.json)\n- [v16](docs/release-v16.md) · [v17](docs/release-v17.md) · [当前状态](docs/PROJECT_STATE.md)\n- [贡献指南](CONTRIBUTING.md) · [第三方声明](third_party/README.md)\n\n## 本地维护\n\n直接打开 `index.html` 即可浏览。维护需要 Python 3.9+ 和 Node.js 18+：\n\n```sh\npython3 scripts/workspace.py build\npython3 scripts/workspace.py check\n```\n\n目录单源为 `data/catalog.json`。原字体、ROM 和研究输入放在被忽略的 `local-research/`，不随网站发布。详见[开发说明](docs/DEVELOPMENT.md)与[部署说明](docs/deployment.md)。\n\n- [MStar 电视/DVB 简体18点](docs/mstar-18.md)：18×18存储、最大字面14×14；完整GB2312与原生ASCII，附离线导出方法。\n",
@@ -1566,5 +1566,363 @@
     "tests/solaris.test.py": "from approved_recommendation_update import before_recommendations\nfrom approved_latin_update import historical_rows\n\"\"\"Five Solaris entries; exact prior rows, honest metrics/encoding, fixed PNGs.\n\nLater independent additions may be present. Check this release's scoped row set,\nnot a global catalog count, so Nokia/FMTowns integration does not weaken checks.\n\"\"\"\nfrom pathlib import Path\nimport hashlib\nimport json\nimport struct\nR=Path(__file__).resolve().parents[1]\nrows=before_recommendations(json.loads((R/'data/catalog.json').read_text()));m=json.loads((R/'data/release-solaris-gbk.json').read_text())\nbyid={r['id']:r for r in rows};ids=m['addedIds']\nassert len(rows)==len(byid)\nassert ids==[f'sun_gbk_song_{n}' for n in (12,14,16,20,24)]\nbase=[r for r in rows if r['id'] in m['baseIds']]\nassert len(base)==211 and [r['id'] for r in base]==m['baseIds']\nassert hashlib.sha256(json.dumps(historical_rows(base),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['baseRowsSha256']\nassert [r['id'] for r in rows if r['id'] in ids]==ids\nassert not set(ids)&set(m['baseIds'])\nassert sum(r['priority']>0 for r in base)==13\nnew_indices={byid[i]['sourceIndex'] for i in ids}\nassert new_indices==set(range(244,249))\nassert not new_indices&{r.get('sourceIndex') for r in rows if r['id'] not in ids}\nassert m['copyrightYear']==1997 and m['fileDate']=='1998-07-23' and m['carrierVersion']=='1999-11'\nassert m['inkRgba']==[30,34,30,255] and m['backgroundRgba']==[0,0,0,0] and m['lineGap']==4\nassert 'U+0020 is absent' in m['layoutSpace']\nfor item in m['fonts']:\n r=byid[item['id']];n=item['cell'];e=r['nativeEvidence']\n assert r['family']=='Solaris 中易宋体' and r['priority']==0\n assert r['scripts']==['简体','繁体'] and r['styles']==['宋体 / 明朝']\n assert r['width']==r['height']==r['cellWidth']==r['cellHeight']==n\n assert r['inkWidth'] is None and r['inkHeight'] is None\n assert r['text']==m['sampleText']=='视野无限广，窗外有蓝天。'\n assert r['asciiText']==m['asciiText']=='0123456789 AaBb GgMm !?:+-.'\n assert r['asciiOrigin']=='native' and r['hanMissing']==[]\n assert r['missing']==r['asciiMissing']==[' ']\n assert 'U+0020' in r['notes'] and '排版留白' in r['notes'] and '94' in r['coverage']\n assert '95' in r['notes'] and '不猜映射' in r['notes']\n assert '1997' in r['provenance'] and '1998-07-23' in r['provenance'] and '1999-11' in r['provenance']\n assert '不是' in r['nativeEvidence']['summary'] and 'SWIDTH' in r['nativeEvidence']['summary']\n assert (e['sourceGlyphs'],e['unicodeMapped'],e['basicHan'],e['unmappedNativeCodes'])==(21980,21885,20902,95)\n assert (item['sourceGlyphs'],item['unicodeMapped'],item['basicHan'],item['unmapped'])==(21980,21885,20902,95)\n assert (e['fontAscent'],e['fontDescent'])=={12:(12,2),14:(13,3),16:(15,3),20:(19,3),24:(22,4)}[n]\n assert e['sourcePixelSize']==n+2==e['fontAscent']+e['fontDescent']\n assert e['source_sha256']==item['sourceSha256']\n assert '授权' in r['licenseStatus'] and '不分发PCF、BDF或完整字模' in r['licenseNote']\n assert r['sourceUrl']==m['sourcePage']=='https://archive.org/details/solaris-7-1199-sparc-cs'\n assert r['acquisitionGuide']['links'][0]['url'].endswith('/docs/solaris-gbk.md')\n png=(R/r['specimen']).read_bytes()\n assert png[:8]==b'\\x89PNG\\r\\n\\x1a\\n' and png[24:26]==bytes([8,6])  # 8-bit RGBA\n assert struct.unpack('>II',png[16:24])==tuple(item['sampleDimensions'])==(27*n//2,2*n+4)\n assert hashlib.sha256(png).hexdigest()==r['specimenSha256']==item['sampleSha256']\n assert (R/'fonts'/f\"{r['id']}.html\").is_file()\nassert len({r['sampleSha256'] for r in m['fonts']})==5\nfor p in ['docs/solaris-gbk.md','scripts/solaris_gbk_to_bdf.py','tests/solaris-export.test.py']:assert (R/p).is_file()\ndoc=(R/'docs/solaris-gbk.md').read_text();script=(R/'scripts/solaris_gbk_to_bdf.py').read_text()\nfor item in m['fonts']:\n assert item['sourceSha256'] in doc and item['sourceSha256'] in script\n assert str(item['sourceBytes']) in doc\nfor token in ['21980','21885','20902','95','U+0020','uncompress','native-gbk','O_NOFOLLOW','未确认','不提供']:\n assert token in doc\nassert 'ENDFONT' not in json.dumps(m) and 'BITMAP' not in json.dumps(m)\n# No raw/font payload or glyph dictionary accompanies these additions.\nfor f in (R/'assets').rglob('*sun_gbk_song*'):\n assert f.is_file() and f.suffix=='.png'\nprint('Solaris: 5 exact-source native sizes; exact211 previous rows and13 priorities; 21885 Unicode/21980 native, 95 unresolved, 94 ASCII and no space glyph; original global metrics, fixed PNGs and source-only converter.')\n",
     "tests/sunplus-preservation.test.py": "from approved_alcatel715 import before_alcatel_data\nfrom approved_recommendation_update import before_recommendations\nfrom approved_p908_merge import restore_sun, historical_file_sha\n\"\"\"Final integrated Sunplus release preserves the complete 227-row baseline.\"\"\"\nfrom pathlib import Path\nimport hashlib,json\nR=Path(__file__).resolve().parents[1]\nrows=[r for r in before_recommendations(before_alcatel_data('data/catalog.json', json.loads((R/'data/catalog.json').read_text()))) if r['id'] not in ('sony_ericsson_p802_12','sony_ericsson_p908_14','nokia_9210c_15','nokia_9210c_17','nokia_9210c_19','aix_isas_cns_24','hpux_song_40','hpux_sung_24','hpux_sung_34','hpux_sung_42','samsung_r208_16')];m=json.loads((R/'data/release-sunplus.json').read_text())\ndef digest(v):return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True).encode()).hexdigest()\nbase=[r for r in rows if r['id'] in m['baseIds']];added=[r for r in rows if r['id'] in m['addedIds']]\nassert len(rows)==len({r['id'] for r in rows})==m['totalRows']==229\nassert len(base)==m['baseRows']==227 and [r['id'] for r in base]==m['baseIds']\nassert digest(restore_sun(base))==m['baseRowsSha256'] and digest(added)==m['addedRowsSha256']\nassert [r['id'] for r in added]==m['addedIds']\nassert [r['id'] for r in rows if r.get('priority',0)>0]==m['preservedRecommendedIds']\nassert len(m['preservedRecommendedIds'])==13\nfor r in base:assert hashlib.sha256((R/r['specimen']).read_bytes()).hexdigest()==r['specimenSha256'],r['id']\nindices=[r['sourceIndex'] for r in rows if r.get('sourceIndex') is not None]\nassert len(indices)==len(set(indices))\nh=before_alcatel_data('data/collection-history.json', json.loads((R/'data/collection-history.json').read_text()))\nassert next(b for b in h['batches'] if b['sourceManifest']=='release-sunplus.json')=={'sourceManifest':'release-sunplus.json','ids':m['addedIds']}\ns=before_alcatel_data('data/summary.json', json.loads((R/'data/summary.json').read_text()));assert s['rows']==239 and s['nativePngCount']==238\nfor k in ['standardAsciiComplete','ordinaryAsciiRows']:assert s[k]==m['previousSummary'][k]+9\nassert s['partialAscii']==m['previousSummary']['partialAscii']\nassert s['ordinaryWithoutAsciiEvaluation']==m['previousSummary']['ordinaryWithoutAsciiEvaluation']+3\nassert s['fontFilesIncluded']==0 and s['glyphDataIncluded'] is False\nc=json.loads((R/'data/curation.json').read_text());assert not set(c['removedIds']).intersection(r['id'] for r in rows)\nassert len([p for p in (R/'fonts').glob('*.html') if p.stem not in ('ms_song_14', 'siemens_xelibri_14', 'windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16','hitech_adp3_24', 'sc_song_13', 'samsung_ypt6_14x16', 'olympus_mrobe_mr100_12', 'sony_psp_bwfont_16x18', 'alcatel_ot715_13x14', 'ms_ming_14')])==239\nassert len(list((R/'assets/specimens').glob('sunplus*')))==2\nprint('Sunplus integrated release: 227 baseline rows and PNGs unchanged; exactly two simplified additions; no recommendation or ASCII substitution.')\n",
     "tests/xelibri14.test.py": "from approved_hitech_adp3 import before_hitech_adp3_data\n\"\"\"Approved native Xelibri14 fixed preview; immutable 246-row baseline.\"\"\"\nfrom pathlib import Path\nimport copy,hashlib,json,os,subprocess,sys,tempfile\nfrom PIL import Image\nfrom approved_xelibri14 import before_xelibri14_file_sha, before_xelibri14_data, ID\nROOT=Path(__file__).resolve().parents[1]\nsys.path.insert(0,str(ROOT/'scripts'))\nimport xelibri14_specimen as source_tool\nimport generate_static as generator\nsha=lambda data:hashlib.sha256(data).hexdigest()\ndigest=lambda value:sha(json.dumps(value,ensure_ascii=False,sort_keys=True).encode())\nread=lambda path:before_hitech_adp3_data(path,json.loads((ROOT/path).read_text()))\nrows=read('data/catalog.json');m=read('data/release-xelibri14.json')\nassert m['addedIds']==[ID] and m['baseRows']==246 and m['totalRows']==247\nassert m['baseCommit']=='47105314604031e27a0e2c91f6401a5eaabc4a65' and m['baseTree']=='9804e1e00f3fb87ec2e55e83612c37420b666364'\nassert len(rows)==len({r['id'] for r in rows})==247\nold=[r for r in rows if r['id']!=ID]\nassert len(old)==246 and digest(old)==m['baseRowsSha256']\nassert digest({r['id']:sha((ROOT/r['specimen']).read_bytes()) for r in old})==m['baseSpecimensSha256']\nassert digest({r['id']:sha((ROOT/'fonts'/f\"{r['id']}.html\").read_bytes()) for r in old})==m['basePagesSha256']\nfor path,expected in m['baseFilesSha256'].items():assert before_xelibri14_file_sha(path)==expected,path\nassert [r['id'] for r in sorted(rows,key=lambda r:-r['priority']) if r['priority']>0]==m['baseRecommendedIds']\nassert len(m['baseRecommendedIds'])==17\nr=next(r for r in rows if r['id']==ID)\nassert digest(r)==m['addedRowSha256']=='fd15be7edc789d01cccba172ff20dfb8e4ec5153fda4543f3f5fadf04fcaa03b'\nassert r['sourceIndex']==284 and r['priority']==0\nassert all(r[k]==14 for k in ('width','height','cellWidth','cellHeight','inkWidth','inkHeight'))\nassert r['text'].splitlines()==list(source_tool.LINES) and r['asciiText']==source_tool.ASCII\nassert r['asciiOrigin']=='native' and 'asciiPairing' not in r\nassert not r['missing'] and not r['hanMissing'] and not r['asciiMissing']\nassert r['nativeEvidence']['source_sha256']==source_tool.SOURCE_SHA256\nassert r['nativeEvidence']['sourceBytes']==source_tool.SOURCE_BYTES\nfor key,expected in {'fontTable':4,'mappedCharacters':9509,'nonblankCharacters':9506,'nonblankCjk':9247,'gb2312Han':6763,'big5Han':6703,'big5ExpectedHan':13061,'printableAscii':95,'nonblankAscii':94,'hanRawMetricByte':14}.items():assert r['nativeEvidence'][key]==expected,key\nassert r['scripts']==['简体','繁体']\nassert sha((ROOT/'scripts/xelibri14_specimen.py').read_bytes())==m['sourceScriptSha256']=='1a0e201b6f3285ba1b9d2adfe51d65d0f8d45a3800934767c29e21eef1764c46'\nassert sha((ROOT/'docs/siemens-xelibri14.md').read_bytes())==m['documentationSha256']=='f67a0f30dc5c870fd4b3551c4efd88b68343d6e5d062cdcc785f00d344e1b6d6'\nsummary=read('data/summary.json');assert summary['rows']==247 and summary['nativePngCount']==246\nassert summary['standardAsciiComplete']==before_xelibri14_data('data/summary.json',summary,hitech_reversed=True)['standardAsciiComplete']+1\nassert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in ('hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==247\nassert read('data/collection-history.json')['batches'][-1]=={'sourceManifest':'release-xelibri14.json','ids':[ID]}\norder=json.loads(subprocess.check_output(['node','-e',\"console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))\"],cwd=ROOT))\norder=[ident for ident in order if ident not in ('hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')]\nassert order[:4]==[ID,'ms_song_14','sc_song_13','samsung_ypt6_14x16']\nindex=(ROOT/'index.html').read_text();assert index.count(generator.article(r)+'\\n')==1\nassert (ROOT/'fonts'/f'{ID}.html').read_text()==generator.font_page(r)\npng=ROOT/r['specimen'];im=Image.open(png)\nassert im.mode=='L' and im.size==(168,50) and set(im.tobytes())=={0,255}\nassert sha(png.read_bytes())==r['specimenSha256']==m['specimenSha256']==source_tool.SPECIMEN_SHA256=='047cf9b058da58738e47025836496fa71b2c6e660d54729ef43aec0749673b51'\nassert sha(im.tobytes())=='b427b5ec97be3da58d83fa881e9c2cf76b4ef037d68e424e2d5bc7acccef2459'\nassert all(im.getpixel((x,y))==255 for y in (14,15,16,17,32,33,34,35) for x in range(168))\nbad=copy.deepcopy(rows);bad[-1]['name']+=' UNREVIEWED'\ntry:before_xelibri14_data('data/catalog.json',bad)\nexcept AssertionError:pass\nelse:raise AssertionError('Unknown added row normalized')\nbad=read('data/collection-history.json');bad['batches'][-1]['ids'].append('UNREVIEWED')\ntry:before_xelibri14_data('data/collection-history.json',bad)\nexcept AssertionError:pass\nelse:raise AssertionError('Unknown added batch normalized')\nwith tempfile.TemporaryDirectory() as td:\n    td=Path(td);bad=td/'bad.cla';bad.write_bytes(b'not firmware')\n    try:source_tool.fixed_glyphs(bad.read_bytes())\n    except ValueError:pass\n    else:raise AssertionError('Wrong source accepted')\n    cmd=[sys.executable,str(ROOT/'scripts/xelibri14_specimen.py'),'--source',str(bad),'--output',str(td/'arbitrary.png'),'--text','unapproved']\n    assert subprocess.run(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE).returncode!=0\n    assert not(td/'arbitrary.png').exists()\n    source=os.environ.get('XELIBRI14_SOURCE')\n    if source:\n        original=Path(source).read_bytes();assert len(original)==source_tool.SOURCE_BYTES and sha(original)==source_tool.SOURCE_SHA256\n        for i in range(2):\n            out=td/f'fixed{i}.png';source_tool.render(source,out);assert out.read_bytes()==png.read_bytes()\n        tampered=td/'tampered.cla';changed=bytearray(original);changed[0]^=1;tampered.write_bytes(changed)\n        exact_png_alias=td/'source.png';exact_png_alias.write_bytes(original)\n        hardlink=td/'source-hardlink.png';os.link(exact_png_alias,hardlink)\n        source_symlink=td/'input-link.cla';source_symlink.symlink_to(Path(source).absolute())\n        out_symlink=td/'output-link.png';out_symlink.symlink_to(td/'fixed0.png')\n        dir_symlink=td/'dir-link';dir_symlink.symlink_to(td,target_is_directory=True)\n        for inp,out in [(bad,td/'rejected.png'),(tampered,td/'rejected.png'),(source,td/'fixed0.png'),(source,Path(source)),(exact_png_alias,exact_png_alias),(source,hardlink),(source_symlink,td/'rejected.png'),(source,out_symlink),(source,dir_symlink/'rejected.png')]:\n            before=out.read_bytes() if out.is_file() else None\n            try:source_tool.render(inp,out)\n            except (ValueError,OSError):pass\n            else:raise AssertionError(f'Unsafe source/output accepted: {out.name}')\n            if before is not None:assert out.read_bytes()==before\n            else:assert not out.exists()\n        assert Path(source).read_bytes()==original\n        print('Xelibri14 exact source redraw twice and wrong-source/overwrite/hardlink/symlink safety regression passed.')\n    else:print('Xelibri14 private source regression not run; set XELIBRI14_SOURCE. No fresh source-to-pixel claim is made without it.')\nprint('Xelibri14: 247 rows, 17 recommendations; all prior 246 rows/PNGs/pages unchanged; native ASCII retained.')\n"
+  },
+  "recommendationUpdate": {
+    "baseCommit": "8c6fdcbb7d199c6f1feb09e71e1811f057fe191c",
+    "scope": "2026-11-10用户要求两版12／14px均推荐；明确微软官方Windows XP／Windows 7版本对应，未作保存件安装盘来源认证。原17推荐与原始样图不变。",
+    "rowsBefore": {
+      "simsun_v303_12": {
+        "id": "simsun_v303_12",
+        "name": "SimSun 3.03 中易宋体 · 12×12",
+        "family": "SimSun 中易宋体",
+        "version": "3.03",
+        "width": 12,
+        "height": 12,
+        "cellWidth": 12,
+        "cellHeight": 12,
+        "scripts": [
+          "简体",
+          "繁体"
+        ],
+        "styles": [
+          "宋体"
+        ],
+        "uses": [
+          "操作系统"
+        ],
+        "specimen": "assets/specimens/simsun_v303_12.png",
+        "specimenWidth": 144,
+        "specimenHeight": 12,
+        "specimenSha256": "000dfaff29b91fb97fed6474289271c35aed57242810610bcc12aa6d50885b46",
+        "text": "视野无限广，窗外有蓝天。",
+        "asciiText": "",
+        "sampleKind": "standard",
+        "sampleLabel": "SimSun 3.03原存1-bit EBDT/EBLC 12ppem；固定中文样文，不外补ASCII。",
+        "coverage": "每档21,742个Unicode、21,742个独立字形。两版本交集21,741；3.03独有U+3000全角空格，5.03独有6,688个（其中扩展A6,582个）。本层无可打印ASCII，不推断整个TTC没有西文；样句无缺字。",
+        "missing": [],
+        "hanMissing": [],
+        "asciiMissing": [],
+        "asciiOrigin": "absent",
+        "sourceUrl": "https://huggingface.co/cabrel09/insect-detection/blob/4892f28189dd6eaad8c0087834d47aaff93982e5/simsun.ttc",
+        "sourceLabel": "第三方保存件浏览页（非原盘认证）",
+        "licenseStatus": "未确认开放再分发授权",
+        "licenseNote": "专有中易系统字体。公开镜像及其项目许可不改变字体版权；未确认完整字体、转换字模或子集的再分发授权。这里只公开固定短样图和事实说明，不提供完整字体或字模数据。显示、嵌入与正式使用须另核相应产品和字体许可。",
+        "provenance": "源TTC name表直接读出Version 3.03，font 0，第0个原生1-bit EBDT/EBLC strike，ppem=12×12。直接读取预存位图，未栅格化轮廓；保留源BBX、bearing和advance。微软官方字体页把3.03列于Windows XP/Server 2003。这里使用第三方镜像，未认证为微软安装盘原件，版本对应不等于来源认证。",
+        "notes": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。 与方正的有限样本相同不能推出完整字库相同、复制方向或授权相同；方正条目继续独立保留。",
+        "layoutNote": "原12px字进及原bearing／基线排列12字固定句；1×图为144×12，4×仅最近邻整数复制。无裁字、描粗、借字或轮廓补字。",
+        "nativeEvidence": {
+          "summary": "两个版本原生EBDT/EBLC层独立解码；全量源像素、BBX和advance读回核验零差异。不同版本并非同像素字体。",
+          "sourceUrl": "https://huggingface.co/cabrel09/insect-detection/blob/4892f28189dd6eaad8c0087834d47aaff93982e5/simsun.ttc",
+          "source_sha256": "7a368113c36d516aac1a825acc4bbbc9906c4d197f7c649e7fe0f6f31e7475dd",
+          "sourceBytes": 10500792,
+          "fontVersion": "3.03",
+          "bitDepth": 1,
+          "unicodeCount": 21742,
+          "uniqueGlyphCount": 21742,
+          "printableAscii": 0,
+          "commonUnicodeAcrossVersions": 21741,
+          "differentPixelsAtSameOrigin": 21682,
+          "differentTightShapes": 21658,
+          "differentAdvanceCount": 0
+        },
+        "priority": 0,
+        "sourceIndex": 290,
+        "relatedSources": [
+          {
+            "name": "SimSun 5.03 · 12×12",
+            "sourceUrl": "https://legendtired.github.io/chinese-bitmap-specimens/fonts/simsun_v503_12.html",
+            "comparison": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。"
+          }
+        ],
+        "acquisitionGuide": {
+          "title": "获取方式",
+          "type": "source",
+          "steps": [],
+          "notice": "仅提供版本资料和固定短样图。公开镜像不是开放许可；获取和正式使用请核对微软与中易的相应许可。",
+          "links": [
+            {
+              "label": "版本关系、覆盖与核验范围",
+              "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/simsun-versions.md",
+              "action": "source"
+            },
+            {
+              "label": "微软官方版本资料",
+              "url": "https://learn.microsoft.com/en-us/typography/font-list/simsun",
+              "action": "source"
+            },
+            {
+              "label": "Windows字体许可FAQ",
+              "url": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+              "action": "license"
+            }
+          ],
+          "checkedOn": "2026-11-10"
+        }
+      },
+      "simsun_v303_14": {
+        "id": "simsun_v303_14",
+        "name": "SimSun 3.03 中易宋体 · 14×14",
+        "family": "SimSun 中易宋体",
+        "version": "3.03",
+        "width": 14,
+        "height": 14,
+        "cellWidth": 14,
+        "cellHeight": 14,
+        "scripts": [
+          "简体",
+          "繁体"
+        ],
+        "styles": [
+          "宋体"
+        ],
+        "uses": [
+          "操作系统"
+        ],
+        "specimen": "assets/specimens/simsun_v303_14.png",
+        "specimenWidth": 168,
+        "specimenHeight": 14,
+        "specimenSha256": "56077b530a146a471adc8527fec40798555650f28c0aff05e24598c816da63ce",
+        "text": "视野无限广，窗外有蓝天。",
+        "asciiText": "",
+        "sampleKind": "standard",
+        "sampleLabel": "SimSun 3.03原存1-bit EBDT/EBLC 14ppem；固定中文样文，不外补ASCII。",
+        "coverage": "每档21,742个Unicode、21,742个独立字形。两版本交集21,741；3.03独有U+3000全角空格，5.03独有6,688个（其中扩展A6,582个）。本层无可打印ASCII，不推断整个TTC没有西文；样句无缺字。",
+        "missing": [],
+        "hanMissing": [],
+        "asciiMissing": [],
+        "asciiOrigin": "absent",
+        "sourceUrl": "https://huggingface.co/cabrel09/insect-detection/blob/4892f28189dd6eaad8c0087834d47aaff93982e5/simsun.ttc",
+        "sourceLabel": "第三方保存件浏览页（非原盘认证）",
+        "licenseStatus": "未确认开放再分发授权",
+        "licenseNote": "专有中易系统字体。公开镜像及其项目许可不改变字体版权；未确认完整字体、转换字模或子集的再分发授权。这里只公开固定短样图和事实说明，不提供完整字体或字模数据。显示、嵌入与正式使用须另核相应产品和字体许可。",
+        "provenance": "源TTC name表直接读出Version 3.03，font 0，第2个原生1-bit EBDT/EBLC strike，ppem=14×14。直接读取预存位图，未栅格化轮廓；保留源BBX、bearing和advance。微软官方字体页把3.03列于Windows XP/Server 2003。这里使用第三方镜像，未认证为微软安装盘原件，版本对应不等于来源认证。",
+        "notes": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。 与方正的有限样本相同不能推出完整字库相同、复制方向或授权相同；方正条目继续独立保留。",
+        "layoutNote": "原14px字进及原bearing／基线排列12字固定句；1×图为168×14，4×仅最近邻整数复制。无裁字、描粗、借字或轮廓补字。",
+        "nativeEvidence": {
+          "summary": "两个版本原生EBDT/EBLC层独立解码；全量源像素、BBX和advance读回核验零差异。不同版本并非同像素字体。",
+          "sourceUrl": "https://huggingface.co/cabrel09/insect-detection/blob/4892f28189dd6eaad8c0087834d47aaff93982e5/simsun.ttc",
+          "source_sha256": "7a368113c36d516aac1a825acc4bbbc9906c4d197f7c649e7fe0f6f31e7475dd",
+          "sourceBytes": 10500792,
+          "fontVersion": "3.03",
+          "bitDepth": 1,
+          "unicodeCount": 21742,
+          "uniqueGlyphCount": 21742,
+          "printableAscii": 0,
+          "commonUnicodeAcrossVersions": 21741,
+          "differentPixelsAtSameOrigin": 21693,
+          "differentTightShapes": 21662,
+          "differentAdvanceCount": 0
+        },
+        "priority": 0,
+        "sourceIndex": 291,
+        "relatedSources": [
+          {
+            "name": "SimSun 5.03 · 14×14",
+            "sourceUrl": "https://legendtired.github.io/chinese-bitmap-specimens/fonts/simsun_v503_14.html",
+            "comparison": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。"
+          }
+        ],
+        "acquisitionGuide": {
+          "title": "获取方式",
+          "type": "source",
+          "steps": [],
+          "notice": "仅提供版本资料和固定短样图。公开镜像不是开放许可；获取和正式使用请核对微软与中易的相应许可。",
+          "links": [
+            {
+              "label": "版本关系、覆盖与核验范围",
+              "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/simsun-versions.md",
+              "action": "source"
+            },
+            {
+              "label": "微软官方版本资料",
+              "url": "https://learn.microsoft.com/en-us/typography/font-list/simsun",
+              "action": "source"
+            },
+            {
+              "label": "Windows字体许可FAQ",
+              "url": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+              "action": "license"
+            }
+          ],
+          "checkedOn": "2026-11-10"
+        }
+      },
+      "simsun_v503_12": {
+        "id": "simsun_v503_12",
+        "name": "SimSun 5.03 中易宋体 · 12×12",
+        "family": "SimSun 中易宋体",
+        "version": "5.03",
+        "width": 12,
+        "height": 12,
+        "cellWidth": 12,
+        "cellHeight": 12,
+        "scripts": [
+          "简体",
+          "繁体"
+        ],
+        "styles": [
+          "宋体"
+        ],
+        "uses": [
+          "操作系统"
+        ],
+        "specimen": "assets/specimens/simsun_v503_12.png",
+        "specimenWidth": 144,
+        "specimenHeight": 12,
+        "specimenSha256": "b33f9b9e5af55b45598ae50f1a1622231bb0c90b9059c7bd418059fca4134868",
+        "text": "视野无限广，窗外有蓝天。",
+        "asciiText": "",
+        "sampleKind": "standard",
+        "sampleLabel": "SimSun 5.03原存1-bit EBDT/EBLC 12ppem；固定中文样文，不外补ASCII。",
+        "coverage": "每档28,429个Unicode、28,418个独立字形。两版本交集21,741；3.03独有U+3000全角空格，5.03独有6,688个（其中扩展A6,582个）。本层无可打印ASCII，不推断整个TTC没有西文；样句无缺字。",
+        "missing": [],
+        "hanMissing": [],
+        "asciiMissing": [],
+        "asciiOrigin": "absent",
+        "sourceUrl": "https://github.com/dolbydu/font/blob/master/unicode/SimSun.ttc",
+        "sourceLabel": "第三方保存件浏览页（非原盘认证）",
+        "licenseStatus": "未确认开放再分发授权",
+        "licenseNote": "专有中易系统字体。公开镜像及其项目许可不改变字体版权；未确认完整字体、转换字模或子集的再分发授权。这里只公开固定短样图和事实说明，不提供完整字体或字模数据。显示、嵌入与正式使用须另核相应产品和字体许可。",
+        "provenance": "源TTC name表直接读出Version 5.03，font 0，第0个原生1-bit EBDT/EBLC strike，ppem=12×12。直接读取预存位图，未栅格化轮廓；保留源BBX、bearing和advance。微软Windows 7字体清单列SimSun 5.03。这里使用第三方镜像，未认证为微软安装盘原件，版本对应不等于来源认证。",
+        "notes": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。 与方正的有限样本相同不能推出完整字库相同、复制方向或授权相同；方正条目继续独立保留。",
+        "layoutNote": "原12px字进及原bearing／基线排列12字固定句；1×图为144×12，4×仅最近邻整数复制。无裁字、描粗、借字或轮廓补字。",
+        "nativeEvidence": {
+          "summary": "两个版本原生EBDT/EBLC层独立解码；全量源像素、BBX和advance读回核验零差异。不同版本并非同像素字体。",
+          "sourceUrl": "https://github.com/dolbydu/font/blob/master/unicode/SimSun.ttc",
+          "source_sha256": "ff7d69bfa6588d3fdedbddbe3a29ac11f0c50236723ee72a9ea49ec3e2553f5d",
+          "sourceBytes": 15323200,
+          "fontVersion": "5.03",
+          "bitDepth": 1,
+          "unicodeCount": 28429,
+          "uniqueGlyphCount": 28418,
+          "printableAscii": 0,
+          "commonUnicodeAcrossVersions": 21741,
+          "differentPixelsAtSameOrigin": 21682,
+          "differentTightShapes": 21658,
+          "differentAdvanceCount": 0
+        },
+        "priority": 0,
+        "sourceIndex": 292,
+        "relatedSources": [
+          {
+            "name": "SimSun 3.03 · 12×12",
+            "sourceUrl": "https://legendtired.github.io/chinese-bitmap-specimens/fonts/simsun_v303_12.html",
+            "comparison": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。"
+          }
+        ],
+        "acquisitionGuide": {
+          "title": "获取方式",
+          "type": "source",
+          "steps": [],
+          "notice": "仅提供版本资料和固定短样图。公开镜像不是开放许可；获取和正式使用请核对微软与中易的相应许可。",
+          "links": [
+            {
+              "label": "版本关系、覆盖与核验范围",
+              "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/simsun-versions.md",
+              "action": "source"
+            },
+            {
+              "label": "微软官方版本资料",
+              "url": "https://learn.microsoft.com/en-us/typography/fonts/windows_7_font_list",
+              "action": "source"
+            },
+            {
+              "label": "Windows字体许可FAQ",
+              "url": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+              "action": "license"
+            }
+          ],
+          "checkedOn": "2026-11-10"
+        }
+      },
+      "simsun_v503_14": {
+        "id": "simsun_v503_14",
+        "name": "SimSun 5.03 中易宋体 · 14×14",
+        "family": "SimSun 中易宋体",
+        "version": "5.03",
+        "width": 14,
+        "height": 14,
+        "cellWidth": 14,
+        "cellHeight": 14,
+        "scripts": [
+          "简体",
+          "繁体"
+        ],
+        "styles": [
+          "宋体"
+        ],
+        "uses": [
+          "操作系统"
+        ],
+        "specimen": "assets/specimens/simsun_v503_14.png",
+        "specimenWidth": 168,
+        "specimenHeight": 14,
+        "specimenSha256": "5c9765b7fac487b73a3252ed1b0872a63c0f57bf7cc495b192d433f2d5eeaaa1",
+        "text": "视野无限广，窗外有蓝天。",
+        "asciiText": "",
+        "sampleKind": "standard",
+        "sampleLabel": "SimSun 5.03原存1-bit EBDT/EBLC 14ppem；固定中文样文，不外补ASCII。",
+        "coverage": "每档28,429个Unicode、28,418个独立字形。两版本交集21,741；3.03独有U+3000全角空格，5.03独有6,688个（其中扩展A6,582个）。本层无可打印ASCII，不推断整个TTC没有西文；样句无缺字。",
+        "missing": [],
+        "hanMissing": [],
+        "asciiMissing": [],
+        "asciiOrigin": "absent",
+        "sourceUrl": "https://github.com/dolbydu/font/blob/master/unicode/SimSun.ttc",
+        "sourceLabel": "第三方保存件浏览页（非原盘认证）",
+        "licenseStatus": "未确认开放再分发授权",
+        "licenseNote": "专有中易系统字体。公开镜像及其项目许可不改变字体版权；未确认完整字体、转换字模或子集的再分发授权。这里只公开固定短样图和事实说明，不提供完整字体或字模数据。显示、嵌入与正式使用须另核相应产品和字体许可。",
+        "provenance": "源TTC name表直接读出Version 5.03，font 0，第2个原生1-bit EBDT/EBLC strike，ppem=14×14。直接读取预存位图，未栅格化轮廓；保留源BBX、bearing和advance。微软Windows 7字体清单列SimSun 5.03。这里使用第三方镜像，未认证为微软安装盘原件，版本对应不等于来源认证。",
+        "notes": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。 与方正的有限样本相同不能推出完整字库相同、复制方向或授权相同；方正条目继续独立保留。",
+        "layoutNote": "原14px字进及原bearing／基线排列12字固定句；1×图为168×14，4×仅最近邻整数复制。无裁字、描粗、借字或轮廓补字。",
+        "nativeEvidence": {
+          "summary": "两个版本原生EBDT/EBLC层独立解码；全量源像素、BBX和advance读回核验零差异。不同版本并非同像素字体。",
+          "sourceUrl": "https://github.com/dolbydu/font/blob/master/unicode/SimSun.ttc",
+          "source_sha256": "ff7d69bfa6588d3fdedbddbe3a29ac11f0c50236723ee72a9ea49ec3e2553f5d",
+          "sourceBytes": 15323200,
+          "fontVersion": "5.03",
+          "bitDepth": 1,
+          "unicodeCount": 28429,
+          "uniqueGlyphCount": 28418,
+          "printableAscii": 0,
+          "commonUnicodeAcrossVersions": 21741,
+          "differentPixelsAtSameOrigin": 21693,
+          "differentTightShapes": 21662,
+          "differentAdvanceCount": 0
+        },
+        "priority": 0,
+        "sourceIndex": 293,
+        "relatedSources": [
+          {
+            "name": "SimSun 3.03 · 14×14",
+            "sourceUrl": "https://legendtired.github.io/chinese-bitmap-specimens/fonts/simsun_v303_14.html",
+            "comparison": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。"
+          }
+        ],
+        "acquisitionGuide": {
+          "title": "获取方式",
+          "type": "source",
+          "steps": [],
+          "notice": "仅提供版本资料和固定短样图。公开镜像不是开放许可；获取和正式使用请核对微软与中易的相应许可。",
+          "links": [
+            {
+              "label": "版本关系、覆盖与核验范围",
+              "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/simsun-versions.md",
+              "action": "source"
+            },
+            {
+              "label": "微软官方版本资料",
+              "url": "https://learn.microsoft.com/en-us/typography/fonts/windows_7_font_list",
+              "action": "source"
+            },
+            {
+              "label": "Windows字体许可FAQ",
+              "url": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+              "action": "license"
+            }
+          ],
+          "checkedOn": "2026-11-10"
+        }
+      }
+    }
   }
 }

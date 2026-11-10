@@ -17745,7 +17745,7 @@ window.FONT_CATALOG = [
   },
   {
     "id": "simsun_v303_12",
-    "name": "SimSun 3.03 中易宋体 · 12×12",
+    "name": "SimSun 3.03（Windows XP）中易宋体 · 12×12",
     "family": "SimSun 中易宋体",
     "version": "3.03",
     "width": 12,
@@ -17769,7 +17769,7 @@ window.FONT_CATALOG = [
     "text": "视野无限广，窗外有蓝天。",
     "asciiText": "",
     "sampleKind": "standard",
-    "sampleLabel": "SimSun 3.03原存1-bit EBDT/EBLC 12ppem；固定中文样文，不外补ASCII。",
+    "sampleLabel": "推荐 · Windows XP 对应版本；SimSun 3.03原存1-bit EBDT/EBLC 12ppem；固定中文样文，不外补ASCII。",
     "coverage": "每档21,742个Unicode、21,742个独立字形。两版本交集21,741；3.03独有U+3000全角空格，5.03独有6,688个（其中扩展A6,582个）。本层无可打印ASCII，不推断整个TTC没有西文；样句无缺字。",
     "missing": [],
     "hanMissing": [],
@@ -17780,7 +17780,7 @@ window.FONT_CATALOG = [
     "licenseStatus": "未确认开放再分发授权",
     "licenseNote": "专有中易系统字体。公开镜像及其项目许可不改变字体版权；未确认完整字体、转换字模或子集的再分发授权。这里只公开固定短样图和事实说明，不提供完整字体或字模数据。显示、嵌入与正式使用须另核相应产品和字体许可。",
     "provenance": "源TTC name表直接读出Version 3.03，font 0，第0个原生1-bit EBDT/EBLC strike，ppem=12×12。直接读取预存位图，未栅格化轮廓；保留源BBX、bearing和advance。微软官方字体页把3.03列于Windows XP/Server 2003。这里使用第三方镜像，未认证为微软安装盘原件，版本对应不等于来源认证。",
-    "notes": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。 与方正的有限样本相同不能推出完整字库相同、复制方向或授权相同；方正条目继续独立保留。",
+    "notes": "推荐用于比较 Windows XP 对应的原生小字号宋体。系统名表示微软列出的版本对应关系，本页保存件并未认证为该系统安装盘原件。3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。 与方正的有限样本相同不能推出完整字库相同、复制方向或授权相同；方正条目继续独立保留。",
     "layoutNote": "原12px字进及原bearing／基线排列12字固定句；1×图为144×12，4×仅最近邻整数复制。无裁字、描粗、借字或轮廓补字。",
     "nativeEvidence": {
       "summary": "两个版本原生EBDT/EBLC层独立解码；全量源像素、BBX和advance读回核验零差异。不同版本并非同像素字体。",
@@ -17797,11 +17797,11 @@ window.FONT_CATALOG = [
       "differentTightShapes": 21658,
       "differentAdvanceCount": 0
     },
-    "priority": 0,
+    "priority": 1,
     "sourceIndex": 290,
     "relatedSources": [
       {
-        "name": "SimSun 5.03 · 12×12",
+        "name": "SimSun 5.03（Windows 7） · 12×12",
         "sourceUrl": "https://legendtired.github.io/chinese-bitmap-specimens/fonts/simsun_v503_12.html",
         "comparison": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。"
       }
@@ -17833,7 +17833,7 @@ window.FONT_CATALOG = [
   },
   {
     "id": "simsun_v303_14",
-    "name": "SimSun 3.03 中易宋体 · 14×14",
+    "name": "SimSun 3.03（Windows XP）中易宋体 · 14×14",
     "family": "SimSun 中易宋体",
     "version": "3.03",
     "width": 14,
@@ -17857,7 +17857,7 @@ window.FONT_CATALOG = [
     "text": "视野无限广，窗外有蓝天。",
     "asciiText": "",
     "sampleKind": "standard",
-    "sampleLabel": "SimSun 3.03原存1-bit EBDT/EBLC 14ppem；固定中文样文，不外补ASCII。",
+    "sampleLabel": "推荐 · Windows XP 对应版本；SimSun 3.03原存1-bit EBDT/EBLC 14ppem；固定中文样文，不外补ASCII。",
     "coverage": "每档21,742个Unicode、21,742个独立字形。两版本交集21,741；3.03独有U+3000全角空格，5.03独有6,688个（其中扩展A6,582个）。本层无可打印ASCII，不推断整个TTC没有西文；样句无缺字。",
     "missing": [],
     "hanMissing": [],
@@ -17868,7 +17868,7 @@ window.FONT_CATALOG = [
     "licenseStatus": "未确认开放再分发授权",
     "licenseNote": "专有中易系统字体。公开镜像及其项目许可不改变字体版权；未确认完整字体、转换字模或子集的再分发授权。这里只公开固定短样图和事实说明，不提供完整字体或字模数据。显示、嵌入与正式使用须另核相应产品和字体许可。",
     "provenance": "源TTC name表直接读出Version 3.03，font 0，第2个原生1-bit EBDT/EBLC strike，ppem=14×14。直接读取预存位图，未栅格化轮廓；保留源BBX、bearing和advance。微软官方字体页把3.03列于Windows XP/Server 2003。这里使用第三方镜像，未认证为微软安装盘原件，版本对应不等于来源认证。",
-    "notes": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。 与方正的有限样本相同不能推出完整字库相同、复制方向或授权相同；方正条目继续独立保留。",
+    "notes": "推荐用于比较 Windows XP 对应的原生小字号宋体。系统名表示微软列出的版本对应关系，本页保存件并未认证为该系统安装盘原件。3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。 与方正的有限样本相同不能推出完整字库相同、复制方向或授权相同；方正条目继续独立保留。",
     "layoutNote": "原14px字进及原bearing／基线排列12字固定句；1×图为168×14，4×仅最近邻整数复制。无裁字、描粗、借字或轮廓补字。",
     "nativeEvidence": {
       "summary": "两个版本原生EBDT/EBLC层独立解码；全量源像素、BBX和advance读回核验零差异。不同版本并非同像素字体。",
@@ -17885,11 +17885,11 @@ window.FONT_CATALOG = [
       "differentTightShapes": 21662,
       "differentAdvanceCount": 0
     },
-    "priority": 0,
+    "priority": 1,
     "sourceIndex": 291,
     "relatedSources": [
       {
-        "name": "SimSun 5.03 · 14×14",
+        "name": "SimSun 5.03（Windows 7） · 14×14",
         "sourceUrl": "https://legendtired.github.io/chinese-bitmap-specimens/fonts/simsun_v503_14.html",
         "comparison": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。"
       }
@@ -17921,7 +17921,7 @@ window.FONT_CATALOG = [
   },
   {
     "id": "simsun_v503_12",
-    "name": "SimSun 5.03 中易宋体 · 12×12",
+    "name": "SimSun 5.03（Windows 7）中易宋体 · 12×12",
     "family": "SimSun 中易宋体",
     "version": "5.03",
     "width": 12,
@@ -17945,7 +17945,7 @@ window.FONT_CATALOG = [
     "text": "视野无限广，窗外有蓝天。",
     "asciiText": "",
     "sampleKind": "standard",
-    "sampleLabel": "SimSun 5.03原存1-bit EBDT/EBLC 12ppem；固定中文样文，不外补ASCII。",
+    "sampleLabel": "推荐 · Windows 7 对应版本；SimSun 5.03原存1-bit EBDT/EBLC 12ppem；固定中文样文，不外补ASCII。",
     "coverage": "每档28,429个Unicode、28,418个独立字形。两版本交集21,741；3.03独有U+3000全角空格，5.03独有6,688个（其中扩展A6,582个）。本层无可打印ASCII，不推断整个TTC没有西文；样句无缺字。",
     "missing": [],
     "hanMissing": [],
@@ -17956,7 +17956,7 @@ window.FONT_CATALOG = [
     "licenseStatus": "未确认开放再分发授权",
     "licenseNote": "专有中易系统字体。公开镜像及其项目许可不改变字体版权；未确认完整字体、转换字模或子集的再分发授权。这里只公开固定短样图和事实说明，不提供完整字体或字模数据。显示、嵌入与正式使用须另核相应产品和字体许可。",
     "provenance": "源TTC name表直接读出Version 5.03，font 0，第0个原生1-bit EBDT/EBLC strike，ppem=12×12。直接读取预存位图，未栅格化轮廓；保留源BBX、bearing和advance。微软Windows 7字体清单列SimSun 5.03。这里使用第三方镜像，未认证为微软安装盘原件，版本对应不等于来源认证。",
-    "notes": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。 与方正的有限样本相同不能推出完整字库相同、复制方向或授权相同；方正条目继续独立保留。",
+    "notes": "推荐用于比较 Windows 7 对应的原生小字号宋体。系统名表示微软列出的版本对应关系，本页保存件并未认证为该系统安装盘原件。3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。 与方正的有限样本相同不能推出完整字库相同、复制方向或授权相同；方正条目继续独立保留。",
     "layoutNote": "原12px字进及原bearing／基线排列12字固定句；1×图为144×12，4×仅最近邻整数复制。无裁字、描粗、借字或轮廓补字。",
     "nativeEvidence": {
       "summary": "两个版本原生EBDT/EBLC层独立解码；全量源像素、BBX和advance读回核验零差异。不同版本并非同像素字体。",
@@ -17973,11 +17973,11 @@ window.FONT_CATALOG = [
       "differentTightShapes": 21658,
       "differentAdvanceCount": 0
     },
-    "priority": 0,
+    "priority": 1,
     "sourceIndex": 292,
     "relatedSources": [
       {
-        "name": "SimSun 3.03 · 12×12",
+        "name": "SimSun 3.03（Windows XP） · 12×12",
         "sourceUrl": "https://legendtired.github.io/chinese-bitmap-specimens/fonts/simsun_v303_12.html",
         "comparison": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。"
       }
@@ -18009,7 +18009,7 @@ window.FONT_CATALOG = [
   },
   {
     "id": "simsun_v503_14",
-    "name": "SimSun 5.03 中易宋体 · 14×14",
+    "name": "SimSun 5.03（Windows 7）中易宋体 · 14×14",
     "family": "SimSun 中易宋体",
     "version": "5.03",
     "width": 14,
@@ -18033,7 +18033,7 @@ window.FONT_CATALOG = [
     "text": "视野无限广，窗外有蓝天。",
     "asciiText": "",
     "sampleKind": "standard",
-    "sampleLabel": "SimSun 5.03原存1-bit EBDT/EBLC 14ppem；固定中文样文，不外补ASCII。",
+    "sampleLabel": "推荐 · Windows 7 对应版本；SimSun 5.03原存1-bit EBDT/EBLC 14ppem；固定中文样文，不外补ASCII。",
     "coverage": "每档28,429个Unicode、28,418个独立字形。两版本交集21,741；3.03独有U+3000全角空格，5.03独有6,688个（其中扩展A6,582个）。本层无可打印ASCII，不推断整个TTC没有西文；样句无缺字。",
     "missing": [],
     "hanMissing": [],
@@ -18044,7 +18044,7 @@ window.FONT_CATALOG = [
     "licenseStatus": "未确认开放再分发授权",
     "licenseNote": "专有中易系统字体。公开镜像及其项目许可不改变字体版权；未确认完整字体、转换字模或子集的再分发授权。这里只公开固定短样图和事实说明，不提供完整字体或字模数据。显示、嵌入与正式使用须另核相应产品和字体许可。",
     "provenance": "源TTC name表直接读出Version 5.03，font 0，第2个原生1-bit EBDT/EBLC strike，ppem=14×14。直接读取预存位图，未栅格化轮廓；保留源BBX、bearing和advance。微软Windows 7字体清单列SimSun 5.03。这里使用第三方镜像，未认证为微软安装盘原件，版本对应不等于来源认证。",
-    "notes": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。 与方正的有限样本相同不能推出完整字库相同、复制方向或授权相同；方正条目继续独立保留。",
+    "notes": "推荐用于比较 Windows 7 对应的原生小字号宋体。系统名表示微软列出的版本对应关系，本页保存件并未认证为该系统安装盘原件。3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。 与方正的有限样本相同不能推出完整字库相同、复制方向或授权相同；方正条目继续独立保留。",
     "layoutNote": "原14px字进及原bearing／基线排列12字固定句；1×图为168×14，4×仅最近邻整数复制。无裁字、描粗、借字或轮廓补字。",
     "nativeEvidence": {
       "summary": "两个版本原生EBDT/EBLC层独立解码；全量源像素、BBX和advance读回核验零差异。不同版本并非同像素字体。",
@@ -18061,11 +18061,11 @@ window.FONT_CATALOG = [
       "differentTightShapes": 21662,
       "differentAdvanceCount": 0
     },
-    "priority": 0,
+    "priority": 1,
     "sourceIndex": 293,
     "relatedSources": [
       {
-        "name": "SimSun 3.03 · 14×14",
+        "name": "SimSun 3.03（Windows XP） · 14×14",
         "sourceUrl": "https://legendtired.github.io/chinese-bitmap-specimens/fonts/simsun_v303_14.html",
         "comparison": "3.03与5.03是同一SimSun中易宋体家族的不同版本，按版本并列，不称两个独立原创家族。两档各有21,741个共同Unicode：12px原点／基线对齐像素不同21,682个、紧裁平移对齐后形状不同21,658个；14px分别为21,693与21,662个，共同字进全部相同。差别不只是基线，5.03不是3.03的像素等价替代。数字仅适用本页明确SHA的两个样本。"
       }

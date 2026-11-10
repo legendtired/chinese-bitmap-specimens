@@ -26,7 +26,14 @@ assert [r['sourceIndex'] for r in rows[-4:]]==[290,291,292,293]
 assert {r['family'] for r in rows[-4:]}=={'SimSun 中易宋体'}
 assert [r['version'] for r in rows[-4:]]==['3.03','3.03','5.03','5.03']
 for r in rows[-4:]:
- assert r['priority']==0 and digest(r)==m['rowHashes'][r['id']]
+ assert r['priority']==1 and digest(r)==m['rowHashes'][r['id']]
+ os='Windows XP' if r['version']=='3.03' else 'Windows 7'
+ assert os in r['name'] and os in r['sampleLabel']
+ assert '推荐' in r['sampleLabel'] and '未认证' in r['notes']
+ before=m['recommendationUpdate']['rowsBefore'][r['id']]
+ assert {k for k in set(before)|set(r) if before.get(k)!=r.get(k)}=={'priority','name','sampleLabel','notes','relatedSources'}
+ assert before['priority']==0
+ assert r['specimenSha256']==before['specimenSha256'] and r['nativeEvidence']==before['nativeEvidence']
  size=int(r['id'].rsplit('_',1)[1])
  assert (r['width'],r['height'],r['cellWidth'],r['cellHeight'])==(size,size,size,size)
  assert r['text']=='视野无限广，窗外有蓝天。'

@@ -1,12 +1,19 @@
-# SimSun 3.03 与 5.03：12／14px 原生点阵
+# SimSun 3.03（Windows XP）与5.03（Windows 7）：12／14px 原生点阵
 
 本站按版本并列收藏两版中易宋体，每版只展示12、14px两个字号。这是**同一 SimSun 字体家族的不同版本**，不是两个独立原创字体家族；字号条目也不等于独立字体家族数量。原方正像素条目和样图继续保留。
+
+## 推荐版本
+
+- **Windows XP 对应版本：SimSun 3.03**，12px和14px均推荐。微软也将3.03列于Windows Server 2003。
+- **Windows 7 对应版本：SimSun 5.03**，12px和14px均推荐。
+
+系统名说明微软官方列出的版本对应关系，便于识别和比较；下列样图使用第三方保存件，不能据此称为直接取自Windows安装盘。两版四项接在原有推荐之后，原推荐顺序不变。
 
 ## 短样图
 
 四图均为同一句“视野无限广，窗外有蓝天。”，直接读取各自原生 EBDT/EBLC 的1-bit位图。未栅格化轮廓、借字、补画或统一缩放字号。字进、bearing和基线来自各自源层；放大图只做4倍最近邻复制。
 
-### SimSun 3.03
+### SimSun 3.03 · Windows XP
 
 - [12px资料页](https://legendtired.github.io/chinese-bitmap-specimens/fonts/simsun_v303_12.html)
 
@@ -16,7 +23,7 @@
 
 ![3.03 14px，4倍](../assets/specimens/simsun_v303_14_4x.png)
 
-### SimSun 5.03
+### SimSun 5.03 · Windows 7
 
 - [12px资料页](https://legendtired.github.io/chinese-bitmap-specimens/fonts/simsun_v503_12.html)
 
