@@ -262,6 +262,15 @@
         "richwin_42_song_16",
         "asiasurf_tm16"
       ]
+    },
+    {
+      "sourceManifest": "release-simsun-versions.json",
+      "ids": [
+        "simsun_v303_12",
+        "simsun_v303_14",
+        "simsun_v503_12",
+        "simsun_v503_14"
+      ]
     }
   ]
 }

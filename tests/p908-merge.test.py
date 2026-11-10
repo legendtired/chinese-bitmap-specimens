@@ -1,3 +1,4 @@
+from approved_simsun import before_simsun_bytes
 """Approved metadata-only Sun14 variant merge and legacy favorites compatibility."""
 import hashlib
 import json
@@ -35,7 +36,7 @@ assert 'sony_ericsson_p908_14.html' not in (ROOT / 'sitemap.xml').read_text()
 assert 'data-row-id="sony_ericsson_p908_14"' not in (ROOT / 'index.html').read_text()
 assert hashlib.sha256((ROOT / merge['formerStandaloneRow']['specimen']).read_bytes()).hexdigest() == merge['preservedP908SampleSha256']
 for path, expected in merge['afterFilesSha256'].items():
-    assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == expected
+    assert hashlib.sha256(before_simsun_bytes(path)).hexdigest() == expected
 assert read('data/summary.json')['curation']['mergedSampleEquivalent'] == 4
 assert len(read('data/curation.json')['removedIds']) == 34
 assert not any(id.startswith('sun_gb2312_') for id in by_id)

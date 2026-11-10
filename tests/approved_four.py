@@ -1,4 +1,5 @@
 """Exact reversal of four approved rows for historical regression checks only."""
+from approved_simsun import before_simsun_rows,before_simsun_data,before_simsun_bytes
 from pathlib import Path
 import copy,hashlib,json,re
 ROOT=Path(__file__).resolve().parents[1]
@@ -6,12 +7,14 @@ MANIFEST=json.loads((ROOT/'data/release-approved-four.json').read_text())
 IDS=MANIFEST['addedIds']
 def digest(v):return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
 def before_four_rows(rows):
+    rows=before_simsun_rows(rows)
     for ident in IDS:
         matches=[r for r in rows if r['id']==ident]
         if matches:
             assert len(matches)==1 and digest(matches[0])==MANIFEST['rowHashes'][ident], 'Unreviewed approved-four row'
     return [r for r in rows if r['id'] not in IDS]
-def before_four_data(path,value):
+def before_four_data(path,value,*,simsun_reversed=False):
+    if not simsun_reversed:value=before_simsun_data(path,value)
     if path=='data/catalog.json':return before_four_rows(value)
     value=copy.deepcopy(value)
     if path=='data/collection-history.json':
@@ -29,12 +32,12 @@ def before_four_data(path,value):
     return value
 
 def before_four_bytes(path,root=ROOT):
-    data=(root/path).read_bytes()
+    data=before_simsun_bytes(path,root)
     if path in ('data/catalog.json','data/collection-history.json','data/summary.json'):
-        return (json.dumps(before_four_data(path,json.loads(data)),ensure_ascii=False,indent=2)+'\n').encode()
+        return (json.dumps(before_four_data(path,json.loads(data),simsun_reversed=True),ensure_ascii=False,indent=2)+'\n').encode()
     if path in ('data/catalog.js','data/collection-history.js'):
         prefix,payload=data.decode().split(' = ',1)
-        value=before_four_data(path.replace('.js','.json'),json.loads(payload.rstrip().removesuffix(';')))
+        value=before_four_data(path.replace('.js','.json'),json.loads(payload.rstrip().removesuffix(';')),simsun_reversed=True)
         return (prefix+' = '+json.dumps(value,ensure_ascii=False,indent=2)+';\n').encode()
     if path=='sitemap.xml':
         text=data.decode()
@@ -45,7 +48,7 @@ def before_four_bytes(path,root=ROOT):
     if path=='index.html':
         text=data.decode()
         for asset in ('data/catalog.js','data/collection-history.js','app.js'):
-            current=hashlib.sha256((root/asset).read_bytes()).hexdigest()[:16]
+            current=hashlib.sha256(before_simsun_bytes(asset,root)).hexdigest()[:16]
             previous=hashlib.sha256(before_four_bytes(asset,root)).hexdigest()[:16]
             tag=f'src="{asset}?v={current}"';assert text.count(tag)==1
             text=text.replace(tag,f'src="{asset}?v={previous}"',1)

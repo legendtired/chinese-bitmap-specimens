@@ -11,6 +11,8 @@ def direct_download(url):
  if p.hostname=='archive.org' and path.startswith('/download/'): return True
  # Archive item IDs may end in .7z: /details/<id> is an HTML information page.
  if p.hostname=='archive.org' and re.fullmatch(r'/details/[^/]+/?',path) and not any(k in query for k in ['raw','download']): return False
+ if p.hostname=='huggingface.co' and re.fullmatch(r'/[^/]+/[^/]+/blob/[^/]+/.+',path) and not any(k in query for k in ['raw','download']): return False
+ if p.hostname=='huggingface.co' and '/resolve/' in path: return True
  if p.hostname=='github.com' and '/blob/' in path and not any(k in query for k in ['raw','download']): return False
  return any(k in query for k in ['raw','download']) or bool(DOWNLOAD.search(path)) or ('/releases/download/' in path) or (p.hostname=='github.com' and '/archive/' in path)
 scheme='https'+'://'
@@ -21,6 +23,9 @@ for hostpath in ['cdn.example.org/font.woff2','raw.githubusercontent.com/example
  assert direct_download(scheme+hostpath)
 assert not direct_download(scheme+'archive.org/details/verified-item.7z')
 for hostpath in ['archive.org/download/item/font.7z','archive.org/download/item/no-extension','archive.org/details/item.7z?download=1','archive.org/details/item/font.bin','example.org/details/item.7z']:
+ assert direct_download(scheme+hostpath)
+assert not direct_download(scheme+'huggingface.co/example/fonts/blob/main/font.ttc')
+for hostpath in ['huggingface.co/example/fonts/resolve/main/font.ttc','huggingface.co/example/fonts/resolve/main/no-extension','huggingface.co/example/fonts/blob/main/font.ttc?raw=true','huggingface.co/example/fonts/blob/main/font.ttc?download=1','huggingface.co/example/fonts/raw/main/font.ttc','example.org/example/fonts/blob/main/font.ttc']:
  assert direct_download(scheme+hostpath)
 fail=[];count=0
 for f in ROOT.rglob('*'):

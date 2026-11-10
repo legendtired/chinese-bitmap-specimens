@@ -1,3 +1,4 @@
+from approved_simsun import IDS as SIMSUN_IDS, before_simsun_bytes
 """MS Song14 + explicitly external Arial13; immutable 245-row baseline."""
 from approved_xelibri14 import before_xelibri14_data, ID as XELIBRI14_ID
 from pathlib import Path
@@ -18,7 +19,7 @@ assert len(rows)==len({r['id'] for r in rows})==246
 old=[r for r in rows if r['id']!=ID]
 assert len(old)==245 and digest(old)==m['baseRowsSha256']
 assert digest({r['id']:sha((ROOT/r['specimen']).read_bytes()) for r in old})==m['baseSpecimensSha256']
-assert digest({r['id']:sha((ROOT/'fonts'/f"{r['id']}.html").read_bytes()) for r in old})==m['basePagesSha256']
+assert digest({r['id']:sha(before_simsun_bytes(f"fonts/{r['id']}.html")) for r in old})==m['basePagesSha256']
 for path,expected in m['baseFilesSha256'].items():assert before_ms14_file_sha(path)==expected,path
 assert [r['id'] for r in sorted(rows,key=lambda r:-r['priority']) if r['priority']>0]==m['baseRecommendedIds']
 assert len(m['baseRecommendedIds'])==17
@@ -37,10 +38,10 @@ assert r['scripts']==['简体'] and r['nativeEvidence']['mappedCharacters']==742
 assert sha((ROOT/'scripts/ms_song14_specimen.py').read_bytes())==m['sourceScriptSha256']=='bf8717d35db62743f4a143e58c317d961d6dd3a4eaa56d7263d0288c2dba76db'
 assert sha((ROOT/'docs/ms-song14.md').read_bytes())==m['documentationSha256']
 summary=read('data/summary.json');assert summary['rows']==246 and summary['nativePngCount']==245
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (XELIBRI14_ID, 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==246
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in SIMSUN_IDS and p.stem not in (XELIBRI14_ID, 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==246
 assert read('data/collection-history.json')['batches'][-1]=={'sourceManifest':'release-ms-song14.json','ids':[ID]}
 order=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"],cwd=ROOT))
-assert [ident for ident in order if ident not in (XELIBRI14_ID, 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')][:3]==[ID,'sc_song_13','samsung_ypt6_14x16']
+assert [ident for ident in order if ident not in SIMSUN_IDS and ident not in (XELIBRI14_ID, 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')][:3]==[ID,'sc_song_13','samsung_ypt6_14x16']
 index=(ROOT/'index.html').read_text();assert index.count(generator.article(r)+'\n')==1
 assert (ROOT/'fonts/ms_song_14.html').read_text()==generator.font_page(r)
 png=ROOT/r['specimen'];im=Image.open(png)

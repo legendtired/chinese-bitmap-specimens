@@ -127,7 +127,7 @@
   const rows = Array.isArray(window.FONT_CATALOG) ? window.FONT_CATALOG : [];
   const $ = id => document.getElementById(id);
   const validIds = new Set(rows.map(row => row.id));
-  const favoritesStore = createFavoriteStore(() => window.localStorage, validIds, { simsun_native_12: 'founder_pixel12', simsun_native_14: 'founder_pixel14', ccic_chkan_24: 'isas_song_24', sony_ericsson_p908_14: 'sun_gbk_song_14' });
+  const favoritesStore = createFavoriteStore(() => window.localStorage, validIds, { simsun_native_12: 'simsun_v503_12', simsun_native_14: 'simsun_v503_14', ccic_chkan_24: 'isas_song_24', sony_ericsson_p908_14: 'sun_gbk_song_14' });
   let favoriteIds = favoritesStore.ids, comparisonIds = [], favoritesView = false;
   const selections = { height: [], scripts: [], styles: [], uses: [] };
   const create = (tag, className, text) => {

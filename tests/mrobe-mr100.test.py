@@ -1,3 +1,4 @@
+from approved_simsun import IDS as SIMSUN_IDS, before_simsun_bytes
 """Fixed MR-100 preview, independent source-to-pixel regression, immutable 242-row baseline."""
 from pathlib import Path
 import hashlib
@@ -24,7 +25,7 @@ assert len(rows) == len({r['id'] for r in rows}) == 243
 old = [r for r in rows if r['id'] != ident]
 assert len(old) == 242 and digest(old) == m['baseRowsSha256']
 assert digest({r['id']: sha((ROOT/r['specimen']).read_bytes()) for r in old}) == m['baseSpecimensSha256']
-assert digest({r['id']: sha((ROOT/'fonts'/f"{r['id']}.html").read_bytes()) for r in old}) == m['basePagesSha256']
+assert digest({r['id']: sha(before_simsun_bytes(f"fonts/{r['id']}.html")) for r in old}) == m['basePagesSha256']
 for path, expected in m['baseFilesSha256'].items():
     assert before_mrobe_file_sha(path) == expected, path
 recommended = [r['id'] for r in sorted(rows, key=lambda r: -r['priority']) if r['priority'] > 0]
@@ -43,10 +44,10 @@ assert r['nativeEvidence']['completeCharacters'] == 20277
 assert r['nativeEvidence']['excludedIncompleteCodepoints'] == ['U+3164']
 assert read('data/summary.json')['rows'] == 243
 assert read('data/summary.json')['nativePngCount'] == 242
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (YPT6_ID, 'sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')]) == 243
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in SIMSUN_IDS and p.stem not in (YPT6_ID, 'sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')]) == 243
 assert read('data/collection-history.json')['batches'][-1] == {'sourceManifest': 'release-mrobe-mr100.json', 'ids': [ident]}
 order = json.loads(subprocess.check_output(['node', '-e', "console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"], cwd=ROOT))
-assert [value for value in order if value not in (YPT6_ID, 'sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')][:2] == [ident, 'sony_psp_bwfont_16x18']
+assert [value for value in order if value not in SIMSUN_IDS and value not in (YPT6_ID, 'sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')][:2] == [ident, 'sony_psp_bwfont_16x18']
 png = ROOT / r['specimen']
 image = Image.open(png)
 assert image.mode == 'RGBA' and image.size == (171,44)

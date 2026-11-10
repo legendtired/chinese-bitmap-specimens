@@ -1,3 +1,4 @@
+from approved_simsun import IDS as SIMSUN_IDS, before_simsun_bytes
 from approved_alcatel715 import before_alcatel_data
 from approved_recommendation_update import before_recommendations
 from approved_latin_update import historical_rows
@@ -18,7 +19,7 @@ assert next(b for b in h['batches'] if b['sourceManifest']=='release-pc505-colle
 for r in m['removedRows']:
  assert not (R/r['specimen']).exists();assert not (R/'fonts'/f"{r['id']}.html").exists()
  assert r['id']not in (R/'index.html').read_text() and r['id']not in (R/'sitemap.xml').read_text()
-assert len([p for p in (R/'fonts').glob('*.html') if p.stem not in ('ms_song_14', 'siemens_xelibri_14', 'windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16','hitech_adp3_24', 'sc_song_13', 'samsung_ypt6_14x16', 'olympus_mrobe_mr100_12', 'sony_psp_bwfont_16x18', 'alcatel_ot715_13x14', 'ms_ming_14')])==239
+assert len([p for p in (R/'fonts').glob('*.html') if p.stem not in SIMSUN_IDS and p.stem not in ('ms_song_14', 'siemens_xelibri_14', 'windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16','hitech_adp3_24', 'sc_song_13', 'samsung_ypt6_14x16', 'olympus_mrobe_mr100_12', 'sony_psp_bwfont_16x18', 'alcatel_ot715_13x14', 'ms_ming_14')])==239
 print('Solaris withdrawal: exactly three absent, five GBK preserved, all other219 rows exact, recommendations and newest PC505 retained.')
 
 # Withdrawn-only acquisition material is excluded from this GitHub synchronization.

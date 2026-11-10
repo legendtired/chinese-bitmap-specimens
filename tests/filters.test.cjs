@@ -47,6 +47,6 @@ for(const n of [12,14]){const r=actualRows.find(r=>r.id===`psa_c_screen_${n}`);a
  assert.equal(api.dimensions(r),'24px字面 · 存储 26×27');
  assert(api.filterCatalog(actualRows,{height:['24']}).includes(r));
  assert(!api.filterCatalog(actualRows,{height:['27']}).includes(r));
- assert.deepEqual(api.filterCatalog(actualRows,{},'','recent').slice(0,14).map(row=>row.id),['asiasurf_tm16','richwin_42_song_16','deadf_game_16','windows31_mingli20','hitech_adp3_24','siemens_xelibri_14','ms_song_14','sc_song_13','samsung_ypt6_14x16','olympus_mrobe_mr100_12','sony_psp_bwfont_16x18','ms_ming_14','alcatel_ot715_13x14','sony_ericsson_p802_12']);
+ assert.deepEqual(api.filterCatalog(actualRows,{},'','recent').slice(0,18).map(row=>row.id),['simsun_v503_14','simsun_v503_12','simsun_v303_14','simsun_v303_12','asiasurf_tm16','richwin_42_song_16','deadf_game_16','windows31_mingli20','hitech_adp3_24','siemens_xelibri_14','ms_song_14','sc_song_13','samsung_ypt6_14x16','olympus_mrobe_mr100_12','sony_psp_bwfont_16x18','ms_ming_14','alcatel_ot715_13x14','sony_ericsson_p802_12']);
  assert.deepEqual([r.width,r.height,r.cellWidth,r.cellHeight],[26,27,26,27]);
 }
