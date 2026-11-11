@@ -1,3 +1,4 @@
+from approved_emperor import IDS as EMPEROR_IDS
 from approved_simsun import IDS as SIMSUN_IDS, before_simsun_bytes
 """Approved fixed YP-T6 preview, original-byte regression and immutable 243-entry baseline."""
 from pathlib import Path
@@ -45,10 +46,10 @@ assert r['nativeEvidence']['mappedCharacters'] == 33893
 assert r['nativeEvidence']['nonblankCjk'] == 20902
 summary = read('data/summary.json')
 assert summary['rows'] == 244 and summary['nativePngCount'] == 243
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in SIMSUN_IDS and p.stem not in (SC13_ID, 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')]) == 244
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS) and p.stem not in (SC13_ID, 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')]) == 244
 assert read('data/collection-history.json')['batches'][-1] == {'sourceManifest': 'release-samsung-ypt6.json', 'ids': [ID]}
 order = json.loads(subprocess.check_output(['node', '-e', "console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"], cwd=ROOT))
-assert [ident for ident in order if ident not in SIMSUN_IDS and ident not in (SC13_ID, 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')][:3] == [ID, 'olympus_mrobe_mr100_12', 'sony_psp_bwfont_16x18']
+assert [ident for ident in order if ident not in (SIMSUN_IDS + EMPEROR_IDS) and ident not in (SC13_ID, 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')][:3] == [ID, 'olympus_mrobe_mr100_12', 'sony_psp_bwfont_16x18']
 png = ROOT/r['specimen']
 image = Image.open(png)
 assert image.mode == 'RGBA' and image.size == (211,56)

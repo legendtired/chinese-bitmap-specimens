@@ -1,3 +1,4 @@
+from approved_emperor import MANIFEST as emperor
 """Strict 248 -> 252 local integration; published status is not inferred."""
 from approved_simsun import before_simsun_rows,before_simsun_data,before_simsun_bytes,MANIFEST as simsun
 from pathlib import Path
@@ -28,7 +29,7 @@ for path in ('data/catalog.json','data/catalog.js','data/collection-history.json
  assert sha(before_four_bytes(path))==m['baseFilesSha256'][path],path
 # Exact file scope: no private files, raw sources, arbitrary new assets or hidden additions.
 actual={str(p.relative_to(R)) for p in R.rglob('*') if p.is_file() and '__pycache__' not in p.parts and '.git' not in p.parts}
-actual-=set(simsun['newPaths'])
+actual-=set(simsun['newPaths'])|set(emperor['newPaths'])
 assert actual==set(m['baseFilesSha256'])|set(m['newPaths']), (actual-set(m['baseFilesSha256'])-set(m['newPaths']))
 for path,h in m['baseFilesSha256'].items():
  if path not in m['changedPaths']:assert sha(before_simsun_bytes(path))==h,path

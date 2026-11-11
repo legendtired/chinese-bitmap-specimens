@@ -1,3 +1,4 @@
+from approved_emperor import before_emperor_rows,before_emperor_data,before_emperor_bytes,MANIFEST as emperor
 """Exact public SimSun 3.03/5.03 additions and narrow Founder relationship update."""
 from PIL import Image
 from pathlib import Path
@@ -6,7 +7,7 @@ from approved_simsun import MANIFEST as m,IDS,sha,digest,before_simsun_rows,befo
 R=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(R/'scripts'))
 import generate_static as generator
-read=lambda p:json.loads((R/p).read_text())
+read=lambda p:before_emperor_data(p,json.loads((R/p).read_text()))
 rows=read('data/catalog.json');old=before_simsun_rows(rows)
 assert IDS==['simsun_v303_12','simsun_v303_14','simsun_v503_12','simsun_v503_14']
 assert len(rows)==len({r['id'] for r in rows})==256
@@ -67,9 +68,10 @@ for r in rows[-4:]:
  assert (R/r['specimen']).read_bytes().startswith(b'\x89PNG\r\n\x1a\n')
 for path,h in m['baseFilesSha256'].items():
  assert sha(before_simsun_bytes(path))==h,path
-for path,h in m['changedFileHashes'].items():assert sha((R/path).read_bytes())==h,path
-for path,h in m['addedFiles'].items():assert sha((R/path).read_bytes())==h,path
+for path,h in m['changedFileHashes'].items():assert sha(before_emperor_bytes(path))==h,path
+for path,h in m['addedFiles'].items():assert sha(before_emperor_bytes(path))==h,path
 actual={str(p.relative_to(R)) for p in R.rglob('*') if p.is_file() and '__pycache__' not in p.parts and '.git' not in p.parts}
+actual-=set(emperor['newPaths'])
 assert actual==set(m['baseFilesSha256'])|set(m['newPaths']),actual-set(m['baseFilesSha256'])-set(m['newPaths'])
 for path in actual:
  p=R/path

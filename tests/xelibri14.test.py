@@ -1,3 +1,4 @@
+from approved_emperor import IDS as EMPEROR_IDS
 from approved_simsun import IDS as SIMSUN_IDS, before_simsun_bytes
 from approved_hitech_adp3 import before_hitech_adp3_data
 """Approved native Xelibri14 fixed preview; immutable 246-row baseline."""
@@ -38,10 +39,10 @@ assert sha((ROOT/'scripts/xelibri14_specimen.py').read_bytes())==m['sourceScript
 assert sha((ROOT/'docs/siemens-xelibri14.md').read_bytes())==m['documentationSha256']=='f67a0f30dc5c870fd4b3551c4efd88b68343d6e5d062cdcc785f00d344e1b6d6'
 summary=read('data/summary.json');assert summary['rows']==247 and summary['nativePngCount']==246
 assert summary['standardAsciiComplete']==before_xelibri14_data('data/summary.json',summary,hitech_reversed=True)['standardAsciiComplete']+1
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in SIMSUN_IDS and p.stem not in ('hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==247
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS) and p.stem not in ('hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==247
 assert read('data/collection-history.json')['batches'][-1]=={'sourceManifest':'release-xelibri14.json','ids':[ID]}
 order=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"],cwd=ROOT))
-order=[ident for ident in order if ident not in SIMSUN_IDS and ident not in ('hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')]
+order=[ident for ident in order if ident not in (SIMSUN_IDS + EMPEROR_IDS) and ident not in ('hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')]
 assert order[:4]==[ID,'ms_song_14','sc_song_13','samsung_ypt6_14x16']
 index=(ROOT/'index.html').read_text();assert index.count(generator.article(r)+'\n')==1
 assert (ROOT/'fonts'/f'{ID}.html').read_text()==generator.font_page(r)

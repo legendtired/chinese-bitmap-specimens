@@ -18094,5 +18094,91 @@ window.FONT_CATALOG = [
       ],
       "checkedOn": "2026-11-10"
     }
+  },
+  {
+    "id": "emperor_dos_16x15",
+    "name": "皇帝（DOS）· 16×15",
+    "family": "皇帝 DOS CHINESE.FNT",
+    "width": 16,
+    "height": 15,
+    "cellWidth": 16,
+    "cellHeight": 15,
+    "inkWidth": 16,
+    "inkHeight": 15,
+    "scripts": [
+      "繁体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/emperor_dos_16x15.png",
+    "specimenWidth": 192,
+    "specimenHeight": 15,
+    "specimenSha256": "c81ea562f0db05813adbc1d58550e50b7ae4d57d3c78fe7e9d8fcb343e58f07f",
+    "text": "視野無限廣，窗外有藍天。",
+    "asciiText": "",
+    "sampleKind": "standard",
+    "sampleLabel": "《皇帝》DOS保存件的原生16×15固定字样；风格仅按外观归为楷体，原字体名与作者未知。",
+    "coverage": "2,858个原字槽；恢复2,857个不同Unicode，含2,832个非空汉字与25个非汉字（含空白U+3000）。最后一槽未映射。不是完整Big5；仅有部分全角数字，不含完整ASCII，本图不借字。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceUrl": "https://github.com/rwv/chinese-dos-games/blob/master/games.json",
+    "sourceLabel": "rwv/chinese-dos-games 可浏览保存索引",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "作者、原字体名与开放许可未查明。公开存档或私人保存不等于取得使用、商用或再分发授权。公开范围仅固定短样图、资料及不内嵌字模的离线重绘脚本，不发布完整FNT、IDX、BDF、游戏包或全字形图。",
+    "provenance": "第三方《皇帝》保存包内CHINESE.FNT与CHINESE.IDX；整包长度和SHA256与保存索引吻合，未作原盘认证。索引标注游戏1996年，不当作字体设计年或独立认证年代。未执行游戏，未追踪可执行程序。",
+    "notes": "原16×15单色字模，最大汉字墨迹16×15，最右列有真实像素，不裁为15列。映射由索引结构、已知字形与样张目视核对推导，尚非游戏程序确认。可得比较中Apple BiauKai16为0/2,831、Apple Kai16为0/1,800、汉仪行楷15为0/2,828同码汉字裁空白后同形；真ETen为6/2,832、国乔4/2,832、UnionWay0/2,831。范围是256项目录基线对应的185份历史BDF加3份真源，共188文件，不是当前256套全量查重，不保证全库无重复。",
+    "layoutNote": "每字30字节，逐行MSB在左，16×15存储框；16px字进及零原点仅为样图/导出约定，游戏基线和字距未测。固定十二字按原框拼接，1×透明PNG192×15，4×768×60仅最近邻复制，不补画、不借ASCII、不称原机画面复刻。",
+    "nativeEvidence": {
+      "summary": "FNT恰含2,858个30字节原槽；IDX按小端uint16的一基槽号与压紧Big5尾码结构恢复2,857映射。来源与映射边界详见方法页。",
+      "sourceUrl": "https://github.com/rwv/chinese-dos-games/blob/master/games.json",
+      "source_sha256": "6b7636fa7d34bf9406f7ba8dc55fe94db1f54d3a62a5c6c6a8084e13bf07cbc5",
+      "sourceBytes": 85740,
+      "indexSha256": "867ffc028e1c8c6b6bd5085ad794c01010b4311fb28023766b6743f1067fed0d",
+      "indexBytes": 30210,
+      "storageCell": [
+        16,
+        15
+      ],
+      "bitsPerPixel": 1,
+      "bytesPerGlyph": 30,
+      "sourceSlots": 2858,
+      "mappedUnicode": 2857,
+      "nonemptyHan": 2832,
+      "nonHan": 25,
+      "blankMappedCharacters": [
+        "U+3000"
+      ],
+      "unmappedSlots": 1,
+      "gameEncodingVerified": false,
+      "physicalDumpVerified": false,
+      "metricsStatus": "preview-convention-not-verified-game-metrics"
+    },
+    "priority": 0,
+    "sourceIndex": 294,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "自行取得有权处理且大小、SHA一致的CHINESE.FNT与CHINESE.IDX；离线工具只重绘批准固定十二字的1×/4×PNG，不联网、不执行游戏、不接受任意文本、不导出完整字体。",
+      "links": [
+        {
+          "label": "来源、映射、查重范围与固定预览重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/emperor-dos.md",
+          "action": "method"
+        },
+        {
+          "label": "可浏览保存项目索引",
+          "url": "https://github.com/rwv/chinese-dos-games/blob/master/games.json",
+          "action": "source"
+        }
+      ],
+      "checkedOn": "2026-11-11"
+    }
   }
 ];

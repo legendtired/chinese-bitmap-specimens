@@ -1,3 +1,4 @@
+from approved_emperor import IDS as EMPEROR_IDS
 from approved_simsun import IDS as SIMSUN_IDS, before_simsun_bytes
 from approved_four import before_four_rows,before_four_data,IDS
 """Exact 247-row preservation and fixed-source HITECH scope."""
@@ -23,7 +24,7 @@ assert r['asciiOrigin']=='absent' and not r['asciiText'] and 'asciiPairing' not 
 assert r['nativeEvidence']['big5Han']==13061 and r['nativeEvidence']['compatibilityHan']==2 and r['nativeEvidence']['cp950ExtensionHan']==7
 assert not any('xeen' in row['id'].lower() for row in rows)
 assert before_four_data('data/collection-history.json',read('data/collection-history.json'))['batches'][-1]=={'sourceManifest':'release-hitech-adp3.json','ids':[ID]}
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in SIMSUN_IDS and p.stem not in IDS])==248
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS) and p.stem not in IDS])==248
 for data,path in [(copy.deepcopy(rows),'data/catalog.json'),(copy.deepcopy(read('data/collection-history.json')),'data/collection-history.json')]:
  if isinstance(data,list):data[-1]['name']+=' UNREVIEWED'
  else:data['batches'][-1]['ids'].append('UNREVIEWED')

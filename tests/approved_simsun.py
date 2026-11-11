@@ -1,4 +1,5 @@
 """Exactly undo the reviewed SimSun version release for historical audits only."""
+from approved_emperor import before_emperor_rows,before_emperor_data,before_emperor_bytes
 from pathlib import Path
 import copy, hashlib, json, re, sys
 ROOT=Path(__file__).resolve().parents[1]
@@ -10,6 +11,7 @@ def original_rows():
     value=MANIFEST.get('modifiedRowsBefore',{})
     return value if isinstance(value,dict) else {r['id']:r for r in value}
 def before_simsun_rows(rows):
+    rows=before_emperor_rows(rows)
     old=original_rows();result=[]
     for row in rows:
         ident=row['id']
@@ -23,6 +25,7 @@ def before_simsun_rows(rows):
     return result
 
 def before_simsun_data(path,value):
+    value=before_emperor_data(path,value)
     if path=='data/catalog.json':return before_simsun_rows(value)
     value=copy.deepcopy(value)
     if path=='data/collection-history.json':
@@ -44,7 +47,7 @@ def before_simsun_data(path,value):
     return value
 
 def before_simsun_bytes(path,root=ROOT):
-    data=(root/path).read_bytes()
+    data=before_emperor_bytes(path,root)
     if path in ('data/catalog.json','data/collection-history.json','data/summary.json'):
         return (json.dumps(before_simsun_data(path,json.loads(data)),ensure_ascii=False,indent=2)+'\n').encode()
     if path in ('data/catalog.js','data/collection-history.js'):
@@ -62,7 +65,7 @@ def before_simsun_bytes(path,root=ROOT):
         import generate_static as generator
         text=data.decode()
         for asset in ('data/catalog.js','data/collection-history.js','app.js'):
-            current=sha((root/asset).read_bytes())[:16];previous=sha(before_simsun_bytes(asset,root))[:16]
+            current=sha(before_emperor_bytes(asset,root))[:16];previous=sha(before_simsun_bytes(asset,root))[:16]
             tag=f'src="{asset}?v={current}"';assert text.count(tag)==1
             text=text.replace(tag,f'src="{asset}?v={previous}"',1)
         for ident in IDS:

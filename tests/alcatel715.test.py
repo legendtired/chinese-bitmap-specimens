@@ -1,3 +1,4 @@
+from approved_emperor import IDS as EMPEROR_IDS
 from approved_simsun import IDS as SIMSUN_IDS, before_simsun_bytes
 from approved_psp_bwfont import before_psp_data, ID as PSP_ID
 """Approved one-item addition, source-native fixed PNG, immutable existing catalog."""
@@ -26,7 +27,7 @@ im=Image.open(p); assert im.size==(r['specimenWidth'],r['specimenHeight']) and i
 assert len(a.LINES)==4 and r['text'].splitlines()==a.LINES[:3] and r['asciiText']==a.LINES[3]
 assert r['nativeEvidence']['source_sha256']==a.EXPECTED
 assert read('data/summary.json')['rows']==241
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in SIMSUN_IDS and p.stem not in ('ms_song_14', 'siemens_xelibri_14', 'windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16','hitech_adp3_24', 'sc_song_13', 'samsung_ypt6_14x16', PSP_ID, 'olympus_mrobe_mr100_12')])==241
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS) and p.stem not in ('ms_song_14', 'siemens_xelibri_14', 'windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16','hitech_adp3_24', 'sc_song_13', 'samsung_ypt6_14x16', PSP_ID, 'olympus_mrobe_mr100_12')])==241
 assert read('data/collection-history.json')['batches'][-1]=={'sourceManifest':'release-alcatel715.json','ids':m['addedIds']}
 with tempfile.TemporaryDirectory() as td:
     bad=Path(td)/'bad.dat';bad.write_bytes(b'not a firmware')

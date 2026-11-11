@@ -271,6 +271,12 @@ window.FONT_COLLECTION_HISTORY = {
         "simsun_v503_12",
         "simsun_v503_14"
       ]
+    },
+    {
+      "sourceManifest": "release-emperor-dos.json",
+      "ids": [
+        "emperor_dos_16x15"
+      ]
     }
   ]
 };
