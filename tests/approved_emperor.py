@@ -1,4 +1,5 @@
 """Undo only the one reviewed Emperor addition for immutable historical audits."""
+from approved_advisor import before_advisor_rows,before_advisor_data,before_advisor_bytes
 from pathlib import Path
 import copy,hashlib,json,re
 ROOT=Path(__file__).resolve().parents[1]
@@ -7,12 +8,14 @@ IDS=MANIFEST['addedIds']
 def sha(value):return hashlib.sha256(value).hexdigest()
 def digest(value):return sha(json.dumps(value,ensure_ascii=False,sort_keys=True).encode())
 def before_emperor_rows(rows):
+    rows=before_advisor_rows(rows)
     found=[r for r in rows if r['id'] in IDS]
     if found:
         assert len(found)==1 and digest(found[0])==MANIFEST['rowSha256'], 'Unreviewed Emperor row'
     assert len({r['id'] for r in rows})==len(rows), 'Duplicate row'
     return [r for r in rows if r['id'] not in IDS]
 def before_emperor_data(path,value):
+    value=before_advisor_data(path,value)
     if path=='data/catalog.json':return before_emperor_rows(value)
     value=copy.deepcopy(value)
     if path=='data/collection-history.json':
@@ -26,7 +29,7 @@ def before_emperor_data(path,value):
     return value
 
 def before_emperor_bytes(path,root=ROOT):
-    data=(root/path).read_bytes()
+    data=before_advisor_bytes(path,root)
     if path in ('data/catalog.json','data/collection-history.json','data/summary.json'):
         return (json.dumps(before_emperor_data(path,json.loads(data)),ensure_ascii=False,indent=2)+'\n').encode()
     if path in ('data/catalog.js','data/collection-history.js'):
@@ -40,7 +43,7 @@ def before_emperor_bytes(path,root=ROOT):
     if path=='index.html':
         text=data.decode()
         for asset in ('data/catalog.js','data/collection-history.js','app.js'):
-            current=sha((root/asset).read_bytes())[:16];prior=sha(before_emperor_bytes(asset,root))[:16]
+            current=sha(before_advisor_bytes(asset,root))[:16];prior=sha(before_emperor_bytes(asset,root))[:16]
             tag=f'src="{asset}?v={current}"';assert text.count(tag)==1
             text=text.replace(tag,f'src="{asset}?v={prior}"',1)
         text,count=re.subn(r'<article class="specimen" data-row-id="emperor_dos_16x15">.*?</article>\n','',text,flags=re.S);assert count==1

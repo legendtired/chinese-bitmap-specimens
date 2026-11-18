@@ -1,3 +1,4 @@
+from approved_advisor import before_advisor_rows,before_advisor_data,before_advisor_bytes,MANIFEST as advisor
 """One approved Emperor specimen, original pixels, and narrow publication scope."""
 import copy,hashlib,importlib.util,json,os,subprocess,sys,tempfile,unittest
 from pathlib import Path
@@ -9,20 +10,21 @@ FNT=os.environ.get('EMPEROR_FNT');IDX=os.environ.get('EMPEROR_IDX')
 def png(scale):return R/'assets/specimens'/('emperor_dos_16x15'+('' if scale==1 else '_4x')+'.png')
 class Public(unittest.TestCase):
  def test_scope_and_preservation(self):
-  rows=json.loads((R/'data/catalog.json').read_text());old=before_emperor_rows(rows)
+  rows=before_advisor_rows(json.loads((R/'data/catalog.json').read_text()));old=before_emperor_rows(rows)
   self.assertEqual(IDS,['emperor_dos_16x15']);self.assertEqual(len(rows),257);self.assertEqual(len(old),256)
   self.assertEqual(digest(old),MANIFEST['baseRowsSha256']);self.assertEqual(digest(rows[-1]),MANIFEST['rowSha256'])
   self.assertEqual(rows[-1]['priority'],0);self.assertEqual(sum(r['priority']>0 for r in rows),20)
   for p,h in MANIFEST['baseFilesSha256'].items():self.assertEqual(sha(before_emperor_bytes(p)),h,p)
-  for p,h in MANIFEST['newFileHashes'].items():self.assertEqual(sha((R/p).read_bytes()),h,p)
+  for p,h in MANIFEST['newFileHashes'].items():self.assertEqual(sha(before_advisor_bytes(p)),h,p)
   actual={str(p.relative_to(R)) for p in R.rglob('*') if p.is_file() and '.git' not in p.parts and '__pycache__' not in p.parts}
+  actual-=set(advisor['newPaths'])
   self.assertEqual(actual,set(MANIFEST['baseFilesSha256'])|set(MANIFEST['newPaths']))
   for p in actual:
    q=R/p;self.assertFalse(q.is_symlink());self.assertEqual(q.stat().st_nlink,1)
    self.assertNotIn(q.suffix.lower(),{'.fnt','.idx','.bdf','.ttf','.otf','.fon','.zip','.rom','.bin','.7z'})
   bad=copy.deepcopy(rows);bad[-1]['name']+=' changed'
   with self.assertRaises(AssertionError):before_emperor_rows(bad)
-  bad=json.loads((R/'data/collection-history.json').read_text());bad['batches'][-1]['ids'].append('wrong')
+  bad=before_advisor_data('data/collection-history.json',json.loads((R/'data/collection-history.json').read_text()));bad['batches'][-1]['ids'].append('wrong')
   with self.assertRaises(AssertionError):before_emperor_data('data/collection-history.json',bad)
  def test_fixed_pixels_and_hashes(self):
   self.assertEqual((m.TEXT,m.WIDTH,m.HEIGHT),('視野無限廣，窗外有藍天。',16,15))

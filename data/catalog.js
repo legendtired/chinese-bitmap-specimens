@@ -18180,5 +18180,86 @@ window.FONT_CATALOG = [
       ],
       "checkedOn": "2026-11-11"
     }
+  },
+  {
+    "id": "motorola_advisor_16",
+    "name": "Motorola Advisor · 16×16",
+    "family": "Motorola Advisor 中文寻呼机",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "inkWidth": null,
+    "inkHeight": null,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/motorola_advisor_16.png",
+    "specimenWidth": 160,
+    "specimenHeight": 16,
+    "specimenSha256": "1330f1a54550f2c788c6ab2a028df6d5a3b372a9dbb7fe96f8693bd3857f3c4a",
+    "text": "视野无限广窗外有蓝天",
+    "asciiText": "",
+    "sampleKind": "standard",
+    "sampleLabel": "中文寻呼机字库ROM中的原生16×16汉字；符号与ASCII尚未核验，本图只展示十个汉字，不借字。",
+    "coverage": "已核全部6,763个GB2312汉字（一级3,755、二级3,008），均有非空字模。符号、ASCII及词组表尚未完整核验；不声称7,445个GB2312字符全覆盖或完整繁体字库。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceUrl": "https://0w0.pw/529.html",
+    "sourceLabel": "原作者 Motorola Advisor 中文寻呼机字库分析",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "原字体作者及开放许可未查明，公开转储不等于使用、商用或再分发授权。本站仅展示固定短样图与来源说明，不提供原ROM、完整BDF、WOFF2或全字形数组。",
+    "provenance": "2026-08-22发布的第三方分析及转储，作者称来源为和记定制中文Motorola Advisor，U8为Toshiba TC532000AF掩膜ROM。芯片实物身份、设备年代及字体设计来源未独立认证，文章日期不当作字体设计年。未执行固件。",
+    "notes": "作为独立设备字库条目收录，不表示原创设计已认证。对照293份可得BDF，同Unicode去除外围空白后逐像素比较，不缩放；Samsung R208最高2,258/6,763字同形（33.39%），另4,505字不同。一级1,291/3,755、二级967/3,008同形，不能据此确定共同设计来源、供应商或复制方向，也不据样文相同合并整库。",
+    "layoutNote": "固定十字原像素PNG160×16；16px字进及上对齐为预览排版约定，不冒充原机度量。每字32字节，分上下两个8行页，每页16列，每字节低位在上；不裁字框、不补画、不借字、不平滑。",
+    "nativeEvidence": {
+      "summary": "262,144字节ROM；6,763个GB2312汉字逐一映射、非空，并与导出BDF回读及作者WOFF2矩形网格逐像素吻合。验证原像素及表示一致性，不证明原创性或历史归属。",
+      "sourceUrl": "https://0w0.pw/529.html",
+      "source_sha256": "3e128f4c3a7b40309f54e69d7fe752664c135f21e2786e849e806c237f4e5132",
+      "sourceBytes": 262144,
+      "storageCell": [
+        16,
+        16
+      ],
+      "bitsPerPixel": 1,
+      "bytesPerGlyph": 32,
+      "gb2312Han": 6763,
+      "runtimeAdvance": null,
+      "runtimeBaseline": null
+    },
+    "priority": 0,
+    "sourceIndex": 295,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "source",
+      "steps": [],
+      "notice": "先阅读原作者分析与字库浏览器，自行核对来源及使用许可。本站只保留固定汉字短样图和核验说明，不托管或直链完整字库。",
+      "links": [
+        {
+          "label": "原作者分析与获取线索",
+          "url": "https://0w0.pw/529.html",
+          "action": "source"
+        },
+        {
+          "label": "作者字库浏览器",
+          "url": "https://0w0.pw/pager-encode/",
+          "action": "reference"
+        },
+        {
+          "label": "覆盖、来源与比较边界",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/motorola-advisor.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-18"
+    }
   }
 ];

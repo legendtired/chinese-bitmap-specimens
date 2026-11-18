@@ -1,3 +1,4 @@
+from approved_advisor import IDS as ADVISOR_IDS
 from approved_emperor import IDS as EMPEROR_IDS
 from approved_simsun import IDS as SIMSUN_IDS, before_simsun_bytes
 from approved_four import before_four_rows,before_four_data,IDS
@@ -24,7 +25,7 @@ assert r['asciiOrigin']=='absent' and not r['asciiText'] and 'asciiPairing' not 
 assert r['nativeEvidence']['big5Han']==13061 and r['nativeEvidence']['compatibilityHan']==2 and r['nativeEvidence']['cp950ExtensionHan']==7
 assert not any('xeen' in row['id'].lower() for row in rows)
 assert before_four_data('data/collection-history.json',read('data/collection-history.json'))['batches'][-1]=={'sourceManifest':'release-hitech-adp3.json','ids':[ID]}
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS) and p.stem not in IDS])==248
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS) and p.stem not in IDS])==248
 for data,path in [(copy.deepcopy(rows),'data/catalog.json'),(copy.deepcopy(read('data/collection-history.json')),'data/collection-history.json')]:
  if isinstance(data,list):data[-1]['name']+=' UNREVIEWED'
  else:data['batches'][-1]['ids'].append('UNREVIEWED')
@@ -34,6 +35,10 @@ for data,path in [(copy.deepcopy(rows),'data/catalog.json'),(copy.deepcopy(read(
 print('HITECH integration: original 247 metadata, previews, pages, 17 recommendations, UI and historical hashes PASS')
 # Prove normalization cannot hide edits to original rows, counters, UI or pages.
 import tempfile,shutil
+def tamper_detected(path,root):
+    # The newest exact snapshot guard may reject tampering before a hash is returned.
+    try:return sha(before_hitech_adp3_bytes(path,root))!=m['baseFilesSha256'][path]
+    except AssertionError:return True
 with tempfile.TemporaryDirectory() as td:
     td=Path(td)
     paths=list(m['baseFilesSha256'])+[f"fonts/{old[0]['id']}.html",old[0]['specimen']]
@@ -44,7 +49,7 @@ with tempfile.TemporaryDirectory() as td:
         if key=='name':altered[0][key]+=' UNREVIEWED'
         else:altered[0][key]+=1
         (td/'data/catalog.json').write_text(json.dumps(altered,ensure_ascii=False,indent=2)+'\n')
-        assert sha(before_hitech_adp3_bytes('data/catalog.json',td))!=m['baseFilesSha256']['data/catalog.json']
+        assert tamper_detected('data/catalog.json',td)
     (td/'data/catalog.json').write_bytes((ROOT/'data/catalog.json').read_bytes())
     for p in ('data/summary.json','app.js','styles.css'):
         raw=(td/p).read_bytes()
@@ -52,7 +57,7 @@ with tempfile.TemporaryDirectory() as td:
             altered=json.loads(raw);altered['rows']+=1;data=(json.dumps(altered,ensure_ascii=False,indent=2)+'\n').encode()
         else:data=raw+b'\n/* unreviewed */\n'
         (td/p).write_bytes(data)
-        assert sha(before_hitech_adp3_bytes(p,td))!=m['baseFilesSha256'][p]
+        assert tamper_detected(p,td)
         (td/p).write_bytes(raw)
     p=f"fonts/{old[0]['id']}.html";raw=(td/p).read_bytes();(td/p).write_bytes(raw+b'<!-- unreviewed -->')
     assert sha((td/p).read_bytes())!=sha((ROOT/p).read_bytes())

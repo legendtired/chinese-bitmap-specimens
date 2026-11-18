@@ -277,6 +277,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "emperor_dos_16x15"
       ]
+    },
+    {
+      "sourceManifest": "release-motorola-advisor.json",
+      "ids": [
+        "motorola_advisor_16"
+      ]
     }
   ]
 };
