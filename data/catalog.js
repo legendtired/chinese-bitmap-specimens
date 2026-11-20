@@ -18261,5 +18261,83 @@ window.FONT_CATALOG = [
       ],
       "checkedOn": "2026-11-18"
     }
+  },
+  {
+    "id": "wonder_ent702ve_16",
+    "name": "旺德 ENT-702VE(R) · 16×16",
+    "family": "Wonder 旺德 ENT-702VE(R)",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/wonder_ent702ve_16.png",
+    "specimenWidth": 208,
+    "specimenHeight": 36,
+    "specimenSha256": "100a5781dff7606d603d64fc18175dbdc5eaf25aeee74d99d2fe755c33313054",
+    "text": "山东省视频信号输入菜单片永\n山東省視頻信號輸入選單片永",
+    "asciiText": "",
+    "sampleKind": "standard",
+    "sampleLabel": "MP3 播放器固件原生 16×16 点阵，上简体、下繁体。",
+    "coverage": "GB2312 汉字 6,763/6,763；基本 Big5 统一汉字 13,060/13,061，本层未见「褋」的非空映射。两层未核到独立半角 ASCII 字样，不代表整机没有英数。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "absent",
+    "sourceUrl": "https://service.wonder.tw/downloadgo1.asp?itemcode=L2&kindcode=MP31",
+    "sourceLabel": "旺德 ENT-702VE(R) 官方下载页",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "官方提供固件下载，不等于字体开放授权。本站仅展示固定短样图及来源，不公开原固件或完整字库。",
+    "provenance": "从旺德官方升级包的 AFI / FWIMAGE 原始位图资源静态读取。外层包头日期为 2007-07-31，非字体设计日期；设计作者与最早来源未知。",
+    "notes": "GB2312 和 Big5 两层共有的 4,383 个汉字原始点阵逐字完全相同，故合为一项。与可得旧藏 BDF 和另一份 Actions 字库未见近全层重复，不代表完成全目录去重。",
+    "layoutNote": "每字 32 字节、上下各 8 行，按列存储，每列最高位在上。以 16px 字进展示原字框，无补字或缩放；字进与行距不冒充实机度量。",
+    "nativeEvidence": {
+      "summary": "同一官方固件内的两层 1 位 16×16 点阵与同包 Unicode 映射，按原位图解码。共享汉字逐一比对原始存储字节。",
+      "sourceUrl": "https://service.wonder.tw/downloadgo1.asp?itemcode=L2&kindcode=MP31",
+      "source_sha256": "66976ad42a869df4e424d5ffd0c78d50717edacccafa5c407ec639e1f34b3de6",
+      "sourceBytes": 9155584,
+      "storageCell": [
+        16,
+        16
+      ],
+      "bitsPerPixel": 1,
+      "bytesPerGlyph": 32,
+      "gb2312Han": 6763,
+      "big5Han": 13060,
+      "big5ExpectedHan": 13061,
+      "sharedIdenticalHan": 4383,
+      "runtimeAdvance": null,
+      "runtimeBaseline": null
+    },
+    "priority": 0,
+    "sourceIndex": 296,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "可在旺德官方页面核对同名固件；本站仅提供固定字样的离线重绘方法。",
+      "links": [
+        {
+          "label": "旺德官方资料页",
+          "url": "https://service.wonder.tw/downloadgo1.asp?itemcode=L2&kindcode=MP31",
+          "action": "source"
+        },
+        {
+          "label": "来源、覆盖与固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/wonder-ent702ve.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-20"
+    }
   }
 ];

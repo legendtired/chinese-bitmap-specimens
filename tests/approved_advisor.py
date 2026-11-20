@@ -1,4 +1,5 @@
 """Undo only the exact, reviewed Advisor release for historical snapshot audits."""
+from approved_wonder import before_wonder_bytes, before_wonder_data, before_wonder_rows
 from pathlib import Path
 import copy, hashlib, json, re
 ROOT=Path(__file__).resolve().parents[1]
@@ -7,6 +8,7 @@ IDS=MANIFEST['addedIds']
 def sha(data):return hashlib.sha256(data).hexdigest()
 def digest(value):return sha(json.dumps(value,ensure_ascii=False,sort_keys=True).encode())
 def before_advisor_rows(rows):
+    rows=before_wonder_rows(rows)
     found=[r for r in rows if r['id'] in IDS]
     if found:
         assert len(found)==1 and digest(found[0])==MANIFEST['rowSha256'], 'Unreviewed Advisor row'
@@ -14,6 +16,7 @@ def before_advisor_rows(rows):
     assert len({r['id'] for r in rows})==len(rows), 'Duplicate row'
     return [r for r in rows if r['id'] not in IDS]
 def before_advisor_data(path,value):
+    value=before_wonder_data(path,value)
     if path=='data/catalog.json':return before_advisor_rows(value)
     value=copy.deepcopy(value)
     if path=='data/collection-history.json':
@@ -27,7 +30,7 @@ def before_advisor_data(path,value):
     return value
 
 def before_advisor_bytes(path,root=ROOT):
-    data=(root/path).read_bytes()
+    data=before_wonder_bytes(path,root)
     if path in MANIFEST['changedFileHashes']:
         assert sha(data)==MANIFEST['changedFileHashes'][path], 'Unreviewed Advisor file: '+path
     if path in ('data/catalog.json','data/collection-history.json','data/summary.json'):
@@ -43,7 +46,7 @@ def before_advisor_bytes(path,root=ROOT):
     if path=='index.html':
         text=data.decode()
         for asset in ('data/catalog.js','data/collection-history.js','app.js'):
-            current=sha((root/asset).read_bytes())[:16];prior=sha(before_advisor_bytes(asset,root))[:16]
+            current=sha(before_wonder_bytes(asset,root))[:16];prior=sha(before_advisor_bytes(asset,root))[:16]
             tag=f'src="{asset}?v={current}"';assert text.count(tag)==1
             text=text.replace(tag,f'src="{asset}?v={prior}"',1)
         text,count=re.subn(r'<article class="specimen" data-row-id="motorola_advisor_16">.*?</article>\n','',text,flags=re.S);assert count==1

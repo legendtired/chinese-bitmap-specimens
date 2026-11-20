@@ -1,3 +1,4 @@
+from approved_wonder import MANIFEST as WONDER_MANIFEST
 from approved_advisor import before_advisor_rows,before_advisor_data,before_advisor_bytes,MANIFEST as advisor
 """One approved Emperor specimen, original pixels, and narrow publication scope."""
 import copy,hashlib,importlib.util,json,os,subprocess,sys,tempfile,unittest
@@ -17,7 +18,7 @@ class Public(unittest.TestCase):
   for p,h in MANIFEST['baseFilesSha256'].items():self.assertEqual(sha(before_emperor_bytes(p)),h,p)
   for p,h in MANIFEST['newFileHashes'].items():self.assertEqual(sha(before_advisor_bytes(p)),h,p)
   actual={str(p.relative_to(R)) for p in R.rglob('*') if p.is_file() and '.git' not in p.parts and '__pycache__' not in p.parts}
-  actual-=set(advisor['newPaths'])
+  actual-=set(advisor['newPaths']) | set(WONDER_MANIFEST['newPaths'])
   self.assertEqual(actual,set(MANIFEST['baseFilesSha256'])|set(MANIFEST['newPaths']))
   for p in actual:
    q=R/p;self.assertFalse(q.is_symlink());self.assertEqual(q.stat().st_nlink,1)

@@ -283,6 +283,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "motorola_advisor_16"
       ]
+    },
+    {
+      "sourceManifest": "release-wonder-ent702ve.json",
+      "ids": [
+        "wonder_ent702ve_16"
+      ]
     }
   ]
 };
