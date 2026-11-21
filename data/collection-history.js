@@ -296,6 +296,12 @@ window.FONT_COLLECTION_HISTORY = {
         "zhenhan_16x15",
         "zhenhan_kaiti_24"
       ]
+    },
+    {
+      "sourceManifest": "release-palm-cjkos-gbk24.json",
+      "ids": [
+        "palm_cjkos_gbk_24"
+      ]
     }
   ]
 };

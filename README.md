@@ -135,3 +135,9 @@ python3 scripts/workspace.py check
 目录单源为 `data/catalog.json`。原字体、ROM 和研究输入放在被忽略的 `local-research/`，不随网站发布。详见[开发说明](docs/DEVELOPMENT.md)与[部署说明](docs/deployment.md)。
 
 - [MStar 电视/DVB 简体18点](docs/mstar-18.md)：18×18存储、最大字面14×14；完整GB2312与原生ASCII，附离线导出方法。
+
+### Palm CJKOS GBK 24×24
+
+![Palm CJKOS GBK 24×24 简繁原生字样](assets/specimens/palm_cjkos_gbk_24.png)
+
+[来源与覆盖说明](docs/palm-cjkos-gbk24.md)。不含普通 ASCII，不公开完整字库。

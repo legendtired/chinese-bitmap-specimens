@@ -1,3 +1,4 @@
+from approved_palm_gbk24 import MANIFEST as PALM
 from approved_zhenhan import MANIFEST as ZHENHAN
 """One separate Advisor entry, unchanged prior collection and no complete fonts."""
 from pathlib import Path
@@ -14,7 +15,7 @@ class Advisor(unittest.TestCase):
   for p,h in M['baseFilesSha256'].items():self.assertEqual(sha(before_advisor_bytes(p)),h,p)
   for p,h in M['newFileHashes'].items():self.assertEqual(sha(before_wonder_bytes(p)),h,p)
   actual={str(p.relative_to(R)) for p in R.rglob('*') if p.is_file() and '.git' not in p.parts and '__pycache__' not in p.parts}
-  actual-=set(WONDER['newPaths']) | set(ZHENHAN['newPaths'])
+  actual-=set(WONDER['newPaths']) | (set(ZHENHAN['newPaths']) | set(PALM['newPaths']))
   self.assertEqual(actual,set(M['baseFilesSha256'])|set(M['newPaths']))
   for p in actual:
    f=R/p;self.assertFalse(f.is_symlink());self.assertEqual(f.stat().st_nlink,1)

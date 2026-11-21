@@ -18496,5 +18496,78 @@ window.FONT_CATALOG = [
       ],
       "checkedOn": "2026-11-21"
     }
+  },
+  {
+    "id": "palm_cjkos_gbk_24",
+    "name": "Palm CJKOS GBK · 24×24",
+    "family": "Palm CJKOS",
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "sampleKind": "standard",
+    "asciiOrigin": "absent",
+    "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+    "licenseNote": "CJKOS为历史共享软件；未确证独立字体再分发授权。",
+    "nativeEvidence": {
+      "summary": "PDB FBLK 原生 1bpp、每字 72 字节、逐行 MSB 左；GBK 三段槽位映射，经严格编码往返与 BDF 像素回读核验。制作与调校史未核。",
+      "sourceUrl": "https://www.njstar.com/cms/cjk-os-for-palm",
+      "source_sha256": "84dc1305137db51d2ca59f15f34c251ede1b03c22e5e83c9e13413e8a29ee340",
+      "storageCell": [
+        24,
+        24
+      ],
+      "bitsPerPixel": 1,
+      "mappedCodepoints": 21791,
+      "basicHan": 20902,
+      "unmappedNonblankSlots": 95
+    },
+    "coverage": "严格 GBK 往返映射 21,791 码位，含 20,902 个基本区汉字及全部 6,763 个 GB2312 汉字。另有 95 个非空未映射槽，不猜配 Unicode。原 PDB 不含普通 ASCII。",
+    "missing": [],
+    "width": 24,
+    "height": 24,
+    "text": "视野无限广，窗外有蓝天。\n視野無限廣，窗外有藍天。",
+    "asciiText": "",
+    "hanMissing": [],
+    "asciiMissing": [],
+    "provenance": "PalmDB CJKOS 保存件中的 OS5 字体资源 FGBK24F.PDB；直接读取 dFnt/dCJK 数据库内的 FBLK 点阵，不运行软件。OS5 GBK 支持于 2003 年引入；当前保存载体较晚，不能据此认定这份位图的设计或首发年份。",
+    "styles": [
+      "宋体点阵"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "notes": "只收 FGBK24F，不将无 K 的 FGB24F 当作同一字库。已取得的现行及已移除项字库比对未发现整库重复，仍不能证明原创或排除未取得来源。原像素和 24×24 字框不变；没有普通 ASCII，不借入 Sony CLIÉ 系统字体。",
+    "licenseStatus": "以来源及权利人许可为准",
+    "sourceLabel": "来源项目 / 资料页",
+    "priority": 0,
+    "sourceIndex": 299,
+    "specimen": "assets/specimens/palm_cjkos_gbk_24.png",
+    "specimenWidth": 288,
+    "specimenHeight": 52,
+    "specimenSha256": "a74ffa122e54e1b69876f563ae86bbcc7674adb508e1c362e3d47784d40f555b",
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "通过历史来源页辨认 OS5 保存件内 Font/FGBK24F.PDB。只展示固定字样，不公开原 PDB、完整 BDF 或未映射字模；使用须遵循原权利人的许可。",
+      "links": [
+        {
+          "label": "CJKOS 历史来源页",
+          "url": "https://palmdb.net/app/cjkos",
+          "action": "source"
+        },
+        {
+          "label": "来源与覆盖说明",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/palm-cjkos-gbk24.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-21"
+    },
+    "sampleLabel": "原生 24×24：上简体、下繁体；两行均来自 FGBK24F，未配系统西文。",
+    "layoutNote": "上简体、下繁体，行间 4px；每格 24×24，标点也来自同一 PDB。固定样图排版，不宣称原机实际混排基线。"
   }
 ];

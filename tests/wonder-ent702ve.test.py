@@ -1,3 +1,4 @@
+from approved_palm_gbk24 import MANIFEST as PALM
 """Verify this exact one-entry Wonder release and its public artifact boundary."""
 from approved_zhenhan import before_zhenhan_rows, before_zhenhan_data, before_zhenhan_bytes, MANIFEST as ZHENHAN
 import copy
@@ -39,7 +40,7 @@ class Wonder(unittest.TestCase):
             if p.is_file() and '.git' not in p.relative_to(ROOT).parts
             and '__pycache__' not in p.relative_to(ROOT).parts
         }
-        self.assertEqual(actual - set(ZHENHAN['newPaths']), base | new)
+        self.assertEqual(actual - (set(ZHENHAN['newPaths']) | set(PALM['newPaths'])), base | new)
         for path in actual:
             f = ROOT / path
             self.assertFalse(f.is_symlink(), path)

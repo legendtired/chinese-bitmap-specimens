@@ -1,4 +1,5 @@
 """Exact reversal of one reviewed Zhenhan batch for immutable historical audits."""
+from approved_palm_gbk24 import before_palm_gbk24_rows, before_palm_gbk24_data, before_palm_gbk24_bytes
 from pathlib import Path
 import copy
 import hashlib
@@ -22,6 +23,7 @@ def digest(value):
 
 
 def before_zhenhan_rows(rows):
+    rows = before_palm_gbk24_rows(rows)
     found = [r for r in rows if r['id'] in IDS]
     if found:
         assert [r['id'] for r in found] == IDS and rows[-len(IDS):] == found, 'Unreviewed Zhenhan rows/order'
@@ -31,6 +33,7 @@ def before_zhenhan_rows(rows):
 
 
 def before_zhenhan_data(path, value):
+    value = before_palm_gbk24_data(path, value)
     if path == 'data/catalog.json':
         return before_zhenhan_rows(value)
     value = copy.deepcopy(value)
@@ -46,7 +49,7 @@ def before_zhenhan_data(path, value):
 
 
 def before_zhenhan_bytes(path, root=ROOT):
-    data = (root/path).read_bytes()
+    data = before_palm_gbk24_bytes(path, root)
     if path not in MANIFEST['changedFileHashes']:
         return data
     assert sha(data) == MANIFEST['changedFileHashes'][path], 'Unreviewed Zhenhan change: ' + path
@@ -68,7 +71,7 @@ def before_zhenhan_bytes(path, root=ROOT):
     elif path == 'index.html':
         original = data.decode()
         for asset in (*JS_PATHS, 'app.js'):
-            current = sha((root/asset).read_bytes())[:16]
+            current = sha(before_palm_gbk24_bytes(asset, root))[:16]
             previous = sha(before_zhenhan_bytes(asset, root))[:16]
             tag = f'src="{asset}?v={current}"'
             assert original.count(tag) == 1, asset
