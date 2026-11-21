@@ -18339,5 +18339,162 @@
       ],
       "checkedOn": "2026-11-20"
     }
+  },
+  {
+    "id": "zhenhan_16x15",
+    "name": "延伸震汉 · 16×15 简繁",
+    "family": "延伸震汉中文系统 V3.00",
+    "width": 16,
+    "height": 15,
+    "cellWidth": 16,
+    "cellHeight": 15,
+    "scripts": [
+      "简体",
+      "繁体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/zhenhan_16x15.png",
+    "specimenWidth": 216,
+    "specimenHeight": 53,
+    "specimenSha256": "1916b54ec7cc5d1566f1de4bdb0500db5c1cb05fcf353c47f3c37813991f421c",
+    "text": "视野无限广，窗外有蓝天。\n視野無限廣，窗外有藍天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生 16×15 显示点阵：上简体、中繁体；末行原配 8×15 英数。",
+    "coverage": "简繁各有 13,094 个物理槽，不等于简体 Unicode 码位数；原配半角英数样文。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "verified_companion",
+    "sourceUrl": "https://oddownload.nuduseng.com/?dir=11%E8%80%81%E5%85%89%E7%9B%98%E7%BE%A4(%E7%BE%A4%E5%8F%B7854318908)%E7%BE%A4%E5%8F%8B%E5%88%86%E4%BA%AB%E6%B1%87%E6%80%BB+2019%E5%B9%B410%E6%9C%88/2019-10-20/2474118971/DOS%E8%BD%AF%E4%BB%B6/%E6%B1%87%E9%BE%99%E8%BD%AF%E4%BB%B6",
+    "sourceLabel": "汇龙软件 CD2 历史存档目录（项目 043）",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "历史软件存档并不意味着版权方允许再分发；只展示固定短样图和来源，不公开字库、字形映射或安装介质。",
+    "provenance": "汇龙 CD2 项目 043。盘 2 README.HAN 标示延伸科技股份有限公司、V3.00（1992-09-01），盘 7 有 10/25 更新；非字体设计日期。安装盘只作静态读取。盘 1 的 SIMPLE1/2.15 和 HANSTD1/2.15 是简繁显示资源。",
+    "notes": "繁体与可得 KC16 比较 7,990/13,051 原标签同形；简体与 KCCHIN16.F15 原槽对照 4,578/13,051 同形。保留发行差异，不断言原创关系。",
+    "layoutNote": "汉字逐行原样读出，保留 16×15 字框，以原区位读取简体字形，不声称完整 Unicode 映射。标点来自震汉同套发行媒体的资源 HAN-GR.15；英数来自 HAN-ASC.15，以原 8×15 像素展示。字进和行距只作固定预览。",
+    "nativeEvidence": {
+      "summary": "同一原发行媒体中分别存放汉字、原配标点与半角英数点阵。固定短样按源槽重绘。",
+      "sourceUrl": "https://oddownload.nuduseng.com/?dir=11%E8%80%81%E5%85%89%E7%9B%98%E7%BE%A4(%E7%BE%A4%E5%8F%B7854318908)%E7%BE%A4%E5%8F%8B%E5%88%86%E4%BA%AB%E6%B1%87%E6%80%BB+2019%E5%B9%B410%E6%9C%88/2019-10-20/2474118971/DOS%E8%BD%AF%E4%BB%B6/%E6%B1%87%E9%BE%99%E8%BD%AF%E4%BB%B6",
+      "archiveSha256": "e59284136e03c8ffc815a99c4381e2d4e463dd98f95ab64d24d772613700b26c",
+      "softwareReleaseYear": 1992,
+      "storageCell": [
+        16,
+        15
+      ],
+      "bitsPerPixel": 1,
+      "storageSlots": 13094,
+      "asciiCompanion": "HAN-ASC.15",
+      "asciiSpecimenCell": [
+        8,
+        15
+      ],
+      "runtimeAdvance": null,
+      "runtimeBaseline": null
+    },
+    "priority": 0,
+    "sourceIndex": 297,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "仅提供历史存档索引和拿到有权处理的本地原件后固定样图的重绘方法，不直链整包。",
+      "links": [
+        {
+          "label": "历史软件存档目录",
+          "url": "https://oddownload.nuduseng.com/?dir=11%E8%80%81%E5%85%89%E7%9B%98%E7%BE%A4(%E7%BE%A4%E5%8F%B7854318908)%E7%BE%A4%E5%8F%8B%E5%88%86%E4%BA%AB%E6%B1%87%E6%80%BB+2019%E5%B9%B410%E6%9C%88/2019-10-20/2474118971/DOS%E8%BD%AF%E4%BB%B6/%E6%B1%87%E9%BE%99%E8%BD%AF%E4%BB%B6",
+          "action": "source"
+        },
+        {
+          "label": "来源、查重与固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/zhenhan-v300.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-21"
+    }
+  },
+  {
+    "id": "zhenhan_kaiti_24",
+    "name": "延伸震汉简楷 CK.24 · 24×24",
+    "family": "延伸震汉中文系统 V3.00",
+    "width": 24,
+    "height": 24,
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "楷体"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/zhenhan_kaiti_24.png",
+    "specimenWidth": 324,
+    "specimenHeight": 52,
+    "specimenSha256": "1ca2f4425ffa485ee044e8400f002855333c9a90ee9cac5cf770f352f1ad39fd",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生 24×24 简楷：上简体，末行原配 12×24 英数。",
+    "coverage": "13,094 个物理槽，标准区位中 12,169 个有墨迹；不等于简体 Unicode 码位数。原配半角 ASCII 95 个（含空格）。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "verified_companion",
+    "sourceUrl": "https://oddownload.nuduseng.com/?dir=11%E8%80%81%E5%85%89%E7%9B%98%E7%BE%A4(%E7%BE%A4%E5%8F%B7854318908)%E7%BE%A4%E5%8F%8B%E5%88%86%E4%BA%AB%E6%B1%87%E6%80%BB+2019%E5%B9%B410%E6%9C%88/2019-10-20/2474118971/DOS%E8%BD%AF%E4%BB%B6/%E6%B1%87%E9%BE%99%E8%BD%AF%E4%BB%B6",
+    "sourceLabel": "汇龙软件 CD2 历史存档目录（项目 043）",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "历史软件存档并不意味着版权方允许再分发；只展示固定短样图和来源，不公开字库、字形映射或安装介质。",
+    "provenance": "汇龙 CD2 项目 043。盘 2 README.HAN 标示延伸科技股份有限公司、V3.00（1992-09-01），盘 7 有 10/25 更新；非字体设计日期。安装盘只作静态读取。盘 1 的安装清单将盘 8 CK.24 标为簡楷，README 区分点阵与向量显示程序。",
+    "notes": "与 HZK24K 的非空交集按较宽松的简体别名比对，4,266/6,262 字同形（68.1%）。简明、简黑及简仿宋暂不另列。",
+    "layoutNote": "汉字逐行原样读出，保留 24×24 字框，以原区位读取简体字形，不声称完整 Unicode 映射。标点来自震汉同套发行媒体的资源 HAN-GR.24；英数来自 HAN-ASC.24，以原 12×24 像素展示。字进和行距只作固定预览。",
+    "nativeEvidence": {
+      "summary": "同一原发行媒体中分别存放汉字、原配标点与半角英数点阵。固定短样按源槽重绘。",
+      "sourceUrl": "https://oddownload.nuduseng.com/?dir=11%E8%80%81%E5%85%89%E7%9B%98%E7%BE%A4(%E7%BE%A4%E5%8F%B7854318908)%E7%BE%A4%E5%8F%8B%E5%88%86%E4%BA%AB%E6%B1%87%E6%80%BB+2019%E5%B9%B410%E6%9C%88/2019-10-20/2474118971/DOS%E8%BD%AF%E4%BB%B6/%E6%B1%87%E9%BE%99%E8%BD%AF%E4%BB%B6",
+      "archiveSha256": "e59284136e03c8ffc815a99c4381e2d4e463dd98f95ab64d24d772613700b26c",
+      "softwareReleaseYear": 1992,
+      "storageCell": [
+        24,
+        24
+      ],
+      "bitsPerPixel": 1,
+      "storageSlots": 13094,
+      "asciiCompanion": "HAN-ASC.24",
+      "asciiSpecimenCell": [
+        12,
+        24
+      ],
+      "runtimeAdvance": null,
+      "runtimeBaseline": null
+    },
+    "priority": 0,
+    "sourceIndex": 298,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "method",
+      "steps": [],
+      "notice": "仅提供历史存档索引和拿到有权处理的本地原件后固定样图的重绘方法，不直链整包。",
+      "links": [
+        {
+          "label": "历史软件存档目录",
+          "url": "https://oddownload.nuduseng.com/?dir=11%E8%80%81%E5%85%89%E7%9B%98%E7%BE%A4(%E7%BE%A4%E5%8F%B7854318908)%E7%BE%A4%E5%8F%8B%E5%88%86%E4%BA%AB%E6%B1%87%E6%80%BB+2019%E5%B9%B410%E6%9C%88/2019-10-20/2474118971/DOS%E8%BD%AF%E4%BB%B6/%E6%B1%87%E9%BE%99%E8%BD%AF%E4%BB%B6",
+          "action": "source"
+        },
+        {
+          "label": "来源、查重与固定样图重绘",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/zhenhan-v300.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-21"
+    }
   }
 ]

@@ -289,6 +289,13 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "wonder_ent702ve_16"
       ]
+    },
+    {
+      "sourceManifest": "release-zhenhan-v300.json",
+      "ids": [
+        "zhenhan_16x15",
+        "zhenhan_kaiti_24"
+      ]
     }
   ]
 };

@@ -1,3 +1,4 @@
+from approved_zhenhan import IDS as ZHENHAN_IDS
 from approved_wonder import IDS as WONDER_IDS
 from approved_advisor import IDS as ADVISOR_IDS
 from approved_emperor import IDS as EMPEROR_IDS
@@ -46,10 +47,10 @@ assert r['nativeEvidence']['source_sha256'] == psp.SOURCE_SHA256
 assert r['nativeEvidence']['mappingSourceSha256'] == psp.MAPPING_SHA256
 assert r['nativeEvidence']['firmwareSampleYear'] == 2015
 assert read('data/summary.json')['rows'] == 242
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS) and p.stem not in (MROBE_ID, YPT6_ID, 'sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')]) == 242
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS + ZHENHAN_IDS) and p.stem not in (MROBE_ID, YPT6_ID, 'sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')]) == 242
 assert read('data/collection-history.json')['batches'][-1] == {'sourceManifest': 'release-psp-bwfont.json', 'ids': [ident]}
 order = json.loads(subprocess.check_output(['node', '-e', "console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"], cwd=ROOT))
-assert [value for value in order if value not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS) and value not in (MROBE_ID, YPT6_ID, 'sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')][0] == ident
+assert [value for value in order if value not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS + ZHENHAN_IDS) and value not in (MROBE_ID, YPT6_ID, 'sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')][0] == ident
 png = ROOT / r['specimen']
 image = Image.open(png)
 assert image.mode == '1' and image.size == (192, 38)

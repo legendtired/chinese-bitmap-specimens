@@ -1,3 +1,4 @@
+from approved_zhenhan import IDS as ZHENHAN_IDS
 from approved_wonder import IDS as WONDER_IDS
 from approved_advisor import IDS as ADVISOR_IDS
 from approved_emperor import IDS as EMPEROR_IDS
@@ -17,5 +18,5 @@ for id in removed:
  for name in ['index.html','sitemap.xml','data/catalog.js']:
   assert id not in (R/name).read_text()
 assert {'ayu_gothic_18','ayu_gothic_20'}<={r['id'] for r in rows},'Do not remove separate Sazanami-hosted Ayu fonts by URL substring'
-assert len([r for r in rows if r['id'] not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS) and r['id'] not in ('sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==244 and len([p for p in (R/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS) and p.stem not in ('sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==244
+assert len([r for r in rows if r['id'] not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS + ZHENHAN_IDS) and r['id'] not in ('sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==244 and len([p for p in (R/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS + ZHENHAN_IDS) and p.stem not in ('sc_song_13', 'ms_song_14', 'siemens_xelibri_14', 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==244
 print('efont removal: all five known Unicode sizes excluded; two current entries/assets/pages removed; independent Ayu family retained.')
