@@ -302,6 +302,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "palm_cjkos_gbk_24"
       ]
+    },
+    {
+      "sourceManifest": "release-h01.json",
+      "ids": [
+        "h01_16"
+      ]
     }
   ]
 };

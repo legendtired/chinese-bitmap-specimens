@@ -1,3 +1,4 @@
+from approved_h01 import MANIFEST as H01
 """Exactly two approved Zhenhan device specimens; prior collection stays immutable."""
 import copy,json,unittest
 from approved_palm_gbk24 import before_palm_gbk24_rows, before_palm_gbk24_data, before_palm_gbk24_bytes, MANIFEST as PALM
@@ -16,7 +17,7 @@ class Zhenhan(unittest.TestCase):
   for p,h in M['baseFilesSha256'].items():self.assertEqual(sha(before_zhenhan_bytes(p)),h,p)
   for p,h in M['newFileHashes'].items():self.assertEqual(sha(before_palm_gbk24_bytes(p)),h,p)
   actual={str(p.relative_to(R)) for p in R.rglob('*') if p.is_file() and '.git' not in p.parts and '__pycache__' not in p.parts}
-  self.assertEqual(actual-set(PALM['newPaths']),set(M['baseFilesSha256'])|set(M['newPaths']))
+  self.assertEqual(actual-(set(PALM['newPaths']) | set(H01['newPaths'])),set(M['baseFilesSha256'])|set(M['newPaths']))
   self.assertEqual(set(M['newPaths'])-{'data/release-zhenhan-v300.json'},set(M['newFileHashes']))
   for p in actual:
    f=R/p;self.assertFalse(f.is_symlink());self.assertEqual(f.stat().st_nlink,1)

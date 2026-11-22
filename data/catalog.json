@@ -18569,5 +18569,92 @@
     },
     "sampleLabel": "原生 24×24：上简体、下繁体；两行均来自 FGBK24F，未配系统西文。",
     "layoutNote": "上简体、下繁体，行间 4px；每格 24×24，标点也来自同一 PDB。固定样图排版，不宣称原机实际混排基线。"
+  },
+  {
+    "id": "h01_16",
+    "name": "H-01B / H-01 JCE · 16×16",
+    "family": "H-01 中文微电脑",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "未分类"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/h01_16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 34,
+    "specimenSha256": "cf5b3d52a4108f01ed5318652740c154a67f8058d8fc2447050bd66158997a8d",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "原生汉字 16×16、英数 8×16；未确认映射的全角逗号、句号原格留空。",
+    "coverage": "已核 GB2312 一级 3,755 个汉字，均非空；不是完整 GB2312。确认 93 个可打印 ASCII 映射（含空格，92 个有墨迹）；反引号、波浪号未纳入。",
+    "missing": [
+      "，",
+      "。"
+    ],
+    "hanMissing": [
+      "，",
+      "。"
+    ],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://github.com/mamedev/mame/blob/master/src/mame/misc/h01x.cpp",
+    "sourceLabel": "MAME H-01 系列驱动与 ROM 核对资料",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "公开技术资料不等于字库再分发授权；本站不提供 ROM、完整 BDF 或字模。",
+    "provenance": "H-01B 与 H-01 JCE 的保存 ROM 历经仿真恢复字形；已核对 MAME 驱动中的成员校验。两版在已核汉字和英数槽范围内字模一致，合为一项。1992 年《无线电》记录将整屏字卡录入家用 VHS 的用法，不据此识别具体片段或断定是电视台叠字设备。",
+    "notes": "16×16 汉字与 8×16 半角英数均为原机像素。半角逗号、句号存在，与本样文未确认映射的全角标点分开。未核第二级汉字，也不从资料日期推定字库设计年代。",
+    "layoutNote": "固定预览两行保留 16 行原字框，行间 2px。全角逗号与句号分别保留 16px 透明字格，不补字。",
+    "nativeEvidence": {
+      "summary": "两版恢复的 3,755 个一级汉字和 95 个 ASCII 槽逐字逐像素一致；导出只保留已确认的 93 个 ASCII 映射。",
+      "sourceUrl": "https://github.com/mamedev/mame/blob/master/src/mame/misc/h01x.cpp",
+      "storageCell": [
+        16,
+        16
+      ],
+      "asciiStorageCell": [
+        8,
+        16
+      ],
+      "nativeSlotComparison": 3850,
+      "gb2312Level1Han": 3755,
+      "verifiedAsciiMappings": 93,
+      "nonblankAsciiMappings": 92,
+      "bitsPerPixel": 1
+    },
+    "priority": 0,
+    "sourceIndex": 300,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "source",
+      "steps": [],
+      "notice": "从 MAME 驱动与同期出版物查阅硬件来源和字卡用途；仅固定样图与说明，无完整字库下载。",
+      "links": [
+        {
+          "label": "MAME H-01 系列驱动",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/misc/h01x.cpp",
+          "action": "source"
+        },
+        {
+          "label": "1992 年《无线电》整屏字幕字卡用法",
+          "url": "https://software-archive.tifan.la/radio-magazine/1992/003460.html",
+          "action": "reference"
+        },
+        {
+          "label": "样图与覆盖边界",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/h01-b-jce.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-22"
+    }
   }
 ]
