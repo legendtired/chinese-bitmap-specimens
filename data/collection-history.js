@@ -308,6 +308,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "h01_16"
       ]
+    },
+    {
+      "sourceManifest": "release-gtwin.json",
+      "ids": [
+        "panasonic_gtwin_mdsch_16"
+      ]
     }
   ]
 };

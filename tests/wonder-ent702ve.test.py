@@ -1,3 +1,4 @@
+from approved_gtwin import MANIFEST as GTWIN
 from approved_h01 import MANIFEST as H01
 from approved_palm_gbk24 import MANIFEST as PALM
 """Verify this exact one-entry Wonder release and its public artifact boundary."""
@@ -41,7 +42,7 @@ class Wonder(unittest.TestCase):
             if p.is_file() and '.git' not in p.relative_to(ROOT).parts
             and '__pycache__' not in p.relative_to(ROOT).parts
         }
-        self.assertEqual(actual - (set(ZHENHAN['newPaths']) | (set(PALM['newPaths']) | set(H01['newPaths']))), base | new)
+        self.assertEqual(actual - (set(ZHENHAN['newPaths']) | (set(PALM['newPaths']) | (set(H01['newPaths']) | set(GTWIN['newPaths'])))), base | new)
         for path in actual:
             f = ROOT / path
             self.assertFalse(f.is_symlink(), path)

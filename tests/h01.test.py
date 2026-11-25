@@ -1,10 +1,11 @@
+from approved_gtwin import before_gtwin_rows,before_gtwin_bytes,MANIFEST as GTWIN
 """One H-01 specimen; prior collection stays immutable."""
 import copy,json,unittest
 from PIL import Image
 from approved_h01 import ROOT as R,MANIFEST as M,IDS,sha,digest,before_h01_rows,before_h01_data,before_h01_bytes
 class H01(unittest.TestCase):
  def test_scope_and_preservation(self):
-  rows=json.loads((R/'data/catalog.json').read_text());old=before_h01_rows(rows)
+  rows=before_gtwin_rows(json.loads((R/'data/catalog.json').read_text()));old=before_h01_rows(rows)
   self.assertEqual(IDS,['h01_16'])
   self.assertEqual(M['baseCommit'],'6dca68070d8a4a78984e1ec8634df120d7e1e7fc')
   self.assertEqual(len(rows),263);self.assertEqual(len(old),262)
@@ -13,15 +14,15 @@ class H01(unittest.TestCase):
   self.assertEqual([r['priority'] for r in rows[-1:]],[0]);self.assertEqual(sum(r['priority']>0 for r in rows),20)
   self.assertEqual(M['batch'],{'sourceManifest':'release-h01.json','ids':IDS})
   for p,h in M['baseFilesSha256'].items():self.assertEqual(sha(before_h01_bytes(p)),h,p)
-  for p,h in M['newFileHashes'].items():self.assertEqual(sha((R/p).read_bytes()),h,p)
+  for p,h in M['newFileHashes'].items():self.assertEqual(sha(before_gtwin_bytes(p)),h,p)
   actual={str(p.relative_to(R)) for p in R.rglob('*') if p.is_file() and '.git' not in p.parts and '__pycache__' not in p.parts}
-  self.assertEqual(actual,set(M['baseFilesSha256'])|set(M['newPaths']))
+  self.assertEqual(actual-set(GTWIN['newPaths']),set(M['baseFilesSha256'])|set(M['newPaths']))
   self.assertEqual(set(M['newPaths'])-{'data/release-h01.json'},set(M['newFileHashes']))
   for p in actual:
    f=R/p;self.assertFalse(f.is_symlink());self.assertEqual(f.stat().st_nlink,1)
    self.assertNotIn(f.suffix.lower(),{'.bdf','.rom','.bin','.fnt','.woff','.woff2','.ttf','.otf','.zip','.7z'})
  def test_fixed_specimens(self):
-  rows=json.loads((R/'data/catalog.json').read_text())[-1:]
+  rows=before_gtwin_rows(json.loads((R/'data/catalog.json').read_text()))[-1:]
   for row,cell in zip(rows,[(16,16)]):
    self.assertEqual((row['width'],row['height']),cell)
    self.assertEqual((row['cellWidth'],row['cellHeight']),cell)

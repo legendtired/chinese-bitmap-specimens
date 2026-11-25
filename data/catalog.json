@@ -18656,5 +18656,84 @@
       ],
       "checkedOn": "2026-11-22"
     }
+  },
+  {
+    "id": "panasonic_gtwin_mdsch_16",
+    "name": "Panasonic GTWIN / MDSCh PGothic · 16×16",
+    "family": "MDSCh PGothic",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "黑体"
+    ],
+    "uses": [
+      "设备界面"
+    ],
+    "specimen": "assets/specimens/panasonic_gtwin_mdsch_16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 34,
+    "specimenSha256": "c10f9cbd2c09cc943238116a01c0583c9d729a6f603da3533900e4425eb81942",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "16×16 原生中文点阵及同层 8×16 英数；未栅格化矢量轮廓。",
+    "coverage": "7,538 个 Unicode 映射，包含全部 6,763 个 GB2312 汉字及 95 个可打印 ASCII（含空格）。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://industry.panasonic.eu/products/automation-devices-solutions/human-machine-interfaces/hmi-programming-software/programming-software-gt-series-gtwin",
+    "sourceLabel": "Panasonic GTWIN 官方软件页面",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "仅固定样图与来源说明；不公开完整字体、原始安装包或字模。",
+    "provenance": "GTWIN V3.48 原厂软件包内 mdschgp.ttf，内部名 MDSCh PGothic v1.03、版权标注 2001 年 Ricoh／CITS。EBDT/EBLC 原存 16ppem 1-bit 字模，独立随附的 parts_font_chs.dat 与全部 6,763 汉字裁外白后逐像素一致。未证明具体面板实际渲染。",
+    "notes": "现行私库 262/263 份BDF比较，最高 Apple 黑体16 为124/6763（1.83%），HPUX Sung42未取得。12点层与 Olympus m:robe 12点 3307/6763同形，暂不收录。",
+    "layoutNote": "汉字原16×16、ASCII原8×16，保留原字进和字框；两行间隔2px。",
+    "nativeEvidence": {
+      "summary": "原厂软件包内 EBDT/EBLC 16ppem 字模；独立 parts_font_chs.dat 原字模共同汉字逐像素归一化一致。",
+      "sourceUrl": "https://industry.panasonic.eu/products/automation-devices-solutions/human-machine-interfaces/hmi-programming-software/programming-software-gt-series-gtwin",
+      "sourceSha256": "69f8c98f3f6dd4d61d6752ec02629c60dab484628e14e18e51bb1b7a24328ede",
+      "sourceBytes": 2750820,
+      "bitDepth": 1,
+      "ppem": 16,
+      "mappedCharacters": 7538,
+      "gb2312Han": 6763,
+      "printableAscii": 95,
+      "storageCell": [
+        16,
+        16
+      ],
+      "asciiStorageCell": [
+        8,
+        16
+      ],
+      "horiBearingY": 13
+    },
+    "priority": 0,
+    "sourceIndex": 301,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "source",
+      "steps": [],
+      "notice": "参考厂商软件页面；本站仅展示固定样图及来源说明。",
+      "links": [
+        {
+          "label": "Panasonic GTWIN 原厂软件页面",
+          "url": "https://industry.panasonic.eu/products/automation-devices-solutions/human-machine-interfaces/hmi-programming-software/programming-software-gt-series-gtwin",
+          "action": "source"
+        },
+        {
+          "label": "字库来源及验证",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/panasonic_gtwin_mdsch_16.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-25"
+    }
   }
 ]

@@ -4,6 +4,7 @@ import copy
 import hashlib
 import json
 import re
+from approved_gtwin import before_gtwin_rows,before_gtwin_data,before_gtwin_bytes
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_NAME = 'release-h01.json'
@@ -22,6 +23,7 @@ def digest(value):
 
 
 def before_h01_rows(rows):
+    rows=before_gtwin_rows(rows)
     found = [r for r in rows if r['id'] in IDS]
     if found:
         assert [r['id'] for r in found] == IDS and rows[-len(IDS):] == found, 'Unreviewed H-01 rows/order'
@@ -33,6 +35,7 @@ def before_h01_rows(rows):
 def before_h01_data(path, value):
     if path == 'data/catalog.json':
         return before_h01_rows(value)
+    value = before_gtwin_data(path,value)
     value = copy.deepcopy(value)
     if path == 'data/collection-history.json':
         found = [b for b in value['batches'] if b.get('sourceManifest') == MANIFEST_NAME or any(i in IDS for i in b['ids'])]
@@ -46,7 +49,7 @@ def before_h01_data(path, value):
 
 
 def before_h01_bytes(path, root=ROOT):
-    data = (root/path).read_bytes()
+    data = before_gtwin_bytes(path,root)
     if path not in MANIFEST['changedFileHashes']:
         return data
     assert sha(data) == MANIFEST['changedFileHashes'][path], 'Unreviewed H-01 change: ' + path
@@ -68,7 +71,7 @@ def before_h01_bytes(path, root=ROOT):
     elif path == 'index.html':
         original = data.decode()
         for asset in (*JS_PATHS, 'app.js'):
-            current = sha((root/asset).read_bytes())[:16]
+            current = sha(before_gtwin_bytes(asset,root))[:16]
             previous = sha(before_h01_bytes(asset, root))[:16]
             tag = f'src="{asset}?v={current}"'
             assert original.count(tag) == 1, asset
