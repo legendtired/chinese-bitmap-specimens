@@ -18735,5 +18735,78 @@ window.FONT_CATALOG = [
       ],
       "checkedOn": "2026-11-25"
     }
+  },
+  {
+    "id": "jqk_release_j_16x15",
+    "name": "JQK 梅花版 · 16×15",
+    "family": "JQK 中西文兼容系统",
+    "width": 16,
+    "height": 15,
+    "cellWidth": 16,
+    "cellHeight": 15,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "等线点阵"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/jqk_release_j_16x15.png",
+    "specimenWidth": 432,
+    "specimenHeight": 32,
+    "specimenSha256": "ac63e8985e9629305bf254365f6171cec0b3c96d76cdf8c464ce7f3d0dc20abf",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "０１２３４５６７８９　ＡａＢｂ　ＧｇＭｍ　！？：＋－．",
+    "sampleKind": "standard",
+    "sampleLabel": "1992 年 JQK 梅花版原始字模；第二行是原库全角英数，不是半角 ASCII。",
+    "coverage": "全部 6,763 个非空 GB2312 汉字；7,445 个标准 Unicode 映射，含70个空槽（含全角空格）；169个未分配原槽保留，无独立半角ASCII。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "fullwidth-native",
+    "sourceUrl": "https://software-archive.tifan.la/archive/cd2/index.html#entry-020",
+    "sourceLabel": "中文 DOS 软件资料库 · JQK 梅花版原盘保存记录",
+    "licenseStatus": "原版允许非商业拷贝和使用；转换再分发未确认",
+    "licenseNote": "原 README 保留版权，允许非商业拷贝及使用。公开仅固定样图和资料说明，不分发完整字库、原软盘或转换BDF。",
+    "provenance": "原始 FAT12 软盘保存件中 JQKFONT1.FON 和 JQKFONT2.FON，README 清单日期为 1992-08-06，标注 Release J 梅花版；非原盘物理认证。按 GB2312 区位映射逐行读取16×15存储格。",
+    "notes": "与私人目录264份BDF中的263份逐码位裁外部空白后比较；最高三星R208 1674/6763（24.75%），其余低于1%；HP-UX Sung42 未获取。不是Sony字幕机字库。原字模中69个非空格标准符号槽留空，不补字。",
+    "layoutNote": "每字30字节，两字节一行、MSB在左，保留16×15原框；16px字进为预览约定，原机基线未实测；两行原格之间2px，不从别的字体借字。",
+    "nativeEvidence": {
+      "summary": "两个原始字模文件分别含846和6768个30字节槽；全部6763个GB2312汉字非空，固定字样直接取原像素。",
+      "sourceUrl": "https://software-archive.tifan.la/archive/cd2/index.html#entry-020",
+      "storageCell": [
+        16,
+        15
+      ],
+      "bitsPerPixel": 1,
+      "sourceSlots": 7614,
+      "mappedUnicode": 7445,
+      "gb2312Han": 6763,
+      "font1Sha256": "f598524168c66d634e2d808a0969c7078f5e10387434c162da1cb29fbb7ccfbc",
+      "font2Sha256": "a68c09826108949c06650a9bf162c52565f98933622c1d77d3823692979d010a"
+    },
+    "priority": 0,
+    "sourceIndex": 302,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "source",
+      "steps": [],
+      "notice": "原盘保存记录与README；本站仅固定字样和方法说明，不提供完整字体下载。",
+      "links": [
+        {
+          "label": "保存索引与原版说明",
+          "url": "https://software-archive.tifan.la/archive/cd2/index.html#entry-020",
+          "action": "source"
+        },
+        {
+          "label": "点阵解析与核验说明",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/jqk_release_j_16x15.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-26"
+    }
   }
 ];

@@ -314,6 +314,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "panasonic_gtwin_mdsch_16"
       ]
+    },
+    {
+      "sourceManifest": "release-jqk.json",
+      "ids": [
+        "jqk_release_j_16x15"
+      ]
     }
   ]
 };

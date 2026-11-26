@@ -1,3 +1,4 @@
+from approved_jqk import MANIFEST as JQK
 from approved_gtwin import MANIFEST as GTWIN
 from approved_h01 import MANIFEST as H01
 from approved_palm_gbk24 import MANIFEST as PALM
@@ -77,7 +78,7 @@ for path,h in m['baseFilesSha256'].items():
 for path,h in m['changedFileHashes'].items():assert sha(before_emperor_bytes(path))==h,path
 for path,h in m['addedFiles'].items():assert sha(before_emperor_bytes(path))==h,path
 actual={str(p.relative_to(R)) for p in R.rglob('*') if p.is_file() and '__pycache__' not in p.parts and '.git' not in p.parts}
-actual-=set(advisor['newPaths']) | set(WONDER_MANIFEST['newPaths']) | (set(ZHENHAN['newPaths']) | (set(PALM['newPaths']) | (set(H01['newPaths']) | set(GTWIN['newPaths']))))
+actual-=set(advisor['newPaths']) | set(WONDER_MANIFEST['newPaths']) | (set(ZHENHAN['newPaths']) | (set(PALM['newPaths']) | (set(H01['newPaths']) | (set(GTWIN['newPaths']) | set(JQK['newPaths'])))))
 actual-=set(emperor['newPaths'])
 assert actual==set(m['baseFilesSha256'])|set(m['newPaths']),actual-set(m['baseFilesSha256'])-set(m['newPaths'])
 for path in actual:
