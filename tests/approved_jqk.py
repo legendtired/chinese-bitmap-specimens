@@ -4,6 +4,7 @@ import copy
 import hashlib
 import json
 import re
+from approved_cxdos import before_cxdos_rows,before_cxdos_data,before_cxdos_bytes
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_NAME = 'release-jqk.json'
@@ -22,6 +23,7 @@ def digest(value):
 
 
 def before_jqk_rows(rows):
+    rows = before_cxdos_rows(rows)
     found = [r for r in rows if r['id'] in IDS]
     if found:
         assert [r['id'] for r in found] == IDS and rows[-len(IDS):] == found, 'Unreviewed JQK rows/order'
@@ -33,6 +35,7 @@ def before_jqk_rows(rows):
 def before_jqk_data(path, value):
     if path == 'data/catalog.json':
         return before_jqk_rows(value)
+    value = before_cxdos_data(path,value)
     value = copy.deepcopy(value)
     if path == 'data/collection-history.json':
         found = [b for b in value['batches'] if b.get('sourceManifest') == MANIFEST_NAME or any(i in IDS for i in b['ids'])]
@@ -46,7 +49,7 @@ def before_jqk_data(path, value):
 
 
 def before_jqk_bytes(path, root=ROOT):
-    data = (root/path).read_bytes()
+    data = before_cxdos_bytes(path,root)
     if path not in MANIFEST['changedFileHashes']:
         return data
     assert sha(data) == MANIFEST['changedFileHashes'][path], 'Unreviewed JQK change: ' + path
@@ -68,7 +71,7 @@ def before_jqk_bytes(path, root=ROOT):
     elif path == 'index.html':
         original = data.decode()
         for asset in (*JS_PATHS, 'app.js'):
-            current = sha((root/asset).read_bytes())[:16]
+            current = sha(before_cxdos_bytes(asset,root))[:16]
             previous = sha(before_jqk_bytes(asset, root))[:16]
             tag = f'src="{asset}?v={current}"'
             assert original.count(tag) == 1, asset

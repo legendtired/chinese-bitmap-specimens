@@ -320,6 +320,12 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "jqk_release_j_16x15"
       ]
+    },
+    {
+      "sourceManifest": "release-cxdos.json",
+      "ids": [
+        "cxdos_50_cclib_16"
+      ]
     }
   ]
 };

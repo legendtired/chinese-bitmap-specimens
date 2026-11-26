@@ -1,3 +1,4 @@
+from approved_cxdos import MANIFEST as CXDOS
 from approved_jqk import MANIFEST as JQK
 from approved_gtwin import MANIFEST as GTWIN
 """One Palm CJKOS GBK24 specimen; prior collection stays immutable."""
@@ -18,7 +19,7 @@ class PalmGBK24(unittest.TestCase):
   for p,h in M['baseFilesSha256'].items():self.assertEqual(sha(before_palm_gbk24_bytes(p)),h,p)
   for p,h in M['newFileHashes'].items():self.assertEqual(sha(before_h01_bytes(p)),h,p)
   actual={str(p.relative_to(R)) for p in R.rglob('*') if p.is_file() and '.git' not in p.parts and '__pycache__' not in p.parts}
-  self.assertEqual(actual-(set(H01['newPaths']) | (set(GTWIN['newPaths']) | set(JQK['newPaths']))),set(M['baseFilesSha256'])|set(M['newPaths']))
+  self.assertEqual(actual-(set(H01['newPaths']) | (set(GTWIN['newPaths']) | (set(JQK['newPaths']) | set(CXDOS['newPaths'])))),set(M['baseFilesSha256'])|set(M['newPaths']))
   self.assertEqual(set(M['newPaths'])-{'data/release-palm-cjkos-gbk24.json'},set(M['newFileHashes']))
   for p in actual:
    f=R/p;self.assertFalse(f.is_symlink());self.assertEqual(f.stat().st_nlink,1)

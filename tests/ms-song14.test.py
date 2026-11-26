@@ -1,3 +1,4 @@
+from approved_cxdos import IDS as CXDOS_IDS
 from approved_jqk import IDS as JQK_IDS
 from approved_gtwin import IDS as GTWIN_IDS
 from approved_h01 import IDS as H01_IDS
@@ -46,10 +47,10 @@ assert r['scripts']==['简体'] and r['nativeEvidence']['mappedCharacters']==742
 assert sha((ROOT/'scripts/ms_song14_specimen.py').read_bytes())==m['sourceScriptSha256']=='bf8717d35db62743f4a143e58c317d961d6dd3a4eaa56d7263d0288c2dba76db'
 assert sha((ROOT/'docs/ms-song14.md').read_bytes())==m['documentationSha256']
 summary=read('data/summary.json');assert summary['rows']==246 and summary['nativePngCount']==245
-assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS + ZHENHAN_IDS + PALM_GBK24_IDS + H01_IDS + GTWIN_IDS + JQK_IDS) and p.stem not in (XELIBRI14_ID, 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==246
+assert len([p for p in (ROOT/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS + ZHENHAN_IDS + PALM_GBK24_IDS + H01_IDS + GTWIN_IDS + JQK_IDS + CXDOS_IDS) and p.stem not in (XELIBRI14_ID, 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')])==246
 assert read('data/collection-history.json')['batches'][-1]=={'sourceManifest':'release-ms-song14.json','ids':[ID]}
 order=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./app.js').filterCatalog(require('./data/catalog.json'), {}, '', 'recent').map(r=>r.id)))"],cwd=ROOT))
-assert [ident for ident in order if ident not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS + ZHENHAN_IDS + PALM_GBK24_IDS + H01_IDS + GTWIN_IDS + JQK_IDS) and ident not in (XELIBRI14_ID, 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')][:3]==[ID,'sc_song_13','samsung_ypt6_14x16']
+assert [ident for ident in order if ident not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS + ZHENHAN_IDS + PALM_GBK24_IDS + H01_IDS + GTWIN_IDS + JQK_IDS + CXDOS_IDS) and ident not in (XELIBRI14_ID, 'hitech_adp3_24','windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16')][:3]==[ID,'sc_song_13','samsung_ypt6_14x16']
 index=(ROOT/'index.html').read_text();assert index.count(generator.article(r)+'\n')==1
 assert (ROOT/'fonts/ms_song_14.html').read_text()==generator.font_page(r)
 png=ROOT/r['specimen'];im=Image.open(png)

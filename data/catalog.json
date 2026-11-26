@@ -18808,5 +18808,85 @@
       ],
       "checkedOn": "2026-11-26"
     }
+  },
+  {
+    "id": "cxdos_50_cclib_16",
+    "name": "超想 CXDOS 5.00 · 16×16",
+    "family": "超想字符汉字系统",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "等线点阵"
+    ],
+    "uses": [
+      "历史屏幕字库"
+    ],
+    "specimen": "assets/specimens/cxdos_50_cclib_16.png",
+    "specimenWidth": 432,
+    "specimenHeight": 34,
+    "specimenSha256": "c0ae6a08611ea91c4d0bf0572327228bfa6beec812e28bfad6f7bbf08a045630",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "０１２３４５６７８９　ＡａＢｂ　ＧｇＭｍ　！？：＋－．",
+    "sampleKind": "standard",
+    "sampleLabel": "1993年超想字符汉字系统原生显示字库；文件头标14×16，保持完整16×16存储格。第二行是原配全角英数。",
+    "coverage": "全部6,763个非空GB2312汉字及681个非空标准符号/全角英数，共7,444个Unicode。原始首槽是文件头非全角空格；其余字模共有8,100槽，656未映射。无独立半角ASCII。",
+    "missing": [
+      "　"
+    ],
+    "hanMissing": [],
+    "asciiMissing": [
+      "　"
+    ],
+    "asciiOrigin": "fullwidth-native",
+    "sourceUrl": "https://software-archive.tifan.la/archive/cd2/index.html#entry-003",
+    "sourceLabel": "中文 DOS 软件资料库 · 超想 V5.00 原盘保存记录",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "原软件及字体权利按原权利状态处理；公开仅固定样图和资料说明，不分发完整字库、原软盘或转换BDF。",
+    "provenance": "原始FAT12软盘保存件中CXDOS/CCLIB；README北京超想电脑技术开发公司，1993年3月，称16×16点阵显示字库；文件头 Super Mind Co. CX-ZR 14*16 CCLIB。V5.00与V5.02字节完全一致，V6.00只改一槽（哌），不单列。",
+    "notes": "264/265份BDF逐码位裁外白比较，最高延伸震汉繁体16×15 2003/4384=45.69%，倚天台北1424/4384=32.48%，JQK 46/6763=0.68%；HP-UX Sung42未取得。片字上下横画越过竖画，与Sony目标骨架相似，不代表整套同源。",
+    "layoutNote": "每字32字节，逐行MSB在左；16×16原框不裁切。16px字进为预览约定；第二行全角英数，词间透明间距仅排版（源首槽是文件头，不声称存在U+3000字形）。两行间2px，不借其他字体。",
+    "nativeEvidence": {
+      "summary": "原CCLIB 259232 B，首32B标头，余8,100原字模槽；标准符号A1–A9，汉字B0–F7偏移-94槽，全部6,763字非空。",
+      "sourceUrl": "https://software-archive.tifan.la/archive/cd2/index.html#entry-003",
+      "storageCell": [
+        16,
+        16
+      ],
+      "sourceLabelled": [
+        14,
+        16
+      ],
+      "bitsPerPixel": 1,
+      "sourceBitmapSlots": 8100,
+      "mappedUnicode": 7444,
+      "gb2312Han": 6763,
+      "sourceSha256": "a31d4aabd9572cc99d0fb652e4c8721cf28a42ee823f097e37b880eae68368d4"
+    },
+    "priority": 0,
+    "sourceIndex": 303,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "source",
+      "steps": [],
+      "notice": "原盘保存索引、同期说明及方法；本站仅固定字样和资料，不提供完整字体下载。",
+      "links": [
+        {
+          "label": "原盘保存索引",
+          "url": "https://software-archive.tifan.la/archive/cd2/index.html#entry-003",
+          "action": "source"
+        },
+        {
+          "label": "点阵解析与核验说明",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/cxdos_50_cclib_16.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-26"
+    }
   }
 ]

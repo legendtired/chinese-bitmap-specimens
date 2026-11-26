@@ -1,3 +1,4 @@
+from approved_cxdos import MANIFEST as CXDOS
 from approved_jqk import before_jqk_rows,before_jqk_bytes,MANIFEST as JQK
 """Verify the single approved GTWIN addition and preserve the preceding release."""
 import json,unittest
@@ -11,7 +12,7 @@ class GTWIN(unittest.TestCase):
   for p,h in M['baseFilesSha256'].items():self.assertEqual(sha(before_gtwin_bytes(p)),h,p)
   for p,h in M['newFileHashes'].items():self.assertEqual(sha(before_jqk_bytes(p)),h,p)
   actual={str(p.relative_to(R)) for p in R.rglob('*') if p.is_file() and '.git' not in p.parts and '__pycache__' not in p.parts}
-  self.assertEqual(actual-set(JQK['newPaths']),set(M['baseFilesSha256'])|set(M['newPaths']))
+  self.assertEqual(actual-(set(JQK['newPaths']) | set(CXDOS['newPaths'])),set(M['baseFilesSha256'])|set(M['newPaths']))
   row=rows[-1];self.assertEqual(row['text'],'视野无限广，窗外有蓝天。');self.assertEqual(row['asciiText'],'0123456789 AaBb GgMm !?:+-.')
   self.assertEqual(row['nativeEvidence']['gb2312Han'],6763);self.assertEqual(row['nativeEvidence']['printableAscii'],95)
   self.assertEqual(row['asciiOrigin'],'native');self.assertEqual(row['priority'],0);self.assertEqual(row['missing'],[])
