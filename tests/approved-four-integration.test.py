@@ -1,3 +1,4 @@
+from approved_rongta import MANIFEST as RONGTA
 from approved_cxdos import MANIFEST as CXDOS
 from approved_jqk import MANIFEST as JQK
 from approved_gtwin import MANIFEST as GTWIN
@@ -37,7 +38,7 @@ for path in ('data/catalog.json','data/catalog.js','data/collection-history.json
  assert sha(before_four_bytes(path))==m['baseFilesSha256'][path],path
 # Exact file scope: no private files, raw sources, arbitrary new assets or hidden additions.
 actual={str(p.relative_to(R)) for p in R.rglob('*') if p.is_file() and '__pycache__' not in p.parts and '.git' not in p.parts}
-actual-=set(advisor['newPaths']) | set(WONDER_MANIFEST['newPaths']) | (set(ZHENHAN['newPaths']) | (set(PALM['newPaths']) | (set(H01['newPaths']) | (set(GTWIN['newPaths']) | (set(JQK['newPaths']) | set(CXDOS['newPaths']))))))
+actual-=set(advisor['newPaths']) | set(WONDER_MANIFEST['newPaths']) | (set(ZHENHAN['newPaths']) | (set(PALM['newPaths']) | (set(H01['newPaths']) | (set(GTWIN['newPaths']) | (set(JQK['newPaths']) | (set(CXDOS['newPaths']) | set(RONGTA['newPaths'])))))))
 actual-=set(simsun['newPaths'])|set(emperor['newPaths'])
 assert actual==set(m['baseFilesSha256'])|set(m['newPaths']), (actual-set(m['baseFilesSha256'])-set(m['newPaths']))
 for path,h in m['baseFilesSha256'].items():

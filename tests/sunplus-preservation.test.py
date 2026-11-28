@@ -1,3 +1,4 @@
+from approved_rongta import IDS as RONGTA_IDS
 from approved_cxdos import IDS as CXDOS_IDS
 from approved_jqk import IDS as JQK_IDS
 from approved_gtwin import IDS as GTWIN_IDS
@@ -35,6 +36,6 @@ assert s['partialAscii']==m['previousSummary']['partialAscii']
 assert s['ordinaryWithoutAsciiEvaluation']==m['previousSummary']['ordinaryWithoutAsciiEvaluation']+3
 assert s['fontFilesIncluded']==0 and s['glyphDataIncluded'] is False
 c=json.loads((R/'data/curation.json').read_text());assert not set(c['removedIds']).intersection(r['id'] for r in rows)
-assert len([p for p in (R/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS + ZHENHAN_IDS + PALM_GBK24_IDS + H01_IDS + GTWIN_IDS + JQK_IDS + CXDOS_IDS) and p.stem not in ('ms_song_14', 'siemens_xelibri_14', 'windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16','hitech_adp3_24', 'sc_song_13', 'samsung_ypt6_14x16', 'olympus_mrobe_mr100_12', 'sony_psp_bwfont_16x18', 'alcatel_ot715_13x14', 'ms_ming_14')])==239
+assert len([p for p in (R/'fonts').glob('*.html') if p.stem not in (SIMSUN_IDS + EMPEROR_IDS + ADVISOR_IDS + WONDER_IDS + ZHENHAN_IDS + PALM_GBK24_IDS + H01_IDS + GTWIN_IDS + JQK_IDS + CXDOS_IDS + RONGTA_IDS) and p.stem not in ('ms_song_14', 'siemens_xelibri_14', 'windows31_mingli20','deadf_game_16','richwin_42_song_16','asiasurf_tm16','hitech_adp3_24', 'sc_song_13', 'samsung_ypt6_14x16', 'olympus_mrobe_mr100_12', 'sony_psp_bwfont_16x18', 'alcatel_ot715_13x14', 'ms_ming_14')])==239
 assert len(list((R/'assets/specimens').glob('sunplus*')))==2
 print('Sunplus integrated release: 227 baseline rows and PNGs unchanged; exactly two simplified additions; no recommendation or ASCII substitution.')

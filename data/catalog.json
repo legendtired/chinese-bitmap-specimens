@@ -18888,5 +18888,159 @@
       ],
       "checkedOn": "2026-11-26"
     }
+  },
+  {
+    "id": "rongta_rls1000_16",
+    "name": "容大 Rongta RLS1000 · 16×16",
+    "family": "容大 RLS1000",
+    "width": 16,
+    "height": 16,
+    "cellWidth": 16,
+    "cellHeight": 16,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "等线点阵"
+    ],
+    "uses": [
+      "打印机字库"
+    ],
+    "specimen": "assets/specimens/rongta_rls1000_16.png",
+    "specimenWidth": 216,
+    "specimenHeight": 34,
+    "specimenSha256": "2002be2df0ca7ed74aad7dc0c027cc1ea26ff0db048ec47e91f9cd3c31916262",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "0123456789 AaBb GgMm !?:+-.",
+    "sampleKind": "standard",
+    "sampleLabel": "容大RLS1000标签秤原始安装包点阵字库，16×16。16×16逐行MSB；配套8×16半角ASCII仅映射20–7E，其余原始槽不猜编码。",
+    "coverage": "全部6,763个非空GB2312汉字，7,445个GB2312 Unicode（含原空格），另95个半角ASCII；共7,540映射，894未编码源槽。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "native",
+    "sourceUrl": "https://shopos.cloud/download-center/rls1000-utility",
+    "sourceLabel": "RLS1000 2.0.1 T9 秤管理软件",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "公开只展示固定短样图和资料说明，不分发完整字库、安装包或转换BDF。",
+    "provenance": "原厂管理软件安装包，静态解包未执行；字库文件日期2020-12-10，2017年手册已有名称。",
+    "notes": "265/266份现有BDF比较，最高2/4140=0.0483%；HP-UX Sung42未取得。",
+    "layoutNote": "16×16逐行MSB；配套8×16半角ASCII仅映射20–7E，其余原始槽不猜编码。 两行间2px；无外借字体。",
+    "nativeEvidence": {
+      "summary": "16x16.fnt，261696B，8,178槽，GB2312 6,763非空汉字。",
+      "sourceUrl": "https://shopos.cloud/download-center/rls1000-utility",
+      "storageCell": [
+        16,
+        16
+      ],
+      "bitsPerPixel": 1,
+      "sourceBitmapSlots": 8178,
+      "mappedUnicode": 7540,
+      "gb2312Han": 6763,
+      "sourceSha256": "8b526babed79984ba7e88043201d210e8bdaa1e143ef1f161c4c4ba1ab765893"
+    },
+    "priority": 0,
+    "sourceIndex": 304,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "source",
+      "steps": [],
+      "notice": "仅提供原始来源及方法，不分发完整字库。",
+      "links": [
+        {
+          "label": "管理软件下载页",
+          "url": "https://shopos.cloud/download-center/rls1000-utility",
+          "action": "source"
+        },
+        {
+          "label": "原厂软件手册",
+          "url": "https://ar.rongtatech.com/uploadfile/downloads/Label%20Scale%20Software%20User%20Manual.pdf",
+          "action": "method"
+        },
+        {
+          "label": "解析与核验说明",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/rongta_rls1000_16.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-28"
+    }
+  },
+  {
+    "id": "rongta_rls1000_24",
+    "name": "容大 Rongta RLS1000 · 24×24",
+    "family": "容大 RLS1000",
+    "width": 24,
+    "height": 24,
+    "cellWidth": 24,
+    "cellHeight": 24,
+    "scripts": [
+      "简体"
+    ],
+    "styles": [
+      "等线点阵"
+    ],
+    "uses": [
+      "打印机字库"
+    ],
+    "specimen": "assets/specimens/rongta_rls1000_24.png",
+    "specimenWidth": 648,
+    "specimenHeight": 50,
+    "specimenSha256": "fe45d87ab4c3aa7c850c4b83ae1e46dd736851024e3372e2ebd7a3922a1e26bf",
+    "text": "视野无限广，窗外有蓝天。",
+    "asciiText": "０１２３４５６７８９　ＡａＢｂ　ＧｇＭｍ　！？：＋－．",
+    "sampleKind": "standard",
+    "sampleLabel": "容大RLS1000标签秤原始安装包点阵字库，24×24。24L24.FNT逐行MSB存储，逆时针旋转90°复原。原生全角英数随中文保留；配套12×24半角字库观感疑似缩放或取模，用户明确不收录，未证明其设计方式。",
+    "coverage": "全部6,763个非空GB2312汉字，7,445个GB2312 Unicode（含原空格）（含全角英数）；共7,445映射，733未编码源槽。",
+    "missing": [],
+    "hanMissing": [],
+    "asciiMissing": [],
+    "asciiOrigin": "fullwidth-native",
+    "sourceUrl": "https://shopos.cloud/download-center/rls1000-utility",
+    "sourceLabel": "RLS1000 2.0.1 T9 秤管理软件",
+    "licenseStatus": "未确认开放再分发授权",
+    "licenseNote": "公开只展示固定短样图和资料说明，不分发完整字库、安装包或转换BDF。",
+    "provenance": "原厂管理软件安装包，静态解包未执行；字库文件日期2020-12-10，2017年手册已有名称。",
+    "notes": "265/266份现有BDF比较，最高14/3331=0.42%；HP-UX Sung42未取得。",
+    "layoutNote": "24L24.FNT逐行MSB存储，逆时针旋转90°复原。原生全角英数随中文保留；配套12×24半角字库观感疑似缩放或取模，用户明确不收录，未证明其设计方式。 两行间2px；无外借字体。",
+    "nativeEvidence": {
+      "summary": "24L24.FNT，588816B，8,178槽，GB2312 6,763非空汉字。",
+      "sourceUrl": "https://shopos.cloud/download-center/rls1000-utility",
+      "storageCell": [
+        24,
+        24
+      ],
+      "bitsPerPixel": 1,
+      "sourceBitmapSlots": 8178,
+      "mappedUnicode": 7445,
+      "gb2312Han": 6763,
+      "sourceSha256": "2f8d6f3a1e01c684f89456d83b74f8230f4996635954b8cfefd0f2396792db6b"
+    },
+    "priority": 0,
+    "sourceIndex": 305,
+    "acquisitionGuide": {
+      "title": "获取方式",
+      "type": "source",
+      "steps": [],
+      "notice": "仅提供原始来源及方法，不分发完整字库。",
+      "links": [
+        {
+          "label": "管理软件下载页",
+          "url": "https://shopos.cloud/download-center/rls1000-utility",
+          "action": "source"
+        },
+        {
+          "label": "原厂软件手册",
+          "url": "https://ar.rongtatech.com/uploadfile/downloads/Label%20Scale%20Software%20User%20Manual.pdf",
+          "action": "method"
+        },
+        {
+          "label": "解析与核验说明",
+          "url": "https://github.com/legendtired/chinese-bitmap-specimens/blob/main/docs/rongta_rls1000_24.md",
+          "action": "method"
+        }
+      ],
+      "checkedOn": "2026-11-28"
+    }
   }
 ]

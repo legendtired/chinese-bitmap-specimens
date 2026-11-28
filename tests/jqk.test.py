@@ -1,3 +1,4 @@
+from approved_rongta import MANIFEST as RONGTA
 from approved_cxdos import before_cxdos_rows,before_cxdos_bytes,MANIFEST as CXDOS
 """Verify one reviewed JQK release and all preceding public files."""
 import json,unittest
@@ -11,7 +12,7 @@ class JQK(unittest.TestCase):
   for p,h in M['baseFilesSha256'].items():self.assertEqual(sha(before_jqk_bytes(p)),h,p)
   for p,h in M['newFileHashes'].items():self.assertEqual(sha(before_cxdos_bytes(p)),h,p)
   actual={str(p.relative_to(R)) for p in R.rglob('*') if p.is_file() and '.git' not in p.parts and '__pycache__' not in p.parts}
-  self.assertEqual(actual-set(CXDOS['newPaths']),set(M['baseFilesSha256'])|set(M['newPaths']))
+  self.assertEqual(actual-(set(CXDOS['newPaths']) | set(RONGTA['newPaths'])),set(M['baseFilesSha256'])|set(M['newPaths']))
   row=rows[-1];self.assertEqual(row['text'],'视野无限广，窗外有蓝天。')
   self.assertEqual(row['asciiOrigin'],'fullwidth-native');self.assertEqual(row['nativeEvidence']['gb2312Han'],6763);self.assertEqual(row['priority'],0)
   im=Image.open(R/row['specimen']);self.assertEqual(im.size,(432,32));self.assertEqual(len(set(im.getdata())),2)

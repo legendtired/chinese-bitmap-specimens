@@ -326,6 +326,13 @@ window.FONT_COLLECTION_HISTORY = {
       "ids": [
         "cxdos_50_cclib_16"
       ]
+    },
+    {
+      "sourceManifest": "release-rongta.json",
+      "ids": [
+        "rongta_rls1000_16",
+        "rongta_rls1000_24"
+      ]
     }
   ]
 };

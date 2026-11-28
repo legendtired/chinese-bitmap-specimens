@@ -1,3 +1,4 @@
+from approved_rongta import MANIFEST as RONGTA
 from approved_cxdos import MANIFEST as CXDOS
 from approved_jqk import MANIFEST as JQK
 from approved_gtwin import MANIFEST as GTWIN
@@ -44,7 +45,7 @@ class Wonder(unittest.TestCase):
             if p.is_file() and '.git' not in p.relative_to(ROOT).parts
             and '__pycache__' not in p.relative_to(ROOT).parts
         }
-        self.assertEqual(actual - (set(ZHENHAN['newPaths']) | (set(PALM['newPaths']) | (set(H01['newPaths']) | (set(GTWIN['newPaths']) | (set(JQK['newPaths']) | set(CXDOS['newPaths'])))))), base | new)
+        self.assertEqual(actual - (set(ZHENHAN['newPaths']) | (set(PALM['newPaths']) | (set(H01['newPaths']) | (set(GTWIN['newPaths']) | (set(JQK['newPaths']) | (set(CXDOS['newPaths']) | set(RONGTA['newPaths']))))))), base | new)
         for path in actual:
             f = ROOT / path
             self.assertFalse(f.is_symlink(), path)
